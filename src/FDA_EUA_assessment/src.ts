@@ -1116,10 +1116,11 @@ function create_table_cell_contents (data_node: DATA_NODE)
 
 function populate_table_body (headers: HEADERS, data_rows: DATA_ROW[])
 {
+    const loading_status_el = document.getElementById("loading_status")
     const table_el = document.getElementById("data_table")
     const tbody_el = table_el.getElementsByTagName("tbody")[0]
 
-    data_rows.forEach(data_row =>
+    data_rows.forEach((data_row, i) =>
     {
         const row = tbody_el.insertRow()
 
@@ -1143,36 +1144,38 @@ function populate_table_body (headers: HEADERS, data_rows: DATA_ROW[])
         })
     })
 
-    // Complete hack: TODO remove this
-    // Replacing with merge.py
-    interface TempData
-    {
-        test_id: string
-        developer_name: string
-        test_name: string
-        lod_min: number
-        lod_max: number
-        lod_units: string
-        synthetic_specimen__viral_material: string
-    }
-    const data_for_export: TempData[] = []
-    data_rows.forEach(data_row => {
-        const lod = (data_row[labels.claims__limit_of_detection__value] || {}).data || {}
-        const lod_units = ((data_row[labels.claims__limit_of_detection__units] || {}).data || {})
-        const synthetic_specimen__viral_material = (data_row[labels.validation_condition__synthetic_specimen__viral_material] || {}).data || {}
+    loading_status_el.style.display = "none"
 
-        data_for_export.push({
-            test_id: data_row.test_id as string,
-            developer_name: data_row[labels.test_descriptor__manufacturer_name].data.value,
-            test_name: data_row[labels.test_descriptor__test_name].data.value,
-            lod_min: lod.min,
-            lod_max: lod.max,
-            lod_units: lod_units.value,
-            synthetic_specimen__viral_material: synthetic_specimen__viral_material.types,
-        })
-    })
+    // // Complete hack: TODO remove this
+    // // Replacing with merge.py
+    // interface TempData
+    // {
+    //     test_id: string
+    //     developer_name: string
+    //     test_name: string
+    //     lod_min: number
+    //     lod_max: number
+    //     lod_units: string
+    //     synthetic_specimen__viral_material: string
+    // }
+    // const data_for_export: TempData[] = []
+    // data_rows.forEach(data_row => {
+    //     const lod = (data_row[labels.claims__limit_of_detection__value] || {}).data || {}
+    //     const lod_units = ((data_row[labels.claims__limit_of_detection__units] || {}).data || {})
+    //     const synthetic_specimen__viral_material = (data_row[labels.validation_condition__synthetic_specimen__viral_material] || {}).data || {}
 
-    //console.log(JSON.stringify(data_for_export, null, 2))
+    //     data_for_export.push({
+    //         test_id: data_row.test_id as string,
+    //         developer_name: data_row[labels.test_descriptor__manufacturer_name].data.value,
+    //         test_name: data_row[labels.test_descriptor__test_name].data.value,
+    //         lod_min: lod.min,
+    //         lod_max: lod.max,
+    //         lod_units: lod_units.value,
+    //         synthetic_specimen__viral_material: synthetic_specimen__viral_material.types,
+    //     })
+    // })
+
+    // //console.log(JSON.stringify(data_for_export, null, 2))
 }
 
 
