@@ -57,14 +57,14 @@ def get_map_of_file_path_to_anot8_org_id ():
     global file_path_to_anot8_org_id_map
     global anot8_config
 
-    with open(ANOT8_ORG_CONFIG_DIR + ANOT8_ORG_VAULT_ID + ".json", "r") as f:
+    with open(ANOT8_ORG_CONFIG_DIR + ANOT8_ORG_VAULT_ID + ".json", "r", encoding="utf8") as f:
         new_anot8_config = json.load(f)
 
     if anot8_config != new_anot8_config:
         file_path_to_anot8_org_id_map = dict()
         anot8_config = new_anot8_config
 
-        for (anot8_org_file_id, file_path) in anot8_config["id_to_relative_file_name"].items():
+        for (anot8_org_file_id, file_path) in anot8_config["DO_NOT_EDIT_auto_generated_fields"]["id_to_relative_file_name"].items():
             if file_path in file_path_to_anot8_org_id_map:
                 raise Exception("Duplicate file_path: {}".format(file_path))
 

@@ -378,7 +378,7 @@ def get_merged_data ():
 
 
 def store_data(data):
-    with open(DATA_FILE_PATH_merged_data, "w") as f:
+    with open(DATA_FILE_PATH_merged_data, "w", encoding="utf8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 

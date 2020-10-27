@@ -23,13 +23,3 @@ from common.paths import (
     get_FDA_EUA_pdf_file_path_from_FDA_url,
     get_anot8_org_file_id_from_FDA_url,
 )
-
-
-def get_directories():
-    with open(dir_path + "/PDF_directories.txt", "r") as f:
-        directories = f.read().split("\n")
-
-        directories = [directory.strip() for directory in directories if directory.strip()]
-        directories = [directory for directory in directories if os.path.isdir(dir_path + "/" + directory)]
-
-    return directories

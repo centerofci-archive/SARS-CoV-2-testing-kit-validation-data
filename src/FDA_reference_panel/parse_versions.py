@@ -115,7 +115,7 @@ def parse_versions():
 
     for file_name in file_names:
         print("Parsing FDA reference panel html: {}".format(file_name))
-        with open(html_pages_dir + "/" + file_name, "r") as f:
+        with open(html_pages_dir + "/" + file_name, "r", encoding="utf8") as f:
             contents = f.read()
 
         contents = normalise_html(contents)
@@ -127,7 +127,7 @@ def parse_versions():
         map_test_ids(parsed_result)
 
         output_file_name = file_name.replace(".html", ".json")
-        with open(parsed_dir + "/" + output_file_name, "w") as f:
+        with open(parsed_dir + "/" + output_file_name, "w", encoding="utf8") as f:
             json.dump(parsed_result, f, indent=2, ensure_ascii=False)
 
 

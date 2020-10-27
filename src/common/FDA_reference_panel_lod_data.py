@@ -5,7 +5,7 @@ from common.paths import DATA_FILE_PATH_FDA_reference_panel_LATEST_PARSED_DATA
 
 
 def get_fda_reference_panel_lod_parsed_data ():
-    with open(DATA_FILE_PATH_FDA_reference_panel_LATEST_PARSED_DATA, "r") as f:
+    with open(DATA_FILE_PATH_FDA_reference_panel_LATEST_PARSED_DATA, "r", encoding="utf8") as f:
         fda_eua_merged_parsed_data = json.load(f)
 
     return fda_eua_merged_parsed_data

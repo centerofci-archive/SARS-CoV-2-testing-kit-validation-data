@@ -41,7 +41,7 @@ def get_annotation_files_by_test_id(fda_eua_parsed_data):
             # TODO: remove
             anot8_org_file_id = get_anot8_org_file_id_from_FDA_url(url)
 
-            with open(annotations_file_path, "r") as f:
+            with open(annotations_file_path, "r", encoding="utf8") as f:
                 annotation_file_contents = json.load(f)
 
                 # TODO: remove

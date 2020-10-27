@@ -15,7 +15,7 @@ latest_file_path = html_pages_dir + "/latest.html"
 def get_current_stored_latest_version():
     if not os.path.isfile(latest_file_path): return None
 
-    with open(latest_file_path, "r") as f:
+    with open(latest_file_path, "r", encoding="utf8") as f:
         return f.read()
 
 
@@ -41,9 +41,9 @@ def get_latest_version():
     datetime_str = "{0:%Y-%m-%d_%H-%M-%S}".format(datetime.now())
     print("Saving new version of FDA reference panel html page on " + datetime_str)
 
-    with open(html_pages_dir + "/{}.html".format(datetime_str), "w") as f:
+    with open(html_pages_dir + "/{}.html".format(datetime_str), "w", encoding="utf8") as f:
         f.write(current_version)
-    with open(latest_file_path, "w") as f:
+    with open(latest_file_path, "w", encoding="utf8") as f:
         f.write(current_version)
 
 

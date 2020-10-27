@@ -8,7 +8,7 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 @app.route("/")
 def index():
     file_path = dir_path + "/../../data/FDA-EUA/html_pages/latest.htm"
-    with open(file_path, "r") as f:
+    with open(file_path, "r", encoding="utf8") as f:
         contents = f.read()
 
     return contents

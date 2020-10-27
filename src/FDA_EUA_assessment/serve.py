@@ -13,7 +13,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     html_file_path = dir_path + "/index.html"
-    with open(html_file_path, "r") as f:
+    with open(html_file_path, "r", encoding="utf8") as f:
         html_contents = f.read()
 
     fda_eua_parsed_data = get_fda_eua_parsed_data()
@@ -31,7 +31,7 @@ def index():
     annotation_files_by_test_id = get_annotation_files_by_test_id(fda_eua_parsed_data)
 
     src_file_path = dir_path + "/src.js"
-    with open(src_file_path, "r") as f:
+    with open(src_file_path, "r", encoding="utf8") as f:
         src = f.read()
 
     html_contents = html_contents.replace("\"<FDA_EUA_PARSED_DATA>\"", json.dumps(fda_eua_parsed_data, ensure_ascii=False))
