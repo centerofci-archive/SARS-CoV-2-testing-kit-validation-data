@@ -1,0 +1,219 @@
+{
+"file_sha1_hash": "a2a4f309ea5a31d164e89d070ac7b47ed6101c1c",
+"annotations": [
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "63px",
+"id": 0,
+"labels": [
+"Supported specimen types"
+],
+"left": "115px",
+"page_number": 1,
+"text": "nasopharyngeal and oropharyngeal specimens, tracheal aspirates, bronchoalveolar lavages (BAL)/bronchial washings (BW), and nasopharyngeal aspirates (NA)/nasal washings (NW)",
+"top": "476px",
+"width": "665px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "25px",
+"id": 1,
+"labels": [
+"Specimen/Synthetic Specimen/Virus",
+"Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
+],
+"left": "108px",
+"page_number": 4,
+"text": "Extracted nucleic acid of a positive COVID-19 sample (M-XNA)",
+"top": "690px",
+"width": "475px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "44px",
+"id": 2,
+"labels": [
+"Specimen/Synthetic Specimen/Virus/Source"
+],
+"left": "107px",
+"page_number": 4,
+"text": "obtained from Mayo Medical Laboratories; quantified using RNA material from BEI",
+"top": "713px",
+"width": "708px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "23px",
+"id": 3,
+"labels": [
+"Specimen/Synthetic Specimen/Clinical matrix"
+],
+"left": "106px",
+"page_number": 4,
+"text": "NP swabs and OP swabs in UTM were separately pooled",
+"top": "804px",
+"width": "416px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "29px",
+"id": 4,
+"labels": [
+"Specimen/Synthetic Specimen/Clinical matrix/Source",
+"Meta/Not specified"
+],
+"left": "512px",
+"page_number": 4,
+"text": "",
+"top": "798px",
+"width": "16px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "19px",
+"id": 5,
+"labels": [
+"Limit of Detection (LOD)/Value"
+],
+"left": "444px",
+"page_number": 4,
+"text": "0.88",
+"top": "827px",
+"width": "34px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "22px",
+"id": 6,
+"labels": [
+"Limit of Detection (LOD)/Units"
+],
+"left": "474px",
+"page_number": 4,
+"text": "genome copies / μL",
+"top": "824px",
+"width": "82px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "21px",
+"id": 7,
+"labels": [
+"Limit of Detection (LOD)/Minimum Replicates"
+],
+"left": "384px",
+"page_number": 4,
+"text": "20",
+"top": "846px",
+"width": "23px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "22px",
+"id": 8,
+"labels": [
+"Limit of Detection (LOD)/Minimum Replicates"
+],
+"left": "512px",
+"page_number": 4,
+"text": "5",
+"top": "845px",
+"width": "18px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "25px",
+"id": 9,
+"labels": [
+"Specimen/Synthetic Specimen/Clinical matrix"
+],
+"left": "105px",
+"page_number": 4,
+"text": "Tracheal aspirates in UTM",
+"top": "916px",
+"width": "202px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "How were they tested?  Using this test?",
+"height": "26px",
+"id": 10,
+"labels": [
+"Specimen/Synthetic Specimen/Clinical matrix/Source"
+],
+"left": "343px",
+"page_number": 4,
+"text": "individually tested to ensure negativity for SARS-CoV-2",
+"top": "914px",
+"width": "420px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "21px",
+"id": 11,
+"labels": [
+"Limit of Detection (LOD)/Value"
+],
+"left": "369px",
+"page_number": 4,
+"text": "3.21",
+"top": "1021px",
+"width": "41px"
+},
+{
+"id": 12,
+"page_number": 5,
+"left": "160px",
+"top": "634px",
+"width": "136px",
+"height": "76px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "E",
+"labels": [
+"Viral gene(s) targetted"
+],
+"comment": ""
+},
+{
+"id": 13,
+"page_number": 5,
+"left": "301px",
+"top": "641px",
+"width": "335px",
+"height": "94px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Primers and probes/Sequences"
+],
+"comment": ""
+},
+{
+"id": 14,
+"page_number": 3,
+"left": "322px",
+"top": "696px",
+"width": "68px",
+"height": "22px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "Albumin",
+"labels": [
+"Controls/Internal/Human gene target"
+],
+"comment": ""
+}
+],
+"comments": [],
+"schema_version": 5
+}

@@ -757,8 +757,8 @@ function comments_from_annotations(annotations) {
 }
 function ref_link(annotation) {
     var anot8_org_file_id = annotation.anot8_org_file_id, id = annotation.id;
-    // let ref = `http://localhost:5003/r/1772.2/${anot8_org_file_id}`
-    var ref = "https://anot8.org/r/1772.2/" + anot8_org_file_id;
+    var host = localStorage.getItem("anot8_server") || "https://anot8.org";
+    var ref = host + "/r/1772.2/" + anot8_org_file_id;
     if (id !== undefined)
         ref += "?highlighted_annotation_ids=" + id;
     return ref;

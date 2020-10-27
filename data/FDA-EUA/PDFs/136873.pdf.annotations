@@ -1,0 +1,21 @@
+{
+"file_sha1_hash": "c37b83ed539505737512974d60c9709e09d939b0",
+"annotations": [
+{
+"id": 0,
+"page_number": 1,
+"left": "133px",
+"top": "477px",
+"width": "656px",
+"height": "44px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "oropharyngeal, nasopharyngeal, anterior nasal, and mid-turbinate nasal swab",
+"labels": [
+"Supported specimen types"
+],
+"comment": ""
+}
+],
+"comments": [],
+"schema_version": 5
+}

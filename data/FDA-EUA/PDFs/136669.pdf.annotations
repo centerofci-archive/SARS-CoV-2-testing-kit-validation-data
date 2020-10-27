@@ -1,6 +1,21 @@
 {
 "file_sha1_hash": "7de43c50a85693f4ca1ff5003cdca4cab305a8c6",
-"annotations": [],
+"annotations": [
+{
+"id": 0,
+"page_number": 1,
+"left": "106px",
+"top": "419px",
+"width": "696px",
+"height": "44px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "nasopharyngeal swab, throat (oropharyngeal) swab, nasal swab, mid-turbinate nasal swab and bronchoalveloar lavage (BAL)",
+"labels": [
+"Supported specimen types"
+],
+"comment": ""
+}
+],
 "comments": [],
 "schema_version": 5
 }

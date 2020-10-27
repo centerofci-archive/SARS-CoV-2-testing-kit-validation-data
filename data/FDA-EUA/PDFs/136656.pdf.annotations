@@ -1,6 +1,21 @@
 {
 "file_sha1_hash": "6d32a7a21f66c85f2981d715c6749ff10c650477",
-"annotations": [],
+"annotations": [
+{
+"id": 0,
+"page_number": 1,
+"left": "133px",
+"top": "530px",
+"width": "642px",
+"height": "65px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "nasopharyngeal aspirates, nasopharyngeal swabs, nasal swabs, mid-turbinate nasal swabs, tracheal aspirates, and bronchoalveolar lavage specimens",
+"labels": [
+"Supported specimen types"
+],
+"comment": ""
+}
+],
 "comments": [],
 "schema_version": 5
 }

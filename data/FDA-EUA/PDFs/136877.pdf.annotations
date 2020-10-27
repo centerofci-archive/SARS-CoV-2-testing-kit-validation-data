@@ -1,0 +1,21 @@
+{
+"file_sha1_hash": "7cc70eb72aae675b09cbdb63b43790ddf95725f9",
+"annotations": [
+{
+"id": 0,
+"page_number": 1,
+"left": "133px",
+"top": "477px",
+"width": "301px",
+"height": "24px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "nasopharyngeal and oropharyngeal swab",
+"labels": [
+"Supported specimen types"
+],
+"comment": ""
+}
+],
+"comments": [],
+"schema_version": 5
+}

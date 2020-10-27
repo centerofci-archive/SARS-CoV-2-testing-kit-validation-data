@@ -1,6 +1,177 @@
 {
 "file_sha1_hash": "51fa2ea97d0eb2b9ee8d372cb7caa20a7e0d8d75",
-"annotations": [],
+"annotations": [
+{
+"id": 0,
+"page_number": 1,
+"left": "132px",
+"top": "491px",
+"width": "646px",
+"height": "44px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "respiratory specimens (nasopharyngeal swabs, oropharyngeal swabs, nasal swabs, mid-turbinate nasal swabs, BALs, and sputum)",
+"labels": [
+"Supported specimen types"
+],
+"comment": ""
+},
+{
+"id": 1,
+"page_number": 7,
+"left": "455px",
+"top": "104px",
+"width": "183px",
+"height": "30px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "in vitro RNA transcripts",
+"labels": [
+"Specimen/Synthetic Specimen/Virus",
+"Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
+],
+"comment": ""
+},
+{
+"id": 2,
+"page_number": 7,
+"left": "159px",
+"top": "131px",
+"width": "101px",
+"height": "21px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "Biosynthesis",
+"labels": [
+"Specimen/Synthetic Specimen/Virus/Source"
+],
+"comment": ""
+},
+{
+"id": 3,
+"page_number": 7,
+"left": "348px",
+"top": "130px",
+"width": "218px",
+"height": "23px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "pooled NP/OP clinical matrix",
+"labels": [
+"Specimen/Synthetic Specimen/Clinical matrix"
+],
+"comment": ""
+},
+{
+"id": 4,
+"page_number": 7,
+"left": "559px",
+"top": "130px",
+"width": "17px",
+"height": "21px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Specimen/Synthetic Specimen/Clinical matrix/Source",
+"Meta/Not specified"
+],
+"comment": ""
+},
+{
+"id": 5,
+"page_number": 7,
+"left": "715px",
+"top": "150px",
+"width": "29px",
+"height": "23px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "20",
+"labels": [
+"Limit of Detection (LOD)/Minimum Replicates"
+],
+"comment": ""
+},
+{
+"id": 6,
+"page_number": 7,
+"left": "674px",
+"top": "192px",
+"width": "17px",
+"height": "22px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "2",
+"labels": [
+"Limit of Detection (LOD)/Value"
+],
+"comment": "NP/OP clinical matrix"
+},
+{
+"id": 7,
+"page_number": 7,
+"left": "688px",
+"top": "192px",
+"width": "77px",
+"height": "24px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "genome copies / μL",
+"labels": [
+"Limit of Detection (LOD)/Units"
+],
+"comment": ""
+},
+{
+"id": 8,
+"page_number": 7,
+"left": "470px",
+"top": "569px",
+"width": "39px",
+"height": "24px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "100",
+"labels": [
+"Limit of Detection (LOD)/Value"
+],
+"comment": "Saliva clinical matrix"
+},
+{
+"id": 9,
+"page_number": 2,
+"left": "188px",
+"top": "669px",
+"width": "91px",
+"height": "25px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "N1 and N2",
+"labels": [
+"Viral gene(s) targetted"
+],
+"comment": ""
+},
+{
+"id": 10,
+"page_number": 2,
+"left": "407px",
+"top": "732px",
+"width": "206px",
+"height": "27px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "RNase P (RP)",
+"labels": [
+"Controls/Internal/Human gene target"
+],
+"comment": ""
+},
+{
+"id": 11,
+"page_number": 2,
+"left": "407px",
+"top": "856px",
+"width": "179px",
+"height": "80px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "Specific sequences given",
+"labels": [
+"Primers and probes/Sequences"
+],
+"comment": ""
+}
+],
 "comments": [],
 "schema_version": 5
 }

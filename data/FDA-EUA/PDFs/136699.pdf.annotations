@@ -1,6 +1,21 @@
 {
 "file_sha1_hash": "4b6fdf37975e118f8cdce0c2e9bd2e5008c84a76",
-"annotations": [],
+"annotations": [
+{
+"id": 0,
+"page_number": 1,
+"left": "133px",
+"top": "496px",
+"width": "618px",
+"height": "43px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "nasal, nasopharyngeal and oropharyngeal swab and bronchoalveolar lavage (BAL) specimens",
+"labels": [
+"Supported specimen types"
+],
+"comment": ""
+}
+],
 "comments": [],
 "schema_version": 5
 }

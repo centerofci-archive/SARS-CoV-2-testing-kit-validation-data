@@ -954,8 +954,9 @@ function comments_from_annotations (annotations: Annotation[]): string
 function ref_link (annotation: { anot8_org_file_id: string, id?: number })
 {
     const { anot8_org_file_id, id } = annotation
-    // let ref = `http://localhost:5003/r/1772.2/${anot8_org_file_id}`
-    let ref = `https://anot8.org/r/1772.2/${anot8_org_file_id}`
+
+    const host = localStorage.getItem("anot8_server") || "https://anot8.org"
+    let ref = `${host}/r/1772.2/${anot8_org_file_id}`
 
     if (id !== undefined) ref += `?highlighted_annotation_ids=${id}`
 

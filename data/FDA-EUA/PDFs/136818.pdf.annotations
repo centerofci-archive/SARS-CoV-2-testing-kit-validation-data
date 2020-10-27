@@ -1,6 +1,21 @@
 {
 "file_sha1_hash": "9b3845e25575c6b2653ce52645519594c8ee3363",
-"annotations": [],
+"annotations": [
+{
+"id": 0,
+"page_number": 1,
+"left": "134px",
+"top": "489px",
+"width": "641px",
+"height": "44px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": " nasopharyngeal, oropharyngeal, nasal, and mid turbinate nasal swabs in Viral Transport Medium and bronchoalveolar lavage fluid",
+"labels": [
+"Supported specimen types"
+],
+"comment": ""
+}
+],
 "comments": [],
 "schema_version": 5
 }

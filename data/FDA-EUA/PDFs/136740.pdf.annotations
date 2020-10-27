@@ -1,6 +1,21 @@
 {
 "file_sha1_hash": "ef9a5148186b7b82aa6bd7244bb1aa01458917b7",
-"annotations": [],
+"annotations": [
+{
+"id": 0,
+"page_number": 1,
+"left": "106px",
+"top": "406px",
+"width": "725px",
+"height": "45px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "nasopharyngeal swab, nasal swab, nasopharyngeal wash, nasal wash, oropharyngeal swab and bronchoalveolar lavage",
+"labels": [
+"Supported specimen types"
+],
+"comment": ""
+}
+],
 "comments": [],
 "schema_version": 5
 }
