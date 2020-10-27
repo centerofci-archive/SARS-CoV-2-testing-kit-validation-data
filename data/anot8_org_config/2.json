@@ -1,6 +1,6 @@
 {
   "naming_authority": "1772",
-  "publish_root_path": "https://raw.githubusercontent.com/AJamesPhillips/SARS-CoV-2-testing-kit-validation-data/master/data/",
+  "publish_root_path": "https://raw.githubusercontent.com/CenterOfCI/SARS-CoV-2-testing-kit-validation-data/master/data/",
   "directories": [
     "FDA-EUA/PDFs/",
     "FDA-EUA/templates/",
