@@ -438,7 +438,7 @@ function filter_annotations_for_label (annotation_file: AnnotationFile, label: s
 
 
 
-function activate_options ()
+function activate_options (headers: HEADERS)
 {
     let cells_expanded = false
     document.getElementById("toggle_expanded_cells").onclick = () =>
@@ -453,6 +453,16 @@ function activate_options ()
         {
             cells.forEach(cell => cell.classList.remove("expanded"))
         }
+    }
+
+    let columns_hidden = true
+    update_computed_styles(columns_hidden)
+    update_header(headers, columns_hidden)
+    document.getElementById("toggle_hidden_columns").onclick = () =>
+    {
+        columns_hidden = !columns_hidden
+        update_computed_styles(columns_hidden)
+        update_header(headers, columns_hidden)
     }
 }
 
@@ -751,10 +761,11 @@ const headers: HEADERS = [
 ]
 
 
-function build_header (headers: HEADERS)
+function update_header (headers: HEADERS, columns_hidden: boolean)
 {
     const table_el = document.getElementById("data_table")
     const thead_el = table_el.getElementsByTagName("thead")[0]
+    thead_el.innerHTML = ""
     const row1 = thead_el.insertRow()
     const row2 = thead_el.insertRow()
     const row3 = thead_el.insertRow()
@@ -768,7 +779,7 @@ function build_header (headers: HEADERS)
         let row1_height = 1
         if (!(element1.children && element1.children.length))
         {
-            row1_width = (element1.hidden ? 0 : 1)
+            row1_width = ((columns_hidden && element1.hidden) ? 0 : 1)
             row1_height = 3
         }
         else for (let i2 = 0; i2 < element1.children.length; ++i2)
@@ -779,18 +790,18 @@ function build_header (headers: HEADERS)
             let row2_height = 1
             if (!(element2.children && element2.children.length))
             {
-                row2_width = (element2.hidden ? 0 : 1)
+                row2_width = ((columns_hidden && element2.hidden) ? 0 : 1)
                 row2_height = 2
             }
             else for (let i3 = 0; i3 < element2.children.length; ++i3)
             {
                 const element3 = element2.children[i3]
-                row2_width += (element3.hidden ? 0 : 1)
+                row2_width += ((columns_hidden && element3.hidden) ? 0 : 1)
 
                 const cell3 = document.createElement("th")
                 row3.appendChild(cell3)
                 cell3.innerHTML = element3.title
-                cell3.className = className + (element3.hidden ? " hidden" : "")
+                cell3.className = className + ((columns_hidden && element3.hidden) ? " hidden" : "")
             }
 
             const cell2 = document.createElement("th")
@@ -798,7 +809,7 @@ function build_header (headers: HEADERS)
             cell2.innerHTML = element2.title
             cell2.colSpan = row2_width
             cell2.rowSpan = row2_height
-            cell2.className = className + ((element2.hidden || (row2_width === 0)) ? " hidden" : "")
+            cell2.className = className + (((columns_hidden && element2.hidden) || (row2_width === 0)) ? " hidden" : "")
 
             row1_width += row2_width
         }
@@ -808,7 +819,7 @@ function build_header (headers: HEADERS)
         cell1.innerHTML = element1.title
         cell1.colSpan = row1_width
         cell1.rowSpan = row1_height
-        cell1.className = className + ((element1.hidden || (row1_width === 0)) ? " hidden" : "")
+        cell1.className = className + (((columns_hidden && element1.hidden) || (row1_width === 0)) ? " hidden" : "")
     }
 }
 
@@ -1199,6 +1210,13 @@ function update_progress ()
 }
 
 
+function update_computed_styles (columns_hidden: boolean)
+{
+    const style_el = document.getElementById("computed_style")
+    style_el.innerHTML = columns_hidden ? `.hidden { display: none; }` : ``
+}
+
+
 // DO NOT USE THIS IN PRODUCTION
 function html_safe_ish (value)
 {
@@ -1207,7 +1225,10 @@ function html_safe_ish (value)
 }
 
 
-activate_options()
+// Smells as it contains update for table header due to colspan not being under CSS control
+// Need proper state / store manager
+activate_options(headers)
+
 const used_annotation_labels = Array.from(get_used_annotation_labels(annotation_files_by_test_id))
 report_on_unused_labels(used_annotation_labels)
 let data_rows = reformat_fda_eua_parsed_data_as_rows(fda_eua_parsed_data)
@@ -1219,6 +1240,5 @@ data_rows = data_rows.filter(d => {
     const remove = tech.includes("serology") || tech.includes("igg") || tech.includes("igm")
     return !remove
 })
-build_header(headers)
 populate_table_body(headers, data_rows)
 update_progress()

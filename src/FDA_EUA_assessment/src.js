@@ -325,7 +325,7 @@ function filter_annotations_for_label(annotation_file, label) {
 //     //     [DATA_KEYS.metrics__confusion_matrix__false_positives]: { value: "", refs: [] },
 //     // },
 // ]
-function activate_options() {
+function activate_options(headers) {
     var cells_expanded = false;
     document.getElementById("toggle_expanded_cells").onclick = function () {
         cells_expanded = !cells_expanded;
@@ -336,6 +336,14 @@ function activate_options() {
         else {
             cells.forEach(function (cell) { return cell.classList.remove("expanded"); });
         }
+    };
+    var columns_hidden = true;
+    update_computed_styles(columns_hidden);
+    update_header(headers, columns_hidden);
+    document.getElementById("toggle_hidden_columns").onclick = function () {
+        columns_hidden = !columns_hidden;
+        update_computed_styles(columns_hidden);
+        update_header(headers, columns_hidden);
     };
 }
 var headers = [
@@ -617,9 +625,10 @@ var headers = [
         hidden: true
     },
 ];
-function build_header(headers) {
+function update_header(headers, columns_hidden) {
     var table_el = document.getElementById("data_table");
     var thead_el = table_el.getElementsByTagName("thead")[0];
+    thead_el.innerHTML = "";
     var row1 = thead_el.insertRow();
     var row2 = thead_el.insertRow();
     var row3 = thead_el.insertRow();
@@ -629,7 +638,7 @@ function build_header(headers) {
         var row1_width = 0;
         var row1_height = 1;
         if (!(element1.children && element1.children.length)) {
-            row1_width = (element1.hidden ? 0 : 1);
+            row1_width = ((columns_hidden && element1.hidden) ? 0 : 1);
             row1_height = 3;
         }
         else
@@ -638,24 +647,24 @@ function build_header(headers) {
                 var row2_width = 0;
                 var row2_height = 1;
                 if (!(element2.children && element2.children.length)) {
-                    row2_width = (element2.hidden ? 0 : 1);
+                    row2_width = ((columns_hidden && element2.hidden) ? 0 : 1);
                     row2_height = 2;
                 }
                 else
                     for (var i3 = 0; i3 < element2.children.length; ++i3) {
                         var element3 = element2.children[i3];
-                        row2_width += (element3.hidden ? 0 : 1);
+                        row2_width += ((columns_hidden && element3.hidden) ? 0 : 1);
                         var cell3 = document.createElement("th");
                         row3.appendChild(cell3);
                         cell3.innerHTML = element3.title;
-                        cell3.className = className + (element3.hidden ? " hidden" : "");
+                        cell3.className = className + ((columns_hidden && element3.hidden) ? " hidden" : "");
                     }
                 var cell2 = document.createElement("th");
                 row2.appendChild(cell2);
                 cell2.innerHTML = element2.title;
                 cell2.colSpan = row2_width;
                 cell2.rowSpan = row2_height;
-                cell2.className = className + ((element2.hidden || (row2_width === 0)) ? " hidden" : "");
+                cell2.className = className + (((columns_hidden && element2.hidden) || (row2_width === 0)) ? " hidden" : "");
                 row1_width += row2_width;
             }
         var cell1 = document.createElement("th");
@@ -663,7 +672,7 @@ function build_header(headers) {
         cell1.innerHTML = element1.title;
         cell1.colSpan = row1_width;
         cell1.rowSpan = row1_height;
-        cell1.className = className + ((element1.hidden || (row1_width === 0)) ? " hidden" : "");
+        cell1.className = className + (((columns_hidden && element1.hidden) || (row1_width === 0)) ? " hidden" : "");
     }
 }
 function iterate_lowest_header(headers, func) {
@@ -930,12 +939,18 @@ function update_progress() {
     var percentage = ((total_completed / total_rows) * 100).toFixed(1);
     progress_el.innerText = percentage + "% " + total_completed + "/" + total_valid_rows + "  (" + total_rows + ")";
 }
+function update_computed_styles(columns_hidden) {
+    var style_el = document.getElementById("computed_style");
+    style_el.innerHTML = columns_hidden ? ".hidden { display: none; }" : "";
+}
 // DO NOT USE THIS IN PRODUCTION
 function html_safe_ish(value) {
     return value.replace(/(<([^>]+)>)/ig, "")
         .replace(/"/ig, "'");
 }
-activate_options();
+// Smells as it contains update for table header due to colspan not being under CSS control
+// Need proper state / store manager
+activate_options(headers);
 var used_annotation_labels = Array.from(get_used_annotation_labels(annotation_files_by_test_id));
 report_on_unused_labels(used_annotation_labels);
 var data_rows = reformat_fda_eua_parsed_data_as_rows(fda_eua_parsed_data);
@@ -947,6 +962,5 @@ data_rows = data_rows.filter(function (d) {
     var remove = tech.includes("serology") || tech.includes("igg") || tech.includes("igm");
     return !remove;
 });
-build_header(headers);
 populate_table_body(headers, data_rows);
 update_progress();
