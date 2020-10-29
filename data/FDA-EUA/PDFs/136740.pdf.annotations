@@ -14,6 +14,139 @@
 "Supported specimen types"
 ],
 "comment": ""
+},
+{
+"id": 1,
+"page_number": 4,
+"left": "131px",
+"top": "1002px",
+"width": "706px",
+"height": "43px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "1.5 kb in vitro transcribed (IVT) RNA of the SARS-CoV-2 N gene (positions 28061 – 29533 of GenBank accession NC_045512.2)",
+"labels": [
+"Specimen/Synthetic Specimen/Virus",
+"Specimen/Synthetic Specimen/Virus/Source",
+"Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
+],
+"comment": ""
+},
+{
+"id": 2,
+"deleted": true
+},
+{
+"id": 3,
+"page_number": 4,
+"left": "511px",
+"top": "1043px",
+"width": "322px",
+"height": "23px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "BAL, nasal wash, and nasopharyngeal swab matrices",
+"labels": [
+"Specimen/Synthetic Specimen/Clinical matrix"
+],
+"comment": ""
+},
+{
+"id": 4,
+"page_number": 4,
+"left": "195px",
+"top": "1061px",
+"width": "16px",
+"height": "25px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Specimen/Synthetic Specimen/Clinical matrix/Source",
+"Meta/Not specified"
+],
+"comment": ""
+},
+{
+"id": 5,
+"page_number": 5,
+"left": "664px",
+"top": "431px",
+"width": "26px",
+"height": "24px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "20",
+"labels": [
+"Limit of Detection (LOD)/Minimum Replicates"
+],
+"comment": ""
+},
+{
+"id": 6,
+"page_number": 5,
+"left": "217px",
+"top": "493px",
+"width": "24px",
+"height": "24px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "0.073",
+"labels": [
+"Limit of Detection (LOD)/Value"
+],
+"comment": ""
+},
+{
+"id": 7,
+"page_number": 5,
+"left": "240px",
+"top": "493px",
+"width": "80px",
+"height": "23px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "genome copies / μL",
+"labels": [
+"Limit of Detection (LOD)/Units"
+],
+"comment": ""
+},
+{
+"id": 8,
+"page_number": 2,
+"left": "112px",
+"top": "689px",
+"width": "321px",
+"height": "25px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "MS2 RNA Bacteriophage",
+"labels": [
+"Controls/Internal/Extraction control material/Description"
+],
+"comment": ""
+},
+{
+"id": 9,
+"page_number": 2,
+"left": "73px",
+"top": "219px",
+"width": "35px",
+"height": "49px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Controls/Internal/Human gene target"
+],
+"comment": "None present"
+},
+{
+"id": 10,
+"page_number": 2,
+"left": "564px",
+"top": "65px",
+"width": "60px",
+"height": "26px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "N",
+"labels": [
+"Viral gene(s) targetted"
+],
+"comment": ""
 }
 ],
 "comments": [],

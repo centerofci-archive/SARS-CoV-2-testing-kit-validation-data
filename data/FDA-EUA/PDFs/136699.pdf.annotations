@@ -2,16 +2,145 @@
 "file_sha1_hash": "4b6fdf37975e118f8cdce0c2e9bd2e5008c84a76",
 "annotations": [
 {
-"id": 0,
-"page_number": 1,
-"left": "133px",
-"top": "496px",
-"width": "618px",
-"height": "43px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasal, nasopharyngeal and oropharyngeal swab and bronchoalveolar lavage (BAL) specimens",
+"comment": "",
+"height": "43px",
+"id": 0,
 "labels": [
 "Supported specimen types"
+],
+"left": "133px",
+"page_number": 1,
+"text": "nasal, nasopharyngeal and oropharyngeal swab and bronchoalveolar lavage (BAL) specimens",
+"top": "496px",
+"width": "618px"
+},
+{
+"id": 1,
+"page_number": 5,
+"left": "459px",
+"top": "750px",
+"width": "180px",
+"height": "28px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "in vitro RNA transcripts",
+"labels": [
+"Specimen/Synthetic Specimen/Virus",
+"Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
+],
+"comment": ""
+},
+{
+"id": 2,
+"page_number": 5,
+"left": "629px",
+"top": "748px",
+"width": "13px",
+"height": "30px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Specimen/Synthetic Specimen/Virus/Source",
+"Meta/Not specified"
+],
+"comment": ""
+},
+{
+"id": 3,
+"page_number": 5,
+"left": "160px",
+"top": "773px",
+"width": "278px",
+"height": "26px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "pooled Nasopharyngeal swab clinical matrix",
+"labels": [
+"Specimen/Synthetic Specimen/Clinical matrix"
+],
+"comment": ""
+},
+{
+"id": 4,
+"page_number": 5,
+"left": "425px",
+"top": "775px",
+"width": "20px",
+"height": "25px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Specimen/Synthetic Specimen/Clinical matrix/Source",
+"Meta/Not specified"
+],
+"comment": ""
+},
+{
+"id": 5,
+"page_number": 5,
+"left": "286px",
+"top": "837px",
+"width": "21px",
+"height": "22px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "20",
+"labels": [
+"Limit of Detection (LOD)/Minimum Replicates"
+],
+"comment": ""
+},
+{
+"id": 6,
+"page_number": 5,
+"left": "433px",
+"top": "859px",
+"width": "16px",
+"height": "21px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "5",
+"labels": [
+"Limit of Detection (LOD)/Value"
+],
+"comment": ""
+},
+{
+"id": 7,
+"page_number": 5,
+"left": "449px",
+"top": "862px",
+"width": "71px",
+"height": "22px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "genome copies / μL",
+"labels": [
+"Limit of Detection (LOD)/Units"
+],
+"comment": ""
+},
+{
+"id": 8,
+"page_number": 2,
+"left": "361px",
+"top": "482px",
+"width": "90px",
+"height": "19px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "N1, N2",
+"labels": [
+"Viral gene(s) targetted"
+],
+"comment": ""
+},
+{
+"id": 9,
+"page_number": 3,
+"left": "618px",
+"top": "503px",
+"width": "70px",
+"height": "21px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "RNase P (RP)",
+"labels": [
+"Controls/Internal/Human gene target"
 ],
 "comment": ""
 }

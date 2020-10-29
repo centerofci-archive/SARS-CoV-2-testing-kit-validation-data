@@ -2,18 +2,135 @@
 "file_sha1_hash": "7de43c50a85693f4ca1ff5003cdca4cab305a8c6",
 "annotations": [
 {
-"id": 0,
-"page_number": 1,
-"left": "106px",
-"top": "419px",
-"width": "696px",
-"height": "44px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasopharyngeal swab, throat (oropharyngeal) swab, nasal swab, mid-turbinate nasal swab and bronchoalveloar lavage (BAL)",
+"comment": "",
+"height": "44px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
+"left": "106px",
+"page_number": 1,
+"text": "nasopharyngeal swab, throat (oropharyngeal) swab, nasal swab, mid-turbinate nasal swab and bronchoalveloar lavage (BAL)",
+"top": "419px",
+"width": "696px"
+},
+{
+"id": 1,
+"page_number": 3,
+"left": "430px",
+"top": "419px",
+"width": "359px",
+"height": "25px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "known positive nasopharyngeal swab specimens",
+"labels": [
+"Specimen/Synthetic Specimen/Virus",
+"Specimen/Synthetic Specimen/Virus/Type/Live Virus"
+],
 "comment": ""
+},
+{
+"id": 2,
+"page_number": 3,
+"left": "158px",
+"top": "464px",
+"width": "295px",
+"height": "22px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "pooled, negative nasopharyngeal matrix",
+"labels": [
+"Specimen/Synthetic Specimen/Clinical matrix"
+],
+"comment": ""
+},
+{
+"id": 3,
+"page_number": 3,
+"left": "452px",
+"top": "441px",
+"width": "325px",
+"height": "23px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "Illinois Department of Public Health (IDPH)",
+"labels": [
+"Specimen/Synthetic Specimen/Virus/Source"
+],
+"comment": ""
+},
+{
+"id": 4,
+"page_number": 3,
+"left": "445px",
+"top": "461px",
+"width": "13px",
+"height": "26px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Specimen/Synthetic Specimen/Clinical matrix/Source",
+"Meta/Not specified"
+],
+"comment": ""
+},
+{
+"id": 5,
+"page_number": 3,
+"left": "599px",
+"top": "484px",
+"width": "22px",
+"height": "22px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "20",
+"labels": [
+"Limit of Detection (LOD)/Minimum Replicates"
+],
+"comment": ""
+},
+{
+"id": 6,
+"page_number": 3,
+"left": "260px",
+"top": "525px",
+"width": "61px",
+"height": "23px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Limit of Detection (LOD)/Value",
+"Limit of Detection (LOD)/Units",
+"Meta/Not specified"
+],
+"comment": ""
+},
+{
+"id": 7,
+"page_number": 2,
+"left": "392px",
+"top": "546px",
+"width": "127px",
+"height": "22px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "RNase P (RP)",
+"labels": [
+"Controls/Internal/Human gene target"
+],
+"comment": ""
+},
+{
+"id": 8,
+"page_number": 1,
+"left": "104px",
+"top": "1000px",
+"width": "695px",
+"height": "43px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "primers and probes that were developed and validated by the U.S. Centers for Disease Control and Prevention",
+"labels": [
+"Viral gene(s) targetted",
+"Primers and probes/Sequences"
+],
+"comment": "Assuming this refers to one or more of the N genes and the identical primer / probe sequences"
 }
 ],
 "comments": [],

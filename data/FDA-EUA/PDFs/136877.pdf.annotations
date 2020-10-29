@@ -14,6 +14,150 @@
 "Supported specimen types"
 ],
 "comment": ""
+},
+{
+"id": 1,
+"page_number": 4,
+"left": "131px",
+"top": "995px",
+"width": "647px",
+"height": "36px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Specimen/Synthetic Specimen/Virus",
+"Meta/Not specified",
+"Meta/Error/Omission"
+],
+"comment": "The pseudo virus containing SARS-CoV-2 RNA is not described in the BGI EUA.  See: https://anot8.org/r/1772.2/82?h=6"
+},
+{
+"id": 2,
+"page_number": 4,
+"left": "726px",
+"top": "1010px",
+"width": "24px",
+"height": "21px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Specimen/Synthetic Specimen/Virus/Source",
+"Meta/Not specified"
+],
+"comment": ""
+},
+{
+"id": 3,
+"page_number": 4,
+"left": "470px",
+"top": "419px",
+"width": "26px",
+"height": "21px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "20",
+"labels": [
+"Limit of Detection (LOD)/Minimum Replicates"
+],
+"comment": ""
+},
+{
+"id": 4,
+"page_number": 4,
+"left": "546px",
+"top": "438px",
+"width": "169px",
+"height": "24px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "NP/OP clinical matrix",
+"labels": [
+"Specimen/Synthetic Specimen/Clinical matrix"
+],
+"comment": ""
+},
+{
+"id": 5,
+"page_number": 4,
+"left": "178px",
+"top": "459px",
+"width": "200px",
+"height": "24px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "UTM or SDI Swab media",
+"labels": [
+"Specimen/Synthetic Specimen/Transport medium"
+],
+"comment": ""
+},
+{
+"id": 6,
+"page_number": 4,
+"left": "703px",
+"top": "433px",
+"width": "20px",
+"height": "30px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Specimen/Synthetic Specimen/Clinical matrix/Source",
+"Meta/Not specified"
+],
+"comment": ""
+},
+{
+"id": 7,
+"page_number": 4,
+"left": "325px",
+"top": "474px",
+"width": "27px",
+"height": "26px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "0.5",
+"labels": [
+"Limit of Detection (LOD)/Value"
+],
+"comment": ""
+},
+{
+"id": 8,
+"page_number": 4,
+"left": "352px",
+"top": "480px",
+"width": "47px",
+"height": "27px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "genome copies / μL",
+"labels": [
+"Limit of Detection (LOD)/Units"
+],
+"comment": ""
+},
+{
+"id": 9,
+"page_number": 3,
+"left": "430px",
+"top": "165px",
+"width": "58px",
+"height": "26px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "β-actin",
+"labels": [
+"Controls/Internal/Human gene target"
+],
+"comment": ""
+},
+{
+"id": 10,
+"page_number": 2,
+"left": "706px",
+"top": "108px",
+"width": "79px",
+"height": "23px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "ORF1a/b",
+"labels": [
+"Viral gene(s) targetted"
+],
+"comment": ""
 }
 ],
 "comments": [],
