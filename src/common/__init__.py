@@ -22,4 +22,5 @@ from common.paths import (
     DATA_FILE_PATH_merged_data,
     get_FDA_EUA_pdf_file_path_from_FDA_url,
     get_anot8_org_file_id_from_FDA_url,
+    get_anot8_org_permalink_from_FDA_url,
 )

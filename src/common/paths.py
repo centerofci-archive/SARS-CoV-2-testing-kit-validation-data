@@ -38,16 +38,16 @@ def get_FDA_EUA_pdf_file_name_from_FDA_url (FDA_url):
 
 
 def get_FDA_EUA_pdf_file_path_from_FDA_url (FDA_url):
-    file_id = get_FDA_EUA_pdf_file_name_from_FDA_url(FDA_url)
-    file_path = DATA_DIRECTORY_EUAs + "PDFs/{}.pdf".format(file_id)
+    file_name = get_FDA_EUA_pdf_file_name_from_FDA_url(FDA_url)
+    file_path = DATA_DIRECTORY_EUAs + "PDFs/{}.pdf".format(file_name)
 
     return file_path
 
 
 def get_anot8_org_file_id_from_FDA_url (FDA_url):
-    file_id = get_FDA_EUA_pdf_file_name_from_FDA_url(FDA_url)
-    file_path = "FDA-EUA/PDFs/{}.pdf".format(file_id)
-    anot8_org_file_id = get_anot8_org_id_for_file_path(file_path)
+    full_file_path = get_FDA_EUA_pdf_file_path_from_FDA_url(FDA_url)
+    partial_file_path = full_file_path.replace(DATA_DIR_PATH, "")
+    anot8_org_file_id = get_anot8_org_id_for_file_path(partial_file_path)
     return anot8_org_file_id
 
 
@@ -82,11 +82,11 @@ def get_anot8_org_id_for_file_path (file_path):
     return file_to_id_map[file_path]
 
 
-# def get_anot8_org_permalink (file_path):
-#     anot8_org_id = get_anot8_org_id_for_file_path(file_path)
+def get_anot8_org_permalink_from_FDA_url (FDA_url):
+    anot8_org_file_id = get_anot8_org_file_id_from_FDA_url(FDA_url)
 
-#     return "https://anot8.org/{}.{}/{}".format(
-#         ANOT8_ORG_NAMING_AUTHORITY_ID,
-#         ANOT8_ORG_VAULT_ID,
-#         anot8_org_id
-#     )
+    return "https://anot8.org/{}.{}/{}".format(
+        ANOT8_ORG_NAMING_AUTHORITY_ID,
+        ANOT8_ORG_VAULT_ID,
+        anot8_org_file_id
+    )

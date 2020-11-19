@@ -66,8 +66,7 @@ def get_annotations_by_label_id (annotation_files):
             if "deleted" in annotation and annotation["deleted"]:
                 continue
 
-            for label in annotation["labels"]:
-                label_id = label["id"]
+            for label_id in annotation["labels"]:
 
                 if label_id not in annotations_by_label_id:
                     annotations_by_label_id[label_id] = []

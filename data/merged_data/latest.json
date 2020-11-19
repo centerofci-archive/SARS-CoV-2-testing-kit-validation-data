@@ -8,6 +8,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/134922/download"
     },
+    "anot8_org": {
+      "file_id": "134",
+      "permalink": "https://anot8.org/1772.2/134"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "Centers for Disease Control and Prevention (CDC)",
       "different_test_name": "CDC 2019-nCoV Real-Time RT-PCR Diagnostic Panel (CDC)",
@@ -32,6 +36,10 @@
       "test_name": "New York SARS-CoV-2 Real-time Reverse Transcriptase (RT)-PCR Diagnostic Panel",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/135847/download"
+    },
+    "anot8_org": {
+      "file_id": "77",
+      "permalink": "https://anot8.org/1772.2/77"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "Wadsworth Center, New York State Department of Public Health",
@@ -58,6 +66,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136049/download"
     },
+    "anot8_org": {
+      "file_id": "140",
+      "permalink": "https://anot8.org/1772.2/140"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -82,6 +94,10 @@
       "test_name": "TaqPath COVID-19 Combo Kit",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136112/download"
+    },
+    "anot8_org": {
+      "file_id": "29",
+      "permalink": "https://anot8.org/1772.2/29"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "LIFE TECHNOLOGIES (A PART OF THERMO FISHER SCIENTIFIC, INC.)",
@@ -108,6 +124,10 @@
       "test_technology": "Molecular Real-time RT-PCR, Pooling, Screening",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136156/download"
     },
+    "anot8_org": {
+      "file_id": "97",
+      "permalink": "https://anot8.org/1772.2/97"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -132,6 +152,10 @@
       "test_name": "COVID-19 RT-PCR Test",
       "test_technology": "Molecular Real-time RT-PCR, Home Collection, Pooling, Screening",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137154/download"
+    },
+    "anot8_org": {
+      "file_id": "109",
+      "permalink": "https://anot8.org/1772.2/109"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -158,6 +182,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136227/download"
     },
+    "anot8_org": {
+      "file_id": "72",
+      "permalink": "https://anot8.org/1772.2/72"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -182,6 +210,10 @@
       "test_name": "Quest SARS-CoV-2 rRT-PCR",
       "test_technology": "Molecular Real-time RT-PCR, Home Collection, Pooling",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136231/download"
+    },
+    "anot8_org": {
+      "file_id": "57",
+      "permalink": "https://anot8.org/1772.2/57"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -208,6 +240,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136258/download"
     },
+    "anot8_org": {
+      "file_id": "85",
+      "permalink": "https://anot8.org/1772.2/85"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -232,6 +268,10 @@
       "test_name": "Simplexa COVID-19 Direct",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136286/download"
+    },
+    "anot8_org": {
+      "file_id": "43",
+      "permalink": "https://anot8.org/1772.2/43"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -259,6 +299,10 @@
       "test_technology": "Molecular RT-PCR and electrochemical detection",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136282/download"
     },
+    "anot8_org": {
+      "file_id": "129",
+      "permalink": "https://anot8.org/1772.2/129"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -283,6 +327,10 @@
       "test_name": "Primerdesign Ltd COVID-19 genesig Real-Time PCR assay",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136309/download"
+    },
+    "anot8_org": {
+      "file_id": "108",
+      "permalink": "https://anot8.org/1772.2/108"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "Primerdesign Ltd.",
@@ -309,6 +357,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136314/download"
     },
+    "anot8_org": {
+      "file_id": "22",
+      "permalink": "https://anot8.org/1772.2/22"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -333,6 +385,10 @@
       "test_name": "BioFire COVID-19 Test",
       "test_technology": "Molecular RT, Nested multiplex PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136353/download"
+    },
+    "anot8_org": {
+      "file_id": "28",
+      "permalink": "https://anot8.org/1772.2/28"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -359,6 +415,10 @@
       "test_technology": "Molecular RT and amplification",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136355/download"
     },
+    "anot8_org": {
+      "file_id": "71",
+      "permalink": "https://anot8.org/1772.2/71"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "Mesa Biotech Inc",
       "different_test_name": false,
@@ -383,6 +443,10 @@
       "test_name": "PerkinElmer New Coronavirus Nucleic Acid Detection Kit",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136410/download"
+    },
+    "anot8_org": {
+      "file_id": "136",
+      "permalink": "https://anot8.org/1772.2/136"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -409,6 +473,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136453/download"
     },
+    "anot8_org": {
+      "file_id": "75",
+      "permalink": "https://anot8.org/1772.2/75"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -434,6 +502,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136472/download"
     },
+    "anot8_org": {
+      "file_id": "82",
+      "permalink": "https://anot8.org/1772.2/82"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -445,9 +517,7 @@
       "lod_min": 0.1,
       "lod_max": 0.15,
       "lod_units": "genome copies / μL",
-      "synthetic_specimen__viral_material": [
-        "Naked RNA"
-      ]
+      "synthetic_specimen__viral_material": []
     }
   },
   {
@@ -458,6 +528,10 @@
       "test_name": "ID NOW COVID-19",
       "test_technology": "Molecular RT, Isothermal amplification",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136525/download"
+    },
+    "anot8_org": {
+      "file_id": "143",
+      "permalink": "https://anot8.org/1772.2/143"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -484,6 +558,10 @@
       "test_technology": "Molecular RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136500/download"
     },
+    "anot8_org": {
+      "file_id": "81",
+      "permalink": "https://anot8.org/1772.2/81"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -508,6 +586,10 @@
       "test_name": "NeuMoDx SARS-CoV-2 Assay",
       "test_technology": "Molecular RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136565/download"
+    },
+    "anot8_org": {
+      "file_id": "125",
+      "permalink": "https://anot8.org/1772.2/125"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -534,6 +616,10 @@
       "test_technology": "Molecular Real-time RT-PCR, Multi-analyte",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136571/download"
     },
+    "anot8_org": {
+      "file_id": "8",
+      "permalink": "https://anot8.org/1772.2/8"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -559,6 +645,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136602/download"
     },
+    "anot8_org": {
+      "file_id": "24",
+      "permalink": "https://anot8.org/1772.2/24"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": "SARS-CoV-2 PCR Test",
@@ -567,10 +657,12 @@
       "sample_media_type": ""
     },
     "self_declared_EUA_data": {
-      "lod_min": false,
-      "lod_max": false,
-      "lod_units": "",
-      "synthetic_specimen__viral_material": []
+      "lod_min": 2.0,
+      "lod_max": 100.0,
+      "lod_units": "genome copies / μL",
+      "synthetic_specimen__viral_material": [
+        "Naked RNA"
+      ]
     }
   },
   {
@@ -581,6 +673,10 @@
       "test_name": "qSARS-CoV-2 IgG/IgM Rapid Test",
       "test_technology": "Serology IgM and IgG, Lateral Flow",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136625/download"
+    },
+    "anot8_org": {
+      "file_id": "92",
+      "permalink": "https://anot8.org/1772.2/92"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -604,6 +700,10 @@
       "test_name": "COV-19 IDx assay",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136621/download"
+    },
+    "anot8_org": {
+      "file_id": "14",
+      "permalink": "https://anot8.org/1772.2/14"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -630,6 +730,10 @@
       "test_technology": "Molecular",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136653/download"
     },
+    "anot8_org": {
+      "file_id": "36",
+      "permalink": "https://anot8.org/1772.2/36"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -655,6 +759,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136656/download"
     },
+    "anot8_org": {
+      "file_id": "122",
+      "permalink": "https://anot8.org/1772.2/122"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -663,10 +771,12 @@
       "sample_media_type": ""
     },
     "self_declared_EUA_data": {
-      "lod_min": false,
-      "lod_max": false,
-      "lod_units": "",
-      "synthetic_specimen__viral_material": []
+      "lod_min": 20.747,
+      "lod_max": 20.747,
+      "lod_units": "genome copies / μL",
+      "synthetic_specimen__viral_material": [
+        "Live Virus"
+      ]
     }
   },
   {
@@ -677,6 +787,10 @@
       "test_name": "SARS-Cov-2 Assay",
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136669/download"
+    },
+    "anot8_org": {
+      "file_id": "4",
+      "permalink": "https://anot8.org/1772.2/4"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -689,7 +803,9 @@
       "lod_min": false,
       "lod_max": false,
       "lod_units": "",
-      "synthetic_specimen__viral_material": []
+      "synthetic_specimen__viral_material": [
+        "Live Virus"
+      ]
     }
   },
   {
@@ -700,6 +816,10 @@
       "test_name": "ARIES SARS-CoV-2 Assay",
       "test_technology": "Molecular RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136693/download"
+    },
+    "anot8_org": {
+      "file_id": "114",
+      "permalink": "https://anot8.org/1772.2/114"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -726,6 +846,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136691/download"
     },
+    "anot8_org": {
+      "file_id": "9",
+      "permalink": "https://anot8.org/1772.2/9"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -750,6 +874,10 @@
       "test_name": "Logix Smart Coronavirus Disease 2019 (COVID-19) Kit",
       "test_technology": "Molecular RT-PCR, CoPrimer technology",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136687/download"
+    },
+    "anot8_org": {
+      "file_id": "15",
+      "permalink": "https://anot8.org/1772.2/15"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -776,6 +904,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136699/download"
     },
+    "anot8_org": {
+      "file_id": "25",
+      "permalink": "https://anot8.org/1772.2/25"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -784,10 +916,12 @@
       "sample_media_type": ""
     },
     "self_declared_EUA_data": {
-      "lod_min": false,
-      "lod_max": false,
-      "lod_units": "",
-      "synthetic_specimen__viral_material": []
+      "lod_min": 5.0,
+      "lod_max": 5.0,
+      "lod_units": "genome copies / μL",
+      "synthetic_specimen__viral_material": [
+        "Naked RNA"
+      ]
     }
   },
   {
@@ -798,6 +932,10 @@
       "test_name": "Gnomegen COVID-19 RT-Digital PCR Detection Kit",
       "test_technology": "Molecular Real-time RT-digital PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136738/download"
+    },
+    "anot8_org": {
+      "file_id": "30",
+      "permalink": "https://anot8.org/1772.2/30"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -824,6 +962,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136740/download"
     },
+    "anot8_org": {
+      "file_id": "151",
+      "permalink": "https://anot8.org/1772.2/151"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -832,10 +974,12 @@
       "sample_media_type": ""
     },
     "self_declared_EUA_data": {
-      "lod_min": false,
-      "lod_max": false,
-      "lod_units": "",
-      "synthetic_specimen__viral_material": []
+      "lod_min": 0.073,
+      "lod_max": 0.073,
+      "lod_units": "genome copies / μL",
+      "synthetic_specimen__viral_material": [
+        "Naked RNA"
+      ]
     }
   },
   {
@@ -846,6 +990,10 @@
       "test_name": "Smart Detect SARS-CoV-2 rRT-PCR Kit",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136786/download"
+    },
+    "anot8_org": {
+      "file_id": "51",
+      "permalink": "https://anot8.org/1772.2/51"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "InBios International, Inc",
@@ -872,6 +1020,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136816/download"
     },
+    "anot8_org": {
+      "file_id": "48",
+      "permalink": "https://anot8.org/1772.2/48"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": "BD SARS-CoV-2 Reagents for BD MAX System",
@@ -896,6 +1048,10 @@
       "test_name": "QuantiVirus SARS-CoV-2 Test kit",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136809/download"
+    },
+    "anot8_org": {
+      "file_id": "3",
+      "permalink": "https://anot8.org/1772.2/3"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "DiaCarta, Inc",
@@ -922,6 +1078,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136818/download"
     },
+    "anot8_org": {
+      "file_id": "21",
+      "permalink": "https://anot8.org/1772.2/21"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -930,10 +1090,12 @@
       "sample_media_type": ""
     },
     "self_declared_EUA_data": {
-      "lod_min": false,
-      "lod_max": false,
-      "lod_units": "",
-      "synthetic_specimen__viral_material": []
+      "lod_min": 1.0,
+      "lod_max": 1.0,
+      "lod_units": "genome copies / μL",
+      "synthetic_specimen__viral_material": [
+        "Live Virus"
+      ]
     }
   },
   {
@@ -944,6 +1106,10 @@
       "test_name": "iAMP COVID-19 Detection Kit",
       "test_technology": "Molecular RT, Isothermal amplification",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136870/download"
+    },
+    "anot8_org": {
+      "file_id": "104",
+      "permalink": "https://anot8.org/1772.2/104"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -970,6 +1136,10 @@
       "test_technology": "Molecular Real-time RT-PCR, Home Collection",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137782/download"
     },
+    "anot8_org": {
+      "file_id": "415",
+      "permalink": "https://anot8.org/1772.2/415"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "Infinity BiologiX LLC (formerly Rutgers Clinical Genomics Laboratory at RUCDR Infinite Biologics - Rutgers University)",
       "different_test_name": "Infinity BiologiX TaqPath SARS-CoV-2 Assay (formerly Rutgers Clinical Genomics Laboratory TaqPath SARS-CoV-2-Assay)",
@@ -995,6 +1165,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136877/download"
     },
+    "anot8_org": {
+      "file_id": "276",
+      "permalink": "https://anot8.org/1772.2/276"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": "SDI SARS-CoV-2 Assay",
@@ -1003,9 +1177,9 @@
       "sample_media_type": "Swabs in Transport Media"
     },
     "self_declared_EUA_data": {
-      "lod_min": false,
-      "lod_max": false,
-      "lod_units": "",
+      "lod_min": 0.5,
+      "lod_max": 0.5,
+      "lod_units": "genome copies / μL",
       "synthetic_specimen__viral_material": []
     }
   },
@@ -1018,6 +1192,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136873/download"
     },
+    "anot8_org": {
+      "file_id": "274",
+      "permalink": "https://anot8.org/1772.2/274"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1026,10 +1204,12 @@
       "sample_media_type": ""
     },
     "self_declared_EUA_data": {
-      "lod_min": false,
-      "lod_max": false,
-      "lod_units": "",
-      "synthetic_specimen__viral_material": []
+      "lod_min": 10.0,
+      "lod_max": 10.0,
+      "lod_units": "genome copies / μL",
+      "synthetic_specimen__viral_material": [
+        "Naked RNA"
+      ]
     }
   },
   {
@@ -1041,6 +1221,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136880/download"
     },
+    "anot8_org": {
+      "file_id": "279",
+      "permalink": "https://anot8.org/1772.2/279"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1049,10 +1233,12 @@
       "sample_media_type": "Swabs in Transport Media"
     },
     "self_declared_EUA_data": {
-      "lod_min": false,
-      "lod_max": false,
-      "lod_units": "",
-      "synthetic_specimen__viral_material": []
+      "lod_min": 0.88,
+      "lod_max": 3.21,
+      "lod_units": "genome copies / μL",
+      "synthetic_specimen__viral_material": [
+        "Naked RNA"
+      ]
     }
   },
   {
@@ -1064,6 +1250,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136944/download"
     },
+    "anot8_org": {
+      "file_id": "284",
+      "permalink": "https://anot8.org/1772.2/284"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1072,9 +1262,9 @@
       "sample_media_type": "Swabs in Transport Media"
     },
     "self_declared_EUA_data": {
-      "lod_min": false,
-      "lod_max": false,
-      "lod_units": "",
+      "lod_min": 2.0,
+      "lod_max": 2.0,
+      "lod_units": "genome copies / μL",
       "synthetic_specimen__viral_material": []
     }
   },
@@ -1086,6 +1276,10 @@
       "test_name": "SARS-CoV-2 Assay",
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136942/download"
+    },
+    "anot8_org": {
+      "file_id": "282",
+      "permalink": "https://anot8.org/1772.2/282"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -1110,6 +1304,10 @@
       "test_technology": "Serology Total Antibody, CLIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136967/download"
     },
+    "anot8_org": {
+      "file_id": "286",
+      "permalink": "https://anot8.org/1772.2/286"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1132,6 +1330,10 @@
       "test_name": "SARS-CoV-2 Test",
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137095/download"
+    },
+    "anot8_org": {
+      "file_id": "310",
+      "permalink": "https://anot8.org/1772.2/310"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -1156,6 +1358,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136971/download"
     },
+    "anot8_org": {
+      "file_id": "289",
+      "permalink": "https://anot8.org/1772.2/289"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1178,6 +1384,10 @@
       "test_name": "SARS-CoV-2 Fluorescent PCR Kit",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137026/download"
+    },
+    "anot8_org": {
+      "file_id": "110",
+      "permalink": "https://anot8.org/1772.2/110"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -1204,6 +1414,10 @@
       "test_technology": "Serology IgG, ELISA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137029/download"
     },
+    "anot8_org": {
+      "file_id": "295",
+      "permalink": "https://anot8.org/1772.2/295"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1226,6 +1440,10 @@
       "test_name": "CirrusDx SARS-CoV-2 Assay",
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137034/download"
+    },
+    "anot8_org": {
+      "file_id": "299",
+      "permalink": "https://anot8.org/1772.2/299"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -1250,6 +1468,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137036/download"
     },
+    "anot8_org": {
+      "file_id": "301",
+      "permalink": "https://anot8.org/1772.2/301"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1272,6 +1494,10 @@
       "test_name": "GS COVID-19 RT-PCR KIT",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137093/download"
+    },
+    "anot8_org": {
+      "file_id": "54",
+      "permalink": "https://anot8.org/1772.2/54"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -1298,6 +1524,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137089/download"
     },
+    "anot8_org": {
+      "file_id": "149",
+      "permalink": "https://anot8.org/1772.2/149"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1322,6 +1552,10 @@
       "test_name": "Fosun COVID-19 RT-PCR Detection Kit",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137120/download"
+    },
+    "anot8_org": {
+      "file_id": "115",
+      "permalink": "https://anot8.org/1772.2/115"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "Fosun Pharma USA Inc..",
@@ -1348,6 +1582,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137116/download"
     },
+    "anot8_org": {
+      "file_id": "42",
+      "permalink": "https://anot8.org/1772.2/42"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1372,6 +1610,10 @@
       "test_name": "PhoenixDx 2019-CoV",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137153/download"
+    },
+    "anot8_org": {
+      "file_id": "88",
+      "permalink": "https://anot8.org/1772.2/88"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -1398,6 +1640,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137163/download"
     },
+    "anot8_org": {
+      "file_id": "321",
+      "permalink": "https://anot8.org/1772.2/321"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1420,6 +1666,10 @@
       "test_name": "Allplex 2019-nCoV Assay",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137178/download"
+    },
+    "anot8_org": {
+      "file_id": "93",
+      "permalink": "https://anot8.org/1772.2/93"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -1446,6 +1696,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137252/download"
     },
+    "anot8_org": {
+      "file_id": "79",
+      "permalink": "https://anot8.org/1772.2/79"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": "REALSTAR SARS-COV-2 RT-PCR KIT U.S.",
@@ -1471,6 +1725,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137255/download"
     },
+    "anot8_org": {
+      "file_id": "329",
+      "permalink": "https://anot8.org/1772.2/329"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1493,6 +1751,10 @@
       "test_name": "STANDARD M nCoV Real-Time Detection Kit",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137302/download"
+    },
+    "anot8_org": {
+      "file_id": "128",
+      "permalink": "https://anot8.org/1772.2/128"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -1519,6 +1781,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137370/download"
     },
+    "anot8_org": {
+      "file_id": "347",
+      "permalink": "https://anot8.org/1772.2/347"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1541,6 +1807,10 @@
       "test_name": "LIAISON SARS-CoV-2 S1/S2 IgG",
       "test_technology": "Serology IgG, CLIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137359/download"
+    },
+    "anot8_org": {
+      "file_id": "340",
+      "permalink": "https://anot8.org/1772.2/340"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -1565,6 +1835,10 @@
       "test_technology": "Serology IgG, CLIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137363/download"
     },
+    "anot8_org": {
+      "file_id": "344",
+      "permalink": "https://anot8.org/1772.2/344"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1587,6 +1861,10 @@
       "test_name": "SARS-CoV-2 Assay",
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137374/download"
+    },
+    "anot8_org": {
+      "file_id": "351",
+      "permalink": "https://anot8.org/1772.2/351"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -1611,6 +1889,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137372/download"
     },
+    "anot8_org": {
+      "file_id": "349",
+      "permalink": "https://anot8.org/1772.2/349"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1634,6 +1916,10 @@
       "test_technology": "Serology IgG, CMIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137383/download"
     },
+    "anot8_org": {
+      "file_id": "354",
+      "permalink": "https://anot8.org/1772.2/354"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1656,6 +1942,10 @@
       "test_name": "U-TOP COVID-19 Detection Kit",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137425/download"
+    },
+    "anot8_org": {
+      "file_id": "19",
+      "permalink": "https://anot8.org/1772.2/19"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -1682,6 +1972,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137423/download"
     },
+    "anot8_org": {
+      "file_id": "359",
+      "permalink": "https://anot8.org/1772.2/359"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "Nationwide Children's Hospital",
       "different_test_name": false,
@@ -1705,6 +1999,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137450/download"
     },
+    "anot8_org": {
+      "file_id": "361",
+      "permalink": "https://anot8.org/1772.2/361"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1727,6 +2025,10 @@
       "test_name": "LabGun COVID-19 RT-PCR Kit",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137483/download"
+    },
+    "anot8_org": {
+      "file_id": "20",
+      "permalink": "https://anot8.org/1772.2/20"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -1753,6 +2055,10 @@
       "test_technology": "Molecular RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137489/download"
     },
+    "anot8_org": {
+      "file_id": "121",
+      "permalink": "https://anot8.org/1772.2/121"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1778,6 +2084,10 @@
       "test_technology": "Serology Total Antibody, ELISA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137493/download"
     },
+    "anot8_org": {
+      "file_id": "370",
+      "permalink": "https://anot8.org/1772.2/370"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1801,6 +2111,10 @@
       "test_technology": "Serology Total Antibody, FMIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137541/download"
     },
+    "anot8_org": {
+      "file_id": "376",
+      "permalink": "https://anot8.org/1772.2/376"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1823,6 +2137,10 @@
       "test_name": "Altru Dx SARS-CoV-2 RT-PCR assay",
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137546/download"
+    },
+    "anot8_org": {
+      "file_id": "10",
+      "permalink": "https://anot8.org/1772.2/10"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -1849,6 +2167,10 @@
       "test_technology": "Molecular RT-droplet PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137579/download"
     },
+    "anot8_org": {
+      "file_id": "119",
+      "permalink": "https://anot8.org/1772.2/119"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "Bio-Rad Laboratories, Inc",
       "different_test_name": false,
@@ -1873,6 +2195,10 @@
       "test_name": "BioFire Respiratory Panel 2.1 (RP2.1)",
       "test_technology": "Molecular, RT, Nested multiplex PCR, Multi-analyte",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137583/download"
+    },
+    "anot8_org": {
+      "file_id": "6",
+      "permalink": "https://anot8.org/1772.2/6"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -1900,6 +2226,10 @@
       "test_technology": "Serology Total Antibody, ECLIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138169/download"
     },
+    "anot8_org": {
+      "file_id": "460",
+      "permalink": "https://anot8.org/1772.2/460"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1922,6 +2252,10 @@
       "test_name": "UTHSC/UCH SARS-CoV-2-RT-PCR Assay",
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137656/download"
+    },
+    "anot8_org": {
+      "file_id": "397",
+      "permalink": "https://anot8.org/1772.2/397"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -1946,6 +2280,10 @@
       "test_technology": "Serology IgG, ELISA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137609/download"
     },
+    "anot8_org": {
+      "file_id": "392",
+      "permalink": "https://anot8.org/1772.2/392"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -1968,6 +2306,10 @@
       "test_name": "Novel Coronavirus (2019-nCoV) Nucleic Acid Diagnostic Kit (PCR-Fluorescence Probing)",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137651/download"
+    },
+    "anot8_org": {
+      "file_id": "16",
+      "permalink": "https://anot8.org/1772.2/16"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -1994,6 +2336,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137690/download"
     },
+    "anot8_org": {
+      "file_id": "83",
+      "permalink": "https://anot8.org/1772.2/83"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": "FTD SARS-COV-2",
@@ -2018,6 +2364,10 @@
       "test_name": "OPTI SARS-CoV-2 RT PCR Test",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137739/download"
+    },
+    "anot8_org": {
+      "file_id": "112",
+      "permalink": "https://anot8.org/1772.2/112"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -2044,6 +2394,10 @@
       "test_technology": "Molecular RT-LAMP, CRISPR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137746/download"
     },
+    "anot8_org": {
+      "file_id": "44",
+      "permalink": "https://anot8.org/1772.2/44"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -2068,6 +2422,10 @@
       "test_name": "SARS-COV-2 R-GENE",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137742/download"
+    },
+    "anot8_org": {
+      "file_id": "131",
+      "permalink": "https://anot8.org/1772.2/131"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -2094,6 +2452,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137780/download"
     },
+    "anot8_org": {
+      "file_id": "137",
+      "permalink": "https://anot8.org/1772.2/137"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -2119,6 +2481,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137897/download"
     },
+    "anot8_org": {
+      "file_id": "423",
+      "permalink": "https://anot8.org/1772.2/423"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -2141,6 +2507,10 @@
       "test_name": "Sofia 2 SARS Antigen FIA",
       "test_technology": "Antigen Lateral Flow, Fluorescence, Instrument Read",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137885/download"
+    },
+    "anot8_org": {
+      "file_id": "100",
+      "permalink": "https://anot8.org/1772.2/100"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -2167,6 +2537,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137895/download"
     },
+    "anot8_org": {
+      "file_id": "127",
+      "permalink": "https://anot8.org/1772.2/127"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -2191,6 +2565,10 @@
       "test_name": "1copy COVID-19 qPCR Multi Kit",
       "test_technology": "Molecular Real-time, RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137935/download"
+    },
+    "anot8_org": {
+      "file_id": "106",
+      "permalink": "https://anot8.org/1772.2/106"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -2217,6 +2595,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137979/download"
     },
+    "anot8_org": {
+      "file_id": "18",
+      "permalink": "https://anot8.org/1772.2/18"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -2242,6 +2624,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137983/download"
     },
+    "anot8_org": {
+      "file_id": "437",
+      "permalink": "https://anot8.org/1772.2/437"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -2264,6 +2650,10 @@
       "test_name": "Linea COVID-19 Assay Kit",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138059/download"
+    },
+    "anot8_org": {
+      "file_id": "99",
+      "permalink": "https://anot8.org/1772.2/99"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -2290,6 +2680,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138063/download"
     },
+    "anot8_org": {
+      "file_id": "442",
+      "permalink": "https://anot8.org/1772.2/442"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -2313,6 +2707,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138065/download"
     },
+    "anot8_org": {
+      "file_id": "444",
+      "permalink": "https://anot8.org/1772.2/444"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -2335,6 +2733,10 @@
       "test_name": "Aptima SARS-CoV-2 assay",
       "test_technology": "Molecular TMA, chemiluminescent",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138096/download"
+    },
+    "anot8_org": {
+      "file_id": "74",
+      "permalink": "https://anot8.org/1772.2/74"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -2361,6 +2763,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138100/download"
     },
+    "anot8_org": {
+      "file_id": "91",
+      "permalink": "https://anot8.org/1772.2/91"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "GeneMatrix, Inc",
       "different_test_name": false,
@@ -2385,6 +2791,10 @@
       "test_name": "Everlywell COVID-19 Test Home Collection Kit",
       "test_technology": "Home Collection Kit",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138145/download"
+    },
+    "anot8_org": {
+      "file_id": "453",
+      "permalink": "https://anot8.org/1772.2/453"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -2411,6 +2821,10 @@
       "test_technology": "Molecular Real-time RT-PCR, Home Collection",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139072/download"
     },
+    "anot8_org": {
+      "file_id": "598",
+      "permalink": "https://anot8.org/1772.2/598"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -2435,6 +2849,10 @@
       "test_name": "Assurance SARS-CoV-2 Panel",
       "test_technology": "Molecular, Real-time RT-PCR, Home Collection",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141342/download"
+    },
+    "anot8_org": {
+      "file_id": "910",
+      "permalink": "https://anot8.org/1772.2/910"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -2461,6 +2879,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138178/download"
     },
+    "anot8_org": {
+      "file_id": "39",
+      "permalink": "https://anot8.org/1772.2/39"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -2485,6 +2907,10 @@
       "test_name": "Color Genomics SARS-Cov-2 RT-LAMP Diagnostic Assay (reissued July 24, 2020)",
       "test_technology": "Molecular RT, LAMP, Home Collection",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140450/download"
+    },
+    "anot8_org": {
+      "file_id": "794",
+      "permalink": "https://anot8.org/1772.2/794"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -2511,6 +2937,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138290/download"
     },
+    "anot8_org": {
+      "file_id": "64",
+      "permalink": "https://anot8.org/1772.2/64"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -2535,6 +2965,10 @@
       "test_name": "DiaPlexQ Novel Coronavirus (2019-nCoV) Detection Kit",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138303/download"
+    },
+    "anot8_org": {
+      "file_id": "60",
+      "permalink": "https://anot8.org/1772.2/60"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "SolGent Co., Ltd",
@@ -2561,6 +2995,10 @@
       "test_technology": "Molecular RT-LAMP, CRISPR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138307/download"
     },
+    "anot8_org": {
+      "file_id": "144",
+      "permalink": "https://anot8.org/1772.2/144"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "Seasun Biomaterials, Inc",
       "different_test_name": "AQ-TOP COVID-19 Rapid Detection Kit",
@@ -2585,6 +3023,10 @@
       "test_name": "P23 Labs TaqPath SARS-CoV-2 Assay",
       "test_technology": "Molecular Real-time RT-PCR, Home Collection, Saliva",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138294/download"
+    },
+    "anot8_org": {
+      "file_id": "471",
+      "permalink": "https://anot8.org/1772.2/471"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -2611,6 +3053,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138345/download"
     },
+    "anot8_org": {
+      "file_id": "2",
+      "permalink": "https://anot8.org/1772.2/2"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "dba SpectronRX",
       "different_test_name": false,
@@ -2635,6 +3081,10 @@
       "test_name": "SARS-CoV-2 (N gene detection) Test",
       "test_technology": "Molecular Real-time RT-PCR, Home Collection",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141674/download"
+    },
+    "anot8_org": {
+      "file_id": "961",
+      "permalink": "https://anot8.org/1772.2/961"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -2661,6 +3111,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138330/download"
     },
+    "anot8_org": {
+      "file_id": "482",
+      "permalink": "https://anot8.org/1772.2/482"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -2683,6 +3137,10 @@
       "test_name": "Avera Institute for Human Genetics SARS-CoV-2 Assay",
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138332/download"
+    },
+    "anot8_org": {
+      "file_id": "484",
+      "permalink": "https://anot8.org/1772.2/484"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -2707,6 +3165,10 @@
       "test_technology": "Molecular TMA, chemiluminescent, Home Collection",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138407/download"
     },
+    "anot8_org": {
+      "file_id": "492",
+      "permalink": "https://anot8.org/1772.2/492"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -2729,6 +3191,10 @@
       "test_name": "ADVIA Centaur SARS-CoV-2 Total (COV2T)",
       "test_technology": "Total Antibody, CLIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138446/download"
+    },
+    "anot8_org": {
+      "file_id": "504",
+      "permalink": "https://anot8.org/1772.2/504"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -2753,6 +3219,10 @@
       "test_technology": "Total Antibody, CLIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138442/download"
     },
+    "anot8_org": {
+      "file_id": "500",
+      "permalink": "https://anot8.org/1772.2/500"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -2776,6 +3246,10 @@
       "test_technology": "Serology IgM and IgG, Lateral Flow",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138438/download"
     },
+    "anot8_org": {
+      "file_id": "496",
+      "permalink": "https://anot8.org/1772.2/496"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -2798,6 +3272,10 @@
       "test_name": "Gravity Diagnostics COVID-19 Assay",
       "test_technology": "Molecular Real-time RT-PCR, Home Collection",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138530/download"
+    },
+    "anot8_org": {
+      "file_id": "67",
+      "permalink": "https://anot8.org/1772.2/67"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -2824,6 +3302,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138526/download"
     },
+    "anot8_org": {
+      "file_id": "507",
+      "permalink": "https://anot8.org/1772.2/507"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": "Aspirus SARS-CoV rRT Assay",
@@ -2846,6 +3328,10 @@
       "test_name": "Elecsys IL-6",
       "test_technology": "Immunoassay-IL-6",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138595/download"
+    },
+    "anot8_org": {
+      "file_id": "517",
+      "permalink": "https://anot8.org/1772.2/517"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -2870,6 +3356,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138528/download"
     },
+    "anot8_org": {
+      "file_id": "509",
+      "permalink": "https://anot8.org/1772.2/509"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -2893,6 +3383,10 @@
       "test_technology": "Serology IgM and IgG, CLIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138629/download"
     },
+    "anot8_org": {
+      "file_id": "528",
+      "permalink": "https://anot8.org/1772.2/528"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -2915,6 +3409,10 @@
       "test_name": "Phosphorus COVID-19 RT-qPCR Test",
       "test_technology": "Molecular Real-time RT-PCR, Home Collection, Saliva",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138655/download"
+    },
+    "anot8_org": {
+      "file_id": "532",
+      "permalink": "https://anot8.org/1772.2/532"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -2941,6 +3439,10 @@
       "test_technology": "Serology IgM and IgG, Lateral Flow",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138660/download"
     },
+    "anot8_org": {
+      "file_id": "537",
+      "permalink": "https://anot8.org/1772.2/537"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -2964,6 +3466,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138625/download"
     },
+    "anot8_org": {
+      "file_id": "524",
+      "permalink": "https://anot8.org/1772.2/524"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -2986,6 +3492,10 @@
       "test_name": "Genetron SARS-CoV-2 RNA Test",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138685/download"
+    },
+    "anot8_org": {
+      "file_id": "138",
+      "permalink": "https://anot8.org/1772.2/138"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -3012,6 +3522,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138761/download"
     },
+    "anot8_org": {
+      "file_id": "37",
+      "permalink": "https://anot8.org/1772.2/37"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "Euroimmun US, Inc.",
       "different_test_name": "EURORealTime SARS-Cov-2",
@@ -3037,6 +3551,10 @@
       "test_technology": "Total Antibody, CLIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138757/download"
     },
+    "anot8_org": {
+      "file_id": "552",
+      "permalink": "https://anot8.org/1772.2/552"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -3060,6 +3578,10 @@
       "test_technology": "Total Antibody, CLIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138753/download"
     },
+    "anot8_org": {
+      "file_id": "548",
+      "permalink": "https://anot8.org/1772.2/548"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -3082,6 +3604,10 @@
       "test_name": "Illumina COVIDSeq Test",
       "test_technology": "Molecular",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138776/download"
+    },
+    "anot8_org": {
+      "file_id": "45",
+      "permalink": "https://anot8.org/1772.2/45"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -3108,6 +3634,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138786/download"
     },
+    "anot8_org": {
+      "file_id": "59",
+      "permalink": "https://anot8.org/1772.2/59"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -3133,6 +3663,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138790/download"
     },
+    "anot8_org": {
+      "file_id": "563",
+      "permalink": "https://anot8.org/1772.2/563"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -3155,6 +3689,10 @@
       "test_name": "Cue COVID-19 Test",
       "test_technology": "Molecular RT, Isothermal amplification",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138826/download"
+    },
+    "anot8_org": {
+      "file_id": "111",
+      "permalink": "https://anot8.org/1772.2/111"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -3181,6 +3719,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138822/download"
     },
+    "anot8_org": {
+      "file_id": "27",
+      "permalink": "https://anot8.org/1772.2/27"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -3205,6 +3747,10 @@
       "test_name": "DTPM COVID-19 RT-PCR Test",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138818/download"
+    },
+    "anot8_org": {
+      "file_id": "11",
+      "permalink": "https://anot8.org/1772.2/11"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -3231,6 +3777,10 @@
       "test_technology": "Serology IgG, ELISA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138810/download"
     },
+    "anot8_org": {
+      "file_id": "568",
+      "permalink": "https://anot8.org/1772.2/568"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -3253,6 +3803,10 @@
       "test_name": "Diagnovital SARS-CoV-2 Real-Time PCR Kit",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138928/download"
+    },
+    "anot8_org": {
+      "file_id": "133",
+      "permalink": "https://anot8.org/1772.2/133"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -3279,6 +3833,10 @@
       "test_technology": "Molecular, U",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138934/download"
     },
+    "anot8_org": {
+      "file_id": "585",
+      "permalink": "https://anot8.org/1772.2/585"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -3301,6 +3859,10 @@
       "test_name": "KPMAS COVID-19 Test",
       "test_technology": "Molecular Real-time RT-PCR, Home Collection, Screening",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139069/download"
+    },
+    "anot8_org": {
+      "file_id": "595",
+      "permalink": "https://anot8.org/1772.2/595"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -3327,6 +3889,10 @@
       "test_technology": "Molecular RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139049/download"
     },
+    "anot8_org": {
+      "file_id": "35",
+      "permalink": "https://anot8.org/1772.2/35"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -3352,6 +3918,10 @@
       "test_technology": "Serology IgG, ELISA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139053/download"
     },
+    "anot8_org": {
+      "file_id": "592",
+      "permalink": "https://anot8.org/1772.2/592"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -3374,6 +3944,10 @@
       "test_name": "Omni COVID-19 Assay by RT-PCR",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139292/download"
+    },
+    "anot8_org": {
+      "file_id": "40",
+      "permalink": "https://anot8.org/1772.2/40"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -3400,6 +3974,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139288/download"
     },
+    "anot8_org": {
+      "file_id": "135",
+      "permalink": "https://anot8.org/1772.2/135"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -3424,6 +4002,10 @@
       "test_name": "TRUPCR SARS-CoV-2 Kit",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139296/download"
+    },
+    "anot8_org": {
+      "file_id": "126",
+      "permalink": "https://anot8.org/1772.2/126"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -3450,6 +4032,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139279/download"
     },
+    "anot8_org": {
+      "file_id": "105",
+      "permalink": "https://anot8.org/1772.2/105"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -3475,6 +4061,10 @@
       "test_technology": "Serology IgM and IgG Lateral Flow",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139283/download"
     },
+    "anot8_org": {
+      "file_id": "604",
+      "permalink": "https://anot8.org/1772.2/604"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -3498,6 +4088,10 @@
       "test_technology": "Serology IgM and IgG Lateral Flow",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139410/download"
     },
+    "anot8_org": {
+      "file_id": "620",
+      "permalink": "https://anot8.org/1772.2/620"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -3520,6 +4114,10 @@
       "test_name": "GenePro SARS-CoV-2 Test",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139442/download"
+    },
+    "anot8_org": {
+      "file_id": "86",
+      "permalink": "https://anot8.org/1772.2/86"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -3546,6 +4144,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139437/download"
     },
+    "anot8_org": {
+      "file_id": "98",
+      "permalink": "https://anot8.org/1772.2/98"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -3570,6 +4172,10 @@
       "test_name": "HealthQuest Esoterics TaqPath SARS-CoV-2 Assay",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139434/download"
+    },
+    "anot8_org": {
+      "file_id": "32",
+      "permalink": "https://anot8.org/1772.2/32"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -3596,6 +4202,10 @@
       "test_technology": "Serology IgG, CLIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139446/download"
     },
+    "anot8_org": {
+      "file_id": "629",
+      "permalink": "https://anot8.org/1772.2/629"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -3618,6 +4228,10 @@
       "test_name": "MD Anderson High-throughput SARS-CoV-2 RT-PCR Assay",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139512/download"
+    },
+    "anot8_org": {
+      "file_id": "123",
+      "permalink": "https://anot8.org/1772.2/123"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -3644,6 +4258,10 @@
       "test_technology": "Molecular RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139527/download"
     },
+    "anot8_org": {
+      "file_id": "148",
+      "permalink": "https://anot8.org/1772.2/148"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "PlexBio Co., Ltd.",
       "different_test_name": false,
@@ -3668,6 +4286,10 @@
       "test_name": "FastPlex Triplex SARS-CoV-2 detection kit (RT-Digital PCR)",
       "test_technology": "Molecular RT-digital droplet PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139523/download"
+    },
+    "anot8_org": {
+      "file_id": "63",
+      "permalink": "https://anot8.org/1772.2/63"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -3694,6 +4316,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139516/download"
     },
+    "anot8_org": {
+      "file_id": "38",
+      "permalink": "https://anot8.org/1772.2/38"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -3718,6 +4344,10 @@
       "test_name": "Inform Diagnostics SARS-CoV-2 RT-PCR Assay",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139572/download"
+    },
+    "anot8_org": {
+      "file_id": "70",
+      "permalink": "https://anot8.org/1772.2/70"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -3744,6 +4374,10 @@
       "test_technology": "Serology IgG, CLIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139627/download"
     },
+    "anot8_org": {
+      "file_id": "656",
+      "permalink": "https://anot8.org/1772.2/656"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -3766,6 +4400,10 @@
       "test_name": "LifeHope 2019-nCoV Real-Time RT-PCR Diagnostic Panel",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139623/download"
+    },
+    "anot8_org": {
+      "file_id": "5",
+      "permalink": "https://anot8.org/1772.2/5"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -3792,6 +4430,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139672/download"
     },
+    "anot8_org": {
+      "file_id": "12",
+      "permalink": "https://anot8.org/1772.2/12"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "Acupath Laboratories, Inc",
       "different_test_name": false,
@@ -3816,6 +4458,10 @@
       "test_name": "Kroger Health COVID-19 Test Home Collection Kit",
       "test_technology": "Molecular Home Collection Kit",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139682/download"
+    },
+    "anot8_org": {
+      "file_id": "668",
+      "permalink": "https://anot8.org/1772.2/668"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -3842,6 +4488,10 @@
       "test_technology": "Molecular RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139680/download"
     },
+    "anot8_org": {
+      "file_id": "146",
+      "permalink": "https://anot8.org/1772.2/146"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -3866,6 +4516,10 @@
       "test_name": "Psoma COVID-19 RT Test",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139676/download"
+    },
+    "anot8_org": {
+      "file_id": "87",
+      "permalink": "https://anot8.org/1772.2/87"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -3892,6 +4546,10 @@
       "test_technology": "Serology IgM, ELISA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139730/download"
     },
+    "anot8_org": {
+      "file_id": "675",
+      "permalink": "https://anot8.org/1772.2/675"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -3914,6 +4572,10 @@
       "test_name": "CentoFast-SARS-CoV-2 RT-PCR Assay",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139725/download"
+    },
+    "anot8_org": {
+      "file_id": "78",
+      "permalink": "https://anot8.org/1772.2/78"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -3940,6 +4602,10 @@
       "test_technology": "Molecular Real-time RT-PCR, Multi-analyte",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139743/download"
     },
+    "anot8_org": {
+      "file_id": "80",
+      "permalink": "https://anot8.org/1772.2/80"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -3964,6 +4630,10 @@
       "test_name": "BD Veritor System for Rapid Detection of SARS-CoV-2",
       "test_technology": "Antigen Chromatographic Digital Immunoassay, Instrument Read",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139755/download"
+    },
+    "anot8_org": {
+      "file_id": "96",
+      "permalink": "https://anot8.org/1772.2/96"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -3990,6 +4660,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139788/download"
     },
+    "anot8_org": {
+      "file_id": "147",
+      "permalink": "https://anot8.org/1772.2/147"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4015,6 +4689,10 @@
       "test_technology": "Serology IgM and IgG, Lateral Flow",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139792/download"
     },
+    "anot8_org": {
+      "file_id": "691",
+      "permalink": "https://anot8.org/1772.2/691"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4037,6 +4715,10 @@
       "test_name": "AMPIPROBE SARS-CoV-2 Test System",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139828/download"
+    },
+    "anot8_org": {
+      "file_id": "23",
+      "permalink": "https://anot8.org/1772.2/23"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -4063,6 +4745,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139832/download"
     },
+    "anot8_org": {
+      "file_id": "89",
+      "permalink": "https://anot8.org/1772.2/89"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4087,6 +4773,10 @@
       "test_name": "Gene By Gene SARS-CoV-2 Detection Test",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139836/download"
+    },
+    "anot8_org": {
+      "file_id": "13",
+      "permalink": "https://anot8.org/1772.2/13"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -4113,6 +4803,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139858/download"
     },
+    "anot8_org": {
+      "file_id": "116",
+      "permalink": "https://anot8.org/1772.2/116"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4138,6 +4832,10 @@
       "test_technology": "Serology IgG, CLIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139865/download"
     },
+    "anot8_org": {
+      "file_id": "705",
+      "permalink": "https://anot8.org/1772.2/705"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4160,6 +4858,10 @@
       "test_name": "SARS-CoV-2 RNA DETECTR Assay",
       "test_technology": "Molecular RT-LAMP",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139937/download"
+    },
+    "anot8_org": {
+      "file_id": "55",
+      "permalink": "https://anot8.org/1772.2/55"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -4186,6 +4888,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139941/download"
     },
+    "anot8_org": {
+      "file_id": "141",
+      "permalink": "https://anot8.org/1772.2/141"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4211,6 +4917,10 @@
       "test_technology": "Serology, Total Antibody, Lateral Flow",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140030/download"
     },
+    "anot8_org": {
+      "file_id": "720",
+      "permalink": "https://anot8.org/1772.2/720"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4233,6 +4943,10 @@
       "test_name": "BMC-CReM COVID-19 Test",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140007/download"
+    },
+    "anot8_org": {
+      "file_id": "139",
+      "permalink": "https://anot8.org/1772.2/139"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -4259,6 +4973,10 @@
       "test_technology": "Molecular Real-time RT-PCR, Home Collection",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140078/download"
     },
+    "anot8_org": {
+      "file_id": "17",
+      "permalink": "https://anot8.org/1772.2/17"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4283,6 +5001,10 @@
       "test_name": "PhoenixDx SARS-CoV-2 Multiplex",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140073/download"
+    },
+    "anot8_org": {
+      "file_id": "95",
+      "permalink": "https://anot8.org/1772.2/95"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -4309,6 +5031,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140069/download"
     },
+    "anot8_org": {
+      "file_id": "33",
+      "permalink": "https://anot8.org/1772.2/33"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4334,6 +5060,10 @@
       "test_technology": "Serology IgM and IgG, Lateral Flow",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140082/download"
     },
+    "anot8_org": {
+      "file_id": "735",
+      "permalink": "https://anot8.org/1772.2/735"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4356,6 +5086,10 @@
       "test_name": "Quest Diagnostics HA SARS-CoV-2 Assay",
       "test_technology": "Molecular TMA, chemiluminescent, Home Collection",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140240/download"
+    },
+    "anot8_org": {
+      "file_id": "749",
+      "permalink": "https://anot8.org/1772.2/749"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -4380,6 +5114,10 @@
       "test_technology": "Molecular Real-time RT-PCR, Home Collection",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140235/download"
     },
+    "anot8_org": {
+      "file_id": "745",
+      "permalink": "https://anot8.org/1772.2/745"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4403,6 +5141,10 @@
       "test_technology": "Molecular Real-time RT-PCR, Home Collection",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140230/download"
     },
+    "anot8_org": {
+      "file_id": "741",
+      "permalink": "https://anot8.org/1772.2/741"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4425,6 +5167,10 @@
       "test_name": "Boston Heart COVID-19 RT-PCR Test",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140259/download"
+    },
+    "anot8_org": {
+      "file_id": "102",
+      "permalink": "https://anot8.org/1772.2/102"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -4451,6 +5197,10 @@
       "test_technology": "Serology IgG, FMIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140256/download"
     },
+    "anot8_org": {
+      "file_id": "751",
+      "permalink": "https://anot8.org/1772.2/751"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4473,6 +5223,10 @@
       "test_name": "OraRisk COVID-19 RT-PCR",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140293/download"
+    },
+    "anot8_org": {
+      "file_id": "107",
+      "permalink": "https://anot8.org/1772.2/107"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -4499,6 +5253,10 @@
       "test_technology": "Serology IgM and IgG, Lateral Flow",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140297/download"
     },
+    "anot8_org": {
+      "file_id": "763",
+      "permalink": "https://anot8.org/1772.2/763"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4521,6 +5279,10 @@
       "test_name": "QuantiVirus SARS-CoV-2 Multiplex Test Kit",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140354/download"
+    },
+    "anot8_org": {
+      "file_id": "47",
+      "permalink": "https://anot8.org/1772.2/47"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "DiaCarta, Inc",
@@ -4547,6 +5309,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140420/download"
     },
+    "anot8_org": {
+      "file_id": "76",
+      "permalink": "https://anot8.org/1772.2/76"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4572,6 +5338,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140425/download"
     },
+    "anot8_org": {
+      "file_id": "90",
+      "permalink": "https://anot8.org/1772.2/90"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4594,6 +5364,10 @@
       "test_name": "BIOTIME SARS-CoV-2 IgG/IgM Rapid Qualitative Test",
       "test_technology": "Serology IgM and IgG, Lateral Flow",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140443/download"
+    },
+    "anot8_org": {
+      "file_id": "787",
+      "permalink": "https://anot8.org/1772.2/787"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -4618,6 +5392,10 @@
       "test_technology": "Serology IgM and IgG, Lateral Flow",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140447/download"
     },
+    "anot8_org": {
+      "file_id": "791",
+      "permalink": "https://anot8.org/1772.2/791"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4640,6 +5418,10 @@
       "test_name": "SNL-NM 2019 nCoV Real-Time RT-PCR Diagnostic Assay",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140547/download"
+    },
+    "anot8_org": {
+      "file_id": "118",
+      "permalink": "https://anot8.org/1772.2/118"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -4666,6 +5448,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140543/download"
     },
+    "anot8_org": {
+      "file_id": "50",
+      "permalink": "https://anot8.org/1772.2/50"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4690,6 +5476,10 @@
       "test_name": "CRL Rapid Response",
       "test_technology": "Molecular, Real-time RT-PCR, Home Collection, Saliva",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140663/download"
+    },
+    "anot8_org": {
+      "file_id": "808",
+      "permalink": "https://anot8.org/1772.2/808"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -4716,6 +5506,10 @@
       "test_technology": "IgG, Semi-quantitative",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140699/download"
     },
+    "anot8_org": {
+      "file_id": "814",
+      "permalink": "https://anot8.org/1772.2/814"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4739,6 +5533,10 @@
       "test_technology": "IgG, Semi-quantitative",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140704/download"
     },
+    "anot8_org": {
+      "file_id": "819",
+      "permalink": "https://anot8.org/1772.2/819"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4761,6 +5559,10 @@
       "test_name": "SARS-CoV-2 Test Kit (Real-time PCR)",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140717/download"
+    },
+    "anot8_org": {
+      "file_id": "145",
+      "permalink": "https://anot8.org/1772.2/145"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -4787,6 +5589,10 @@
       "test_technology": "Molecular Real-time RT-PCR, Pooling",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140712/download"
     },
+    "anot8_org": {
+      "file_id": "7",
+      "permalink": "https://anot8.org/1772.2/7"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4809,6 +5615,10 @@
       "test_name": "Wren Laboratories COVID-19 PCR Test",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140776/download"
+    },
+    "anot8_org": {
+      "file_id": "31",
+      "permalink": "https://anot8.org/1772.2/31"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -4835,6 +5645,10 @@
       "test_technology": "Molecular RT-PCR and MALDI-TOF Mass Spec., Home Collection",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140781/download"
     },
+    "anot8_org": {
+      "file_id": "832",
+      "permalink": "https://anot8.org/1772.2/832"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4859,6 +5673,10 @@
       "test_name": "Cleveland Clinic SARS-CoV-2 Assay",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140788/download"
+    },
+    "anot8_org": {
+      "file_id": "62",
+      "permalink": "https://anot8.org/1772.2/62"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -4885,6 +5703,10 @@
       "test_technology": "Molecular TMA, chemiluminescent, Pooling",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140792/download"
     },
+    "anot8_org": {
+      "file_id": "113",
+      "permalink": "https://anot8.org/1772.2/113"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4907,6 +5729,10 @@
       "test_name": "Genus SARS-CoV-2 Assay",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140818/download"
+    },
+    "anot8_org": {
+      "file_id": "66",
+      "permalink": "https://anot8.org/1772.2/66"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -4933,6 +5759,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140922/download"
     },
+    "anot8_org": {
+      "file_id": "69",
+      "permalink": "https://anot8.org/1772.2/69"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4958,6 +5788,10 @@
       "test_technology": "Serology Total Antibody, ELISA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140929/download"
     },
+    "anot8_org": {
+      "file_id": "854",
+      "permalink": "https://anot8.org/1772.2/854"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -4980,6 +5814,10 @@
       "test_name": "Helix COVID-19 NGS Test",
       "test_technology": "Molecular Sequencing",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140917/download"
+    },
+    "anot8_org": {
+      "file_id": "49",
+      "permalink": "https://anot8.org/1772.2/49"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5006,6 +5844,10 @@
       "test_technology": "Serology IgG, ELFA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140937/download"
     },
+    "anot8_org": {
+      "file_id": "862",
+      "permalink": "https://anot8.org/1772.2/862"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5029,6 +5871,10 @@
       "test_technology": "Serology IgM, ELFA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140933/download"
     },
+    "anot8_org": {
+      "file_id": "858",
+      "permalink": "https://anot8.org/1772.2/858"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5051,6 +5897,10 @@
       "test_name": "GWU SARS-CoV-2 RT-PCR Test",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140980/download"
+    },
+    "anot8_org": {
+      "file_id": "132",
+      "permalink": "https://anot8.org/1772.2/132"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5077,6 +5927,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141016/download"
     },
+    "anot8_org": {
+      "file_id": "26",
+      "permalink": "https://anot8.org/1772.2/26"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5101,6 +5955,10 @@
       "test_name": "Alpha Genomix TaqPath SARS-CoV-2 Combo Assay",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141021/download"
+    },
+    "anot8_org": {
+      "file_id": "117",
+      "permalink": "https://anot8.org/1772.2/117"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5127,6 +5985,10 @@
       "test_technology": "Molecular RT, non-isothermal nucleic acid amplification qSTAR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141057/download"
     },
+    "anot8_org": {
+      "file_id": "68",
+      "permalink": "https://anot8.org/1772.2/68"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5151,6 +6013,10 @@
       "test_name": "Biomeme SARS-CoV-2 Real-Time RT-PCR Test",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141052/download"
+    },
+    "anot8_org": {
+      "file_id": "84",
+      "permalink": "https://anot8.org/1772.2/84"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5177,6 +6043,10 @@
       "test_technology": "Molecular RT, Isothermal amplification",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141149/download"
     },
+    "anot8_org": {
+      "file_id": "58",
+      "permalink": "https://anot8.org/1772.2/58"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5201,6 +6071,10 @@
       "test_name": "SalivaDirect",
       "test_technology": "Molecular Real-time RT-PCR, Saliva",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141192/download"
+    },
+    "anot8_org": {
+      "file_id": "53",
+      "permalink": "https://anot8.org/1772.2/53"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5227,6 +6101,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141246/download"
     },
+    "anot8_org": {
+      "file_id": "896",
+      "permalink": "https://anot8.org/1772.2/896"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "ZhuHai Sinochips Bioscience Co., Ltd",
       "different_test_name": false,
@@ -5249,6 +6127,10 @@
       "test_name": "BioCheck SARS-CoV-2 IgG and IgM Combo Test",
       "test_technology": "Serology IgM and IgG, CLIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141251/download"
+    },
+    "anot8_org": {
+      "file_id": "900",
+      "permalink": "https://anot8.org/1772.2/900"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5273,6 +6155,10 @@
       "test_technology": "Serology IgM, CLIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141255/download"
     },
+    "anot8_org": {
+      "file_id": "904",
+      "permalink": "https://anot8.org/1772.2/904"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5295,6 +6181,10 @@
       "test_name": "LumiraDx SARS-CoV-2 Ag Test",
       "test_technology": "Antigen Microfluidic Immunofluorescence Assay, Instrument Read",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141304/download"
+    },
+    "anot8_org": {
+      "file_id": "909",
+      "permalink": "https://anot8.org/1772.2/909"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5319,6 +6209,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141496/download"
     },
+    "anot8_org": {
+      "file_id": "923",
+      "permalink": "https://anot8.org/1772.2/923"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5341,6 +6235,10 @@
       "test_name": "DxTerity SARS-CoV-2 RT-PCR Test",
       "test_technology": "Molecular Real-time RT-PCR, Saliva",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141491/download"
+    },
+    "anot8_org": {
+      "file_id": "919",
+      "permalink": "https://anot8.org/1772.2/919"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5365,6 +6263,10 @@
       "test_technology": "Molecular Sequencing",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141487/download"
     },
+    "anot8_org": {
+      "file_id": "915",
+      "permalink": "https://anot8.org/1772.2/915"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5387,6 +6289,10 @@
       "test_name": "QDX SARS-CoV-2 Assay",
       "test_technology": "Molecular Real-time RT-PCR, Home Collection",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141546/download"
+    },
+    "anot8_org": {
+      "file_id": "937",
+      "permalink": "https://anot8.org/1772.2/937"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5411,6 +6317,10 @@
       "test_technology": "Molecular Real-time RT-PCR, Saliva",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141541/download"
     },
+    "anot8_org": {
+      "file_id": "932",
+      "permalink": "https://anot8.org/1772.2/932"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5433,6 +6343,10 @@
       "test_name": "Tell Me Fast Novel Coronavirus (COVID-19) IgG/IgM Antibody Test",
       "test_technology": "Serology IgM and IgG, Lateral Flow",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141550/download"
+    },
+    "anot8_org": {
+      "file_id": "941",
+      "permalink": "https://anot8.org/1772.2/941"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5457,6 +6371,10 @@
       "test_technology": "Antigen Lateral Flow, Visual Read",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141570/download"
     },
+    "anot8_org": {
+      "file_id": "945",
+      "permalink": "https://anot8.org/1772.2/945"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5479,6 +6397,10 @@
       "test_name": "Cuur Diagnostics SARS-CoV-2 Molecular Assay",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141627/download"
+    },
+    "anot8_org": {
+      "file_id": "949",
+      "permalink": "https://anot8.org/1772.2/949"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5503,6 +6425,10 @@
       "test_technology": "Molecular Real-time RT-PCR, Home Collection, Screening, Saliva",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141670/download"
     },
+    "anot8_org": {
+      "file_id": "958",
+      "permalink": "https://anot8.org/1772.2/958"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5525,6 +6451,10 @@
       "test_name": "PCL SARS-CoV-2 Real-Time RT-PCR Assay",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141665/download"
+    },
+    "anot8_org": {
+      "file_id": "953",
+      "permalink": "https://anot8.org/1772.2/953"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5549,6 +6479,10 @@
       "test_technology": "Molecular Real-time RT-PCR, Pooling",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141769/download"
     },
+    "anot8_org": {
+      "file_id": "979",
+      "permalink": "https://anot8.org/1772.2/979"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5571,6 +6505,10 @@
       "test_name": "SARS-CoV-2 DETECTR Reagent Kit",
       "test_technology": "Molecular RT-LAMP, CRISPR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141765/download"
+    },
+    "anot8_org": {
+      "file_id": "975",
+      "permalink": "https://anot8.org/1772.2/975"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5595,6 +6533,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141760/download"
     },
+    "anot8_org": {
+      "file_id": "971",
+      "permalink": "https://anot8.org/1772.2/971"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5617,6 +6559,10 @@
       "test_name": "T2SARS-CoV-2 Panel",
       "test_technology": "Molecular RT, amplification, T2 Magnetic resonance",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141755/download"
+    },
+    "anot8_org": {
+      "file_id": "967",
+      "permalink": "https://anot8.org/1772.2/967"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5641,6 +6587,10 @@
       "test_technology": "Serology Total Antibody, ELISA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141777/download"
     },
+    "anot8_org": {
+      "file_id": "987",
+      "permalink": "https://anot8.org/1772.2/987"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5663,6 +6613,10 @@
       "test_name": "TBG SARS-CoV-2 IgG / IgM Rapid Test Kit",
       "test_technology": "Serology IgM and IgG, Lateral Flow",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141773/download"
+    },
+    "anot8_org": {
+      "file_id": "983",
+      "permalink": "https://anot8.org/1772.2/983"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5687,6 +6641,10 @@
       "test_technology": "Home Collection Kit",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141798/download"
     },
+    "anot8_org": {
+      "file_id": "998",
+      "permalink": "https://anot8.org/1772.2/998"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5709,6 +6667,10 @@
       "test_name": "Kaira 2019-nCoV Detection Kit",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141795/download"
+    },
+    "anot8_org": {
+      "file_id": "995",
+      "permalink": "https://anot8.org/1772.2/995"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5733,6 +6695,10 @@
       "test_technology": "Molecular RT, LAMP",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141791/download"
     },
+    "anot8_org": {
+      "file_id": "991",
+      "permalink": "https://anot8.org/1772.2/991"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5755,6 +6721,10 @@
       "test_name": "Bio-Speedy Direct RT-qPCR SARS-CoV-2",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141823/download"
+    },
+    "anot8_org": {
+      "file_id": "1001",
+      "permalink": "https://anot8.org/1772.2/1001"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5779,6 +6749,10 @@
       "test_technology": "Molecular Real-time RT-PCR, Multi-analyte",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141887/download"
     },
+    "anot8_org": {
+      "file_id": "1008",
+      "permalink": "https://anot8.org/1772.2/1008"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5801,6 +6775,10 @@
       "test_name": "SGTi-flex COVID-19 IgG",
       "test_technology": "Serology IgG, Lateral Flow",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141891/download"
+    },
+    "anot8_org": {
+      "file_id": "1012",
+      "permalink": "https://anot8.org/1772.2/1012"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5825,6 +6803,10 @@
       "test_technology": "Molecular Sequencing",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141935/download"
     },
+    "anot8_org": {
+      "file_id": "1017",
+      "permalink": "https://anot8.org/1772.2/1017"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5847,6 +6829,10 @@
       "test_name": "Verily COVID-19 RT-PCR Test",
       "test_technology": "Molecular Real-time RT-PCR, Pooling",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141951/download"
+    },
+    "anot8_org": {
+      "file_id": "1021",
+      "permalink": "https://anot8.org/1772.2/1021"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5871,6 +6857,10 @@
       "test_technology": "Serology IgM, CLIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142002/download"
     },
+    "anot8_org": {
+      "file_id": "1029",
+      "permalink": "https://anot8.org/1772.2/1029"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5893,6 +6883,10 @@
       "test_name": "BioCheck SARS-CoV-2 IgG Antibody Test Kit",
       "test_technology": "Serology IgG, CLIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142006/download"
+    },
+    "anot8_org": {
+      "file_id": "1033",
+      "permalink": "https://anot8.org/1772.2/1033"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5917,6 +6911,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141997/download"
     },
+    "anot8_org": {
+      "file_id": "1025",
+      "permalink": "https://anot8.org/1772.2/1025"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5939,6 +6937,10 @@
       "test_name": "MAGLUMI 2019-nCoV IgM/IgG",
       "test_technology": "Serology IgM and IgG, CLIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142233/download"
+    },
+    "anot8_org": {
+      "file_id": "1047",
+      "permalink": "https://anot8.org/1772.2/1047"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5963,6 +6965,10 @@
       "test_technology": "Molecular Real-time RT-PCR, Multi-analyte",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142193/download"
     },
+    "anot8_org": {
+      "file_id": "1038",
+      "permalink": "https://anot8.org/1772.2/1038"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -5985,6 +6991,10 @@
       "test_name": "Visby Medical COVID-19",
       "test_technology": "Molecular RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142228/download"
+    },
+    "anot8_org": {
+      "file_id": "1043",
+      "permalink": "https://anot8.org/1772.2/1043"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -6009,6 +7019,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142310/download"
     },
+    "anot8_org": {
+      "file_id": "1052",
+      "permalink": "https://anot8.org/1772.2/1052"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -6031,6 +7045,10 @@
       "test_name": "KimForest SARS-CoV-2 Detection Kit v1",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142363/download"
+    },
+    "anot8_org": {
+      "file_id": "1056",
+      "permalink": "https://anot8.org/1772.2/1056"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -6055,6 +7073,10 @@
       "test_technology": "Molecular Real-time RT-PCR, Saliva",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142379/download"
     },
+    "anot8_org": {
+      "file_id": "1061",
+      "permalink": "https://anot8.org/1772.2/1061"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": "Clarifi COVID-19 Test Kit",
@@ -6077,6 +7099,10 @@
       "test_name": "ViroKey SARS-CoV-2 RT-PCR Test v2.0 09/22/2020",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142383/download"
+    },
+    "anot8_org": {
+      "file_id": "1065",
+      "permalink": "https://anot8.org/1772.2/1065"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -6101,6 +7127,10 @@
       "test_technology": "Molecular RT-PCR and Sequencing",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142418/download"
     },
+    "anot8_org": {
+      "file_id": "1068",
+      "permalink": "https://anot8.org/1772.2/1068"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -6123,6 +7153,10 @@
       "test_name": "Orawell IgM/IgG Rapid Test 09/23/2020",
       "test_technology": "Serology IgM and IgG, Lateral Flow",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142422/download"
+    },
+    "anot8_org": {
+      "file_id": "1072",
+      "permalink": "https://anot8.org/1772.2/1072"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -6147,6 +7181,10 @@
       "test_technology": "Molecular Real-time RT-PCR, Multi-analyte",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142437/download"
     },
+    "anot8_org": {
+      "file_id": "1077",
+      "permalink": "https://anot8.org/1772.2/1077"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -6169,6 +7207,10 @@
       "test_name": "Genetrack SARS-CoV-2 Molecular Assay",
       "test_technology": "Molecular Real-time RT-PCR, Home Collection",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142601/download"
+    },
+    "anot8_org": {
+      "file_id": "1129",
+      "permalink": "https://anot8.org/1772.2/1129"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -6193,6 +7235,10 @@
       "test_technology": "Serology Total Antibody, photometric immunoassay",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142486/download"
     },
+    "anot8_org": {
+      "file_id": "1088",
+      "permalink": "https://anot8.org/1772.2/1088"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -6215,6 +7261,10 @@
       "test_name": "DiaSorin LIAISON SARS-CoV-2 IgM Assay",
       "test_technology": "Serology Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142552/download"
+    },
+    "anot8_org": {
+      "file_id": "1108",
+      "permalink": "https://anot8.org/1772.2/1108"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -6239,6 +7289,10 @@
       "test_technology": "Serology Total Antibody, FIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142557/download"
     },
+    "anot8_org": {
+      "file_id": "1112",
+      "permalink": "https://anot8.org/1772.2/1112"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -6261,6 +7315,10 @@
       "test_name": "Nirmidas COVID-19 (SARS-CoV-2) IgM/IgG Antibody Detection Kit",
       "test_technology": "Serology Total Antibody, FIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142561/download"
+    },
+    "anot8_org": {
+      "file_id": "1116",
+      "permalink": "https://anot8.org/1772.2/1116"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -6285,6 +7343,10 @@
       "test_technology": "Molecular Real-time RT-PCR, Screening",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142539/download"
     },
+    "anot8_org": {
+      "file_id": "1096",
+      "permalink": "https://anot8.org/1772.2/1096"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -6307,6 +7369,10 @@
       "test_name": "Akron Children’s Hospital SARS-CoV-2 Assay",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142543/download"
+    },
+    "anot8_org": {
+      "file_id": "1100",
+      "permalink": "https://anot8.org/1772.2/1100"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -6331,6 +7397,10 @@
       "test_technology": "Molecular RT-PCR and MALDI-TOF Mass Spec.",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142548/download"
     },
+    "anot8_org": {
+      "file_id": "1104",
+      "permalink": "https://anot8.org/1772.2/1104"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -6353,6 +7423,10 @@
       "test_name": "Alimetrix SARS-CoV-2 RT-PCR Assay",
       "test_technology": "Molecular RT-PCR, Microarray Hybridization",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142592/download"
+    },
+    "anot8_org": {
+      "file_id": "1120",
+      "permalink": "https://anot8.org/1772.2/1120"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -6377,6 +7451,10 @@
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142535/download"
     },
+    "anot8_org": {
+      "file_id": "1092",
+      "permalink": "https://anot8.org/1772.2/1092"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -6399,6 +7477,10 @@
       "test_name": "UMass Molecular Virology Laboratory 2019-nCoV rRT-PCR Dx Panel",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142692/download"
+    },
+    "anot8_org": {
+      "file_id": "1133",
+      "permalink": "https://anot8.org/1772.2/1133"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -6423,6 +7505,10 @@
       "test_technology": "One-step immunoenzymatic (\"sandwich\") assay, IL-6",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142600/download"
     },
+    "anot8_org": {
+      "file_id": "1128",
+      "permalink": "https://anot8.org/1772.2/1128"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -6445,6 +7531,10 @@
       "test_name": "iC SARS-CoV2 Test",
       "test_technology": "Molecular Real-time RT-PCR",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142596/download"
+    },
+    "anot8_org": {
+      "file_id": "1124",
+      "permalink": "https://anot8.org/1772.2/1124"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -6469,6 +7559,10 @@
       "test_technology": "Antigen Lateral Flow, Fluorescence, Instrument Read, Multi-Analyte",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142704/download"
     },
+    "anot8_org": {
+      "file_id": "1145",
+      "permalink": "https://anot8.org/1772.2/1145"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -6491,6 +7585,10 @@
       "test_name": "OmniPATH COVID-19 Total Antibody ELISA Test",
       "test_technology": "Serology Total Antibody, ELISA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142700/download"
+    },
+    "anot8_org": {
+      "file_id": "1141",
+      "permalink": "https://anot8.org/1772.2/1141"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -6515,6 +7613,10 @@
       "test_technology": "Molecular RT, Nested multiplex PCR, Multi-analyte",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142696/download"
     },
+    "anot8_org": {
+      "file_id": "1137",
+      "permalink": "https://anot8.org/1772.2/1137"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -6537,6 +7639,10 @@
       "test_name": "AQ-TOP COVID-19 Rapid Detection Kit PLUS",
       "test_technology": "Molecular RT-LAMP",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142800/download"
+    },
+    "anot8_org": {
+      "file_id": "1149",
+      "permalink": "https://anot8.org/1772.2/1149"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -6561,6 +7667,10 @@
       "test_technology": "Serology IgG, ELISA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142809/download"
     },
+    "anot8_org": {
+      "file_id": "1157",
+      "permalink": "https://anot8.org/1772.2/1157"
+    },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
@@ -6583,6 +7693,10 @@
       "test_name": "UCLA SwabSeq COVID-19 Diagnostic Platform",
       "test_technology": "Molecular RT-PCR and Sequencing",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142805/download"
+    },
+    "anot8_org": {
+      "file_id": "1153",
+      "permalink": "https://anot8.org/1772.2/1153"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,

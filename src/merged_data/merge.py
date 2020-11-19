@@ -21,53 +21,59 @@ from common import (
     get_annotation_files_by_test_id,
     get_annotations_by_label_id,
     get_fda_reference_panel_lod_data_by_test_id,
+    get_anot8_org_file_id_from_FDA_url,
+    get_anot8_org_permalink_from_FDA_url,
 )
 
 
 class Labels:
-    claims__controls__internal__human_gene_target = 83
-    claims__limit_of_detection__minimum_replicates = 68
-    claims__limit_of_detection__value = 66
-    claims__limit_of_detection__units = 67
-    claims__primers_and_probes__sequences = 78
-    claims__primers_and_probes__sources = 79
-    claims__reaction_volume_uL = 72
-    claims__specimen__supported_types = 0
-    claims__specimen__transport_medium = 34
-    claims__target_viral_genes = 6
-    meta__error = 74
-    meta__not_specified = 73
-    meta__not_specified__partial_info = 109
-    meta__potential_error = 99
-    metrics__confusion_matrix__false_negatives = 42
-    metrics__confusion_matrix__false_positives = 44
-    metrics__confusion_matrix__true_negatives = 43
-    metrics__confusion_matrix__true_positives = 41
-    # metrics__num_clinical_samples__negative_controls = -1
-    # metrics__num_clinical_samples__positive = -1
-    synthetic_specimen_virus_type_Naked_RNA = 112
-    synthetic_specimen_virus_type_Antigens = 113
-    synthetic_specimen_virus_type_Synthetic_Viral_Particles = 114
-    synthetic_specimen_virus_type_Inactivated_Virus__Heat = 115
-    synthetic_specimen_virus_type_Inactivated_Virus__Gammma = 116
-    synthetic_specimen_virus_type_Inactivated_Virus__Chemical = 117
-    synthetic_specimen_virus_type_Live_Virus = 118
-    synthetic_specimen_virus_type_Inactivated_Virus__method_not_specified = 119
-    synthetic_specimen_virus_type_Partial_Live_Virus = 120
-    test_descriptor__manufacturer_name = 111
-    test_descriptor__test_name = 110
-    test_technology = 7
-    validation_condition__author = 24
-    # validation_condition__comparator_test = -1
-    validation_condition__date = 25
-    # validation_condition__sample_volume = -1
-    # validation_condition__specimen_type = -1
-    # validation_condition__swab_type = -1
-    validation_condition__synthetic_specimen__clinical_matrix = 64
-    validation_condition__synthetic_specimen__clinical_matrix_source = 86
-    validation_condition__synthetic_specimen__viral_material = 62
-    validation_condition__synthetic_specimen__viral_material_source = 63
-    # validation_condition__transport_medium = -1
+    claims__controls__internal__human_gene_target = "Controls/Internal/Human gene target"
+    claims__limit_of_detection__minimum_replicates = "Limit of Detection (LOD)/Minimum Replicates"
+    claims__limit_of_detection__value = "Limit of Detection (LOD)/Value"
+    claims__limit_of_detection__units = "Limit of Detection (LOD)/Units"
+    claims__primers_and_probes__sequences = "Primers and probes/Sequences"
+    claims__primers_and_probes__sources = "Primers and probes/Sources"
+    claims__reaction_volume_uL = "Nucleic acid amplification/Reaction/Volume in μL"
+    claims__specimen__supported_types = "Supported specimen types"
+    claims__specimen__transport_medium = "Specimen/Transport medium"
+    claims__target_viral_genes = "Viral gene(s) targetted"
+    meta__error = "Meta/Error"
+    meta__error__omission = "Meta/Error/Omission"
+    meta__not_specified = "Meta/Not specified"
+    meta__not_specified__partial_info = "Meta/Not specified/Partial information to reproduce"
+    meta__potential_error = "Meta/Potential error"
+    metrics__confusion_matrix__false_negatives = "Confusion matrix/False negatives"
+    metrics__confusion_matrix__false_positives = "Confusion matrix/False positives"
+    metrics__confusion_matrix__true_negatives = "Confusion matrix/True negatives"
+    metrics__confusion_matrix__true_positives = "Confusion matrix/True positives"
+    metrics__num_clinical_samples__negative_controls = "Number of clinical samples/Controls (negatives)"
+    metrics__num_clinical_samples__positive = "Number of clinical samples/Positives"
+    synthetic_specimen_virus_type_Naked_RNA = "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
+    synthetic_specimen_virus_type_Antigens = "Specimen/Synthetic Specimen/Virus/Type/Antigens"
+    synthetic_specimen_virus_type_Synthetic_Viral_Particles = "Specimen/Synthetic Specimen/Virus/Type/Synthetic Viral Particles"
+    synthetic_specimen_virus_type_Inactivated_Virus__Heat = "Specimen/Synthetic Specimen/Virus/Type/Inactivated Virus (Heat)"
+    synthetic_specimen_virus_type_Inactivated_Virus__Gammma = "Specimen/Synthetic Specimen/Virus/Type/Inactivated Virus (Gamma radiation)"
+    synthetic_specimen_virus_type_Inactivated_Virus__Chemical = "Specimen/Synthetic Specimen/Virus/Type/Inactivated Virus (Chemical)"
+    synthetic_specimen_virus_type_Inactivated_Virus__method_not_specified = "Specimen/Synthetic Specimen/Virus/Type/Inactivated Virus (method unspecified)"
+    synthetic_specimen_virus_type_Live_Virus = "Specimen/Synthetic Specimen/Virus/Type/Live Virus"
+    synthetic_specimen_virus_type_Partial_Live_Virus = "Specimen/Synthetic Specimen/Virus/Type/Partial Live Virus"
+    test_descriptor__manufacturer_name = "Test manufacturer"
+    test_descriptor__test_name = "Test name"
+    test_technology = "Test technology"
+    validation_condition__author = "Author"
+    validation_condition__comparator_test = "-1"
+    validation_condition__date = "Date"
+    validation_condition__sample_volume = "-1"
+    validation_condition__specimen_type = "-1"
+    validation_condition__swab_type = "-1"
+    validation_condition__synthetic_specimen__clinical_matrix = "Specimen/Synthetic Specimen/Clinical matrix"
+    validation_condition__synthetic_specimen__clinical_matrix_source = "Specimen/Synthetic Specimen/Clinical matrix/Source"
+    validation_condition__synthetic_specimen__viral_material = "Specimen/Synthetic Specimen/Virus"
+    validation_condition__synthetic_specimen__viral_material_source = "Specimen/Synthetic Specimen/Virus/Source"
+    validation_condition__transport_medium = "-1"
+
+    #// This smells and suggests we should have kept the second layer of data_keys in conjunction with labels
+    _extra_url_to_IFU_or_EUA = "-2"
 
     error_label_ids = set([
         meta__not_specified,
@@ -90,8 +96,8 @@ class Labels:
 
 
 def annotation_contains_error_labels (annotation):
-    for label in annotation["labels"]:
-        if label["id"] in Labels.error_label_ids:
+    for label_id in annotation["labels"]:
+        if label_id in Labels.error_label_ids:
             return True
 
 
@@ -160,9 +166,9 @@ def get_synthetic_specimen__viral_material (annotations_by_label_id):
     types = []
 
     for annotation in annotations:
-        for label in annotation["labels"]:
-            if label["id"] in Labels.viral_material_type_label_ids:
-                parts = label["text"].split("/")
+        for label_id in annotation["labels"]:
+            if label_id in Labels.viral_material_type_label_ids:
+                parts = label_id.split("/")
                 types.append(parts[-1])
 
     return { "annotations": annotations, "data": { "types": types } }
@@ -311,8 +317,8 @@ def get_merged_data ():
         EUAs = fda_eua_row[10]
         url_to_IFU_or_EUA = EUAs[0] if EUAs else fda_eua_row[11]
 
-        anot8_org_file_id = get_anot8_org_file_id_from_FDA_url(url)
-        anot8_org_permalink = get_anot8_org_permalink(url)
+        anot8_org_file_id = get_anot8_org_file_id_from_FDA_url(url_to_IFU_or_EUA)
+        anot8_org_permalink = get_anot8_org_permalink_from_FDA_url(url_to_IFU_or_EUA)
 
         if test_id in fda_reference_panel_lod_data_by_test_id:
             fda_reference_panel_lod_data = fda_reference_panel_lod_data_by_test_id[test_id]
