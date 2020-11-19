@@ -16,121 +16,121 @@
 "width": "696px"
 },
 {
-"id": 1,
-"page_number": 3,
-"left": "430px",
-"top": "419px",
-"width": "359px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "known positive nasopharyngeal swab specimens",
+"comment": "",
+"height": "25px",
+"id": 1,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Live Virus"
 ],
-"comment": ""
+"left": "430px",
+"page_number": 3,
+"text": "known positive nasopharyngeal swab specimens",
+"top": "419px",
+"width": "359px"
 },
 {
-"id": 2,
-"page_number": 3,
-"left": "158px",
-"top": "464px",
-"width": "295px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "pooled, negative nasopharyngeal matrix",
+"comment": "",
+"height": "22px",
+"id": 2,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "158px",
+"page_number": 3,
+"text": "pooled, negative nasopharyngeal matrix",
+"top": "464px",
+"width": "295px"
 },
 {
-"id": 3,
-"page_number": 3,
-"left": "452px",
-"top": "441px",
-"width": "325px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Illinois Department of Public Health (IDPH)",
+"comment": "",
+"height": "23px",
+"id": 3,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": ""
+"left": "452px",
+"page_number": 3,
+"text": "Illinois Department of Public Health (IDPH)",
+"top": "441px",
+"width": "325px"
 },
 {
-"id": 4,
-"page_number": 3,
-"left": "445px",
-"top": "461px",
-"width": "13px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "26px",
+"id": 4,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "445px",
+"page_number": 3,
+"text": "",
+"top": "461px",
+"width": "13px"
 },
 {
-"id": 5,
-"page_number": 3,
-"left": "599px",
-"top": "484px",
-"width": "22px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "22px",
+"id": 5,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "599px",
+"page_number": 3,
+"text": "20",
+"top": "484px",
+"width": "22px"
 },
 {
-"id": 6,
-"page_number": 3,
-"left": "260px",
-"top": "525px",
-"width": "61px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "LOD may be 100 copies per μL as this is stated under the \"Controls\" section.  So perhaps 1:5000 means that the sample characterised by IDPH was 500,000 copies per μL?",
+"height": "23px",
+"id": 6,
 "labels": [
 "Limit of Detection (LOD)/Value",
 "Limit of Detection (LOD)/Units",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "260px",
+"page_number": 3,
+"text": "",
+"top": "525px",
+"width": "61px"
 },
 {
-"id": 7,
-"page_number": 2,
-"left": "392px",
-"top": "546px",
-"width": "127px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "RNase P (RP)",
+"comment": "",
+"height": "22px",
+"id": 7,
 "labels": [
 "Controls/Internal/Human gene target"
 ],
-"comment": ""
+"left": "392px",
+"page_number": 2,
+"text": "RNase P (RP)",
+"top": "546px",
+"width": "127px"
 },
 {
-"id": 8,
-"page_number": 1,
-"left": "104px",
-"top": "1000px",
-"width": "695px",
-"height": "43px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "primers and probes that were developed and validated by the U.S. Centers for Disease Control and Prevention",
+"comment": "Assuming this refers to one or more of the N genes and the identical primer / probe sequences",
+"height": "43px",
+"id": 8,
 "labels": [
 "Viral gene(s) targetted",
 "Primers and probes/Sequences"
 ],
-"comment": "Assuming this refers to one or more of the N genes and the identical primer / probe sequences"
+"left": "104px",
+"page_number": 1,
+"text": "primers and probes that were developed and validated by the U.S. Centers for Disease Control and Prevention",
+"top": "1000px",
+"width": "695px"
 }
 ],
 "comments": [],

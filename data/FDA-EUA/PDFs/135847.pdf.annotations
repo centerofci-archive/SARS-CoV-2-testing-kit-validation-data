@@ -2,186 +2,215 @@
 "file_sha1_hash": "a3b523008658be6054829d68096b60817b20cae4",
 "annotations": [
 {
-"id": 0,
-"page_number": 21,
-"left": "528px",
-"top": "212px",
-"width": "110px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "20px",
+"id": 0,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "528px",
+"page_number": 21,
+"text": "20",
+"top": "212px",
+"width": "110px"
 },
 {
-"id": 1,
-"page_number": 21,
-"left": "387px",
-"top": "247px",
-"width": "28px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "25",
+"comment": "Using bioMerieux NucliSENS easyMAG and EMAG extraction.",
+"height": "20px",
+"id": 1,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": "Using bioMerieux NucliSENS easyMAG and EMAG extraction."
+"left": "387px",
+"page_number": 21,
+"text": "25",
+"top": "247px",
+"width": "28px"
 },
 {
-"id": 2,
-"page_number": 21,
-"left": "411px",
-"top": "244px",
-"width": "189px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / reaction",
+"comment": "",
+"height": "26px",
+"id": 2,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
-},
-{
-"id": 3,
-"page_number": 7,
-"left": "115px",
-"top": "301px",
-"width": "219px",
-"height": "91px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "Curious this is listed first but LOD is 5 to 10 higher (less sensitive) - ref annotation 4",
-"labels": [],
-"comment": ""
-},
-{
-"id": 4,
+"left": "411px",
 "page_number": 21,
-"left": "103px",
-"top": "269px",
-"width": "685px",
-"height": "36px",
+"text": "genome copies / reaction",
+"top": "244px",
+"width": "189px"
+},
+{
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "250",
+"comment": "",
+"height": "91px",
+"id": 3,
+"labels": [],
+"left": "115px",
+"page_number": 7,
+"text": "Curious this is listed first but LOD is 5 to 10 higher (less sensitive) - ref annotation 4",
+"top": "301px",
+"width": "219px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "Using Qiagen EZ1 extraction.",
+"height": "36px",
+"id": 4,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": "Using Qiagen EZ1 extraction."
+"left": "103px",
+"page_number": 21,
+"text": "250",
+"top": "269px",
+"width": "685px"
 },
 {
-"id": 5,
-"page_number": 15,
-"left": "127px",
-"top": "908px",
-"width": "291px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "43px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "These instructions for negative control well will not allow for detection of cross contamination whilst in template addition room, a potentially important source of contamination and false positives.",
+"id": 5,
 "labels": [],
-"comment": ""
+"left": "127px",
+"page_number": 15,
+"text": "These instructions for negative control well will not allow for detection of cross contamination whilst in template addition room, a potentially important source of contamination and false positives.",
+"top": "908px",
+"width": "291px"
 },
 {
-"id": 6,
-"page_number": 16,
-"left": "345px",
-"top": "258px",
-"width": "28px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "23px",
+"id": 6,
 "labels": [
 "Nucleic acid amplification/Reaction/Volume in μL"
 ],
-"comment": ""
+"left": "345px",
+"page_number": 16,
+"text": "20",
+"top": "258px",
+"width": "28px"
 },
 {
-"id": 7,
-"page_number": 21,
-"left": "240px",
-"top": "155px",
-"width": "278px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "quantified whole viral genomic RNA",
+"comment": "",
+"height": "24px",
+"id": 7,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
+"left": "240px",
+"page_number": 21,
+"text": "quantified whole viral genomic RNA",
+"top": "155px",
+"width": "278px"
 },
 {
-"id": 8,
-"page_number": 21,
-"left": "492px",
-"top": "158px",
-"width": "41px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "19px",
+"id": 8,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "492px",
+"page_number": 21,
+"text": "",
+"top": "158px",
+"width": "41px"
 },
 {
-"id": 9,
-"page_number": 19,
-"left": "319px",
-"top": "191px",
-"width": "104px",
-"height": "27px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "N, N",
+"comment": "",
+"height": "27px",
+"id": 9,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "319px",
+"page_number": 19,
+"text": "N, N",
+"top": "191px",
+"width": "104px"
 },
 {
-"id": 10,
-"page_number": 3,
-"left": "142px",
-"top": "200px",
-"width": "371px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasopharyngeal/oropharyngeal swabs and sputa",
+"comment": "",
+"height": "24px",
+"id": 10,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "142px",
+"page_number": 3,
+"text": "nasopharyngeal/oropharyngeal swabs and sputa",
+"top": "200px",
+"width": "371px"
 },
 {
-"id": 11,
-"deleted": true
+"deleted": true,
+"id": 11
 },
 {
-"id": 12,
-"page_number": 4,
-"left": "101px",
-"top": "223.778px",
-"width": "210px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "RNase P (RP)",
+"comment": "",
+"height": "26px",
+"id": 12,
 "labels": [
 "Controls/Internal/Human gene target"
+],
+"left": "101px",
+"page_number": 4,
+"text": "RNase P (RP)",
+"top": "223.778px",
+"width": "210px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "31px",
+"id": 13,
+"labels": [
+"Primers and probes/Sequences",
+"Meta/Not specified"
+],
+"left": "415px",
+"page_number": 19,
+"text": "",
+"top": "186px",
+"width": "22px"
+},
+{
+"id": 14,
+"page_number": 21,
+"left": "102px",
+"top": "190px",
+"width": "193px",
+"height": "23px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "pooled sputum samples",
+"labels": [
+"Specimen/Synthetic Specimen/Clinical matrix"
 ],
 "comment": ""
 },
 {
-"id": 13,
-"page_number": 19,
-"left": "415px",
-"top": "186px",
-"width": "22px",
-"height": "31px",
+"id": 15,
+"page_number": 21,
+"left": "282px",
+"top": "190px",
+"width": "21px",
+"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
 "text": "",
 "labels": [
-"Primers and probes/Sequences",
+"Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
 "comment": ""

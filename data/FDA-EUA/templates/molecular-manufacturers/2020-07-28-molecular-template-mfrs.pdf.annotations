@@ -1,0 +1,43 @@
+{
+"file_sha1_hash": "50827ba3f5174971ebf37a8a0b5f997e07a336a8",
+"annotations": [
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "49px",
+"id": 0,
+"labels": [],
+"left": "187px",
+"page_number": 20,
+"text": "If your assay is highly sensitive as determined by testing with the FDA SARSCoV-2 Reference Panel or a recognized international standard",
+"top": "346px",
+"width": "629px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "89px",
+"id": 1,
+"labels": [],
+"left": "185px",
+"page_number": 20,
+"text": "If you do not have access to either the FDA SARS-CoV-2 Reference Panel or a recognized international standard then please contact [the FDA]",
+"top": "619px",
+"width": "617px"
+},
+{
+"id": 2,
+"page_number": 12,
+"left": "161px",
+"top": "313px",
+"width": "640px",
+"height": "72px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "inactivated virus most closely reflects live virus in a clinical sample. If you are unable to acquire inactivated virus, FDA believes that viral genomic RNA is the next best material",
+"labels": [],
+"comment": ""
+}
+],
+"comments": [],
+"schema_version": 5
+}
