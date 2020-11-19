@@ -1193,6 +1193,13 @@ function populate_table_body (headers: HEADERS, data_rows: DATA_ROW[])
 
 function update_progress ()
 {
+    const display_progress = localStorage.getItem("display_progress")
+    if (!display_progress)
+    {
+        console.log(`Skipping update_progress.  To display use: localStorage.setItem("display_progress", "1")`)
+        return
+    }
+
     const progress_el = document.getElementById("progress")
 
     const tbody = document.getElementsByTagName("tbody")[0]
@@ -1234,11 +1241,11 @@ const used_annotation_labels = Array.from(get_used_annotation_labels(annotation_
 report_on_unused_labels(used_annotation_labels)
 let data_rows = reformat_fda_eua_parsed_data_as_rows(fda_eua_parsed_data)
 data_rows.forEach(row => add_data_from_annotations(row, annotation_files_by_test_id, labels))
-// temporarily filter out rows from
+// temporarily filter out rows of serology tests
 data_rows = data_rows.filter(d => {
     const tech = (d["Test technology"].data.value as string).toLowerCase()
     // Finds most of the them.
-    const remove = tech.includes("serology") || tech.includes("igg") || tech.includes("igm")
+    const remove = tech.includes("serology") || tech.includes("igg") || tech.includes("igm") || tech.includes("total antibody") || tech.includes("immunoassay")
     return !remove
 })
 populate_table_body(headers, data_rows)

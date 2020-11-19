@@ -927,6 +927,11 @@ function populate_table_body(headers, data_rows) {
     // //console.log(JSON.stringify(data_for_export, null, 2))
 }
 function update_progress() {
+    var display_progress = localStorage.getItem("display_progress");
+    if (!display_progress) {
+        console.log("Skipping update_progress.  To display use: localStorage.setItem(\"display_progress\", \"1\")");
+        return;
+    }
     var progress_el = document.getElementById("progress");
     var tbody = document.getElementsByTagName("tbody")[0];
     var total_rows = tbody.children.length;
@@ -955,11 +960,11 @@ var used_annotation_labels = Array.from(get_used_annotation_labels(annotation_fi
 report_on_unused_labels(used_annotation_labels);
 var data_rows = reformat_fda_eua_parsed_data_as_rows(fda_eua_parsed_data);
 data_rows.forEach(function (row) { return add_data_from_annotations(row, annotation_files_by_test_id, labels); });
-// temporarily filter out rows from
+// temporarily filter out rows of serology tests
 data_rows = data_rows.filter(function (d) {
     var tech = d["Test technology"].data.value.toLowerCase();
     // Finds most of the them.
-    var remove = tech.includes("serology") || tech.includes("igg") || tech.includes("igm");
+    var remove = tech.includes("serology") || tech.includes("igg") || tech.includes("igm") || tech.includes("total antibody") || tech.includes("immunoassay");
     return !remove;
 });
 populate_table_body(headers, data_rows);
