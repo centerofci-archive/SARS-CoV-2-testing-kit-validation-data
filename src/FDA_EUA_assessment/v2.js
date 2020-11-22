@@ -394,7 +394,8 @@ function render_table_body(table_fields, data_rows) {
         var row = tbody_el.insertRow();
         iterate_lowest_table_field(table_fields, function (table_field) {
             var cell = row.insertCell();
-            cell.className = table_field.hidden ? "hidden" : "";
+            cell.className = table_field.hidden ? "hidden value_el" : "value_el";
+            cell.addEventListener("click", function () { return cell.classList.toggle("expanded"); });
             if (!table_field.value_renderer)
                 return;
             var contents = table_field.value_renderer(data_row);

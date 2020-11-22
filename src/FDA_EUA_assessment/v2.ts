@@ -494,7 +494,8 @@ function render_table_body (table_fields: TABLE_FIELDS, data_rows: DATA_ROW[])
         iterate_lowest_table_field(table_fields, (table_field: TABLE_FIELD) =>
         {
             const cell = row.insertCell()
-            cell.className = table_field.hidden ? "hidden" : ""
+            cell.className = table_field.hidden ? "hidden value_el" : "value_el"
+            cell.addEventListener("click", () => cell.classList.toggle("expanded"))
 
             if (!table_field.value_renderer) return
 
