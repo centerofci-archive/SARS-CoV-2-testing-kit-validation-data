@@ -55,7 +55,7 @@ var labels = {
     validation_condition__synthetic_specimen__viral_material_source: "Specimen/Synthetic Specimen/Virus/Source",
     validation_condition__transport_medium: "-1",
     // This smells and suggests we should have kept the second layer of data_keys in conjunction with labels
-    _extra_url_to_IFU_or_EUA: "-2"
+    _extra_url_to_IFU_or_EUA: "-2",
 };
 var LABELS__META__NOT_SPECIFIED = [
     labels.meta__not_specified,
@@ -141,27 +141,27 @@ function reformat_fda_eua_parsed_data_as_rows(fda_eua_parsed_data) {
             },
             _a[labels.validation_condition__date] = {
                 annotations: [],
-                data: { value: date }
+                data: { value: date },
             },
             _a[labels.test_descriptor__test_name] = {
                 annotations: [],
-                data: { value: test_name }
+                data: { value: test_name },
             },
             _a[labels.test_descriptor__manufacturer_name] = {
                 annotations: [],
-                data: { value: manufacturer_name }
+                data: { value: manufacturer_name },
             },
             _a[labels.test_technology] = {
                 annotations: [],
-                data: { value: test_technology }
+                data: { value: test_technology },
             },
             _a[labels.validation_condition__author] = {
                 annotations: [],
-                data: { value: "self" }
+                data: { value: "self" },
             },
             _a[labels._extra_url_to_IFU_or_EUA] = {
                 annotations: [],
-                data: { value: anot8_org_file_id }
+                data: { value: anot8_org_file_id },
             },
             _a);
         return row;
@@ -354,17 +354,17 @@ var headers = [
         children: [
             {
                 title: "Name",
-                label: labels.test_descriptor__manufacturer_name
+                label: labels.test_descriptor__manufacturer_name,
             },
             {
                 title: "Test name",
-                label: labels.test_descriptor__test_name
+                label: labels.test_descriptor__test_name,
             },
             {
                 title: "IFU or EUA",
-                label: labels._extra_url_to_IFU_or_EUA
+                label: labels._extra_url_to_IFU_or_EUA,
             }
-        ]
+        ],
     },
     {
         title: "Claims",
@@ -373,7 +373,7 @@ var headers = [
         children: [
             {
                 title: "Test technology",
-                label: labels.test_technology
+                label: labels.test_technology,
             },
             {
                 title: "Specimens",
@@ -381,11 +381,11 @@ var headers = [
                 children: [
                     {
                         title: "Supported specimen types",
-                        label: labels.claims__specimen__supported_types
+                        label: labels.claims__specimen__supported_types,
                     },
                     {
                         title: "Transport medium",
-                        label: labels.claims__specimen__transport_medium
+                        label: labels.claims__specimen__transport_medium,
                     },
                 ]
             },
@@ -396,7 +396,7 @@ var headers = [
                 //      * pooled samples
                 //      * general, asymptomatic screening population i.e. screening of individuals without symptoms or other reasons to suspect COVID-19
                 label: null,
-                hidden: true
+                hidden: true,
             },
             {
                 // Not in May 13th version of FDA EUA template
@@ -404,17 +404,17 @@ var headers = [
                 label: null,
                 hidden: true,
                 children: [
-                    { title: "Approach", label: null, hidden: true },
-                    { title: "Max no. specimens", label: null, hidden: true },
+                    { title: "Approach", label: null, hidden: true, },
+                    { title: "Max no. specimens", label: null, hidden: true, },
                 ]
             },
-            { title: "Target gene(s) of SARS-CoV-2", label: labels.claims__target_viral_genes },
+            { title: "Target gene(s) of SARS-CoV-2", label: labels.claims__target_viral_genes, },
             {
                 title: "Primers and probes",
                 label: null,
                 children: [
-                    { title: "Sequences", label: labels.claims__primers_and_probes__sequences },
-                    { title: "Sources", label: labels.claims__primers_and_probes__sources, hidden: true },
+                    { title: "Sequences", label: labels.claims__primers_and_probes__sequences, },
+                    { title: "Sources", label: labels.claims__primers_and_probes__sources, hidden: true, },
                 ]
             },
             {
@@ -422,7 +422,7 @@ var headers = [
                 // i.e. can include more than just SARS-CoV-2
                 title: "Detects pathogen(s)",
                 label: null,
-                hidden: true
+                hidden: true,
             },
             {
                 title: "Limit of Detection (LOD)",
@@ -430,15 +430,15 @@ var headers = [
                 children: [
                     {
                         title: "value",
-                        label: labels.claims__limit_of_detection__value
+                        label: labels.claims__limit_of_detection__value,
                     },
                     {
                         title: "units",
-                        label: labels.claims__limit_of_detection__units
+                        label: labels.claims__limit_of_detection__units,
                     },
                     {
                         title: "Minimum replicates",
-                        label: labels.claims__limit_of_detection__minimum_replicates
+                        label: labels.claims__limit_of_detection__minimum_replicates,
                     },
                 ]
             },
@@ -446,9 +446,9 @@ var headers = [
                 title: "Intended user",
                 // e.g. CLIA labs
                 label: null,
-                hidden: true
+                hidden: true,
             },
-            { title: "Compatible equipment", label: null, hidden: true },
+            { title: "Compatible equipment", label: null, hidden: true, },
             // {
             // Product Overview/Test Principle...
             //     // primer and probe sets and briefly describe what they detect. Please include the nucleic acid sequences for all primers and probes used in the test. Please indicate if the test uses biotin-Streptavidin/avidin chemistry
@@ -457,44 +457,44 @@ var headers = [
                 title: "Controls",
                 label: null,
                 children: [
-                    { title: "Human gene", label: labels.claims__controls__internal__human_gene_target },
+                    { title: "Human gene", label: labels.claims__controls__internal__human_gene_target, },
                 ]
             },
             {
                 title: "RNA extraction",
                 label: null,
                 children: [
-                    { title: "Specimen input volume", label: null, hidden: true },
-                    { title: "RNA extraction method(s)", label: null, hidden: true },
-                    { title: "Nucleic acid elution volume", label: null, hidden: true },
-                    { title: "Purification manual &/ automated", label: null, hidden: true },
+                    { title: "Specimen input volume", label: null, hidden: true, },
+                    { title: "RNA extraction method(s)", label: null, hidden: true, },
+                    { title: "Nucleic acid elution volume", label: null, hidden: true, },
+                    { title: "Purification manual &/ automated", label: null, hidden: true, },
                 ]
             },
             {
                 title: "Reverse transcription",
                 label: null,
                 children: [
-                    { title: "Input volume", label: null, hidden: true },
-                    { title: "Enzyme mix / kits", label: null, hidden: true },
+                    { title: "Input volume", label: null, hidden: true, },
+                    { title: "Enzyme mix / kits", label: null, hidden: true, },
                 ]
             },
             {
                 title: "PCR / amplification",
                 label: null,
                 children: [
-                    { title: "Instrument", label: null, hidden: true },
-                    { title: "Enzyme mix / kits", label: null, hidden: true },
-                    { title: "Reaction volume / μL", label: labels.claims__reaction_volume_uL },
+                    { title: "Instrument", label: null, hidden: true, },
+                    { title: "Enzyme mix / kits", label: null, hidden: true, },
+                    { title: "Reaction volume / μL", label: labels.claims__reaction_volume_uL, },
                 ]
             },
             {
                 title: "PCR quantification fluoresence detection",
                 label: null,
                 children: [
-                    { title: "Instrument", label: null, hidden: true },
+                    { title: "Instrument", label: null, hidden: true, },
                 ]
             },
-        ]
+        ],
     },
     {
         title: "Validation conditions",
@@ -503,30 +503,30 @@ var headers = [
         children: [
             {
                 title: "Author",
-                label: labels.validation_condition__author
+                label: labels.validation_condition__author,
             },
             {
                 title: "Date",
-                label: labels.validation_condition__date
+                label: labels.validation_condition__date,
             },
             {
                 title: "Patient details",
                 label: null,
                 children: [
-                    { title: "Age", label: null, hidden: true },
-                    { title: "Race", label: null, hidden: true },
-                    { title: "Gender", label: null, hidden: true },
+                    { title: "Age", label: null, hidden: true, },
+                    { title: "Race", label: null, hidden: true, },
+                    { title: "Gender", label: null, hidden: true, },
                 ]
             },
-            { title: "Disease stage", label: null, hidden: true },
+            { title: "Disease stage", label: null, hidden: true, },
             {
                 title: "Synthetic Specimen",
                 label: null,
                 children: [
-                    { title: "Viral material", label: labels.validation_condition__synthetic_specimen__viral_material },
-                    { title: "Viral material source", label: labels.validation_condition__synthetic_specimen__viral_material_source },
-                    { title: "Clinical matrix", label: labels.validation_condition__synthetic_specimen__clinical_matrix },
-                    { title: "Clinical matrix source", label: labels.validation_condition__synthetic_specimen__clinical_matrix_source },
+                    { title: "Viral material", label: labels.validation_condition__synthetic_specimen__viral_material, },
+                    { title: "Viral material source", label: labels.validation_condition__synthetic_specimen__viral_material_source, },
+                    { title: "Clinical matrix", label: labels.validation_condition__synthetic_specimen__clinical_matrix, },
+                    { title: "Clinical matrix source", label: labels.validation_condition__synthetic_specimen__clinical_matrix_source, },
                 ]
             },
             {
@@ -536,32 +536,32 @@ var headers = [
                     {
                         title: "Type",
                         label: labels.validation_condition__specimen_type,
-                        hidden: true
+                        hidden: true,
                     },
                     {
                         title: "Swab type",
                         label: labels.validation_condition__swab_type,
-                        hidden: true
+                        hidden: true,
                     },
                     {
                         title: "Transport medium",
                         label: labels.validation_condition__transport_medium,
-                        hidden: true
+                        hidden: true,
                     },
                     {
                         title: "Sample volume",
                         label: labels.validation_condition__sample_volume,
-                        hidden: true
+                        hidden: true,
                     },
                 ]
             },
-        ]
+        ],
     },
     {
         title: "Overall score",
         label: null,
         category: "metric",
-        hidden: true
+        hidden: true,
     },
     {
         title: "Metrics",
@@ -575,19 +575,19 @@ var headers = [
                     {
                         title: "Positives",
                         label: labels.metrics__num_clinical_samples__positive,
-                        hidden: true
+                        hidden: true,
                     },
                     {
                         title: "Controls (negatives)",
                         label: labels.metrics__num_clinical_samples__negative_controls,
-                        hidden: true
+                        hidden: true,
                     },
                 ]
             },
             {
                 title: "Comparator test",
                 label: labels.validation_condition__comparator_test,
-                hidden: true
+                hidden: true,
             },
             {
                 title: "Confusion matrix",
@@ -596,33 +596,33 @@ var headers = [
                     {
                         title: "True positives",
                         label: labels.metrics__confusion_matrix__true_positives,
-                        hidden: true
+                        hidden: true,
                     },
                     {
                         title: "False negatives",
                         label: labels.metrics__confusion_matrix__false_negatives,
-                        hidden: true
+                        hidden: true,
                     },
                     {
                         title: "True negatives",
                         label: labels.metrics__confusion_matrix__true_negatives,
-                        hidden: true
+                        hidden: true,
                     },
                     {
                         title: "False positives",
                         label: labels.metrics__confusion_matrix__false_positives,
-                        hidden: true
+                        hidden: true,
                     },
                 ]
             },
-        ]
+        ],
     },
     {
         title: "Derived values",
         label: null,
         category: "derived_values",
         children: [],
-        hidden: true
+        hidden: true,
     },
 ];
 function update_header(headers, columns_hidden) {
@@ -789,7 +789,7 @@ function lod_value_handler(data_node) {
         return {
             string: "",
             refs: [],
-            data: { not_specified: true }
+            data: { not_specified: true },
         };
     }
     var same = min === max;
@@ -830,7 +830,7 @@ function synthetic_specimen__viral_material_value_handler(data_node) {
 function link_value_handler(data_node) {
     var anot8_org_file_id = data_node.data.value;
     var pseudo_annotation = {
-        anot8_org_file_id: anot8_org_file_id
+        anot8_org_file_id: anot8_org_file_id,
     };
     var refs = [ref_link(pseudo_annotation)];
     return { string: "", refs: refs, data: { value: anot8_org_file_id } };

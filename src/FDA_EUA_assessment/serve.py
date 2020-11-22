@@ -11,8 +11,8 @@ app = Flask(__name__)
 
 
 @app.route("/")
-def index():
-    html_file_path = dir_path + "/index.html"
+def index ():
+    html_file_path = dir_path + "/v1.html"
     with open(html_file_path, "r", encoding="utf8") as f:
         html_contents = f.read()
 
@@ -30,7 +30,7 @@ def index():
 
     annotation_files_by_test_id = get_annotation_files_by_test_id(fda_eua_parsed_data)
 
-    src_file_path = dir_path + "/src.js"
+    src_file_path = dir_path + "/v1.js"
     with open(src_file_path, "r", encoding="utf8") as f:
         src = f.read()
 
@@ -39,27 +39,3 @@ def index():
     html_contents = html_contents.replace("\"<SRC>\"", src)
 
     return html_contents
-
-
-# @app.route("/media/<int:file_id>/download")
-# def media(file_id):
-#     file_path = "../data/FDA-EUA/PDFs/{}.pdf".format(file_id)
-
-#     if not os.path.isfile(file_path):
-#         return """<html>
-#         <body>
-#             <h1>404</h1>
-#             <p>File does not exist.  Try:
-#                 <a href="{url}">{url}</a>
-#             </p>
-#         </body>
-#         </html>""".format(url="https://www.fda.gov/media/{}/download".format(file_id))
-
-#     with open(file_path, "rb") as f:
-#         binary_pdf = f.read()
-
-#     response = make_response(binary_pdf)
-#     response.headers['Content-Type'] = 'application/pdf'
-#     response.headers['Content-Disposition'] = \
-#         'inline; filename=%s.pdf' % 'yourfilename'
-#     return response
