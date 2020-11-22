@@ -1,46 +1,61 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.v2 = void 0;
-var headers = [
+var value_renderer_EUA_URL = function (d) {
+    var parsed = "<a href=\"" + d.FDA_EUAs_list.url_to_IFU_or_EUA + "\">R</a>";
+    return { parsed: parsed };
+};
+var value_renderer_LOD = function (d) {
+    var min = d.self_declared_EUA_data.lod_min;
+    var max = d.self_declared_EUA_data.lod_max;
+    var parsed = min.toString();
+    if (min !== max) {
+        parsed = min + " &lt;-&gt; " + max;
+    }
+    return {
+        parsed: parsed
+    };
+};
+var table_fields = [
     {
         title: "Developer",
-        accessor: null,
+        value_renderer: null,
         category: "test_descriptor",
         children: [
             {
                 title: "Name",
-                accessor: function (d) { return d.FDA_EUAs_list.developer_name; },
+                value_renderer: function (d) { return ({ raw: d.FDA_EUAs_list.developer_name }); },
             },
             {
                 title: "Test name",
-                accessor: function (d) { return d.FDA_EUAs_list.test_name; },
+                value_renderer: function (d) { return ({ raw: d.FDA_EUAs_list.test_name }); },
             },
             {
                 title: "IFU or EUA",
-                accessor: function (d) { return d.FDA_EUAs_list.url_to_IFU_or_EUA; },
+                value_renderer: value_renderer_EUA_URL,
             }
         ],
     },
     {
         title: "Claims",
-        accessor: null,
+        value_renderer: null,
         category: "test_claims",
         children: [
             {
                 title: "Test technology",
-                accessor: function (d) { return d.FDA_EUAs_list.test_technology; },
+                value_renderer: function (d) { return ({ raw: d.FDA_EUAs_list.test_technology }); },
             },
             {
                 title: "Specimens",
-                accessor: null,
+                value_renderer: null,
                 children: [
                     {
                         title: "Supported specimen types",
-                        accessor: null /**/,
+                        value_renderer: null /**/,
                     },
                     {
                         title: "Transport medium",
-                        accessor: null,
+                        value_renderer: null,
                     },
                 ]
             },
@@ -50,180 +65,176 @@ var headers = [
                 // e.g. * patients suspected of COVID-19 by a healthcare provider
                 //      * pooled samples
                 //      * general, asymptomatic screening population i.e. screening of individuals without symptoms or other reasons to suspect COVID-19
-                accessor: null,
+                value_renderer: null,
                 hidden: true,
             },
             {
                 // Not in May 13th version of FDA EUA template
                 title: "Sample pooling",
-                accessor: null,
+                value_renderer: null,
                 hidden: true,
                 children: [
-                    { title: "Approach", accessor: null, hidden: true, },
-                    { title: "Max no. specimens", accessor: null, hidden: true, },
+                    { title: "Approach", value_renderer: null, hidden: true, },
+                    { title: "Max no. specimens", value_renderer: null, hidden: true, },
                 ]
             },
-            { title: "Target gene(s) of SARS-CoV-2", accessor: null /**/, },
+            { title: "Target gene(s) of SARS-CoV-2", value_renderer: null /**/, },
             {
                 title: "Primers and probes",
-                accessor: null,
+                value_renderer: null,
                 children: [
-                    { title: "Sequences", accessor: null /**/, },
-                    { title: "Sources", accessor: null /**/, hidden: true, },
+                    { title: "Sequences", value_renderer: null /**/, },
+                    { title: "Sources", value_renderer: null /**/, hidden: true, },
                 ]
             },
             {
                 // Not in May 13th version of FDA EUA template
                 // i.e. can include more than just SARS-CoV-2
                 title: "Detects pathogen(s)",
-                accessor: null,
+                value_renderer: null,
                 hidden: true,
             },
             {
                 title: "Limit of Detection (LOD)",
-                accessor: null,
+                value_renderer: null,
                 children: [
                     {
                         title: "value",
-                        accessor: function (d) {
-                            var min = d.self_declared_EUA_data.lod_min;
-                            var max = d.self_declared_EUA_data.lod_max;
-                            if (min === max)
-                                return min.toString();
-                            return min + " <-> " + max;
-                        },
+                        value_renderer: value_renderer_LOD,
                     },
                     {
                         title: "units",
-                        accessor: function (d) { return d.self_declared_EUA_data.lod_units; },
+                        value_renderer: function (d) { return ({ raw: d.self_declared_EUA_data.lod_units }); },
                     },
                     {
                         title: "Minimum replicates",
-                        accessor: null /*d => d.self_declared_EUA_data.*/,
+                        value_renderer: null /*d => ({ raw: d.self_declared_EUA_data.}) */,
                     },
                 ]
             },
             {
                 title: "Intended user",
                 // e.g. CLIA labs
-                accessor: null,
+                value_renderer: null,
                 hidden: true,
             },
-            { title: "Compatible equipment", accessor: null, hidden: true, },
+            { title: "Compatible equipment", value_renderer: null, hidden: true, },
             // {
             // Product Overview/Test Principle...
             //     // primer and probe sets and briefly describe what they detect. Please include the nucleic acid sequences for all primers and probes used in the test. Please indicate if the test uses biotin-Streptavidin/avidin chemistry
             // },
             {
                 title: "Controls",
-                accessor: null,
+                value_renderer: null,
                 children: [
-                    { title: "Human gene", accessor: null /**/, },
+                    { title: "Human gene", value_renderer: null /**/, },
                 ]
             },
             {
                 title: "RNA extraction",
-                accessor: null,
+                value_renderer: null,
                 children: [
-                    { title: "Specimen input volume", accessor: null, hidden: true, },
-                    { title: "RNA extraction method(s)", accessor: null, hidden: true, },
-                    { title: "Nucleic acid elution volume", accessor: null, hidden: true, },
-                    { title: "Purification manual &/ automated", accessor: null, hidden: true, },
+                    { title: "Specimen input volume", value_renderer: null, hidden: true, },
+                    { title: "RNA extraction method(s)", value_renderer: null, hidden: true, },
+                    { title: "Nucleic acid elution volume", value_renderer: null, hidden: true, },
+                    { title: "Purification manual &/ automated", value_renderer: null, hidden: true, },
                 ]
             },
             {
                 title: "Reverse transcription",
-                accessor: null,
+                value_renderer: null,
                 children: [
-                    { title: "Input volume", accessor: null, hidden: true, },
-                    { title: "Enzyme mix / kits", accessor: null, hidden: true, },
+                    { title: "Input volume", value_renderer: null, hidden: true, },
+                    { title: "Enzyme mix / kits", value_renderer: null, hidden: true, },
                 ]
             },
             {
                 title: "PCR / amplification",
-                accessor: null,
+                value_renderer: null,
                 children: [
-                    { title: "Instrument", accessor: null, hidden: true, },
-                    { title: "Enzyme mix / kits", accessor: null, hidden: true, },
-                    { title: "Reaction volume / μL", accessor: null /**/, },
+                    { title: "Instrument", value_renderer: null, hidden: true, },
+                    { title: "Enzyme mix / kits", value_renderer: null, hidden: true, },
+                    { title: "Reaction volume / μL", value_renderer: null /**/, },
                 ]
             },
             {
                 title: "PCR quantification fluoresence detection",
-                accessor: null,
+                value_renderer: null,
                 children: [
-                    { title: "Instrument", accessor: null, hidden: true, },
+                    { title: "Instrument", value_renderer: null, hidden: true, },
                 ]
             },
         ],
     },
     {
         title: "Validation conditions",
-        accessor: null,
+        value_renderer: null,
         category: "validation_condition",
         children: [
             {
                 title: "Author",
-                accessor: function (d) { return "self"; },
+                value_renderer: function (d) { return ({ parsed: "self" }); },
             },
             {
                 title: "Date",
-                accessor: function (d) { return d.FDA_EUAs_list.first_issued_date; },
+                value_renderer: function (d) { return ({ raw: d.FDA_EUAs_list.first_issued_date }); },
             },
             {
                 title: "Patient details",
-                accessor: null,
+                value_renderer: null,
                 children: [
-                    { title: "Age", accessor: null, hidden: true, },
-                    { title: "Race", accessor: null, hidden: true, },
-                    { title: "Gender", accessor: null, hidden: true, },
+                    { title: "Age", value_renderer: null, hidden: true, },
+                    { title: "Race", value_renderer: null, hidden: true, },
+                    { title: "Gender", value_renderer: null, hidden: true, },
                 ]
             },
-            { title: "Disease stage", accessor: null, hidden: true, },
+            { title: "Disease stage", value_renderer: null, hidden: true, },
             {
                 title: "Synthetic Specimen",
-                accessor: null,
+                value_renderer: null,
                 children: [
                     {
                         title: "Viral material",
-                        accessor: function (d) { return d.self_declared_EUA_data.synthetic_specimen__viral_material.join(", "); },
+                        value_renderer: function (d) { return ({
+                            raw: d.self_declared_EUA_data.synthetic_specimen__viral_material.join(", ")
+                        }); },
                     },
                     {
                         title: "Viral material source",
-                        accessor: null /**/,
+                        value_renderer: null /**/,
                     },
                     {
                         title: "Clinical matrix",
-                        accessor: null /**/,
+                        value_renderer: null /**/,
                     },
                     {
                         title: "Clinical matrix source",
-                        accessor: null /**/,
+                        value_renderer: null /**/,
                     },
                 ]
             },
             {
                 title: "Specimen",
-                accessor: null,
+                value_renderer: null,
                 children: [
                     {
                         title: "Type",
-                        accessor: null /**/,
+                        value_renderer: null /**/,
                         hidden: true,
                     },
                     {
                         title: "Swab type",
-                        accessor: null /**/,
+                        value_renderer: null /**/,
                         hidden: true,
                     },
                     {
                         title: "Transport medium",
-                        accessor: null /**/,
+                        value_renderer: null /**/,
                         hidden: true,
                     },
                     {
                         title: "Sample volume",
-                        accessor: null /**/,
+                        value_renderer: null /**/,
                         hidden: true,
                     },
                 ]
@@ -232,52 +243,52 @@ var headers = [
     },
     {
         title: "Metrics",
-        accessor: null,
+        value_renderer: null,
         category: "metric",
         children: [
             {
                 title: "Number of clinical samples",
-                accessor: null,
+                value_renderer: null,
                 children: [
                     {
                         title: "Positives",
-                        accessor: null /**/,
+                        value_renderer: null /**/,
                         hidden: true,
                     },
                     {
                         title: "Controls (negatives)",
-                        accessor: null /**/,
+                        value_renderer: null /**/,
                         hidden: true,
                     },
                 ]
             },
             {
                 title: "Comparator test",
-                accessor: null /**/,
+                value_renderer: null /**/,
                 hidden: true,
             },
             {
                 title: "Confusion matrix",
-                accessor: null,
+                value_renderer: null,
                 children: [
                     {
                         title: "True positives",
-                        accessor: null /**/,
+                        value_renderer: null /**/,
                         hidden: true,
                     },
                     {
                         title: "False negatives",
-                        accessor: null /**/,
+                        value_renderer: null /**/,
                         hidden: true,
                     },
                     {
                         title: "True negatives",
-                        accessor: null /**/,
+                        value_renderer: null /**/,
                         hidden: true,
                     },
                     {
                         title: "False positives",
-                        accessor: null /**/,
+                        value_renderer: null /**/,
                         hidden: true,
                     },
                 ]
@@ -286,21 +297,21 @@ var headers = [
     },
     {
         title: "Derived values",
-        accessor: null,
+        value_renderer: null,
         category: "derived_values",
         children: [],
         hidden: true,
     },
 ];
-function update_header(headers, columns_hidden) {
+function update_header(table_fields, columns_hidden) {
     var table_el = document.getElementById("data_table");
     var thead_el = table_el.getElementsByTagName("thead")[0];
     thead_el.innerHTML = "";
     var row1 = thead_el.insertRow();
     var row2 = thead_el.insertRow();
     var row3 = thead_el.insertRow();
-    for (var i1 = 0; i1 < headers.length; ++i1) {
-        var element1 = headers[i1];
+    for (var i1 = 0; i1 < table_fields.length; ++i1) {
+        var element1 = table_fields[i1];
         var className = element1.category + " header_label";
         var row1_width = 0;
         var row1_height = 1;
@@ -342,7 +353,7 @@ function update_header(headers, columns_hidden) {
         cell1.className = className + (((columns_hidden && element1.hidden) || (row1_width === 0)) ? " hidden" : "");
     }
 }
-function activate_options(headers) {
+function activate_options(table_fields) {
     var cells_expanded = false;
     document.getElementById("toggle_expanded_cells").onclick = function () {
         cells_expanded = !cells_expanded;
@@ -356,11 +367,11 @@ function activate_options(headers) {
     };
     var columns_hidden = true;
     update_computed_styles(columns_hidden);
-    update_header(headers, columns_hidden);
+    update_header(table_fields, columns_hidden);
     document.getElementById("toggle_hidden_columns").onclick = function () {
         columns_hidden = !columns_hidden;
         update_computed_styles(columns_hidden);
-        update_header(headers, columns_hidden);
+        update_header(table_fields, columns_hidden);
     };
 }
 function update_computed_styles(columns_hidden) {
@@ -376,26 +387,35 @@ function filter_data_rows_to_remove_serology(data_rows) {
     });
     return filtered_data_rows;
 }
-function render_table_body(headers, data_rows) {
+function render_table_body(table_fields, data_rows) {
     var table_el = document.getElementById("data_table");
     var tbody_el = table_el.getElementsByTagName("tbody")[0];
     data_rows.forEach(function (data_row, i) {
         var row = tbody_el.insertRow();
-        iterate_lowest_header(headers, function (header) {
+        iterate_lowest_table_field(table_fields, function (table_field) {
             var cell = row.insertCell();
-            cell.className = header.hidden ? "hidden" : "";
-            if (!header.accessor)
+            cell.className = table_field.hidden ? "hidden" : "";
+            if (!table_field.value_renderer)
                 return;
-            var contents = header.accessor(data_row);
-            if (!contents)
-                return;
-            cell.innerText = contents;
+            var contents = table_field.value_renderer(data_row);
+            var raw_el = document.createElement("div");
+            var parsed_el = document.createElement("div");
+            var comments_el = document.createElement("div");
+            var references_el = document.createElement("div");
+            raw_el.innerHTML = contents.raw || "";
+            parsed_el.innerHTML = contents.parsed || "";
+            comments_el.innerHTML = contents.comments || "";
+            references_el.innerHTML = contents.references || "";
+            cell.appendChild(raw_el);
+            cell.appendChild(parsed_el);
+            cell.appendChild(comments_el);
+            cell.appendChild(references_el);
         });
     });
 }
-function iterate_lowest_header(headers, func) {
-    for (var i1 = 0; i1 < headers.length; ++i1) {
-        var element1 = headers[i1];
+function iterate_lowest_table_field(table_fields, func) {
+    for (var i1 = 0; i1 < table_fields.length; ++i1) {
+        var element1 = table_fields[i1];
         if (!(element1.children && element1.children.length)) {
             func(element1);
         }
@@ -419,9 +439,9 @@ function hide_loading_status() {
 }
 // Smells as it contains update for table header due to colspan not being under CSS control
 // Need proper state / store manager
-activate_options(headers);
+activate_options(table_fields);
 var filtered_data = filter_data_rows_to_remove_serology(merged_data);
-render_table_body(headers, filtered_data);
+render_table_body(table_fields, filtered_data);
 hide_loading_status();
 var v2 = 2;
 exports.v2 = v2;
