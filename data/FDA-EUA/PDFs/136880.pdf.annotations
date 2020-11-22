@@ -172,46 +172,46 @@
 "width": "41px"
 },
 {
-"id": 12,
-"page_number": 5,
-"left": "160px",
-"top": "634px",
-"width": "136px",
-"height": "76px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "E",
+"comment": "",
+"height": "76px",
+"id": 12,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "160px",
+"page_number": 5,
+"text": "E",
+"top": "634px",
+"width": "136px"
 },
 {
-"id": 13,
-"page_number": 5,
-"left": "301px",
-"top": "641px",
-"width": "335px",
-"height": "94px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "Explicitly specified",
+"height": "94px",
+"id": 13,
 "labels": [
 "Primers and probes/Sequences"
 ],
-"comment": ""
+"left": "301px",
+"page_number": 5,
+"text": "",
+"top": "641px",
+"width": "335px"
 },
 {
-"id": 14,
-"page_number": 3,
-"left": "322px",
-"top": "696px",
-"width": "68px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Albumin",
+"comment": "",
+"height": "22px",
+"id": 14,
 "labels": [
 "Controls/Internal/Human gene target"
 ],
-"comment": ""
+"left": "322px",
+"page_number": 3,
+"text": "Albumin",
+"top": "696px",
+"width": "68px"
 }
 ],
 "comments": [],

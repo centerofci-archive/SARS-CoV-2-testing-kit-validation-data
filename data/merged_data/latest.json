@@ -517,7 +517,9 @@
       "lod_min": 0.1,
       "lod_max": 0.15,
       "lod_units": "genome copies / μL",
-      "synthetic_specimen__viral_material": []
+      "synthetic_specimen__viral_material": [
+        "Meta/Not specified"
+      ]
     }
   },
   {
@@ -1180,7 +1182,9 @@
       "lod_min": 0.5,
       "lod_max": 0.5,
       "lod_units": "genome copies / μL",
-      "synthetic_specimen__viral_material": []
+      "synthetic_specimen__viral_material": [
+        "Meta/Not specified"
+      ]
     }
   },
   {
@@ -5353,7 +5357,9 @@
       "lod_min": 0.3,
       "lod_max": 0.3,
       "lod_units": "genome copies / μL",
-      "synthetic_specimen__viral_material": []
+      "synthetic_specimen__viral_material": [
+        "Meta/Not specified"
+      ]
     }
   },
   {
