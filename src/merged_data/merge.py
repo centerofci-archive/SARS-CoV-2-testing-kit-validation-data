@@ -32,6 +32,10 @@ class Labels:
     claims__limit_of_detection__value = "Limit of Detection (LOD)/Value"
     claims__limit_of_detection__units = "Limit of Detection (LOD)/Units"
     claims__primers_and_probes__sequences = "Primers and probes/Sequences"
+    claims__primers_and_probes__sequences__explicitly_specified = "Primers and probes/Sequences/Explicitly specified"
+    claims__primers_and_probes__sequences__reference_available = "Primers and probes/Sequences/Reference available"
+    claims__primers_and_probes__sequences__not_given = "Primers and probes/Sequences/Not given"
+    claims__primers_and_probes__sequences__not_assessed = "Primers and probes/Sequences/Not assessed"
     claims__primers_and_probes__sources = "Primers and probes/Sources"
     claims__reaction_volume_uL = "Nucleic acid amplification/Reaction/Volume in μL"
     claims__specimen__supported_types = "Supported specimen types"
@@ -75,10 +79,16 @@ class Labels:
     #// This smells and suggests we should have kept the second layer of data_keys in conjunction with labels
     _extra_url_to_IFU_or_EUA = "-2"
 
+    not_specified_label_ids = set([
+        meta__not_specified,
+        meta__not_specified__partial_info,
+    ])
+
     error_label_ids = set([
         meta__not_specified,
         meta__not_specified__partial_info,
         meta__error,
+        meta__error__omission,
         meta__potential_error,
     ])
 
@@ -164,12 +174,26 @@ def get_synthetic_specimen__viral_material (annotations_by_label_id):
     annotations = annotations_by_label_id.get(Labels.validation_condition__synthetic_specimen__viral_material, [])
 
     types = []
+    not_specified_types = []
+    error_types = []
 
     for annotation in annotations:
         for label_id in annotation["labels"]:
             if label_id in Labels.viral_material_type_label_ids:
                 parts = label_id.split("/")
                 types.append(parts[-1])
+
+            if label_id in Labels.not_specified_label_ids:
+                not_specified_types.append(label_id)
+
+            if label_id in Labels.error_label_ids:
+                error_types.append(label_id)
+
+    if not types:
+        if not_specified_types:
+            types = not_specified_types
+        elif error_types:
+            types = error_types
 
     return { "annotations": annotations, "data": { "types": types } }
 
