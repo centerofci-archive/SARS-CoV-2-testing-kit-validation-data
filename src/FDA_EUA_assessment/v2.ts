@@ -1,59 +1,39 @@
 
-
-const labels = {
-    claims__controls__internal__human_gene_target: "Controls/Internal/Human gene target",
-    claims__limit_of_detection__minimum_replicates: "Limit of Detection (LOD)/Minimum Replicates",
-    claims__limit_of_detection__value: "Limit of Detection (LOD)/Value",
-    claims__limit_of_detection__units: "Limit of Detection (LOD)/Units",
-    claims__primers_and_probes__sequences: "Primers and probes/Sequences",
-    claims__primers_and_probes__sources: "Primers and probes/Sources",
-    claims__reaction_volume_uL: "Nucleic acid amplification/Reaction/Volume in μL",
-    claims__specimen__supported_types: "Supported specimen types",
-    claims__specimen__transport_medium: "Specimen/Transport medium",
-    claims__target_viral_genes: "Viral gene(s) targetted",
-    meta__error: "Meta/Error",
-    meta__error__omission: "Meta/Error/Omission",
-    meta__not_specified: "Meta/Not specified",
-    meta__not_specified__partial_info: "Meta/Not specified/Partial information to reproduce",
-    meta__potential_error: "Meta/Potential error",
-    metrics__confusion_matrix__false_negatives: "Confusion matrix/False negatives",
-    metrics__confusion_matrix__false_positives: "Confusion matrix/False positives",
-    metrics__confusion_matrix__true_negatives: "Confusion matrix/True negatives",
-    metrics__confusion_matrix__true_positives: "Confusion matrix/True positives",
-    metrics__num_clinical_samples__negative_controls: "Number of clinical samples/Controls (negatives)",
-    metrics__num_clinical_samples__positive: "Number of clinical samples/Positives",
-    synthetic_specimen_virus_type_Naked_RNA: "Specimen/Synthetic Specimen/Virus/Type/Naked RNA",
-    synthetic_specimen_virus_type_Antigens: "Specimen/Synthetic Specimen/Virus/Type/Antigens",
-    synthetic_specimen_virus_type_Synthetic_Viral_Particles: "Specimen/Synthetic Specimen/Virus/Type/Synthetic Viral Particles",
-    synthetic_specimen_virus_type_Inactivated_Virus__Heat: "Specimen/Synthetic Specimen/Virus/Type/Inactivated Virus (Heat)",
-    synthetic_specimen_virus_type_Inactivated_Virus__Gammma: "Specimen/Synthetic Specimen/Virus/Type/Inactivated Virus (Gamma radiation)",
-    synthetic_specimen_virus_type_Inactivated_Virus__Chemical: "Specimen/Synthetic Specimen/Virus/Type/Inactivated Virus (Chemical)",
-    synthetic_specimen_virus_type_Inactivated_Virus__method_not_specified: "Specimen/Synthetic Specimen/Virus/Type/Inactivated Virus (method unspecified)",
-    synthetic_specimen_virus_type_Live_Virus: "Specimen/Synthetic Specimen/Virus/Type/Live Virus",
-    synthetic_specimen_virus_type_Partial_Live_Virus: "Specimen/Synthetic Specimen/Virus/Type/Partial Live Virus",
-    test_descriptor__manufacturer_name: "Test manufacturer",
-    test_descriptor__test_name: "Test name",
-    test_technology: "Test technology",
-    validation_condition__author: "Author",
-    validation_condition__comparator_test: "-1",
-    validation_condition__date: "Date",
-    validation_condition__sample_volume: "-1",
-    validation_condition__specimen_type: "-1",
-    validation_condition__swab_type: "-1",
-    validation_condition__synthetic_specimen__clinical_matrix: "Specimen/Synthetic Specimen/Clinical matrix",
-    validation_condition__synthetic_specimen__clinical_matrix_source: "Specimen/Synthetic Specimen/Clinical matrix/Source",
-    validation_condition__synthetic_specimen__viral_material: "Specimen/Synthetic Specimen/Virus",
-    validation_condition__synthetic_specimen__viral_material_source: "Specimen/Synthetic Specimen/Virus/Source",
-    validation_condition__transport_medium: "-1",
-
-    // This smells and suggests we should have kept the second layer of data_keys in conjunction with labels
-    _extra_url_to_IFU_or_EUA: "-2",
+interface DATA_ROW
+{
+    test_id: string
+    FDA_EUAs_list: {
+      first_issued_date: string
+      developer_name: string
+      test_name: string
+      test_technology: string
+      url_to_IFU_or_EUA: string
+    },
+    anot8_org: {
+      file_id: string
+      permalink: string
+    },
+    fda_reference_panel_lod_data: {
+      different_developer_name: string
+      different_test_name: string
+      results_status: string
+      lod: number,
+      sample_media_type: string
+    },
+    self_declared_EUA_data: {
+      lod_min: number,
+      lod_max: number,
+      lod_units: string
+      synthetic_specimen__viral_material: []
+    }
 }
+
+declare var merged_data: DATA_ROW[]
 
 
 interface HEADER {
     title: string
-    label: string
+    accessor: (data_row: DATA_ROW) => string
     hidden?: boolean
 }
 type HEADERS =
@@ -66,44 +46,44 @@ type HEADERS =
 
 const headers: HEADERS = [
     {
-        title: "Manufacturer",
-        label: null,
+        title: "Developer",
+        accessor: null,
         category: "test_descriptor",
         children: [
             {
                 title: "Name",
-                label: labels.test_descriptor__manufacturer_name,
+                accessor: d => d.FDA_EUAs_list.developer_name,
             },
             {
                 title: "Test name",
-                label: labels.test_descriptor__test_name,
+                accessor: d => d.FDA_EUAs_list.test_name,
             },
             {
                 title: "IFU or EUA",
-                label: labels._extra_url_to_IFU_or_EUA,
+                accessor: d => d.FDA_EUAs_list.url_to_IFU_or_EUA,
             }
         ],
     },
     {
         title: "Claims",
-        label: null,
+        accessor: null,
         category: "test_claims",
         children: [
             {
                 title: "Test technology",
-                label: labels.test_technology,
+                accessor: d => d.FDA_EUAs_list.test_technology,
             },
             {
                 title: "Specimens",
-                label: null,
+                accessor: null,
                 children: [
                     {
                         title: "Supported specimen types",
-                        label: labels.claims__specimen__supported_types,
+                        accessor: null /**/,
                     },
                     {
                         title: "Transport medium",
-                        label: labels.claims__specimen__transport_medium,
+                        accessor: null,
                     },
                 ]
             },
@@ -113,162 +93,181 @@ const headers: HEADERS = [
                 // e.g. * patients suspected of COVID-19 by a healthcare provider
                 //      * pooled samples
                 //      * general, asymptomatic screening population i.e. screening of individuals without symptoms or other reasons to suspect COVID-19
-                label: null,
+                accessor: null,
                 hidden: true,
             },
             {
                 // Not in May 13th version of FDA EUA template
                 title: "Sample pooling",
-                label: null,
+                accessor: null,
                 hidden: true,
                 children: [
-                    { title: "Approach", label: null, hidden: true, },
-                    { title: "Max no. specimens", label: null, hidden: true, },
+                    { title: "Approach", accessor: null, hidden: true, },
+                    { title: "Max no. specimens", accessor: null, hidden: true, },
                 ]
             },
-            { title: "Target gene(s) of SARS-CoV-2", label: labels.claims__target_viral_genes, },
+            { title: "Target gene(s) of SARS-CoV-2", accessor: null /**/, },
             {
                 title: "Primers and probes",
-                label: null,
+                accessor: null,
                 children: [
-                    { title: "Sequences", label: labels.claims__primers_and_probes__sequences, },
-                    { title: "Sources", label: labels.claims__primers_and_probes__sources, hidden: true, },
+                    { title: "Sequences", accessor: null /**/, },
+                    { title: "Sources", accessor: null /**/, hidden: true, },
                 ]
             },
             {
                 // Not in May 13th version of FDA EUA template
                 // i.e. can include more than just SARS-CoV-2
                 title: "Detects pathogen(s)",
-                label: null,
+                accessor: null,
                 hidden: true,
             },
             {
                 title: "Limit of Detection (LOD)",
-                label: null,
+                accessor: null,
                 children: [
                     {
                         title: "value",
-                        label: labels.claims__limit_of_detection__value,
+                        accessor: d => {
+                            const min = d.self_declared_EUA_data.lod_min
+                            const max = d.self_declared_EUA_data.lod_max
+
+                            if (min === max) return min.toString()
+
+                            return `${min} <-> ${max}`
+                        },
                     },
                     {
                         title: "units",
-                        label: labels.claims__limit_of_detection__units,
+                        accessor: d => d.self_declared_EUA_data.lod_units,
                     },
                     {
                         title: "Minimum replicates",
-                        label: labels.claims__limit_of_detection__minimum_replicates,
+                        accessor: null /*d => d.self_declared_EUA_data.*/,
                     },
                 ]
             },
             {
                 title: "Intended user",
                 // e.g. CLIA labs
-                label: null,
+                accessor: null,
                 hidden: true,
             },
-            { title: "Compatible equipment", label: null, hidden: true, },
+            { title: "Compatible equipment", accessor: null, hidden: true, },
             // {
                 // Product Overview/Test Principle...
                 //     // primer and probe sets and briefly describe what they detect. Please include the nucleic acid sequences for all primers and probes used in the test. Please indicate if the test uses biotin-Streptavidin/avidin chemistry
                 // },
             {
                 title: "Controls",
-                label: null,
+                accessor: null,
                 children: [
-                    { title: "Human gene", label: labels.claims__controls__internal__human_gene_target, },
+                    { title: "Human gene", accessor: null /**/, },
                 ]
             },
             {
                 title: "RNA extraction",
-                label: null,
+                accessor: null,
                 children: [
-                    { title: "Specimen input volume", label: null, hidden: true, },
-                    { title: "RNA extraction method(s)", label: null, hidden: true, },
-                    { title: "Nucleic acid elution volume", label: null, hidden: true, },
-                    { title: "Purification manual &/ automated", label: null, hidden: true, },
+                    { title: "Specimen input volume", accessor: null, hidden: true, },
+                    { title: "RNA extraction method(s)", accessor: null, hidden: true, },
+                    { title: "Nucleic acid elution volume", accessor: null, hidden: true, },
+                    { title: "Purification manual &/ automated", accessor: null, hidden: true, },
                 ]
             },
             {
                 title: "Reverse transcription",
-                label: null,
+                accessor: null,
                 children: [
-                    { title: "Input volume", label: null, hidden: true, },
-                    { title: "Enzyme mix / kits", label: null, hidden: true, },
+                    { title: "Input volume", accessor: null, hidden: true, },
+                    { title: "Enzyme mix / kits", accessor: null, hidden: true, },
                 ]
             },
             {
                 title: "PCR / amplification",
-                label: null,
+                accessor: null,
                 children: [
-                    { title: "Instrument", label: null, hidden: true, },
-                    { title: "Enzyme mix / kits", label: null, hidden: true, },
-                    { title: "Reaction volume / μL", label: labels.claims__reaction_volume_uL, },
+                    { title: "Instrument", accessor: null, hidden: true, },
+                    { title: "Enzyme mix / kits", accessor: null, hidden: true, },
+                    { title: "Reaction volume / μL", accessor: null /**/, },
                 ]
             },
             {
                 title: "PCR quantification fluoresence detection",
-                label: null,
+                accessor: null,
                 children: [
-                    { title: "Instrument", label: null, hidden: true, },
+                    { title: "Instrument", accessor: null, hidden: true, },
                 ]
             },
         ],
     },
     {
         title: "Validation conditions",
-        label: null,
+        accessor: null,
         category: "validation_condition",
         children: [
             {
                 title: "Author",
-                label: labels.validation_condition__author,
+                accessor: d => "self",
             },
             {
                 title: "Date",
-                label: labels.validation_condition__date,
+                accessor: d => d.FDA_EUAs_list.first_issued_date,
             },
             {
                 title: "Patient details",
-                label: null,
+                accessor: null,
                 children: [
-                    { title: "Age", label: null, hidden: true, },
-                    { title: "Race", label: null, hidden: true, },
-                    { title: "Gender", label: null, hidden: true, },
+                    { title: "Age", accessor: null, hidden: true, },
+                    { title: "Race", accessor: null, hidden: true, },
+                    { title: "Gender", accessor: null, hidden: true, },
                 ]
             },
-            { title: "Disease stage", label: null, hidden: true, },
+            { title: "Disease stage", accessor: null, hidden: true, },
             {
                 title: "Synthetic Specimen",
-                label: null,
+                accessor: null,
                 children: [
-                    { title: "Viral material", label:labels.validation_condition__synthetic_specimen__viral_material, },
-                    { title: "Viral material source", label:labels.validation_condition__synthetic_specimen__viral_material_source, },
-                    { title: "Clinical matrix", label:labels.validation_condition__synthetic_specimen__clinical_matrix, },
-                    { title: "Clinical matrix source", label:labels.validation_condition__synthetic_specimen__clinical_matrix_source, },
+                    {
+                        title: "Viral material",
+                        accessor: d => d.self_declared_EUA_data.synthetic_specimen__viral_material.join(", "),
+                    },
+                    {
+                        title: "Viral material source",
+                        accessor: null /**/,
+                    },
+                    {
+                        title: "Clinical matrix",
+                        accessor: null /**/,
+                    },
+                    {
+                        title: "Clinical matrix source",
+                        accessor: null /**/,
+                    },
                 ]
             },
             {
                 title: "Specimen",
-                label: null,
+                accessor: null,
                 children: [
                     {
                         title: "Type",
-                        label: labels.validation_condition__specimen_type,
+                        accessor: null /**/,
                         hidden: true,
                     },
                     {
                         title: "Swab type",
-                        label: labels.validation_condition__swab_type,
+                        accessor: null /**/,
                         hidden: true,
                     },
                     {
                         title: "Transport medium",
-                        label: labels.validation_condition__transport_medium,
+                        accessor: null /**/,
                         hidden: true,
                     },
                     {
                         title: "Sample volume",
-                        label: labels.validation_condition__sample_volume,
+                        accessor: null /**/,
                         hidden: true,
                     },
                 ]
@@ -277,52 +276,52 @@ const headers: HEADERS = [
     },
     {
         title: "Metrics",
-        label: null,
+        accessor: null,
         category: "metric",
         children: [
             {
                 title: "Number of clinical samples",
-                label: null,
+                accessor: null,
                 children: [
                     {
                         title: "Positives",
-                        label: labels.metrics__num_clinical_samples__positive,
+                        accessor: null /**/,
                         hidden: true,
                     },
                     {
                         title: "Controls (negatives)",
-                        label: labels.metrics__num_clinical_samples__negative_controls,
+                        accessor: null /**/,
                         hidden: true,
                     },
                 ]
             },
             {
                 title: "Comparator test",
-                label: labels.validation_condition__comparator_test,
+                accessor: null /**/,
                 hidden: true,
             },
             {
                 title: "Confusion matrix",
-                label: null,
+                accessor: null,
                 children: [
                     {
                         title: "True positives",
-                        label: labels.metrics__confusion_matrix__true_positives,
+                        accessor: null /**/,
                         hidden: true,
                     },
                     {
                         title: "False negatives",
-                        label: labels.metrics__confusion_matrix__false_negatives,
+                        accessor: null /**/,
                         hidden: true,
                     },
                     {
                         title: "True negatives",
-                        label: labels.metrics__confusion_matrix__true_negatives,
+                        accessor: null /**/,
                         hidden: true,
                     },
                     {
                         title: "False positives",
-                        label: labels.metrics__confusion_matrix__false_positives,
+                        accessor: null /**/,
                         hidden: true,
                     },
                 ]
@@ -331,7 +330,7 @@ const headers: HEADERS = [
     },
     {
         title: "Derived values",
-        label: null,
+        accessor: null,
         category: "derived_values",
         children: [],
         hidden: true,
@@ -437,52 +436,88 @@ function update_computed_styles (columns_hidden: boolean)
 }
 
 
-interface DATA_ROW
-{
-    test_id: string
-    FDA_EUAs_list: {
-      first_issued_date: string
-      developer_name: string
-      test_name: string
-      test_technology: string
-      url_to_IFU_or_EUA: string
-    },
-    anot8_org: {
-      file_id: string
-      permalink: string
-    },
-    fda_reference_panel_lod_data: {
-      different_developer_name: string
-      different_test_name: string
-      results_status: string
-      lod: number,
-      sample_media_type: string
-    },
-    self_declared_EUA_data: {
-      lod_min: number,
-      lod_max: number,
-      lod_units: string
-      synthetic_specimen__viral_material: []
-    }
-}
 
 
 function filter_data_rows_to_remove_serology (data_rows: DATA_ROW[])
 {
-    // temporarily filter out rows of serology tests
-    data_rows = data_rows.filter(d => {
-        const tech = (d["Test technology"].data.value as string).toLowerCase()
+    const filtered_data_rows = data_rows.filter(d => {
+        const tech = d.FDA_EUAs_list.test_technology.toLowerCase()
         // Finds most of the them.
         const remove = tech.includes("serology") || tech.includes("igg") || tech.includes("igm") || tech.includes("total antibody") || tech.includes("immunoassay")
         return !remove
     })
+
+    return filtered_data_rows
 }
 
+
+function render_table_body (headers: HEADERS, data_rows: DATA_ROW[])
+{
+    const table_el = document.getElementById("data_table")
+    const tbody_el = table_el.getElementsByTagName("tbody")[0]
+
+    data_rows.forEach((data_row, i) =>
+    {
+        const row = tbody_el.insertRow()
+
+        iterate_lowest_header(headers, (header: HEADER) =>
+        {
+            const cell = row.insertCell()
+            cell.className = header.hidden ? "hidden" : ""
+
+            if (!header.accessor) return
+
+            const contents = header.accessor(data_row)
+            if (!contents) return
+
+            cell.innerText = contents
+        })
+    })
+}
+
+
+function iterate_lowest_header (headers: HEADERS, func: (header: HEADER) => void)
+{
+    for (let i1 = 0; i1 < headers.length; ++i1)
+    {
+        const element1 = headers[i1]
+
+        if (!(element1.children && element1.children.length))
+        {
+            func(element1)
+        }
+        else for (let i2 = 0; i2 < element1.children.length; ++i2)
+        {
+            const element2 = element1.children[i2]
+
+            if (!(element2.children && element2.children.length))
+            {
+                func(element2)
+            }
+            else for (let i3 = 0; i3 < element2.children.length; ++i3)
+            {
+                const element3 = element2.children[i3]
+                func(element3)
+            }
+        }
+    }
+}
+
+
+function hide_loading_status ()
+{
+    const loading_status_el = document.getElementById("loading_status")
+    loading_status_el.style.display = "none"
+}
 
 
 // Smells as it contains update for table header due to colspan not being under CSS control
 // Need proper state / store manager
 activate_options(headers)
+
+const filtered_data = filter_data_rows_to_remove_serology(merged_data)
+render_table_body(headers, filtered_data)
+hide_loading_status()
 
 
 const v2 = 2

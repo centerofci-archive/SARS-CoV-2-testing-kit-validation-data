@@ -69,12 +69,12 @@ def make_python_content ():
 
 def make_ts_content ():
     ts_labels = "//\n// " + warning + "//\n//\n\n"
-    ts_labels += "const labels =\n{\n"
+    ts_labels += "/*const labels =\n{\n"
 
     for attribute_and_label in attributes_and_labels:
         ts_labels += """    {attribute}: "{label}",\n""".format(**attribute_and_label)
 
-    ts_labels += "}\n\n"
+    ts_labels += "}*/\n\n"
 
     return ts_labels
 
@@ -83,6 +83,6 @@ with open("./src/common/labels.py", "w") as f:
     python_labels = make_python_content()
     f.write(python_labels)
 
-with open("./src/FDA_EUA_assessment/labels.ts", "w") as f:
-    ts_labels = make_ts_content()
-    f.write(ts_labels)
+# with open("./src/FDA_EUA_assessment/labels.ts", "w") as f:
+#     ts_labels = make_ts_content()
+#     f.write(ts_labels)
