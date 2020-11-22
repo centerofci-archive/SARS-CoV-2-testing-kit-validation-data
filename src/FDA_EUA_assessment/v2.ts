@@ -437,6 +437,47 @@ function update_computed_styles (columns_hidden: boolean)
 }
 
 
+interface DATA_ROW
+{
+    test_id: string
+    FDA_EUAs_list: {
+      first_issued_date: string
+      developer_name: string
+      test_name: string
+      test_technology: string
+      url_to_IFU_or_EUA: string
+    },
+    anot8_org: {
+      file_id: string
+      permalink: string
+    },
+    fda_reference_panel_lod_data: {
+      different_developer_name: string
+      different_test_name: string
+      results_status: string
+      lod: number,
+      sample_media_type: string
+    },
+    self_declared_EUA_data: {
+      lod_min: number,
+      lod_max: number,
+      lod_units: string
+      synthetic_specimen__viral_material: []
+    }
+}
+
+
+function filter_data_rows_to_remove_serology (data_rows: DATA_ROW[])
+{
+    // temporarily filter out rows of serology tests
+    data_rows = data_rows.filter(d => {
+        const tech = (d["Test technology"].data.value as string).toLowerCase()
+        // Finds most of the them.
+        const remove = tech.includes("serology") || tech.includes("igg") || tech.includes("igm") || tech.includes("total antibody") || tech.includes("immunoassay")
+        return !remove
+    })
+}
+
 
 
 // Smells as it contains update for table header due to colspan not being under CSS control

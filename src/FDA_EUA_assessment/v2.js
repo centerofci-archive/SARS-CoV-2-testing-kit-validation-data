@@ -397,6 +397,15 @@ function update_computed_styles(columns_hidden) {
     var style_el = document.getElementById("computed_style");
     style_el.innerHTML = columns_hidden ? ".hidden { display: none; }" : "";
 }
+function filter_data_rows_to_remove_serology(data_rows) {
+    // temporarily filter out rows of serology tests
+    data_rows = data_rows.filter(function (d) {
+        var tech = d["Test technology"].data.value.toLowerCase();
+        // Finds most of the them.
+        var remove = tech.includes("serology") || tech.includes("igg") || tech.includes("igm") || tech.includes("total antibody") || tech.includes("immunoassay");
+        return !remove;
+    });
+}
 // Smells as it contains update for table header due to colspan not being under CSS control
 // Need proper state / store manager
 activate_options(headers);
