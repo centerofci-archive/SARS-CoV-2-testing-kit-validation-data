@@ -1,3 +1,4 @@
+"use strict";
 var __spreadArrays = (this && this.__spreadArrays) || function () {
     for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
     for (var r = Array(s), k = 0, i = 0; i < il; i++)
@@ -6,6 +7,8 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 var _a;
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.v1 = void 0;
 function is_annotation(annotation) {
     return !annotation.deleted;
 }
@@ -969,3 +972,5 @@ data_rows = data_rows.filter(function (d) {
 });
 populate_table_body(headers, data_rows);
 update_progress();
+var v1 = 1;
+exports.v1 = v1;

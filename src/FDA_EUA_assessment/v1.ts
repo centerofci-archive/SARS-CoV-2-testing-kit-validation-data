@@ -1250,3 +1250,7 @@ data_rows = data_rows.filter(d => {
 })
 populate_table_body(headers, data_rows)
 update_progress()
+
+
+const v1 = 1
+export { v1 }
