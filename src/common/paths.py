@@ -7,7 +7,7 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 DATA_DIR_PATH = dir_path + "/../../data/"
 
 
-ANOT8_ORG_CONFIG_DIR = DATA_DIR_PATH + "anot8_org_config/"
+ANOT8_VAULT_CONFIG = DATA_DIR_PATH + "anot8_vault_config.json"
 
 
 DATA_DIRECTORY_EUAs = DATA_DIR_PATH + "FDA-EUA/"
@@ -57,7 +57,7 @@ def get_map_of_file_path_to_anot8_org_id ():
     global file_path_to_anot8_org_id_map
     global anot8_config
 
-    with open(ANOT8_ORG_CONFIG_DIR + ANOT8_ORG_VAULT_ID + ".json", "r", encoding="utf8") as f:
+    with open(ANOT8_VAULT_CONFIG, "r", encoding="utf8") as f:
         new_anot8_config = json.load(f)
 
     if anot8_config != new_anot8_config:
