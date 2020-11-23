@@ -2,134 +2,135 @@
 "file_sha1_hash": "f9a694500522d767e43fd367d32d5a3c80c655ba",
 "annotations": [
 {
-"id": 0,
-"page_number": 18,
-"left": "103px",
-"top": "221px",
-"width": "482px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "SARS-CoV-2 viral RNA transcript containing an 1100 nucleotide region from the N gene",
+"comment": "",
+"height": "19px",
+"id": 0,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
+"left": "103px",
+"page_number": 18,
+"text": "SARS-CoV-2 viral RNA transcript containing an 1100 nucleotide region from the N gene",
+"top": "221px",
+"width": "482px"
 },
 {
-"id": 1,
-"page_number": 18,
-"left": "600px",
-"top": "221px",
-"width": "222px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "stabilizing buffer RNA Diluent P",
+"comment": "",
+"height": "21px",
+"id": 1,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "600px",
+"page_number": 18,
+"text": "stabilizing buffer RNA Diluent P",
+"top": "221px",
+"width": "222px"
 },
 {
-"id": 2,
-"page_number": 18,
-"left": "571px",
-"top": "215px",
-"width": "23px",
-"height": "29px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "29px",
+"id": 2,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "571px",
+"page_number": 18,
+"text": "",
+"top": "215px",
+"width": "23px"
 },
 {
-"id": 3,
-"page_number": 18,
-"left": "782px",
-"top": "288px",
-"width": "28px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "21",
+"comment": "",
+"height": "23px",
+"id": 3,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "782px",
+"page_number": 18,
+"text": "21",
+"top": "288px",
+"width": "28px"
 },
 {
-"id": 4,
-"page_number": 18,
-"left": "602px",
-"top": "358px",
-"width": "32px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.136",
+"comment": "",
+"height": "22px",
+"id": 4,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "602px",
+"page_number": 18,
+"text": "0.136",
+"top": "358px",
+"width": "32px"
 },
 {
-"id": 5,
-"page_number": 18,
-"left": "632px",
-"top": "361px",
-"width": "70px",
-"height": "18px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "18px",
+"id": 5,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "632px",
+"page_number": 18,
+"text": "genome copies / μL",
+"top": "361px",
+"width": "70px"
 },
 {
-"id": 6,
-"page_number": 2,
-"left": "48px",
-"top": "359px",
-"width": "818px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "upper respiratory specimens (for example, nasopharyngeal swabs, oropharyngeal swabs, sputum, BAL, and tracheal aspirates)",
+"comment": "Marked with error as BAL etc are lower respiratory specimens",
+"height": "19px",
+"id": 6,
 "labels": [
 "Supported specimen types",
 "Meta/Error"
 ],
-"comment": "Marked with error as BAL etc are lower respiratory specimens"
+"left": "48px",
+"page_number": 2,
+"text": "upper respiratory specimens (for example, nasopharyngeal swabs, oropharyngeal swabs, sputum, BAL, and tracheal aspirates)",
+"top": "359px",
+"width": "818px"
 },
 {
-"id": 7,
-"page_number": 2,
-"left": "330px",
-"top": "408px",
-"width": "170px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "N",
+"comment": "",
+"height": "21px",
+"id": 7,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "330px",
+"page_number": 2,
+"text": "N",
+"top": "408px",
+"width": "170px"
 },
 {
-"id": 8,
-"page_number": 2,
-"left": "500px",
-"top": "412px",
-"width": "71px",
-"height": "16px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "N1 & N3",
+"comment": "Marked not specified as the specific sequences of primers and probes are not given.",
+"height": "16px",
+"id": 8,
 "labels": [
 "Primers and probes/Sequences",
-"Meta/Not specified"
+"Meta/Not specified",
+"Primers and probes/Sequences/Not specified"
 ],
-"comment": "Marked not specified as the specific sequences of primers and probes are not given."
+"left": "500px",
+"page_number": 2,
+"text": "N1 & N3",
+"top": "412px",
+"width": "71px"
 }
 ],
 "comments": [],

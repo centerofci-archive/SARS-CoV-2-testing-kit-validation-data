@@ -123,7 +123,8 @@
 "id": 8,
 "labels": [
 "Viral gene(s) targetted",
-"Primers and probes/Sequences"
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Reference available"
 ],
 "left": "157px",
 "page_number": 4,
@@ -146,8 +147,8 @@
 "width": "151px"
 },
 {
-"id": 10,
-"deleted": true
+"deleted": true,
+"id": 10
 }
 ],
 "comments": [],

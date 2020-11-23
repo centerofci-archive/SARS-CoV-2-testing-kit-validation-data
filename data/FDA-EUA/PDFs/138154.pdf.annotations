@@ -2,172 +2,174 @@
 "file_sha1_hash": "bcd33d5ae83e1c69d9279ee7e6449f297108c51c",
 "annotations": [
 {
-"id": 0,
-"page_number": 1,
-"left": "97px",
-"top": "352px",
-"width": "674px",
-"height": "46px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasal, nasopharyngeal or oropharyngeal swabs",
+"comment": "",
+"height": "46px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "97px",
+"page_number": 1,
+"text": "nasal, nasopharyngeal or oropharyngeal swabs",
+"top": "352px",
+"width": "674px"
 },
 {
-"id": 1,
-"deleted": true
+"deleted": true,
+"id": 1
 },
 {
-"id": 2,
-"page_number": 4,
-"left": "466px",
-"top": "352.333px",
-"width": "275px",
-"height": "29px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "N, N",
+"comment": "",
+"height": "29px",
+"id": 2,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "466px",
+"page_number": 4,
+"text": "N, N",
+"top": "352.333px",
+"width": "275px"
 },
 {
-"id": 3,
-"page_number": 4,
-"left": "159px",
-"top": "330.333px",
-"width": "514px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "25px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "References: CDC 2019-Novel Coronavirus (2019-nCoV) RealTime RT-PCR Diagnostic Panel",
+"id": 3,
 "labels": [
-"Primers and probes/Sequences"
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Reference available",
+"Meta/Not specified/Reasonable assumption"
 ],
-"comment": ""
+"left": "159px",
+"page_number": 4,
+"text": "References: CDC 2019-Novel Coronavirus (2019-nCoV) RealTime RT-PCR Diagnostic Panel",
+"top": "330.333px",
+"width": "514px"
 },
 {
-"id": 4,
-"page_number": 4,
-"left": "188px",
-"top": "396.333px",
-"width": "617px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "RNase P (RP)",
+"comment": "",
+"height": "24px",
+"id": 4,
 "labels": [
 "Controls/Internal/Human gene target"
 ],
-"comment": ""
+"left": "188px",
+"page_number": 4,
+"text": "RNase P (RP)",
+"top": "396.333px",
+"width": "617px"
 },
 {
-"id": 5,
-"page_number": 5,
-"left": "375px",
-"top": "797.667px",
-"width": "149px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "SARS CoV-2 genomic RNA",
+"comment": "",
+"height": "26px",
+"id": 5,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
+"left": "375px",
+"page_number": 5,
+"text": "SARS CoV-2 genomic RNA",
+"top": "797.667px",
+"width": "149px"
 },
 {
-"id": 6,
-"page_number": 5,
-"left": "562px",
-"top": "795.667px",
-"width": "36px",
-"height": "27px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "BEI",
+"comment": "",
+"height": "27px",
+"id": 6,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": ""
+"left": "562px",
+"page_number": 5,
+"text": "BEI",
+"top": "795.667px",
+"width": "36px"
 },
 {
-"id": 7,
-"page_number": 5,
-"left": "464px",
-"top": "820.667px",
-"width": "335px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "pooled respiratory matrix (NP and OP swabs collected in liquid Amies)",
+"comment": "",
+"height": "21px",
+"id": 7,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "464px",
+"page_number": 5,
+"text": "pooled respiratory matrix (NP and OP swabs collected in liquid Amies)",
+"top": "820.667px",
+"width": "335px"
 },
 {
-"id": 8,
-"page_number": 5,
-"left": "286px",
-"top": "836.667px",
-"width": "24px",
-"height": "27px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "27px",
+"id": 8,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "286px",
+"page_number": 5,
+"text": "",
+"top": "836.667px",
+"width": "24px"
 },
 {
-"id": 9,
-"deleted": true
+"deleted": true,
+"id": 9
 },
 {
-"id": 10,
-"deleted": true
+"deleted": true,
+"id": 10
 },
 {
-"id": 11,
-"page_number": 6,
-"left": "536px",
-"top": "445.333px",
-"width": "43px",
-"height": "76px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "9",
+"comment": "",
+"height": "76px",
+"id": 11,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "536px",
+"page_number": 6,
+"text": "9",
+"top": "445.333px",
+"width": "43px"
 },
 {
-"id": 12,
-"page_number": 6,
-"left": "208px",
-"top": "447.333px",
-"width": "193px",
-"height": "85px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "85px",
+"id": 12,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "208px",
+"page_number": 6,
+"text": "genome copies / μL",
+"top": "447.333px",
+"width": "193px"
 },
 {
-"id": 13,
-"page_number": 6,
-"left": "612px",
-"top": "825.889px",
-"width": "41px",
-"height": "94px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "29",
+"comment": "Using Precipitor instead of Zymo",
+"height": "94px",
+"id": 13,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": "Using Precipitor instead of Zymo"
+"left": "612px",
+"page_number": 6,
+"text": "29",
+"top": "825.889px",
+"width": "41px"
 }
 ],
 "comments": [],

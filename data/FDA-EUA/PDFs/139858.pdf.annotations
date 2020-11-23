@@ -2,167 +2,168 @@
 "file_sha1_hash": "d3ad6c58f4fff9989b001ac7f90c450648dda973",
 "annotations": [
 {
-"id": 0,
-"page_number": 1,
-"left": "83px",
-"top": "460px",
-"width": "755px",
-"height": "65px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "upper respiratory specimens (such as nasopharyngeal, oropharyngeal, nasal, and mid-turbinate swabs nasopharyngeal wash/aspirate or nasal aspirate specimens) and bronchoalveolar lavage",
+"comment": "",
+"height": "65px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "83px",
+"page_number": 1,
+"text": "upper respiratory specimens (such as nasopharyngeal, oropharyngeal, nasal, and mid-turbinate swabs nasopharyngeal wash/aspirate or nasal aspirate specimens) and bronchoalveolar lavage",
+"top": "460px",
+"width": "755px"
 },
 {
-"id": 1,
-"page_number": 2,
-"left": "523px",
-"top": "166px",
-"width": "96px",
-"height": "29px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "N, N",
+"comment": "N1, N2",
+"height": "29px",
+"id": 1,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": "N1, N2"
+"left": "523px",
+"page_number": 2,
+"text": "N, N",
+"top": "166px",
+"width": "96px"
 },
 {
-"id": 2,
-"page_number": 2,
-"left": "82px",
-"top": "188px",
-"width": "115px",
-"height": "27px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "RNase P (RP)",
+"comment": "",
+"height": "27px",
+"id": 2,
 "labels": [
 "Controls/Internal/Human gene target"
 ],
-"comment": ""
-},
-{
-"id": 3,
+"left": "82px",
 "page_number": 2,
-"left": "396px",
-"top": "150px",
-"width": "302px",
-"height": "22px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "N1, N2 primer/probe sets developed by the CDC",
-"labels": [
-"Primers and probes/Sequences"
-],
-"comment": ""
+"text": "RNase P (RP)",
+"top": "188px",
+"width": "115px"
 },
 {
-"id": 4,
-"page_number": 6,
-"left": "83px",
-"top": "878px",
-"width": "449px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "patient nasopharyngeal samples previously determined to be positive",
+"comment": "",
+"height": "22px",
+"id": 3,
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Reference available"
+],
+"left": "396px",
+"page_number": 2,
+"text": "N1, N2 primer/probe sets developed by the CDC",
+"top": "150px",
+"width": "302px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "20px",
+"id": 4,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Clinical matrix",
 "Specimen/Synthetic Specimen/Virus/Type/Live Virus"
 ],
-"comment": ""
+"left": "83px",
+"page_number": 6,
+"text": "patient nasopharyngeal samples previously determined to be positive",
+"top": "878px",
+"width": "449px"
 },
 {
-"id": 5,
-"page_number": 6,
-"left": "524px",
-"top": "869px",
-"width": "18px",
-"height": "30px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "30px",
+"id": 5,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source",
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "524px",
+"page_number": 6,
+"text": "",
+"top": "869px",
+"width": "18px"
 },
 {
-"id": 6,
-"page_number": 6,
-"left": "81px",
-"top": "955px",
-"width": "126px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "VTM",
+"comment": "",
+"height": "25px",
+"id": 6,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "81px",
+"page_number": 6,
+"text": "VTM",
+"top": "955px",
+"width": "126px"
 },
 {
-"id": 7,
-"page_number": 6,
-"left": "195px",
-"top": "951px",
-"width": "18px",
-"height": "32px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "32px",
+"id": 7,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "195px",
+"page_number": 6,
+"text": "",
+"top": "951px",
+"width": "18px"
 },
 {
-"id": 8,
-"deleted": true
+"deleted": true,
+"id": 8
 },
 {
-"id": 9,
-"page_number": 7,
-"left": "473px",
-"top": "615px",
-"width": "23px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "23px",
+"id": 9,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "473px",
+"page_number": 7,
+"text": "20",
+"top": "615px",
+"width": "23px"
 },
 {
-"id": 10,
-"page_number": 7,
-"left": "685px",
-"top": "397px",
-"width": "74px",
-"height": "27px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "1.6",
+"comment": "",
+"height": "27px",
+"id": 10,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "685px",
+"page_number": 7,
+"text": "1.6",
+"top": "397px",
+"width": "74px"
 },
 {
-"id": 11,
-"page_number": 7,
-"left": "755px",
-"top": "399px",
-"width": "84px",
-"height": "27px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "27px",
+"id": 11,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "755px",
+"page_number": 7,
+"text": "genome copies / μL",
+"top": "399px",
+"width": "84px"
 }
 ],
 "comments": [],

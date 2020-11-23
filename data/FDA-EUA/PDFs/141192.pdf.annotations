@@ -2,244 +2,245 @@
 "file_sha1_hash": "f1273138910b2303e8739dc45a88cf6e24e25dcd",
 "annotations": [
 {
-"id": 0,
-"page_number": 1,
-"left": "739px",
-"top": "613px",
-"width": "49px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "saliva",
+"comment": "",
+"height": "25px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "739px",
+"page_number": 1,
+"text": "saliva",
+"top": "613px",
+"width": "49px"
 },
 {
-"id": 1,
-"page_number": 2,
-"left": "569px",
-"top": "544px",
-"width": "126px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "N1",
+"comment": "",
+"height": "25px",
+"id": 1,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "569px",
+"page_number": 2,
+"text": "N1",
+"top": "544px",
+"width": "126px"
 },
 {
-"id": 2,
-"page_number": 2,
-"left": "128px",
-"top": "568px",
-"width": "209px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "23px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "N1 primer/probe sets developed by the CDC",
+"id": 2,
 "labels": [
-"Primers and probes/Sequences"
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Reference available"
 ],
-"comment": ""
+"left": "128px",
+"page_number": 2,
+"text": "N1 primer/probe sets developed by the CDC",
+"top": "568px",
+"width": "209px"
 },
 {
-"id": 3,
-"page_number": 2,
-"left": "427px",
-"top": "569px",
-"width": "158px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "RNase P (RP)",
+"comment": "",
+"height": "25px",
+"id": 3,
 "labels": [
 "Controls/Internal/Human gene target"
 ],
-"comment": ""
+"left": "427px",
+"page_number": 2,
+"text": "RNase P (RP)",
+"top": "569px",
+"width": "158px"
 },
 {
-"id": 4,
-"page_number": 5,
-"left": "151px",
-"top": "703px",
-"width": "180px",
-"height": "30px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "positive saliva specimen",
+"comment": "",
+"height": "30px",
+"id": 4,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Live Virus"
 ],
-"comment": ""
+"left": "151px",
+"page_number": 5,
+"text": "positive saliva specimen",
+"top": "703px",
+"width": "180px"
 },
 {
-"id": 5,
-"page_number": 5,
-"left": "332px",
-"top": "706px",
-"width": "456px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "confirmed COVID-19 healthcare worker with a known virus concentration",
+"comment": "",
+"height": "24px",
+"id": 5,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source",
 "Meta/Not specified/Partial information to reproduce"
 ],
-"comment": ""
+"left": "332px",
+"page_number": 5,
+"text": "confirmed COVID-19 healthcare worker with a known virus concentration",
+"top": "706px",
+"width": "456px"
 },
 {
-"id": 6,
-"page_number": 5,
-"left": "551px",
-"top": "733px",
-"width": "51px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "saliva",
+"comment": "",
+"height": "19px",
+"id": 6,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "551px",
+"page_number": 5,
+"text": "saliva",
+"top": "733px",
+"width": "51px"
 },
 {
-"id": 7,
-"page_number": 5,
-"left": "125px",
-"top": "750px",
-"width": "584px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "collected from healthcare workers who tested negative for SARS-CoV-2 using the CDC assay",
+"comment": "",
+"height": "24px",
+"id": 7,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source"
 ],
-"comment": ""
+"left": "125px",
+"page_number": 5,
+"text": "collected from healthcare workers who tested negative for SARS-CoV-2 using the CDC assay",
+"top": "750px",
+"width": "584px"
 },
 {
-"id": 8,
-"page_number": 5,
-"left": "533px",
-"top": "896px",
-"width": "21px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "20px",
+"id": 8,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "533px",
+"page_number": 5,
+"text": "20",
+"top": "896px",
+"width": "21px"
 },
 {
-"id": 9,
-"page_number": 5,
-"left": "522px",
-"top": "1040px",
-"width": "65px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "22px",
+"id": 9,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
-},
-{
-"id": 10,
+"left": "522px",
 "page_number": 5,
-"left": "509px",
-"top": "1045px",
-"width": "12px",
+"text": "genome copies / μL",
+"top": "1040px",
+"width": "65px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "16px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "6",
+"id": 10,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "509px",
+"page_number": 5,
+"text": "6",
+"top": "1045px",
+"width": "12px"
 },
 {
-"id": 11,
-"page_number": 6,
-"left": "507px",
-"top": "130px",
-"width": "14px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "17px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "6",
+"id": 11,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "507px",
+"page_number": 6,
+"text": "6",
+"top": "130px",
+"width": "14px"
 },
 {
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "18px",
 "id": 12,
-"page_number": 6,
+"labels": [
+"Limit of Detection (LOD)/Value"
+],
 "left": "508px",
+"page_number": 6,
+"text": "6",
 "top": "160px",
-"width": "14px",
-"height": "18px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "6",
-"labels": [
-"Limit of Detection (LOD)/Value"
-],
-"comment": ""
+"width": "14px"
 },
 {
-"id": 13,
-"page_number": 6,
-"left": "510px",
-"top": "263px",
-"width": "12px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "20px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "6",
+"id": 13,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "510px",
+"page_number": 6,
+"text": "6",
+"top": "263px",
+"width": "12px"
 },
 {
-"id": 14,
-"page_number": 6,
-"left": "507px",
-"top": "326px",
-"width": "18px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "18px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "12",
+"id": 14,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "507px",
+"page_number": 6,
+"text": "12",
+"top": "326px",
+"width": "18px"
 },
 {
-"id": 15,
-"page_number": 6,
-"left": "507px",
-"top": "427px",
-"width": "16px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "23px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "12",
+"id": 15,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "507px",
+"page_number": 6,
+"text": "12",
+"top": "427px",
+"width": "16px"
 },
 {
-"id": 16,
-"page_number": 6,
-"left": "507px",
-"top": "458px",
-"width": "16px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "6",
+"comment": "",
+"height": "19px",
+"id": 16,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "507px",
+"page_number": 6,
+"text": "6",
+"top": "458px",
+"width": "16px"
 }
 ],
 "comments": [],

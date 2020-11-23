@@ -23,6 +23,7 @@ from common import (
     get_fda_reference_panel_lod_data_by_test_id,
     get_anot8_org_file_id_from_FDA_url,
     get_anot8_org_permalink_from_FDA_url,
+    Labels,
 )
 
 
@@ -32,8 +33,67 @@ def annotation_contains_error_labels (annotation):
             return True
 
 
+def get_link_to_annotation (annotation):
+    return "http://localhost:5003/r/1772.2/{}?h={}".format(annotation["anot8_org_file_id"], annotation["id"])
+
+
+minimal_annotation_keys = ["id", "text", "labels", "comment", "anot8_org_file_id"]
+def minimal_annotation (annotation):
+    try:
+        return { key: annotation[key] for key in minimal_annotation_keys if key in annotation }
+    except Exception as e:
+        print(annotation)
+        raise e
+
+
+def minimal_annotations (annotations):
+    return [ minimal_annotation(a) for a in annotations ]
+
+
+def get_self_declared_EUA_data (annotations_by_label_id):
+    primer_probe_sequences = get_primer_probe_sequences(annotations_by_label_id)
+    lod_value = get_lod_value(annotations_by_label_id)
+    lod_units = get_lod_units(annotations_by_label_id)
+    synthetic_specimen__viral_material = get_synthetic_specimen__viral_material(annotations_by_label_id)
+
+    return {
+        "primer_probe_sequences": primer_probe_sequences,
+        "lod_value": lod_value,
+        "lod_units": lod_units,
+        "synthetic_specimen__viral_material": synthetic_specimen__viral_material,
+    }
+
+
+def get_primer_probe_sequences (annotations_by_label_id):
+    annotations = annotations_by_label_id.get(Labels.primers_and_probes__sequences, [])
+
+    filtered_annotations = []
+    parsed = []
+
+    for annotation in annotations:
+        sequence_labels = set.intersection(
+            Labels.primer_probe_sequences__classification__label_ids,
+            set(annotation["labels"])
+        )
+        if sequence_labels:
+            filtered_annotations.append(minimal_annotation(annotation))
+            parsed += list(sequence_labels)
+        else:
+            print(get_link_to_annotation(annotation))
+
+    if len(parsed) > 1:
+        print("Got {} primer probe sequence labels for {}".format(len(parsed), get_link_to_annotation(filtered_annotations[0])))
+
+    parsed = parsed[0] if parsed else ""
+
+    return {
+        "annotations": filtered_annotations,
+        "parsed": parsed,
+    }
+
+
 def get_lod_value (annotations_by_label_id):
-    annotations_lod_value = annotations_by_label_id.get(Labels.claims__limit_of_detection__value, [])
+    annotations_lod_value = annotations_by_label_id.get(Labels.limit_of_detection_lod__value, [])
 
     min_value = math.inf
     max_value = -math.inf
@@ -41,7 +101,6 @@ def get_lod_value (annotations_by_label_id):
     max_annotation = None
 
     for annotation in annotations_lod_value:
-        allowed_to_fail_silently = False
         allowed_to_fail_silently = annotation_contains_error_labels(annotation)
 
         try:
@@ -65,34 +124,53 @@ def get_lod_value (annotations_by_label_id):
             max_annotation = annotation
 
     if not min_annotation:
-        return {
-            "annotations": [],
-            "data": { "min": False, "max": False },
-        }
+        annotations = []
+        min_value = None
+        max_value = None
+        parsed = ""
+    else:
+        same = min_value == max_value
+        annotations = [min_annotation] if same else [min_annotation, max_annotation]
+        parsed = "{}".format(min_value) if same else "{} ↔ {}".format(min_value, max_value)
 
-    same = min_value == max_value
-
-    annotations = [min_annotation] if same else [min_annotation, max_annotation]
-
-    return { "annotations": annotations, "data": { "min": min_value, "max": max_value } }
+    return {
+        "annotations": minimal_annotations(annotations),
+        "min": min_value,
+        "max": max_value,
+        "parsed": parsed,
+    }
 
 
 def get_lod_units (annotations_by_label_id):
-    annotations_lod_units = annotations_by_label_id.get(Labels.claims__limit_of_detection__units, [])
-    return get_value_from_annotations(annotations_lod_units, expect_single_value=True)
+    annotations = annotations_by_label_id.get(Labels.limit_of_detection_lod__units, [])
+    warn_of_multiple_annotation(annotations, field_expects_one_or_fewer_annotations="LOD units")
 
+    parsed = ""
+    if annotations:
+        parsed = annotations[0]["text"]
 
-def get_value_from_annotations (annotations, expect_single_value):
-    if expect_single_value and len(annotations) > 1:
-        print("Warning: More than 1 annotation: ", json.dumps(annotations, indent=4, ensure_ascii=False))
+        # mapping
+        if parsed == "GCE / reaction":
+            parsed = "genome copies / reaction"
 
-    value = ", ".join([an["text"] for an in annotations])
+        if parsed not in ["genome copies / μL", "TCID50 / mL", "PFU / μL", "genome copies / reaction"]:
+            parsed = "other"
 
-    return { "annotations": annotations, "data": { "value": value } }
+    return {
+        "annotations": minimal_annotations(annotations),
+        "parsed": parsed
+    }
+
+def warn_of_multiple_annotation (annotations, field_expects_one_or_fewer_annotations=""):
+    if field_expects_one_or_fewer_annotations and len(annotations) > 1:
+        print("Warning: More than 1 annotation for {}: {}".format(
+            field_expects_one_or_fewer_annotations,
+            json.dumps(annotations, indent=4, ensure_ascii=False)
+        ))
 
 
 def get_synthetic_specimen__viral_material (annotations_by_label_id):
-    annotations = annotations_by_label_id.get(Labels.validation_condition__synthetic_specimen__viral_material, [])
+    annotations = annotations_by_label_id.get(Labels.specimen__synthetic_specimen__virus, [])
 
     types = []
     not_specified_types = []
@@ -116,7 +194,7 @@ def get_synthetic_specimen__viral_material (annotations_by_label_id):
         elif error_types:
             types = error_types
 
-    return { "annotations": annotations, "data": { "types": types } }
+    return { "annotations": minimal_annotations(annotations), "parsed": ", ".join(types) }
 
 
 # Tests not present on the FDA reference panel website as of 2020-10-13
@@ -288,9 +366,6 @@ def get_merged_data ():
 
         annotation_files_for_test = annotation_files_by_test_id[test_id]
         annotations_by_label_id = get_annotations_by_label_id(annotation_files_for_test)
-        lod_value = get_lod_value(annotations_by_label_id)
-        lod_units = get_lod_units(annotations_by_label_id)
-        synthetic_specimen__viral_material = get_synthetic_specimen__viral_material(annotations_by_label_id)
 
         row = {
             "test_id": test_id,
@@ -312,12 +387,7 @@ def get_merged_data ():
                 "lod": fda_reference_panel_lod_data["lod"],
                 "sample_media_type": fda_reference_panel_lod_data["sample_media_type"],
             },
-            "self_declared_EUA_data": {
-                "lod_min": lod_value["data"]["min"],
-                "lod_max": lod_value["data"]["max"],
-                "lod_units": lod_units["data"]["value"],
-                "synthetic_specimen__viral_material": synthetic_specimen__viral_material["data"]["types"],
-            },
+            "self_declared_EUA_data": get_self_declared_EUA_data(annotations_by_label_id)
         }
 
         merged_rows.append(row)

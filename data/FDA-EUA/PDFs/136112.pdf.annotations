@@ -2,202 +2,192 @@
 "file_sha1_hash": "a663c02a08a6aea26e7adafb1a6feb823cf70eeb",
 "annotations": [
 {
-"id": 0,
-"page_number": 66,
-"left": "245px",
-"top": "447px",
-"width": "578px",
-"height": "61px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Pooled banked Nasopharyngeal swab (NP) and Bronchoalveolar lavage (BAL) samples, obtained from U.S. patients in the years 2015-2019",
+"comment": "",
+"height": "61px",
+"id": 0,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "245px",
+"page_number": 66,
+"text": "Pooled banked Nasopharyngeal swab (NP) and Bronchoalveolar lavage (BAL) samples, obtained from U.S. patients in the years 2015-2019",
+"top": "447px",
+"width": "578px"
 },
 {
-"id": 1,
-"page_number": 66,
-"left": "243px",
-"top": "484px",
-"width": "580px",
-"height": "38px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": " purified SARS-CoV-2 viral genomic RNA",
+"comment": "",
+"height": "38px",
+"id": 1,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
+"left": "243px",
+"page_number": 66,
+"text": " purified SARS-CoV-2 viral genomic RNA",
+"top": "484px",
+"width": "580px"
 },
 {
-"id": 2,
-"page_number": 66,
-"left": "486px",
-"top": "562px",
-"width": "99px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "21px",
+"id": 2,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "486px",
+"page_number": 66,
+"text": "20",
+"top": "562px",
+"width": "99px"
 },
 {
-"id": 3,
-"page_number": 68,
-"left": "570px",
-"top": "411px",
-"width": "123px",
-"height": "53px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "10",
+"comment": "",
+"height": "53px",
+"id": 3,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "570px",
+"page_number": 68,
+"text": "10",
+"top": "411px",
+"width": "123px"
 },
 {
-"id": 4,
-"page_number": 66,
-"left": "78px",
-"top": "881px",
-"width": "98px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "GCE / reaction",
+"comment": "Genomic Copy Equivalents (GCE)",
+"height": "23px",
+"id": 4,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "78px",
+"page_number": 66,
+"text": "GCE / reaction",
+"top": "881px",
+"width": "98px"
 },
 {
-"id": 5,
-"page_number": 7,
-"left": "268px",
-"top": "413px",
-"width": "580px",
-"height": "41px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "upper respiratory specimens (such as nasopharyngeal, oropharyngeal, nasal, and mid-turbinate swabs, and nasopharyngeal aspirate) and bronchoalveolar lavage (BAL)",
+"comment": "",
+"height": "41px",
+"id": 5,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "268px",
+"page_number": 7,
+"text": "upper respiratory specimens (such as nasopharyngeal, oropharyngeal, nasal, and mid-turbinate swabs, and nasopharyngeal aspirate) and bronchoalveolar lavage (BAL)",
+"top": "413px",
+"width": "580px"
 },
 {
-"id": 6,
-"page_number": 17,
-"left": "281px",
-"top": "165px",
-"width": "95px",
-"height": "70px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "ORF1ab, N, S",
+"comment": "",
+"height": "70px",
+"id": 6,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "281px",
+"page_number": 17,
+"text": "ORF1ab, N, S",
+"top": "165px",
+"width": "95px"
 },
 {
-"id": 7,
-"page_number": 30,
-"left": "236px",
-"top": "457px",
-"width": "588px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "91px",
-"colour": "rgba(200, 200, 255, 0.6)",
+"id": 7,
+"labels": [
+"Nucleic acid amplification/Reaction/Volume in μL"
+],
+"left": "236px",
+"page_number": 30,
 "text": "variable",
-"labels": [
-"Nucleic acid amplification/Reaction/Volume in μL"
-],
-"comment": ""
+"top": "457px",
+"width": "588px"
 },
 {
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "25px",
 "id": 8,
-"page_number": 33,
+"labels": [
+"Nucleic acid amplification/Reaction/Volume in μL"
+],
 "left": "352px",
+"page_number": 33,
+"text": "25",
 "top": "471px",
-"width": "61px",
-"height": "25px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "25",
-"labels": [
-"Nucleic acid amplification/Reaction/Volume in μL"
-],
-"comment": ""
+"width": "61px"
 },
 {
-"id": 9,
-"page_number": 35,
-"left": "372px",
-"top": "757px",
-"width": "67px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "27px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"id": 9,
 "labels": [
 "Nucleic acid amplification/Reaction/Volume in μL"
 ],
-"comment": ""
-},
-{
-"id": 10,
-"page_number": 37,
 "left": "372px",
-"top": "762px",
-"width": "70px",
-"height": "30px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "25",
-"labels": [
-"Nucleic acid amplification/Reaction/Volume in μL"
-],
-"comment": ""
+"page_number": 35,
+"text": "20",
+"top": "757px",
+"width": "67px"
 },
 {
-"id": 11,
-"page_number": 39,
-"left": "364px",
-"top": "933px",
-"width": "84px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "30px",
+"id": 10,
 "labels": [
 "Nucleic acid amplification/Reaction/Volume in μL"
 ],
-"comment": ""
+"left": "372px",
+"page_number": 37,
+"text": "25",
+"top": "762px",
+"width": "70px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "25px",
+"id": 11,
+"labels": [
+"Nucleic acid amplification/Reaction/Volume in μL"
+],
+"left": "364px",
+"page_number": 39,
+"text": "20",
+"top": "933px",
+"width": "84px"
 },
 {
 "id": 12,
-"page_number": 66,
-"left": "243px",
-"top": "406px",
-"width": "564px",
-"height": "40px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "Genomic Copy Equivalents (GCE)",
-"labels": [
-"Limit of Detection (LOD)/Units"
-],
-"comment": ""
+"deleted": true
 },
 {
-"id": 13,
-"page_number": 66,
-"left": "374px",
-"top": "502px",
-"width": "20px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "23px",
+"id": 13,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "374px",
+"page_number": 66,
+"text": "",
+"top": "502px",
+"width": "20px"
 }
 ],
 "comments": [],

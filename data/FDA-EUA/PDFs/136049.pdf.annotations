@@ -2,210 +2,211 @@
 "file_sha1_hash": "f11389354034a294f1721988435f610172a76cea",
 "annotations": [
 {
-"id": 0,
-"deleted": true
+"deleted": true,
+"id": 0
 },
 {
-"id": 1,
-"page_number": 23,
-"left": "475px",
-"top": "293px",
-"width": "170px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "simulated clinical matrix",
+"comment": "",
+"height": "26px",
+"id": 1,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "475px",
+"page_number": 23,
+"text": "simulated clinical matrix",
+"top": "293px",
+"width": "170px"
 },
 {
-"id": 2,
-"page_number": 23,
-"left": "715px",
-"top": "293px",
-"width": "150px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "7",
+"comment": "",
+"height": "21px",
+"id": 2,
 "labels": [
 "Limit of Detection (LOD)/Concentration Range/Number of steps"
 ],
-"comment": ""
+"left": "715px",
+"page_number": 23,
+"text": "7",
+"top": "293px",
+"width": "150px"
 },
 {
-"id": 3,
-"page_number": 23,
-"left": "87px",
-"top": "316px",
-"width": "271px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "3",
+"comment": "",
+"height": "20px",
+"id": 3,
 "labels": [
 "Limit of Detection (LOD)/Concentration Range/Dilution per step"
 ],
-"comment": ""
+"left": "87px",
+"page_number": 23,
+"text": "3",
+"top": "316px",
+"width": "271px"
 },
 {
-"id": 4,
-"page_number": 23,
-"left": "533px",
-"top": "317px",
-"width": "204px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "21",
+"comment": "",
+"height": "21px",
+"id": 4,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "533px",
+"page_number": 23,
+"text": "21",
+"top": "317px",
+"width": "204px"
 },
 {
-"id": 5,
-"page_number": 23,
-"left": "738px",
-"top": "368px",
-"width": "41px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.009",
+"comment": "",
+"height": "26px",
+"id": 5,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "738px",
+"page_number": 23,
+"text": "0.009",
+"top": "368px",
+"width": "41px"
 },
 {
-"id": 6,
-"page_number": 23,
-"left": "91px",
-"top": "391px",
-"width": "80px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "TCID50 / mL",
+"comment": "",
+"height": "22px",
+"id": 6,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "91px",
+"page_number": 23,
+"text": "TCID50 / mL",
+"top": "391px",
+"width": "80px"
 },
 {
-"id": 7,
-"page_number": 23,
-"left": "216px",
-"top": "272px",
-"width": "186px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "cultured virus isolate",
+"comment": "",
+"height": "22px",
+"id": 7,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Live Virus"
 ],
-"comment": ""
+"left": "216px",
+"page_number": 23,
+"text": "cultured virus isolate",
+"top": "272px",
+"width": "186px"
 },
 {
-"id": 8,
-"page_number": 23,
-"left": "48px",
-"top": "1019px",
-"width": "821px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "46px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "BEI Resources (USA-WA1/2020, catalog number NR-52281)",
+"id": 8,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": ""
-},
-{
-"id": 9,
+"left": "48px",
 "page_number": 23,
-"left": "50px",
-"top": "295px",
-"width": "282px",
-"height": "23px",
+"text": "BEI Resources (USA-WA1/2020, catalog number NR-52281)",
+"top": "1019px",
+"width": "821px"
+},
+{
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "lot number 70033175, 2.8E+05 TCID50/mL",
+"comment": "",
+"height": "23px",
+"id": 9,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": ""
+"left": "50px",
+"page_number": 23,
+"text": "lot number 70033175, 2.8E+05 TCID50/mL",
+"top": "295px",
+"width": "282px"
 },
 {
-"id": 10,
-"deleted": true
+"deleted": true,
+"id": 10
 },
 {
-"id": 11,
-"page_number": 4,
-"left": "208px",
-"top": "163.445px",
-"width": "462px",
-"height": "45px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasal, nasopharyngeal, and oropharyngeal swab ",
+"comment": "",
+"height": "45px",
+"id": 11,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "208px",
+"page_number": 4,
+"text": "nasal, nasopharyngeal, and oropharyngeal swab ",
+"top": "163.445px",
+"width": "462px"
 },
 {
-"id": 12,
-"page_number": 4,
-"left": "50px",
-"top": "638.222px",
-"width": "789px",
-"height": "49px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Copan Universal Transport Medium System (UTM-RT), BD™ Universal Viral Transport System (UVT), cobas® PCR Media, or 0.9% physiological saline",
+"comment": "",
+"height": "49px",
+"id": 12,
 "labels": [
 "Specimen/Transport medium"
 ],
-"comment": ""
+"left": "50px",
+"page_number": 4,
+"text": "Copan Universal Transport Medium System (UTM-RT), BD™ Universal Viral Transport System (UVT), cobas® PCR Media, or 0.9% physiological saline",
+"top": "638.222px",
+"width": "789px"
 },
 {
-"id": 13,
-"page_number": 5,
-"left": "185px",
-"top": "119.333px",
-"width": "228px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "23px",
-"colour": "rgba(200, 200, 255, 0.6)",
+"id": 13,
+"labels": [
+"Viral gene(s) targetted"
+],
+"left": "185px",
+"page_number": 5,
 "text": "ORF1ab",
-"labels": [
-"Viral gene(s) targetted"
-],
-"comment": ""
+"top": "119.333px",
+"width": "228px"
 },
 {
-"id": 14,
-"page_number": 5,
-"left": "289px",
-"top": "139.333px",
-"width": "361px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "26px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "E",
+"id": 14,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "289px",
+"page_number": 5,
+"text": "E",
+"top": "139.333px",
+"width": "361px"
 },
 {
-"id": 15,
-"page_number": 5,
-"left": "567px",
-"top": "215.111px",
-"width": "23px",
-"height": "31px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "31px",
+"id": 15,
 "labels": [
 "Primers and probes/Sequences",
-"Meta/Not specified"
+"Meta/Not specified",
+"Primers and probes/Sequences/Not specified"
 ],
-"comment": ""
+"left": "567px",
+"page_number": 5,
+"text": "",
+"top": "215.111px",
+"width": "23px"
 }
 ],
 "comments": [],

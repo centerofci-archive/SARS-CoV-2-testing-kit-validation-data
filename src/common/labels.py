@@ -68,7 +68,7 @@ class Labels:
     primers_and_probes__sequences = "Primers and probes/Sequences"
     primers_and_probes__sequences__explicitly_specified = "Primers and probes/Sequences/Explicitly specified"
     primers_and_probes__sequences__not_assessed = "Primers and probes/Sequences/Not assessed"
-    primers_and_probes__sequences__not_given = "Primers and probes/Sequences/Not given"
+    primers_and_probes__sequences__not_specified = "Primers and probes/Sequences/Not specified"
     primers_and_probes__sequences__reference_available = "Primers and probes/Sequences/Reference available"
     primers_and_probes__source = "Primers and probes/Source"
     quantification_fluorescence_detection = "Quantification fluorescence detection"
@@ -155,4 +155,11 @@ class Labels:
         specimen__synthetic_specimen__virus__type__naked_rna,
         specimen__synthetic_specimen__virus__type__partial_live_virus,
         specimen__synthetic_specimen__virus__type__synthetic_viral_particles,
+    ])
+
+    primer_probe_sequences__classification__label_ids = set([
+        primers_and_probes__sequences__explicitly_specified,
+        primers_and_probes__sequences__not_assessed,
+        primers_and_probes__sequences__not_specified,
+        primers_and_probes__sequences__reference_available,
     ])

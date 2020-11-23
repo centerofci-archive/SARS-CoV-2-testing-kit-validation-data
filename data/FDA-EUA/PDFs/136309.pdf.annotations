@@ -2,161 +2,162 @@
 "file_sha1_hash": "4d242056991fe8f8ee6f1c3ef88604d42b36d4f5",
 "annotations": [
 {
-"id": 0,
-"page_number": 21,
-"left": "387px",
-"top": "1000px",
-"width": "165px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Minor error: should be 18._ ",
+"comment": "",
+"height": "22px",
+"id": 0,
 "labels": [
 "Meta/Error"
 ],
-"comment": ""
+"left": "387px",
+"page_number": 21,
+"text": "Minor error: should be 18._ ",
+"top": "1000px",
+"width": "165px"
 },
 {
-"id": 1,
-"page_number": 21,
-"left": "375px",
-"top": "893px",
-"width": "333px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "SARS-CoV-2 whole viral RNA",
+"comment": "",
+"height": "25px",
+"id": 1,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
+"left": "375px",
+"page_number": 21,
+"text": "SARS-CoV-2 whole viral RNA",
+"top": "893px",
+"width": "333px"
 },
 {
-"id": 2,
-"page_number": 21,
-"left": "51px",
-"top": "916px",
-"width": "410px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "European Virus Archive-Global (Cat: 026N-03889)",
+"comment": "",
+"height": "24px",
+"id": 2,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": ""
+"left": "51px",
+"page_number": 21,
+"text": "European Virus Archive-Global (Cat: 026N-03889)",
+"top": "916px",
+"width": "410px"
 },
 {
-"id": 3,
-"page_number": 21,
-"left": "504px",
-"top": "913px",
-"width": "256px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "oropharyngeal matrix negative",
+"comment": "",
+"height": "25px",
+"id": 3,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "504px",
+"page_number": 21,
+"text": "oropharyngeal matrix negative",
+"top": "913px",
+"width": "256px"
 },
 {
-"id": 4,
-"page_number": 21,
-"left": "746px",
-"top": "912px",
-"width": "26px",
-"height": "29px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "29px",
+"id": 4,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "746px",
+"page_number": 21,
+"text": "",
+"top": "912px",
+"width": "26px"
 },
 {
-"id": 5,
-"page_number": 21,
-"left": "404px",
-"top": "937px",
-"width": "224px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "24px",
+"id": 5,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "404px",
+"page_number": 21,
+"text": "20",
+"top": "937px",
+"width": "224px"
 },
 {
-"id": 6,
-"page_number": 21,
-"left": "48px",
-"top": "1104px",
-"width": "45px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.33",
+"comment": "",
+"height": "24px",
+"id": 6,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "48px",
+"page_number": 21,
+"text": "0.33",
+"top": "1104px",
+"width": "45px"
 },
 {
-"id": 7,
-"page_number": 21,
-"left": "96px",
-"top": "1103px",
-"width": "85px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "26px",
+"id": 7,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "96px",
+"page_number": 21,
+"text": "genome copies / μL",
+"top": "1103px",
+"width": "85px"
 },
 {
-"id": 8,
-"page_number": 4,
-"left": "650px",
-"top": "120px",
-"width": "171px",
-"height": "27px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "oropharyngeal swab",
+"comment": "",
+"height": "27px",
+"id": 8,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "650px",
+"page_number": 4,
+"text": "oropharyngeal swab",
+"top": "120px",
+"width": "171px"
 },
 {
-"id": 9,
-"page_number": 5,
-"left": "47px",
-"top": "329px",
-"width": "199px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "ORF1ab",
+"comment": "",
+"height": "26px",
+"id": 9,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "47px",
+"page_number": 5,
+"text": "ORF1ab",
+"top": "329px",
+"width": "199px"
 },
 {
-"id": 10,
-"page_number": 5,
-"left": "237px",
-"top": "327px",
-"width": "28px",
-"height": "33px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "33px",
+"id": 10,
 "labels": [
 "Primers and probes/Sequences",
-"Meta/Not specified"
+"Meta/Not specified",
+"Primers and probes/Sequences/Not specified"
 ],
-"comment": ""
+"left": "237px",
+"page_number": 5,
+"text": "",
+"top": "327px",
+"width": "28px"
 }
 ],
 "comments": [],

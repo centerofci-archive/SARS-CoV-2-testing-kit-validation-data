@@ -2,178 +2,179 @@
 "file_sha1_hash": "d6e2e8a334066fb17e870e3a32ab75d8e1b510ab",
 "annotations": [
 {
-"id": 0,
-"page_number": 1,
-"left": "132px",
-"top": "521px",
-"width": "640px",
-"height": "41px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasopharyngeal, oropharyngeal, anterior nasal and mid-turbinate nasal swabs, nasopharyngeal washes/aspirates or nasal aspirates, and bronchoalveolar lavage",
+"comment": "",
+"height": "41px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "132px",
+"page_number": 1,
+"text": "nasopharyngeal, oropharyngeal, anterior nasal and mid-turbinate nasal swabs, nasopharyngeal washes/aspirates or nasal aspirates, and bronchoalveolar lavage",
+"top": "521px",
+"width": "640px"
 },
 {
-"id": 1,
-"page_number": 2,
-"left": "648px",
-"top": "289px",
-"width": "127px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "N, N",
+"comment": "N1, N2",
+"height": "23px",
+"id": 1,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": "N1, N2"
+"left": "648px",
+"page_number": 2,
+"text": "N, N",
+"top": "289px",
+"width": "127px"
 },
 {
-"id": 2,
-"page_number": 2,
-"left": "451px",
-"top": "308px",
-"width": "159px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "RNase P (RP)",
+"comment": "",
+"height": "25px",
+"id": 2,
 "labels": [
 "Controls/Internal/Human gene target"
 ],
-"comment": ""
-},
-{
-"id": 3,
+"left": "451px",
 "page_number": 2,
-"left": "543px",
-"top": "352px",
-"width": "229px",
-"height": "24px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "Identical to CDC published primer and probe sequences",
-"labels": [
-"Primers and probes/Sequences"
-],
-"comment": ""
+"text": "RNase P (RP)",
+"top": "308px",
+"width": "159px"
 },
 {
-"id": 4,
-"page_number": 6,
-"left": "215px",
-"top": "791px",
-"width": "218px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "synthetic SARS-CoV-2 RNA",
+"comment": "",
+"height": "24px",
+"id": 3,
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Reference available"
+],
+"left": "543px",
+"page_number": 2,
+"text": "Identical to CDC published primer and probe sequences",
+"top": "352px",
+"width": "229px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "19px",
+"id": 4,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
+"left": "215px",
+"page_number": 6,
+"text": "synthetic SARS-CoV-2 RNA",
+"top": "791px",
+"width": "218px"
 },
 {
-"id": 5,
-"page_number": 6,
-"left": "430px",
-"top": "786px",
-"width": "106px",
-"height": "28px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "ATCC (VR-3276SD)",
+"comment": "",
+"height": "28px",
+"id": 5,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": ""
+"left": "430px",
+"page_number": 6,
+"text": "ATCC (VR-3276SD)",
+"top": "786px",
+"width": "106px"
 },
 {
-"id": 6,
-"page_number": 6,
-"left": "622px",
-"top": "788px",
-"width": "141px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "phosphate buffered saline",
+"comment": "",
+"height": "26px",
+"id": 6,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "622px",
+"page_number": 6,
+"text": "phosphate buffered saline",
+"top": "788px",
+"width": "141px"
 },
 {
-"id": 7,
-"page_number": 6,
-"left": "247px",
-"top": "809px",
-"width": "15px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "24px",
+"id": 7,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "247px",
+"page_number": 6,
+"text": "",
+"top": "809px",
+"width": "15px"
 },
 {
-"id": 8,
-"page_number": 6,
-"left": "398px",
-"top": "912px",
-"width": "28px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "25px",
+"id": 8,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "398px",
+"page_number": 6,
+"text": "20",
+"top": "912px",
+"width": "28px"
 },
 {
-"id": 9,
-"page_number": 7,
-"left": "208px",
-"top": "213px",
-"width": "34px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "3.16",
+"comment": "two-step BMC-CreM COVID-19 Test",
+"height": "22px",
+"id": 9,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": "two-step BMC-CreM COVID-19 Test"
+"left": "208px",
+"page_number": 7,
+"text": "3.16",
+"top": "213px",
+"width": "34px"
 },
 {
-"id": 10,
-"page_number": 7,
-"left": "204px",
-"top": "170px",
-"width": "113px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "21px",
+"id": 10,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
-},
-{
-"id": 11,
-"deleted": true
-},
-{
-"id": 12,
+"left": "204px",
 "page_number": 7,
-"left": "765px",
-"top": "478px",
-"width": "17px",
-"height": "26px",
+"text": "genome copies / μL",
+"top": "170px",
+"width": "113px"
+},
+{
+"deleted": true,
+"id": 11
+},
+{
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "1",
+"comment": "one-step singleplex BMC-CReM COVID-19 Test",
+"height": "26px",
+"id": 12,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": "one-step singleplex BMC-CReM COVID-19 Test"
+"left": "765px",
+"page_number": 7,
+"text": "1",
+"top": "478px",
+"width": "17px"
 }
 ],
 "comments": [],

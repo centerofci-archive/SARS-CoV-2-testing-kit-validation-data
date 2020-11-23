@@ -1,30 +1,45 @@
 
+interface MinimalAnnotation
+{
+    id: number,
+    text: string,
+    labels: string[],
+    comment: string,
+    anot8_org_file_id: string,
+}
+
+interface DATA_NODE
+{
+    parsed: string
+    annotations: MinimalAnnotation[]
+}
+
 interface DATA_ROW
 {
     test_id: string
     FDA_EUAs_list: {
-      first_issued_date: string
-      developer_name: string
-      test_name: string
-      test_technology: string
-      url_to_IFU_or_EUA: string
+        first_issued_date: string
+        developer_name: string
+        test_name: string
+        test_technology: string
+        url_to_IFU_or_EUA: string
     },
     anot8_org: {
-      file_id: string
-      permalink: string
+        file_id: string
+        permalink: string
     },
     fda_reference_panel_lod_data: {
-      different_developer_name: string
-      different_test_name: string
-      results_status: string
-      lod: number,
-      sample_media_type: string
+        different_developer_name: string
+        different_test_name: string
+        results_status: string
+        lod: number,
+        sample_media_type: string
     },
     self_declared_EUA_data: {
-      lod_min: number,
-      lod_max: number,
-      lod_units: string
-      synthetic_specimen__viral_material: []
+        primer_probe_sequences: DATA_NODE,
+        lod_value: DATA_NODE & { min: number, max: number },
+        lod_units: DATA_NODE
+        synthetic_specimen__viral_material: DATA_NODE
     }
 }
 
@@ -55,27 +70,80 @@ type TABLE_FIELDS =
 })[]
 
 
-const value_renderer_EUA_URL: ValueRenderer = d =>
+
+const get_comments_raw_and_references = (annotations: MinimalAnnotation[]) =>
 {
-    const parsed = `<a href="${d.FDA_EUAs_list.url_to_IFU_or_EUA}">R</a>`
-    return { parsed }
+    const raw: string[] = []
+    const comments: string[] = []
+    const references: { anot8_org_file_id, id }[] = []
+    annotations.forEach(({ text, comment, anot8_org_file_id, id }) =>
+    {
+        raw.push(text)
+        comments.push(comment)
+        references.push({ anot8_org_file_id, id })
+    })
+
+    return {
+        raw,
+        comments,
+        references,
+    }
 }
 
 
-const value_renderer_LOD: ValueRenderer = d =>
+const get_html_comments_raw_and_references = (annotations: MinimalAnnotation[]) =>
 {
-    const min = d.self_declared_EUA_data.lod_min
-    const max = d.self_declared_EUA_data.lod_max
+    const { raw, comments, references } = get_comments_raw_and_references(annotations)
 
-    let parsed = min.toString()
+    const raw_html = raw.map(escape_html).join(" &nbsp; ")
 
-    if (min !== max)
-    {
-        parsed = `${min} &lt;-&gt; ${max}`
-    }
+    const comments_html = comments
+    .filter(comment => comment)
+    .map(comment => {
+        return `<span title="${escape_html(comment)}">C</span>`
+    })
+    .join(" ")
+
+    const references_html = references.map(html_ref_link).join(" ")
 
     return {
-        parsed
+        raw: raw_html,
+        comments: comments_html,
+        references: references_html,
+    }
+}
+
+
+function ref_link (annotation: { anot8_org_file_id: string, id?: number })
+{
+    const { anot8_org_file_id, id } = annotation
+
+    const host = localStorage.getItem("anot8_server") || "https://anot8.org"
+    let ref = `${host}/r/1772.2/${anot8_org_file_id}`
+
+    if (id !== undefined) ref += `?h=${id}`
+
+    return ref
+}
+
+function html_ref_link (annotation: { anot8_org_file_id: string, id?: number })
+{
+    return `<a href="${ref_link(annotation)}">R<a/>`
+}
+
+
+const value_renderer_EUA_URL: ValueRenderer = d =>
+{
+    const references = `<a href="${d.FDA_EUAs_list.url_to_IFU_or_EUA}">R</a>`
+    return { parsed: " ", references }
+}
+
+
+const generic_value_renderer = (data_node: DATA_NODE) =>
+{
+    return {
+        parsed: data_node.parsed,
+        ...get_html_comments_raw_and_references(data_node.annotations)
     }
 }
 
@@ -88,11 +156,11 @@ const table_fields: TABLE_FIELDS = [
         children: [
             {
                 title: "Name",
-                value_renderer: d => ({ raw: d.FDA_EUAs_list.developer_name }),
+                value_renderer: d => ({ parsed: d.FDA_EUAs_list.developer_name }),
             },
             {
                 title: "Test name",
-                value_renderer: d => ({ raw: d.FDA_EUAs_list.test_name }),
+                value_renderer: d => ({ parsed: d.FDA_EUAs_list.test_name }),
             },
             {
                 title: "IFU or EUA",
@@ -107,7 +175,7 @@ const table_fields: TABLE_FIELDS = [
         children: [
             {
                 title: "Test technology",
-                value_renderer: d => ({ raw: d.FDA_EUAs_list.test_technology }),
+                value_renderer: d => ({ parsed: d.FDA_EUAs_list.test_technology }),
             },
             {
                 title: "Specimens",
@@ -147,7 +215,12 @@ const table_fields: TABLE_FIELDS = [
                 title: "Primers and probes",
                 value_renderer: null,
                 children: [
-                    { title: "Sequences", value_renderer: null /**/, },
+                    {
+                        title: "Sequences",
+                        value_renderer: d => {
+                            return generic_value_renderer(d.self_declared_EUA_data.primer_probe_sequences)
+                        },
+                    },
                     { title: "Sources", value_renderer: null /**/, hidden: true, },
                 ]
             },
@@ -164,11 +237,11 @@ const table_fields: TABLE_FIELDS = [
                 children: [
                     {
                         title: "value",
-                        value_renderer: value_renderer_LOD,
+                        value_renderer: d => generic_value_renderer(d.self_declared_EUA_data.lod_value),
                     },
                     {
                         title: "units",
-                        value_renderer: d => ({ raw: d.self_declared_EUA_data.lod_units }),
+                        value_renderer: d => generic_value_renderer(d.self_declared_EUA_data.lod_units),
                     },
                     {
                         title: "Minimum replicates",
@@ -241,7 +314,7 @@ const table_fields: TABLE_FIELDS = [
             },
             {
                 title: "Date",
-                value_renderer: d => ({ raw: d.FDA_EUAs_list.first_issued_date }),
+                value_renderer: d => ({ parsed: d.FDA_EUAs_list.first_issued_date }),
             },
             {
                 title: "Patient details",
@@ -259,9 +332,7 @@ const table_fields: TABLE_FIELDS = [
                 children: [
                     {
                         title: "Viral material",
-                        value_renderer: d => ({
-                            raw: d.self_declared_EUA_data.synthetic_specimen__viral_material.join(", ")
-                        }),
+                        value_renderer: d => d.self_declared_EUA_data.synthetic_specimen__viral_material,
                     },
                     {
                         title: "Viral material source",
@@ -506,10 +577,12 @@ function render_table_body (table_fields: TABLE_FIELDS, data_rows: DATA_ROW[])
             const comments_el = document.createElement("div")
             const references_el = document.createElement("div")
 
-            raw_el.innerHTML = contents.raw || ""
-            parsed_el.innerHTML = contents.parsed || ""
-            comments_el.innerHTML = contents.comments || ""
-            references_el.innerHTML = contents.references || ""
+            raw_el.innerHTML = contents.raw || "&nbsp;"
+            raw_el.className = "raw_data"
+            parsed_el.innerHTML = escape_html(contents.parsed || "") || `<span style="color: #ccc;">not parsed</span>`
+            parsed_el.className = "parsed_data"
+            comments_el.innerHTML = contents.comments || " "
+            references_el.innerHTML = contents.references || " "
 
             cell.appendChild(raw_el)
             cell.appendChild(parsed_el)
@@ -552,6 +625,34 @@ function hide_loading_status ()
 {
     const loading_status_el = document.getElementById("loading_status")
     loading_status_el.style.display = "none"
+}
+
+
+const html_escape_table = {
+    "&": "&amp;",
+    '"': "&quot;",
+    "'": "&apos;",
+    ">": "&gt;",
+    "<": "&lt;",
+}
+
+const html_escape_regexps: { regexp: RegExp, replacement: string }[] = []
+Object.keys(html_escape_table).forEach(key => {
+    const regexp = new RegExp(key, "g")
+    const replacement = html_escape_table[key]
+    html_escape_regexps.push({ regexp, replacement })
+})
+
+function escape_html (html)
+{
+    if (!html) return html
+
+    html_escape_regexps.forEach(({ regexp, replacement }) =>
+        {
+            html = html.replace(regexp, replacement)
+        })
+
+    return html
 }
 
 

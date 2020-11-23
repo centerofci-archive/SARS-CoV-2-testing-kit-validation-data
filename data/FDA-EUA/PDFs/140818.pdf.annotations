@@ -2,161 +2,162 @@
 "file_sha1_hash": "1c218f4a61d34e2c2a93cb6c201efa0c4d5758f7",
 "annotations": [
 {
-"id": 0,
-"page_number": 1,
-"left": "259px",
-"top": "555px",
-"width": "303px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasopharyngeal and oropharyngeal swabs",
+"comment": "",
+"height": "19px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "259px",
+"page_number": 1,
+"text": "nasopharyngeal and oropharyngeal swabs",
+"top": "555px",
+"width": "303px"
 },
 {
-"id": 1,
-"page_number": 2,
-"left": "199px",
-"top": "1055px",
-"width": "41px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "RPP30 protein subunit gene (RNase P (RP))",
+"comment": "",
+"height": "20px",
+"id": 1,
 "labels": [
 "Controls/Internal/Human gene target"
 ],
-"comment": ""
+"left": "199px",
+"page_number": 2,
+"text": "RPP30 protein subunit gene (RNase P (RP))",
+"top": "1055px",
+"width": "41px"
 },
 {
-"id": 2,
-"page_number": 6,
-"left": "131px",
-"top": "508px",
-"width": "85px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "N1, N2",
+"comment": "",
+"height": "23px",
+"id": 2,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "131px",
+"page_number": 6,
+"text": "N1, N2",
+"top": "508px",
+"width": "85px"
 },
 {
-"id": 3,
-"page_number": 6,
-"left": "217px",
-"top": "488px",
-"width": "569px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "42px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "N1, N2 primer/probe sets developed by the CDC",
+"id": 3,
 "labels": [
-"Primers and probes/Sequences"
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Reference available"
 ],
-"comment": ""
+"left": "217px",
+"page_number": 6,
+"text": "N1, N2 primer/probe sets developed by the CDC",
+"top": "488px",
+"width": "569px"
 },
 {
-"id": 4,
-"page_number": 6,
-"left": "512px",
-"top": "108px",
-"width": "148px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "whole viral genomic RNA",
+"comment": "",
+"height": "25px",
+"id": 4,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
+"left": "512px",
+"page_number": 6,
+"text": "whole viral genomic RNA",
+"top": "108px",
+"width": "148px"
 },
 {
-"id": 5,
-"page_number": 6,
-"left": "647px",
-"top": "104px",
-"width": "23px",
-"height": "30px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "30px",
+"id": 5,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "647px",
+"page_number": 6,
+"text": "",
+"top": "104px",
+"width": "23px"
 },
 {
-"id": 6,
-"page_number": 6,
-"left": "133px",
-"top": "134px",
-"width": "59px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "pooled sputum",
+"comment": "",
+"height": "19px",
+"id": 6,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "133px",
+"page_number": 6,
+"text": "pooled sputum",
+"top": "134px",
+"width": "59px"
 },
 {
-"id": 7,
-"page_number": 6,
-"left": "182px",
-"top": "127px",
-"width": "18px",
-"height": "29px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "29px",
+"id": 7,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "182px",
+"page_number": 6,
+"text": "",
+"top": "127px",
+"width": "18px"
 },
 {
-"id": 8,
-"page_number": 6,
-"left": "390px",
-"top": "276px",
-"width": "26px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "21px",
+"id": 8,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "390px",
+"page_number": 6,
+"text": "20",
+"top": "276px",
+"width": "26px"
 },
 {
-"id": 9,
-"page_number": 6,
-"left": "521px",
-"top": "358px",
-"width": "22px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "40",
+"comment": "",
+"height": "21px",
+"id": 9,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "521px",
+"page_number": 6,
+"text": "40",
+"top": "358px",
+"width": "22px"
 },
 {
-"id": 10,
-"page_number": 6,
-"left": "543px",
-"top": "359px",
-"width": "72px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "22px",
+"id": 10,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "543px",
+"page_number": 6,
+"text": "genome copies / μL",
+"top": "359px",
+"width": "72px"
 }
 ],
 "comments": [],

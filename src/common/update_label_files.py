@@ -10,6 +10,7 @@ labels = sorted(anot8_vault_config["labels"])
 
 attributes_and_labels = []
 viral_material_types__attribute_names = []
+primer_probe_sequences__classification__attribute_names = []
 for label in labels:
     attribute = label.lower()
     attribute = re.sub(" ", "_", attribute)
@@ -20,6 +21,9 @@ for label in labels:
 
     if "specimen__synthetic_specimen__virus__type__" in attribute:
         viral_material_types__attribute_names.append(attribute)
+
+    if "primers_and_probes__sequences__" in attribute:
+        primer_probe_sequences__classification__attribute_names.append(attribute)
 
 
 warning = "THIS FILE IS AUTO GENERATED.  DO NOT EDIT.  Change and re-run ./src/common/update_label_files.py\n"
@@ -45,6 +49,12 @@ python_labels_groups_part1 = """
 
 python_labels_groups_part2 = """
     ])
+
+    primer_probe_sequences__classification__label_ids = set([
+"""
+
+python_labels_groups_end = """
+    ])
 """
 
 def make_python_content ():
@@ -63,6 +73,13 @@ def make_python_content ():
             python_labels += "\n"
 
     python_labels += python_labels_groups_part2
+
+    for (i, attribute) in enumerate(primer_probe_sequences__classification__attribute_names):
+        python_labels += "        {},".format(attribute)
+        if i < (len(primer_probe_sequences__classification__attribute_names) - 1):
+            python_labels += "\n"
+
+    python_labels += python_labels_groups_end
 
     return python_labels
 

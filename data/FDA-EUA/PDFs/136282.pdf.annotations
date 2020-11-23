@@ -2,276 +2,277 @@
 "file_sha1_hash": "0d7f2b7697275557a49d6db05921c67308aa608b",
 "annotations": [
 {
-"page_number": 6,
-"left": "191px",
-"top": "771px",
-"width": "133px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "24px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "What is the \"Standard technique\" for sample collection?",
-"labels": [],
 "id": 0,
-"comment": ""
+"labels": [],
+"left": "191px",
+"page_number": 6,
+"text": "What is the \"Standard technique\" for sample collection?",
+"top": "771px",
+"width": "133px"
 },
 {
-"page_number": 6,
-"left": "157px",
-"top": "966px",
-"width": "107px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "25px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "CLSI MM13-A seems to discuss molecular but not clinical / physical collection",
-"labels": [],
 "id": 1,
-"comment": ""
-},
-{
+"labels": [],
+"left": "157px",
 "page_number": 6,
-"left": "542px",
-"top": "869px",
-"width": "110px",
-"height": "18px",
+"text": "CLSI MM13-A seems to discuss molecular but not clinical / physical collection",
+"top": "966px",
+"width": "107px"
+},
+{
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Which kind of transport media?",
-"labels": [],
+"comment": "",
+"height": "18px",
 "id": 2,
-"comment": ""
+"labels": [],
+"left": "542px",
+"page_number": 6,
+"text": "Which kind of transport media?",
+"top": "869px",
+"width": "110px"
 },
 {
-"page_number": 4,
-"left": "249px",
-"top": "346px",
-"width": "527px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Detection method",
-"labels": [],
+"comment": "",
+"height": "21px",
 "id": 3,
-"comment": ""
-},
-{
+"labels": [],
+"left": "249px",
 "page_number": 4,
-"left": "106px",
-"top": "386px",
-"width": "630px",
-"height": "20px",
-"colour": "rgba(200, 200, 255, 0.6)",
 "text": "Detection method",
-"labels": [],
+"top": "346px",
+"width": "527px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "20px",
 "id": 4,
-"comment": ""
+"labels": [],
+"left": "106px",
+"page_number": 4,
+"text": "Detection method",
+"top": "386px",
+"width": "630px"
 },
 {
-"page_number": 12,
-"left": "102px",
-"top": "701px",
-"width": "449px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "23px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "Clinical validation sample type, number, partial patient type",
-"labels": [],
 "id": 5,
-"comment": ""
+"labels": [],
+"left": "102px",
+"page_number": 12,
+"text": "Clinical validation sample type, number, partial patient type",
+"top": "701px",
+"width": "449px"
 },
 {
-"page_number": 3,
-"left": "104px",
-"top": "183px",
-"width": "358px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "18px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "Intended use population?",
-"labels": [],
 "id": 6,
-"comment": ""
-},
-{
-"page_number": 12,
-"left": "105px",
-"top": "992px",
-"width": "423px",
-"height": "48px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "Calculated PPA and NPA plus confidence intervals",
 "labels": [],
-"id": 7,
-"comment": ""
-},
-{
-"page_number": 12,
-"left": "305px",
-"top": "934px",
-"width": "150px",
-"height": "21px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "Positive clinical samples",
-"labels": [],
-"id": 8,
-"comment": ""
-},
-{
-"page_number": 12,
-"left": "482px",
-"top": "934px",
-"width": "150px",
-"height": "22px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "Negative control clinical samples",
-"labels": [],
-"id": 9,
-"comment": ""
-},
-{
-"id": 10,
-"page_number": 3,
 "left": "104px",
-"top": "166px",
-"width": "273px",
-"height": "17px",
+"page_number": 3,
+"text": "Intended use population?",
+"top": "183px",
+"width": "358px"
+},
+{
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasopharyngeal swab specimens (NPS)",
+"comment": "",
+"height": "48px",
+"id": 7,
+"labels": [],
+"left": "105px",
+"page_number": 12,
+"text": "Calculated PPA and NPA plus confidence intervals",
+"top": "992px",
+"width": "423px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "21px",
+"id": 8,
+"labels": [],
+"left": "305px",
+"page_number": 12,
+"text": "Positive clinical samples",
+"top": "934px",
+"width": "150px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "22px",
+"id": 9,
+"labels": [],
+"left": "482px",
+"page_number": 12,
+"text": "Negative control clinical samples",
+"top": "934px",
+"width": "150px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "17px",
+"id": 10,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "104px",
+"page_number": 3,
+"text": "nasopharyngeal swab specimens (NPS)",
+"top": "166px",
+"width": "273px"
 },
 {
-"id": 11,
-"page_number": 3,
-"left": "378px",
-"top": "163px",
-"width": "246px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "viral transport media (VTM)",
+"comment": "",
+"height": "20px",
+"id": 11,
 "labels": [
 "Specimen/Transport medium"
 ],
-"comment": ""
+"left": "378px",
+"page_number": 3,
+"text": "viral transport media (VTM)",
+"top": "163px",
+"width": "246px"
 },
 {
-"id": 12,
-"page_number": 4,
-"left": "134px",
-"top": "327px",
-"width": "79px",
-"height": "18px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "18px",
+"id": 12,
 "labels": [
 "Viral gene(s) targetted",
 "Meta/Not specified"
 ],
-"comment": ""
-},
-{
-"id": 13,
-"deleted": true
-},
-{
-"id": 14,
-"page_number": 13,
-"left": "316px",
-"top": "193px",
-"width": "29px",
-"height": "27px",
-"colour": "rgba(200, 200, 255, 0.6)",
+"left": "134px",
+"page_number": 4,
 "text": "",
+"top": "327px",
+"width": "79px"
+},
+{
+"deleted": true,
+"id": 13
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "27px",
+"id": 14,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "316px",
+"page_number": 13,
+"text": "",
+"top": "193px",
+"width": "29px"
 },
 {
-"id": 15,
-"page_number": 13,
-"left": "738px",
-"top": "197px",
-"width": "22px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "22px",
+"id": 15,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "738px",
+"page_number": 13,
+"text": "20",
+"top": "197px",
+"width": "22px"
 },
 {
-"id": 16,
-"page_number": 13,
-"left": "637px",
-"top": "361px",
-"width": "50px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "100",
+"comment": "",
+"height": "24px",
+"id": 16,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "637px",
+"page_number": 13,
+"text": "100",
+"top": "361px",
+"width": "50px"
 },
 {
-"id": 17,
-"page_number": 13,
-"left": "686px",
-"top": "362px",
-"width": "70px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "25px",
+"id": 17,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "686px",
+"page_number": 13,
+"text": "genome copies / μL",
+"top": "362px",
+"width": "70px"
 },
 {
-"id": 18,
-"deleted": true
+"deleted": true,
+"id": 18
 },
 {
-"id": 19,
-"page_number": 4,
-"left": "425px",
-"top": "324px",
-"width": "96px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "23px",
+"id": 19,
 "labels": [
 "Primers and probes/Sequences",
-"Meta/Not specified"
+"Meta/Not specified",
+"Primers and probes/Sequences/Not specified"
 ],
-"comment": ""
+"left": "425px",
+"page_number": 4,
+"text": "",
+"top": "324px",
+"width": "96px"
 },
 {
-"id": 20,
-"page_number": 13,
-"left": "180px",
-"top": "196px",
-"width": "153px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "in vitro transcript (IVT)",
+"comment": "",
+"height": "26px",
+"id": 20,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
+"left": "180px",
+"page_number": 13,
+"text": "in vitro transcript (IVT)",
+"top": "196px",
+"width": "153px"
 },
 {
-"id": 21,
-"page_number": 13,
-"left": "559px",
-"top": "198px",
-"width": "98px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "1x PBS buffer",
+"comment": "",
+"height": "23px",
+"id": 21,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "559px",
+"page_number": 13,
+"text": "1x PBS buffer",
+"top": "198px",
+"width": "98px"
 }
 ],
 "comments": [],

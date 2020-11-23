@@ -2,255 +2,256 @@
 "file_sha1_hash": "bd3ee3b1af800e67fdb959a24b878dedef8d8c28",
 "annotations": [
 {
-"id": 0,
-"page_number": 10,
-"left": "159px",
-"top": "1000px",
-"width": "171px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "SARS CoV-2 synthetic RNA",
+"comment": "",
+"height": "25px",
+"id": 0,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
+"left": "159px",
+"page_number": 10,
+"text": "SARS CoV-2 synthetic RNA",
+"top": "1000px",
+"width": "171px"
 },
 {
-"id": 1,
-"page_number": 10,
-"left": "319px",
-"top": "1002px",
-"width": "21px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "23px",
+"id": 1,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "319px",
+"page_number": 10,
+"text": "",
+"top": "1002px",
+"width": "21px"
 },
 {
-"id": 2,
-"page_number": 11,
-"left": "156px",
-"top": "101px",
-"width": "141px",
-"height": "32px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "live SARS-CoV-2",
+"comment": "Marked as error but could be because the preliminary experiment used RNA and the confirmatory experiment used live virus.  However it is not clear what was used as it refers to \"the quantified live ...\" which has not previously been mentioned in the LoD section.",
+"height": "32px",
+"id": 2,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Meta/Error"
 ],
-"comment": "Marked as error but could be because the preliminary experiment used RNA and the confirmatory experiment used live virus.  However it is not clear what was used as it refers to \"the quantified live ...\" which has not previously been mentioned in the LoD section."
+"left": "156px",
+"page_number": 11,
+"text": "live SARS-CoV-2",
+"top": "101px",
+"width": "141px"
 },
 {
-"id": 3,
-"page_number": 11,
-"left": "283px",
-"top": "105px",
-"width": "20px",
-"height": "29px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "29px",
+"id": 3,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "283px",
+"page_number": 11,
+"text": "",
+"top": "105px",
+"width": "20px"
 },
 {
-"id": 4,
-"page_number": 11,
-"left": "330px",
-"top": "109px",
-"width": "437px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": " negative respiratory clinical matrices (NP swabs and BAL)",
+"comment": "",
+"height": "24px",
+"id": 4,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
-},
-{
-"id": 5,
-"deleted": true
-},
-{
-"id": 6,
+"left": "330px",
 "page_number": 11,
-"left": "358px",
-"top": "255px",
-"width": "39px",
-"height": "22px",
+"text": " negative respiratory clinical matrices (NP swabs and BAL)",
+"top": "109px",
+"width": "437px"
+},
+{
+"deleted": true,
+"id": 5
+},
+{
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "6.25",
+"comment": "genome copies / μL  for NP swabs",
+"height": "22px",
+"id": 6,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": "genome copies / μL  for NP swabs"
+"left": "358px",
+"page_number": 11,
+"text": "6.25",
+"top": "255px",
+"width": "39px"
 },
 {
-"id": 7,
-"page_number": 11,
-"left": "395px",
-"top": "258px",
-"width": "49px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "20px",
+"id": 7,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "395px",
+"page_number": 11,
+"text": "genome copies / μL",
+"top": "258px",
+"width": "49px"
 },
 {
-"id": 8,
-"page_number": 10,
-"left": "673px",
-"top": "1003px",
-"width": "100px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "23px",
+"id": 8,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "673px",
+"page_number": 10,
+"text": "20",
+"top": "1003px",
+"width": "100px"
 },
 {
-"id": 9,
-"page_number": 11,
-"left": "159px",
-"top": "275px",
-"width": "37px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "12.5",
+"comment": "genome copies / μL  for BAL",
+"height": "22px",
+"id": 9,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": "genome copies / μL  for BAL"
-},
-{
-"id": 10,
-"deleted": true
-},
-{
-"id": 11,
+"left": "159px",
 "page_number": 11,
-"left": "637px",
-"top": "419px",
-"width": "60px",
-"height": "26px",
+"text": "12.5",
+"top": "275px",
+"width": "37px"
+},
+{
+"deleted": true,
+"id": 10
+},
+{
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "3.125",
+"comment": "Calculated by 6.25 copies / ul == 31.25 copies / reaction so half copies / reaction == half copies / ul.  Applies to both NP Swab and BAL.  Marked as error because it is showing high sensitivity despite later saying Ct value decreased by 1 for lower 200 ul sample volumes (see annotation 12)",
+"height": "26px",
+"id": 11,
 "labels": [
 "Limit of Detection (LOD)/Value",
 "Meta/Error"
 ],
-"comment": "Calculated by 6.25 copies / ul == 31.25 copies / reaction so half copies / reaction == half copies / ul.  Applies to both NP Swab and BAL.  Marked as error because it is showing high sensitivity despite later saying Ct value decreased by 1 for lower 200 ul sample volumes (see annotation 12)"
+"left": "637px",
+"page_number": 11,
+"text": "3.125",
+"top": "419px",
+"width": "60px"
 },
 {
-"id": 12,
-"page_number": 15,
-"left": "567px",
-"top": "723px",
-"width": "214px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "24px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"id": 12,
 "labels": [],
-"comment": ""
+"left": "567px",
+"page_number": 15,
+"text": "",
+"top": "723px",
+"width": "214px"
 },
 {
-"id": 13,
-"page_number": 7,
-"left": "121px",
-"top": "107px",
-"width": "741px",
-"height": "242px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "242px",
+"id": 13,
 "labels": [
 "Primers and probes/Sequences",
-"Meta/Not specified"
+"Meta/Not specified",
+"Primers and probes/Sequences/Not specified"
 ],
-"comment": ""
+"left": "121px",
+"page_number": 7,
+"text": "",
+"top": "107px",
+"width": "741px"
 },
 {
-"id": 14,
-"page_number": 7,
-"left": "558px",
-"top": "104px",
-"width": "62px",
-"height": "246px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "IDT",
+"comment": "",
+"height": "246px",
+"id": 14,
 "labels": [
 "Primers and probes/Source"
 ],
-"comment": ""
+"left": "558px",
+"page_number": 7,
+"text": "IDT",
+"top": "104px",
+"width": "62px"
 },
 {
-"id": 15,
-"page_number": 2,
-"left": "188px",
-"top": "577px",
-"width": "167px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "N",
+"comment": "",
+"height": "24px",
+"id": 15,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "188px",
+"page_number": 2,
+"text": "N",
+"top": "577px",
+"width": "167px"
 },
 {
-"id": 16,
-"page_number": 2,
-"left": "631px",
-"top": "578px",
-"width": "127px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "RNase P (RP)",
+"comment": "",
+"height": "24px",
+"id": 16,
 "labels": [
 "Controls/Internal/Human gene target"
 ],
-"comment": ""
+"left": "631px",
+"page_number": 2,
+"text": "RNase P (RP)",
+"top": "578px",
+"width": "127px"
 },
 {
-"id": 17,
-"page_number": 2,
-"left": "130px",
-"top": "658px",
-"width": "650px",
-"height": "47px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasal, nasopharyngeal or oropharyngeal swabs, sputum, lower respiratory tract aspirates, bronchoalveolar lavage, and nasopharyngeal wash/aspirate or nasal aspirate",
+"comment": "",
+"height": "47px",
+"id": 17,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "130px",
+"page_number": 2,
+"text": "nasal, nasopharyngeal or oropharyngeal swabs, sputum, lower respiratory tract aspirates, bronchoalveolar lavage, and nasopharyngeal wash/aspirate or nasal aspirate",
+"top": "658px",
+"width": "650px"
 },
 {
-"id": 18,
-"page_number": 11,
-"left": "205px",
-"top": "441px",
-"width": "70px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "21px",
+"id": 18,
 "labels": [
 "Nucleic acid amplification/Reaction/Volume in μL",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "205px",
+"page_number": 11,
+"text": "",
+"top": "441px",
+"width": "70px"
 }
 ],
 "comments": [],

@@ -178,7 +178,8 @@
 "id": 13,
 "labels": [
 "Primers and probes/Sequences",
-"Meta/Not specified"
+"Meta/Not specified",
+"Primers and probes/Sequences/Not specified"
 ],
 "left": "415px",
 "page_number": 19,
@@ -187,33 +188,33 @@
 "width": "22px"
 },
 {
-"id": 14,
-"page_number": 21,
-"left": "102px",
-"top": "190px",
-"width": "193px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "pooled sputum samples",
+"comment": "",
+"height": "23px",
+"id": 14,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "102px",
+"page_number": 21,
+"text": "pooled sputum samples",
+"top": "190px",
+"width": "193px"
 },
 {
-"id": 15,
-"page_number": 21,
-"left": "282px",
-"top": "190px",
-"width": "21px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "24px",
+"id": 15,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "282px",
+"page_number": 21,
+"text": "",
+"top": "190px",
+"width": "21px"
 }
 ],
 "comments": [],

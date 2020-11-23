@@ -2,167 +2,168 @@
 "file_sha1_hash": "a4f7004fca3a39a0f036a0897de3bf2e7413b508",
 "annotations": [
 {
-"id": 0,
-"page_number": 40,
-"left": "74px",
-"top": "912px",
-"width": "754px",
-"height": "43px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "characterized stocks of in vitro transcribed full length RNA (N gene; GenBank accession: MN908947.2)",
+"comment": "Why does it say \"in vitro transcribed full length RNA\" and then say \"N gene\"?",
+"height": "43px",
+"id": 0,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": "Why does it say \"in vitro transcribed full length RNA\" and then say \"N gene\"?"
+"left": "74px",
+"page_number": 40,
+"text": "characterized stocks of in vitro transcribed full length RNA (N gene; GenBank accession: MN908947.2)",
+"top": "912px",
+"width": "754px"
 },
 {
-"id": 1,
-"page_number": 40,
-"left": "72px",
-"top": "954px",
-"width": "694px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "suspension of human A549 cells and viral transport medium (VTM) to mimic clinical specimen",
+"comment": "",
+"height": "19px",
+"id": 1,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "72px",
+"page_number": 40,
+"text": "suspension of human A549 cells and viral transport medium (VTM) to mimic clinical specimen",
+"top": "954px",
+"width": "694px"
 },
 {
-"id": 2,
-"deleted": true,
 "comment": "",
+"deleted": true,
+"id": 2,
 "labels": []
 },
 {
-"id": 3,
-"page_number": 41,
-"left": "640px",
-"top": "822px",
-"width": "117px",
-"height": "28px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "28px",
+"id": 3,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "640px",
+"page_number": 41,
+"text": "genome copies / μL",
+"top": "822px",
+"width": "117px"
 },
 {
-"id": 4,
-"page_number": 41,
-"left": "306px",
-"top": "893px",
-"width": "24px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "N",
+"comment": "",
+"height": "24px",
+"id": 4,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "306px",
+"page_number": 41,
+"text": "N",
+"top": "893px",
+"width": "24px"
 },
 {
-"id": 5,
-"page_number": 41,
-"left": "508px",
-"top": "902px",
-"width": "53px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "29px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "3.162",
+"id": 5,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
-},
-{
-"id": 6,
+"left": "508px",
 "page_number": 41,
-"left": "697px",
-"top": "899px",
-"width": "46px",
-"height": "36px",
+"text": "3.162",
+"top": "902px",
+"width": "53px"
+},
+{
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "1",
+"comment": "",
+"height": "36px",
+"id": 6,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "697px",
+"page_number": 41,
+"text": "1",
+"top": "899px",
+"width": "46px"
 },
 {
-"id": 7,
-"page_number": 40,
-"left": "316px",
-"top": "930px",
-"width": "22px",
-"height": "27px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "27px",
+"id": 7,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "316px",
+"page_number": 40,
+"text": "",
+"top": "930px",
+"width": "22px"
 },
 {
-"id": 8,
-"page_number": 41,
-"left": "401px",
-"top": "172px",
-"width": "179px",
-"height": "27px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "27px",
+"id": 8,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "401px",
+"page_number": 41,
+"text": "20",
+"top": "172px",
+"width": "179px"
 },
 {
-"id": 9,
-"page_number": 3,
-"left": "72px",
-"top": "161px",
-"width": "770px",
-"height": "63px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "upper and lower respiratory specimens (such as nasopharyngeal or oropharyngeal swabs, sputum, lower respiratory tract aspirates, bronchoalveolar lavage, and nasopharyngeal wash/aspirate or nasal aspirate)",
+"comment": "",
+"height": "63px",
+"id": 9,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "72px",
+"page_number": 3,
+"text": "upper and lower respiratory specimens (such as nasopharyngeal or oropharyngeal swabs, sputum, lower respiratory tract aspirates, bronchoalveolar lavage, and nasopharyngeal wash/aspirate or nasal aspirate)",
+"top": "161px",
+"width": "770px"
 },
 {
-"id": 10,
-"page_number": 6,
-"left": "368px",
-"top": "547.222px",
-"width": "54px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "RNase P (RP)",
+"comment": "",
+"height": "25px",
+"id": 10,
 "labels": [
 "Controls/Internal/Human gene target"
 ],
-"comment": ""
+"left": "368px",
+"page_number": 6,
+"text": "RNase P (RP)",
+"top": "547.222px",
+"width": "54px"
 },
 {
-"id": 11,
-"page_number": 4,
-"left": "263px",
-"top": "151.556px",
-"width": "30px",
-"height": "27px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "27px",
+"id": 11,
 "labels": [
 "Primers and probes/Sequences",
-"Meta/Not specified"
+"Meta/Not specified",
+"Primers and probes/Sequences/Not specified"
 ],
-"comment": ""
+"left": "263px",
+"page_number": 4,
+"text": "",
+"top": "151.556px",
+"width": "30px"
 }
 ],
 "comments": [],

@@ -2,194 +2,195 @@
 "file_sha1_hash": "644932c76f1b8e6e8269ed2849abd5f9d47a09c8",
 "annotations": [
 {
-"id": 0,
-"page_number": 2,
-"left": "218px",
-"top": "127.556px",
-"width": "216px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasopharyngeal swabs (NPS)",
+"comment": "",
+"height": "21px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "218px",
+"page_number": 2,
+"text": "nasopharyngeal swabs (NPS)",
+"top": "127.556px",
+"width": "216px"
 },
 {
-"id": 1,
-"page_number": 33,
-"left": "666px",
-"top": "209.336px",
-"width": "163px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "inactivated or infectious virus culture",
+"comment": "",
+"height": "23px",
+"id": 1,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Live Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Inactivated Virus (Heat)"
 ],
-"comment": ""
-},
-{
-"id": 2,
-"deleted": true
-},
-{
-"id": 3,
+"left": "666px",
 "page_number": 33,
-"left": "51px",
-"top": "292.336px",
-"width": "89px",
-"height": "19px",
+"text": "inactivated or infectious virus culture",
+"top": "209.336px",
+"width": "163px"
+},
+{
+"deleted": true,
+"id": 2
+},
+{
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "clinical nasopharyngeal swab",
+"comment": "",
+"height": "19px",
+"id": 3,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "51px",
+"page_number": 33,
+"text": "clinical nasopharyngeal swab",
+"top": "292.336px",
+"width": "89px"
 },
 {
-"id": 4,
-"page_number": 33,
-"left": "135px",
-"top": "289.336px",
-"width": "12px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "21px",
+"id": 4,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "135px",
+"page_number": 33,
+"text": "",
+"top": "289.336px",
+"width": "12px"
 },
 {
-"id": 5,
-"page_number": 33,
-"left": "547px",
-"top": "399.668px",
-"width": "53px",
-"height": "17px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.5",
+"comment": "Heat inactivated virus",
+"height": "17px",
+"id": 5,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": "Heat inactivated virus"
+"left": "547px",
+"page_number": 33,
+"text": "0.5",
+"top": "399.668px",
+"width": "53px"
 },
 {
-"id": 6,
-"page_number": 33,
-"left": "599px",
-"top": "397.668px",
-"width": "60px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "19px",
+"id": 6,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "599px",
+"page_number": 33,
+"text": "genome copies / μL",
+"top": "397.668px",
+"width": "60px"
 },
 {
-"id": 7,
-"page_number": 33,
-"left": "49px",
-"top": "492.668px",
-"width": "780px",
-"height": "34px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "World Reference Center for Emerging Viruses and Arboviruses (WRCEVA)",
+"comment": "Infectious virus",
+"height": "34px",
+"id": 7,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": "Infectious virus"
+"left": "49px",
+"page_number": 33,
+"text": "World Reference Center for Emerging Viruses and Arboviruses (WRCEVA)",
+"top": "492.668px",
+"width": "780px"
 },
 {
-"id": 8,
-"page_number": 33,
-"left": "546px",
-"top": "438.555px",
-"width": "54px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.16",
+"comment": "infectious virus",
+"height": "19px",
+"id": 8,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": "infectious virus"
+"left": "546px",
+"page_number": 33,
+"text": "0.16",
+"top": "438.555px",
+"width": "54px"
 },
 {
-"id": 9,
-"page_number": 33,
-"left": "383px",
-"top": "401.891px",
-"width": "122px",
-"height": "30px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "ATCC® VR-1986HK",
+"comment": "",
+"height": "30px",
+"id": 9,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": ""
+"left": "383px",
+"page_number": 33,
+"text": "ATCC® VR-1986HK",
+"top": "401.891px",
+"width": "122px"
 },
 {
-"id": 10,
-"page_number": 33,
-"left": "545px",
-"top": "290.891px",
-"width": "92px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "23px",
+"id": 10,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "545px",
+"page_number": 33,
+"text": "20",
+"top": "290.891px",
+"width": "92px"
 },
 {
-"id": 11,
-"page_number": 13,
-"left": "423px",
-"top": "891px",
-"width": "173px",
-"height": "46px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "S, M",
+"comment": "",
+"height": "46px",
+"id": 11,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "423px",
+"page_number": 13,
+"text": "S, M",
+"top": "891px",
+"width": "173px"
 },
 {
-"id": 12,
-"page_number": 13,
-"left": "591px",
-"top": "886.89px",
-"width": "41px",
-"height": "49px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "49px",
+"id": 12,
 "labels": [
 "Primers and probes/Sequences",
-"Meta/Not specified"
+"Meta/Not specified",
+"Primers and probes/Sequences/Not specified"
 ],
-"comment": ""
+"left": "591px",
+"page_number": 13,
+"text": "",
+"top": "886.89px",
+"width": "41px"
 },
 {
-"id": 13,
-"page_number": 33,
-"left": "50px",
-"top": "341.668px",
-"width": "771px",
-"height": "139px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "Shows inactivated virus harder to detect that live virus.",
+"height": "139px",
+"id": 13,
 "labels": [
 "Limit of Detection (LOD)/Protocol"
 ],
-"comment": "Shows inactivated virus harder to detect that live virus."
+"left": "50px",
+"page_number": 33,
+"text": "",
+"top": "341.668px",
+"width": "771px"
 }
 ],
 "comments": [],

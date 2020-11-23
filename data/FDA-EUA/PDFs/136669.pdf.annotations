@@ -124,7 +124,8 @@
 "id": 8,
 "labels": [
 "Viral gene(s) targetted",
-"Primers and probes/Sequences"
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Reference available"
 ],
 "left": "104px",
 "page_number": 1,

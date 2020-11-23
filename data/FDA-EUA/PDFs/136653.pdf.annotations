@@ -2,188 +2,188 @@
 "file_sha1_hash": "1248a93edde53bc77d5051e8177a4c852bccc580",
 "annotations": [
 {
-"id": 0,
-"page_number": 1,
-"left": "108px",
-"top": "397px",
-"width": "691px",
-"height": "30px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasopharyngeal, nasal, mid-turbinate, and oropharyngeal swab specimens, nasopharyngeal wash/aspirate or nasal aspirates",
+"comment": "",
+"height": "30px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "108px",
+"page_number": 1,
+"text": "nasopharyngeal, nasal, mid-turbinate, and oropharyngeal swab specimens, nasopharyngeal wash/aspirate or nasal aspirates",
+"top": "397px",
+"width": "691px"
 },
 {
-"id": 1,
-"page_number": 1,
-"left": "214px",
-"top": "676.444px",
-"width": "145px",
-"height": "16px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "16px",
+"id": 1,
 "labels": [
 "Specimen/Transport container(s)"
 ],
-"comment": ""
+"left": "214px",
+"page_number": 1,
+"text": "",
+"top": "676.444px",
+"width": "145px"
 },
 {
-"id": 2,
-"page_number": 1,
-"left": "206px",
-"top": "661.444px",
-"width": "515px",
-"height": "17px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "BD Universal Viral Transport System (UVT) or Copan Universal Transport Media System (UTM)",
+"comment": "",
+"height": "17px",
+"id": 2,
 "labels": [
 "Specimen/Transport medium"
 ],
-"comment": ""
+"left": "206px",
+"page_number": 1,
+"text": "BD Universal Viral Transport System (UVT) or Copan Universal Transport Media System (UTM)",
+"top": "661.444px",
+"width": "515px"
 },
 {
-"id": 3,
-"page_number": 1,
-"left": "102px",
-"top": "735.556px",
-"width": "233px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nucleocapsid phosphoprotein gene (N1 and N2 regions)",
+"comment": "",
+"height": "19px",
+"id": 3,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "102px",
+"page_number": 1,
+"text": "nucleocapsid phosphoprotein gene (N1 and N2 regions)",
+"top": "735.556px",
+"width": "233px"
 },
 {
-"id": 4,
-"page_number": 1,
-"left": "553px",
-"top": "736.556px",
-"width": "91px",
-"height": "18px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "RNase P (RP)",
+"comment": "",
+"height": "18px",
+"id": 4,
 "labels": [
 "Controls/Internal/Human gene target"
 ],
-"comment": ""
-},
-{
-"id": 5,
+"left": "553px",
 "page_number": 1,
-"left": "109px",
-"top": "752.556px",
-"width": "518px",
-"height": "17px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "References N1 and N2 primer/probe sets of the United States Centers for Disease Control and Prevention (US CDC)",
-"labels": [
-"Primers and probes/Sequences",
-"Meta/Not specified"
-],
-"comment": "Says \"based on\", so may be different sequence etc"
+"text": "RNase P (RP)",
+"top": "736.556px",
+"width": "91px"
 },
 {
-"id": 6,
-"page_number": 13,
-"left": "229px",
-"top": "282.223px",
-"width": "261px",
-"height": "15px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genomic viral RNA from SARS-CoV-2",
+"comment": "Says \"based on\", so may be different sequence etc.  But lower down says it is identical to CDC's",
+"height": "17px",
+"id": 5,
+"labels": [
+"Primers and probes/Sequences"
+],
+"left": "109px",
+"page_number": 1,
+"text": "References N1 and N2 primer/probe sets of the United States Centers for Disease Control and Prevention (US CDC)",
+"top": "752.556px",
+"width": "518px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "15px",
+"id": 6,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
+"left": "229px",
+"page_number": 13,
+"text": "genomic viral RNA from SARS-CoV-2",
+"top": "282.223px",
+"width": "261px"
 },
 {
-"id": 7,
-"page_number": 13,
-"left": "568px",
-"top": "282.223px",
-"width": "199px",
-"height": "17px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "BEI Resources (Cat. No. NR-52285)",
+"comment": "",
+"height": "17px",
+"id": 7,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": ""
+"left": "568px",
+"page_number": 13,
+"text": "BEI Resources (Cat. No. NR-52285)",
+"top": "282.223px",
+"width": "199px"
 },
 {
-"id": 8,
-"page_number": 13,
-"left": "234px",
-"top": "298.223px",
-"width": "252px",
-"height": "14px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "pooled negative nasopharyngeal clinical matrix",
+"comment": "",
+"height": "14px",
+"id": 8,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "234px",
+"page_number": 13,
+"text": "pooled negative nasopharyngeal clinical matrix",
+"top": "298.223px",
+"width": "252px"
 },
 {
-"id": 9,
-"page_number": 13,
-"left": "674px",
-"top": "311.223px",
-"width": "17px",
-"height": "13px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "13px",
+"id": 9,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "674px",
+"page_number": 13,
+"text": "20",
+"top": "311.223px",
+"width": "17px"
 },
 {
-"id": 10,
-"page_number": 13,
-"left": "120px",
-"top": "355.223px",
-"width": "16px",
-"height": "16px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.04",
+"comment": "",
+"height": "16px",
+"id": 10,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "120px",
+"page_number": 13,
+"text": "0.04",
+"top": "355.223px",
+"width": "16px"
 },
 {
-"id": 11,
-"page_number": 13,
-"left": "136px",
-"top": "357.223px",
-"width": "42px",
-"height": "13px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "13px",
+"id": 11,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "136px",
+"page_number": 13,
+"text": "genome copies / μL",
+"top": "357.223px",
+"width": "42px"
 },
 {
-"id": 12,
-"page_number": 13,
-"left": "105px",
-"top": "552px",
-"width": "703px",
-"height": "34px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Sequences identical to CDC N1 and N2 primer/probes.",
+"comment": "",
+"height": "34px",
+"id": 12,
 "labels": [
-"Primers and probes/Sequences"
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Reference available"
 ],
-"comment": ""
+"left": "105px",
+"page_number": 13,
+"text": "Sequences identical to CDC N1 and N2 primer/probes.",
+"top": "552px",
+"width": "703px"
 }
 ],
 "comments": [],

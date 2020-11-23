@@ -2,144 +2,145 @@
 "file_sha1_hash": "efadcde94e402666e093f16a23b9fd1a3191d6be",
 "annotations": [
 {
-"id": 0,
-"page_number": 18,
-"left": "116px",
-"top": "206px",
-"width": "688px",
-"height": "41px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Pooled nasopharyngeal swab specimens, also confirmed with (see below) saline, Liquid Amies, STM (Specimen Transport Medium), pooled clinical bronchoalveolar lavage fluid lower respiratory tract specimens.",
+"comment": "",
+"height": "41px",
+"id": 0,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "116px",
+"page_number": 18,
+"text": "Pooled nasopharyngeal swab specimens, also confirmed with (see below) saline, Liquid Amies, STM (Specimen Transport Medium), pooled clinical bronchoalveolar lavage fluid lower respiratory tract specimens.",
+"top": "206px",
+"width": "688px"
 },
 {
-"id": 1,
-"page_number": 18,
-"left": "288px",
-"top": "224px",
-"width": "294px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Inactivated cultured SARS-CoV-2 virus",
+"comment": "",
+"height": "20px",
+"id": 1,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Inactivated Virus (method unspecified)"
 ],
-"comment": ""
+"left": "288px",
+"page_number": 18,
+"text": "Inactivated cultured SARS-CoV-2 virus",
+"top": "224px",
+"width": "294px"
 },
 {
-"id": 2,
-"page_number": 18,
-"left": "117px",
-"top": "223px",
-"width": "717px",
-"height": "40px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "USA-WA1/2020; BEI Resources; NR-52281",
+"comment": "",
+"height": "40px",
+"id": 2,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": ""
+"left": "117px",
+"page_number": 18,
+"text": "USA-WA1/2020; BEI Resources; NR-52281",
+"top": "223px",
+"width": "717px"
 },
 {
-"id": 3,
-"page_number": 18,
-"left": "636px",
-"top": "259px",
-"width": "48px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.01",
+"comment": "",
+"height": "22px",
+"id": 3,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "636px",
+"page_number": 18,
+"text": "0.01",
+"top": "259px",
+"width": "48px"
 },
 {
-"id": 4,
-"page_number": 18,
-"left": "687px",
-"top": "261px",
-"width": "89px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "TCID50 / mL",
+"comment": "",
+"height": "25px",
+"id": 4,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "687px",
+"page_number": 18,
+"text": "TCID50 / mL",
+"top": "261px",
+"width": "89px"
 },
 {
-"id": 5,
-"page_number": 18,
-"left": "354px",
-"top": "279px",
-"width": "105px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "26px",
+"id": 5,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
-},
-{
-"id": 6,
+"left": "354px",
 "page_number": 18,
-"left": "115px",
-"top": "300px",
-"width": "696px",
-"height": "45px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "Other synthetic sample clinical matrices but no replicate number explicitly given.",
-"labels": [],
-"comment": ""
+"text": "20",
+"top": "279px",
+"width": "105px"
 },
 {
-"id": 7,
-"page_number": 2,
-"left": "118px",
-"top": "223px",
-"width": "666px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasopharyngeal (NP), nasal, and oropharyngeal (OP) swab specimens and lower respiratory tract (LRT)",
+"comment": "",
+"height": "45px",
+"id": 6,
+"labels": [],
+"left": "115px",
+"page_number": 18,
+"text": "Other synthetic sample clinical matrices but no replicate number explicitly given.",
+"top": "300px",
+"width": "696px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "24px",
+"id": 7,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "118px",
+"page_number": 2,
+"text": "nasopharyngeal (NP), nasal, and oropharyngeal (OP) swab specimens and lower respiratory tract (LRT)",
+"top": "223px",
+"width": "666px"
 },
 {
-"id": 8,
-"page_number": 3,
-"left": "341px",
-"top": "871.333px",
-"width": "122px",
-"height": "41px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "ORF1ab Region 1, ORF1ab Region 2",
+"comment": "",
+"height": "41px",
+"id": 8,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "341px",
+"page_number": 3,
+"text": "ORF1ab Region 1, ORF1ab Region 2",
+"top": "871.333px",
+"width": "122px"
 },
 {
-"id": 9,
-"page_number": 3,
-"left": "465px",
-"top": "874.889px",
-"width": "26px",
-"height": "37px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "37px",
+"id": 9,
 "labels": [
 "Primers and probes/Sequences",
-"Meta/Not specified"
+"Meta/Not specified",
+"Primers and probes/Sequences/Not specified"
 ],
-"comment": ""
+"left": "465px",
+"page_number": 3,
+"text": "",
+"top": "874.889px",
+"width": "26px"
 }
 ],
 "comments": [],

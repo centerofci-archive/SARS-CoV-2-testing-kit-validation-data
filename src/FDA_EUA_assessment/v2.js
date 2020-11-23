@@ -1,20 +1,66 @@
 "use strict";
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.v2 = void 0;
-var value_renderer_EUA_URL = function (d) {
-    var parsed = "<a href=\"" + d.FDA_EUAs_list.url_to_IFU_or_EUA + "\">R</a>";
-    return { parsed: parsed };
-};
-var value_renderer_LOD = function (d) {
-    var min = d.self_declared_EUA_data.lod_min;
-    var max = d.self_declared_EUA_data.lod_max;
-    var parsed = min.toString();
-    if (min !== max) {
-        parsed = min + " &lt;-&gt; " + max;
-    }
+var get_comments_raw_and_references = function (annotations) {
+    var raw = [];
+    var comments = [];
+    var references = [];
+    annotations.forEach(function (_a) {
+        var text = _a.text, comment = _a.comment, anot8_org_file_id = _a.anot8_org_file_id, id = _a.id;
+        raw.push(text);
+        comments.push(comment);
+        references.push({ anot8_org_file_id: anot8_org_file_id, id: id });
+    });
     return {
-        parsed: parsed
+        raw: raw,
+        comments: comments,
+        references: references,
     };
+};
+var get_html_comments_raw_and_references = function (annotations) {
+    var _a = get_comments_raw_and_references(annotations), raw = _a.raw, comments = _a.comments, references = _a.references;
+    var raw_html = raw.map(escape_html).join(" &nbsp; ");
+    var comments_html = comments
+        .filter(function (comment) { return comment; })
+        .map(function (comment) {
+        return "<span title=\"" + escape_html(comment) + "\">C</span>";
+    })
+        .join(" ");
+    var references_html = references.map(html_ref_link).join(" ");
+    return {
+        raw: raw_html,
+        comments: comments_html,
+        references: references_html,
+    };
+};
+function ref_link(annotation) {
+    var anot8_org_file_id = annotation.anot8_org_file_id, id = annotation.id;
+    var host = localStorage.getItem("anot8_server") || "https://anot8.org";
+    var ref = host + "/r/1772.2/" + anot8_org_file_id;
+    if (id !== undefined)
+        ref += "?h=" + id;
+    return ref;
+}
+function html_ref_link(annotation) {
+    return "<a href=\"" + ref_link(annotation) + "\">R<a/>";
+}
+var value_renderer_EUA_URL = function (d) {
+    var references = "<a href=\"" + d.FDA_EUAs_list.url_to_IFU_or_EUA + "\">R</a>";
+    return { parsed: " ", references: references };
+};
+var generic_value_renderer = function (data_node) {
+    return __assign({ parsed: data_node.parsed }, get_html_comments_raw_and_references(data_node.annotations));
 };
 var table_fields = [
     {
@@ -24,11 +70,11 @@ var table_fields = [
         children: [
             {
                 title: "Name",
-                value_renderer: function (d) { return ({ raw: d.FDA_EUAs_list.developer_name }); },
+                value_renderer: function (d) { return ({ parsed: d.FDA_EUAs_list.developer_name }); },
             },
             {
                 title: "Test name",
-                value_renderer: function (d) { return ({ raw: d.FDA_EUAs_list.test_name }); },
+                value_renderer: function (d) { return ({ parsed: d.FDA_EUAs_list.test_name }); },
             },
             {
                 title: "IFU or EUA",
@@ -43,7 +89,7 @@ var table_fields = [
         children: [
             {
                 title: "Test technology",
-                value_renderer: function (d) { return ({ raw: d.FDA_EUAs_list.test_technology }); },
+                value_renderer: function (d) { return ({ parsed: d.FDA_EUAs_list.test_technology }); },
             },
             {
                 title: "Specimens",
@@ -83,7 +129,12 @@ var table_fields = [
                 title: "Primers and probes",
                 value_renderer: null,
                 children: [
-                    { title: "Sequences", value_renderer: null /**/, },
+                    {
+                        title: "Sequences",
+                        value_renderer: function (d) {
+                            return generic_value_renderer(d.self_declared_EUA_data.primer_probe_sequences);
+                        },
+                    },
                     { title: "Sources", value_renderer: null /**/, hidden: true, },
                 ]
             },
@@ -100,11 +151,11 @@ var table_fields = [
                 children: [
                     {
                         title: "value",
-                        value_renderer: value_renderer_LOD,
+                        value_renderer: function (d) { return generic_value_renderer(d.self_declared_EUA_data.lod_value); },
                     },
                     {
                         title: "units",
-                        value_renderer: function (d) { return ({ raw: d.self_declared_EUA_data.lod_units }); },
+                        value_renderer: function (d) { return generic_value_renderer(d.self_declared_EUA_data.lod_units); },
                     },
                     {
                         title: "Minimum replicates",
@@ -177,7 +228,7 @@ var table_fields = [
             },
             {
                 title: "Date",
-                value_renderer: function (d) { return ({ raw: d.FDA_EUAs_list.first_issued_date }); },
+                value_renderer: function (d) { return ({ parsed: d.FDA_EUAs_list.first_issued_date }); },
             },
             {
                 title: "Patient details",
@@ -195,9 +246,7 @@ var table_fields = [
                 children: [
                     {
                         title: "Viral material",
-                        value_renderer: function (d) { return ({
-                            raw: d.self_declared_EUA_data.synthetic_specimen__viral_material.join(", ")
-                        }); },
+                        value_renderer: function (d) { return d.self_declared_EUA_data.synthetic_specimen__viral_material; },
                     },
                     {
                         title: "Viral material source",
@@ -403,10 +452,12 @@ function render_table_body(table_fields, data_rows) {
             var parsed_el = document.createElement("div");
             var comments_el = document.createElement("div");
             var references_el = document.createElement("div");
-            raw_el.innerHTML = contents.raw || "";
-            parsed_el.innerHTML = contents.parsed || "";
-            comments_el.innerHTML = contents.comments || "";
-            references_el.innerHTML = contents.references || "";
+            raw_el.innerHTML = contents.raw || "&nbsp;";
+            raw_el.className = "raw_data";
+            parsed_el.innerHTML = escape_html(contents.parsed || "") || "<span style=\"color: #ccc;\">not parsed</span>";
+            parsed_el.className = "parsed_data";
+            comments_el.innerHTML = contents.comments || " ";
+            references_el.innerHTML = contents.references || " ";
             cell.appendChild(raw_el);
             cell.appendChild(parsed_el);
             cell.appendChild(comments_el);
@@ -437,6 +488,28 @@ function iterate_lowest_table_field(table_fields, func) {
 function hide_loading_status() {
     var loading_status_el = document.getElementById("loading_status");
     loading_status_el.style.display = "none";
+}
+var html_escape_table = {
+    "&": "&amp;",
+    '"': "&quot;",
+    "'": "&apos;",
+    ">": "&gt;",
+    "<": "&lt;",
+};
+var html_escape_regexps = [];
+Object.keys(html_escape_table).forEach(function (key) {
+    var regexp = new RegExp(key, "g");
+    var replacement = html_escape_table[key];
+    html_escape_regexps.push({ regexp: regexp, replacement: replacement });
+});
+function escape_html(html) {
+    if (!html)
+        return html;
+    html_escape_regexps.forEach(function (_a) {
+        var regexp = _a.regexp, replacement = _a.replacement;
+        html = html.replace(regexp, replacement);
+    });
+    return html;
 }
 // Smells as it contains update for table header due to colspan not being under CSS control
 // Need proper state / store manager

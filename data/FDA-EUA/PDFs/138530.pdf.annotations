@@ -2,202 +2,193 @@
 "file_sha1_hash": "0c4008eb4688f25334b7476eb32900899ab20a76",
 "annotations": [
 {
-"id": 0,
-"page_number": 1,
-"left": "132px",
-"top": "501px",
-"width": "649px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "42px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasal, nasopharyngeal (NP) and oropharyngeal (OP) swab and Bronchoalveolar Lavage (BAL)",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
-},
-{
-"id": 1,
+"left": "132px",
 "page_number": 1,
-"left": "340px",
-"top": "580.111px",
-"width": "434px",
-"height": "22px",
+"text": "nasal, nasopharyngeal (NP) and oropharyngeal (OP) swab and Bronchoalveolar Lavage (BAL)",
+"top": "501px",
+"width": "649px"
+},
+{
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasal swab specimens that are self-collected at home or in a healthcare setting",
+"comment": "",
+"height": "22px",
+"id": 1,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "340px",
+"page_number": 1,
+"text": "nasal swab specimens that are self-collected at home or in a healthcare setting",
+"top": "580.111px",
+"width": "434px"
 },
 {
-"id": 2,
-"page_number": 3,
-"left": "84px",
-"top": "130.556px",
-"width": "254px",
-"height": "128px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "N, N",
+"comment": "N1, N2",
+"height": "128px",
+"id": 2,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": "N1, N2"
+"left": "84px",
+"page_number": 3,
+"text": "N, N",
+"top": "130.556px",
+"width": "254px"
 },
 {
-"id": 3,
-"page_number": 3,
-"left": "532px",
-"top": "131.333px",
-"width": "76px",
-"height": "127px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "IDT",
+"comment": "",
+"height": "127px",
+"id": 3,
 "labels": [
 "Primers and probes/Source"
 ],
-"comment": ""
+"left": "532px",
+"page_number": 3,
+"text": "IDT",
+"top": "131.333px",
+"width": "76px"
 },
 {
-"id": 4,
-"page_number": 2,
-"left": "131px",
-"top": "691.556px",
-"width": "635px",
-"height": "43px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "identical to those described in the CDC emergency use authorized assay, the CDC 2019-nCoV Real-Time RT-PCR Diagnostic Panel",
+"comment": "",
+"height": "43px",
+"id": 4,
 "labels": [
-"Primers and probes/Sequences"
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Reference available"
 ],
-"comment": ""
+"left": "131px",
+"page_number": 2,
+"text": "identical to those described in the CDC emergency use authorized assay, the CDC 2019-nCoV Real-Time RT-PCR Diagnostic Panel",
+"top": "691.556px",
+"width": "635px"
 },
 {
 "id": 5,
-"page_number": 3,
-"left": "708px",
-"top": "133.222px",
-"width": "72px",
-"height": "125px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
-"labels": [
-"Primers and probes/Sequences"
-],
-"comment": ""
+"deleted": true
 },
 {
-"id": 6,
-"page_number": 2,
-"left": "134px",
-"top": "750.667px",
-"width": "107px",
-"height": "27px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "RNase P (RP)",
+"comment": "",
+"height": "27px",
+"id": 6,
 "labels": [
 "Controls/Internal/Human gene target"
 ],
-"comment": ""
+"left": "134px",
+"page_number": 2,
+"text": "RNase P (RP)",
+"top": "750.667px",
+"width": "107px"
 },
 {
-"id": 7,
-"page_number": 5,
-"left": "465px",
-"top": "298.667px",
-"width": "113px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Genomic RNA from SARS-Related Coronavirus 2, Isolate USA-WA1/2020",
+"comment": "",
+"height": "21px",
+"id": 7,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
+"left": "465px",
+"page_number": 5,
+"text": "Genomic RNA from SARS-Related Coronavirus 2, Isolate USA-WA1/2020",
+"top": "298.667px",
+"width": "113px"
 },
 {
-"id": 8,
-"page_number": 5,
-"left": "450px",
-"top": "319.667px",
-"width": "290px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "BEI Resources Cat#: NR-52285, Lot#: 70033320",
+"comment": "",
+"height": "22px",
+"id": 8,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": ""
+"left": "450px",
+"page_number": 5,
+"text": "BEI Resources Cat#: NR-52285, Lot#: 70033320",
+"top": "319.667px",
+"width": "290px"
 },
 {
-"id": 9,
-"page_number": 5,
-"left": "503px",
-"top": "379.667px",
-"width": "27px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "25px",
+"id": 9,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "503px",
+"page_number": 5,
+"text": "20",
+"top": "379.667px",
+"width": "27px"
 },
 {
-"id": 10,
-"page_number": 5,
-"left": "308px",
-"top": "418.667px",
-"width": "264px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasopharyngeal (NP) clinical matrix collected in Liquid Amies media, presumed negative",
+"comment": "",
+"height": "26px",
+"id": 10,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "308px",
+"page_number": 5,
+"text": "nasopharyngeal (NP) clinical matrix collected in Liquid Amies media, presumed negative",
+"top": "418.667px",
+"width": "264px"
 },
 {
-"id": 11,
-"page_number": 5,
-"left": "562px",
-"top": "417.667px",
-"width": "19px",
-"height": "29px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "29px",
+"id": 11,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "562px",
+"page_number": 5,
+"text": "",
+"top": "417.667px",
+"width": "19px"
 },
 {
-"id": 12,
-"page_number": 5,
-"left": "421px",
-"top": "505.667px",
-"width": "32px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "2.4",
+"comment": "",
+"height": "22px",
+"id": 12,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "421px",
+"page_number": 5,
+"text": "2.4",
+"top": "505.667px",
+"width": "32px"
 },
 {
-"id": 13,
-"page_number": 5,
-"left": "452px",
-"top": "504.667px",
-"width": "46px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "23px",
+"id": 13,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "452px",
+"page_number": 5,
+"text": "genome copies / μL",
+"top": "504.667px",
+"width": "46px"
 }
 ],
 "comments": [],

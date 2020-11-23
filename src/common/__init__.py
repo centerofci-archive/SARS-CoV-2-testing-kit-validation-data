@@ -24,3 +24,4 @@ from common.paths import (
     get_anot8_org_file_id_from_FDA_url,
     get_anot8_org_permalink_from_FDA_url,
 )
+from common.labels import Labels
