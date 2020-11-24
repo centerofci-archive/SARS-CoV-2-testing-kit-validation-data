@@ -2,189 +2,205 @@
 "file_sha1_hash": "d10b5d357aa2054b6912f710609cd0b410ecfcb6",
 "annotations": [
 {
-"id": 0,
-"page_number": 5,
-"left": "190px",
-"top": "185.444px",
-"width": "510px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasal, nasopharyngeal (NP), and oropharyngeal (OP) swabs",
+"comment": "",
+"height": "24px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "190px",
+"page_number": 5,
+"text": "nasal, nasopharyngeal (NP), and oropharyngeal (OP) swabs",
+"top": "185.444px",
+"width": "510px"
 },
 {
-"id": 1,
-"page_number": 5,
-"left": "516px",
-"top": "814.222px",
-"width": "189px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "N, ORF1ab",
+"comment": "",
+"height": "24px",
+"id": 1,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "516px",
+"page_number": 5,
+"text": "N, ORF1ab",
+"top": "814.222px",
+"width": "189px"
 },
 {
-"id": 2,
-"page_number": 6,
-"left": "374px",
-"top": "129.222px",
-"width": "165px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Gapdh",
+"comment": "",
+"height": "25px",
+"id": 2,
 "labels": [
 "Controls/Internal/Human gene target"
 ],
-"comment": ""
+"left": "374px",
+"page_number": 6,
+"text": "Gapdh",
+"top": "129.222px",
+"width": "165px"
 },
 {
-"id": 3,
-"page_number": 22,
-"left": "319px",
-"top": "404.779px",
-"width": "176px",
-"height": "27px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "oropharyngeal swab",
+"comment": "",
+"height": "27px",
+"id": 3,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "319px",
+"page_number": 22,
+"text": "oropharyngeal swab",
+"top": "404.779px",
+"width": "176px"
 },
 {
-"id": 4,
-"page_number": 22,
-"left": "612px",
-"top": "401.779px",
-"width": "161px",
-"height": "30px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "healthy individuals",
+"comment": "",
+"height": "30px",
+"id": 4,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source"
 ],
-"comment": ""
+"left": "612px",
+"page_number": 22,
+"text": "healthy individuals",
+"top": "401.779px",
+"width": "161px"
 },
 {
-"id": 5,
-"page_number": 22,
-"left": "659px",
-"top": "426.779px",
-"width": "157px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Twist RNA control",
+"comment": "",
+"height": "24px",
+"id": 5,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Source",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
+"left": "659px",
+"page_number": 22,
+"text": "Twist RNA control",
+"top": "426.779px",
+"width": "157px"
 },
 {
-"id": 6,
-"page_number": 23,
-"left": "100px",
-"top": "212.223px",
-"width": "351px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "AccuPlex SARSCoV-2 Verification Panel from SeraCare",
+"comment": "",
+"height": "26px",
+"id": 6,
 "labels": [
 "Specimen/Synthetic Specimen/Virus"
 ],
-"comment": ""
+"left": "100px",
+"page_number": 23,
+"text": "AccuPlex SARSCoV-2 Verification Panel from SeraCare",
+"top": "212.223px",
+"width": "351px"
 },
 {
-"id": 7,
-"page_number": 23,
-"left": "455px",
-"top": "217.223px",
-"width": "110px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "SeraCare (0505-0129)",
+"comment": "",
+"height": "21px",
+"id": 7,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": ""
+"left": "455px",
+"page_number": 23,
+"text": "SeraCare (0505-0129)",
+"top": "217.223px",
+"width": "110px"
 },
 {
-"id": 8,
-"page_number": 23,
-"left": "108px",
-"top": "235.111px",
-"width": "341px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "negative nasopharyngeal swab specimen",
+"comment": "",
+"height": "23px",
+"id": 8,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "108px",
+"page_number": 23,
+"text": "negative nasopharyngeal swab specimen",
+"top": "235.111px",
+"width": "341px"
 },
 {
-"id": 9,
-"page_number": 23,
-"left": "437px",
-"top": "231.111px",
-"width": "16px",
-"height": "34px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "34px",
+"id": 9,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "437px",
+"page_number": 23,
+"text": "",
+"top": "231.111px",
+"width": "16px"
 },
 {
-"id": 10,
-"page_number": 23,
-"left": "157px",
-"top": "711.889px",
-"width": "111px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "22px",
+"id": 10,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "157px",
+"page_number": 23,
+"text": "20",
+"top": "711.889px",
+"width": "111px"
 },
 {
-"id": 11,
-"page_number": 23,
-"left": "401px",
-"top": "752.557px",
-"width": "27px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "10",
+"comment": "",
+"height": "24px",
+"id": 11,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "401px",
+"page_number": 23,
+"text": "10",
+"top": "752.557px",
+"width": "27px"
 },
 {
-"id": 12,
-"page_number": 23,
-"left": "431px",
-"top": "755.557px",
-"width": "82px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "21px",
+"id": 12,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "431px",
+"page_number": 23,
+"text": "genome copies / μL",
+"top": "755.557px",
+"width": "82px"
+},
+{
+"id": 13,
+"page_number": 23,
+"left": "131px",
+"top": "857px",
+"width": "393px",
+"height": "28px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Not specified",
+"Meta/Potential error"
+],
+"comment": "Hopefully included probes annealing regions too"
 }
 ],
 "comments": [],

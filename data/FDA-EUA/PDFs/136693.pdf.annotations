@@ -2,210 +2,225 @@
 "file_sha1_hash": "5da277cdebc5813f8d8b6fe1c08e08eb97d5d8bb",
 "annotations": [
 {
-"id": 0,
-"page_number": 4,
-"left": "77px",
-"top": "220.556px",
-"width": "742px",
-"height": "44px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasopharyngeal swab",
+"comment": "",
+"height": "44px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "77px",
+"page_number": 4,
+"text": "nasopharyngeal swab",
+"top": "220.556px",
+"width": "742px"
 },
 {
-"id": 1,
-"page_number": 5,
-"left": "374px",
-"top": "441.778px",
-"width": "62px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "RNase P (RP)",
+"comment": "",
+"height": "23px",
+"id": 1,
 "labels": [
 "Controls/Internal/Human gene target"
 ],
-"comment": ""
+"left": "374px",
+"page_number": 5,
+"text": "RNase P (RP)",
+"top": "441.778px",
+"width": "62px"
 },
 {
-"id": 2,
-"page_number": 4,
-"left": "73px",
-"top": "983.444px",
-"width": "584px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Universal Transport Medium (UTM-RT®, Copan Diagnostics, Inc, Catalogue 328C) or equivalent",
+"comment": "",
+"height": "22px",
+"id": 2,
 "labels": [
 "Specimen/Transport medium"
 ],
-"comment": ""
+"left": "73px",
+"page_number": 4,
+"text": "Universal Transport Medium (UTM-RT®, Copan Diagnostics, Inc, Catalogue 328C) or equivalent",
+"top": "983.444px",
+"width": "584px"
 },
 {
-"id": 3,
-"page_number": 14,
-"left": "103px",
-"top": "268.556px",
-"width": "288px",
-"height": "59px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "ORF1ab, N",
+"comment": "",
+"height": "59px",
+"id": 3,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "103px",
+"page_number": 14,
+"text": "ORF1ab, N",
+"top": "268.556px",
+"width": "288px"
 },
 {
-"id": 4,
-"page_number": 17,
-"left": "76px",
-"top": "155.668px",
-"width": "466px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "gamma-irradiated SARS CoV-2 viral fluid (SARS-Related Coronavirus 2, isolate USA-WA1/2020)",
+"comment": "",
+"height": "24px",
+"id": 4,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Inactivated Virus (Gamma radiation)"
 ],
-"comment": ""
-},
-{
-"id": 5,
-"deleted": true
-},
-{
-"id": 6,
+"left": "76px",
 "page_number": 17,
-"left": "545px",
-"top": "158.668px",
-"width": "237px",
-"height": "20px",
+"text": "gamma-irradiated SARS CoV-2 viral fluid (SARS-Related Coronavirus 2, isolate USA-WA1/2020)",
+"top": "155.668px",
+"width": "466px"
+},
+{
+"deleted": true,
+"id": 5
+},
+{
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Negative nasopharyngeal specimens",
+"comment": "",
+"height": "20px",
+"id": 6,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "545px",
+"page_number": 17,
+"text": "Negative nasopharyngeal specimens",
+"top": "158.668px",
+"width": "237px"
 },
 {
-"id": 7,
-"page_number": 17,
-"left": "254px",
-"top": "176.668px",
-"width": "354px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "collected from 2019-06-19 to 2019-07-14 from a US site",
+"comment": "",
+"height": "21px",
+"id": 7,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source"
 ],
-"comment": ""
+"left": "254px",
+"page_number": 17,
+"text": "collected from 2019-06-19 to 2019-07-14 from a US site",
+"top": "176.668px",
+"width": "354px"
 },
 {
-"id": 8,
-"page_number": 17,
-"left": "80px",
-"top": "197.223px",
-"width": "755px",
-"height": "57px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "SARS-Related Coronavirus 2 gamma-irradiated viral fluid consists of a crude preparation of cell lysate and supernatant from Cercopithecus aethiops kidney epithelial cells (Vero E6; ATCC® CRL-1586™) infected with severe acute respiratory syndrome-related coronavirus 2 (SARS-CoV-2)",
+"comment": "",
+"height": "57px",
+"id": 8,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source",
 "Specimen/Synthetic Specimen/Other components",
 "Specimen/Synthetic Specimen/Production method"
 ],
-"comment": ""
+"left": "80px",
+"page_number": 17,
+"text": "SARS-Related Coronavirus 2 gamma-irradiated viral fluid consists of a crude preparation of cell lysate and supernatant from Cercopithecus aethiops kidney epithelial cells (Vero E6; ATCC® CRL-1586™) infected with severe acute respiratory syndrome-related coronavirus 2 (SARS-CoV-2)",
+"top": "197.223px",
+"width": "755px"
 },
 {
-"id": 9,
-"page_number": 17,
-"left": "113px",
-"top": "254.223px",
-"width": "645px",
-"height": "18px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Biodefense and Emerging Infections Research Resources Repository (BEI catalog number: NR-52287)",
+"comment": "",
+"height": "18px",
+"id": 9,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": ""
+"left": "113px",
+"page_number": 17,
+"text": "Biodefense and Emerging Infections Research Resources Repository (BEI catalog number: NR-52287)",
+"top": "254.223px",
+"width": "645px"
 },
 {
-"id": 10,
-"page_number": 17,
-"left": "540px",
-"top": "232.223px",
-"width": "221px",
-"height": "42px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "NRC-52281 lot 70033641 and NR-52287",
+"comment": "Seems to have some inconsistency.",
+"height": "42px",
+"id": 10,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source",
 "Meta/Potential error"
 ],
-"comment": "Seems to have some inconsistency."
+"left": "540px",
+"page_number": 17,
+"text": "NRC-52281 lot 70033641 and NR-52287",
+"top": "232.223px",
+"width": "221px"
 },
 {
-"id": 11,
-"deleted": true
+"deleted": true,
+"id": 11
 },
 {
-"id": 12,
-"page_number": 10,
-"left": "597px",
-"top": "830.444px",
-"width": "198px",
-"height": "27px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "200",
+"comment": "",
+"height": "27px",
+"id": 12,
 "labels": [
 "Specimen/Volume ul"
 ],
-"comment": ""
+"left": "597px",
+"page_number": 10,
+"text": "200",
+"top": "830.444px",
+"width": "198px"
 },
 {
-"id": 13,
-"page_number": 18,
-"left": "102px",
-"top": "412.668px",
-"width": "74px",
-"height": "29px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.333",
+"comment": "Assuming this is the claimed limit of detection.",
+"height": "29px",
+"id": 13,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": "Assuming this is the claimed limit of detection."
+"left": "102px",
+"page_number": 18,
+"text": "0.333",
+"top": "412.668px",
+"width": "74px"
 },
 {
-"id": 14,
-"page_number": 18,
-"left": "113px",
-"top": "115.668px",
-"width": "61px",
-"height": "28px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "28px",
+"id": 14,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "113px",
+"page_number": 18,
+"text": "genome copies / μL",
+"top": "115.668px",
+"width": "61px"
 },
 {
-"id": 15,
-"page_number": 18,
-"left": "233px",
-"top": "675.223px",
-"width": "36px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "21px",
+"id": 15,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
+],
+"left": "233px",
+"page_number": 18,
+"text": "20",
+"top": "675.223px",
+"width": "36px"
+},
+{
+"id": 16,
+"page_number": 19,
+"left": "287px",
+"top": "803px",
+"width": "445px",
+"height": "23px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Not specified"
 ],
 "comment": ""
 }

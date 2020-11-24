@@ -171,8 +171,8 @@
 "width": "84px"
 },
 {
-"id": 12,
-"deleted": true
+"deleted": true,
+"id": 12
 },
 {
 "colour": "rgba(200, 200, 255, 0.6)",
@@ -188,6 +188,21 @@
 "text": "",
 "top": "502px",
 "width": "20px"
+},
+{
+"id": 14,
+"page_number": 17,
+"left": "268px",
+"top": "111px",
+"width": "582px",
+"height": "47px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Not specified"
+],
+"comment": ""
 }
 ],
 "comments": [],

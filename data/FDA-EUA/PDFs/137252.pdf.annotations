@@ -2,158 +2,162 @@
 "file_sha1_hash": "09463fa532ee27fe845961bd2a7beeaab1838101",
 "annotations": [
 {
-"id": 0,
-"page_number": 6,
-"left": "73px",
-"top": "163.556px",
-"width": "503px",
-"height": "64px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasopharyngeal swabs, oropharyngeal (throat) swabs, anterior nasal swabs, mid-turbinate nasal swabs, nasal washes and nasal aspirates",
+"comment": "",
+"height": "64px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "73px",
+"page_number": 6,
+"text": "nasopharyngeal swabs, oropharyngeal (throat) swabs, anterior nasal swabs, mid-turbinate nasal swabs, nasal washes and nasal aspirates",
+"top": "163.556px",
+"width": "503px"
 },
 {
-"id": 1,
-"page_number": 8,
-"left": "73px",
-"top": "311.667px",
-"width": "504px",
-"height": "69px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "E, S",
+"comment": "",
+"height": "69px",
+"id": 1,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "73px",
+"page_number": 8,
+"text": "E, S",
+"top": "311.667px",
+"width": "504px"
 },
 {
-"id": 2,
-"page_number": 8,
-"left": "71px",
-"top": "710.778px",
-"width": "506px",
-"height": "43px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Universal Transport Medium™, UTM® (Copan, Murrieta, California, USA)",
+"comment": "",
+"height": "43px",
+"id": 2,
 "labels": [
 "Specimen/Transport medium"
 ],
-"comment": ""
+"left": "71px",
+"page_number": 8,
+"text": "Universal Transport Medium™, UTM® (Copan, Murrieta, California, USA)",
+"top": "710.778px",
+"width": "506px"
 },
 {
-"id": 3,
-"page_number": 31,
-"left": "190px",
-"top": "604px",
-"width": "369px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "heat inactivated SARS-CoV-2 cell culture supernatant",
+"comment": "",
+"height": "23px",
+"id": 3,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Inactivated Virus (Heat)"
 ],
-"comment": ""
+"left": "190px",
+"page_number": 31,
+"text": "heat inactivated SARS-CoV-2 cell culture supernatant",
+"top": "604px",
+"width": "369px"
 },
 {
-"id": 4,
-"page_number": 31,
-"left": "58px",
-"top": "625.223px",
-"width": "505px",
-"height": "45px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "4.6E+05 plaque forming units (PFU)/mL before inactivation; Institute of Virology, Charité Berlin, Germany",
+"comment": "",
+"height": "45px",
+"id": 4,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": ""
+"left": "58px",
+"page_number": 31,
+"text": "4.6E+05 plaque forming units (PFU)/mL before inactivation; Institute of Virology, Charité Berlin, Germany",
+"top": "625.223px",
+"width": "505px"
 },
 {
-"id": 5,
-"page_number": 31,
-"left": "208px",
-"top": "690.223px",
-"width": "244px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "UTM® containing simulated nasal matrix  (5% w/v mucin, 5% v/v whole blood, 0.8% v/v NaCl (95% saline) and 0.00002% w/v human genomic DNA)",
+"comment": "",
+"height": "21px",
+"id": 5,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix",
 "Specimen/Synthetic Specimen/Clinical matrix/Source"
 ],
-"comment": ""
+"left": "208px",
+"page_number": 31,
+"text": "UTM® containing simulated nasal matrix  (5% w/v mucin, 5% v/v whole blood, 0.8% v/v NaCl (95% saline) and 0.00002% w/v human genomic DNA)",
+"top": "690.223px",
+"width": "244px"
 },
 {
-"id": 6,
-"page_number": 31,
-"left": "442px",
-"top": "685.223px",
-"width": "17px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "28px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "In house",
+"id": 6,
 "labels": [],
-"comment": ""
+"left": "442px",
+"page_number": 31,
+"text": "In house",
+"top": "685.223px",
+"width": "17px"
 },
 {
-"id": 7,
-"page_number": 31,
-"left": "459px",
-"top": "750.111px",
-"width": "57px",
-"height": "27px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "500",
+"comment": "",
+"height": "27px",
+"id": 7,
 "labels": [
 "RNA extraction & purification/Specimen input volume ul"
 ],
-"comment": ""
+"left": "459px",
+"page_number": 31,
+"text": "500",
+"top": "750.111px",
+"width": "57px"
 },
 {
-"id": 8,
-"page_number": 33,
-"left": "162px",
-"top": "623.779px",
-"width": "21px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "22px",
+"id": 8,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "162px",
+"page_number": 33,
+"text": "20",
+"top": "623.779px",
+"width": "21px"
 },
 {
-"id": 9,
-"page_number": 35,
-"left": "55px",
-"top": "186.334px",
-"width": "63px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "100",
+"comment": "",
+"height": "20px",
+"id": 9,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "55px",
+"page_number": 35,
+"text": "100",
+"top": "186.334px",
+"width": "63px"
 },
 {
-"id": 10,
-"page_number": 35,
-"left": "119px",
-"top": "186.334px",
-"width": "52px",
-"height": "17px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "PFU / μL",
+"comment": "",
+"height": "17px",
+"id": 10,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "119px",
+"page_number": 35,
+"text": "PFU / μL",
+"top": "186.334px",
+"width": "52px"
+},
+{
+"id": 11,
+"deleted": true
 }
 ],
 "comments": [],

@@ -2,162 +2,177 @@
 "file_sha1_hash": "7cc70eb72aae675b09cbdb63b43790ddf95725f9",
 "annotations": [
 {
-"id": 0,
-"page_number": 1,
-"left": "133px",
-"top": "477px",
-"width": "301px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasopharyngeal and oropharyngeal swab",
+"comment": "",
+"height": "24px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "133px",
+"page_number": 1,
+"text": "nasopharyngeal and oropharyngeal swab",
+"top": "477px",
+"width": "301px"
 },
 {
-"id": 1,
-"page_number": 4,
-"left": "131px",
-"top": "995px",
-"width": "647px",
-"height": "36px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "The pseudo virus containing SARS-CoV-2 RNA is not described in the BGI EUA.  See: https://anot8.org/r/1772.2/82?h=6",
+"height": "36px",
+"id": 1,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Meta/Not specified",
 "Meta/Error/Omission"
 ],
-"comment": "The pseudo virus containing SARS-CoV-2 RNA is not described in the BGI EUA.  See: https://anot8.org/r/1772.2/82?h=6"
+"left": "131px",
+"page_number": 4,
+"text": "",
+"top": "995px",
+"width": "647px"
 },
 {
-"id": 2,
-"page_number": 4,
-"left": "726px",
-"top": "1010px",
-"width": "24px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "21px",
+"id": 2,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "726px",
+"page_number": 4,
+"text": "",
+"top": "1010px",
+"width": "24px"
 },
 {
-"id": 3,
-"page_number": 4,
-"left": "470px",
-"top": "419px",
-"width": "26px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "21px",
+"id": 3,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "470px",
+"page_number": 4,
+"text": "20",
+"top": "419px",
+"width": "26px"
 },
 {
-"id": 4,
-"page_number": 4,
-"left": "546px",
-"top": "438px",
-"width": "169px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "NP/OP clinical matrix",
+"comment": "",
+"height": "24px",
+"id": 4,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "546px",
+"page_number": 4,
+"text": "NP/OP clinical matrix",
+"top": "438px",
+"width": "169px"
 },
 {
-"id": 5,
-"page_number": 4,
-"left": "178px",
-"top": "459px",
-"width": "200px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "UTM or SDI Swab media",
+"comment": "",
+"height": "24px",
+"id": 5,
 "labels": [
 "Specimen/Synthetic Specimen/Transport medium"
 ],
-"comment": ""
+"left": "178px",
+"page_number": 4,
+"text": "UTM or SDI Swab media",
+"top": "459px",
+"width": "200px"
 },
 {
-"id": 6,
-"page_number": 4,
-"left": "703px",
-"top": "433px",
-"width": "20px",
-"height": "30px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "30px",
+"id": 6,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "703px",
+"page_number": 4,
+"text": "",
+"top": "433px",
+"width": "20px"
 },
 {
-"id": 7,
-"page_number": 4,
-"left": "325px",
-"top": "474px",
-"width": "27px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.5",
+"comment": "",
+"height": "26px",
+"id": 7,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "325px",
+"page_number": 4,
+"text": "0.5",
+"top": "474px",
+"width": "27px"
 },
 {
-"id": 8,
-"page_number": 4,
-"left": "352px",
-"top": "480px",
-"width": "47px",
-"height": "27px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "27px",
+"id": 8,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "352px",
+"page_number": 4,
+"text": "genome copies / μL",
+"top": "480px",
+"width": "47px"
 },
 {
-"id": 9,
-"page_number": 3,
-"left": "430px",
-"top": "165px",
-"width": "58px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "β-actin",
+"comment": "",
+"height": "26px",
+"id": 9,
 "labels": [
 "Controls/Internal/Human gene target"
 ],
-"comment": ""
+"left": "430px",
+"page_number": 3,
+"text": "β-actin",
+"top": "165px",
+"width": "58px"
 },
 {
-"id": 10,
-"page_number": 2,
-"left": "706px",
-"top": "108px",
-"width": "79px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "ORF1a/b",
+"comment": "",
+"height": "23px",
+"id": 10,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "706px",
+"page_number": 2,
+"text": "ORF1a/b",
+"top": "108px",
+"width": "79px"
+},
+{
+"id": 11,
+"page_number": 4,
+"left": "193px",
+"top": "582px",
+"width": "561px",
+"height": "25px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Not specified"
+],
+"comment": "References BGI but BGI do not include the sequence"
 }
 ],
 "comments": [],

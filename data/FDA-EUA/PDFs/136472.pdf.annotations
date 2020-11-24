@@ -21,7 +21,9 @@
 "height": "25px",
 "id": 1,
 "labels": [
-"Viral gene(s) targetted"
+"Viral gene(s) targetted",
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Not specified"
 ],
 "left": "453px",
 "page_number": 5,

@@ -2,186 +2,205 @@
 "file_sha1_hash": "b3de50a7a92866e92bb0db9f0864b38dc164b567",
 "annotations": [
 {
-"id": 0,
-"page_number": 21,
-"left": "479px",
-"top": "976px",
-"width": "366px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "live SARS-CoV-2 virus (USA_WA1/2020 strain)",
+"comment": "",
+"height": "26px",
+"id": 0,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Live Virus"
 ],
-"comment": ""
+"left": "479px",
+"page_number": 21,
+"text": "live SARS-CoV-2 virus (USA_WA1/2020 strain)",
+"top": "976px",
+"width": "366px"
 },
 {
-"id": 1,
-"page_number": 21,
-"left": "830px",
-"top": "975px",
-"width": "31px",
-"height": "30px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "30px",
+"id": 1,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "830px",
+"page_number": 21,
+"text": "",
+"top": "975px",
+"width": "31px"
 },
 {
-"id": 2,
-"page_number": 21,
-"left": "287px",
-"top": "999px",
-"width": "385px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "viral transport medium and NP swab clinical matrix",
+"comment": "",
+"height": "22px",
+"id": 2,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "287px",
+"page_number": 21,
+"text": "viral transport medium and NP swab clinical matrix",
+"top": "999px",
+"width": "385px"
 },
 {
-"id": 3,
-"page_number": 8,
-"left": "153px",
-"top": "684px",
-"width": "722px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "137px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"id": 3,
 "labels": [
 "Specimen/Collection protocol"
 ],
-"comment": ""
+"left": "153px",
+"page_number": 8,
+"text": "",
+"top": "684px",
+"width": "722px"
 },
 {
-"id": 4,
-"page_number": 9,
-"left": "132px",
-"top": "122px",
-"width": "755px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "915px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"id": 4,
 "labels": [
 "Specimen/Collection protocol"
 ],
-"comment": ""
+"left": "132px",
+"page_number": 9,
+"text": "",
+"top": "122px",
+"width": "755px"
 },
 {
-"id": 5,
-"page_number": 10,
-"left": "146px",
-"top": "128px",
-"width": "747px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "911px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"id": 5,
 "labels": [
 "Specimen/Collection protocol"
 ],
-"comment": ""
+"left": "146px",
+"page_number": 10,
+"text": "",
+"top": "128px",
+"width": "747px"
 },
 {
-"id": 6,
-"page_number": 11,
-"left": "148px",
-"top": "132px",
-"width": "747px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "95px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"id": 6,
 "labels": [
 "Specimen/Collection protocol"
 ],
-"comment": ""
+"left": "148px",
+"page_number": 11,
+"text": "",
+"top": "132px",
+"width": "747px"
 },
 {
-"id": 7,
-"page_number": 15,
-"left": "545px",
-"top": "150px",
-"width": "128px",
-"height": "32px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "N, E",
+"comment": "",
+"height": "32px",
+"id": 7,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "545px",
+"page_number": 15,
+"text": "N, E",
+"top": "150px",
+"width": "128px"
 },
 {
-"id": 8,
-"page_number": 3,
-"left": "199px",
-"top": "363px",
-"width": "653px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "upper respiratory specimens (such as nasopharyngeal, oropharyngeal, nasal, or mid-turbinate swab and/or nasal wash/aspirate)",
+"comment": "",
+"height": "19px",
+"id": 8,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "199px",
+"page_number": 3,
+"text": "upper respiratory specimens (such as nasopharyngeal, oropharyngeal, nasal, or mid-turbinate swab and/or nasal wash/aspirate)",
+"top": "363px",
+"width": "653px"
 },
 {
-"id": 9,
-"page_number": 21,
-"left": "201px",
-"top": "1041px",
-"width": "55px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "N2 target",
 "height": "21px",
-"colour": "rgba(200, 200, 255, 0.6)",
+"id": 9,
+"labels": [
+"Limit of Detection (LOD)/Value"
+],
+"left": "201px",
+"page_number": 21,
 "text": "5",
-"labels": [
-"Limit of Detection (LOD)/Value"
-],
-"comment": "N2 target"
-},
-{
-"id": 10,
-"page_number": 21,
-"left": "287px",
-"top": "1043px",
-"width": "54px",
-"height": "18px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
-"labels": [
-"Limit of Detection (LOD)/Value"
-],
-"comment": "E target"
-},
-{
-"id": 11,
-"page_number": 21,
-"left": "341px",
 "top": "1041px",
-"width": "66px",
-"height": "20px",
+"width": "55px"
+},
+{
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "PFU / μL",
+"comment": "E target",
+"height": "18px",
+"id": 10,
+"labels": [
+"Limit of Detection (LOD)/Value"
+],
+"left": "287px",
+"page_number": 21,
+"text": "20",
+"top": "1043px",
+"width": "54px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "20px",
+"id": 11,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "341px",
+"page_number": 21,
+"text": "PFU / μL",
+"top": "1041px",
+"width": "66px"
 },
 {
-"id": 12,
-"page_number": 22,
-"left": "199px",
-"top": "148px",
-"width": "29px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "24px",
+"id": 12,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
+],
+"left": "199px",
+"page_number": 22,
+"text": "20",
+"top": "148px",
+"width": "29px"
+},
+{
+"id": 13,
+"deleted": true
+},
+{
+"id": 14,
+"page_number": 22,
+"left": "202px",
+"top": "695px",
+"width": "655px",
+"height": "70px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Not specified"
 ],
 "comment": ""
 }

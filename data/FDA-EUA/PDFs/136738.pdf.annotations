@@ -2,173 +2,188 @@
 "file_sha1_hash": "347799f89888f66549777c9ce1dc142d67211e8f",
 "annotations": [
 {
-"id": 0,
-"page_number": 3,
-"left": "224px",
-"top": "169.333px",
-"width": "393px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasal, nasopharyngeal, and oropharyngeal swab",
+"comment": "",
+"height": "25px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "224px",
+"page_number": 3,
+"text": "nasal, nasopharyngeal, and oropharyngeal swab",
+"top": "169.333px",
+"width": "393px"
 },
 {
-"id": 1,
-"page_number": 4,
-"left": "262px",
-"top": "191.222px",
-"width": "421px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "N, N",
+"comment": "",
+"height": "24px",
+"id": 1,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "262px",
+"page_number": 4,
+"text": "N, N",
+"top": "191.222px",
+"width": "421px"
 },
 {
-"id": 2,
-"page_number": 4,
-"left": "475px",
-"top": "228.889px",
-"width": "183px",
-"height": "29px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "RNase P (RP)",
+"comment": "",
+"height": "29px",
+"id": 2,
 "labels": [
 "Controls/Internal/Human gene target"
 ],
-"comment": ""
+"left": "475px",
+"page_number": 4,
+"text": "RNase P (RP)",
+"top": "228.889px",
+"width": "183px"
 },
 {
-"id": 3,
-"page_number": 17,
-"left": "320px",
-"top": "292.777px",
-"width": "284px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "5 oropharyngeal swabs specimens5 oropharyngeal swabs specimens",
+"comment": "",
+"height": "24px",
+"id": 3,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "320px",
+"page_number": 17,
+"text": "5 oropharyngeal swabs specimens5 oropharyngeal swabs specimens",
+"top": "292.777px",
+"width": "284px"
 },
 {
-"id": 4,
-"page_number": 17,
-"left": "133px",
-"top": "315.777px",
-"width": "321px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Copan Collection, Transport and Processing Kit UTM 306",
+"comment": "",
+"height": "20px",
+"id": 4,
 "labels": [
 "Specimen/Synthetic Specimen/Transport medium"
 ],
-"comment": ""
+"left": "133px",
+"page_number": 17,
+"text": "Copan Collection, Transport and Processing Kit UTM 306",
+"top": "315.777px",
+"width": "321px"
 },
 {
-"id": 5,
-"page_number": 17,
-"left": "256px",
-"top": "338.777px",
-"width": "553px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genomic SARS-CoV-2 RNA",
+"comment": "",
+"height": "23px",
+"id": 5,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
+"left": "256px",
+"page_number": 17,
+"text": "genomic SARS-CoV-2 RNA",
+"top": "338.777px",
+"width": "553px"
 },
 {
-"id": 6,
-"page_number": 17,
-"left": "134px",
-"top": "359.777px",
-"width": "601px",
-"height": "40px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "In house manufactured RNA",
+"comment": "",
+"height": "40px",
+"id": 6,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": ""
+"left": "134px",
+"page_number": 17,
+"text": "In house manufactured RNA",
+"top": "359.777px",
+"width": "601px"
 },
 {
-"id": 7,
-"page_number": 17,
-"left": "129px",
-"top": "440.111px",
-"width": "666px",
-"height": "42px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "140 uL is not the initial volume, it is the \"concentrated\" volume, whatever that means.",
+"height": "42px",
+"id": 7,
 "labels": [
 "Nucleic acid amplification/Reaction/Volume in μL",
 "Meta/Not specified"
 ],
-"comment": "140 uL is not the initial volume, it is the \"concentrated\" volume, whatever that means."
+"left": "129px",
+"page_number": 17,
+"text": "",
+"top": "440.111px",
+"width": "666px"
 },
 {
-"id": 8,
-"page_number": 18,
-"left": "194px",
-"top": "394.889px",
-"width": "16px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "8",
+"comment": "",
+"height": "24px",
+"id": 8,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "194px",
+"page_number": 18,
+"text": "8",
+"top": "394.889px",
+"width": "16px"
 },
 {
-"id": 9,
-"page_number": 18,
-"left": "120px",
-"top": "417.889px",
-"width": "121px",
-"height": "18px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / reaction",
+"comment": "",
+"height": "18px",
+"id": 9,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "120px",
+"page_number": 18,
+"text": "genome copies / reaction",
+"top": "417.889px",
+"width": "121px"
 },
 {
-"id": 10,
-"page_number": 17,
-"left": "590px",
-"top": "284.777px",
-"width": "22px",
-"height": "34px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "34px",
+"id": 10,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "590px",
+"page_number": 17,
+"text": "",
+"top": "284.777px",
+"width": "22px"
 },
 {
-"id": 11,
-"page_number": 18,
-"left": "426px",
-"top": "105.334px",
-"width": "57px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "26px",
+"id": 11,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
+],
+"left": "426px",
+"page_number": 18,
+"text": "20",
+"top": "105.334px",
+"width": "57px"
+},
+{
+"id": 12,
+"page_number": 19,
+"left": "137px",
+"top": "702px",
+"width": "389px",
+"height": "25px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Not specified"
 ],
 "comment": ""
 }

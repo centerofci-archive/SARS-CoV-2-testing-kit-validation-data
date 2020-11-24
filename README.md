@@ -37,6 +37,10 @@ Latest data table [live](https://cci-files.s3.eu-west-2.amazonaws.com/sars_2_dia
 
     python3 src/merged_data/merge.py
 
+### Summarised data
+
+    python3 src/summarised_data/summarise.py
+
 ## Run local pages
 
 ### FDA EUA html pages

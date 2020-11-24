@@ -159,7 +159,7 @@
 },
 {
 "colour": "rgba(200, 200, 255, 0.6)",
-"comment": "",
+"comment": "Specific sequences given",
 "height": "80px",
 "id": 11,
 "labels": [
@@ -168,7 +168,7 @@
 ],
 "left": "407px",
 "page_number": 2,
-"text": "Specific sequences given",
+"text": "",
 "top": "856px",
 "width": "179px"
 }

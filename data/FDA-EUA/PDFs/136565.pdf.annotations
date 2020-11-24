@@ -2,188 +2,203 @@
 "file_sha1_hash": "ab2ee274d5d50b2639b34087595931dfcef64a66",
 "annotations": [
 {
-"id": 0,
-"page_number": 2,
-"left": "53px",
-"top": "723.333px",
-"width": "345px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Nasopharyngeal, oropharyngeal, or nasal swab",
+"comment": "",
+"height": "21px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "53px",
+"page_number": 2,
+"text": "Nasopharyngeal, oropharyngeal, or nasal swab",
+"top": "723.333px",
+"width": "345px"
 },
 {
-"id": 1,
-"page_number": 2,
-"left": "523px",
-"top": "726.333px",
-"width": "279px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Copan UTM-RT® System or BD™ UVT System",
+"comment": "",
+"height": "19px",
+"id": 1,
 "labels": [
 "Specimen/Transport medium"
 ],
-"comment": ""
-},
-{
-"id": 2,
-"page_number": 3,
-"left": "74px",
-"top": "383.222px",
-"width": "80px",
-"height": "24px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "Nsp2",
-"labels": [
-"Viral gene(s) targetted"
-],
-"comment": ""
-},
-{
-"id": 3,
-"page_number": 3,
-"left": "689px",
-"top": "382.222px",
-"width": "91px",
-"height": "23px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "N",
-"labels": [
-"Viral gene(s) targetted"
-],
-"comment": ""
-},
-{
-"id": 4,
+"left": "523px",
 "page_number": 2,
-"left": "582px",
-"top": "205px",
-"width": "185px",
-"height": "21px",
+"text": "Copan UTM-RT® System or BD™ UVT System",
+"top": "726.333px",
+"width": "279px"
+},
+{
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "bronchoalveolar lavage (BAL)",
+"comment": "",
+"height": "24px",
+"id": 2,
+"labels": [
+"Viral gene(s) targetted"
+],
+"left": "74px",
+"page_number": 3,
+"text": "Nsp2",
+"top": "383.222px",
+"width": "80px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "23px",
+"id": 3,
+"labels": [
+"Viral gene(s) targetted"
+],
+"left": "689px",
+"page_number": 3,
+"text": "N",
+"top": "382.222px",
+"width": "91px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "This is the only reference to BAL in the whole document.  It's not mentioned in \"Principles of the Procedure\" below.",
+"height": "21px",
+"id": 4,
 "labels": [
 "Supported specimen types",
 "Meta/Potential error"
 ],
-"comment": "This is the only reference to BAL in the whole document.  It's not mentioned in \"Principles of the Procedure\" below."
+"left": "582px",
+"page_number": 2,
+"text": "bronchoalveolar lavage (BAL)",
+"top": "205px",
+"width": "185px"
 },
 {
-"id": 5,
-"page_number": 11,
-"left": "51px",
-"top": "194.334px",
-"width": "194px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasopharyngeal swab samples",
+"comment": "",
+"height": "24px",
+"id": 5,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "51px",
+"page_number": 11,
+"text": "nasopharyngeal swab samples",
+"top": "194.334px",
+"width": "194px"
 },
 {
-"id": 6,
-"page_number": 11,
-"left": "234px",
-"top": "191.334px",
-"width": "19px",
-"height": "31px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "31px",
+"id": 6,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "234px",
+"page_number": 11,
+"text": "",
+"top": "191.334px",
+"width": "19px"
 },
 {
-"id": 7,
-"page_number": 11,
-"left": "247px",
-"top": "195.223px",
-"width": "507px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Nylon Flocked Swab collected in UTM [Copan Diagnostic Inc, CA] or VTM [BD, NJ]",
+"comment": "",
+"height": "22px",
+"id": 7,
 "labels": [
 "Specimen/Synthetic Specimen/Swab type",
 "Specimen/Synthetic Specimen/Transport medium"
 ],
-"comment": ""
+"left": "247px",
+"page_number": 11,
+"text": "Nylon Flocked Swab collected in UTM [Copan Diagnostic Inc, CA] or VTM [BD, NJ]",
+"top": "195.223px",
+"width": "507px"
 },
 {
-"id": 8,
-"page_number": 11,
-"left": "53px",
-"top": "215px",
-"width": "129px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genomic SARS-CoV-2 RNA",
+"comment": "",
+"height": "22px",
+"id": 8,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
+"left": "53px",
+"page_number": 11,
+"text": "genomic SARS-CoV-2 RNA",
+"top": "215px",
+"width": "129px"
 },
 {
-"id": 9,
-"page_number": 11,
-"left": "184px",
-"top": "216px",
-"width": "162px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "BEI Resources NR-52285",
+"comment": "",
+"height": "19px",
+"id": 9,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": ""
+"left": "184px",
+"page_number": 11,
+"text": "BEI Resources NR-52285",
+"top": "216px",
+"width": "162px"
 },
 {
-"id": 10,
-"page_number": 11,
-"left": "820px",
-"top": "215px",
-"width": "49px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "21px",
+"id": 10,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "820px",
+"page_number": 11,
+"text": "20",
+"top": "215px",
+"width": "49px"
 },
 {
-"id": 11,
-"page_number": 11,
-"left": "842px",
-"top": "237.667px",
-"width": "31px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.15",
+"comment": "",
+"height": "22px",
+"id": 11,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "842px",
+"page_number": 11,
+"text": "0.15",
+"top": "237.667px",
+"width": "31px"
 },
 {
-"id": 12,
-"page_number": 11,
-"left": "50px",
-"top": "255.667px",
-"width": "75px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "26px",
+"id": 12,
 "labels": [
 "Limit of Detection (LOD)/Units"
+],
+"left": "50px",
+"page_number": 11,
+"text": "genome copies / μL",
+"top": "255.667px",
+"width": "75px"
+},
+{
+"id": 13,
+"page_number": 12,
+"left": "704px",
+"top": "991px",
+"width": "130px",
+"height": "28px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Not specified"
 ],
 "comment": ""
 }

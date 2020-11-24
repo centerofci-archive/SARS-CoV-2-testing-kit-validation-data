@@ -4,7 +4,12 @@ import os
 import sys
 
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
-from common import get_fda_eua_parsed_data, get_annotation_files_by_test_id, get_anot8_org_file_id_from_FDA_url
+from common import (
+    get_fda_eua_parsed_data,
+    get_annotation_files_by_test_id,
+    get_anot8_org_file_id_from_FDA_url,
+    get_merged_data,
+)
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 app = Flask(__name__)
@@ -47,15 +52,13 @@ def v2 ():
     with open(html_file_path, "r", encoding="utf8") as f:
         html_contents = f.read()
 
-    data_file_path = dir_path + "/../../data/merged_data/latest.json"
-    with open(data_file_path, "r", encoding="utf8") as f:
-        data = f.read()
+    data = get_merged_data()
 
     src_file_path = dir_path + "/v2.js"
     with open(src_file_path, "r", encoding="utf8") as f:
         src = f.read()
 
-    html_contents = html_contents.replace("\"<MERGED_DATA>\"", data)
+    html_contents = html_contents.replace("\"<MERGED_DATA>\"", json.dump(data, ensure_ascii=False))
     html_contents = html_contents.replace("\"<SRC>\"", src)
 
     return html_contents

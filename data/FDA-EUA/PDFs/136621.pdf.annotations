@@ -174,7 +174,7 @@
 },
 {
 "colour": "rgba(200, 200, 255, 0.6)",
-"comment": "",
+"comment": "Refers to CDC N1 primer/probe set in \"FDA EUA EUA200001 “CDC 2019-Novel Coronavirus (2019-nCoV) Real-Time RT-PCR Diagnostics Panel”\"",
 "height": "23px",
 "id": 12,
 "labels": [
@@ -183,7 +183,7 @@
 ],
 "left": "196px",
 "page_number": 4,
-"text": "Refers to CDC N1 primer/probe set in \"FDA EUA EUA200001 “CDC 2019-Novel Coronavirus (2019-nCoV) Real-Time RT-PCR Diagnostics Panel”\"",
+"text": "",
 "top": "708.333px",
 "width": "552px"
 }

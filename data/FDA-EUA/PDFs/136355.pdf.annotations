@@ -2,292 +2,310 @@
 "file_sha1_hash": "8a8fb4bd826da69243ba1a499e99b6e41424139d",
 "annotations": [
 {
-"id": 0,
-"page_number": 13,
-"left": "358px",
-"top": "156px",
-"width": "294px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "SARS-CoV-2 RNA (strain USA_WA1/2020)",
+"comment": "",
+"height": "22px",
+"id": 0,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
+"left": "358px",
+"page_number": 13,
+"text": "SARS-CoV-2 RNA (strain USA_WA1/2020)",
+"top": "156px",
+"width": "294px"
 },
 {
-"id": 1,
-"page_number": 13,
-"left": "639px",
-"top": "157px",
-"width": "19px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "20px",
+"id": 1,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": ""
+"left": "639px",
+"page_number": 13,
+"text": "",
+"top": "157px",
+"width": "19px"
 },
 {
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "19px",
 "id": 2,
-"page_number": 13,
+"labels": [
+"Specimen/Synthetic Specimen/Clinical matrix"
+],
 "left": "583px",
-"top": "174px",
-"width": "170px",
-"height": "19px",
-"colour": "rgba(200, 200, 255, 0.6)",
+"page_number": 13,
 "text": "Accula SARS-CoV-2 Buffer",
-"labels": [
-"Specimen/Synthetic Specimen/Clinical matrix"
-],
-"comment": ""
+"top": "174px",
+"width": "170px"
 },
 {
-"id": 3,
-"page_number": 13,
-"left": "51px",
-"top": "191px",
-"width": "211px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "17px",
-"colour": "rgba(200, 200, 255, 0.6)",
+"id": 3,
+"labels": [
+"Specimen/Synthetic Specimen/Clinical matrix"
+],
+"left": "51px",
+"page_number": 13,
 "text": "pooled Throat Swab",
-"labels": [
-"Specimen/Synthetic Specimen/Clinical matrix"
-],
-"comment": ""
-},
-{
-"id": 4,
-"page_number": 13,
-"left": "304px",
 "top": "191px",
-"width": "380px",
-"height": "16px",
+"width": "211px"
+},
+{
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Pooled Throat and Nasal Swab",
+"comment": "",
+"height": "16px",
+"id": 4,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "304px",
+"page_number": 13,
+"text": "Pooled Throat and Nasal Swab",
+"top": "191px",
+"width": "380px"
 },
 {
-"id": 5,
-"page_number": 13,
-"left": "687px",
-"top": "190px",
-"width": "47px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "19px",
+"id": 5,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "687px",
+"page_number": 13,
+"text": "20",
+"top": "190px",
+"width": "47px"
 },
 {
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "Accula SARS-CoV-2 Buffer",
+"height": "17px",
 "id": 6,
-"page_number": 13,
+"labels": [
+"Limit of Detection (LOD)/Value"
+],
 "left": "164px",
-"top": "356px",
-"width": "27px",
-"height": "17px",
-"colour": "rgba(200, 200, 255, 0.6)",
+"page_number": 13,
 "text": "100",
-"labels": [
-"Limit of Detection (LOD)/Value"
-],
-"comment": "Accula SARS-CoV-2 Buffer"
+"top": "356px",
+"width": "27px"
 },
 {
-"id": 7,
-"page_number": 13,
-"left": "160px",
-"top": "419px",
-"width": "30px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "Pooled throat swab",
 "height": "17px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "200",
+"id": 7,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": "Pooled throat swab"
-},
-{
-"id": 8,
-"page_number": 13,
 "left": "160px",
-"top": "488px",
-"width": "32px",
-"height": "14px",
-"colour": "rgba(200, 200, 255, 0.6)",
+"page_number": 13,
 "text": "200",
+"top": "419px",
+"width": "30px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "Pooled throat and nasal swab",
+"height": "14px",
+"id": 8,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": "Pooled throat and nasal swab"
+"left": "160px",
+"page_number": 13,
+"text": "200",
+"top": "488px",
+"width": "32px"
 },
 {
-"id": 9,
-"page_number": 13,
-"left": "264px",
-"top": "234px",
-"width": "95px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / reaction",
+"comment": "",
+"height": "22px",
+"id": 9,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
-},
-{
-"id": 10,
-"deleted": true
-},
-{
-"id": 11,
+"left": "264px",
 "page_number": 13,
-"left": "254px",
-"top": "178px",
-"width": "210px",
-"height": "13px",
+"text": "genome copies / reaction",
+"top": "234px",
+"width": "95px"
+},
+{
+"deleted": true,
+"id": 10
+},
+{
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "60",
+"comment": "Marked as not specified as it is not clear this is the final reaction volume and if 60 μL is the volume dispensed by the pipettes",
+"height": "13px",
+"id": 11,
 "labels": [
 "Nucleic acid amplification/Reaction/Volume in μL",
 "Meta/Not specified"
 ],
-"comment": "Marked as not specified as it is not clear this is the final reaction volume and if 60 μL is the volume dispensed by the pipettes"
+"left": "254px",
+"page_number": 13,
+"text": "60",
+"top": "178px",
+"width": "210px"
 },
 {
-"id": 12,
-"page_number": 16,
-"left": "36px",
-"top": "387px",
-"width": "780px",
-"height": "719px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "719px",
+"id": 12,
 "labels": [
 "Potential interfering substances"
 ],
-"comment": ""
+"left": "36px",
+"page_number": 16,
+"text": "",
+"top": "387px",
+"width": "780px"
 },
 {
-"id": 13,
-"page_number": 16,
-"left": "48px",
-"top": "144px",
-"width": "80px",
-"height": "17px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "SARS-CoV-2 RNA (strain USA_WA1/2020)",
+"comment": "",
+"height": "17px",
+"id": 13,
 "labels": [
 "Potential interfering substances/Test synthetic sample",
 "Specimen/Synthetic Specimen/Virus"
 ],
-"comment": ""
+"left": "48px",
+"page_number": 16,
+"text": "SARS-CoV-2 RNA (strain USA_WA1/2020)",
+"top": "144px",
+"width": "80px"
 },
 {
-"id": 14,
-"page_number": 16,
-"left": "110px",
-"top": "139px",
-"width": "24px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "23px",
+"id": 14,
 "labels": [
 "Potential interfering substances/Test synthetic sample",
 "Specimen/Synthetic Specimen/Virus/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "110px",
+"page_number": 16,
+"text": "",
+"top": "139px",
+"width": "24px"
 },
 {
-"id": 15,
-"page_number": 16,
-"left": "377px",
-"top": "137px",
-"width": "20px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "25px",
+"id": 15,
 "labels": [
 "Potential interfering substances/Test synthetic sample",
 "Specimen/Synthetic Specimen/Clinical matrix",
 "Meta/Not specified"
 ],
-"comment": ""
-},
-{
-"id": 16,
+"left": "377px",
 "page_number": 16,
-"left": "696px",
-"top": "185px",
-"width": "141px",
-"height": "25px",
-"colour": "rgba(200, 200, 255, 0.6)",
 "text": "",
-"labels": [],
-"comment": ""
+"top": "137px",
+"width": "20px"
 },
 {
-"id": 17,
-"page_number": 17,
-"left": "37px",
-"top": "104px",
-"width": "787px",
-"height": "489px",
 "colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "25px",
+"id": 16,
+"labels": [],
+"left": "696px",
+"page_number": 16,
 "text": "",
+"top": "185px",
+"width": "141px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "Include inhibitory effects of Mucin.  Seems to be a semi-standard list as they replaced one component for another (Eucalyptus Oil for Halls Triple Soothing Cough Drops)",
+"height": "489px",
+"id": 17,
 "labels": [
 "Potential interfering substances"
 ],
-"comment": "Include inhibitory effects of Mucin.  Seems to be a semi-standard list as they replaced one component for another (Eucalyptus Oil for Halls Triple Soothing Cough Drops)"
+"left": "37px",
+"page_number": 17,
+"text": "",
+"top": "104px",
+"width": "787px"
 },
 {
-"id": 18,
-"page_number": 2,
-"left": "307px",
-"top": "529px",
-"width": "143px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasal swab",
+"comment": "",
+"height": "21px",
+"id": 18,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "307px",
+"page_number": 2,
+"text": "nasal swab",
+"top": "529px",
+"width": "143px"
 },
 {
-"id": 19,
-"page_number": 2,
-"left": "832px",
-"top": "924px",
-"width": "24px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "30",
+"comment": "",
+"height": "20px",
+"id": 19,
 "labels": [
 "Time to test result in minutes"
+],
+"left": "832px",
+"page_number": 2,
+"text": "30",
+"top": "924px",
+"width": "24px"
+},
+{
+"id": 20,
+"deleted": true
+},
+{
+"id": 21,
+"page_number": 13,
+"left": "49px",
+"top": "787px",
+"width": "50px",
+"height": "50px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "N",
+"labels": [
+"Viral gene(s) targetted"
 ],
 "comment": ""
 },
 {
-"id": 20,
-"page_number": 2,
-"left": "250px",
-"top": "995px",
-"width": "64px",
-"height": "19px",
+"id": 22,
+"page_number": 13,
+"left": "204px",
+"top": "783px",
+"width": "78px",
+"height": "55px",
 "colour": "rgba(200, 200, 255, 0.6)",
 "text": "",
 "labels": [
-"Viral gene(s) targetted",
-"Meta/Not specified"
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Not specified"
 ],
 "comment": ""
 }

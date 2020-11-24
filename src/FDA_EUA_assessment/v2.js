@@ -57,7 +57,7 @@ function html_ref_link(annotation) {
 }
 var value_renderer_EUA_URL = function (d) {
     var references = "<a href=\"" + d.FDA_EUAs_list.url_to_IFU_or_EUA + "\">R</a>";
-    return { parsed: " ", references: references };
+    return { parsed: "&nbsp;", references: references };
 };
 var generic_value_renderer = function (data_node) {
     return __assign({ parsed: data_node.parsed }, get_html_comments_raw_and_references(data_node.annotations));
@@ -97,11 +97,12 @@ var table_fields = [
                 children: [
                     {
                         title: "Supported specimen types",
-                        value_renderer: null /**/,
+                        value_renderer: function (d) { return generic_value_renderer(d.self_declared_EUA_data.supported_specimen_types); },
                     },
                     {
                         title: "Transport medium",
                         value_renderer: null,
+                        hidden: true,
                     },
                 ]
             },
@@ -124,7 +125,10 @@ var table_fields = [
                     { title: "Max no. specimens", value_renderer: null, hidden: true, },
                 ]
             },
-            { title: "Target gene(s) of SARS-CoV-2", value_renderer: null /**/, },
+            {
+                title: "Target gene(s) of SARS-CoV-2",
+                value_renderer: function (d) { return generic_value_renderer(d.self_declared_EUA_data.target_genes); },
+            },
             {
                 title: "Primers and probes",
                 value_renderer: null,
@@ -159,7 +163,7 @@ var table_fields = [
                     },
                     {
                         title: "Minimum replicates",
-                        value_renderer: null /*d => ({ raw: d.self_declared_EUA_data.}) */,
+                        value_renderer: function (d) { return generic_value_renderer(d.self_declared_EUA_data.lod_minimum_replicates); },
                     },
                 ]
             },
@@ -178,7 +182,7 @@ var table_fields = [
                 title: "Controls",
                 value_renderer: null,
                 children: [
-                    { title: "Human gene", value_renderer: null /**/, },
+                    { title: "Human gene", value_renderer: function (d) { return generic_value_renderer(d.self_declared_EUA_data.controls__human_gene_target); }, },
                 ]
             },
             {
@@ -205,7 +209,7 @@ var table_fields = [
                 children: [
                     { title: "Instrument", value_renderer: null, hidden: true, },
                     { title: "Enzyme mix / kits", value_renderer: null, hidden: true, },
-                    { title: "Reaction volume / μL", value_renderer: null /**/, },
+                    { title: "Reaction volume / μL", value_renderer: null, hidden: true, },
                 ]
             },
             {
@@ -246,19 +250,21 @@ var table_fields = [
                 children: [
                     {
                         title: "Viral material",
-                        value_renderer: function (d) { return d.self_declared_EUA_data.synthetic_specimen__viral_material; },
+                        value_renderer: function (d) { return generic_value_renderer(d.self_declared_EUA_data.synthetic_specimen__viral_material); },
                     },
                     {
                         title: "Viral material source",
                         value_renderer: null /**/,
+                        hidden: true,
                     },
                     {
                         title: "Clinical matrix",
-                        value_renderer: null /**/,
+                        value_renderer: function (d) { return generic_value_renderer(d.self_declared_EUA_data.synthetic_specimen__clinical_matrix); },
                     },
                     {
                         title: "Clinical matrix source",
                         value_renderer: null /**/,
+                        hidden: true,
                     },
                 ]
             },
@@ -453,10 +459,10 @@ function render_table_body(table_fields, data_rows) {
             var comments_el = document.createElement("div");
             var references_el = document.createElement("div");
             raw_el.innerHTML = contents.raw || "&nbsp;";
-            raw_el.className = "raw_data";
-            parsed_el.innerHTML = escape_html(contents.parsed || "") || "<span style=\"color: #ccc;\">not parsed</span>";
+            parsed_el.innerHTML = contents.parsed || "<span style=\"color: #fff; font-size: smaller;\">not parsed</span>";
+            raw_el.className = "raw_data" + (contents.parsed ? " less_important" : "");
             parsed_el.className = "parsed_data";
-            comments_el.innerHTML = contents.comments || " ";
+            comments_el.innerHTML = contents.comments || "&nbsp;";
             references_el.innerHTML = contents.references || " ";
             cell.appendChild(raw_el);
             cell.appendChild(parsed_el);

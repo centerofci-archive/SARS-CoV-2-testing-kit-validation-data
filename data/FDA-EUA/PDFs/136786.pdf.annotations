@@ -2,134 +2,149 @@
 "file_sha1_hash": "b099383b51675a433de157bd619275f2801e9ab4",
 "annotations": [
 {
-"id": 0,
-"page_number": 1,
-"left": "54px",
-"top": "419px",
-"width": "369px",
-"height": "34px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasopharyngeal swab, anterior nasal swab and mid-turbinate nasal swab",
+"comment": "",
+"height": "34px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "54px",
+"page_number": 1,
+"text": "nasopharyngeal swab, anterior nasal swab and mid-turbinate nasal swab",
+"top": "419px",
+"width": "369px"
 },
 {
-"id": 1,
-"page_number": 1,
-"left": "470px",
-"top": "865.778px",
-"width": "353px",
-"height": "69px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "E, N, ORF1b (RdRp)",
+"comment": "",
+"height": "69px",
+"id": 1,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "470px",
+"page_number": 1,
+"text": "E, N, ORF1b (RdRp)",
+"top": "865.778px",
+"width": "353px"
 },
 {
-"id": 2,
-"deleted": true
+"deleted": true,
+"id": 2
 },
 {
-"id": 3,
-"page_number": 24,
-"left": "50px",
-"top": "217.223px",
-"width": "99px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genomic SARS-CoV-2 RNA",
+"comment": "",
+"height": "19px",
+"id": 3,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
+"left": "50px",
+"page_number": 24,
+"text": "genomic SARS-CoV-2 RNA",
+"top": "217.223px",
+"width": "99px"
 },
 {
-"id": 4,
-"page_number": 24,
-"left": "350px",
-"top": "216.223px",
-"width": "246px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "pooled nasopharyngeal swab matrix",
+"comment": "",
+"height": "19px",
+"id": 4,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "350px",
+"page_number": 24,
+"text": "pooled nasopharyngeal swab matrix",
+"top": "216.223px",
+"width": "246px"
 },
 {
-"id": 5,
-"page_number": 24,
-"left": "392px",
-"top": "237.223px",
-"width": "283px",
-"height": "18px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "BEI (catalog no. NR-52285, lot 70033320)",
+"comment": "",
+"height": "18px",
+"id": 5,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": ""
+"left": "392px",
+"page_number": 24,
+"text": "BEI (catalog no. NR-52285, lot 70033320)",
+"top": "237.223px",
+"width": "283px"
 },
 {
-"id": 6,
-"page_number": 24,
-"left": "583px",
-"top": "211.223px",
-"width": "20px",
-"height": "27px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "27px",
+"id": 6,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "583px",
+"page_number": 24,
+"text": "",
+"top": "211.223px",
+"width": "20px"
 },
 {
-"id": 7,
-"page_number": 24,
-"left": "204px",
-"top": "352.223px",
-"width": "25px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "24px",
+"id": 7,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "204px",
+"page_number": 24,
+"text": "20",
+"top": "352.223px",
+"width": "25px"
 },
 {
-"id": 8,
-"page_number": 24,
-"left": "579px",
-"top": "407.223px",
-"width": "59px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "1.1",
+"comment": "",
+"height": "23px",
+"id": 8,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "579px",
+"page_number": 24,
+"text": "1.1",
+"top": "407.223px",
+"width": "59px"
 },
 {
-"id": 9,
-"page_number": 24,
-"left": "638px",
-"top": "408.223px",
-"width": "54px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "21px",
+"id": 9,
 "labels": [
 "Limit of Detection (LOD)/Units"
+],
+"left": "638px",
+"page_number": 24,
+"text": "genome copies / μL",
+"top": "408.223px",
+"width": "54px"
+},
+{
+"id": 10,
+"page_number": 25,
+"left": "530px",
+"top": "1023px",
+"width": "199px",
+"height": "21px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Not specified"
 ],
 "comment": ""
 }

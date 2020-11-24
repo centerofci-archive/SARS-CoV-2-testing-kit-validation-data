@@ -2,145 +2,160 @@
 "file_sha1_hash": "2e3ba7c3db6165cb4b7cdeb133e1b8f13152c4e2",
 "annotations": [
 {
-"id": 0,
-"page_number": 1,
-"left": "496px",
-"top": "362px",
-"width": "281px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasal, nasopharyngeal or throat swabs",
+"comment": "",
+"height": "23px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "496px",
+"page_number": 1,
+"text": "nasal, nasopharyngeal or throat swabs",
+"top": "362px",
+"width": "281px"
 },
 {
-"id": 1,
-"page_number": 2,
-"left": "254px",
-"top": "256.111px",
-"width": "116px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "RdRp",
+"comment": "",
+"height": "26px",
+"id": 1,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "254px",
+"page_number": 2,
+"text": "RdRp",
+"top": "256.111px",
+"width": "116px"
 },
 {
-"id": 2,
-"page_number": 14,
-"left": "105px",
-"top": "619.334px",
-"width": "711px",
-"height": "35px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "purified viral RNA containing target sequences from the SARS-CoV2 genome",
+"comment": "",
+"height": "35px",
+"id": 2,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
+"left": "105px",
+"page_number": 14,
+"text": "purified viral RNA containing target sequences from the SARS-CoV2 genome",
+"top": "619.334px",
+"width": "711px"
 },
 {
-"id": 3,
-"page_number": 14,
-"left": "429px",
-"top": "598.334px",
-"width": "251px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "natural nasopharyngeal swab matrix",
+"comment": "",
+"height": "23px",
+"id": 3,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "429px",
+"page_number": 14,
+"text": "natural nasopharyngeal swab matrix",
+"top": "598.334px",
+"width": "251px"
 },
 {
-"id": 4,
-"page_number": 14,
-"left": "169px",
-"top": "637.334px",
-"width": "28px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "20px",
+"id": 4,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "169px",
+"page_number": 14,
+"text": "",
+"top": "637.334px",
+"width": "28px"
 },
 {
-"id": 5,
-"page_number": 14,
-"left": "96px",
-"top": "660.445px",
-"width": "423px",
-"height": "28px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "They were \"presumed negative\".  So contamination could have yielded a falsely lower LoD.",
+"height": "28px",
+"id": 5,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix",
 "Meta/Potential error"
 ],
-"comment": "They were \"presumed negative\".  So contamination could have yielded a falsely lower LoD."
+"left": "96px",
+"page_number": 14,
+"text": "",
+"top": "660.445px",
+"width": "423px"
 },
 {
-"id": 6,
-"page_number": 14,
-"left": "554px",
-"top": "663.668px",
-"width": "260px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "ID NOW COVID-19 elution buffer",
+"comment": "",
+"height": "25px",
+"id": 6,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "554px",
+"page_number": 14,
+"text": "ID NOW COVID-19 elution buffer",
+"top": "663.668px",
+"width": "260px"
 },
 {
-"id": 7,
-"page_number": 14,
-"left": "430px",
-"top": "895.889px",
-"width": "35px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.125",
+"comment": "",
+"height": "23px",
+"id": 7,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "430px",
+"page_number": 14,
+"text": "0.125",
+"top": "895.889px",
+"width": "35px"
 },
 {
-"id": 8,
-"page_number": 14,
-"left": "338px",
-"top": "877.889px",
-"width": "218px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "20px",
+"id": 8,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "338px",
+"page_number": 14,
+"text": "genome copies / μL",
+"top": "877.889px",
+"width": "218px"
 },
 {
-"id": 9,
-"page_number": 14,
-"left": "637px",
-"top": "894.889px",
-"width": "50px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "26px",
+"id": 9,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
+],
+"left": "637px",
+"page_number": 14,
+"text": "20",
+"top": "894.889px",
+"width": "50px"
+},
+{
+"id": 10,
+"page_number": 14,
+"left": "97px",
+"top": "967px",
+"width": "720px",
+"height": "40px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Not specified"
 ],
 "comment": ""
 }

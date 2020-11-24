@@ -45,109 +45,124 @@
 "width": "156px"
 },
 {
-"id": 3,
-"page_number": 5,
-"left": "386px",
-"top": "833px",
-"width": "393px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": " pooled clinical negative, nasopharyngeal swab matrix",
+"comment": "",
+"height": "25px",
+"id": 3,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "386px",
+"page_number": 5,
+"text": " pooled clinical negative, nasopharyngeal swab matrix",
+"top": "833px",
+"width": "393px"
 },
 {
-"id": 4,
-"page_number": 5,
-"left": "774px",
-"top": "834px",
-"width": "18px",
-"height": "27px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "27px",
+"id": 4,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
-},
-{
-"id": 5,
-"deleted": true
-},
-{
-"id": 6,
-"deleted": true
-},
-{
-"id": 7,
+"left": "774px",
 "page_number": 5,
-"left": "400px",
-"top": "935px",
-"width": "21px",
-"height": "24px",
+"text": "",
+"top": "834px",
+"width": "18px"
+},
+{
+"deleted": true,
+"id": 5
+},
+{
+"deleted": true,
+"id": 6
+},
+{
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "24px",
+"id": 7,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "400px",
+"page_number": 5,
+"text": "20",
+"top": "935px",
+"width": "21px"
 },
 {
-"id": 8,
-"page_number": 6,
-"left": "144px",
-"top": "160px",
-"width": "108px",
-"height": "44px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "44px",
+"id": 8,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "144px",
+"page_number": 6,
+"text": "genome copies / μL",
+"top": "160px",
+"width": "108px"
 },
 {
-"id": 9,
-"page_number": 6,
-"left": "143px",
-"top": "230px",
-"width": "32px",
-"height": "18px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "10",
+"comment": "",
+"height": "18px",
+"id": 9,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "143px",
+"page_number": 6,
+"text": "10",
+"top": "230px",
+"width": "32px"
 },
 {
-"id": 10,
-"page_number": 2,
-"left": "133px",
-"top": "191px",
-"width": "649px",
-"height": "42px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "N1, N2, N3",
+"comment": "",
+"height": "42px",
+"id": 10,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "133px",
+"page_number": 2,
+"text": "N1, N2, N3",
+"top": "191px",
+"width": "649px"
 },
 {
-"id": 11,
-"page_number": 3,
-"left": "389px",
-"top": "380px",
-"width": "290px",
-"height": "28px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "RNase P (RP) RPP30",
+"comment": "",
+"height": "28px",
+"id": 11,
 "labels": [
 "Controls/Internal/Human gene target"
+],
+"left": "389px",
+"page_number": 3,
+"text": "RNase P (RP) RPP30",
+"top": "380px",
+"width": "290px"
+},
+{
+"id": 12,
+"page_number": 6,
+"left": "159px",
+"top": "445px",
+"width": "615px",
+"height": "66px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "The Orig3n test utilizes identical oligonucleotide sequences for the N1, N2, and N3 target genes as those used in the CDC 2019-Novel Coronavirus (2019-CoV) RealTime RT-PCR Diagnostic Panel",
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Reference available"
 ],
 "comment": ""
 }

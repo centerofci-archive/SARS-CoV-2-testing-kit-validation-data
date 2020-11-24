@@ -2,190 +2,217 @@
 "file_sha1_hash": "e1972e05ebf9474235e3973e426ff06036082885",
 "annotations": [
 {
-"id": 0,
-"page_number": 4,
-"left": "89px",
-"top": "238.556px",
-"width": "200px",
-"height": "25.2222px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasopharyngeal swabs (NPS)",
+"comment": "",
+"height": "25.2222px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "89px",
+"page_number": 4,
+"text": "nasopharyngeal swabs (NPS)",
+"top": "238.556px",
+"width": "200px"
 },
 {
-"id": 1,
-"page_number": 4,
-"left": "352px",
-"top": "238.778px",
-"width": "173px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "universal transport media",
+"comment": "",
+"height": "26px",
+"id": 1,
 "labels": [
 "Specimen/Transport medium"
 ],
-"comment": ""
+"left": "352px",
+"page_number": 4,
+"text": "universal transport media",
+"top": "238.778px",
+"width": "173px"
 },
 {
-"id": 2,
-"page_number": 21,
-"left": "256px",
-"top": "236.889px",
-"width": "140px",
-"height": "29px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "MS2 Bacteriophage",
+"comment": "",
+"height": "29px",
+"id": 2,
 "labels": [
 "Controls/Internal/Full process"
 ],
-"comment": ""
+"left": "256px",
+"page_number": 21,
+"text": "MS2 Bacteriophage",
+"top": "236.889px",
+"width": "140px"
 },
 {
-"id": 3,
-"page_number": 24,
-"left": "385px",
-"top": "467.223px",
-"width": "80px",
-"height": "33px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "300 μL",
+"comment": "",
+"height": "33px",
+"id": 3,
 "labels": [
 "Specimen/Volume ul"
 ],
-"comment": ""
+"left": "385px",
+"page_number": 24,
+"text": "300 μL",
+"top": "467.223px",
+"width": "80px"
 },
 {
-"id": 4,
-"page_number": 38,
-"left": "39px",
-"top": "559.336px",
-"width": "559px",
-"height": "52px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "ORF1b poly gen (RdRp gene), E",
+"comment": "",
+"height": "52px",
+"id": 4,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "39px",
+"page_number": 38,
+"text": "ORF1b poly gen (RdRp gene), E",
+"top": "559.336px",
+"width": "559px"
 },
 {
-"id": 5,
-"page_number": 56,
-"left": "127px",
-"top": "714.223px",
-"width": "147px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "UTM and HeLa cells",
+"comment": "",
+"height": "24px",
+"id": 5,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "127px",
+"page_number": 56,
+"text": "UTM and HeLa cells",
+"top": "714.223px",
+"width": "147px"
 },
 {
-"id": 6,
-"page_number": 56,
-"left": "265px",
-"top": "708.223px",
-"width": "22px",
-"height": "35px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "In house",
+"comment": "Presumably made in house?",
+"height": "35px",
+"id": 6,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": "Presumably made in house?"
+"left": "265px",
+"page_number": 56,
+"text": "In house",
+"top": "708.223px",
+"width": "22px"
 },
 {
-"id": 7,
-"page_number": 56,
-"left": "39px",
-"top": "693.445px",
-"width": "221px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Hospital from Barcelona (Spain)",
+"comment": "",
+"height": "23px",
+"id": 7,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": ""
+"left": "39px",
+"page_number": 56,
+"text": "Hospital from Barcelona (Spain)",
+"top": "693.445px",
+"width": "221px"
 },
 {
-"id": 8,
-"page_number": 56,
-"left": "290px",
-"top": "669.445px",
-"width": "182px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "quantified clinical sample",
+"comment": "",
+"height": "24px",
+"id": 8,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Live Virus",
 "Meta/Not specified/Reasonable assumption"
 ],
-"comment": ""
+"left": "290px",
+"page_number": 56,
+"text": "quantified clinical sample",
+"top": "669.445px",
+"width": "182px"
 },
 {
-"id": 9,
-"page_number": 56,
-"left": "561px",
-"top": "758.223px",
-"width": "35px",
-"height": "28px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "28px",
+"id": 9,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "561px",
+"page_number": 56,
+"text": "20",
+"top": "758.223px",
+"width": "35px"
 },
 {
-"id": 10,
-"page_number": 57,
-"left": "419px",
-"top": "249.113px",
-"width": "22px",
-"height": "15px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.5",
+"comment": "",
+"height": "15px",
+"id": 10,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "419px",
+"page_number": 57,
+"text": "0.5",
+"top": "249.113px",
+"width": "22px"
 },
 {
-"id": 11,
-"page_number": 57,
-"left": "440px",
-"top": "249.113px",
-"width": "59px",
-"height": "14px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "14px",
+"id": 11,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "440px",
+"page_number": 57,
+"text": "genome copies / μL",
+"top": "249.113px",
+"width": "59px"
 },
 {
-"id": 12,
-"page_number": 56,
-"left": "458px",
-"top": "663px",
-"width": "22px",
-"height": "35px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "What type of sample?  How was it quantified?",
+"height": "35px",
+"id": 12,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source",
 "Meta/Not specified"
 ],
-"comment": "What type of sample?  How was it quantified?"
+"left": "458px",
+"page_number": 56,
+"text": "",
+"top": "663px",
+"width": "22px"
+},
+{
+"id": 13,
+"page_number": 59,
+"left": "221px",
+"top": "298px",
+"width": "174px",
+"height": "26px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [],
+"comment": ""
+},
+{
+"id": 14,
+"page_number": 58,
+"left": "246px",
+"top": "342px",
+"width": "142px",
+"height": "28px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Not specified"
+],
+"comment": ""
 }
 ],
 "comments": [],

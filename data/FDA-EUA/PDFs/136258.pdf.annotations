@@ -2,160 +2,175 @@
 "file_sha1_hash": "fbc7b4702d80a83505a4996ec4de1b63711bf06a",
 "annotations": [
 {
-"id": 0,
-"page_number": 10,
-"left": "446px",
-"top": "125px",
-"width": "368px",
-"height": "18px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Seracare, AccuPlex COVID-19, 1.3E+07 copies/mL",
+"comment": "Note the dPCR lacks information for reproducibility (such as dMIQE checklist)",
+"height": "18px",
+"id": 0,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": "Note the dPCR lacks information for reproducibility (such as dMIQE checklist)"
+"left": "446px",
+"page_number": 10,
+"text": "Seracare, AccuPlex COVID-19, 1.3E+07 copies/mL",
+"top": "125px",
+"width": "368px"
 },
 {
-"id": 1,
-"page_number": 10,
-"left": "214px",
-"top": "125px",
-"width": "233px",
-"height": "17px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "recombinant virus containing SARS-CoV-2 RNA",
+"comment": "",
+"height": "17px",
+"id": 1,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Synthetic Viral Particles"
 ],
-"comment": ""
+"left": "214px",
+"page_number": 10,
+"text": "recombinant virus containing SARS-CoV-2 RNA",
+"top": "125px",
+"width": "233px"
 },
 {
-"id": 2,
-"page_number": 10,
-"left": "231px",
-"top": "142px",
-"width": "143px",
-"height": "13px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "simulated nasal matrix (SNM)",
+"comment": "",
+"height": "13px",
+"id": 2,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "231px",
+"page_number": 10,
+"text": "simulated nasal matrix (SNM)",
+"top": "142px",
+"width": "143px"
 },
 {
-"id": 3,
-"page_number": 10,
-"left": "364px",
-"top": "142px",
-"width": "18px",
-"height": "14px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "14px",
+"id": 3,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "364px",
+"page_number": 10,
+"text": "",
+"top": "142px",
+"width": "18px"
 },
 {
-"id": 4,
-"page_number": 10,
-"left": "459px",
-"top": "171px",
-"width": "14px",
-"height": "10px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "21",
+"comment": "",
+"height": "10px",
+"id": 4,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "459px",
+"page_number": 10,
+"text": "21",
+"top": "171px",
+"width": "14px"
 },
 {
-"id": 5,
-"page_number": 10,
-"left": "626px",
-"top": "183px",
-"width": "26px",
-"height": "17px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.1",
+"comment": "",
+"height": "17px",
+"id": 5,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "626px",
+"page_number": 10,
+"text": "0.1",
+"top": "183px",
+"width": "26px"
 },
 {
-"id": 6,
-"page_number": 10,
-"left": "652px",
-"top": "185px",
-"width": "79px",
-"height": "15px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "15px",
+"id": 6,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "652px",
+"page_number": 10,
+"text": "genome copies / μL",
+"top": "185px",
+"width": "79px"
 },
 {
-"id": 7,
-"page_number": 2,
-"left": "597px",
-"top": "325px",
-"width": "171px",
-"height": "15px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "RdRp, N",
+"comment": "",
+"height": "15px",
+"id": 7,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "597px",
+"page_number": 2,
+"text": "RdRp, N",
+"top": "325px",
+"width": "171px"
 },
 {
-"id": 8,
-"page_number": 2,
-"left": "90px",
-"top": "380px",
-"width": "724px",
-"height": "36px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "36px",
+"id": 8,
 "labels": [
 "Controls/Internal/Extraction control material/Description"
 ],
-"comment": ""
+"left": "90px",
+"page_number": 2,
+"text": "",
+"top": "380px",
+"width": "724px"
 },
 {
-"id": 9,
-"page_number": 2,
-"left": "393px",
-"top": "392px",
-"width": "22px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "26px",
+"id": 9,
 "labels": [
 "Controls/Internal/Extraction control material/Source"
 ],
-"comment": ""
+"left": "393px",
+"page_number": 2,
+"text": "",
+"top": "392px",
+"width": "22px"
 },
 {
-"id": 10,
-"page_number": 1,
-"left": "118px",
-"top": "434px",
-"width": "446px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasal swabs, nasopharyngeal (NP) and oropharyngeal (OP) swabs, and bronchoalveolar lavage fluid (BAL)",
+"comment": "",
+"height": "25px",
+"id": 10,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "118px",
+"page_number": 1,
+"text": "nasal swabs, nasopharyngeal (NP) and oropharyngeal (OP) swabs, and bronchoalveolar lavage fluid (BAL)",
+"top": "434px",
+"width": "446px"
+},
+{
+"id": 11,
+"page_number": 10,
+"left": "94px",
+"top": "436px",
+"width": "735px",
+"height": "87px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Not specified"
+],
+"comment": "With mismatches present in both primer probe regions of 22 of 60577 strains it is claimed there will be \"no impact\"?  Where these strains very prevalent?"
 }
 ],
 "comments": [],

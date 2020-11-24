@@ -137,6 +137,21 @@
 "text": "ORF1ab, ORF1ab, ORF8",
 "top": "297px",
 "width": "80px"
+},
+{
+"id": 11,
+"page_number": 29,
+"left": "72px",
+"top": "195px",
+"width": "770px",
+"height": "113px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Not specified"
+],
+"comment": ""
 }
 ],
 "comments": [],

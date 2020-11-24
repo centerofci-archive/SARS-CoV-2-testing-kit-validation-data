@@ -2,149 +2,164 @@
 "file_sha1_hash": "ef9a5148186b7b82aa6bd7244bb1aa01458917b7",
 "annotations": [
 {
-"id": 0,
-"page_number": 1,
-"left": "106px",
-"top": "406px",
-"width": "725px",
-"height": "45px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasopharyngeal swab, nasal swab, nasopharyngeal wash, nasal wash, oropharyngeal swab and bronchoalveolar lavage",
+"comment": "",
+"height": "45px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "106px",
+"page_number": 1,
+"text": "nasopharyngeal swab, nasal swab, nasopharyngeal wash, nasal wash, oropharyngeal swab and bronchoalveolar lavage",
+"top": "406px",
+"width": "725px"
 },
 {
-"id": 1,
-"page_number": 4,
-"left": "131px",
-"top": "1002px",
-"width": "706px",
-"height": "43px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "1.5 kb in vitro transcribed (IVT) RNA of the SARS-CoV-2 N gene (positions 28061 – 29533 of GenBank accession NC_045512.2)",
+"comment": "",
+"height": "43px",
+"id": 1,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Source",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
-},
-{
-"id": 2,
-"deleted": true
-},
-{
-"id": 3,
+"left": "131px",
 "page_number": 4,
-"left": "511px",
-"top": "1043px",
-"width": "322px",
-"height": "23px",
+"text": "1.5 kb in vitro transcribed (IVT) RNA of the SARS-CoV-2 N gene (positions 28061 – 29533 of GenBank accession NC_045512.2)",
+"top": "1002px",
+"width": "706px"
+},
+{
+"deleted": true,
+"id": 2
+},
+{
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "BAL, nasal wash, and nasopharyngeal swab matrices",
+"comment": "",
+"height": "23px",
+"id": 3,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "511px",
+"page_number": 4,
+"text": "BAL, nasal wash, and nasopharyngeal swab matrices",
+"top": "1043px",
+"width": "322px"
 },
 {
-"id": 4,
-"page_number": 4,
-"left": "195px",
-"top": "1061px",
-"width": "16px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "25px",
+"id": 4,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "195px",
+"page_number": 4,
+"text": "",
+"top": "1061px",
+"width": "16px"
 },
 {
-"id": 5,
-"page_number": 5,
-"left": "664px",
-"top": "431px",
-"width": "26px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "24px",
+"id": 5,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "664px",
+"page_number": 5,
+"text": "20",
+"top": "431px",
+"width": "26px"
 },
 {
-"id": 6,
-"page_number": 5,
-"left": "217px",
-"top": "493px",
-"width": "24px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.073",
+"comment": "",
+"height": "24px",
+"id": 6,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "217px",
+"page_number": 5,
+"text": "0.073",
+"top": "493px",
+"width": "24px"
 },
 {
-"id": 7,
-"page_number": 5,
-"left": "240px",
-"top": "493px",
-"width": "80px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "23px",
+"id": 7,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "240px",
+"page_number": 5,
+"text": "genome copies / μL",
+"top": "493px",
+"width": "80px"
 },
 {
-"id": 8,
-"page_number": 2,
-"left": "112px",
-"top": "689px",
-"width": "321px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "MS2 RNA Bacteriophage",
+"comment": "",
+"height": "25px",
+"id": 8,
 "labels": [
 "Controls/Internal/Extraction control material/Description"
 ],
-"comment": ""
+"left": "112px",
+"page_number": 2,
+"text": "MS2 RNA Bacteriophage",
+"top": "689px",
+"width": "321px"
 },
 {
-"id": 9,
-"page_number": 2,
-"left": "73px",
-"top": "219px",
-"width": "35px",
-"height": "49px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "None present",
+"height": "49px",
+"id": 9,
 "labels": [
 "Controls/Internal/Human gene target"
 ],
-"comment": "None present"
+"left": "73px",
+"page_number": 2,
+"text": "",
+"top": "219px",
+"width": "35px"
 },
 {
-"id": 10,
-"page_number": 2,
-"left": "564px",
-"top": "65px",
-"width": "60px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "N",
+"comment": "",
+"height": "26px",
+"id": 10,
 "labels": [
 "Viral gene(s) targetted"
+],
+"left": "564px",
+"page_number": 2,
+"text": "N",
+"top": "65px",
+"width": "60px"
+},
+{
+"id": 11,
+"page_number": 5,
+"left": "364px",
+"top": "642px",
+"width": "392px",
+"height": "25px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Not specified"
 ],
 "comment": ""
 }

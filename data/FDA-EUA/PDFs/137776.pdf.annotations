@@ -2,186 +2,201 @@
 "file_sha1_hash": "4ae44fcbfbab66d1db6e23935a0537762ea7d0c3",
 "annotations": [
 {
-"id": 0,
-"page_number": 1,
-"left": "107px",
-"top": "461px",
-"width": "642px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "63px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "oropharyngeal (throat) swab, nasopharyngeal swab, anterior nasal swab, mid-turbinate nasal swab, and bronchoalveolar lavage (BAL) fluid",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
-},
-{
-"id": 1,
+"left": "107px",
 "page_number": 1,
-"left": "312px",
-"top": "563.556px",
-"width": "408px",
-"height": "22px",
+"text": "oropharyngeal (throat) swab, nasopharyngeal swab, anterior nasal swab, mid-turbinate nasal swab, and bronchoalveolar lavage (BAL) fluid",
+"top": "461px",
+"width": "642px"
+},
+{
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "saliva specimens that are self-collected at home or in a healthcare setting",
+"comment": "",
+"height": "22px",
+"id": 1,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "312px",
+"page_number": 1,
+"text": "saliva specimens that are self-collected at home or in a healthcare setting",
+"top": "563.556px",
+"width": "408px"
 },
 {
-"id": 2,
-"page_number": 2,
-"left": "277px",
-"top": "708.333px",
-"width": "54px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "300",
+"comment": "",
+"height": "23px",
+"id": 2,
 "labels": [
 "RNA extraction & purification/Specimen input volume ul"
 ],
-"comment": ""
+"left": "277px",
+"page_number": 2,
+"text": "300",
+"top": "708.333px",
+"width": "54px"
 },
 {
-"id": 3,
-"page_number": 2,
-"left": "492px",
-"top": "710.333px",
-"width": "48px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "50",
+"comment": "",
+"height": "22px",
+"id": 3,
 "labels": [
 "RNA extraction & purification/Elution volume ul"
 ],
-"comment": ""
+"left": "492px",
+"page_number": 2,
+"text": "50",
+"top": "710.333px",
+"width": "48px"
 },
 {
-"id": 4,
-"page_number": 3,
-"left": "142px",
-"top": "632.333px",
-"width": "163px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "MS2 Bacteriophage",
+"comment": "",
+"height": "24px",
+"id": 4,
 "labels": [
 "Controls/Internal/Full process"
 ],
-"comment": ""
+"left": "142px",
+"page_number": 3,
+"text": "MS2 Bacteriophage",
+"top": "632.333px",
+"width": "163px"
 },
 {
-"id": 5,
-"page_number": 3,
-"left": "309px",
-"top": "888.445px",
-"width": "326px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "N, S, ORF1ab",
+"comment": "",
+"height": "20px",
+"id": 5,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "309px",
+"page_number": 3,
+"text": "N, S, ORF1ab",
+"top": "888.445px",
+"width": "326px"
 },
 {
-"id": 6,
-"page_number": 4,
-"left": "365px",
-"top": "485.111px",
-"width": "136px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "in vitro transcripts",
+"comment": "",
+"height": "26px",
+"id": 6,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
+"left": "365px",
+"page_number": 4,
+"text": "in vitro transcripts",
+"top": "485.111px",
+"width": "136px"
 },
 {
-"id": 7,
-"page_number": 4,
-"left": "543px",
-"top": "487.111px",
-"width": "128px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Exact Diagnostics (SARS-CoV-2 Standard)",
+"comment": "",
+"height": "25px",
+"id": 7,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": ""
+"left": "543px",
+"page_number": 4,
+"text": "Exact Diagnostics (SARS-CoV-2 Standard)",
+"top": "487.111px",
+"width": "128px"
 },
 {
-"id": 8,
-"page_number": 4,
-"left": "457px",
-"top": "511.111px",
-"width": "272px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "negative nasopharyngeal swab matrix",
+"comment": "",
+"height": "19px",
+"id": 8,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "457px",
+"page_number": 4,
+"text": "negative nasopharyngeal swab matrix",
+"top": "511.111px",
+"width": "272px"
 },
 {
-"id": 9,
-"page_number": 4,
-"left": "718px",
-"top": "506.111px",
-"width": "23px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "23px",
+"id": 9,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "718px",
+"page_number": 4,
+"text": "",
+"top": "506.111px",
+"width": "23px"
 },
 {
-"id": 10,
-"page_number": 4,
-"left": "209px",
-"top": "612.111px",
-"width": "28px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "20px",
+"id": 10,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "209px",
+"page_number": 4,
+"text": "20",
+"top": "612.111px",
+"width": "28px"
 },
 {
-"id": 11,
-"page_number": 4,
-"left": "720px",
-"top": "637.111px",
-"width": "32px",
-"height": "15px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.2",
+"comment": "",
+"height": "15px",
+"id": 11,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "720px",
+"page_number": 4,
+"text": "0.2",
+"top": "637.111px",
+"width": "32px"
 },
 {
-"id": 12,
-"page_number": 4,
-"left": "137px",
-"top": "655.111px",
-"width": "85px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "26px",
+"id": 12,
 "labels": [
 "Limit of Detection (LOD)/Units"
+],
+"left": "137px",
+"page_number": 4,
+"text": "genome copies / μL",
+"top": "655.111px",
+"width": "85px"
+},
+{
+"id": 13,
+"page_number": 4,
+"left": "263px",
+"top": "1011px",
+"width": "205px",
+"height": "28px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Not specified"
 ],
 "comment": ""
 }

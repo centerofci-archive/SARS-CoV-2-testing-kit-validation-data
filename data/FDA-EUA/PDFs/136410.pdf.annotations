@@ -2,259 +2,274 @@
 "file_sha1_hash": "afae8cfcb83917aaf86e39168c8e990ae4ad6768",
 "annotations": [
 {
-"id": 0,
-"page_number": 17,
-"left": "54px",
-"top": "78.5557px",
-"width": "233px",
-"height": "18px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "pooled oropharyngeal swab specimen",
+"comment": "",
+"height": "18px",
+"id": 0,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "54px",
+"page_number": 17,
+"text": "pooled oropharyngeal swab specimen",
+"top": "78.5557px",
+"width": "233px"
 },
 {
-"id": 1,
-"page_number": 17,
-"left": "382px",
-"top": "74.5557px",
-"width": "166px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "12 individuals at 4 different time points",
+"comment": "",
+"height": "23px",
+"id": 1,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source"
 ],
-"comment": ""
+"left": "382px",
+"page_number": 17,
+"text": "12 individuals at 4 different time points",
+"top": "74.5557px",
+"width": "166px"
 },
 {
-"id": 2,
-"page_number": 17,
-"left": "53px",
-"top": "110.556px",
-"width": "495px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
 "height": "42px",
-"colour": "rgba(200, 200, 255, 0.6)",
-"text": "Using the test to confirm negativity seems wrong",
+"id": 2,
 "labels": [],
-"comment": ""
+"left": "53px",
+"page_number": 17,
+"text": "Using the test to confirm negativity seems wrong",
+"top": "110.556px",
+"width": "495px"
 },
 {
-"id": 3,
-"page_number": 17,
-"left": "161px",
-"top": "151.667px",
-"width": "185px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "inactivated SARS-CoV-2 virus (isolate 2/231/human/2020/CHN)",
+"comment": "",
+"height": "20px",
+"id": 3,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Inactivated Virus (method unspecified)"
 ],
-"comment": ""
+"left": "161px",
+"page_number": 17,
+"text": "inactivated SARS-CoV-2 virus (isolate 2/231/human/2020/CHN)",
+"top": "151.667px",
+"width": "185px"
 },
 {
-"id": 4,
-"page_number": 17,
-"left": "495px",
-"top": "554.89px",
-"width": "60px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "24px",
+"id": 4,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "495px",
+"page_number": 17,
+"text": "20",
+"top": "554.89px",
+"width": "60px"
 },
 {
-"id": 5,
-"page_number": 17,
-"left": "114px",
-"top": "735.556px",
-"width": "196px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Great to see this level of documentation.  But why is there ratio between N and ORF1ab copies / ml from inactivated virus not 1:1?  How was this characterised?",
+"comment": "",
+"height": "24px",
+"id": 5,
 "labels": [
 "Meta/Question to answer"
 ],
-"comment": ""
+"left": "114px",
+"page_number": 17,
+"text": "Great to see this level of documentation.  But why is there ratio between N and ORF1ab copies / ml from inactivated virus not 1:1?  How was this characterised?",
+"top": "735.556px",
+"width": "196px"
 },
 {
-"id": 6,
-"page_number": 18,
-"left": "150px",
-"top": "257px",
-"width": "57px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.024884",
+"comment": "N gene target.  Level of precision seems too high.",
+"height": "21px",
+"id": 6,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": "N gene target.  Level of precision seems too high."
+"left": "150px",
+"page_number": 18,
+"text": "0.024884",
+"top": "257px",
+"width": "57px"
 },
 {
-"id": 7,
-"page_number": 18,
-"left": "364px",
-"top": "218.223px",
-"width": "76px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "21px",
+"id": 7,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "364px",
+"page_number": 18,
+"text": "genome copies / μL",
+"top": "218.223px",
+"width": "76px"
 },
 {
-"id": 8,
-"page_number": 18,
-"left": "361px",
-"top": "261.667px",
-"width": "46px",
-"height": "17px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.009307",
+"comment": "ORF1ab gene target",
+"height": "17px",
+"id": 8,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": "ORF1ab gene target"
+"left": "361px",
+"page_number": 18,
+"text": "0.009307",
+"top": "261.667px",
+"width": "46px"
 },
 {
-"id": 9,
-"page_number": 18,
-"left": "103px",
-"top": "273px",
-"width": "49px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "95",
+"comment": "",
+"height": "19px",
+"id": 9,
 "labels": [
 "Statistics/Confidence intervals/Percentage",
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "103px",
+"page_number": 18,
+"text": "95",
+"top": "273px",
+"width": "49px"
 },
 {
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "N gene target",
+"height": "18px",
 "id": 10,
-"page_number": 18,
+"labels": [
+"Statistics/Confidence intervals/Lower value",
+"Limit of Detection (LOD)/Value"
+],
 "left": "158px",
-"top": "274px",
-"width": "41px",
-"height": "18px",
-"colour": "rgba(200, 200, 255, 0.6)",
+"page_number": 18,
 "text": "0.017032",
-"labels": [
-"Statistics/Confidence intervals/Lower value",
-"Limit of Detection (LOD)/Value"
-],
-"comment": "N gene target"
-},
-{
-"id": 11,
-"page_number": 18,
-"left": "210px",
 "top": "274px",
-"width": "53px",
-"height": "18px",
+"width": "41px"
+},
+{
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.057917",
+"comment": "N gene target",
+"height": "18px",
+"id": 11,
 "labels": [
 "Statistics/Confidence intervals/Upper value",
 "Limit of Detection (LOD)/Value"
 ],
-"comment": "N gene target"
+"left": "210px",
+"page_number": 18,
+"text": "0.057917",
+"top": "274px",
+"width": "53px"
 },
 {
-"id": 12,
-"page_number": 18,
-"left": "362px",
-"top": "272.445px",
-"width": "34px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.007428",
+"comment": "ORF1ab gene target",
+"height": "20px",
+"id": 12,
 "labels": [
 "Statistics/Confidence intervals/Lower value",
 "Limit of Detection (LOD)/Value"
 ],
-"comment": "ORF1ab gene target"
+"left": "362px",
+"page_number": 18,
+"text": "0.007428",
+"top": "272.445px",
+"width": "34px"
 },
 {
-"id": 13,
-"page_number": 18,
-"left": "409px",
-"top": "273.445px",
-"width": "50px",
-"height": "18px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.013003",
+"comment": "ORF1ab gene target",
+"height": "18px",
+"id": 13,
 "labels": [
 "Statistics/Confidence intervals/Upper value",
 "Limit of Detection (LOD)/Value"
 ],
-"comment": "ORF1ab gene target"
+"left": "409px",
+"page_number": 18,
+"text": "0.013003",
+"top": "273.445px",
+"width": "50px"
 },
 {
-"id": 14,
-"page_number": 18,
-"left": "496px",
-"top": "623.111px",
-"width": "51px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.030467",
+"comment": "N gene target.",
+"height": "26px",
+"id": 14,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": "N gene target."
+"left": "496px",
+"page_number": 18,
+"text": "0.030467",
+"top": "623.111px",
+"width": "51px"
 },
 {
-"id": 15,
-"page_number": 4,
-"left": "49px",
-"top": "56px",
-"width": "502px",
-"height": "41px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "N, ORF1ab",
+"comment": "",
+"height": "41px",
+"id": 15,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "49px",
+"page_number": 4,
+"text": "N, ORF1ab",
+"top": "56px",
+"width": "502px"
 },
 {
-"id": 16,
-"page_number": 3,
-"left": "51px",
-"top": "328.889px",
-"width": "502px",
-"height": "38px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "oropharyngeal swab, nasopharyngeal swab, and anterior nasal swab",
+"comment": "",
+"height": "38px",
+"id": 16,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "51px",
+"page_number": 3,
+"text": "oropharyngeal swab, nasopharyngeal swab, and anterior nasal swab",
+"top": "328.889px",
+"width": "502px"
 },
 {
-"id": 17,
-"page_number": 17,
-"left": "538px",
-"top": "151.223px",
-"width": "17px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "19px",
+"id": 17,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source",
 "Meta/Not specified"
+],
+"left": "538px",
+"page_number": 17,
+"text": "",
+"top": "151.223px",
+"width": "17px"
+},
+{
+"id": 18,
+"page_number": 21,
+"left": "423px",
+"top": "346px",
+"width": "35px",
+"height": "26px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Not specified"
 ],
 "comment": ""
 }

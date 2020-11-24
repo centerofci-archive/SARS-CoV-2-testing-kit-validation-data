@@ -22,6 +22,10 @@ DATA_DIRECTORY_merged_data = DATA_DIR_PATH + "merged_data/"
 DATA_FILE_PATH_merged_data = DATA_DIRECTORY_merged_data + "latest.json"
 
 
+DATA_DIRECTORY_summarised_data = DATA_DIR_PATH + "summarised_data/"
+DATA_FILE_PATH_summarised_data = DATA_DIRECTORY_summarised_data + "latest.json"
+
+
 ANOT8_ORG_NAMING_AUTHORITY_ID = "1772"
 ANOT8_ORG_VAULT_ID = "2"
 

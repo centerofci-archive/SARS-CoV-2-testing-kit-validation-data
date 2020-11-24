@@ -36,10 +36,15 @@ interface DATA_ROW
         sample_media_type: string
     },
     self_declared_EUA_data: {
-        primer_probe_sequences: DATA_NODE,
-        lod_value: DATA_NODE & { min: number, max: number },
+        supported_specimen_types: DATA_NODE
+        target_genes: DATA_NODE
+        controls__human_gene_target: DATA_NODE
+        primer_probe_sequences: DATA_NODE
+        lod_value: DATA_NODE & { min: number, max: number }
         lod_units: DATA_NODE
+        lod_minimum_replicates: DATA_NODE
         synthetic_specimen__viral_material: DATA_NODE
+        synthetic_specimen__clinical_matrix: DATA_NODE
     }
 }
 
@@ -135,7 +140,7 @@ function html_ref_link (annotation: { anot8_org_file_id: string, id?: number })
 const value_renderer_EUA_URL: ValueRenderer = d =>
 {
     const references = `<a href="${d.FDA_EUAs_list.url_to_IFU_or_EUA}">R</a>`
-    return { parsed: " ", references }
+    return { parsed: "&nbsp;", references }
 }
 
 
@@ -183,11 +188,12 @@ const table_fields: TABLE_FIELDS = [
                 children: [
                     {
                         title: "Supported specimen types",
-                        value_renderer: null /**/,
+                        value_renderer: d => generic_value_renderer(d.self_declared_EUA_data.supported_specimen_types),
                     },
                     {
                         title: "Transport medium",
                         value_renderer: null,
+                        hidden: true,
                     },
                 ]
             },
@@ -210,7 +216,10 @@ const table_fields: TABLE_FIELDS = [
                     { title: "Max no. specimens", value_renderer: null, hidden: true, },
                 ]
             },
-            { title: "Target gene(s) of SARS-CoV-2", value_renderer: null /**/, },
+            {
+                title: "Target gene(s) of SARS-CoV-2",
+                value_renderer: d => generic_value_renderer(d.self_declared_EUA_data.target_genes),
+            },
             {
                 title: "Primers and probes",
                 value_renderer: null,
@@ -245,7 +254,7 @@ const table_fields: TABLE_FIELDS = [
                     },
                     {
                         title: "Minimum replicates",
-                        value_renderer: null /*d => ({ raw: d.self_declared_EUA_data.}) */ ,
+                        value_renderer: d => generic_value_renderer(d.self_declared_EUA_data.lod_minimum_replicates) ,
                     },
                 ]
             },
@@ -264,7 +273,7 @@ const table_fields: TABLE_FIELDS = [
                 title: "Controls",
                 value_renderer: null,
                 children: [
-                    { title: "Human gene", value_renderer: null /**/, },
+                    { title: "Human gene", value_renderer: d => generic_value_renderer(d.self_declared_EUA_data.controls__human_gene_target), },
                 ]
             },
             {
@@ -291,7 +300,7 @@ const table_fields: TABLE_FIELDS = [
                 children: [
                     { title: "Instrument", value_renderer: null, hidden: true, },
                     { title: "Enzyme mix / kits", value_renderer: null, hidden: true, },
-                    { title: "Reaction volume / μL", value_renderer: null /**/, },
+                    { title: "Reaction volume / μL", value_renderer: null, hidden: true, },
                 ]
             },
             {
@@ -332,19 +341,21 @@ const table_fields: TABLE_FIELDS = [
                 children: [
                     {
                         title: "Viral material",
-                        value_renderer: d => d.self_declared_EUA_data.synthetic_specimen__viral_material,
+                        value_renderer: d => generic_value_renderer(d.self_declared_EUA_data.synthetic_specimen__viral_material),
                     },
                     {
                         title: "Viral material source",
                         value_renderer: null /**/,
+                        hidden: true,
                     },
                     {
                         title: "Clinical matrix",
-                        value_renderer: null /**/,
+                        value_renderer: d => generic_value_renderer(d.self_declared_EUA_data.synthetic_specimen__clinical_matrix),
                     },
                     {
                         title: "Clinical matrix source",
                         value_renderer: null /**/,
+                        hidden: true,
                     },
                 ]
             },
@@ -578,10 +589,10 @@ function render_table_body (table_fields: TABLE_FIELDS, data_rows: DATA_ROW[])
             const references_el = document.createElement("div")
 
             raw_el.innerHTML = contents.raw || "&nbsp;"
-            raw_el.className = "raw_data"
-            parsed_el.innerHTML = escape_html(contents.parsed || "") || `<span style="color: #ccc;">not parsed</span>`
+            parsed_el.innerHTML = contents.parsed || `<span style="color: #fff; font-size: smaller;">not parsed</span>`
+            raw_el.className = "raw_data" + (contents.parsed ? " less_important" : "")
             parsed_el.className = "parsed_data"
-            comments_el.innerHTML = contents.comments || " "
+            comments_el.innerHTML = contents.comments || "&nbsp;"
             references_el.innerHTML = contents.references || " "
 
             cell.appendChild(raw_el)

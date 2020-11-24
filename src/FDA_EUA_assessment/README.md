@@ -52,7 +52,6 @@ It's useful to have these common meta labels:
     localStorage.setItem("priority_labels", JSON.stringify([
         "Primers and probes/Sequences",
         "Primers and probes/Sequences/Explicitly specified",
-        "Primers and probes/Sequences/Not assessed",
         "Primers and probes/Sequences/Not specified",
         "Primers and probes/Sequences/Reference available",
 

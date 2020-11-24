@@ -2,161 +2,176 @@
 "file_sha1_hash": "60c6da6d64897a74ef19310495d9fb03efc8008c",
 "annotations": [
 {
-"id": 0,
-"page_number": 4,
-"left": "76px",
-"top": "237.778px",
-"width": "717px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "upper respiratory specimens (e.g., oropharyngeal swabs, nasopharyngeal swabs, nasal swabs, and mid-turbinate swabs)",
+"comment": "",
+"height": "24px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "76px",
+"page_number": 4,
+"text": "upper respiratory specimens (e.g., oropharyngeal swabs, nasopharyngeal swabs, nasal swabs, and mid-turbinate swabs)",
+"top": "237.778px",
+"width": "717px"
 },
 {
-"id": 1,
-"page_number": 4,
-"left": "630px",
-"top": "962.222px",
-"width": "160px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "ORF1ab, N, E",
+"comment": "",
+"height": "26px",
+"id": 1,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "630px",
+"page_number": 4,
+"text": "ORF1ab, N, E",
+"top": "962.222px",
+"width": "160px"
 },
 {
-"id": 2,
-"page_number": 4,
-"left": "271px",
-"top": "1105.22px",
-"width": "512px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "MS2 based pseudo-virus containing exogenous RNA sequence",
+"comment": "",
+"height": "23px",
+"id": 2,
 "labels": [
 "Controls/Internal/Full process"
 ],
-"comment": ""
+"left": "271px",
+"page_number": 4,
+"text": "MS2 based pseudo-virus containing exogenous RNA sequence",
+"top": "1105.22px",
+"width": "512px"
 },
 {
-"id": 3,
-"page_number": 18,
-"left": "59px",
-"top": "266.557px",
-"width": "99px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "SARS CoV-2 RNA",
+"comment": "",
+"height": "22px",
+"id": 3,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
+"left": "59px",
+"page_number": 18,
+"text": "SARS CoV-2 RNA",
+"top": "266.557px",
+"width": "99px"
 },
 {
-"id": 4,
-"page_number": 18,
-"left": "188px",
-"top": "265.557px",
-"width": "268px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "leftover, negative OP specimens",
+"comment": "",
+"height": "24px",
+"id": 4,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "188px",
+"page_number": 18,
+"text": "leftover, negative OP specimens",
+"top": "265.557px",
+"width": "268px"
 },
 {
-"id": 5,
-"page_number": 18,
-"left": "439px",
-"top": "260px",
-"width": "26px",
-"height": "34px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "34px",
+"id": 5,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "439px",
+"page_number": 18,
+"text": "",
+"top": "260px",
+"width": "26px"
 },
 {
-"id": 6,
-"page_number": 18,
-"left": "146px",
-"top": "264px",
-"width": "19px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "26px",
+"id": 6,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "146px",
+"page_number": 18,
+"text": "",
+"top": "264px",
+"width": "19px"
 },
 {
-"id": 7,
-"page_number": 18,
-"left": "649px",
-"top": "430px",
-"width": "35px",
-"height": "28px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "28px",
+"id": 7,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "649px",
+"page_number": 18,
+"text": "20",
+"top": "430px",
+"width": "35px"
 },
 {
-"id": 8,
-"page_number": 18,
-"left": "222px",
-"top": "557.334px",
-"width": "65px",
-"height": "24px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "1",
+"comment": "Manual and Fast Maccura Nucleic Acid Extraction Kits",
+"height": "24px",
+"id": 8,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": "Manual and Fast Maccura Nucleic Acid Extraction Kits"
+"left": "222px",
+"page_number": 18,
+"text": "1",
+"top": "557.334px",
+"width": "65px"
 },
 {
-"id": 9,
-"page_number": 18,
-"left": "285px",
-"top": "558.334px",
-"width": "85px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "",
+"height": "26px",
+"id": 9,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "285px",
+"page_number": 18,
+"text": "genome copies / μL",
+"top": "558.334px",
+"width": "85px"
 },
 {
-"id": 10,
-"page_number": 18,
-"left": "58px",
-"top": "580px",
-"width": "73px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.5",
+"comment": "QIAamp Viral RNA Mini Kit",
+"height": "21px",
+"id": 10,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": "QIAamp Viral RNA Mini Kit"
+"left": "58px",
+"page_number": 18,
+"text": "0.5",
+"top": "580px",
+"width": "73px"
+},
+{
+"id": 11,
+"page_number": 22,
+"left": "336px",
+"top": "1106px",
+"width": "374px",
+"height": "31px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Not specified"
+],
+"comment": ""
 }
 ],
 "comments": [],

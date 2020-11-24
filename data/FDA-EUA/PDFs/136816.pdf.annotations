@@ -2,144 +2,171 @@
 "file_sha1_hash": "a05a3f42958b7df191f2f7f2697e6502c939140a",
 "annotations": [
 {
-"id": 0,
-"page_number": 1,
-"left": "104px",
-"top": "374px",
-"width": "653px",
-"height": "32px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasopharyngeal, nasal, mid-turbinate, and oropharyngeal swab specimens, nasopharyngeal wash/aspirate or nasal aspirates",
+"comment": "",
+"height": "32px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "104px",
+"page_number": 1,
+"text": "nasopharyngeal, nasal, mid-turbinate, and oropharyngeal swab specimens, nasopharyngeal wash/aspirate or nasal aspirates",
+"top": "374px",
+"width": "653px"
 },
 {
-"id": 1,
-"page_number": 13,
-"left": "228px",
-"top": "655.334px",
-"width": "261px",
-"height": "16px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genomic SARS-CoV-2 RNA",
+"comment": "",
+"height": "16px",
+"id": 1,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
 ],
-"comment": ""
+"left": "228px",
+"page_number": 13,
+"text": "genomic SARS-CoV-2 RNA",
+"top": "655.334px",
+"width": "261px"
 },
 {
-"id": 2,
-"page_number": 13,
-"left": "565px",
-"top": "655.334px",
-"width": "198px",
-"height": "16px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "BEI Resources (Cat. No. NR-52285)",
+"comment": "",
+"height": "16px",
+"id": 2,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": ""
+"left": "565px",
+"page_number": 13,
+"text": "BEI Resources (Cat. No. NR-52285)",
+"top": "655.334px",
+"width": "198px"
 },
 {
-"id": 3,
-"page_number": 13,
-"left": "209px",
-"top": "670.334px",
-"width": "254px",
-"height": "15px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "pooled negative nasopharyngeal clinical matrix",
+"comment": "",
+"height": "15px",
+"id": 3,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "209px",
+"page_number": 13,
+"text": "pooled negative nasopharyngeal clinical matrix",
+"top": "670.334px",
+"width": "254px"
 },
 {
-"id": 4,
-"page_number": 13,
-"left": "568px",
-"top": "698.334px",
-"width": "18px",
-"height": "23px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "23px",
+"id": 4,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "568px",
+"page_number": 13,
+"text": "20",
+"top": "698.334px",
+"width": "18px"
 },
 {
-"id": 5,
-"page_number": 13,
-"left": "454px",
-"top": "667.334px",
-"width": "15px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "21px",
+"id": 5,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "454px",
+"page_number": 13,
+"text": "",
+"top": "667.334px",
+"width": "15px"
 },
 {
-"id": 6,
-"page_number": 1,
-"left": "104px",
-"top": "743.333px",
-"width": "233px",
-"height": "17px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "N, N",
+"comment": "",
+"height": "17px",
+"id": 6,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "104px",
+"page_number": 1,
+"text": "N, N",
+"top": "743.333px",
+"width": "233px"
 },
 {
-"id": 7,
-"page_number": 1,
-"left": "552px",
-"top": "741.333px",
-"width": "128px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "RNase P (RP)",
+"comment": "",
+"height": "20px",
+"id": 7,
 "labels": [
 "Controls/Internal/Human gene target"
 ],
-"comment": ""
+"left": "552px",
+"page_number": 1,
+"text": "RNase P (RP)",
+"top": "741.333px",
+"width": "128px"
 },
 {
-"id": 8,
-"page_number": 13,
-"left": "275px",
-"top": "870.778px",
-"width": "19px",
-"height": "13px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.04",
+"comment": "",
+"height": "13px",
+"id": 8,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
+"left": "275px",
+"page_number": 13,
+"text": "0.04",
+"top": "870.778px",
+"width": "19px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "15px",
+"id": 9,
+"labels": [
+"Limit of Detection (LOD)/Units"
+],
+"left": "260px",
+"page_number": 13,
+"text": "genome copies / μL",
+"top": "828.778px",
+"width": "48px"
+},
+{
+"id": 10,
+"page_number": 14,
+"left": "105px",
+"top": "121px",
+"width": "690px",
+"height": "33px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [],
 "comment": ""
 },
 {
-"id": 9,
+"id": 11,
 "page_number": 13,
-"left": "260px",
-"top": "828.778px",
-"width": "48px",
-"height": "15px",
+"left": "105px",
+"top": "921px",
+"width": "699px",
+"height": "29px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"text": "The nCoV N1 and nCoV N2 primers and probes utilized within the BD SARS-CoV-2 Reagents for BD MAX System are identical in sequence to those reported in the CDC 2019-Novel Coronavirus (2019-nCoV) Real-Time RT-PCR Diagnostic Panel",
 "labels": [
-"Limit of Detection (LOD)/Units"
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Reference available"
 ],
 "comment": ""
 }

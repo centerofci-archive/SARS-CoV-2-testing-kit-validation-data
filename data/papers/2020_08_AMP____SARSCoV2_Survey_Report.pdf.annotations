@@ -1,0 +1,21 @@
+{
+"file_sha1_hash": "3d49e91848f3fb186c302317ad1a1e040ee1a4f6",
+"annotations": [
+{
+"id": 0,
+"page_number": 9,
+"left": "96px",
+"top": "141px",
+"width": "712px",
+"height": "355px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "US-based labs: top 10 primary testing methods",
+"labels": [],
+"comment": ""
+}
+],
+"comments": [
+"Related pages: https://www.amp.org/advocacy/sars-cov-2-survey/ https://www.amp.org/AMP/assets/File/pressreleases/2020/AMP_August_SARS_CoV_2_Survey.pdf"
+],
+"schema_version": 5
+}

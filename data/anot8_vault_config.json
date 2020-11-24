@@ -73,7 +73,6 @@
     "Primers and probes/Sequences/Explicitly specified",
     "Primers and probes/Sequences/Reference available",
     "Primers and probes/Sequences/Not specified",
-    "Primers and probes/Sequences/Not assessed",
     "Primers and probes/Source",
     "Quantification fluorescence detection",
     "Quantification fluorescence detection/Instrument",
@@ -1298,8 +1297,9 @@
       "1158": "FDA-EUA/templates/molecular-labs/2020-05-13-Template-Molecular-Laboratories.pdf",
       "1159": "FDA-EUA/templates/molecular-manufacturers/2020-05-13-Template-Molecular-Manufacturers.pdf",
       "1160": "FDA-EUA/templates/molecular-manufacturers/2020-07-28-molecular-template-mfrs.pdf",
-      "1161": "papers/Nadcap_2012____What_you_need_to_know_about_Nadcap.pdf"
+      "1161": "papers/Nadcap_2012____What_you_need_to_know_about_Nadcap.pdf",
+      "1162": "papers/2020_08_AMP____SARSCoV2_Survey_Report.pdf"
     },
-    "next_id": 1162
+    "next_id": 1163
   }
 }

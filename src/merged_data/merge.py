@@ -51,16 +51,54 @@ def minimal_annotations (annotations):
 
 
 def get_self_declared_EUA_data (annotations_by_label_id):
+    supported_specimen_types = get_supported_specimen_types(annotations_by_label_id)
+    target_genes = get_target_genes(annotations_by_label_id)
+    controls__human_gene_target = get_controls__human_gene_target(annotations_by_label_id)
     primer_probe_sequences = get_primer_probe_sequences(annotations_by_label_id)
     lod_value = get_lod_value(annotations_by_label_id)
     lod_units = get_lod_units(annotations_by_label_id)
+    lod_minimum_replicates = get_lod_minimum_replicates(annotations_by_label_id)
     synthetic_specimen__viral_material = get_synthetic_specimen__viral_material(annotations_by_label_id)
+    synthetic_specimen__clinical_matrix = get_synthetic_specimen__clinical_matrix(annotations_by_label_id)
 
     return {
+        "supported_specimen_types": supported_specimen_types,
+        "target_genes": target_genes,
+        "controls__human_gene_target": controls__human_gene_target,
         "primer_probe_sequences": primer_probe_sequences,
         "lod_value": lod_value,
         "lod_units": lod_units,
+        "lod_minimum_replicates": lod_minimum_replicates,
         "synthetic_specimen__viral_material": synthetic_specimen__viral_material,
+        "synthetic_specimen__clinical_matrix": synthetic_specimen__clinical_matrix,
+    }
+
+
+def get_supported_specimen_types (annotations_by_label_id):
+    annotations = annotations_by_label_id.get(Labels.supported_specimen_types, [])
+
+    return {
+        "annotations": annotations,
+        "parsed": "",
+    }
+
+
+def get_target_genes (annotations_by_label_id):
+    annotations = annotations_by_label_id.get(Labels.viral_genes_targetted, [])
+    annotations += annotations_by_label_id.get(Labels.viral_proteins_targetted, [])
+
+    return {
+        "annotations": annotations,
+        "parsed": "",
+    }
+
+
+def get_controls__human_gene_target (annotations_by_label_id):
+    annotations = annotations_by_label_id.get(Labels.controls__internal__human_gene_target, [])
+
+    return {
+        "annotations": annotations,
+        "parsed": "",
     }
 
 
@@ -79,7 +117,7 @@ def get_primer_probe_sequences (annotations_by_label_id):
             filtered_annotations.append(minimal_annotation(annotation))
             parsed += list(sequence_labels)
         else:
-            print(get_link_to_annotation(annotation))
+            print("No sequence_labels for: " + get_link_to_annotation(annotation))
 
     if len(parsed) > 1:
         print("Got {} primer probe sequence labels for {}".format(len(parsed), get_link_to_annotation(filtered_annotations[0])))
@@ -161,6 +199,16 @@ def get_lod_units (annotations_by_label_id):
         "parsed": parsed
     }
 
+
+def get_lod_minimum_replicates (annotations_by_label_id):
+    annotations = annotations_by_label_id.get(Labels.limit_of_detection_lod__minimum_replicates, [])
+
+    return {
+        "annotations": minimal_annotations(annotations),
+        "parsed": ""
+    }
+
+
 def warn_of_multiple_annotation (annotations, field_expects_one_or_fewer_annotations=""):
     if field_expects_one_or_fewer_annotations and len(annotations) > 1:
         print("Warning: More than 1 annotation for {}: {}".format(
@@ -195,6 +243,15 @@ def get_synthetic_specimen__viral_material (annotations_by_label_id):
             types = error_types
 
     return { "annotations": minimal_annotations(annotations), "parsed": ", ".join(types) }
+
+
+def get_synthetic_specimen__clinical_matrix (annotations_by_label_id):
+    annotations = annotations_by_label_id.get(Labels.specimen__synthetic_specimen__clinical_matrix, [])
+
+    return {
+        "annotations": minimal_annotations(annotations),
+        "parsed": "",
+    }
 
 
 # Tests not present on the FDA reference panel website as of 2020-10-13

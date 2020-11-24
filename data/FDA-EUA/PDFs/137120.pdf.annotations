@@ -2,135 +2,150 @@
 "file_sha1_hash": "aa69a4e7da6456aad633951646000751198bef7e",
 "annotations": [
 {
-"id": 0,
-"page_number": 3,
-"left": "105px",
-"top": "148.778px",
-"width": "691px",
-"height": "89px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "upper and lower respiratory specimens (such as anterior nasal swabs, mid-turbinate nasal swabs, nasopharyngeal swabs, oropharyngeal swabs, sputum, lower respiratory tract aspirates, bronchoalveolar lavage, and nasopharyngeal wash/aspirate or nasal aspirate)",
+"comment": "",
+"height": "89px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "105px",
+"page_number": 3,
+"text": "upper and lower respiratory specimens (such as anterior nasal swabs, mid-turbinate nasal swabs, nasopharyngeal swabs, oropharyngeal swabs, sputum, lower respiratory tract aspirates, bronchoalveolar lavage, and nasopharyngeal wash/aspirate or nasal aspirate)",
+"top": "148.778px",
+"width": "691px"
 },
 {
-"id": 1,
-"page_number": 3,
-"left": "100px",
-"top": "773.667px",
-"width": "706px",
-"height": "44px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "ORF1ab, N, E",
+"comment": "",
+"height": "44px",
+"id": 1,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "100px",
+"page_number": 3,
+"text": "ORF1ab, N, E",
+"top": "773.667px",
+"width": "706px"
 },
 {
-"id": 2,
-"page_number": 5,
-"left": "163px",
-"top": "517px",
-"width": "339px",
-"height": "40px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Lentivirus",
+"comment": "Presuming this provides a full process control.",
+"height": "40px",
+"id": 2,
 "labels": [
 "Controls/Internal/Full process"
 ],
-"comment": "Presuming this provides a full process control."
+"left": "163px",
+"page_number": 5,
+"text": "Lentivirus",
+"top": "517px",
+"width": "339px"
 },
 {
-"id": 3,
-"deleted": true
+"deleted": true,
+"id": 3
 },
 {
-"id": 4,
-"page_number": 11,
-"left": "706px",
-"top": "259.778px",
-"width": "27px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "25px",
+"id": 4,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "706px",
+"page_number": 11,
+"text": "20",
+"top": "259.778px",
+"width": "27px"
 },
 {
-"id": 5,
-"page_number": 11,
-"left": "272px",
-"top": "312.778px",
-"width": "29px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.3",
+"comment": "",
+"height": "26px",
+"id": 5,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "272px",
+"page_number": 11,
+"text": "0.3",
+"top": "312.778px",
+"width": "29px"
 },
 {
-"id": 6,
-"page_number": 11,
-"left": "301px",
-"top": "316.778px",
-"width": "75px",
-"height": "22px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "genome copies / μL",
+"comment": "throat swab and sputum specimens.",
+"height": "22px",
+"id": 6,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": "throat swab and sputum specimens."
+"left": "301px",
+"page_number": 11,
+"text": "genome copies / μL",
+"top": "316.778px",
+"width": "75px"
 },
 {
-"id": 7,
-"page_number": 11,
-"left": "493px",
-"top": "160.778px",
-"width": "255px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": " SARS-CoV-2 positive specimens",
+"comment": "",
+"height": "25px",
+"id": 7,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Live Virus"
 ],
-"comment": ""
+"left": "493px",
+"page_number": 11,
+"text": " SARS-CoV-2 positive specimens",
+"top": "160.778px",
+"width": "255px"
 },
 {
-"id": 8,
-"page_number": 11,
-"left": "740px",
-"top": "155.778px",
-"width": "16px",
-"height": "36px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "36px",
+"id": 8,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source",
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "740px",
+"page_number": 11,
+"text": "",
+"top": "155.778px",
+"width": "16px"
 },
 {
-"id": 9,
-"page_number": 11,
-"left": "104px",
-"top": "180.778px",
-"width": "213px",
-"height": "28px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "throat swab and sputum specimens",
+"comment": "",
+"height": "28px",
+"id": 9,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
+],
+"left": "104px",
+"page_number": 11,
+"text": "throat swab and sputum specimens",
+"top": "180.778px",
+"width": "213px"
+},
+{
+"id": 10,
+"page_number": 11,
+"left": "96px",
+"top": "392px",
+"width": "710px",
+"height": "41px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Not specified"
 ],
 "comment": ""
 }
