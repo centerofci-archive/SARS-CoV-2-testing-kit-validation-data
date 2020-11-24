@@ -2,159 +2,174 @@
 "file_sha1_hash": "773cede93ac6a30df0b1b08414f0eb76e7afa9d8",
 "annotations": [
 {
-"id": 0,
-"page_number": 2,
-"left": "119px",
-"top": "205.889px",
-"width": "713px",
-"height": "61px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "nasopharyngeal (NP), nasal, mid-turbinate and oropharyngeal (OP) swab specimens, nasopharyngeal wash/ aspirate or nasal aspirates",
+"comment": "",
+"height": "61px",
+"id": 0,
 "labels": [
 "Supported specimen types"
 ],
-"comment": ""
+"left": "119px",
+"page_number": 2,
+"text": "nasopharyngeal (NP), nasal, mid-turbinate and oropharyngeal (OP) swab specimens, nasopharyngeal wash/ aspirate or nasal aspirates",
+"top": "205.889px",
+"width": "713px"
 },
 {
-"id": 1,
-"page_number": 19,
-"left": "114px",
-"top": "221.668px",
-"width": "426px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "pooled negative clinical nasopharyngeal swab specimens",
+"comment": "",
+"height": "19px",
+"id": 1,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix"
 ],
-"comment": ""
+"left": "114px",
+"page_number": 19,
+"text": "pooled negative clinical nasopharyngeal swab specimens",
+"top": "221.668px",
+"width": "426px"
 },
 {
-"id": 2,
-"page_number": 19,
-"left": "532px",
-"top": "220.668px",
-"width": "15px",
-"height": "26px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "26px",
+"id": 2,
 "labels": [
 "Specimen/Synthetic Specimen/Clinical matrix/Source",
 "Meta/Not specified"
 ],
-"comment": ""
+"left": "532px",
+"page_number": 19,
+"text": "",
+"top": "220.668px",
+"width": "15px"
 },
 {
-"id": 3,
-"page_number": 19,
-"left": "624px",
-"top": "218.668px",
-"width": "211px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "inactivated cultured SARSCoV-2 virus (USA-WA1/2020)",
+"comment": "",
+"height": "25px",
+"id": 3,
 "labels": [
 "Specimen/Synthetic Specimen/Virus",
 "Specimen/Synthetic Specimen/Virus/Type/Inactivated Virus (method unspecified)"
 ],
-"comment": ""
+"left": "624px",
+"page_number": 19,
+"text": "inactivated cultured SARSCoV-2 virus (USA-WA1/2020)",
+"top": "218.668px",
+"width": "211px"
 },
 {
-"id": 4,
-"page_number": 19,
-"left": "339px",
-"top": "241.668px",
-"width": "198px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "BEI Resources; NR-52281",
+"comment": "https://www.beiresources.org/Catalog/animalviruses/NR-52281.aspx",
+"height": "19px",
+"id": 4,
 "labels": [
 "Specimen/Synthetic Specimen/Virus/Source"
 ],
-"comment": "https://www.beiresources.org/Catalog/animalviruses/NR-52281.aspx"
+"left": "339px",
+"page_number": 19,
+"text": "BEI Resources; NR-52281",
+"top": "241.668px",
+"width": "198px"
 },
 {
-"id": 5,
-"page_number": 19,
-"left": "241px",
-"top": "280.668px",
-"width": "42px",
-"height": "21px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.01",
+"comment": "",
+"height": "21px",
+"id": 5,
 "labels": [
 "Limit of Detection (LOD)/Value"
 ],
-"comment": ""
+"left": "241px",
+"page_number": 19,
+"text": "0.01",
+"top": "280.668px",
+"width": "42px"
 },
 {
-"id": 6,
-"page_number": 19,
-"left": "286px",
-"top": "280.668px",
-"width": "81px",
-"height": "19px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "TCID50 / mL",
+"comment": "",
+"height": "19px",
+"id": 6,
 "labels": [
 "Limit of Detection (LOD)/Units"
 ],
-"comment": ""
+"left": "286px",
+"page_number": 19,
+"text": "TCID50 / mL",
+"top": "280.668px",
+"width": "81px"
 },
 {
-"id": 7,
-"page_number": 19,
-"left": "507px",
-"top": "283.889px",
-"width": "44px",
-"height": "16px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "0.026",
+"comment": "Why is the TCID50 / mL higher and not lower in the neat sample?   Unless perhaps the contrived clinical sample has been concentrated as part of the processing?",
+"height": "16px",
+"id": 7,
 "labels": [
 "Limit of Detection (LOD)/Value",
 "Meta/Potential error"
 ],
-"comment": "Why is the TCID50 / mL higher and not lower in the neat sample?   Unless perhaps the contrived clinical sample has been concentrated as part of the processing?"
+"left": "507px",
+"page_number": 19,
+"text": "0.026",
+"top": "283.889px",
+"width": "44px"
 },
 {
-"id": 8,
-"page_number": 19,
-"left": "446px",
-"top": "298.334px",
-"width": "23px",
-"height": "20px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "20",
+"comment": "",
+"height": "20px",
+"id": 8,
 "labels": [
 "Limit of Detection (LOD)/Minimum Replicates"
 ],
-"comment": ""
+"left": "446px",
+"page_number": 19,
+"text": "20",
+"top": "298.334px",
+"width": "23px"
 },
 {
-"id": 9,
-"page_number": 3,
-"left": "513px",
-"top": "842.667px",
-"width": "287px",
-"height": "31px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "ORF1ab, ORF1ab",
+"comment": "",
+"height": "31px",
+"id": 9,
 "labels": [
 "Viral gene(s) targetted"
 ],
-"comment": ""
+"left": "513px",
+"page_number": 3,
+"text": "ORF1ab, ORF1ab",
+"top": "842.667px",
+"width": "287px"
 },
 {
-"id": 10,
-"page_number": 3,
-"left": "115px",
-"top": "128px",
-"width": "666px",
-"height": "50px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "target capture, Transcription Mediated Amplification (TMA), and Dual Kinetic Assay (DKA)",
+"comment": "",
+"height": "50px",
+"id": 10,
 "labels": [
 "Test technology"
+],
+"left": "115px",
+"page_number": 3,
+"text": "target capture, Transcription Mediated Amplification (TMA), and Dual Kinetic Assay (DKA)",
+"top": "128px",
+"width": "666px"
+},
+{
+"id": 11,
+"page_number": 19,
+"left": "159px",
+"top": "723px",
+"width": "312px",
+"height": "23px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Not specified"
 ],
 "comment": ""
 }

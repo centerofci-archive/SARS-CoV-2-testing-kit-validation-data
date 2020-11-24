@@ -19,6 +19,8 @@ from common import (
     Labels,
 )
 
+from sequence_data_by_top10_tests import top_10_tests_and_sequence_data
+
 
 def get_summarised_data ():
     data = get_merged_data()
@@ -28,6 +30,7 @@ def get_summarised_data ():
     summary = {
         "_README": "This data is generated from https://github.com/centerofci/SARS-CoV-2-testing-kit-validation-data/blob/master/src/summarised_data/summarise.py",
         "primer_probe_sequences": get_primer_probe_sequences_summary(filtered_data),
+        "sequence_data_in_top_10_test_EUAs": get_top_10_tests_and_sequence_data(),
     }
 
     return summary
@@ -71,6 +74,27 @@ def get_primer_probe_sequences_summary (data):
     }
 
     return summary
+
+
+def get_top_10_tests_and_sequence_data ():
+    explicitly_specified = 0
+    not_specified = 0
+    reference_available = 0
+
+    for data in top_10_tests_and_sequence_data.values():
+        if data["explicit_sequence_in_EUA"]:
+            explicitly_specified += 1
+        else:
+            if data.get("reference_to_cdc_sequence_available", False):
+                reference_available += 1
+            else:
+                not_specified += 1
+
+    return {
+        "explicitly_specified": explicitly_specified,
+        "not_specified": not_specified,
+        "reference_available": reference_available,
+    }
 
 
 def store_data (data):

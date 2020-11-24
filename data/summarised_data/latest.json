@@ -1,10 +1,15 @@
 {
   "_README": "This data is generated from https://github.com/centerofci/SARS-CoV-2-testing-kit-validation-data/blob/master/src/summarised_data/summarise.py",
   "primer_probe_sequences": {
-    "have_parsed": 60,
-    "not_parsed": 84,
+    "have_parsed": 62,
+    "not_parsed": 82,
     "explicitly_specified": 4,
-    "not_specified": 39,
+    "not_specified": 41,
     "reference_available": 17
+  },
+  "sequence_data_in_top_10_test_EUAs": {
+    "explicitly_specified": 0,
+    "not_specified": 8,
+    "reference_available": 1
   }
 }

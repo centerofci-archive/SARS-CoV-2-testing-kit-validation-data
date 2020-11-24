@@ -90,7 +90,7 @@
               "Meta/Not specified",
               "Primers and probes/Sequences/Not specified"
             ],
-            "comment": "",
+            "comment": "Not present in the EUA but present on the CDC website: https://www.cdc.gov/coronavirus/2019-ncov/lab/rt-pcr-panel-primer-probes.html",
             "anot8_org_file_id": "134"
           }
         ],
@@ -12772,18 +12772,18 @@
       "supported_specimen_types": {
         "annotations": [
           {
-            "id": 0,
-            "page_number": 1,
-            "left": "93px",
-            "top": "361px",
-            "width": "734px",
-            "height": "28px",
             "colour": "rgba(200, 200, 255, 0.6)",
-            "text": "nasopharyngeal (NP) and oropharyngeal (OP) swabs, bronchoalveolar lavage fluid (BAL)",
+            "comment": "",
+            "height": "28px",
+            "id": 0,
             "labels": [
               "Supported specimen types"
             ],
-            "comment": "",
+            "left": "93px",
+            "page_number": 1,
+            "text": "nasopharyngeal (NP) and oropharyngeal (OP) swabs, bronchoalveolar lavage fluid (BAL)",
+            "top": "361px",
+            "width": "734px",
             "anot8_org_file_id": "18"
           }
         ],
@@ -12792,18 +12792,18 @@
       "target_genes": {
         "annotations": [
           {
-            "id": 1,
-            "page_number": 1,
-            "left": "395px",
-            "top": "679.778px",
-            "width": "102px",
-            "height": "19px",
             "colour": "rgba(200, 200, 255, 0.6)",
-            "text": "RdRp, N",
+            "comment": "",
+            "height": "19px",
+            "id": 1,
             "labels": [
               "Viral gene(s) targetted"
             ],
-            "comment": "",
+            "left": "395px",
+            "page_number": 1,
+            "text": "RdRp, N",
+            "top": "679.778px",
+            "width": "102px",
             "anot8_org_file_id": "18"
           }
         ],
@@ -12814,8 +12814,19 @@
         "parsed": ""
       },
       "primer_probe_sequences": {
-        "annotations": [],
-        "parsed": ""
+        "annotations": [
+          {
+            "id": 18,
+            "text": "",
+            "labels": [
+              "Primers and probes/Sequences",
+              "Primers and probes/Sequences/Not specified"
+            ],
+            "comment": "",
+            "anot8_org_file_id": "18"
+          }
+        ],
+        "parsed": "Primers and probes/Sequences/Not specified"
       },
       "lod_value": {
         "annotations": [
@@ -13314,18 +13325,18 @@
       "supported_specimen_types": {
         "annotations": [
           {
-            "id": 0,
-            "page_number": 2,
-            "left": "119px",
-            "top": "205.889px",
-            "width": "713px",
-            "height": "61px",
             "colour": "rgba(200, 200, 255, 0.6)",
-            "text": "nasopharyngeal (NP), nasal, mid-turbinate and oropharyngeal (OP) swab specimens, nasopharyngeal wash/ aspirate or nasal aspirates",
+            "comment": "",
+            "height": "61px",
+            "id": 0,
             "labels": [
               "Supported specimen types"
             ],
-            "comment": "",
+            "left": "119px",
+            "page_number": 2,
+            "text": "nasopharyngeal (NP), nasal, mid-turbinate and oropharyngeal (OP) swab specimens, nasopharyngeal wash/ aspirate or nasal aspirates",
+            "top": "205.889px",
+            "width": "713px",
             "anot8_org_file_id": "74"
           }
         ],
@@ -13334,18 +13345,18 @@
       "target_genes": {
         "annotations": [
           {
-            "id": 9,
-            "page_number": 3,
-            "left": "513px",
-            "top": "842.667px",
-            "width": "287px",
-            "height": "31px",
             "colour": "rgba(200, 200, 255, 0.6)",
-            "text": "ORF1ab, ORF1ab",
+            "comment": "",
+            "height": "31px",
+            "id": 9,
             "labels": [
               "Viral gene(s) targetted"
             ],
-            "comment": "",
+            "left": "513px",
+            "page_number": 3,
+            "text": "ORF1ab, ORF1ab",
+            "top": "842.667px",
+            "width": "287px",
             "anot8_org_file_id": "74"
           }
         ],
@@ -13356,8 +13367,19 @@
         "parsed": ""
       },
       "primer_probe_sequences": {
-        "annotations": [],
-        "parsed": ""
+        "annotations": [
+          {
+            "id": 11,
+            "text": "",
+            "labels": [
+              "Primers and probes/Sequences",
+              "Primers and probes/Sequences/Not specified"
+            ],
+            "comment": "",
+            "anot8_org_file_id": "74"
+          }
+        ],
+        "parsed": "Primers and probes/Sequences/Not specified"
       },
       "lod_value": {
         "annotations": [

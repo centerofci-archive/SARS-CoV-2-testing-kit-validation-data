@@ -151,7 +151,7 @@
 },
 {
 "colour": "rgba(200, 200, 255, 0.6)",
-"comment": "",
+"comment": "Not present in the EUA but present on the CDC website: https://www.cdc.gov/coronavirus/2019-ncov/lab/rt-pcr-panel-primer-probes.html",
 "height": "27px",
 "id": 11,
 "labels": [
