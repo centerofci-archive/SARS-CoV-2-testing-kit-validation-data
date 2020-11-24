@@ -16,5 +16,14 @@
     "explicitly_specified": 0,
     "not_specified": 65,
     "reference_available": 4
+  },
+  "lod_units": {
+    "have_parsed": 143,
+    "not_parsed": 1,
+    "genome_copies_per_vol": 124,
+    "plaque_forming_units_pfu_per_vol": 2,
+    "tcid50_per_vol": 9,
+    "genome_copies_per_reaction": 7,
+    "other": 1
   }
 }

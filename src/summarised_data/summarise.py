@@ -32,6 +32,7 @@ def get_summarised_data ():
         "primer_probe_sequences": get_primer_probe_sequences_summary(filtered_data),
         "sequence_data_in_top_10_test_EUAs": get_top_10_tests_and_sequence_data(False),
         "weighted_sequence_data_in_top_10_test_EUAs": get_top_10_tests_and_sequence_data(True),
+        "lod_units": get_lod_units(filtered_data),
     }
 
     return summary
@@ -98,6 +99,53 @@ def get_top_10_tests_and_sequence_data (weighted):
         "not_specified": not_specified,
         "reference_available": reference_available,
     }
+
+
+def get_lod_units (data):
+    have_parsed = 0
+    not_parsed = 0
+
+    genome_copies_per_vol = 0
+    genome_copies_per_reaction = 0
+    plaque_forming_units_pfu_per_vol = 0
+    tcid50_per_vol = 0
+    other = 0
+
+    for row in data:
+        lod_units = row["self_declared_EUA_data"]["lod_units"]
+        parsed_value = lod_units["parsed"]
+
+        if parsed_value:
+            have_parsed += 1
+
+            if parsed_value == "genome copies / μL":
+                genome_copies_per_vol += 1
+            elif parsed_value == "PFU / μL":
+                plaque_forming_units_pfu_per_vol += 1
+            elif parsed_value == "TCID50 / mL":
+                tcid50_per_vol += 1
+            elif parsed_value == "genome copies / reaction":
+                genome_copies_per_reaction += 1
+            elif parsed_value == "other":
+                other += 1
+            else:
+                print("ERROR in get_lod_units, parsed_value = ", parsed_value)
+
+        else:
+            not_parsed += 1
+
+
+    summary = {
+        "have_parsed": have_parsed,
+        "not_parsed": not_parsed,
+        "genome_copies_per_vol": genome_copies_per_vol,
+        "plaque_forming_units_pfu_per_vol": plaque_forming_units_pfu_per_vol,
+        "tcid50_per_vol": tcid50_per_vol,
+        "genome_copies_per_reaction": genome_copies_per_reaction,
+        "other": other,
+    }
+
+    return summary
 
 
 def store_data (data):
