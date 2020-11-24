@@ -42,7 +42,7 @@ def get_supported_specimen_types (annotations_by_label_id):
     annotations = annotations_by_label_id.get(Labels.supported_specimen_types, [])
 
     return {
-        "annotations": annotations,
+        "annotations": minimal_annotations(annotations),
         "parsed": "",
     }
 
@@ -52,7 +52,7 @@ def get_target_genes (annotations_by_label_id):
     annotations += annotations_by_label_id.get(Labels.viral_proteins_targetted, [])
 
     return {
-        "annotations": annotations,
+        "annotations": minimal_annotations(annotations),
         "parsed": "",
     }
 
@@ -61,7 +61,7 @@ def get_controls__human_gene_target (annotations_by_label_id):
     annotations = annotations_by_label_id.get(Labels.controls__internal__human_gene_target, [])
 
     return {
-        "annotations": annotations,
+        "annotations": minimal_annotations(annotations),
         "parsed": "",
     }
 
@@ -84,9 +84,15 @@ def get_primer_probe_sequences (annotations_by_label_id):
             print("No sequence_labels for: " + get_link_to_annotation(annotation))
 
     if len(parsed) > 1:
-        print("Got {} primer probe sequence labels for {}".format(len(parsed), get_link_to_annotation(filtered_annotations[0])))
+        print("WARNING: Got {} primer probe sequence labels for {}".format(len(parsed), get_link_to_annotation(filtered_annotations[0])))
 
     parsed = parsed[0] if parsed else ""
+
+    label_root = Labels.primers_and_probes__sequences + "/"
+    if parsed and not parsed.startswith(label_root):
+        print("ERROR Got primer probe sequence labels of {} that lacked the root: {}".format(parsed, label_root))
+
+    parsed = parsed.replace(label_root, "")
 
     return {
         "annotations": filtered_annotations,

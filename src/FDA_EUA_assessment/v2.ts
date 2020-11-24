@@ -23,18 +23,18 @@ interface DATA_ROW
         test_name: string
         test_technology: string
         url_to_IFU_or_EUA: string
-    },
+    }
     anot8_org: {
         file_id: string
         permalink: string
-    },
+    }
     fda_reference_panel_lod_data: {
         different_developer_name: string
         different_test_name: string
         results_status: string
-        lod: number,
+        lod: number
         sample_media_type: string
-    },
+    }
     self_declared_EUA_data: {
         supported_specimen_types: DATA_NODE
         target_genes: DATA_NODE
@@ -45,6 +45,12 @@ interface DATA_ROW
         lod_minimum_replicates: DATA_NODE
         synthetic_specimen__viral_material: DATA_NODE
         synthetic_specimen__clinical_matrix: DATA_NODE
+    }
+    amp_survey: {
+        aug: {
+            primary_rank: number | null
+            primary_lab_percentage: number | null
+        }
     }
 }
 
@@ -171,6 +177,27 @@ const table_fields: TABLE_FIELDS = [
                 title: "IFU or EUA",
                 value_renderer: value_renderer_EUA_URL,
             }
+        ],
+    },
+    {
+        title: "Usage",
+        value_renderer: null,
+        category: "usage",
+        children: [
+            {
+                title: "AMP August Survey",
+                value_renderer: null,
+                children: [
+                    {
+                        title: "Rank",
+                        value_renderer: d => ({ parsed: (d.amp_survey.aug.primary_rank || "").toString() }),
+                    },
+                    {
+                        title: "Percentage Labs",
+                        value_renderer: d => ({ parsed: (d.amp_survey.aug.primary_lab_percentage || "").toString() }),
+                    }
+                ]
+            },
         ],
     },
     {

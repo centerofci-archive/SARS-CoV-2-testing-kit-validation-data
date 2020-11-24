@@ -19,7 +19,12 @@ from common import (
     Labels,
 )
 
-from sequence_data_by_top10_tests import top_10_tests_and_sequence_data
+from primer_probe_sequences import (
+    get_primer_probe_sequences_summary,
+    get_top_10_tests_primer_probe_sequences_summary,
+)
+
+from lod_units import get_lod_units
 
 
 def get_summarised_data ():
@@ -30,119 +35,10 @@ def get_summarised_data ():
     summary = {
         "_README": "This data is generated from https://github.com/centerofci/SARS-CoV-2-testing-kit-validation-data/blob/master/src/summarised_data/summarise.py",
         "primer_probe_sequences": get_primer_probe_sequences_summary(filtered_data),
-        "sequence_data_in_top_10_test_EUAs": get_top_10_tests_and_sequence_data(False),
-        "weighted_sequence_data_in_top_10_test_EUAs": get_top_10_tests_and_sequence_data(True),
-        "lod_units": get_lod_units(filtered_data),
-    }
-
-    return summary
-
-
-def get_primer_probe_sequences_summary (data):
-
-    have_parsed = 0
-    not_parsed = 0
-
-    explicitly_specified = 0
-    not_specified = 0
-    reference_available = 0
-
-    for row in data:
-        primer_probe_sequences = row["self_declared_EUA_data"]["primer_probe_sequences"]
-        parsed_value = primer_probe_sequences["parsed"]
-
-        if parsed_value:
-            have_parsed += 1
-
-            if parsed_value == Labels.primers_and_probes__sequences__explicitly_specified:
-                explicitly_specified += 1
-            elif parsed_value == Labels.primers_and_probes__sequences__not_specified:
-                not_specified += 1
-            elif parsed_value == Labels.primers_and_probes__sequences__reference_available:
-                reference_available += 1
-            else:
-                print("ERROR in get_primer_probe_sequences_summary, parsed_value = ", parsed_value)
-
-        else:
-            not_parsed += 1
-
-
-    summary = {
-        "have_parsed": have_parsed,
-        "not_parsed": not_parsed,
-        "explicitly_specified": explicitly_specified,
-        "not_specified": not_specified,
-        "reference_available": reference_available,
-    }
-
-    return summary
-
-
-def get_top_10_tests_and_sequence_data (weighted):
-    explicitly_specified = 0
-    not_specified = 0
-    reference_available = 0
-
-    for data in top_10_tests_and_sequence_data.values():
-        increment = data["AMP_percentage"] if weighted else 1
-
-        if data["explicit_sequence_in_EUA"]:
-            explicitly_specified += increment
-        else:
-            if data.get("reference_to_cdc_sequence_available", False):
-                reference_available += increment
-            else:
-                not_specified += increment
-
-    return {
-        "explicitly_specified": explicitly_specified,
-        "not_specified": not_specified,
-        "reference_available": reference_available,
-    }
-
-
-def get_lod_units (data):
-    have_parsed = 0
-    not_parsed = 0
-
-    genome_copies_per_vol = 0
-    genome_copies_per_reaction = 0
-    plaque_forming_units_pfu_per_vol = 0
-    tcid50_per_vol = 0
-    other = 0
-
-    for row in data:
-        lod_units = row["self_declared_EUA_data"]["lod_units"]
-        parsed_value = lod_units["parsed"]
-
-        if parsed_value:
-            have_parsed += 1
-
-            if parsed_value == "genome copies / μL":
-                genome_copies_per_vol += 1
-            elif parsed_value == "PFU / μL":
-                plaque_forming_units_pfu_per_vol += 1
-            elif parsed_value == "TCID50 / mL":
-                tcid50_per_vol += 1
-            elif parsed_value == "genome copies / reaction":
-                genome_copies_per_reaction += 1
-            elif parsed_value == "other":
-                other += 1
-            else:
-                print("ERROR in get_lod_units, parsed_value = ", parsed_value)
-
-        else:
-            not_parsed += 1
-
-
-    summary = {
-        "have_parsed": have_parsed,
-        "not_parsed": not_parsed,
-        "genome_copies_per_vol": genome_copies_per_vol,
-        "plaque_forming_units_pfu_per_vol": plaque_forming_units_pfu_per_vol,
-        "tcid50_per_vol": tcid50_per_vol,
-        "genome_copies_per_reaction": genome_copies_per_reaction,
-        "other": other,
+        "primer_probe_sequences_in_top_10_test_EUAs": get_top_10_tests_primer_probe_sequences_summary(filtered_data, False),
+        "weighted_primer_probe_sequences_in_top_10_test_EUAs": get_top_10_tests_primer_probe_sequences_summary(filtered_data, True),
+        "lod_units": get_lod_units(filtered_data, False),
+        "lod_units_top_10_tests_weighted": get_lod_units(filtered_data, True),
     }
 
     return summary

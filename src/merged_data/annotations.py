@@ -13,6 +13,7 @@ def get_link_to_annotation (annotation):
     return "http://localhost:5003/r/1772.2/{}?h={}".format(annotation["anot8_org_file_id"], annotation["id"])
 
 
+# anot8_org_file_id is denormalised data, makes it easier to get links to annotations
 minimal_annotation_keys = ["id", "text", "labels", "comment", "anot8_org_file_id"]
 def minimal_annotation (annotation):
     try:

@@ -83,6 +83,27 @@ var table_fields = [
         ],
     },
     {
+        title: "Usage",
+        value_renderer: null,
+        category: "usage",
+        children: [
+            {
+                title: "AMP August Survey",
+                value_renderer: null,
+                children: [
+                    {
+                        title: "Rank",
+                        value_renderer: function (d) { return ({ parsed: (d.amp_survey.aug.primary_rank || "").toString() }); },
+                    },
+                    {
+                        title: "Percentage Labs",
+                        value_renderer: function (d) { return ({ parsed: (d.amp_survey.aug.primary_lab_percentage || "").toString() }); },
+                    }
+                ]
+            },
+        ],
+    },
+    {
         title: "Claims",
         value_renderer: null,
         category: "test_claims",

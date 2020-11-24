@@ -21,7 +21,11 @@ Latest data table [live](https://cci-files.s3.eu-west-2.amazonaws.com/sars_2_dia
 
     . venv/bin/activate
 
-## Run scripts
+## Data processing pipeline scripts
+
+### Update labels from config file
+
+    python3 src/common/update_label_files.py
 
 ### FDA EUAs page and related PDF files
 
