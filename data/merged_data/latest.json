@@ -178,7 +178,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "wadsworth center, new york state department of health's (cdc)__new york sars-cov-2 real-time reverse transcriptase (rt)-pcr diagnostic panel",
@@ -359,7 +360,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "roche molecular systems, inc. (rms)__cobas sars-cov-2",
@@ -530,7 +532,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "thermo fisher scientific, inc.__taqpath covid-19 combo kit",
@@ -685,7 +688,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "hologic, inc.__panther fusion sars-cov-2 assay",
@@ -841,7 +845,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "laboratory corporation of america (labcorp)__covid-19 rt-pcr test",
@@ -1033,7 +1038,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "quidel corporation__lyra sars-cov-2 assay",
@@ -1188,7 +1194,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "quest diagnostics infectious disease, inc.__quest sars-cov-2 rrt-pcr",
@@ -1345,7 +1352,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "abbott molecular__abbott realtime sars-cov-2 assay",
@@ -1500,7 +1508,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "diasorin molecular llc__simplexa covid-19 direct",
@@ -1711,7 +1720,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "genmark diagnostics, inc.__eplex sars-cov-2 test",
@@ -1868,7 +1878,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "primerdesign ltd__primerdesign ltd covid-19 genesig real-time pcr assay",
@@ -2024,7 +2035,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "cepheid__xpert xpress sars-cov-2 test",
@@ -2188,7 +2200,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "biofire defense, llc__biofire covid-19 test",
@@ -2344,7 +2357,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "mesa biotech inc.__accula sars-cov-2 test",
@@ -2547,7 +2561,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "perkinelmer, inc.__perkinelmer new coronavirus nucleic acid detection kit",
@@ -2713,7 +2728,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "avellino lab usa, inc.__avellinocov2 test",
@@ -2885,7 +2901,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "bgi genomics co. ltd__real-time fluorescent rt-pcr kit for detecting sars-cov-2",
@@ -3088,7 +3105,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "abbott diagnostics scarborough, inc.__id now covid-19",
@@ -3262,7 +3280,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "luminex molecular diagnostics, inc.__nxtag cov extended panel assay",
@@ -3420,7 +3439,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "neumodx molecular, inc.__neumodx sars-cov-2 assay",
@@ -3606,7 +3626,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "qiagen gmbh__qiastat-dx respiratory sars-cov-2 panel",
@@ -3762,7 +3783,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "yale new haven hospital, clinical virology laboratory__sars-cov-2 pcr test",
@@ -3942,7 +3964,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "cellex inc.__qsars-cov-2 igg/igm rapid test",
@@ -4003,7 +4026,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "ipsum diagnostics, llc__cov-19 idx assay",
@@ -4175,7 +4199,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "becton, dickinson & company (bd)__biogx sars-cov-2 reagents for bd max system",
@@ -4346,7 +4371,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "infectious disease diagnostics laboratory - children's hospital of philadelphia__sars-cov-2 rt-pcr test",
@@ -4520,7 +4546,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "diagnostic molecular laboratory - northwestern medicine__sars-cov-2 assay",
@@ -4686,7 +4713,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "luminex corporation__aries sars-cov-2 assay",
@@ -4857,7 +4885,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "sciencell research laboratories__sciencell sars-cov-2 coronavirus real-time rt-pcr (rt-qpcr) detection kit",
@@ -5028,7 +5057,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "co-diagnostics, inc.__logix smart coronavirus disease 2019 (covid-19) kit",
@@ -5204,7 +5234,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "massachusetts general hospital__mgh covid-19 qpcr assay",
@@ -5375,7 +5406,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "gnomegen llc__gnomegen covid-19 rt-digital pcr detection kit",
@@ -5546,7 +5578,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "viracor eurofins clinical diagnostics__viracor sars-cov-2 assay",
@@ -5718,7 +5751,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "inbios international, inc.__smart detect sars-cov-2 rrt-pcr kit",
@@ -5873,7 +5907,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "becton, dickinson & company__bd sars-cov-2reagents for bd max system",
@@ -6044,7 +6079,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "diacarta, inc.__quantivirus sars-cov-2 test kit",
@@ -6215,7 +6251,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "stanford health care clinical virology laboratory__stanford sars-cov-2 assay",
@@ -6386,7 +6423,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "atila biosystems, inc.__iamp covid-19 detection kit",
@@ -6577,7 +6615,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "infinity biologix llc__infinity biologix taqpath sars-cov-2 assay 04/10/2020",
@@ -6747,7 +6786,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "specialty diagnostic (sdi) laboratories__sdi sars-cov-2 assayletter granting inclusion",
@@ -6919,7 +6959,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "orig3n, inc.__orig3n 2019 novel coronavirus (covid-19) test",
@@ -7090,7 +7131,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "university of north carolina medical center__unc health sars-cov-2 real-time rt-pcr test",
@@ -7288,7 +7330,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "pathology/laboratory medicine lab of baptist hospital miami__covid-19 rt-pcr test",
@@ -7458,7 +7501,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "integrity laboratories__sars-cov-2 assay",
@@ -7519,7 +7563,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "ortho clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 total reagent pack",
@@ -7580,7 +7625,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "exact sciences laboratories__sars-cov-2 test",
@@ -7641,7 +7687,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "infectious diseases diagnostics laboratory (iddl), boston children's hospital__childrens-altona-sars-cov-2 assay",
@@ -7702,7 +7749,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "maccura biotechnology (usa) llc__sars-cov-2 fluorescent pcr kit",
@@ -7866,7 +7914,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "mount sinai laboratory__covid-19 elisa igg antibody test",
@@ -7927,7 +7976,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "cirrusdx laboratories__cirrusdx sars-cov-2 assay",
@@ -7988,7 +8038,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "hackensack university medical center (humc) molecular pathology laboratory__cdi enhanced covid-19 test",
@@ -8049,7 +8100,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "genosensor, llc__gs covid-19 rt-pcr kit",
@@ -8222,7 +8274,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "korvalabs inc.__curative-korva sars-cov-2 assay",
@@ -8403,7 +8456,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "fosun pharma usa inc.__fosun covid-19 rt-pcr detection kit",
@@ -8558,7 +8612,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "osang healthcare__genefinder covid-19 plus realamp kit",
@@ -8718,7 +8773,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "trax management services inc.__phoenixdx 2019-cov",
@@ -8878,7 +8934,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "mayo clinic laboratories, rochester, mn__sars-cov-2 molecular detection assay",
@@ -8939,7 +8996,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "seegene, inc.__allplex 2019-ncov assay",
@@ -9099,7 +9157,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "altona diagnostics gmbh__realstar sars-cov02 rt-pcr kits u.s.",
@@ -9244,7 +9303,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "diatherix eurofins laboratory__sars-cov-2 pcr test",
@@ -9305,7 +9365,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "sd biosensor, inc.__standard m ncov real-time detection kit",
@@ -9470,7 +9531,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "southwest regional pcr laboratory llc. dba microgen dx__covid-19 key",
@@ -9531,7 +9593,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "diasorin inc.__liaison sars-cov-2 s1/s2 igg",
@@ -9592,7 +9655,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "ortho-clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent",
@@ -9653,7 +9717,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "ait laboratories__sars-cov-2 assay",
@@ -9714,7 +9779,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "ultimate dx laboratory__udx sars-cov-2 molecular assay",
@@ -9775,7 +9841,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "abbott laboratories inc.__sars-cov-2 igg assay",
@@ -9836,7 +9903,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "seasun biomaterials__u-top covid-19 detection kit",
@@ -9996,7 +10064,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "nationwide children’s hospital__sars-cov-2 assay",
@@ -10057,7 +10126,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "biocerna__sars-cov-2 test",
@@ -10118,7 +10188,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "labgenomics co., ltd.__labgun covid-19 rt-pcr kit",
@@ -10262,7 +10333,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "rheonix, inc.__rheonix covid-19 mdx assay",
@@ -10406,7 +10478,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "bio-rad laboratories__platelia sars-cov-2 total ab assay",
@@ -10467,7 +10540,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "wadsworth center, new york state department of health__new york sars-cov microsphere immunoassay for antibody detection",
@@ -10528,7 +10602,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "altru diagnostics, inc.__altru dx sars-cov-2 rt-pcr assay",
@@ -10688,7 +10763,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "bio-rad laboratories, inc.__bio-rad sars-cov-2 ddpcr test",
@@ -10859,7 +10935,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "biofire diagnostics, llc__biofire respiratory panel 2.1 (rp2.1)",
@@ -11025,7 +11102,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "roche diagnostics__elecsys anti-sars-cov-2",
@@ -11086,7 +11164,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "utmg pathology laboratory__uthsc/uch sars-cov-2-rt-pcr assay",
@@ -11147,7 +11226,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "euroimmun us inc.__anti-sars-cov-2 elisa (igg)",
@@ -11208,7 +11288,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "sansure biotech inc.__novel coronavirus (2019-ncov) nucleic acid diagnostic kit (pcr-fluorescence probing)",
@@ -11378,7 +11459,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "fast track diagnostics luxembourg s.á.r.l. (a siemens healthineers company)__ftd sars-cov-2",
@@ -11522,7 +11604,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "opti medical systems, inc.__opti sars-cov-2 rt pcr test",
@@ -11691,7 +11774,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "sherlock biosciences, inc.__sherlock crispr sars-cov-2 kit",
@@ -11850,7 +11934,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "biomérieux sa__sars-cov-2 r-gene",
@@ -12025,7 +12110,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "zymo research corporation__quick sars-cov-2rrt-pcr kit",
@@ -12197,7 +12283,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "biocollections worldwide, inc.__biocollections worldwide sars-co-v-2 assay",
@@ -12258,7 +12345,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "quidel corporation__sofia 2 sars antigen fia",
@@ -12411,7 +12499,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "gnomegen llc__gnomegen covid-19-rt-qpcr detection kit",
@@ -12586,7 +12675,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "1drop inc.__1copy covid-19 qpcr multi kit",
@@ -12746,7 +12836,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "abbott molecular inc.__alinity m sars-cov-2 assay",
@@ -12929,7 +13020,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "columbia university laboratory of personalized genomic medicine__triplex cii-sars-cov-2 rrt-pcr test",
@@ -12990,7 +13082,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "applied dna sciences, inc.__linea covid-19 assay kit",
@@ -13177,7 +13270,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "one health laboratories, llc__sars-cov-2 real-time rt-pcr-test",
@@ -13238,7 +13332,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "cedars-sinai medical center, department of pathology and laboratory medicine__sars-cov-2-assay",
@@ -13299,7 +13394,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "hologic, inc.__aptima sars-cov-2 assay",
@@ -13464,7 +13560,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "genematrix, inc.__neoplex covid-19 detection kit",
@@ -13614,7 +13711,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "everlywell, inc.__everlywell covid-19 test home collection kit",
@@ -13757,7 +13855,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "fulgent therapeutics, llc__fulgent covid-19 by rt-pcr test",
@@ -13928,7 +14027,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "assurance scientific laboratories__assurance sars-cov-2 panel",
@@ -14099,7 +14199,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "quidel corporation__lyra direct sars-cov-2 assay",
@@ -14243,7 +14344,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "color genomics, inc.__color genomics sars-cov-2 rt-lamp diagnostic assay (reissued july 24, 2020)",
@@ -14403,7 +14505,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "biocore co., ltd.__biocore 2019-ncov real time pcr kit",
@@ -14563,7 +14666,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "solgent co., ltd.__diaplexq novel coronavirus (2019-ncov) detection kit",
@@ -14707,7 +14811,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "seasun biomaterials, inc.__aq-top covid-19 rapid detection",
@@ -14867,7 +14972,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "p23 labs, llc.__p23 labs taqpath sars-cov-2 assay",
@@ -15042,7 +15148,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "dba spectronrx__hymon sars-cov-2 test kit",
@@ -15233,7 +15340,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "exact sciences laboratories__sars-cov-2 (n gene detection) test",
@@ -15393,7 +15501,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "express gene llc (dba molecular diagnostics laboratory)__express gene 2019-ncov rt-pcr diagnostic panel",
@@ -15454,7 +15563,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "avera institute for human genetics__avera institute for human genetics sars-cov-2 assay",
@@ -15515,7 +15625,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "privapath diagnostics, inc.__letsgetchecked coronavirus (covid-19) test",
@@ -15612,7 +15723,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "siemens healthcare diagnostics inc.__advia centaur sars-cov-2 total (cov2t)",
@@ -15673,7 +15785,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "siemens healthcare diagnostics inc.__atellica im sars-cov-2 total (cov2t)",
@@ -15734,7 +15847,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "healgen scientific llc__covid-19 igg/igm rapid test cassette (whole blood/serum/plasma)",
@@ -15795,7 +15909,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "gravity diagnostics, llc__gravity diagnostics covid-19 assay",
@@ -15981,7 +16096,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "aspirus reference laboratory__aspirus sars-cov-2 rrt assay",
@@ -16042,7 +16158,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "roche diagnostics__elecsys il-6",
@@ -16103,7 +16220,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "csi laboratories__csi sars-cov-2 rt pcr test",
@@ -16164,7 +16282,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "vibrant america clinical labs__vibrant covid-19 ab assay",
@@ -16225,7 +16344,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "phosphorus diagnostics llc__phosphorus covid-19 rt-qpcr test",
@@ -16400,7 +16520,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "hangzhou biotest biotech co., ltd.__rightsign covid-19 igg/igm rapid test cassette",
@@ -16461,7 +16582,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "nebraska medicine clinical laboratory__necov19 rt-pcr assay",
@@ -16522,7 +16644,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "genetron health (beijing) co., ltd.__genetron sars-cov-2 rna test",
@@ -16683,7 +16806,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "euroimmun us inc.__eurorealtime sars-cov-2",
@@ -16827,7 +16951,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "siemens healthcare diagnostics inc.__dimension exl sars-cov-2 total antibody assay (cv2t)",
@@ -16888,7 +17013,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "siemens healthcare diagnostics inc.__dimension vista sars-cov-2 total antibody assay (cov2t)",
@@ -16949,7 +17075,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "illumina, inc.__illumina covidseq test",
@@ -17103,7 +17230,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "chromacode inc.__hdpcr sars-cov-2 assay",
@@ -17272,7 +17400,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "warrior diagnostics, inc.__warrior diagnostics sars-cov-2 assay",
@@ -17333,7 +17462,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "cue health inc.__cue covid-19 test",
@@ -17493,7 +17623,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "tbg biotechnology corp.__exprobe sars-cov-2 testing kit",
@@ -17653,7 +17784,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "tide laboratories, llc__dtpm covid-19 rt-pcr test",
@@ -17813,7 +17945,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "inbios international, inc.__scov-2 detect igg elisa",
@@ -17874,7 +18007,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "rta laboratories biological products pharmaceutical and machinery industry__diagnovital sars-cov-2 real-time pcr kit",
@@ -18020,7 +18154,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "cormeum laboratory services__cormeum sars-cov-2 assay",
@@ -18081,7 +18216,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "kaiser permanente mid-atlantic states__kpmas covid-19 test",
@@ -18220,7 +18356,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "applied biocode, inc.__biocode sars-cov-2 assay",
@@ -18349,7 +18486,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "emory medical laboratories__sars-cov-2 rbd igg test",
@@ -18410,7 +18548,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "omnipathology solutions medical corporation__omni covid-19 assay by rt-pcr",
@@ -18554,7 +18693,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "the ohio state university wexner medical center__osuwmc covid-19 rt-pcr test",
@@ -18724,7 +18864,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "3b blackbio biotech india ltd., a subsidiary of kilpest india ltd.__trupcr sars-cov-2 kit",
@@ -18885,7 +19026,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "jiangsu bioperfectus technologies co., ltd.__covid-19 coronavirus real time pcr kit",
@@ -19035,7 +19177,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "biohit healthcare (hefei) co. ltd.__biohit sars-cov-2 igm/igg antibody test kit",
@@ -19096,7 +19239,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "hangzhou laihe biotech co., ltd.__lyher novel coronavirus (2019-ncov) igm/igg antibody combo test kit (colloidal gold)",
@@ -19157,7 +19301,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "gencurix, inc.__genepro sars-cov-2 test",
@@ -19317,7 +19462,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "university of alabama at birmingham fungal reference lab__frl sars cov-2 test",
@@ -19477,7 +19623,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "healthquest esoterics__healthquest esoterics taqpath sars-cov-2 assay",
@@ -19621,7 +19768,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "babson diagnostics, inc.__babson diagnostics ac19g1",
@@ -19682,7 +19830,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "university of texas md anderson cancer center, molecular diagnostics laboratory__md anderson high-throughput sars-cov-2 rt-pcr assay",
@@ -19851,7 +20000,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "plexbio co., ltd__intelliplex sars-cov-2 detection kit",
@@ -20004,7 +20154,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "precigenome llc__fastplex triplex sars-cov-2 detection kit (rt-digital pcr)",
@@ -20164,7 +20315,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "diagnostic solutions laboratory, llc__dsl covid-19 assay",
@@ -20324,7 +20476,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "inform diagnostics, inc.__inform diagnostics sars-cov-2 rt-pcr assay",
@@ -20484,7 +20637,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "beckman coulter, inc.__access sars-cov-2 igg",
@@ -20545,7 +20699,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "lifehope labs__lifehope 2019-ncov real-time rt-pcr diagnostic panel",
@@ -20705,7 +20860,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "acupath laboratories, inc.__acupath covid-19 real-time (rt-pcr) assay",
@@ -20850,7 +21006,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "the kroger co.__kroger health covid-19 test home collection kit",
@@ -21003,7 +21160,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "tns co., ltd (bio tns)__covid-19 rt-pcr peptide nucleic acid (pna) kit",
@@ -21183,7 +21341,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "psomagen, inc.__psoma covid-19 rt test",
@@ -21343,7 +21502,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "inbios international, inc.__scov-2 detect igm elisa",
@@ -21404,7 +21564,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "centogene us, llc__centofast-sars-cov-2 rt-pcr assay",
@@ -21557,7 +21718,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "centers for disease control and prevention (cdc)__influenza sars-cov-2 (flu sc2) multiplex assay",
@@ -21726,7 +21888,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "becton, dickinson and company (bd)__bd veritor system for rapid detection of sars-cov-2",
@@ -21870,7 +22033,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "laboratorio clinico toledo__laboratorio clinico toledo sars-cov-2 assay",
@@ -22047,7 +22211,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "assure tech. (hangzhou co., ltd)__assure covid-19 igg/igm rapid test device",
@@ -22108,7 +22273,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "enzo life sciences, inc.__ampiprobe sars-cov-2 test system",
@@ -22268,7 +22434,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "access bio, inc.__carestart covid-19 mdx rt-pcr",
@@ -22413,7 +22580,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "gene by gene__gene by gene sars-cov-2 detection test",
@@ -22584,7 +22752,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "clinical research sequencing platform (crsp), llc at the broad institute of mit and harvard__crsp sars-cov-2 real-time reverse transcriptase (rt)-pcr diagnostic assay",
@@ -22767,7 +22936,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "diazyme laboratories, inc.__diazyme dz-lite sars-cov-2 igg clia kit",
@@ -22828,7 +22998,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "ucsf health clinical laboratories, ucsf clinical labs at china basin__sars-cov-2 rna detectr assay",
@@ -22988,7 +23159,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "biosewoom, inc.__real-q 2019-ncov detection kit",
@@ -23148,7 +23320,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "beijing wantai biological pharmacy enterprise co., ltd.__wantai sars-cov-2 ab rapid test",
@@ -23209,7 +23382,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "boston medical center__bmc-crem covid-19 test",
@@ -23389,7 +23563,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "compass laboratory services, llc__compass laboratory services sars-cov2 assay",
@@ -23550,7 +23725,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "trax management services inc.__phoenixdx sars-cov-2 multiplex",
@@ -23710,7 +23886,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "kogenebiotech co., ltd.__powerchek 2019-ncov real-time pcr kit",
@@ -23866,7 +24043,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "salofa oy__sienna-clarity coviblock covid-19 igg/igm rapid test cassette",
@@ -23927,7 +24105,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "quest diagnostics infectious disease, inc.__quest diagnostics ha sars-cov-2 assay",
@@ -24004,7 +24183,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "quest diagnostics infectious disease, inc.__quest diagnostics rc sars-cov-2 assay",
@@ -24081,7 +24261,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "quest diagnostics infectious disease, inc.__quest diagnostics pf sars-cov-2 assay",
@@ -24158,7 +24339,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "boston heart diagnostics__boston heart covid-19 rt-pcr test",
@@ -24302,7 +24484,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "luminex corporation__xmap sars-cov-2 multi-antigen igg assay",
@@ -24363,7 +24546,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "access genetics, llc__orarisk covid-19 rt-pcr",
@@ -24523,7 +24707,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "megna health, inc.__rapid covid-19 igm/igg combo test kit",
@@ -24584,7 +24769,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "diacarta, inc.__quantivirus sars-cov-2 multiplex test kit",
@@ -24753,7 +24939,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "helix opco llc (dba helix)__helix covid-19 test",
@@ -24897,7 +25084,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "jiangsu cowin biotech co., ltd.__novel coronavirus (sars-cov-2) fast nucleic acid detection kit (pcr-fluorescence probing)",
@@ -25057,7 +25245,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "xiamen biotime biotechnology co., ltd.__biotime sars-cov-2 igg/igm rapid qualitative test",
@@ -25118,7 +25307,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "access bio, inc.__carestart covid-19 igm/igg",
@@ -25179,7 +25369,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "sandia national laboratories__snl-nm 2019 ncov real-time rt-pcr diagnostic assay",
@@ -25339,7 +25530,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "eli lilly and company__lilly sars-cov-2 assay",
@@ -25489,7 +25681,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "clinical reference laboratory, inc.__crl rapid response",
@@ -25649,7 +25842,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "siemens healthcare diagnostics inc.__atellica im sars-cov-2 igg (cov2g)",
@@ -25710,7 +25904,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "siemens healthcare diagnostics inc.__advia centaur sars-cov-2 igg (cov2g)",
@@ -25771,7 +25966,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "xiamen zeesan biotech co., ltd.__sars-cov-2 test kit (real-time pcr)",
@@ -25915,7 +26111,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "university of california san diego health__ucsd rc sars-cov-2 assay",
@@ -25992,7 +26189,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "wren laboratories llc__wren laboratories covid-19 pcr test",
@@ -26164,7 +26362,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "ethos laboratories__ethos laboratories sars-cov-2 maldi-tof assay",
@@ -26324,7 +26523,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "cleveland clinic robert j. tomsich pathology and laboratory medicine institute__cleveland clinic sars-cov-2 assay",
@@ -26493,7 +26693,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "poplar healthcare__poplar sars-cov-2 tma pooling assay",
@@ -26570,7 +26771,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "ispm labs, llc dba capstone healthcare__genus sars-cov-2 assay",
@@ -26741,7 +26943,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "vela operations singapore pte ltd__virokey sars-cov-2 rt-pcr test",
@@ -26885,7 +27088,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "beijing wantai biological pharmacy enterprise co., ltd.__wantai sars-cov-2 ab elisa",
@@ -26946,7 +27150,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "helix opco llc (dba helix)__helix covid-19 ngs test",
@@ -27106,7 +27311,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "biomérieux sa__vidas sars-cov-2 igg",
@@ -27167,7 +27373,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "biomérieux sa__vidas sars-cov-2 igm",
@@ -27228,7 +27435,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "george washington university public health laboratory__gwu sars-cov-2 rt-pcr test",
@@ -27417,7 +27625,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "solaris diagnostics__solaris multiplex sars-cov-2 assay",
@@ -27577,7 +27786,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "alpha genomix laboratories__alpha genomix taqpath sars-cov-2 combo assay",
@@ -27721,7 +27931,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "lumiradx uk ltd.__lumiradx sars-cov-2 rna star",
@@ -27849,7 +28060,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "biomeme, inc.__biomeme sars-cov-2 real-time rt-pcr test",
@@ -27993,7 +28205,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "pro-lab diagnostics__pro-amprt sars-cov-2 test",
@@ -28148,7 +28361,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "yale school of public health, department of epidemiology of microbial diseases__salivadirect",
@@ -28328,7 +28542,8 @@
         ],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "zhuhai sinochips bioscience co., ltd.__covid-19 nucleic acid rt-pcr test kit",
@@ -28389,7 +28604,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "biocheck, inc.__biocheck sars-cov-2 igg and igm combo test",
@@ -28450,7 +28666,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "diazyme laboratories, inc.__diazyme dz-lite sars-cov-2 igm clia kit",
@@ -28511,7 +28728,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "lumiradx uk ltd.__lumiradx sars-cov-2 ag test",
@@ -28572,7 +28790,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "texas department of state health services, laboratory services section__texas department of state health services (dshs) sars-cov-2 assay",
@@ -28633,7 +28852,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "dxterity diagnostics, inc.__dxterity sars-cov-2 rt-pcr test",
@@ -28694,7 +28914,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "guardant health, inc.__guardant-19",
@@ -28755,7 +28976,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "qdx pathology services__qdx sars-cov-2 assay",
@@ -28816,7 +29038,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "fluidigm corporation__advanta dx sars-cov-2 rt-pcr assay",
@@ -28877,7 +29100,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "biocan diagnostics inc.__tell me fast novel coronavirus (covid-19) igg/igm antibody test",
@@ -28938,7 +29162,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "abbott diagnostics scarborough, inc.__binaxnow covid-19 ag card",
@@ -28999,7 +29224,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "cuur diagnostics__cuur diagnostics sars-cov-2 molecular assay",
@@ -29060,7 +29286,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "dxterity diagnostics, inc.__dxterity sars-cov-2 rt pcr ce test",
@@ -29121,7 +29348,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "patients choice laboratories, llc__pcl sars-cov-2 real-time rt-pcr assay",
@@ -29182,7 +29410,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "baycare laboratories, llc__baycare sars-cov-2 rt pcr assay",
@@ -29243,7 +29472,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "mammoth biosciences, inc.__sars-cov-2 detectr reagent kit",
@@ -29304,7 +29534,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "miradx__miradx sars-cov-2 rt-pcr assay",
@@ -29365,7 +29596,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "t2 biosystems, inc.__t2sars-cov-2 panel",
@@ -29426,7 +29658,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "university of arizona genetics core for clinical services__covid-19 elisa pan-ig antibody test",
@@ -29487,7 +29720,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "tbg biotechnology corp.__tbg sars-cov-2 igg / igm rapid test kit",
@@ -29548,7 +29782,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "color genomics, inc.__color covid-19 test self-swab collection kit",
@@ -29609,7 +29844,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "optolane technologies, inc.__kaira 2019-ncov detection kit",
@@ -29670,7 +29906,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "detectachem inc.__mobiledetect bio bcc19 (md-bio bcc19) test kit",
@@ -29731,7 +29968,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "bioeksen r&d technologies ltd.__bio-speedy direct rt-qpcr sars-cov-2",
@@ -29792,7 +30030,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "roche molecular systems, inc.__cobas sars-cov-2 & influenza a/b",
@@ -29853,7 +30092,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "sugentech, inc.__sgti-flex covid-19 igg",
@@ -29914,7 +30154,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "billiontoone, inc.__qsanger-covid-19 assay",
@@ -29975,7 +30216,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "verily life sciences__verily covid-19 rt-pcr test",
@@ -30036,7 +30278,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "biocheck, inc.__biocheck sars-cov-2 igm antibody test kit",
@@ -30097,7 +30340,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "biocheck, inc.__biocheck sars-cov-2 igg antibody test kit",
@@ -30158,7 +30402,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "beijing wantai biological pharmacy enterprise co., ltd.__wantai sars-cov-2 rt-pcr kit",
@@ -30219,7 +30464,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "shenzhen new industries biomedical engineering co., ltd.__maglumi 2019-ncov igm/igg",
@@ -30280,7 +30526,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "roche molecular systems, inc.__cobas sars-cov-2 & influenza a/b nucleic acid test for use on the cobas liat system",
@@ -30341,7 +30588,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "visby medical, inc.__visby medical covid-19",
@@ -30402,7 +30650,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "gk pharmaceuticals contract manufacturing operations__gk accu-right sars-cov-2 rt-pcr kit",
@@ -30463,7 +30712,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "kimforest enterprise co., ltd.__kimforest sars-cov-2 detection kit v1",
@@ -30524,7 +30774,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "quadrant biosciences inc.__clarifi covid-19 test kit 09/22/2020",
@@ -30585,7 +30836,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "vela operations singapore pte. ltd.__virokey sars-cov-2 rt-pcr test v2.0 09/22/2020",
@@ -30646,7 +30898,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "clear labs, inc.__clear dx sars-cov-2 test 09/23/2020",
@@ -30707,7 +30960,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "jiangsu well biotech co., ltd.__orawell igm/igg rapid test 09/23/2020",
@@ -30768,7 +31022,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "cepheid__xpert xpress sars-cov-2/flu/rsv 09/24/2020",
@@ -30829,7 +31084,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "genetrack biolabs, inc.__genetrack sars-cov-2 molecular assay",
@@ -30890,7 +31146,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "quotient suisse sa__mosaiq covid-19 antibody magazine",
@@ -30951,7 +31208,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "diasorin, inc.__diasorin liaison sars-cov-2 igm assay",
@@ -31012,7 +31270,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "nanoentek america, inc.__frend covid-19 total ab",
@@ -31073,7 +31332,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "nirmidas biotech, inc.__nirmidas covid-19 (sars-cov-2) igm/igg antibody detection kit",
@@ -31134,7 +31394,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "centogene us, llc__centosure sars-cov-2 rt-pcr assay",
@@ -31195,7 +31456,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "akron children’s hospital__akron children’s hospital sars-cov-2 assay",
@@ -31256,7 +31518,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "national jewish health__sars-cov-2 massarray test",
@@ -31317,7 +31580,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "alimetrix, inc.__alimetrix sars-cov-2 rt-pcr assay",
@@ -31378,7 +31642,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "aeon global health__aeon global health sars-cov-2 assay",
@@ -31439,7 +31704,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "umass memorial medical center__umass molecular virology laboratory 2019-ncov rrt-pcr dx panel",
@@ -31500,7 +31766,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "beckman coulter, inc.__access il-6",
@@ -31561,7 +31828,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "tempus labs, inc.__ic sars-cov2 test",
@@ -31622,7 +31890,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "quidel corporation__sofia 2 flu + sars antigen fia",
@@ -31683,7 +31952,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "thermo fisher scientific__omnipath covid-19 total antibody elisa test",
@@ -31744,7 +32014,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "biofire diagnostics, llc__biofire respiratory panel 2.1-ez (rp2.1-ez)",
@@ -31805,7 +32076,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "seasun biomaterials, inc.__aq-top covid-19 rapid detection kit plus",
@@ -31866,7 +32138,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "zeus scientific, inc.__zeus elisa sars-cov-2 igg test system",
@@ -31927,7 +32200,8 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   },
   {
     "test_id": "university of california, los angeles (ucla)__ucla swabseq covid-19 diagnostic platform",
@@ -31988,6 +32262,7 @@
         "annotations": [],
         "parsed": ""
       }
-    }
+    },
+    "amp_survey": {}
   }
 ]
