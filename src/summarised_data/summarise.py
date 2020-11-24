@@ -30,7 +30,8 @@ def get_summarised_data ():
     summary = {
         "_README": "This data is generated from https://github.com/centerofci/SARS-CoV-2-testing-kit-validation-data/blob/master/src/summarised_data/summarise.py",
         "primer_probe_sequences": get_primer_probe_sequences_summary(filtered_data),
-        "sequence_data_in_top_10_test_EUAs": get_top_10_tests_and_sequence_data(),
+        "sequence_data_in_top_10_test_EUAs": get_top_10_tests_and_sequence_data(False),
+        "weighted_sequence_data_in_top_10_test_EUAs": get_top_10_tests_and_sequence_data(True),
     }
 
     return summary
@@ -76,19 +77,21 @@ def get_primer_probe_sequences_summary (data):
     return summary
 
 
-def get_top_10_tests_and_sequence_data ():
+def get_top_10_tests_and_sequence_data (weighted):
     explicitly_specified = 0
     not_specified = 0
     reference_available = 0
 
     for data in top_10_tests_and_sequence_data.values():
+        increment = data["AMP_percentage"] if weighted else 1
+
         if data["explicit_sequence_in_EUA"]:
-            explicitly_specified += 1
+            explicitly_specified += increment
         else:
             if data.get("reference_to_cdc_sequence_available", False):
-                reference_available += 1
+                reference_available += increment
             else:
-                not_specified += 1
+                not_specified += increment
 
     return {
         "explicitly_specified": explicitly_specified,

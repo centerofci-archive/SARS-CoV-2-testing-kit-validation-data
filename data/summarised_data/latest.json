@@ -11,5 +11,10 @@
     "explicitly_specified": 0,
     "not_specified": 8,
     "reference_available": 1
+  },
+  "weighted_sequence_data_in_top_10_test_EUAs": {
+    "explicitly_specified": 0,
+    "not_specified": 65,
+    "reference_available": 4
   }
 }
