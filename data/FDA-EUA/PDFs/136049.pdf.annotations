@@ -193,20 +193,52 @@
 "width": "361px"
 },
 {
+"deleted": true,
+"id": 15
+},
+{
 "colour": "rgba(200, 200, 255, 0.6)",
 "comment": "",
-"height": "31px",
-"id": 15,
+"height": "38px",
+"id": 16,
+"labels": [
+"Controls/Internal/Full process"
+],
+"left": "233px",
+"page_number": 6,
+"text": "non-infectious RNA in MS2 bacteriophage",
+"top": "582px",
+"width": "327px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "102px",
+"id": 17,
 "labels": [
 "Primers and probes/Sequences",
-"Meta/Not specified",
 "Primers and probes/Sequences/Not specified"
 ],
-"left": "567px",
-"page_number": 5,
+"left": "46px",
+"page_number": 24,
 "text": "",
-"top": "215.111px",
-"width": "23px"
+"top": "313px",
+"width": "530px"
+},
+{
+"id": 18,
+"page_number": 6,
+"left": "558px",
+"top": "844px",
+"width": "58px",
+"height": "49px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Controls/Internal/Human gene target",
+"Meta/Not specified"
+],
+"comment": ""
 }
 ],
 "comments": [],

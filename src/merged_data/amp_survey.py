@@ -17,5 +17,7 @@ def get_amp_survey (test_id):
         "aug": {
             "primary_rank": primary_data["primary_rank"],
             "primary_lab_percentage": primary_data["primary_lab_percentage"],
+            "id":                     0 if primary_data["primary_rank"] else "",
+            "anot8_org_file_id": "1162" if primary_data["primary_rank"] else "",
         }
     }

@@ -77,30 +77,9 @@ var table_fields = [
                 value_renderer: function (d) { return ({ parsed: d.FDA_EUAs_list.test_name }); },
             },
             {
-                title: "IFU or EUA",
+                title: "Latest<sup>*</sup> EUA or IFU",
                 value_renderer: value_renderer_EUA_URL,
             }
-        ],
-    },
-    {
-        title: "Usage",
-        value_renderer: null,
-        category: "usage",
-        children: [
-            {
-                title: "AMP August Survey",
-                value_renderer: null,
-                children: [
-                    {
-                        title: "Rank",
-                        value_renderer: function (d) { return ({ parsed: (d.amp_survey.aug.primary_rank || "").toString() }); },
-                    },
-                    {
-                        title: "Percentage Labs",
-                        value_renderer: function (d) { return ({ parsed: (d.amp_survey.aug.primary_lab_percentage || "").toString() }); },
-                    }
-                ]
-            },
         ],
     },
     {
@@ -367,6 +346,33 @@ var table_fields = [
                         value_renderer: null /**/,
                         hidden: true,
                     },
+                ]
+            },
+        ],
+    },
+    {
+        title: "Usage",
+        value_renderer: null,
+        category: "usage",
+        children: [
+            {
+                title: "AMP August Survey",
+                value_renderer: null,
+                children: [
+                    {
+                        title: "Rank",
+                        value_renderer: function (d) { return ({
+                            parsed: (d.amp_survey.aug.primary_rank || "").toString(),
+                            references: d.amp_survey.aug.primary_rank ? html_ref_link(d.amp_survey.aug) : "",
+                        }); },
+                    },
+                    {
+                        title: "Percentage Labs",
+                        value_renderer: function (d) { return ({
+                            parsed: (d.amp_survey.aug.primary_lab_percentage || "").toString(),
+                            references: d.amp_survey.aug.primary_rank ? html_ref_link(d.amp_survey.aug) : "",
+                        }); },
+                    }
                 ]
             },
         ],

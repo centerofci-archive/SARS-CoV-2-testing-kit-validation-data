@@ -1,8 +1,18 @@
 <html>
 <head>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
   <style>
+    body
+    {
+      font-family: "Helvetica Neue";
+    }
+
     th, td {
-      border: thin solid black;
+      /* border: thin solid black; */
+      border-top: 1px solid #dee2e6;
+      padding: .25rem .55rem;
+      min-width: 75px;
     }
 
     table {
@@ -24,6 +34,10 @@
 
     .metric.header_label {
       color: slateblue;
+    }
+
+    .usage.header_label {
+      color: steelblue;
     }
 
     td {
@@ -67,24 +81,73 @@
       font-family: Tahoma;
     }
 
+    .header
+    {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #f4f4f4;
+      padding: 0.5rem 1.6rem;
+    }
+
+    .options
+    {
+      float: right;
+    }
+
+    .foot_notes
+    {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #f4f4f4;
+      border-top: 1px solid;
+      padding: 0.5rem 1.6rem;
+      font-size: small;
+    }
+
   </style>
   <style id="computed_style"></style>
 
 </head>
 <body>
-  <div>
-    Options:
-    <button id="toggle_expanded_cells">Toggle cell expansion</button>
-    <button id="toggle_hidden_columns">Toggle hidden columns</button>
-    <div id="progress"></div>
+  <div class="header">
+    <div class="options">
+      <button id="toggle_expanded_cells">Toggle cell expansion</button>
+      <button id="toggle_hidden_columns">Toggle hidden columns</button>
+      <div id="progress"></div>
+    </div>
+
+    <h3>SARS-CoV-2 Test EUAs data table</h3>
   </div>
+
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+
 
   <h3 id="loading_status">Loading data table...</h3>
 
-  <table id="data_table">
+  <table id="data_table" class="table">
     <thead></thead>
     <tbody></tbody>
   </table>
+
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+
+  <div class="foot_notes">
+    <p>
+      <sup>*</sup> Latest EUA or IFU provides a link to the latest FDA document.  The data in this table may be parsed from an earlier version of these EUAs.  Additionally not all EUAs are updated on the same document ID; for example the CDC's EUA was originially published on <a href="https://www.fda.gov/media/134922/download">fda.gov/media/134922/download</a> as linked to here.  This document was updated 5 times.  The latest CDC EUA is published on the FDA website under <a href="https://www.fda.gov/media/139743/download">a different link</a>.
+    </p>
+  </div>
 
   <script>
     const merged_data = "<MERGED_DATA>";

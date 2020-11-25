@@ -47,6 +47,7 @@
     "Limit of Detection (LOD)/Value",
     "Meta/Error",
     "Meta/Error/Omission",
+    "Meta/None present",
     "Meta/Not specified",
     "Meta/Not specified/Partial information to reproduce",
     "Meta/Not specified/Reasonable assumption",

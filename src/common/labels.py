@@ -43,6 +43,7 @@ class Labels:
     limit_of_detection_lod__value = "Limit of Detection (LOD)/Value"
     meta__error = "Meta/Error"
     meta__error__omission = "Meta/Error/Omission"
+    meta__none_present = "Meta/None present"
     meta__not_specified = "Meta/Not specified"
     meta__not_specified__partial_information_to_reproduce = "Meta/Not specified/Partial information to reproduce"
     meta__not_specified__reasonable_assumption = "Meta/Not specified/Reasonable assumption"
