@@ -162,3 +162,8 @@ class Labels:
         primers_and_probes__sequences__not_specified,
         primers_and_probes__sequences__reference_available,
     ])
+
+
+def get_label_tip_parts (label, segments=1):
+    return "/".join(label.split("/")[-segments:])
+

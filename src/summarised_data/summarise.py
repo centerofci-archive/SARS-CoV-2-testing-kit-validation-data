@@ -23,8 +23,8 @@ from primer_probe_sequences import (
     get_primer_probe_sequences_summary,
     get_top_10_tests_primer_probe_sequences_summary,
 )
-
 from lod_units import get_lod_units
+from lod_viral_material import get_lod_viral_material
 
 
 def get_summarised_data ():
@@ -39,6 +39,8 @@ def get_summarised_data ():
         "weighted_primer_probe_sequences_in_top_10_test_EUAs": get_top_10_tests_primer_probe_sequences_summary(filtered_data, True),
         "lod_units": get_lod_units(filtered_data, False),
         "lod_units_top_10_tests_weighted": get_lod_units(filtered_data, True),
+        "lod_viral_material": get_lod_viral_material(filtered_data, False),
+        "lod_viral_material_top_10_tests_weighted": get_lod_viral_material(filtered_data, True),
     }
 
     return summary

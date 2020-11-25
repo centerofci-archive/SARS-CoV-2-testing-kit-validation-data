@@ -55,6 +55,11 @@ python_labels_groups_part2 = """
 
 python_labels_groups_end = """
     ])
+
+
+def get_label_tip_parts (label, segments=1):
+    return "/".join(label.split("/")[-segments:])
+
 """
 
 def make_python_content ():

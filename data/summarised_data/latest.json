@@ -34,5 +34,93 @@
     "tcid50_per_vol": 31,
     "genome_copies_per_reaction": 9,
     "other": 0
+  },
+  "lod_viral_material": {
+    "have_parsed": 142,
+    "not_parsed": 2,
+    "antigens": {
+      "count": 0,
+      "example_ref": null
+    },
+    "inactivated_virus_chemical": {
+      "count": 0,
+      "example_ref": null
+    },
+    "inactivated_virus_gamma_radiation": {
+      "count": 4,
+      "example_ref": "58?h=4"
+    },
+    "inactivated_virus_heat": {
+      "count": 13,
+      "example_ref": "49?h=3"
+    },
+    "inactivated_virus_method_unspecified": {
+      "count": 6,
+      "example_ref": "132?h=4"
+    },
+    "live_virus": {
+      "count": 17,
+      "example_ref": "53?h=4"
+    },
+    "naked_rna": {
+      "count": 77,
+      "example_ref": "84?h=3"
+    },
+    "partial_live_virus": {
+      "count": 1,
+      "example_ref": "63?h=3"
+    },
+    "synthetic_viral_particles": {
+      "count": 21,
+      "example_ref": "62?h=4"
+    },
+    "not_specified": {
+      "count": 3,
+      "example_ref": "90?h=1"
+    }
+  },
+  "lod_viral_material_top_10_tests_weighted": {
+    "have_parsed": 9,
+    "not_parsed": 0,
+    "antigens": {
+      "count": 0,
+      "example_ref": null
+    },
+    "inactivated_virus_chemical": {
+      "count": 0,
+      "example_ref": null
+    },
+    "inactivated_virus_gamma_radiation": {
+      "count": 0,
+      "example_ref": null
+    },
+    "inactivated_virus_heat": {
+      "count": 0,
+      "example_ref": null
+    },
+    "inactivated_virus_method_unspecified": {
+      "count": 18,
+      "example_ref": "74?h=3"
+    },
+    "live_virus": {
+      "count": 23,
+      "example_ref": "22?h=0"
+    },
+    "naked_rna": {
+      "count": 13,
+      "example_ref": "29?h=1"
+    },
+    "partial_live_virus": {
+      "count": 0,
+      "example_ref": null
+    },
+    "synthetic_viral_particles": {
+      "count": 15,
+      "example_ref": "18?h=10"
+    },
+    "not_specified": {
+      "count": 0,
+      "example_ref": null
+    }
   }
 }

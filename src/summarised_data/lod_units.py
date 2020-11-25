@@ -1,7 +1,7 @@
 
 
 
-def get_lod_units (data, filtered_and_weighted_by_top10_tests):
+def get_lod_units (data, filter_and_weight_by_top10_tests):
     have_parsed = 0
     not_parsed = 0
 
@@ -13,10 +13,10 @@ def get_lod_units (data, filtered_and_weighted_by_top10_tests):
 
     for row in data:
         primary_lab_percentage = row["amp_survey"]["aug"]["primary_lab_percentage"]
-        if filtered_and_weighted_by_top10_tests and not primary_lab_percentage:
+        if filter_and_weight_by_top10_tests and not primary_lab_percentage:
             continue
 
-        increment = primary_lab_percentage if filtered_and_weighted_by_top10_tests else 1
+        increment = primary_lab_percentage if filter_and_weight_by_top10_tests else 1
 
         lod_units__parsed_value = row["self_declared_EUA_data"]["lod_units"]["parsed"]
 
