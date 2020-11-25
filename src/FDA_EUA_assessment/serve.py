@@ -17,6 +17,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def index ():
+    return v2()
+
+
+@app.route("/v1")
+def v1 ():
     html_file_path = dir_path + "/v1.html"
     with open(html_file_path, "r", encoding="utf8") as f:
         html_contents = f.read()
@@ -58,7 +63,7 @@ def v2 ():
     with open(src_file_path, "r", encoding="utf8") as f:
         src = f.read()
 
-    html_contents = html_contents.replace("\"<MERGED_DATA>\"", json.dump(data, ensure_ascii=False))
+    html_contents = html_contents.replace("\"<MERGED_DATA>\"", json.dumps(data, ensure_ascii=False))
     html_contents = html_contents.replace("\"<SRC>\"", src)
 
     return html_contents
