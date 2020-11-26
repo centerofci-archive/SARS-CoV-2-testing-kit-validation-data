@@ -172,20 +172,8 @@
 "width": "210px"
 },
 {
-"colour": "rgba(200, 200, 255, 0.6)",
-"comment": "",
-"height": "31px",
 "id": 13,
-"labels": [
-"Primers and probes/Sequences",
-"Meta/Not specified",
-"Primers and probes/Sequences/Not specified"
-],
-"left": "415px",
-"page_number": 19,
-"text": "",
-"top": "186px",
-"width": "22px"
+"deleted": true
 },
 {
 "colour": "rgba(200, 200, 255, 0.6)",
@@ -215,6 +203,21 @@
 "text": "",
 "top": "190px",
 "width": "21px"
+},
+{
+"id": 16,
+"page_number": 19,
+"left": "105px",
+"top": "213px",
+"width": "635px",
+"height": "36px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Reference available"
+],
+"comment": ""
 }
 ],
 "comments": [],

@@ -4,8 +4,8 @@
     "have_parsed": 62,
     "not_parsed": 82,
     "explicitly_specified": 4,
-    "reference_available": 17,
-    "not_specified": 41
+    "reference_available": 18,
+    "not_specified": 40
   },
   "primer_probe_sequences_in_top_10_test_EUAs": {
     "explicitly_specified": 0,
