@@ -172,7 +172,8 @@
 "height": "20px",
 "id": 12,
 "labels": [
-"Specimen/Synthetic Specimen/Virus"
+"Specimen/Synthetic Specimen/Virus",
+"Specimen/Synthetic Specimen/Virus/Type/Live Virus"
 ],
 "left": "98px",
 "page_number": 42,

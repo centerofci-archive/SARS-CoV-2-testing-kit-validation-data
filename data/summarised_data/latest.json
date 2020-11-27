@@ -59,7 +59,7 @@
       "example_ref": "132?h=4"
     },
     "live_virus": {
-      "count": 17,
+      "count": 18,
       "example_ref": "53?h=4"
     },
     "naked_rna": {
@@ -75,7 +75,7 @@
       "example_ref": "62?h=4"
     },
     "not_specified": {
-      "count": 3,
+      "count": 2,
       "example_ref": "90?h=1"
     }
   },

@@ -2949,13 +2949,14 @@
             "id": 12,
             "text": "Three SARS-CoV-2 positive clinical specimens",
             "labels": [
-              "Specimen/Synthetic Specimen/Virus"
+              "Specimen/Synthetic Specimen/Virus",
+              "Specimen/Synthetic Specimen/Virus/Type/Live Virus"
             ],
             "comment": "",
             "anot8_org_file_id": "82"
           }
         ],
-        "parsed": "Meta/Not specified"
+        "parsed": "Live Virus"
       },
       "synthetic_specimen__clinical_matrix": {
         "annotations": [
