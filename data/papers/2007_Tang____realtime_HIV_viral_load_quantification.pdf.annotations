@@ -2,16 +2,28 @@
 "file_sha1_hash": "8cbc1d870b405f3085915ddd56f9252c8e0a4746",
 "annotations": [
 {
-"id": 0,
-"page_number": 8,
-"left": "63px",
-"top": "600px",
-"width": "384px",
-"height": "160px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Technique to decrease false negative rate in presence of mutation(s)",
+"comment": "",
+"height": "160px",
+"id": 0,
 "labels": [],
-"comment": ""
+"left": "63px",
+"page_number": 8,
+"text": "Technique to decrease false negative rate in presence of mutation(s)",
+"top": "600px",
+"width": "384px"
+},
+{
+"id": 1,
+"page_number": 1,
+"left": "395px",
+"top": "521px",
+"width": "185px",
+"height": "91px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "ated test for monitoring HIV-1 viral load in plasma samples. The assay uses reverse transcription polymerase chain reaction (RT-PCR) technology with homogeneous real-time fluorescent detection. Automated sample preparation is performed on the m2000spTM instrument where RNA is isolated using magneti",
+"labels": [],
+"comment": "asdasd"
 }
 ],
 "comments": [],

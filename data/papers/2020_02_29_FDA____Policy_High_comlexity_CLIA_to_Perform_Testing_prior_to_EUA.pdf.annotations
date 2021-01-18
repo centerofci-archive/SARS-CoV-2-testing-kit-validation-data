@@ -1,0 +1,19 @@
+{
+"file_sha1_hash": "6ae12f7dca550649cf6e3a3c5c5b924340958311",
+"annotations": [
+{
+"id": 0,
+"page_number": 6,
+"left": "107px",
+"top": "234px",
+"width": "695px",
+"height": "87px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "For a reasonable period of time after validation and while they are preparing their EUA requests, FDA does not intend to object to the use of these tests for specimen testing, as described below. FDA believes 15 days is a reasonable period of time to prepare an EUA submission for test that has already been validated.",
+"labels": [],
+"comment": ""
+}
+],
+"comments": [],
+"schema_version": 5
+}
