@@ -2,7 +2,7 @@ import json
 import re
 
 
-with open("./data/anot8_vault_config.json", "r") as f:
+with open("./data/anot8_vault_config.json", "r", encoding="utf8") as f:
     anot8_vault_config = json.load(f)
 
 labels = sorted(anot8_vault_config["labels"])

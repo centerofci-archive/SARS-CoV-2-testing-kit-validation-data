@@ -31,7 +31,7 @@ from common.labels import (
 
 
 def get_merged_data ():
-    with open(DATA_FILE_PATH_merged_data, "r") as f:
+    with open(DATA_FILE_PATH_merged_data, "r", encoding="utf8") as f:
         data = json.load(f)
 
     return data
