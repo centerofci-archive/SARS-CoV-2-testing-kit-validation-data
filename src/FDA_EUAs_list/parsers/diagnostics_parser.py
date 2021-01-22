@@ -1,4 +1,5 @@
 from html.parser import HTMLParser
+import re
 
 from parsers.common import get_test_id, ParserState, ParserSubState, parse_date
 
@@ -28,7 +29,6 @@ class DiagnosticsParser(HTMLParser):
 
         self.rows = []
         self.state = ParserState.INACTIVE
-        self.table_number = 0  # table number count starts at 1
         self.substate = ParserSubState.INACTIVE
 
         self.current_row = None
@@ -157,9 +157,12 @@ class DiagnosticsParser(HTMLParser):
                     print("Warning: multiple values for Patient / Recipients Fact Sheet URL")
 
             elif "IFU" in data:
-                # if len(self.current_row[8]):
+                # if len(self.current_row[10]):
                 #     print("Warning: multiple values for IFU URL for " + self.current_row[1])
+                if self.current_a_tag_url is None:
+                    raise Exception("current_a_tag_url can not be None")
                 self.current_row[10].append(self.current_a_tag_url)
+                self.current_a_tag_url = None
             elif data == "EUA Summary":
                 if self.current_row[11]:
                     raise Exception("Only expecting one value for EUA Summary URL")
@@ -172,11 +175,13 @@ class DiagnosticsParser(HTMLParser):
         # Ammendments
         elif self.data_position == 7:
             if not self.current_a_tag_url:
-                if "None currently" in data:
+                if "None currently" in data or "for additional information." in data:
                     pass
                 elif not data:
                     pass
                 elif "reposted to include results of testing with the FDA SARS-CoV-2 Reference Panel" in data:
+                    pass
+                elif re.match("[()\s]+\d+KB", data):
                     pass
                 else:
                     print("Have unexpected text for \"Amendments and Other Documents\" field: ", data)
@@ -187,6 +192,7 @@ class DiagnosticsParser(HTMLParser):
                     pass
                 elif data:
                     self.current_row[12].append(self.current_a_tag_url)
+                    self.current_a_tag_url = None
 
         elif self.data_position == 8:
             # federal register notice for EUA

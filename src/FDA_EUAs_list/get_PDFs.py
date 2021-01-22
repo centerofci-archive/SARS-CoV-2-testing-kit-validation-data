@@ -24,6 +24,7 @@ def check_urls_are_unique(urls):
         "https://www.fda.gov/media/136600/download",  # ok - points to generic info
         "https://www.fda.gov/media/142307/download",  # error - Should be GK Accu-Right HCP doc but is their letter of authorization
         "https://www.fda.gov/media/142421/download",  # error - Orawell IgM/IgG Rapid Test has this for HCP and Recipient
+        "https://www.fda.gov/media/137782/download",  # ok
     ]
     unique_urls = set()
     for url in urls:
