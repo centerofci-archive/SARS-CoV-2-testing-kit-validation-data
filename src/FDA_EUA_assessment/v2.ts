@@ -25,8 +25,8 @@ interface DATA_ROW
         url_to_IFU_or_EUA: string
     }
     anot8_org: {
-        file_id: string
-        permalink: string
+        file_id: string | null
+        permalink: string | null
     }
     fda_reference_panel_lod_data: {
         different_developer_name: string

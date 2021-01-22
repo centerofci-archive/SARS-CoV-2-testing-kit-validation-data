@@ -149,10 +149,64 @@ temporary_test_ids_not_in_fda_reference_panel_lod_data = set([
     "vibrant america clinical labs__vibrant covid-19 ab assay",
     "beijing wantai biological pharmacy enterprise co., ltd.__wantai sars-cov-2 ab rapid test",
     # - bulk processed on ig[gm]|immunoasssay|ab |antibody, so there may be errors
+
+    # New tests
+    "stanford health care clinical virology laboratory__sars-cov-2 rt-pcr assay",
+    "infinity biologix llc__infinity biologix taqpath sars-cov-2 assay",
+    "ortho-clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent pack",
+    "color genomics, inc.__color sars-cov-2 rt-lamp diagnostic assay (reissued november 2, 2020)",
+    "helix opco llc__helix covid-19 test",
+    "genmark diagnostics, inc.__eplex respiratory pathogen panel 2",
+    "access bio, inc.__carestart covid-19 antigen test",
+    "beckman coulter, inc.__access sars-cov-2 igm",
+    "genalyte, inc.__maverick sars-cov-2 multi-antigen serology panel v2",
+    "spectrum solutions llc__sdna-1000 saliva collection device",
+    "abbott laboratories inc.__advisedx sars-cov-2 igm",
+    "dna genotek inc.__omnigene·oral om-505 and ome-505 (omnigene·oral) saliva collection devices",
+    "lumiradx uk ltd.__lumiradx sars-cov-2 rna star complete",
+    "clinical enterprise, inc.__empowerdx at-home covid-19 pcr test kit",
+    "binx health, inc.__binx health at-home nasal swab covid-19 sample collection kit",
+    "celltrion usa, inc.__sampinute covid-19 antigen mia",
+    "agena bioscience, inc.__massarray sars-cov-2 panel",
+    "quansys biosciences, inc.__q-plex sars-cov-2 human igg (4 plex)",
+    "dna genotek inc.__oracollect∙rna or-100 and oracollect∙rna ore-100 saliva collection devices",
+    "genscript usa inc.__cpass sars-cov-2 neutralization antibody detection kit",
+    "lucira health, inc.__lucira covid-19 all-in-one test kit",
+    "innovita (tangshan) biological technology co., ltd.__innovita 2019-ncov ab test (colloidal gold)",
+    "gravity diagnostics, llc__gravity diagnostics sars-cov-2 rt-pcr assay",
+    "rapidrona, inc.__rapidrona self-collection kit",
+    "kantaro biosciences, llc__covid-seroklir, kantaro semi-quantitative sars-cov-2 igg antibody kit",
+    "roche diagnostics, inc.__elecsys anti-sars-cov-2 s",
+    "cepheid__xpert omni sars-cov-2",
+    "quest diagnostics infectious disease, inc.__quest diagnostics rc covid-19+flu rt-pcr",
+    "luminostics, inc.__clip covid rapid antigen test",
+    "laboratory corporation of america (labcorp)__pixel by labcorp covid-19 test home collection kit",
+    "researchdx, inc., dba pacific diagnostics__pacificdx covid-19",
+    "acon laboratories, inc.__acon sars-cov-2 igg/igm rapid test",
+    "rca laboratory services llc dba genetworx__genetworx covid-19 nasal swab test",
+    "hologic, inc.__aptima sars-cov-2/flu assay",
+    "abbott diagnostics scarborough, inc.__binaxnow covid-19 ag card home test",
+    "ellume limited__ellume covid-19 home test",
+    "materials and machines corporation of america (dba matmacorp, inc.)__matmacorp covid-19 2sf test",
+    "siemens healthcare diagnostics inc.__advia centaur il6 assay",
+    "quidel corporation__quickvue sars antigen test",
+    "cepheid__xpert xpress sars-cov-2 dod",
+    "quanterix corporation__simoa semi-quantitative sars-cov-2 igg antibody test",
+    "quidel corporation__solana sars-cov-2 assay",
+    "nirmidas biotech, inc.__midaspot covid-19 antibody combo detection kit",
+    "quanterix corporation__simoa sars-cov-2 n protein antigen test",
+    "siemens healthcare diagnostics inc.__dimension exl sars‑cov‑2 igg (cv2g)",
+    "siemens healthcare diagnostics inc.__dimension vista sars‑cov‑2 igg (cov2g)",
+    "ortho clinical diagnostics, inc.__vitros immunodiagnostic products sars-cov-2 antigen reagent pack",
+    "phadia ab__elia sars-cov-2-sp1 igg test",
+    "advaite, inc.__rapcov rapid covid-19 test",
+    "sml genetree co., ltd.__ezplex sars-cov-2 g kit",
+    "united biomedical, inc.__ubi sars-cov-2 elisa",
+    "bio-rad laboratories, inc.__bio-rad reliance sars-cov-2 rt-pcr assay kit",
 ])
 
 
-def get_merged_data ():
+def get_merged_rows ():
     fda_eua_parsed_data = get_fda_eua_parsed_data()
     fda_eua_parsed_data = fda_eua_parsed_data[1:]
 
@@ -173,8 +227,8 @@ def get_merged_data ():
         EUAs = fda_eua_row[10]
         url_to_IFU_or_EUA = EUAs[0] if EUAs else fda_eua_row[11]
 
-        anot8_org_file_id = get_anot8_org_file_id_from_FDA_url(url_to_IFU_or_EUA)
-        anot8_org_permalink = get_anot8_org_permalink_from_FDA_url(url_to_IFU_or_EUA)
+        anot8_org_file_id = get_anot8_org_file_id_from_FDA_url(url_to_IFU_or_EUA, error_on_absence=False)
+        anot8_org_permalink = get_anot8_org_permalink_from_FDA_url(url_to_IFU_or_EUA, error_on_absence=False)
 
         if test_id in fda_reference_panel_lod_data_by_test_id:
             fda_reference_panel_lod_data = fda_reference_panel_lod_data_by_test_id[test_id]
@@ -186,7 +240,7 @@ def get_merged_data ():
 
         else:
             if True and test_id not in temporary_test_ids_not_in_fda_reference_panel_lod_data:
-                print("Error: test_id from EUA data not found in FDA reference panel data: \"{}\"".format(test_id))
+                print(" \"{}\"".format(test_id)),
                 count_missing_fda_reference_panel_lod += 1
 
             different_developer_name = False
@@ -237,5 +291,5 @@ def store_data(data):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-merged_rows = get_merged_data()
+merged_rows = get_merged_rows()
 store_data(merged_rows)

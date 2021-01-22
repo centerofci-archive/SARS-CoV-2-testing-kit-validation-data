@@ -48,10 +48,10 @@ def get_FDA_EUA_pdf_file_path_from_FDA_url (FDA_url):
     return file_path
 
 
-def get_anot8_org_file_id_from_FDA_url (FDA_url):
+def get_anot8_org_file_id_from_FDA_url (FDA_url, error_on_absence=True):
     full_file_path = get_FDA_EUA_pdf_file_path_from_FDA_url(FDA_url)
     partial_file_path = full_file_path.replace(DATA_DIR_PATH, "")
-    anot8_org_file_id = get_anot8_org_id_for_file_path(partial_file_path)
+    anot8_org_file_id = get_anot8_org_id_for_file_path(partial_file_path, error_on_absence=error_on_absence)
     return anot8_org_file_id
 
 
@@ -77,17 +77,24 @@ def get_map_of_file_path_to_anot8_org_id ():
     return file_path_to_anot8_org_id_map
 
 
-def get_anot8_org_id_for_file_path (file_path):
+def get_anot8_org_id_for_file_path (file_path, error_on_absence=True):
     file_to_id_map = get_map_of_file_path_to_anot8_org_id()
 
-    if file_path not in file_to_id_map:
+    anot8_org_id = None
+    if file_path in file_to_id_map:
+        anot8_org_id = file_to_id_map[file_path]
+
+    elif error_on_absence:
         raise Exception("file_path not found in anot8 file_to_id_map: {}".format(file_path))
 
-    return file_to_id_map[file_path]
+    return anot8_org_id
 
 
-def get_anot8_org_permalink_from_FDA_url (FDA_url):
-    anot8_org_file_id = get_anot8_org_file_id_from_FDA_url(FDA_url)
+def get_anot8_org_permalink_from_FDA_url (FDA_url, error_on_absence=True):
+    anot8_org_file_id = get_anot8_org_file_id_from_FDA_url(FDA_url, error_on_absence=error_on_absence)
+
+    if anot8_org_file_id is None:
+        return None
 
     return "https://anot8.org/{}.{}/{}".format(
         ANOT8_ORG_NAMING_AUTHORITY_ID,
