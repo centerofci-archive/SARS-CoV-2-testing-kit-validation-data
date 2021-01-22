@@ -5,7 +5,7 @@
       "first_issued_date": "2020-02-04",
       "developer_name": "CDC",
       "test_name": "CDC 2019-Novel Coronavirus (2019-nCoV) Real-Time RT-PCR Diagnostic Panel",
-      "test_technology": "Molecular Real-time RT-PCR",
+      "test_technology": "Molecular Real-time RT-PCR, Pooling",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/134922/download"
     },
     "anot8_org": {
@@ -346,7 +346,7 @@
       "first_issued_date": "2020-03-12",
       "developer_name": "Roche Molecular Systems, Inc. (RMS)",
       "test_name": "cobas SARS-CoV-2",
-      "test_technology": "Molecular Real-time RT-PCR",
+      "test_technology": "Molecular Real-time RT-PCR, Pooling",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136049/download"
     },
     "anot8_org": {
@@ -517,7 +517,7 @@
       "first_issued_date": "2020-03-13",
       "developer_name": "Thermo Fisher Scientific, Inc.",
       "test_name": "TaqPath COVID-19 Combo Kit",
-      "test_technology": "Molecular Real-time RT-PCR",
+      "test_technology": "Molecular Real-time RT-PCR, Home Collection",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136112/download"
     },
     "anot8_org": {
@@ -821,11 +821,11 @@
       "developer_name": "Laboratory Corporation of America (LabCorp)",
       "test_name": "COVID-19 RT-PCR Test",
       "test_technology": "Molecular Real-time RT-PCR, Home Collection, Pooling, Screening",
-      "url_to_IFU_or_EUA": "https://www.fda.gov/media/137154/download"
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/139732/download"
     },
     "anot8_org": {
-      "file_id": "109",
-      "permalink": "https://anot8.org/1772.2/109"
+      "file_id": "676",
+      "permalink": "https://anot8.org/1772.2/676"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -2129,7 +2129,7 @@
       "first_issued_date": "2020-03-23",
       "developer_name": "BioFire Defense, LLC",
       "test_name": "BioFire COVID-19 Test",
-      "test_technology": "Molecular RT, Nested multiplex PCR",
+      "test_technology": "Molecular RT, Nested multiplex PCR, Pooling",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136353/download"
     },
     "anot8_org": {
@@ -2480,7 +2480,7 @@
       "first_issued_date": "2020-03-24",
       "developer_name": "PerkinElmer, Inc.",
       "test_name": "PerkinElmer New Coronavirus Nucleic Acid Detection Kit",
-      "test_technology": "Molecular Real-time RT-PCR",
+      "test_technology": "Molecular Real-time RT-PCR, Pooling, Screening",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136410/download"
     },
     "anot8_org": {
@@ -5336,12 +5336,12 @@
       "first_issued_date": "2020-04-06",
       "developer_name": "Viracor Eurofins Clinical Diagnostics",
       "test_name": "Viracor SARS-CoV-2 assay",
-      "test_technology": "Molecular, U",
-      "url_to_IFU_or_EUA": "https://www.fda.gov/media/136740/download"
+      "test_technology": "Molecular Real-time RT-PCR, Home Collection, Pooling",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/143069/download"
     },
     "anot8_org": {
-      "file_id": "151",
-      "permalink": "https://anot8.org/1772.2/151"
+      "file_id": "1197",
+      "permalink": "https://anot8.org/1772.2/1197"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -5352,134 +5352,41 @@
     },
     "self_declared_EUA_data": {
       "supported_specimen_types": {
-        "annotations": [
-          {
-            "id": 0,
-            "text": "nasopharyngeal swab, nasal swab, nasopharyngeal wash, nasal wash, oropharyngeal swab and bronchoalveolar lavage",
-            "labels": [
-              "Supported specimen types"
-            ],
-            "comment": "",
-            "anot8_org_file_id": "151"
-          }
-        ],
+        "annotations": [],
         "parsed": ""
       },
       "target_genes": {
-        "annotations": [
-          {
-            "id": 10,
-            "text": "N",
-            "labels": [
-              "Viral gene(s) targetted"
-            ],
-            "comment": "",
-            "anot8_org_file_id": "151"
-          }
-        ],
+        "annotations": [],
         "parsed": ""
       },
       "controls__human_gene_target": {
-        "annotations": [
-          {
-            "id": 9,
-            "text": "",
-            "labels": [
-              "Controls/Internal/Human gene target"
-            ],
-            "comment": "None present",
-            "anot8_org_file_id": "151"
-          }
-        ],
+        "annotations": [],
         "parsed": ""
       },
       "primer_probe_sequences": {
-        "annotations": [
-          {
-            "id": 11,
-            "text": "",
-            "labels": [
-              "Primers and probes/Sequences",
-              "Primers and probes/Sequences/Not specified"
-            ],
-            "comment": "",
-            "anot8_org_file_id": "151"
-          }
-        ],
-        "parsed": "Not specified"
+        "annotations": [],
+        "parsed": ""
       },
       "lod_value": {
-        "annotations": [
-          {
-            "id": 6,
-            "text": "0.073",
-            "labels": [
-              "Limit of Detection (LOD)/Value"
-            ],
-            "comment": "",
-            "anot8_org_file_id": "151"
-          }
-        ],
-        "min": 0.073,
-        "max": 0.073,
-        "parsed": "0.073"
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
       },
       "lod_units": {
-        "annotations": [
-          {
-            "id": 7,
-            "text": "genome copies / μL",
-            "labels": [
-              "Limit of Detection (LOD)/Units"
-            ],
-            "comment": "",
-            "anot8_org_file_id": "151"
-          }
-        ],
-        "parsed": "genome copies / μL"
+        "annotations": [],
+        "parsed": ""
       },
       "lod_minimum_replicates": {
-        "annotations": [
-          {
-            "id": 5,
-            "text": "20",
-            "labels": [
-              "Limit of Detection (LOD)/Minimum Replicates"
-            ],
-            "comment": "",
-            "anot8_org_file_id": "151"
-          }
-        ],
+        "annotations": [],
         "parsed": ""
       },
       "synthetic_specimen__viral_material": {
-        "annotations": [
-          {
-            "id": 1,
-            "text": "1.5 kb in vitro transcribed (IVT) RNA of the SARS-CoV-2 N gene (positions 28061 – 29533 of GenBank accession NC_045512.2)",
-            "labels": [
-              "Specimen/Synthetic Specimen/Virus",
-              "Specimen/Synthetic Specimen/Virus/Source",
-              "Specimen/Synthetic Specimen/Virus/Type/Naked RNA"
-            ],
-            "comment": "",
-            "anot8_org_file_id": "151"
-          }
-        ],
-        "parsed": "Naked RNA"
+        "annotations": [],
+        "parsed": ""
       },
       "synthetic_specimen__clinical_matrix": {
-        "annotations": [
-          {
-            "id": 3,
-            "text": "BAL, nasal wash, and nasopharyngeal swab matrices",
-            "labels": [
-              "Specimen/Synthetic Specimen/Clinical matrix"
-            ],
-            "comment": "",
-            "anot8_org_file_id": "151"
-          }
-        ],
+        "annotations": [],
         "parsed": ""
       }
     },
@@ -5966,22 +5873,22 @@
     }
   },
   {
-    "test_id": "stanford health care clinical virology laboratory__stanford sars-cov-2 assay",
+    "test_id": "stanford health care clinical virology laboratory__sars-cov-2 rt-pcr assay",
     "FDA_EUAs_list": {
       "first_issued_date": "2020-04-08",
       "developer_name": "Stanford Health Care Clinical Virology Laboratory",
-      "test_name": "Stanford SARS-CoV-2 assay",
-      "test_technology": "Molecular, U",
-      "url_to_IFU_or_EUA": "https://www.fda.gov/media/136818/download"
+      "test_name": "SARS-CoV-2 RT-PCR Assay",
+      "test_technology": "Molecular, Real-time RT-PCR, Home Collection Kit",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144013/download"
     },
     "anot8_org": {
-      "file_id": "21",
-      "permalink": "https://anot8.org/1772.2/21"
+      "file_id": "1274",
+      "permalink": "https://anot8.org/1772.2/1274"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
-      "results_status": "Data not returned",
+      "results_status": "",
       "lod": "",
       "sample_media_type": ""
     },
@@ -6308,12 +6215,12 @@
     }
   },
   {
-    "test_id": "infinity biologix llc__infinity biologix taqpath sars-cov-2 assay 04/10/2020",
+    "test_id": "infinity biologix llc__infinity biologix taqpath sars-cov-2 assay",
     "FDA_EUAs_list": {
       "first_issued_date": "2020-04-10",
       "developer_name": "Infinity BiologiX LLC",
-      "test_name": "Infinity BiologiX TaqPath SARS-CoV-2 Assay 04/10/2020",
-      "test_technology": "Molecular Real-time RT-PCR, Home Collection",
+      "test_name": "Infinity BiologiX TaqPath SARS-CoV-2 Assay",
+      "test_technology": "Molecular Real-time RT-PCR, Home Collection, Saliva",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137782/download"
     },
     "anot8_org": {
@@ -6321,9 +6228,9 @@
       "permalink": "https://anot8.org/1772.2/415"
     },
     "fda_reference_panel_lod_data": {
-      "different_developer_name": "Infinity BiologiX LLC (formerly Rutgers Clinical Genomics Laboratory at RUCDR Infinite Biologics - Rutgers University)",
-      "different_test_name": "Infinity BiologiX TaqPath SARS-CoV-2 Assay (formerly Rutgers Clinical Genomics Laboratory TaqPath SARS-CoV-2-Assay)",
-      "results_status": "Data not returned",
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
       "lod": "",
       "sample_media_type": ""
     },
@@ -9295,11 +9202,11 @@
     }
   },
   {
-    "test_id": "ortho-clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent",
+    "test_id": "ortho-clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent pack",
     "FDA_EUAs_list": {
       "first_issued_date": "2020-04-24",
       "developer_name": "Ortho-Clinical Diagnostics, Inc.",
-      "test_name": "VITROS Immunodiagnostic Products Anti-SARS-CoV-2 IgG Reagent",
+      "test_name": "VITROS Immunodiagnostic Products Anti-SARS-CoV-2 IgG Reagent Pack",
       "test_technology": "Serology IgG, CLIA",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137363/download"
     },
@@ -10004,7 +9911,7 @@
       "first_issued_date": "2020-04-29",
       "developer_name": "Rheonix, Inc.",
       "test_name": "Rheonix COVID-19 MDx Assay",
-      "test_technology": "Molecular RT-PCR",
+      "test_technology": "Molecular RT-PCR, Saliva",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137489/download"
     },
     "anot8_org": {
@@ -12418,7 +12325,7 @@
       "first_issued_date": "2020-05-11",
       "developer_name": "Abbott Molecular Inc.",
       "test_name": "Alinity m SARS-CoV-2 assay",
-      "test_technology": "Molecular Real-time RT-PCR",
+      "test_technology": "Molecular Real-time RT-PCR, Pooling, Screening",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137979/download"
     },
     "anot8_org": {
@@ -12981,7 +12888,7 @@
       "first_issued_date": "2020-05-14",
       "developer_name": "Hologic, Inc.",
       "test_name": "Aptima SARS-CoV-2 assay",
-      "test_technology": "Molecular TMA, chemiluminescent",
+      "test_technology": "Molecular TMA, chemiluminescent, Pooling, Screening",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138096/download"
     },
     "anot8_org": {
@@ -13872,24 +13779,24 @@
     }
   },
   {
-    "test_id": "color genomics, inc.__color genomics sars-cov-2 rt-lamp diagnostic assay (reissued july 24, 2020)",
+    "test_id": "color genomics, inc.__color sars-cov-2 rt-lamp diagnostic assay (reissued november 2, 2020)",
     "FDA_EUAs_list": {
       "first_issued_date": "2020-05-18",
       "developer_name": "Color Genomics, Inc.",
-      "test_name": "Color Genomics SARS-Cov-2 RT-LAMP Diagnostic Assay (reissued July 24, 2020)",
+      "test_name": "Color SARS-Cov-2 RT-LAMP Diagnostic Assay (reissued November 2, 2020)",
       "test_technology": "Molecular RT, LAMP, Home Collection",
-      "url_to_IFU_or_EUA": "https://www.fda.gov/media/140450/download"
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/138249/download"
     },
     "anot8_org": {
-      "file_id": "794",
-      "permalink": "https://anot8.org/1772.2/794"
+      "file_id": "94",
+      "permalink": "https://anot8.org/1772.2/94"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
-      "different_test_name": "Color Genomics SARS-CoV-2 RT-LAMP Diagnostic Assay",
-      "results_status": "Results in Table 2A",
-      "lod": 18000,
-      "sample_media_type": "Swabs in Transport Media"
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
     },
     "self_declared_EUA_data": {
       "supported_specimen_types": {
@@ -14957,12 +14864,12 @@
       "first_issued_date": "2020-05-22",
       "developer_name": "Express Gene LLC (dba Molecular Diagnostics Laboratory)",
       "test_name": "Express Gene 2019-nCoV RT-PCR Diagnostic Panel",
-      "test_technology": "Molecular, U",
-      "url_to_IFU_or_EUA": "https://www.fda.gov/media/138330/download"
+      "test_technology": "Molecular, Real-time RT-PCR, Collection Kit",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/143880/download"
     },
     "anot8_org": {
-      "file_id": "482",
-      "permalink": "https://anot8.org/1772.2/482"
+      "file_id": "1254",
+      "permalink": "https://anot8.org/1772.2/1254"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -16006,7 +15913,7 @@
       "first_issued_date": "2020-06-04",
       "developer_name": "Hangzhou Biotest Biotech Co., Ltd.",
       "test_name": "RightSign COVID-19 IgG/IgM Rapid Test Cassette",
-      "test_technology": "Serology IgM and IgG, Lateral Flow",
+      "test_technology": "Serology IgM and IgG, Lateral Flow, Fingerstick Whole Blood",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138660/download"
     },
     "anot8_org": {
@@ -17810,7 +17717,7 @@
       "first_issued_date": "2020-06-15",
       "developer_name": "Applied BioCode, Inc.",
       "test_name": "BioCode SARS-CoV-2 Assay",
-      "test_technology": "Molecular RT-PCR",
+      "test_technology": "Molecular RT-PCR, Pooling",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139049/download"
     },
     "anot8_org": {
@@ -18310,7 +18217,7 @@
       "first_issued_date": "2020-06-18",
       "developer_name": "3B Blackbio Biotech India Ltd., a subsidiary of Kilpest India Ltd.",
       "test_name": "TRUPCR SARS-CoV-2 Kit",
-      "test_technology": "Molecular Real-time RT-PCR",
+      "test_technology": "Molecular Real-time RT-PCR, Saliva",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139296/download"
     },
     "anot8_org": {
@@ -21513,7 +21420,7 @@
       "first_issued_date": "2020-07-06",
       "developer_name": "Assure Tech. (Hangzhou Co., Ltd)",
       "test_name": "Assure COVID-19 IgG/IgM Rapid Test Device",
-      "test_technology": "Serology IgM and IgG, Lateral Flow",
+      "test_technology": "Serology IgM and IgG, Lateral Flow. Fingerstick Whole Blood",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139792/download"
     },
     "anot8_org": {
@@ -22035,11 +21942,11 @@
       "developer_name": "Clinical Research Sequencing Platform (CRSP), LLC at the Broad Institute of MIT and Harvard",
       "test_name": "CRSP SARS-CoV-2 Real-time Reverse Transcriptase (RT)-PCR Diagnostic Assay",
       "test_technology": "Molecular Real-time RT-PCR",
-      "url_to_IFU_or_EUA": "https://www.fda.gov/media/139858/download"
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/143272/download"
     },
     "anot8_org": {
-      "file_id": "116",
-      "permalink": "https://anot8.org/1772.2/116"
+      "file_id": "1213",
+      "permalink": "https://anot8.org/1772.2/1213"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -23268,7 +23175,7 @@
       "first_issued_date": "2020-07-13",
       "developer_name": "Salofa Oy",
       "test_name": "Sienna-Clarity COVIBLOCK COVID-19 IgG/IgM Rapid Test Cassette",
-      "test_technology": "Serology IgM and IgG, Lateral Flow",
+      "test_technology": "Serology IgM and IgG, Lateral Flow, Fingerstick Whole Blood",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140082/download"
     },
     "anot8_org": {
@@ -23416,7 +23323,7 @@
       "first_issued_date": "2020-07-15",
       "developer_name": "Quest Diagnostics Infectious Disease, Inc.",
       "test_name": "Quest Diagnostics RC SARS-CoV-2 Assay",
-      "test_technology": "Molecular Real-time RT-PCR, Home Collection",
+      "test_technology": "Molecular Real-time RT-PCR, Home Collection, Pooling",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140235/download"
     },
     "anot8_org": {
@@ -24156,24 +24063,24 @@
     }
   },
   {
-    "test_id": "helix opco llc (dba helix)__helix covid-19 test",
+    "test_id": "helix opco llc__helix covid-19 test",
     "FDA_EUAs_list": {
       "first_issued_date": "2020-07-23",
-      "developer_name": "Helix OpCo LLC (dba Helix)",
+      "developer_name": "Helix OpCo LLC",
       "test_name": "Helix COVID-19 Test",
-      "test_technology": "Molecular Real-time RT-PCR",
-      "url_to_IFU_or_EUA": "https://www.fda.gov/media/140420/download"
+      "test_technology": "Molecular Real-time RT-PCR, Home Collection, Screening",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/143271/download"
     },
     "anot8_org": {
-      "file_id": "76",
-      "permalink": "https://anot8.org/1772.2/76"
+      "file_id": "1212",
+      "permalink": "https://anot8.org/1772.2/1212"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
       "different_test_name": false,
-      "results_status": "Results in Table 2A",
-      "lod": 1800,
-      "sample_media_type": "Swabs in Transport Media"
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
     },
     "self_declared_EUA_data": {
       "supported_specimen_types": {
@@ -25386,12 +25293,12 @@
       "first_issued_date": "2020-08-03",
       "developer_name": "Wren Laboratories LLC",
       "test_name": "Wren Laboratories COVID-19 PCR Test",
-      "test_technology": "Molecular Real-time RT-PCR",
-      "url_to_IFU_or_EUA": "https://www.fda.gov/media/140776/download"
+      "test_technology": "Molecular Real-time RT-PCR, Home Collection, Saliva",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/143187/download"
     },
     "anot8_org": {
-      "file_id": "31",
-      "permalink": "https://anot8.org/1772.2/31"
+      "file_id": "1207",
+      "permalink": "https://anot8.org/1772.2/1207"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -25698,12 +25605,12 @@
       "first_issued_date": "2020-08-03",
       "developer_name": "Cleveland Clinic Robert J. Tomsich Pathology and Laboratory Medicine Institute",
       "test_name": "Cleveland Clinic SARS-CoV-2 Assay",
-      "test_technology": "Molecular Real-time RT-PCR",
-      "url_to_IFU_or_EUA": "https://www.fda.gov/media/140788/download"
+      "test_technology": "Molecular Real-time RT-PCR, Home Collection",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/145332/download"
     },
     "anot8_org": {
-      "file_id": "62",
-      "permalink": "https://anot8.org/1772.2/62"
+      "file_id": "1406",
+      "permalink": "https://anot8.org/1772.2/1406"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -28482,7 +28389,7 @@
       "first_issued_date": "2020-08-28",
       "developer_name": "DxTerity Diagnostics, Inc.",
       "test_name": "DxTerity SARS-CoV-2 RT PCR CE Test",
-      "test_technology": "Molecular Real-time RT-PCR, Home Collection, Screening, Saliva",
+      "test_technology": "Molecular RT-PCR, Home Collection, Saliva",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141670/download"
     },
     "anot8_org": {
@@ -29517,12 +29424,12 @@
       "first_issued_date": "2020-09-08",
       "developer_name": "Verily Life Sciences",
       "test_name": "Verily COVID-19 RT-PCR Test",
-      "test_technology": "Molecular Real-time RT-PCR, Pooling",
-      "url_to_IFU_or_EUA": "https://www.fda.gov/media/141951/download"
+      "test_technology": "Molecular Real-time RT-PCR, Pooling, Home Collection",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144660/download"
     },
     "anot8_org": {
-      "file_id": "1021",
-      "permalink": "https://anot8.org/1772.2/1021"
+      "file_id": "1337",
+      "permalink": "https://anot8.org/1772.2/1337"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -31731,6 +31638,3249 @@
     "anot8_org": {
       "file_id": "1153",
       "permalink": "https://anot8.org/1772.2/1153"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "genmark diagnostics, inc.__eplex respiratory pathogen panel 2",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-10-07",
+      "developer_name": "GenMark Diagnostics, Inc.",
+      "test_name": "ePlex Respiratory Pathogen Panel 2",
+      "test_technology": "Molecular RT-PCR and electrochemical detection, Multi-analyte",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/142905/download"
+    },
+    "anot8_org": {
+      "file_id": "1167",
+      "permalink": "https://anot8.org/1772.2/1167"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "access bio, inc.__carestart covid-19 antigen test",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-10-08",
+      "developer_name": "Access Bio, Inc.",
+      "test_name": "CareStart COVID-19 Antigen test",
+      "test_technology": "Antigen Lateral Flow, Visual Read",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/142919/download"
+    },
+    "anot8_org": {
+      "file_id": "1181",
+      "permalink": "https://anot8.org/1772.2/1181"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "beckman coulter, inc.__access sars-cov-2 igm",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-10-08",
+      "developer_name": "Beckman Coulter, Inc.",
+      "test_name": "Access SARS-CoV-2 IgM",
+      "test_technology": "Serology IgM, CLIA",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/142911/download"
+    },
+    "anot8_org": {
+      "file_id": "1173",
+      "permalink": "https://anot8.org/1772.2/1173"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "genalyte, inc.__maverick sars-cov-2 multi-antigen serology panel v2",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-10-08",
+      "developer_name": "Genalyte, Inc.",
+      "test_name": "Maverick SARS-CoV-2 Multi-Antigen Serology Panel v2",
+      "test_technology": "Serology Total Antibody, photonic ring immunoassay",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/142915/download"
+    },
+    "anot8_org": {
+      "file_id": "1177",
+      "permalink": "https://anot8.org/1772.2/1177"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "spectrum solutions llc__sdna-1000 saliva collection device",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-10-08",
+      "developer_name": "Spectrum Solutions LLC",
+      "test_name": "SDNA-1000 Saliva Collection Device",
+      "test_technology": "Saliva Collection Device",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/143055/download"
+    },
+    "anot8_org": {
+      "file_id": "1187",
+      "permalink": "https://anot8.org/1772.2/1187"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "abbott laboratories inc.__advisedx sars-cov-2 igm",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-10-09",
+      "developer_name": "Abbott Laboratories Inc.",
+      "test_name": "AdviseDx SARS-CoV-2 IgM",
+      "test_technology": "Serology IgM, CMIA",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/142940/download"
+    },
+    "anot8_org": {
+      "file_id": "1185",
+      "permalink": "https://anot8.org/1772.2/1185"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "dna genotek inc.__omnigene·oral om-505 and ome-505 (omnigene·oral) saliva collection devices",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-10-14",
+      "developer_name": "DNA Genotek Inc.",
+      "test_name": "OMNIgene·ORAL OM-505 and OME-505 (OMNIgene·ORAL) saliva collection devices",
+      "test_technology": "Saliva Collection Device",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/143420/download"
+    },
+    "anot8_org": {
+      "file_id": "1227",
+      "permalink": "https://anot8.org/1772.2/1227"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "lumiradx uk ltd.__lumiradx sars-cov-2 rna star complete",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-10-14",
+      "developer_name": "LumiraDx UK Ltd.",
+      "test_name": "LumiraDx SARS-CoV-2 RNA STAR Complete",
+      "test_technology": "Molecular RT, qSTAR amplification",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/143062/download"
+    },
+    "anot8_org": {
+      "file_id": "1191",
+      "permalink": "https://anot8.org/1772.2/1191"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "clinical enterprise, inc.__empowerdx at-home covid-19 pcr test kit",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-10-15",
+      "developer_name": "Clinical Enterprise, Inc.",
+      "test_name": "EmpowerDX At-Home COVID-19 PCR Test Kit",
+      "test_technology": "Home Collection Kit",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/143065/download"
+    },
+    "anot8_org": {
+      "file_id": "1194",
+      "permalink": "https://anot8.org/1772.2/1194"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "binx health, inc.__binx health at-home nasal swab covid-19 sample collection kit",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-10-20",
+      "developer_name": "binx health, Inc.",
+      "test_name": "binx health At-Home Nasal Swab COVID-19 Sample Collection Kit",
+      "test_technology": "Home Collection Kit",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/143186/download"
+    },
+    "anot8_org": {
+      "file_id": "1206",
+      "permalink": "https://anot8.org/1772.2/1206"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "celltrion usa, inc.__sampinute covid-19 antigen mia",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-10-23",
+      "developer_name": "Celltrion USA, Inc.",
+      "test_name": "Sampinute COVID-19 Antigen MIA",
+      "test_technology": "Antigen Magnetic Force-assisted Electrochemical Sandwich Immunoassay (MESIA)",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/143270/download"
+    },
+    "anot8_org": {
+      "file_id": "1211",
+      "permalink": "https://anot8.org/1772.2/1211"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "agena bioscience, inc.__massarray sars-cov-2 panel",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-10-26",
+      "developer_name": "Agena Bioscience, Inc.",
+      "test_name": "MassARRAY SARS-CoV-2 Panel",
+      "test_technology": "Molecular RT-PCR, chip array and MALDI-TOF Mass Spec.",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/143334/download"
+    },
+    "anot8_org": {
+      "file_id": "1221",
+      "permalink": "https://anot8.org/1772.2/1221"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "quansys biosciences, inc.__q-plex sars-cov-2 human igg (4 plex)",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-10-28",
+      "developer_name": "Quansys Biosciences, Inc.",
+      "test_name": "Q-Plex SARS-CoV-2 Human IgG (4 Plex)",
+      "test_technology": "Serology IgG, CLIA",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/143452/download"
+    },
+    "anot8_org": {
+      "file_id": "1229",
+      "permalink": "https://anot8.org/1772.2/1229"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "dna genotek inc.__oracollect∙rna or-100 and oracollect∙rna ore-100 saliva collection devices",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-10-28",
+      "developer_name": "DNA Genotek Inc.",
+      "test_name": "ORAcollect∙RNA OR-100 and ORAcollect∙RNA ORE-100 saliva collection devices",
+      "test_technology": "Saliva Collection Device",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/143417/download"
+    },
+    "anot8_org": {
+      "file_id": "1224",
+      "permalink": "https://anot8.org/1772.2/1224"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "genscript usa inc.__cpass sars-cov-2 neutralization antibody detection kit",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-11-06",
+      "developer_name": "GenScript USA Inc.",
+      "test_name": "cPass SARS-CoV-2 Neutralization Antibody Detection Kit",
+      "test_technology": "Serology Total Neutralizing Antibodies, Blocking ELISA",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/143583/download"
+    },
+    "anot8_org": {
+      "file_id": "1240",
+      "permalink": "https://anot8.org/1772.2/1240"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "lucira health, inc.__lucira covid-19 all-in-one test kit",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-11-18",
+      "developer_name": "Lucira Health, Inc.",
+      "test_name": "Lucira COVID-19 All-In-One Test Kit",
+      "test_technology": "Prescription Home Testing",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/143808/download"
+    },
+    "anot8_org": {
+      "file_id": "1250",
+      "permalink": "https://anot8.org/1772.2/1250"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "innovita (tangshan) biological technology co., ltd.__innovita 2019-ncov ab test (colloidal gold)",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-11-23",
+      "developer_name": "Innovita (Tangshan) Biological Technology Co., Ltd.",
+      "test_name": "Innovita 2019-nCoV Ab Test (Colloidal Gold)",
+      "test_technology": "Serology IgM and IgG, Lateral Flow",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144071/download"
+    },
+    "anot8_org": {
+      "file_id": "1288",
+      "permalink": "https://anot8.org/1772.2/1288"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "gravity diagnostics, llc__gravity diagnostics sars-cov-2 rt-pcr assay",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-11-23",
+      "developer_name": "Gravity Diagnostics, LLC",
+      "test_name": "Gravity Diagnostics SARS-CoV-2 RT-PCR Assay",
+      "test_technology": "Molecular Real-time RT-PCR, Home Collection, Screening, Saliva",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/143935/download"
+    },
+    "anot8_org": {
+      "file_id": "1263",
+      "permalink": "https://anot8.org/1772.2/1263"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "rapidrona, inc.__rapidrona self-collection kit",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-11-23",
+      "developer_name": "RapidRona, Inc.",
+      "test_name": "RapidRona Self-Collection Kit",
+      "test_technology": "Home Collection Kit",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/143929/download"
+    },
+    "anot8_org": {
+      "file_id": "1259",
+      "permalink": "https://anot8.org/1772.2/1259"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "kantaro biosciences, llc__covid-seroklir, kantaro semi-quantitative sars-cov-2 igg antibody kit",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-11-24",
+      "developer_name": "Kantaro Biosciences, LLC",
+      "test_name": "COVID-SeroKlir, Kantaro Semi-Quantitative SARS-CoV-2 IgG Antibody Kit",
+      "test_technology": "Serology IgG, ELISA, Semi-quantitative",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144010/download"
+    },
+    "anot8_org": {
+      "file_id": "1271",
+      "permalink": "https://anot8.org/1772.2/1271"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "roche diagnostics, inc.__elecsys anti-sars-cov-2 s",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-11-25",
+      "developer_name": "Roche Diagnostics, Inc.",
+      "test_name": "Elecsys Anti-SARS-CoV-2 S",
+      "test_technology": "Serology Total Antibody, ECLIA, Semi-quantitative",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144037/download"
+    },
+    "anot8_org": {
+      "file_id": "1282",
+      "permalink": "https://anot8.org/1772.2/1282"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "cepheid__xpert omni sars-cov-2",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-11-27",
+      "developer_name": "Cepheid",
+      "test_name": "Xpert Omni SARS-CoV-2",
+      "test_technology": "Molecular Real-time RT-PCR",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144033/download"
+    },
+    "anot8_org": {
+      "file_id": "1278",
+      "permalink": "https://anot8.org/1772.2/1278"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "quest diagnostics infectious disease, inc.__quest diagnostics rc covid-19+flu rt-pcr",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-12-04",
+      "developer_name": "Quest Diagnostics Infectious Disease, Inc.",
+      "test_name": "Quest Diagnostics RC COVID-19+Flu RT-PCR",
+      "test_technology": "Molecular Real-time RT-PCR, Multi-analyte, Home Collection",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144179/download"
+    },
+    "anot8_org": {
+      "file_id": "1293",
+      "permalink": "https://anot8.org/1772.2/1293"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "luminostics, inc.__clip covid rapid antigen test",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-12-07",
+      "developer_name": "Luminostics, Inc.",
+      "test_name": "Clip COVID Rapid Antigen Test",
+      "test_technology": "Antigen Lateral flow immunoluminescent assay, instrument read",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144256/download"
+    },
+    "anot8_org": {
+      "file_id": "1299",
+      "permalink": "https://anot8.org/1772.2/1299"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "laboratory corporation of america (labcorp)__pixel by labcorp covid-19 test home collection kit",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-12-09",
+      "developer_name": "Laboratory Corporation of America (LabCorp)",
+      "test_name": "Pixel by LabCorp COVID-19 Test Home Collection Kit",
+      "test_technology": "Molecular Direct to Consumer (DTC), Real-time RT-PCR, Home Collection, Pooling, Screening",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/137154/download"
+    },
+    "anot8_org": {
+      "file_id": "109",
+      "permalink": "https://anot8.org/1772.2/109"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "researchdx, inc., dba pacific diagnostics__pacificdx covid-19",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-12-11",
+      "developer_name": "ResearchDx, Inc., DBA Pacific Diagnostics",
+      "test_name": "PacificDx Covid-19",
+      "test_technology": "Molecular TMA, chemiluminescent, Home Collection",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144558/download"
+    },
+    "anot8_org": {
+      "file_id": "1316",
+      "permalink": "https://anot8.org/1772.2/1316"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "acon laboratories, inc.__acon sars-cov-2 igg/igm rapid test",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-12-15",
+      "developer_name": "ACON Laboratories, Inc.",
+      "test_name": "ACON SARS-CoV-2 IgG/IgM Rapid Test",
+      "test_technology": "Serology IgM and IgG, Lateral Flow",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144562/download"
+    },
+    "anot8_org": {
+      "file_id": "1320",
+      "permalink": "https://anot8.org/1772.2/1320"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "rca laboratory services llc dba genetworx__genetworx covid-19 nasal swab test",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-12-15",
+      "developer_name": "RCA Laboratory Services LLC dba GENETWORx",
+      "test_name": "GENETWORx Covid-19 Nasal Swab Test",
+      "test_technology": "Molecular Real-time RT-PCR, Home Collection",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144554/download"
+    },
+    "anot8_org": {
+      "file_id": "1312",
+      "permalink": "https://anot8.org/1772.2/1312"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "hologic, inc.__aptima sars-cov-2/flu assay",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-12-16",
+      "developer_name": "Hologic, Inc.",
+      "test_name": "Aptima SARS-CoV-2/Flu assay",
+      "test_technology": "Molecular Real-time TMA, chemiluminescent, Multi-analyte",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144590/download"
+    },
+    "anot8_org": {
+      "file_id": "1329",
+      "permalink": "https://anot8.org/1772.2/1329"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "abbott diagnostics scarborough, inc.__binaxnow covid-19 ag card home test",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-12-16",
+      "developer_name": "Abbott Diagnostics Scarborough, Inc.",
+      "test_name": "BinaxNOW COVID-19 Ag Card Home Test",
+      "test_technology": "Antigen Lateral Flow, Visual Read, Prescription Home Testing",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144574/download"
+    },
+    "anot8_org": {
+      "file_id": "1323",
+      "permalink": "https://anot8.org/1772.2/1323"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "ellume limited__ellume covid-19 home test",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-12-16",
+      "developer_name": "Ellume Limited",
+      "test_name": "Ellume COVID-19 Home Test",
+      "test_technology": "Antigen Lateral Flow, Fluorescence, Instrument Read, Over the Counter Home Testing",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144592/download"
+    },
+    "anot8_org": {
+      "file_id": "1331",
+      "permalink": "https://anot8.org/1772.2/1331"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "materials and machines corporation of america (dba matmacorp, inc.)__matmacorp covid-19 2sf test",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-12-17",
+      "developer_name": "Materials and Machines Corporation of America (DBA MatmaCorp, Inc.)",
+      "test_name": "MatMaCorp COVID-19 2SF Test",
+      "test_technology": "Molecular RT-PCR and isothermal nucleic acid amplification",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144659/download"
+    },
+    "anot8_org": {
+      "file_id": "1336",
+      "permalink": "https://anot8.org/1772.2/1336"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "siemens healthcare diagnostics inc.__advia centaur il6 assay",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-12-18",
+      "developer_name": "Siemens Healthcare Diagnostics Inc.",
+      "test_name": "ADVIA Centaur IL6 assay",
+      "test_technology": "One-step Direct Chemiluminescent Immunoassay",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144672/download"
+    },
+    "anot8_org": {
+      "file_id": "1345",
+      "permalink": "https://anot8.org/1772.2/1345"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "quidel corporation__quickvue sars antigen test",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-12-18",
+      "developer_name": "Quidel Corporation",
+      "test_name": "QuickVue SARS Antigen Test",
+      "test_technology": "Antigen Lateral Flow, Visual Read",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144668/download"
+    },
+    "anot8_org": {
+      "file_id": "1341",
+      "permalink": "https://anot8.org/1772.2/1341"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "cepheid__xpert xpress sars-cov-2 dod",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-12-23",
+      "developer_name": "Cepheid",
+      "test_name": "Xpert Xpress SARS-CoV-2 DoD",
+      "test_technology": "Real-time RT-PCR, Pooling",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144793/download"
+    },
+    "anot8_org": {
+      "file_id": "1361",
+      "permalink": "https://anot8.org/1772.2/1361"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "quanterix corporation__simoa semi-quantitative sars-cov-2 igg antibody test",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-12-23",
+      "developer_name": "Quanterix Corporation",
+      "test_name": "Simoa Semi-Quantitative SARS-CoV-2 IgG Antibody Test",
+      "test_technology": "Serology IgG, Paramagnetic Microbead-based Sandwich ELISA, Semi-quantitative",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144764/download"
+    },
+    "anot8_org": {
+      "file_id": "1356",
+      "permalink": "https://anot8.org/1772.2/1356"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "quidel corporation__solana sars-cov-2 assay",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-12-23",
+      "developer_name": "Quidel Corporation",
+      "test_name": "Solana SARS-CoV-2 Assay",
+      "test_technology": "Molecular Isothermal Reverse Transcriptase – Helicase-Dependent Amplification (RT-HDA)",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144759/download"
+    },
+    "anot8_org": {
+      "file_id": "1352",
+      "permalink": "https://anot8.org/1772.2/1352"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "nirmidas biotech, inc.__midaspot covid-19 antibody combo detection kit",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2020-12-31",
+      "developer_name": "Nirmidas Biotech, Inc.",
+      "test_name": "MidaSpot COVID-19 Antibody Combo Detection Kit",
+      "test_technology": "Serology IgM and IgG, lateral flow, Fingerstick Whole Blood",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144877/download"
+    },
+    "anot8_org": {
+      "file_id": "1367",
+      "permalink": "https://anot8.org/1772.2/1367"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "quanterix corporation__simoa sars-cov-2 n protein antigen test",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-01-05",
+      "developer_name": "Quanterix Corporation",
+      "test_name": "Simoa SARS-CoV-2 N Protein Antigen Test",
+      "test_technology": "Antigen Paramagnetic Microbead-based Immunoassay",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/144929/download"
+    },
+    "anot8_org": {
+      "file_id": "1371",
+      "permalink": "https://anot8.org/1772.2/1371"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "siemens healthcare diagnostics inc.__dimension exl sars‑cov‑2 igg (cv2g)",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-01-08",
+      "developer_name": "Siemens Healthcare Diagnostics Inc.",
+      "test_name": "Dimension EXL SARS‑CoV‑2 IgG (CV2G)",
+      "test_technology": "Serology IgG, CLIA, Semi-quantitative",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/145015/download"
+    },
+    "anot8_org": {
+      "file_id": "1377",
+      "permalink": "https://anot8.org/1772.2/1377"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "siemens healthcare diagnostics inc.__dimension vista sars‑cov‑2 igg (cov2g)",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-01-08",
+      "developer_name": "Siemens Healthcare Diagnostics Inc.",
+      "test_name": "Dimension Vista SARS‑CoV‑2 IgG (COV2G)",
+      "test_technology": "Serology IgG, CLIA, Semi-quantitative",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/145020/download"
+    },
+    "anot8_org": {
+      "file_id": "1381",
+      "permalink": "https://anot8.org/1772.2/1381"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "ortho clinical diagnostics, inc.__vitros immunodiagnostic products sars-cov-2 antigen reagent pack",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-01-11",
+      "developer_name": "Ortho Clinical Diagnostics, Inc.",
+      "test_name": "VITROS Immunodiagnostic Products SARS-CoV-2 Antigen Reagent Pack",
+      "test_technology": "Antigen Chemiluminescence Immunoassay, Instrument Read",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/145073/download"
+    },
+    "anot8_org": {
+      "file_id": "1385",
+      "permalink": "https://anot8.org/1772.2/1385"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "phadia ab__elia sars-cov-2-sp1 igg test",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-01-11",
+      "developer_name": "Phadia AB",
+      "test_name": "EliA SARS-CoV-2-Sp1 IgG Test",
+      "test_technology": "Serology IgG, Fluoroenzyme Immunoassay, Semi-quantitative",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/145089/download"
+    },
+    "anot8_org": {
+      "file_id": "1393",
+      "permalink": "https://anot8.org/1772.2/1393"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "advaite, inc.__rapcov rapid covid-19 test",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-01-11",
+      "developer_name": "ADVAITE, Inc.",
+      "test_name": "RapCov Rapid COVID-19 Test",
+      "test_technology": "Serology IgG, Lateral Flow, Fingerstick Whole Blood",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/145080/download"
+    },
+    "anot8_org": {
+      "file_id": "1389",
+      "permalink": "https://anot8.org/1772.2/1389"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "sml genetree co., ltd.__ezplex sars-cov-2 g kit",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-01-13",
+      "developer_name": "SML GENETREE Co., Ltd.",
+      "test_name": "Ezplex SARS-CoV-2 G Kit",
+      "test_technology": "Molecular Real-time RT-PCR, Pooling",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/145134/download"
+    },
+    "anot8_org": {
+      "file_id": "1397",
+      "permalink": "https://anot8.org/1772.2/1397"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "united biomedical, inc.__ubi sars-cov-2 elisa",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-01-15",
+      "developer_name": "United Biomedical, Inc.",
+      "test_name": "UBI SARS-CoV-2 ELISA",
+      "test_technology": "Serology IgG, ELISA",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/145277/download"
+    },
+    "anot8_org": {
+      "file_id": "1403",
+      "permalink": "https://anot8.org/1772.2/1403"
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    }
+  },
+  {
+    "test_id": "bio-rad laboratories, inc.__bio-rad reliance sars-cov-2 rt-pcr assay kit",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-01-15",
+      "developer_name": "Bio-Rad Laboratories, Inc.",
+      "test_name": "Bio-Rad Reliance SARS-CoV-2 RT-PCR Assay Kit",
+      "test_technology": "Molecular Real-time RT-PCR",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/145265/download"
+    },
+    "anot8_org": {
+      "file_id": "1399",
+      "permalink": "https://anot8.org/1772.2/1399"
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
