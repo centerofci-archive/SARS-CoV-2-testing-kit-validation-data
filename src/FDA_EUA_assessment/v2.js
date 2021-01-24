@@ -46,11 +46,14 @@ var get_html_comments_raw_and_references = function (annotations) {
 };
 function ref_link(annotation) {
     var anot8_org_file_id = annotation.anot8_org_file_id, id = annotation.id;
-    var host = localStorage.getItem("anot8_server") || "https://anot8.org";
+    var host = safe_get_local_storage_item("anot8_server") || "https://anot8.org";
     var ref = host + "/r/1772.2/" + anot8_org_file_id;
     if (id !== undefined)
         ref += "?h=" + id;
     return ref;
+}
+function safe_get_local_storage_item(item) {
+    return localStorage && localStorage.getItem(item);
 }
 function html_ref_link(annotation) {
     return "<a href=\"" + ref_link(annotation) + "\">R<a/>";

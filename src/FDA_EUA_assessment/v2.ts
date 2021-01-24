@@ -131,13 +131,20 @@ function ref_link (annotation: { anot8_org_file_id: string, id?: number })
 {
     const { anot8_org_file_id, id } = annotation
 
-    const host = localStorage.getItem("anot8_server") || "https://anot8.org"
+    const host = safe_get_local_storage_item("anot8_server") || "https://anot8.org"
     let ref = `${host}/r/1772.2/${anot8_org_file_id}`
 
     if (id !== undefined) ref += `?h=${id}`
 
     return ref
 }
+
+
+function safe_get_local_storage_item (item: string)
+{
+    return localStorage && localStorage.getItem(item)
+}
+
 
 function html_ref_link (annotation: { anot8_org_file_id: string, id?: number })
 {
