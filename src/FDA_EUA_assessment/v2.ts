@@ -716,7 +716,3 @@ activate_options(table_fields)
 const filtered_data = filter_data_rows_to_remove_serology(merged_data)
 render_table_body(table_fields, filtered_data)
 hide_loading_status()
-
-
-const v2 = 2
-export { v2 }

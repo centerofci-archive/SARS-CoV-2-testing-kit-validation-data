@@ -1,4 +1,3 @@
-"use strict";
 var __assign = (this && this.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -10,8 +9,6 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.v2 = void 0;
 var get_comments_raw_and_references = function (annotations) {
     var raw = [];
     var comments = [];
@@ -553,5 +550,3 @@ activate_options(table_fields);
 var filtered_data = filter_data_rows_to_remove_serology(merged_data);
 render_table_body(table_fields, filtered_data);
 hide_loading_status();
-var v2 = 2;
-exports.v2 = v2;
