@@ -5,6 +5,7 @@
 
 class Labels:
     appropriate_testing_population = "Appropriate testing population"
+    assay = "Assay"
     author = "Author"
     calculated_npa = "Calculated NPA"
     calculated_npa_confidence_interval = "Calculated NPA confidence interval"
@@ -96,7 +97,7 @@ class Labels:
     specimen__synthetic_specimen__other_components = "Specimen/Synthetic Specimen/Other components"
     specimen__synthetic_specimen__production_method = "Specimen/Synthetic Specimen/Production method"
     specimen__synthetic_specimen__swab_type = "Specimen/Synthetic Specimen/Swab type"
-    specimen__synthetic_specimen__transport_medium = "Specimen/Synthetic Specimen/Transport medium"
+    specimen__synthetic_specimen__transport_media = "Specimen/Synthetic Specimen/Transport media"
     specimen__synthetic_specimen__virus = "Specimen/Synthetic Specimen/Virus"
     specimen__synthetic_specimen__virus__source = "Specimen/Synthetic Specimen/Virus/Source"
     specimen__synthetic_specimen__virus__type__antigens = "Specimen/Synthetic Specimen/Virus/Type/Antigens"
@@ -112,7 +113,7 @@ class Labels:
     specimen__transport_conditions__maximum_duration = "Specimen/Transport conditions/Maximum duration"
     specimen__transport_conditions__temperature = "Specimen/Transport conditions/Temperature"
     specimen__transport_containers = "Specimen/Transport container(s)"
-    specimen__transport_medium = "Specimen/Transport medium"
+    specimen__transport_media = "Specimen/Transport media"
     specimen__volume_ul = "Specimen/Volume ul"
     statistics = "Statistics"
     statistics__algorithms = "Statistics/Algorithms"
@@ -128,6 +129,7 @@ class Labels:
     test_technology__description = "Test technology/description"
     third_party_detection_system = "Third party detection system"
     time_to_test_result_in_minutes = "Time to test result in minutes"
+    us_regulatory_status = "US Regulatory Status"
     viral_genes_targetted = "Viral gene(s) targetted"
     viral_proteins_targetted = "Viral protein(s) targetted"
 

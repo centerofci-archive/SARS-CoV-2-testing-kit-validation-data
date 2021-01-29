@@ -25,6 +25,8 @@ Latest data table [live](https://cci-files.s3.eu-west-2.amazonaws.com/sars_2_dia
 
 ### Update labels from config file
 
+Need to run this when labels used by the merge script are changed (or added)
+
     python3 src/common/update_label_files.py
 
 ### FDA EUAs page and related PDF files

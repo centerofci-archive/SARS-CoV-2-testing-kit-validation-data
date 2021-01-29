@@ -1,0 +1,33 @@
+{
+"file_sha1_hash": "a0eff13c2293605ec75165ba8d98f9de195a6c39",
+"annotations": [
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "29px",
+"id": 0,
+"labels": [],
+"left": "130px",
+"page_number": 1,
+"text": "",
+"top": "424px",
+"width": "136px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "34px",
+"id": 1,
+"labels": [
+"US Regulatory Status"
+],
+"left": "425px",
+"page_number": 1,
+"text": "EUA granted Feb 4, 2020; amended Mar 15, 2020",
+"top": "195px",
+"width": "130px"
+}
+],
+"comments": [],
+"schema_version": 5
+}

@@ -9,6 +9,7 @@
   ],
   "labels": [
     "Appropriate testing population",
+    "Assay",
     "Author",
     "Calculated NPA",
     "Calculated NPA confidence interval",
@@ -100,7 +101,7 @@
     "Specimen/Synthetic Specimen/Other components",
     "Specimen/Synthetic Specimen/Production method",
     "Specimen/Synthetic Specimen/Swab type",
-    "Specimen/Synthetic Specimen/Transport medium",
+    "Specimen/Synthetic Specimen/Transport media",
     "Specimen/Synthetic Specimen/Virus",
     "Specimen/Synthetic Specimen/Virus/Source",
     "Specimen/Synthetic Specimen/Virus/Type/Antigens",
@@ -116,7 +117,7 @@
     "Specimen/Transport conditions/Maximum duration",
     "Specimen/Transport conditions/Temperature",
     "Specimen/Transport container(s)",
-    "Specimen/Transport medium",
+    "Specimen/Transport media",
     "Specimen/Volume ul",
     "Statistics",
     "Statistics/Algorithms",
@@ -132,6 +133,7 @@
     "Test technology/description",
     "Third party detection system",
     "Time to test result in minutes",
+    "US Regulatory Status",
     "Viral gene(s) targetted",
     "Viral protein(s) targetted"
   ],

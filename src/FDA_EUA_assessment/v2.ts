@@ -175,7 +175,7 @@ const table_fields: TABLE_FIELDS = [
         category: "test_descriptor",
         children: [
             {
-                title: "Name",
+                title: "Company/Organization",
                 value_renderer: d => ({ parsed: d.FDA_EUAs_list.developer_name }),
             },
             {
@@ -196,6 +196,7 @@ const table_fields: TABLE_FIELDS = [
             {
                 title: "Test technology",
                 value_renderer: d => ({ parsed: d.FDA_EUAs_list.test_technology }),
+                // Also add "Assay"
             },
             {
                 title: "Specimens",
@@ -206,7 +207,7 @@ const table_fields: TABLE_FIELDS = [
                         value_renderer: d => generic_value_renderer(d.self_declared_EUA_data.supported_specimen_types),
                     },
                     {
-                        title: "Transport medium",
+                        title: "Transport media",
                         value_renderer: null,
                         hidden: true,
                     },
