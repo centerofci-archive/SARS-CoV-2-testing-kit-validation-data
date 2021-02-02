@@ -28,6 +28,8 @@ from common import (
 
 from self_declared_EUA_data import get_self_declared_EUA_data
 from amp_survey import get_amp_survey
+from adveritasdx import get_adveritasdx_data_row
+from auto_calculated import auto_calculated
 
 
 # Tests not present on the FDA reference panel website as of 2020-10-13
@@ -52,7 +54,7 @@ temporary_test_ids_not_in_fda_reference_panel_lod_data = set([
     "diasorin, inc.__diasorin liaison sars-cov-2 igm assay",
     "quotient suisse sa__mosaiq covid-19 antibody magazine",
     "genetrack biolabs, inc.__genetrack sars-cov-2 molecular assay",
-    "cepheid__xpert xpress sars-cov-2/flu/rsv 09/24/2020",
+    "cepheid__xpert xpress sars-cov-2/flu/rsv",
     "university of california san diego health__ucsd rc sars-cov-2 assay",
     "poplar healthcare__poplar sars-cov-2 tma pooling assay",
     "ispm labs, llc dba capstone healthcare__genus sars-cov-2 assay",
@@ -80,7 +82,7 @@ temporary_test_ids_not_in_fda_reference_panel_lod_data = set([
     "gk pharmaceuticals contract manufacturing operations__gk accu-right sars-cov-2 rt-pcr kit",
     "diasorin molecular llc__simplexa covid-19 direct",
     "kimforest enterprise co., ltd.__kimforest sars-cov-2 detection kit v1",
-    "clear labs, inc.__clear dx sars-cov-2 test 09/23/2020",
+    "clear labs, inc.__clear dx sars-cov-2 test",
     "gencurix, inc.__genepro sars-cov-2 test",
     "babson diagnostics, inc.__babson diagnostics ac19g1",
     "the kroger co.__kroger health covid-19 test home collection kit",
@@ -97,7 +99,7 @@ temporary_test_ids_not_in_fda_reference_panel_lod_data = set([
     "quidel corporation__sofia 2 sars antigen fia",
     "everlywell, inc.__everlywell covid-19 test home collection kit",
     "roche molecular systems, inc.__cobas sars-cov-2 & influenza a/b nucleic acid test for use on the cobas liat system",
-    "vela operations singapore pte. ltd.__virokey sars-cov-2 rt-pcr test v2.0 09/22/2020",
+    "vela operations singapore pte. ltd.__virokey sars-cov-2 rt-pcr test v2.0",
     "national jewish health__sars-cov-2 massarray test",
     "biofire diagnostics, llc__biofire respiratory panel 2.1-ez (rp2.1-ez)",
 
@@ -144,7 +146,7 @@ temporary_test_ids_not_in_fda_reference_panel_lod_data = set([
     "biocheck, inc.__biocheck sars-cov-2 igm antibody test kit",
     "biocheck, inc.__biocheck sars-cov-2 igg antibody test kit",
     "shenzhen new industries biomedical engineering co., ltd.__maglumi 2019-ncov igm/igg",
-    "jiangsu well biotech co., ltd.__orawell igm/igg rapid test 09/23/2020",
+    "jiangsu well biotech co., ltd.__orawell igm/igg rapid test",
     "bio-rad laboratories__platelia sars-cov-2 total ab assay",
     "vibrant america clinical labs__vibrant covid-19 ab assay",
     "beijing wantai biological pharmacy enterprise co., ltd.__wantai sars-cov-2 ab rapid test",
@@ -154,7 +156,7 @@ temporary_test_ids_not_in_fda_reference_panel_lod_data = set([
     "stanford health care clinical virology laboratory__sars-cov-2 rt-pcr assay",
     "infinity biologix llc__infinity biologix taqpath sars-cov-2 assay",
     "ortho-clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent pack",
-    "color genomics, inc.__color sars-cov-2 rt-lamp diagnostic assay (reissued november 2, 2020)",
+    "color genomics, inc.__color sars-cov-2 rt-lamp diagnostic assay",
     "helix opco llc__helix covid-19 test",
     "genmark diagnostics, inc.__eplex respiratory pathogen panel 2",
     "access bio, inc.__carestart covid-19 antigen test",
@@ -203,6 +205,8 @@ temporary_test_ids_not_in_fda_reference_panel_lod_data = set([
     "sml genetree co., ltd.__ezplex sars-cov-2 g kit",
     "united biomedical, inc.__ubi sars-cov-2 elisa",
     "bio-rad laboratories, inc.__bio-rad reliance sars-cov-2 rt-pcr assay kit",
+    "quadrant biosciences inc.__clarifi covid-19 test kit",
+    "ambry genetics laboratory__ambry covid-19 rt-pcr test",
 ])
 
 
@@ -276,7 +280,9 @@ def get_merged_rows ():
             },
             "self_declared_EUA_data": get_self_declared_EUA_data(annotations_by_label_id),
             "amp_survey": get_amp_survey(test_id),
+            "adveritasdx": get_adveritasdx_data_row(test_id),
         }
+        row["auto_calculated"] = auto_calculated(row)
 
         merged_rows.append(row)
 

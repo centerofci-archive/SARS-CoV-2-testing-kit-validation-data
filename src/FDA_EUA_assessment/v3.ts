@@ -1,5 +1,6 @@
 
-interface MinimalAnnotation
+
+interface MinimalAnnotationV3
 {
     id: number,
     text: string,
@@ -8,13 +9,13 @@ interface MinimalAnnotation
     anot8_org_file_id: string,
 }
 
-interface DATA_NODE
+interface DATA_NODEV3
 {
     parsed: string
-    annotations: MinimalAnnotation[]
+    annotations: MinimalAnnotationV3[]
 }
 
-interface DATA_ROW
+interface DATA_ROWV3
 {
     test_id: string
     FDA_EUAs_list: {
@@ -36,15 +37,15 @@ interface DATA_ROW
         sample_media_type: string
     }
     self_declared_EUA_data: {
-        supported_specimen_types: DATA_NODE
-        target_genes: DATA_NODE
-        controls__human_gene_target: DATA_NODE
-        primer_probe_sequences: DATA_NODE
-        lod_value: DATA_NODE & { min: number, max: number }
-        lod_units: DATA_NODE
-        lod_minimum_replicates: DATA_NODE
-        synthetic_specimen__viral_material: DATA_NODE
-        synthetic_specimen__clinical_matrix: DATA_NODE
+        supported_specimen_types: DATA_NODEV3
+        target_genes: DATA_NODEV3
+        controls__human_gene_target: DATA_NODEV3
+        primer_probe_sequences: DATA_NODEV3
+        lod_value: DATA_NODEV3 & { min: number, max: number }
+        lod_units: DATA_NODEV3
+        lod_minimum_replicates: DATA_NODEV3
+        synthetic_specimen__viral_material: DATA_NODEV3
+        synthetic_specimen__clinical_matrix: DATA_NODEV3
     }
     amp_survey: {
         aug: {
@@ -54,14 +55,114 @@ interface DATA_ROW
             anot8_org_file_id: string,
         }
     }
+    adveritasdx: adveritasdx | undefined
+    auto_calculated:
+    {
+        is_serology: boolean
+    }
 }
 
-declare var merged_data: DATA_ROW[]
 
-
-interface ValueRenderer
+interface adveritasdx
 {
-    (data_row: DATA_ROW): {
+    "ordinal": number
+    "Done? (Y)": string
+    "Company/Organization": string
+    "Test Name": string
+    "Select": string
+    "*URL": string
+    "Test Type (Lab or Kit)": string
+    "Country of Origin": string
+    "US Regulatory Status": string
+    "Category": string
+    "Authorized Setting(s) per FDA": string
+    "Technology": string
+    "Analyte": string
+    "Assay": string
+    "Specimen Type": string
+    "Transport Media": string
+    "Gene": string
+    "Antigen": string
+    "Sample Prep": string
+    "Detection": string
+    "TAT": string
+    "Analytical Sensitivity (LOD)": string
+    "LOD of FDA Reference Panel (NDU/mL)": string
+    "Cross- Reactivity": string
+    "PPA/Sensitivity": string
+    "PPA Sample Size": string
+    "PPA Specimen Type": string
+    "NPA/Specificity": string
+    "NPA Sample Size": string
+    "NPV @ 5% prevalence": string
+    "PPV@ 5% prevalence": string
+    "Manufacturer's Validation Notes": string
+    "External Quality Control": string
+    "Process (internal) Control": string
+    "Positive Control": string
+    "*Publications": string
+    "*IFU": string
+    "*Letter of Authorization (EUA)": string
+    "Creation Date": string
+    "Modified Date": string
+    "Needs Review": string
+}
+type adveritasdx_keys = keyof adveritasdx
+
+const adveritasdx_headers: adveritasdx_keys[] = [
+    "Done? (Y)",
+    "Company/Organization",
+    "Test Name",
+    "Select",
+    "*URL",
+    "Test Type (Lab or Kit)",
+    "Country of Origin",
+    "US Regulatory Status",
+    "Category",
+    "Authorized Setting(s) per FDA",
+    "Technology",
+    "Analyte",
+    "Assay",
+    "Specimen Type",
+    "Transport Media",
+    "Gene",
+    "Antigen",
+    "Sample Prep",
+    "Detection",
+    "TAT",
+    "Analytical Sensitivity (LOD)",
+    "LOD of FDA Reference Panel (NDU/mL)",
+    "Cross- Reactivity",
+    "PPA/Sensitivity",
+    "PPA Sample Size",
+    "PPA Specimen Type",
+    "NPA/Specificity",
+    "NPA Sample Size",
+    "NPV @ 5% prevalence",
+    "PPV@ 5% prevalence",
+    "Manufacturer's Validation Notes",
+    "External Quality Control",
+    "Process (internal) Control",
+    "Positive Control",
+    "*Publications",
+    "*IFU",
+    "*Letter of Authorization (EUA)",
+    "Creation Date",
+    "Modified Date",
+    "Needs Review",
+]
+
+
+declare var merged_dataV3: DATA_ROWV3[]
+
+
+function mainV3 ()
+{
+
+
+interface ValueRendererV3
+{
+    (data_row: DATA_ROWV3): {
         raw?: string
         parsed?: string
         comments?: string
@@ -69,22 +170,22 @@ interface ValueRenderer
     }
 }
 
-interface TABLE_FIELD {
+interface TABLE_FIELDV3 {
     title: string
-    value_renderer: ValueRenderer
+    value_renderer: ValueRendererV3
     hidden?: boolean
 }
-type TABLE_FIELDS =
-(TABLE_FIELD & {
+type TABLE_FIELDSV3 =
+(TABLE_FIELDV3 & {
     category: string
-    children?: (TABLE_FIELD & {
-        children?: TABLE_FIELD[]
+    children?: (TABLE_FIELDV3 & {
+        children?: TABLE_FIELDV3[]
     })[]
 })[]
 
 
 
-const get_comments_raw_and_references = (annotations: MinimalAnnotation[]) =>
+const get_comments_raw_and_references = (annotations: MinimalAnnotationV3[]) =>
 {
     const raw: string[] = []
     const comments: string[] = []
@@ -104,7 +205,7 @@ const get_comments_raw_and_references = (annotations: MinimalAnnotation[]) =>
 }
 
 
-const get_html_comments_raw_and_references = (annotations: MinimalAnnotation[]) =>
+const get_html_comments_raw_and_references = (annotations: MinimalAnnotationV3[]) =>
 {
     const { raw, comments, references } = get_comments_raw_and_references(annotations)
 
@@ -152,14 +253,14 @@ function html_ref_link (annotation: { anot8_org_file_id: string, id?: number })
 }
 
 
-const value_renderer_EUA_URL: ValueRenderer = d =>
+const value_renderer_EUA_URL: ValueRendererV3 = d =>
 {
     const references = `<a href="${d.FDA_EUAs_list.url_to_IFU_or_EUA}">R</a>`
     return { parsed: "&nbsp;", references }
 }
 
 
-const generic_value_renderer = (data_node: DATA_NODE) =>
+const generic_value_renderer = (data_node: DATA_NODEV3) =>
 {
     return {
         parsed: data_node.parsed,
@@ -168,14 +269,32 @@ const generic_value_renderer = (data_node: DATA_NODE) =>
 }
 
 
-const table_fields: TABLE_FIELDS = [
+const adveritasdx_renderer = (field: adveritasdx_keys): ValueRendererV3 => d =>
+{
+    const field_value = (d.adveritasdx || {})[field]
+    const parsed = (field_value || "").toString()
+    return ({ parsed })
+}
+
+
+const table_fields: TABLE_FIELDSV3 = [
+    {
+        title: "AdVeritasDx - CCI linked",
+        value_renderer: d => ({ parsed: d.adveritasdx ? "" : "No" }),
+        category: "",
+    },
+    {
+        title: "Done? (Y)",
+        value_renderer: adveritasdx_renderer("Done? (Y)"),
+        category: "",
+    },
     {
         title: "Developer",
         value_renderer: null,
         category: "test_descriptor",
         children: [
             {
-                title: "Name",
+                title: "Company/Organization",
                 value_renderer: d => ({ parsed: d.FDA_EUAs_list.developer_name }),
             },
             {
@@ -188,6 +307,11 @@ const table_fields: TABLE_FIELDS = [
             }
         ],
     },
+    ...adveritasdx_headers.slice(3).map(field => ({
+        title: field,
+        value_renderer: adveritasdx_renderer(field),
+        category: "",
+    })),
     {
         title: "Claims",
         value_renderer: null,
@@ -196,7 +320,10 @@ const table_fields: TABLE_FIELDS = [
             {
                 title: "Test technology",
                 value_renderer: d => ({ parsed: d.FDA_EUAs_list.test_technology }),
-                // Also add "Assay"
+            },
+            {
+                title: "Assay",
+                value_renderer: null //d => ({ parsed: d.FDA_EUAs_list.assay }),
             },
             {
                 title: "Specimens",
@@ -207,7 +334,7 @@ const table_fields: TABLE_FIELDS = [
                         value_renderer: d => generic_value_renderer(d.self_declared_EUA_data.supported_specimen_types),
                     },
                     {
-                        title: "Transport medium",
+                        title: "Transport media",
                         value_renderer: null,
                         hidden: true,
                     },
@@ -592,22 +719,7 @@ function update_computed_styles (columns_hidden: boolean)
 }
 
 
-
-
-function filter_data_rows_to_remove_serology (data_rows: DATA_ROW[])
-{
-    const filtered_data_rows = data_rows.filter(d => {
-        const tech = d.FDA_EUAs_list.test_technology.toLowerCase()
-        // Finds most of the them.
-        const remove = tech.includes("serology") || tech.includes("igg") || tech.includes("igm") || tech.includes("total antibody") || tech.includes("immunoassay")
-        return !remove
-    })
-
-    return filtered_data_rows
-}
-
-
-function render_table_body (table_fields: TABLE_FIELDS, data_rows: DATA_ROW[])
+function render_table_body (table_fields: TABLE_FIELDS, data_rows: DATA_ROWV3[])
 {
     const table_el = document.getElementById("data_table")
     const tbody_el = table_el.getElementsByTagName("tbody")[0]
@@ -616,7 +728,7 @@ function render_table_body (table_fields: TABLE_FIELDS, data_rows: DATA_ROW[])
     {
         const row = tbody_el.insertRow()
 
-        iterate_lowest_table_field(table_fields, (table_field: TABLE_FIELD) =>
+        iterate_lowest_table_field(table_fields, (table_field: TABLE_FIELDV3) =>
         {
             const cell = row.insertCell()
             cell.className = table_field.hidden ? "hidden value_el" : "value_el"
@@ -647,7 +759,7 @@ function render_table_body (table_fields: TABLE_FIELDS, data_rows: DATA_ROW[])
 }
 
 
-function iterate_lowest_table_field (table_fields: TABLE_FIELDS, func: (table_field: TABLE_FIELD) => void)
+function iterate_lowest_table_field (table_fields: TABLE_FIELDS, func: (table_field: TABLE_FIELDV3) => void)
 {
     for (let i1 = 0; i1 < table_fields.length; ++i1)
     {
@@ -714,6 +826,12 @@ function escape_html (html)
 // Need proper state / store manager
 activate_options(table_fields)
 
-const filtered_data = filter_data_rows_to_remove_serology(merged_data)
-render_table_body(table_fields, filtered_data)
+// const filtered_data = filter_data_rows_to_remove_serology(merged_dataV3)
+const ordered_data = merged_dataV3.sort((a, b) => (a.adveritasdx ? a.adveritasdx.ordinal : -1) < (b.adveritasdx ? b.adveritasdx.ordinal : -1) ? -1 : 1)
+render_table_body(table_fields, ordered_data)
 hide_loading_status()
+document.getElementById("title_suffix").innerText = `(${ordered_data.length})`
+
+}
+
+mainV3()

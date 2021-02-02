@@ -39,6 +39,10 @@ Need to run this when labels used by the merge script are changed (or added)
     python3 src/FDA_reference_panel/get_latest_version.py
     python3 src/FDA_reference_panel/parse_versions.py
 
+### AdveritasDx
+
+    python3 src/AdveritasDx/parse_versions.py
+
 ### Merge data
 
     python3 src/merged_data/merge.py

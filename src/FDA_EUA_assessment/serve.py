@@ -17,7 +17,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index ():
-    return v2()
+    return v3()
 
 
 @app.route("/v1")
@@ -63,7 +63,27 @@ def v2 ():
     with open(src_file_path, "r", encoding="utf8") as f:
         src = f.read()
 
-    html_contents = html_contents.replace("\"<MERGED_DATA>\"", json.dumps(data, ensure_ascii=False))
+    js_data_statement = "const merged_data = " + json.dumps(data, ensure_ascii=False)
+    html_contents = html_contents.replace("\"<MERGED_DATA>\"", js_data_statement)
+    html_contents = html_contents.replace("\"<SRC>\"", src)
+
+    return html_contents
+
+
+@app.route("/v3")
+def v3 ():
+    html_file_path = dir_path + "/v2.html"
+    with open(html_file_path, "r", encoding="utf8") as f:
+        html_contents = f.read()
+
+    data = get_merged_data()
+
+    src_file_path = dir_path + "/v3.js"
+    with open(src_file_path, "r", encoding="utf8") as f:
+        src = f.read()
+
+    js_data_statement = "const merged_dataV3 = " + json.dumps(data, ensure_ascii=False)
+    html_contents = html_contents.replace("\"<MERGED_DATA>\"", js_data_statement)
     html_contents = html_contents.replace("\"<SRC>\"", src)
 
     return html_contents

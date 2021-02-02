@@ -12,7 +12,6 @@ from get_test_id import get_test_id
 from parser import Parser
 
 
-dir_path = os.path.dirname(os.path.realpath(__file__))
 data_path = os.path.join(dir_path, "../../data/FDA_reference_panel")
 html_pages_dir = os.path.join(data_path, "html_pages")
 parsed_dir = os.path.join(data_path, "parsed")

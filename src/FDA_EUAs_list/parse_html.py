@@ -43,6 +43,11 @@ def preprocess_html(html):
     html = re.sub('"/media-base/137163"', '"/media/137163/download"', html)
     html = re.sub("http://wcms-internet.fda.gov/", "/", html)
     html = re.sub("144KV", "144KB", html)
+    html = re.sub(" \(reissued November 2, 2020\)", "", html)
+    html = re.sub(" \(January 26, 2021\) \(75KB\)", "", html)
+
+    # Remove all dates preceeded by a space (these should only be in the titles of tests)
+    html = re.sub(r" \d{2}\/\d{2}\/\d{4}", "", html)
 
     return html
 
