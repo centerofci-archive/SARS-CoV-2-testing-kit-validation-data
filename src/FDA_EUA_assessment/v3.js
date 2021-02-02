@@ -119,6 +119,12 @@ function mainV3() {
     }; };
     var table_fields = __spreadArrays([
         {
+            title: "Export",
+            value_renderer: function (d) { return ({ parsed: "<input type=\"checkbox\" onClick=\"export_toggled(event, '" + d.test_id + "')\"></input>" }); },
+            category: "",
+            disable_click_expand: true,
+        },
+        {
             title: "AdVeritasDx - CCI linked",
             value_renderer: function (d) { return ({ parsed: d.adveritasdx ? "" : "No" }); },
             category: "",
@@ -529,20 +535,54 @@ function mainV3() {
             update_computed_styles(columns_hidden);
             update_header(table_fields, columns_hidden);
         };
+        setup_exporter();
     }
     function update_computed_styles(columns_hidden) {
         var style_el = document.getElementById("computed_style");
         style_el.innerHTML = columns_hidden ? ".hidden { display: none; }" : "";
     }
+    function setup_exporter() {
+        var test_ids_to_export = new Set();
+        var export_button_el = document.getElementById("export_button");
+        export_button_el.onclick = function () {
+            var contents = [];
+            test_ids_to_export.forEach(function (id) {
+                var row = ordered_data.find(function (_a) {
+                    var test_id = _a.test_id;
+                    return test_id === id;
+                });
+                var result = format_row_for_adveritasdx_export(row);
+                if (result)
+                    contents.push(result);
+            });
+            var contents_string = Papa.unparse(contents);
+            var date = date2str(new Date(), "yyyy-MM-dd__hh_mm");
+            var file_name = "export_for_adveritasdx_" + date + ".csv";
+            offer_download(file_name, contents_string);
+        };
+        window.export_toggled = function (e, test_id) {
+            if (e.currentTarget.checked)
+                test_ids_to_export.add(test_id);
+            else
+                test_ids_to_export.delete(test_id);
+            var num = test_ids_to_export.size;
+            export_button_el.disabled = num === 0;
+            export_button_el.value = "Export " + (num ? num + " " : "") + "data rows";
+        };
+    }
+    //
     function render_table_body(table_fields, data_rows) {
         var table_el = document.getElementById("data_table");
         var tbody_el = table_el.getElementsByTagName("tbody")[0];
         data_rows.forEach(function (data_row, i) {
             var row = tbody_el.insertRow();
+            row.setAttribute("data-foo", data_row.test_id);
             iterate_lowest_table_field(table_fields, function (table_field) {
                 var cell = row.insertCell();
                 cell.className = table_field.hidden ? "hidden value_el" : "value_el";
-                cell.addEventListener("click", function () { return cell.classList.toggle("expanded"); });
+                if (!table_field.disable_click_expand) {
+                    cell.addEventListener("click", function () { return cell.classList.toggle("expanded"); });
+                }
                 if (!table_field.value_renderer)
                     return;
                 var contents = table_field.value_renderer(data_row);
@@ -609,6 +649,38 @@ function mainV3() {
         });
         return html;
     }
+    function offer_download(file_name, file_contents) {
+        var element = document.createElement("a");
+        element.setAttribute("href", "data:text/plain;charset=utf-8," + encodeURIComponent(file_contents));
+        element.setAttribute("download", file_name);
+        element.style.display = "none";
+        document.body.appendChild(element);
+        element.click();
+        document.body.removeChild(element);
+    }
+    // https://stackoverflow.com/a/23593278/539490
+    function date2str(date, format) {
+        var z = {
+            M: date.getUTCMonth() + 1,
+            d: date.getUTCDate(),
+            h: date.getUTCHours(),
+            m: date.getUTCMinutes(),
+            s: date.getUTCSeconds()
+        };
+        format = format.replace(/(M+|d+|h+|m+|s+)/g, function (v) {
+            return ((v.length > 1 ? "0" : "") + z[v.slice(-1)]).slice(-2);
+        });
+        return format.replace(/(y+)/g, function (v) {
+            return date.getUTCFullYear().toString().slice(-v.length);
+        });
+    }
+    //
+    function format_row_for_adveritasdx_export(row) {
+        if (!row || !row.adveritasdx)
+            return;
+        return adveritasdx_headers.map(function (header) { return row.adveritasdx[header].toString(); });
+    }
+    //
     // Smells as it contains update for table header due to colspan not being under CSS control
     // Need proper state / store manager
     activate_options(table_fields);

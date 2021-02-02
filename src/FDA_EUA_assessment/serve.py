@@ -72,7 +72,7 @@ def v2 ():
 
 @app.route("/v3")
 def v3 ():
-    html_file_path = dir_path + "/v2.html"
+    html_file_path = dir_path + "/v3.html"
     with open(html_file_path, "r", encoding="utf8") as f:
         html_contents = f.read()
 

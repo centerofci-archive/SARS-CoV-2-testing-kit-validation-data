@@ -154,6 +154,7 @@ const adveritasdx_headers: adveritasdx_keys[] = [
 
 
 declare var merged_dataV3: DATA_ROWV3[]
+declare var Papa: any
 
 
 function mainV3 ()
@@ -174,6 +175,7 @@ interface TABLE_FIELDV3 {
     title: string
     value_renderer: ValueRendererV3
     hidden?: boolean
+    disable_click_expand?: boolean
 }
 type TABLE_FIELDSV3 =
 (TABLE_FIELDV3 & {
@@ -278,6 +280,12 @@ const adveritasdx_renderer = (field: adveritasdx_keys): ValueRendererV3 => d =>
 
 
 const table_fields: TABLE_FIELDSV3 = [
+    {
+        title: "Export",
+        value_renderer: d => ({ parsed: `<input type="checkbox" onClick="export_toggled(event, '${d.test_id}')"></input>` }),
+        category: "",
+        disable_click_expand: true,
+    },
     {
         title: "AdVeritasDx - CCI linked",
         value_renderer: d => ({ parsed: d.adveritasdx ? "" : "No" }),
@@ -710,13 +718,56 @@ function activate_options (table_fields: TABLE_FIELDS)
         update_computed_styles(columns_hidden)
         update_header(table_fields, columns_hidden)
     }
+
+    setup_exporter()
 }
+
 
 function update_computed_styles (columns_hidden: boolean)
 {
     const style_el = document.getElementById("computed_style")
     style_el.innerHTML = columns_hidden ? `.hidden { display: none; }` : ``
 }
+
+
+type CheckboxEvent = Omit<Event, "currentTarget"> & { readonly currentTarget: HTMLInputElement }
+
+function setup_exporter ()
+{
+    const test_ids_to_export = new Set()
+    const export_button_el = document.getElementById("export_button") as HTMLInputElement
+
+    export_button_el.onclick = () =>
+    {
+        const contents: string[][] = []
+        test_ids_to_export.forEach(id =>
+        {
+            const row = ordered_data.find(({ test_id }) => test_id === id)
+            const result = format_row_for_adveritasdx_export(row)
+            if (result) contents.push(result)
+        })
+
+        const contents_string = Papa.unparse(contents)
+
+        const date = date2str(new Date(), "yyyy-MM-dd__hh_mm")
+        const file_name = `export_for_adveritasdx_${date}.csv`
+
+        offer_download(file_name, contents_string)
+    }
+
+    ;(window as any).export_toggled = (e: CheckboxEvent, test_id: string) =>
+    {
+        if (e.currentTarget.checked) test_ids_to_export.add(test_id)
+        else test_ids_to_export.delete(test_id)
+
+        const num = test_ids_to_export.size
+        export_button_el.disabled = num === 0
+        export_button_el.value = `Export ${num ? `${num} ` : ""}data rows`
+    }
+}
+
+
+//
 
 
 function render_table_body (table_fields: TABLE_FIELDS, data_rows: DATA_ROWV3[])
@@ -727,12 +778,16 @@ function render_table_body (table_fields: TABLE_FIELDS, data_rows: DATA_ROWV3[])
     data_rows.forEach((data_row, i) =>
     {
         const row = tbody_el.insertRow()
+        row.setAttribute("data-foo", data_row.test_id)
 
         iterate_lowest_table_field(table_fields, (table_field: TABLE_FIELDV3) =>
         {
             const cell = row.insertCell()
             cell.className = table_field.hidden ? "hidden value_el" : "value_el"
-            cell.addEventListener("click", () => cell.classList.toggle("expanded"))
+            if (!table_field.disable_click_expand)
+            {
+                cell.addEventListener("click", () => cell.classList.toggle("expanded"))
+            }
 
             if (!table_field.value_renderer) return
 
@@ -822,6 +877,55 @@ function escape_html (html)
 }
 
 
+function offer_download (file_name, file_contents)
+{
+    const element = document.createElement("a")
+    element.setAttribute("href", "data:text/plain;charset=utf-8," + encodeURIComponent(file_contents))
+    element.setAttribute("download", file_name)
+
+    element.style.display = "none"
+    document.body.appendChild(element)
+
+    element.click()
+
+    document.body.removeChild(element)
+}
+
+
+// https://stackoverflow.com/a/23593278/539490
+function date2str (date: Date, format: string)
+{
+    const z: any = {
+        M: date.getUTCMonth() + 1,
+        d: date.getUTCDate(),
+        h: date.getUTCHours(),
+        m: date.getUTCMinutes(),
+        s: date.getUTCSeconds()
+    }
+    format = format.replace(/(M+|d+|h+|m+|s+)/g, function (v) {
+        return ((v.length > 1 ? "0" : "") + z[v.slice(-1)]).slice(-2)
+    })
+
+    return format.replace(/(y+)/g, function(v) {
+        return date.getUTCFullYear().toString().slice(-v.length)
+    })
+}
+
+
+//
+
+
+function format_row_for_adveritasdx_export (row: DATA_ROWV3)
+{
+    if (!row || !row.adveritasdx) return
+
+    return adveritasdx_headers.map(header => row.adveritasdx[header].toString())
+}
+
+
+//
+
+
 // Smells as it contains update for table header due to colspan not being under CSS control
 // Need proper state / store manager
 activate_options(table_fields)
@@ -831,6 +935,7 @@ const ordered_data = merged_dataV3.sort((a, b) => (a.adveritasdx ? a.adveritasdx
 render_table_body(table_fields, ordered_data)
 hide_loading_status()
 document.getElementById("title_suffix").innerText = `(${ordered_data.length})`
+
 
 }
 
