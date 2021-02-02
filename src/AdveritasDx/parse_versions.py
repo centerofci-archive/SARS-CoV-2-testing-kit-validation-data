@@ -151,7 +151,10 @@ def parse_versions ():
 
     for file_name in file_names:
         print("Parsing AdVeritasDx CSVs: {}".format(file_name))
-        with open(csv_from_adveritasdx_dir + "/" + file_name, "r", encoding="utf8") as f:
+        file_path = csv_from_adveritasdx_dir + "/" + file_name
+        if os.path.isdir(file_path):
+            continue 
+        with open(file_path, "r", encoding="utf8") as f:
             parsed_result = parse_csv(f)
 
         check_headers(parsed_result)
@@ -159,6 +162,7 @@ def parse_versions ():
         cleaned_data = clean_data(parsed_result)
 
         json_data = data_to_json(cleaned_data)
+ 
         print("Extracted {} rows".format(len(json_data)))
 
         map_test_ids(json_data)
