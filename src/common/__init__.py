@@ -17,9 +17,11 @@ from common.FDA_reference_panel_lod_data import (
 from common.paths import (
     dir_path,
     DATA_DIRECTORY_EUAs,
+    DATA_DIRECTORY_EUA_PDFs,
     DATA_FILE_PATH_EUAs_LATEST_PARSED_DATA,
     DATA_FILE_PATH_merged_data,
     DATA_FILE_PATH_summarised_data,
+    get_FDA_EUA_pdf_file_id_from_FDA_url,
     get_FDA_EUA_pdf_file_path_from_FDA_url,
     get_anot8_org_file_id_from_FDA_url,
     get_anot8_org_permalink_from_FDA_url,

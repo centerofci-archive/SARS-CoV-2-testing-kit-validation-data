@@ -1,3 +1,4 @@
+from datetime import datetime
 import json
 import os
 import re
@@ -11,6 +12,7 @@ ANOT8_VAULT_CONFIG = DATA_DIR_PATH + "anot8_vault_config.json"
 
 
 DATA_DIRECTORY_EUAs = DATA_DIR_PATH + "FDA-EUA/"
+DATA_DIRECTORY_EUA_PDFs = DATA_DIRECTORY_EUAs + "PDFs/"
 DATA_FILE_PATH_EUAs_LATEST_PARSED_DATA = DATA_DIRECTORY_EUAs + "parsed/latest.json"
 
 
@@ -30,7 +32,7 @@ ANOT8_ORG_NAMING_AUTHORITY_ID = "1772"
 ANOT8_ORG_VAULT_ID = "2"
 
 
-def get_FDA_EUA_pdf_file_name_from_FDA_url (FDA_url):
+def get_FDA_EUA_pdf_file_id_from_FDA_url (FDA_url):
     matches = re.match("https://www.fda.gov/media/(\d+)/download", FDA_url)
     try:
         file_id = matches.groups()[0]
@@ -41,11 +43,20 @@ def get_FDA_EUA_pdf_file_name_from_FDA_url (FDA_url):
     return file_id
 
 
-def get_FDA_EUA_pdf_file_path_from_FDA_url (FDA_url):
-    file_name = get_FDA_EUA_pdf_file_name_from_FDA_url(FDA_url)
-    file_path = DATA_DIRECTORY_EUAs + "PDFs/{}.pdf".format(file_name)
+def get_FDA_EUA_pdf_file_path_from_FDA_url (FDA_url, add_datetime = ""):
+    file_id = get_FDA_EUA_pdf_file_id_from_FDA_url(FDA_url)
+
+    if type(add_datetime) is bool:
+        dt = datetime.now()
+        add_datetime = format_datetime_as_version(dt)
+
+    file_path = DATA_DIRECTORY_EUAs + "PDFs/{}{}.pdf".format(add_datetime, file_id)
 
     return file_path
+
+
+def format_datetime_as_version (dt):
+    return dt.strftime("%Y-%m-%d__%H-%M__")
 
 
 def get_anot8_org_file_id_from_FDA_url (FDA_url, error_on_absence=True):
