@@ -257,7 +257,8 @@ function html_ref_link (annotation: { anot8_org_file_id: string, id?: number })
 
 const value_renderer_EUA_URL: ValueRendererV3 = d =>
 {
-    const references = `<a href="${d.FDA_EUAs_list.url_to_IFU_or_EUA}">R</a>`
+    const references = `<a href="${ref_link({ anot8_org_file_id: d.anot8_org.file_id })}">Perma Link</a>
+    <a href="${d.FDA_EUAs_list.url_to_IFU_or_EUA}">FDA site (likely wrong)</a>`
     return { parsed: "&nbsp;", references }
 }
 

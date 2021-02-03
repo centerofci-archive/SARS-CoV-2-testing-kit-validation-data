@@ -106,7 +106,7 @@ function mainV3() {
         return "<a href=\"" + ref_link(annotation) + "\">R<a/>";
     }
     var value_renderer_EUA_URL = function (d) {
-        var references = "<a href=\"" + d.FDA_EUAs_list.url_to_IFU_or_EUA + "\">R</a>";
+        var references = "<a href=\"" + ref_link({ anot8_org_file_id: d.anot8_org.file_id }) + "\">Perma Link</a>\n    <a href=\"" + d.FDA_EUAs_list.url_to_IFU_or_EUA + "\">FDA site (likely wrong)</a>";
         return { parsed: "&nbsp;", references: references };
     };
     var generic_value_renderer = function (data_node) {
