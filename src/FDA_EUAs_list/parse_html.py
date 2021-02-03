@@ -1,17 +1,20 @@
 import json
 import os
 import re
+import sys
 
 from parsers import DiagnosticsParser, IVDiagnosticsParser, HighComplexityDiagnosticsParser
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
-data_path = dir_path + "/../../data/FDA-EUA/"
+sys.path.insert(0, dir_path + "/..")
+
+from common import DATA_DIRECTORY_EUAs
 
 
 def get_files_to_parse():
     files = []
 
-    root_path = data_path + "html_pages"
+    root_path = DATA_DIRECTORY_EUAs + "html_pages"
     for file_name in os.listdir(root_path):
         if file_name.startswith("."):
             continue
@@ -119,7 +122,7 @@ def check_test_ids_are_unique(data_rows):
 
 
 def store_results(file_name, data_rows):
-    json_file_path_for_parsed_data = data_path + "parsed/{}.json".format(file_name)
+    json_file_path_for_parsed_data = DATA_DIRECTORY_EUAs + "parsed/{}.json".format(file_name)
     with open(json_file_path_for_parsed_data, "w", encoding="utf8") as f:
         json.dump(data_rows, f, indent=4, ensure_ascii=False)
 
