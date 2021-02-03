@@ -15,6 +15,7 @@
     "Calculated NPA confidence interval",
     "Calculated PPA",
     "Calculated PPA confidence interval",
+    "Category",
     "Comparator test",
     "Compatible equipment",
     "Confusion matrix",
@@ -1545,8 +1546,22 @@
       "1403": "FDA-EUA/PDFs/145277.pdf",
       "1404": "FDA-EUA/PDFs/145280.pdf",
       "1405": "FDA-EUA/PDFs/145281.pdf",
-      "1406": "FDA-EUA/PDFs/145332.pdf"
+      "1406": "FDA-EUA/PDFs/145332.pdf",
+      "1407": "FDA-EUA/PDFs/145406.pdf",
+      "1408": "FDA-EUA/PDFs/145407.pdf",
+      "1409": "FDA-EUA/PDFs/145408.pdf",
+      "1410": "FDA-EUA/PDFs/145409.pdf",
+      "1411": "FDA-EUA/PDFs/145410.pdf",
+      "1412": "FDA-EUA/PDFs/145411.pdf",
+      "1413": "FDA-EUA/PDFs/145412.pdf",
+      "1414": "FDA-EUA/PDFs/145434.pdf",
+      "1415": "FDA-EUA/PDFs/145461.pdf",
+      "1416": "FDA-EUA/PDFs/145462.pdf",
+      "1417": "FDA-EUA/PDFs/145463.pdf",
+      "1418": "FDA-EUA/PDFs/145516.pdf",
+      "1419": "FDA-EUA/PDFs/145517.pdf",
+      "1420": "FDA-EUA/PDFs/145542.pdf"
     },
-    "next_id": 1407
+    "next_id": 1421
   }
 }

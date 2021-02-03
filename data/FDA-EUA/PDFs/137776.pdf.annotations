@@ -186,18 +186,30 @@
 "width": "85px"
 },
 {
-"id": 13,
-"page_number": 4,
-"left": "263px",
-"top": "1011px",
-"width": "205px",
-"height": "28px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "",
+"comment": "",
+"height": "28px",
+"id": 13,
 "labels": [
 "Primers and probes/Sequences",
 "Primers and probes/Sequences/Not specified"
 ],
+"left": "263px",
+"page_number": 4,
+"text": "",
+"top": "1011px",
+"width": "205px"
+},
+{
+"id": 14,
+"page_number": 1,
+"left": "121px",
+"top": "37px",
+"width": "317px",
+"height": "53px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [],
 "comment": ""
 }
 ],
