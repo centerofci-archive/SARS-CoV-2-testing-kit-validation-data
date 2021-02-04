@@ -1,0 +1,263 @@
+{
+"file_sha1_hash": "ccaa977eaaaa627de6b5767614707f5b10743c30",
+"annotations": [
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "34px",
+"id": 0,
+"labels": [
+"Test name"
+],
+"left": "297px",
+"page_number": 1,
+"text": "UBI SARS-CoV-2 ELISA",
+"top": "128px",
+"width": "333px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "35px",
+"id": 1,
+"labels": [
+"Assay"
+],
+"left": "614px",
+"page_number": 1,
+"text": "ELISA",
+"top": "398px",
+"width": "46px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "20px",
+"id": 2,
+"labels": [
+"Analyte"
+],
+"left": "190px",
+"page_number": 1,
+"text": "IgG",
+"top": "430px",
+"width": "34px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "77px",
+"id": 3,
+"labels": [
+"Technology"
+],
+"left": "732px",
+"page_number": 1,
+"text": "Serology",
+"top": "283px",
+"width": "66px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "17px",
+"id": 4,
+"labels": [
+"Specimen"
+],
+"left": "420px",
+"page_number": 1,
+"text": "Ser, Pla",
+"top": "432px",
+"width": "186px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "16px",
+"id": 5,
+"labels": [
+"Transport Media"
+],
+"left": "615px",
+"page_number": 1,
+"text": "sodium heparin, dipotassium EDTA",
+"top": "433px",
+"width": "221px"
+},
+{
+"deleted": true,
+"id": 6
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "18px",
+"id": 7,
+"labels": [
+"Antigen"
+],
+"left": "96px",
+"page_number": 1,
+"text": "S, N, M",
+"top": "986px",
+"width": "340px"
+},
+{
+"id": 8,
+"page_number": 2,
+"left": "511px",
+"top": "354px",
+"width": "128px",
+"height": "27px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "Any Microplate Reader ",
+"labels": [
+"Detection"
+],
+"comment": ""
+},
+{
+"id": 9,
+"page_number": 2,
+"left": "19px",
+"top": "374px",
+"width": "43px",
+"height": "46px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "Manual",
+"labels": [
+"Sample Prep"
+],
+"comment": ""
+},
+{
+"id": 10,
+"page_number": 3,
+"left": "136px",
+"top": "138px",
+"width": "255px",
+"height": "25px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "Not included",
+"labels": [
+"Positive Control"
+],
+"comment": ""
+},
+{
+"id": 11,
+"page_number": 2,
+"left": "99px",
+"top": "510px",
+"width": "162px",
+"height": "25px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "Included",
+"labels": [
+"Controls/Internal"
+],
+"comment": ""
+},
+{
+"id": 12,
+"page_number": 2,
+"left": "90px",
+"top": "568px",
+"width": "146px",
+"height": "30px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "Included",
+"labels": [
+"External Quality Control"
+],
+"comment": ""
+},
+{
+"id": 13,
+"page_number": 9,
+"left": "96px",
+"top": "632px",
+"width": "166px",
+"height": "27px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "No cross-reactivity in wet lab testing of  Respiratory Syncytial viruses and ANA",
+"labels": [
+"Cross- Reactivity"
+],
+"comment": ""
+},
+{
+"id": 14,
+"page_number": 10,
+"left": "612px",
+"top": "279px",
+"width": "67px",
+"height": "38px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "100%",
+"labels": [
+"Calculated PPA/Sensitivity"
+],
+"comment": ""
+},
+{
+"id": 15,
+"page_number": 10,
+"left": "311px",
+"top": "278px",
+"width": "44px",
+"height": "31px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "53",
+"labels": [
+"PPA Sample Size"
+],
+"comment": ""
+},
+{
+"id": 16,
+"page_number": 10,
+"left": "527px",
+"top": "33px",
+"width": "43px",
+"height": "37px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "Clinical",
+"labels": [
+"PPA Specimen Type"
+],
+"comment": ""
+},
+{
+"id": 17,
+"page_number": 10,
+"left": "137px",
+"top": "451px",
+"width": "54px",
+"height": "37px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "154",
+"labels": [
+"NPA Sample Size"
+],
+"comment": ""
+},
+{
+"id": 18,
+"page_number": 10,
+"left": "390px",
+"top": "443px",
+"width": "66px",
+"height": "50px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "100%",
+"labels": [
+"Calculated NPA/Specificity"
+],
+"comment": ""
+}
+],
+"comments": [],
+"schema_version": 5
+}
