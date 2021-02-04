@@ -1,0 +1,267 @@
+{
+"file_sha1_hash": "9e5f62b3501c9264428e6f839b6bfd5564a4cc6c",
+"annotations": [
+{
+"deleted": true,
+"id": 0
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "34px",
+"id": 1,
+"labels": [
+"Company/Organization"
+],
+"left": "564px",
+"page_number": 1,
+"text": " Ambry Genetics Laboratory ",
+"top": "243px",
+"width": "223px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "22px",
+"id": 2,
+"labels": [
+"Category"
+],
+"left": "718px",
+"page_number": 1,
+"text": "Laboratory",
+"top": "279px",
+"width": "112px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "40px",
+"id": 3,
+"labels": [
+"Technology"
+],
+"left": "741px",
+"page_number": 1,
+"text": "Molecular",
+"top": "161px",
+"width": "82px"
+},
+{
+"deleted": true,
+"id": 4
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "44px",
+"id": 5,
+"labels": [
+"Transport Media"
+],
+"left": "81px",
+"page_number": 1,
+"text": "DNA Genotek OMNIgene·ORAL OM-505/OME-505 saliva collection device",
+"top": "455px",
+"width": "721px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "23px",
+"id": 6,
+"labels": [
+"Viral gene(s) targetted"
+],
+"left": "98px",
+"page_number": 6,
+"text": "ORF1ab, N, S",
+"top": "656px",
+"width": "224px"
+},
+{
+"deleted": true,
+"id": 7
+},
+{
+"deleted": true,
+"id": 8
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "32px",
+"id": 9,
+"labels": [
+"Sample Prep"
+],
+"left": "465px",
+"page_number": 2,
+"text": " Thermo Fisher MagMAX Viral/Pathogen and TaqPath COVID-19 Combo Kit ",
+"top": "647px",
+"width": "258px"
+},
+{
+"deleted": true,
+"id": 10
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "22px",
+"id": 11,
+"labels": [
+"Detection"
+],
+"left": "101px",
+"page_number": 6,
+"text": "Applied Biosystems 7500 Fast Dx",
+"top": "373px",
+"width": "273px"
+},
+{
+"deleted": true,
+"id": 12
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "21px",
+"id": 13,
+"labels": [
+"PPA Sample Size"
+],
+"left": "442px",
+"page_number": 9,
+"text": "31",
+"top": "229px",
+"width": "29px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "23px",
+"id": 14,
+"labels": [
+"NPA Sample Size"
+],
+"left": "582px",
+"page_number": 9,
+"text": "34",
+"top": "226px",
+"width": "42px"
+},
+{
+"deleted": true,
+"id": 15
+},
+{
+"deleted": true,
+"id": 16
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "34px",
+"id": 17,
+"labels": [
+"Limit of Detection (LOD)"
+],
+"left": "598px",
+"page_number": 8,
+"text": "100 copies/mL",
+"top": "398px",
+"width": "114px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "19px",
+"id": 18,
+"labels": [
+"Calculated PPA/Sensitivity"
+],
+"left": "402px",
+"page_number": 9,
+"text": "96.8%",
+"top": "249px",
+"width": "50px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "33px",
+"id": 19,
+"labels": [
+"Calculated NPA/Specificity"
+],
+"left": "396px",
+"page_number": 9,
+"text": "100%",
+"top": "269px",
+"width": "51px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "56px",
+"id": 20,
+"labels": [
+"PPA Specimen Type"
+],
+"left": "673px",
+"page_number": 9,
+"text": "Clinical",
+"top": "41px",
+"width": "59px"
+},
+{
+"deleted": true,
+"id": 21
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "25px",
+"id": 22,
+"labels": [
+"Positive Control"
+],
+"left": "100px",
+"page_number": 6,
+"text": "Included",
+"top": "632px",
+"width": "154px"
+},
+{
+"id": 23,
+"page_number": 6,
+"left": "456px",
+"top": "530px",
+"width": "120px",
+"height": "25px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "Included",
+"labels": [
+"Controls/Internal"
+],
+"comment": ""
+},
+{
+"id": 24,
+"page_number": 6,
+"left": "580px",
+"top": "530px",
+"width": "38px",
+"height": "33px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "MS2",
+"labels": [
+"Controls/Internal/Human gene target"
+],
+"comment": ""
+}
+],
+"comments": [],
+"schema_version": 5
+}
