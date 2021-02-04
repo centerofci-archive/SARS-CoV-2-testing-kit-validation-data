@@ -175,7 +175,6 @@
         [
             "https://www.fda.gov/media/136487/download",
             "https://www.fda.gov/media/140607/download",
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data",
             "https://www.fda.gov/media/143750/download"
         ]
     ],
@@ -276,8 +275,7 @@
         "",
         [
             "https://www.fda.gov/media/136856/download",
-            "https://www.fda.gov/media/140985/download",
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
+            "https://www.fda.gov/media/140985/download"
         ]
     ],
     [
@@ -352,7 +350,6 @@
         [],
         "https://www.fda.gov/media/136453/download",
         [
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data",
             "https://www.fda.gov/media/142444/download"
         ]
     ],
@@ -446,8 +443,7 @@
         ],
         "",
         [
-            "https://www.fda.gov/media/137355/download",
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
+            "https://www.fda.gov/media/137355/download"
         ]
     ],
     [
@@ -807,9 +803,7 @@
         "https://www.fda.gov/media/136600/download",
         [],
         "https://www.fda.gov/media/136880/download",
-        [
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
-        ]
+        []
     ],
     [
         "pathology/laboratory medicine lab of baptist hospital miami__covid-19 rt-pcr test",
@@ -824,9 +818,7 @@
         "https://www.fda.gov/media/136600/download",
         [],
         "https://www.fda.gov/media/136944/download",
-        [
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
-        ]
+        []
     ],
     [
         "integrity laboratories__sars-cov-2 assay",
@@ -891,9 +883,7 @@
         "https://www.fda.gov/media/136600/download",
         [],
         "https://www.fda.gov/media/136971/download",
-        [
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
-        ]
+        []
     ],
     [
         "maccura biotechnology (usa) llc__sars-cov-2 fluorescent pcr kit",
@@ -942,9 +932,7 @@
         "https://www.fda.gov/media/136600/download",
         [],
         "https://www.fda.gov/media/137034/download",
-        [
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
-        ]
+        []
     ],
     [
         "hackensack university medical center (humc) molecular pathology laboratory__cdi enhanced covid-19 test",
@@ -959,9 +947,7 @@
         "https://www.fda.gov/media/136600/download",
         [],
         "https://www.fda.gov/media/137036/download",
-        [
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
-        ]
+        []
     ],
     [
         "genosensor, llc__gs covid-19 rt-pcr kit",
@@ -1325,9 +1311,7 @@
             "https://www.fda.gov/media/137489/download"
         ],
         "",
-        [
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
-        ]
+        []
     ],
     [
         "bio-rad laboratories__platelia sars-cov-2 total ab assay",
@@ -1546,9 +1530,7 @@
             "https://www.fda.gov/media/137746/download"
         ],
         "",
-        [
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
-        ]
+        []
     ],
     [
         "biomérieux sa__sars-cov-2 r-gene",
@@ -1714,7 +1696,6 @@
         [
             "https://www.fda.gov/media/139870/download",
             "https://www.fda.gov/media/140666/download",
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data",
             "https://www.fda.gov/media/143938/download"
         ]
     ],
@@ -1783,9 +1764,7 @@
             "https://www.fda.gov/media/138100/download"
         ],
         "",
-        [
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
-        ]
+        []
     ],
     [
         "everlywell, inc.__everlywell covid-19 test home collection kit",
@@ -1840,9 +1819,7 @@
             "https://www.fda.gov/media/141342/download"
         ],
         "https://www.fda.gov/media/138154/download",
-        [
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
-        ]
+        []
     ],
     [
         "quidel corporation__lyra direct sars-cov-2 assay",
@@ -1893,9 +1870,7 @@
             "https://www.fda.gov/media/138290/download"
         ],
         "",
-        [
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
-        ]
+        []
     ],
     [
         "solgent co., ltd.__diaplexq novel coronavirus (2019-ncov) detection kit",
@@ -1986,8 +1961,7 @@
         ],
         "https://www.fda.gov/media/138328/download",
         [
-            "https://www.fda.gov/media/141671/download",
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
+            "https://www.fda.gov/media/141671/download"
         ]
     ],
     [
@@ -2106,8 +2080,7 @@
         [],
         "https://www.fda.gov/media/138530/download",
         [
-            "https://www.fda.gov/media/139668/download",
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
+            "https://www.fda.gov/media/139668/download"
         ]
     ],
     [
@@ -2259,9 +2232,7 @@
             "https://www.fda.gov/media/138761/download"
         ],
         "",
-        [
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
-        ]
+        []
     ],
     [
         "siemens healthcare diagnostics inc.__dimension exl sars-cov-2 total antibody assay (cv2t)",
@@ -2337,9 +2308,7 @@
             "https://www.fda.gov/media/138786/download"
         ],
         "",
-        [
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
-        ]
+        []
     ],
     [
         "warrior diagnostics, inc.__warrior diagnostics sars-cov-2 assay",
@@ -2660,9 +2629,7 @@
         "https://www.fda.gov/media/139436/download",
         [],
         "https://www.fda.gov/media/139434/download",
-        [
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
-        ]
+        []
     ],
     [
         "babson diagnostics, inc.__babson diagnostics ac19g1",
@@ -2803,9 +2770,7 @@
         "https://www.fda.gov/media/139671/download",
         [],
         "https://www.fda.gov/media/139672/download",
-        [
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
-        ]
+        []
     ],
     [
         "the kroger co.__kroger health covid-19 test home collection kit",
@@ -2854,9 +2819,7 @@
         "https://www.fda.gov/media/139675/download",
         [],
         "https://www.fda.gov/media/139676/download",
-        [
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
-        ]
+        []
     ],
     [
         "inbios international, inc.__scov-2 detect igm elisa",
@@ -2906,7 +2869,6 @@
         ],
         "",
         [
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data",
             "https://www.fda.gov/media/143936/download",
             "https://www.fda.gov/media/145009/download"
         ]
@@ -3161,9 +3123,7 @@
             "https://www.fda.gov/media/140069/download"
         ],
         "",
-        [
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
-        ]
+        []
     ],
     [
         "salofa oy__sienna-clarity coviblock covid-19 igg/igm rapid test cassette",
@@ -3247,8 +3207,7 @@
         [],
         "https://www.fda.gov/media/140259/download",
         [
-            "https://www.fda.gov/media/141827/download",
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
+            "https://www.fda.gov/media/141827/download"
         ]
     ],
     [
@@ -3542,8 +3501,7 @@
         "https://www.fda.gov/media/140780/download",
         [
             "https://www.fda.gov/media/141058/download",
-            "https://www.fda.gov/media/142305/download",
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
+            "https://www.fda.gov/media/142305/download"
         ]
     ],
     [
@@ -3936,7 +3894,6 @@
         ],
         "",
         [
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data",
             "https://www.fda.gov/media/143636/download",
             "https://www.fda.gov/media/145010/download"
         ]
@@ -4020,9 +3977,7 @@
         "https://www.fda.gov/media/141664/download",
         [],
         "https://www.fda.gov/media/141665/download",
-        [
-            "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data"
-        ]
+        []
     ],
     [
         "baycare laboratories, llc__baycare sars-cov-2 rt pcr assay",

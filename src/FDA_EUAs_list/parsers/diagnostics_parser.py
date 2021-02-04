@@ -64,7 +64,12 @@ class DiagnosticsParser(HTMLParser):
         elif tag == "a":
             self.current_a_tag = attrs
             self.current_a_tag_url = next(x[1] for x in self.current_a_tag if x[0] == "href")
-            if self.current_a_tag_url.startswith("/"):
+
+            # Filter out this URL
+            if self.current_a_tag_url == "/medical-devices/coronavirus-covid-19-and-medical-devices/sars-cov-2-reference-panel-comparative-data":
+                self.current_a_tag_url = None
+
+            elif self.current_a_tag_url.startswith("/"):
                 self.current_a_tag_url = "https://www.fda.gov" + self.current_a_tag_url
 
         else:
@@ -179,7 +184,9 @@ class DiagnosticsParser(HTMLParser):
                     pass
                 elif not data:
                     pass
-                elif "reposted to include results of testing with the FDA SARS-CoV-2 Reference Panel" in data:
+                elif (
+                    "reposted to include results of testing with the FDA SARS-CoV-2 Reference Panel" in data
+                    or "SARS-CoV-2 Reference Panel Comparative Data" in data):
                     pass
                 elif re.match("[()\s]+\d+KB", data):
                     pass
