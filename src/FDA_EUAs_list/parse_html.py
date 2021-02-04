@@ -32,25 +32,26 @@ def get_files_to_parse():
 
 def preprocess_html(html):
     # simplify
-    html = re.sub("</?em>", "", html)
-    html = re.sub("<br />", " ", html)
-    html = re.sub("\s+", " ", html)
+    html = re.sub("</?em>", "", html, flags=re.IGNORECASE)
+    html = re.sub("<br />", " ", html, flags=re.IGNORECASE)
+    html = re.sub("\s+", " ", html, flags=re.IGNORECASE)
     # normalise
-    html = re.sub("None currelty", "None currently", html)
-    html = re.sub("144KB0", "144KB)", html)
-    html = re.sub("<span\s*class=\"file-size\">396KB\)</span>", "396KB)", html)
-    html = re.sub("394KB</td>", "394KB)</td>", html)
-    html = re.sub("116KB<", "116KB)<", html)
-    html = re.sub('"/media/136656"', '"/media/136656/download"', html)
-    html = re.sub('"/media-base/137162"', '"/media/137162/download"', html)
-    html = re.sub('"/media-base/137163"', '"/media/137163/download"', html)
-    html = re.sub("http://wcms-internet.fda.gov/", "/", html)
-    html = re.sub("144KV", "144KB", html)
-    html = re.sub(" \(reissued November 2, 2020\)", "", html)
-    html = re.sub(" \(January 26, 2021\) \(75KB\)", "", html)
+    html = re.sub("None currelty", "None currently", html, flags=re.IGNORECASE)
+    html = re.sub("144KB0", "144KB)", html, flags=re.IGNORECASE)
+    html = re.sub("<span\s*class=\"file-size\">396KB\)</span>", "396KB)", html, flags=re.IGNORECASE)
+    html = re.sub("394KB</td>", "394KB)</td>", html, flags=re.IGNORECASE)
+    html = re.sub("116KB<", "116KB)<", html, flags=re.IGNORECASE)
+    html = re.sub('"/media/136656"', '"/media/136656/download"', html, flags=re.IGNORECASE)
+    html = re.sub('"/media-base/137162"', '"/media/137162/download"', html, flags=re.IGNORECASE)
+    html = re.sub('"/media-base/137163"', '"/media/137163/download"', html, flags=re.IGNORECASE)
+    html = re.sub("http://wcms-internet.fda.gov/", "/", html, flags=re.IGNORECASE)
+    html = re.sub("144KV", "144KB", html, flags=re.IGNORECASE)
+    html = re.sub(" \(reissued November 2, 2020\)", "", html, flags=re.IGNORECASE)
+    html = re.sub(" \(reissued July 24, 2020\)", "", html, flags=re.IGNORECASE)
+    html = re.sub(" \(January 26, 2021\) \(75KB\)", "", html, flags=re.IGNORECASE)
 
     # Remove all dates preceeded by a space (these should only be in the titles of tests)
-    html = re.sub(r" \d{2}\/\d{2}\/\d{4}", "", html)
+    html = re.sub(r" \d{2}\/\d{2}\/\d{4}", "", html, flags=re.IGNORECASE)
 
     return html
 

@@ -94,8 +94,6 @@ map_reference_panel_test_id_to_EUA_list_test_id = {
     "biofire diagnostics, llc__biofire respiratory panel 2.1-ez (rp2.1-ez)": "biofire diagnostics, llc__biofire respiratory panel 2.1 (rp2.1)",
 
     "opti medical systems, inc.__opti sars-cov-2 rt pcr test": "opti medical systems, inc.__opti sars-cov-2 rt pcr test",
-
-    "color genomics, inc.__color genomics sars-cov-2 rt-lamp diagnostic assay": "color genomics, inc.__color genomics sars-cov-2 rt-lamp diagnostic assay (reissued july 24, 2020)",
 }
 def map_test_ids(parsed_result):
     # Ignore headers
