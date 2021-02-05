@@ -36,7 +36,48 @@ def parse_csv (csv_file_descriptor):
 DATA_KEY__developer_name = "Company/Organization"
 DATA_KEY__test_name = "Test Name"
 expected_headers = [
-    "Done? (Y)", DATA_KEY__developer_name, DATA_KEY__test_name, "Select", "*URL", "Test Type (Lab or Kit)", "Country of Origin", "US Regulatory Status", "Category", "Authorized Setting(s) per FDA", "Technology", "Analyte", "Assay", "Specimen Type", "Transport Media", "Gene", "Antigen", "Sample Prep", "Detection", "TAT", "Analytical Sensitivity (LOD)", "LOD of FDA Reference Panel (NDU/mL)", "Cross- Reactivity", "PPA/Sensitivity", "PPA Sample Size", "PPA Specimen Type", "NPA/Specificity", "NPA Sample Size", "NPV @ 5% prevalence", "PPV@ 5% prevalence", "Manufacturer's Validation Notes", "External Quality Control", "Process (internal) Control", "Positive Control", "*Publications", "*IFU", "*Letter of Authorization (EUA)", "Creation Date", "Modified Date", "", "", "Needs Review"
+    "Done? (Y)",
+    DATA_KEY__developer_name,
+    DATA_KEY__test_name,
+    "Select",
+    "*URL",
+    "Test Type (Lab or Kit)",
+    "Country of Origin",
+    "US Regulatory Status",
+    "Category",
+    "Authorized Setting(s) per FDA",
+    "Technology",
+    "Analyte",
+    "Assay",
+    "Specimen Type",
+    "Transport Media",
+    "Gene",
+    "Antigen",
+    "Sample Prep",
+    "Detection",
+    "TAT",
+    "Analytical Sensitivity (LOD)",
+    "LOD of FDA Reference Panel (NDU/mL)",
+    "Cross- Reactivity",
+    "PPA/Sensitivity",
+    "PPA Sample Size",
+    "PPA Specimen Type",
+    "NPA/Specificity",
+    "NPA Sample Size",
+    "NPV @ 5% prevalence",
+    "PPV@ 5% prevalence",
+    "Manufacturer's Validation Notes",
+    "External Quality Control",
+    "Process (internal) Control",
+    "Positive Control",
+    "*Publications",
+    "*IFU",
+    "*Letter of Authorization (EUA)",
+    "Creation Date",
+    "Modified Date",
+    "",
+    "",
+    "Needs Review"
 ]
 
 
@@ -153,7 +194,7 @@ def parse_versions ():
         print("Parsing AdVeritasDx CSVs: {}".format(file_name))
         file_path = csv_from_adveritasdx_dir + "/" + file_name
         if os.path.isdir(file_path):
-            continue 
+            continue
         with open(file_path, "r", encoding="utf8") as f:
             parsed_result = parse_csv(f)
 
@@ -162,7 +203,7 @@ def parse_versions ():
         cleaned_data = clean_data(parsed_result)
 
         json_data = data_to_json(cleaned_data)
- 
+
         print("Extracted {} rows".format(len(json_data)))
 
         map_test_ids(json_data)

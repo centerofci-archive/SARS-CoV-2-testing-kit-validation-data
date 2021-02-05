@@ -55,9 +55,25 @@ def get_adveritasdx_data_row (test_id, annotations_by_label_id):
     if data_row is None:
         print("Missing test_id in AdVeritasDx data: " + test_id)
 
-    mutate_data_node(data_row, "Analyte", Labels.analyte, annotations_by_label_id)
-    mutate_data_node(data_row, "Assay", Labels.assay, annotations_by_label_id)
-    mutate_data_node(data_row, "Antigen", Labels.antigen, annotations_by_label_id)
+    _mutate_data_node = factory_mutate_data_node(data_row, annotations_by_label_id)
+
+    _mutate_data_node("Analyte", Labels.analyte)
+    _mutate_data_node("Assay", Labels.assay)
+    _mutate_data_node("Antigen", Labels.antigen)
+    _mutate_data_node("Category", Labels.category)
+    _mutate_data_node("NPA/Specificity", Labels.calculated_npa__specificity)
+    _mutate_data_node("PPA/Sensitivity", Labels.calculated_ppa__sensitivity)
+    _mutate_data_node("Company/Organization", Labels.company__organization)
+    _mutate_data_node("Cross- Reactivity", Labels.cross_reactivity)
+    _mutate_data_node("Detection", Labels.detection)
+    _mutate_data_node("External Quality Control", Labels.external_quality_control)
+    _mutate_data_node("NPA Sample Size", Labels.npa_sample_size)
+    _mutate_data_node("Positive Control", Labels.positive_control)
+    _mutate_data_node("PPA Sample Size", Labels.ppa_sample_size)
+    _mutate_data_node("PPA Specimen Type", Labels.ppa_specimen_type)
+    _mutate_data_node("Sample Prep", Labels.sample_prep)
+    _mutate_data_node("Technology", Labels.technology)
+    _mutate_data_node("Transport Media", Labels.transport_media)
 
     return data_row
 
@@ -79,3 +95,10 @@ def mutate_data_node (row, key, label, annotations_by_label_id):
         data_node["annotations"] = minimal_annotations(annotations)
 
     row[key] = data_node
+
+
+def factory_mutate_data_node (row, annotations_by_label_id):
+    def _mutate_data_node (key, label):
+        mutate_data_node(row, key, label, annotations_by_label_id)
+
+    return _mutate_data_node
