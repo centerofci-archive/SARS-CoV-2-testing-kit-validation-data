@@ -61,6 +61,7 @@ def get_adveritasdx_data_row (test_id, annotations_by_label_id):
 
     mutate_data_node(data_row, "Analyte", Labels.analyte, annotations_by_label_id)
     mutate_data_node(data_row, "Assay", Labels.assay, annotations_by_label_id)
+    mutate_data_node(data_row, "Antigen", Labels.antigen, annotations_by_label_id)
 
     return data_row
 
