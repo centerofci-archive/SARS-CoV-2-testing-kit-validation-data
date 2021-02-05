@@ -74,3 +74,13 @@ Remember to:
 
     npm run watch
 
+
+### Files, URLs, ids, versions, etc
+
+The FDA html pages have urls like `https://www.fda.gov/media/123456/download`
+
+We call that number `123456` the `FDA_file_id`.  The FDA do not make it unique, either to a specific version of a file (they have mutate files and left them on the same `FDA_file_id`) or to the same file (they have deleted files and then uploaded new files re-using a vaccated `FDA_file_id`).
+
+We store a dated version of this file at: `FDA-EUA/PDFs/2020-01-31__23-59__123456.pdf`, the `versioned_file_path`.
+
+And associate this with an `anot8_file_id` like `123`.

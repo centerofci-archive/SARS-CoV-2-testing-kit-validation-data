@@ -9,18 +9,18 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 sys.path.insert(0, dir_path + "/..")
 
 from common import (
-    get_fda_eua_parsed_data,
     filter_for_urls,
-    get_FDA_EUA_pdf_file_id_from_FDA_url,
-    get_FDA_EUA_pdf_file_path_from_FDA_url,
+    get_FDA_file_id_from_FDA_url,
     DATA_DIRECTORY_EUA_PDFs,
 )
+
+from FDA_EUAs_list.FDA_EUAs_parsed_data import get_latest_fda_eua_parsed_data
 
 
 DELAY_SECONDS_BETWEEN_REQUESTS = 2
 
 
-def check_urls_are_unique(urls):
+def check_urls_are_unique (urls):
     duplicated_urls = []
     known_duplicate_urls = [
         "https://www.fda.gov/media/137741/download",  # error?
@@ -44,27 +44,27 @@ def check_urls_are_unique(urls):
         raise Exception("ERROR: not all urls are unique: ", duplicated_urls)
 
 
-def get_map_of_existing_versions ():
-    map_of_existing_versions = dict()
+def get_FDA_file_id_to_versioned_file_paths_map ():
+    FDA_file_id_to_versioned_file_paths_map = dict()
 
     for file_path in os.listdir(DATA_DIRECTORY_EUA_PDFs):
         if os.path.isdir(file_path):
             continue
 
-        root_file_id = file_path.split("_")[-1].replace(".pdf", "")
-        if root_file_id not in map_of_existing_versions:
-            map_of_existing_versions[root_file_id] = []
+        FDA_file_id = file_path.split("_")[-1].replace(".pdf", "")
+        if FDA_file_id not in FDA_file_id_to_versioned_file_paths_map:
+            FDA_file_id_to_versioned_file_paths_map[FDA_file_id] = []
 
-        map_of_existing_versions[root_file_id].append(file_path)
+        FDA_file_id_to_versioned_file_paths_map[FDA_file_id].append(file_path)
 
-    return map_of_existing_versions
+    return FDA_file_id_to_versioned_file_paths_map
 
 
-def download_urls (urls, map_of_existing_versions, shallow_check=True):
+def download_urls (urls, FDA_file_id_to_versioned_file_paths_map, shallow_check=True):
     for url in urls:
 
-        file_id = get_FDA_EUA_pdf_file_id_from_FDA_url(url)
-        existing_versions = map_of_existing_versions[file_id]
+        FDA_file_id = get_FDA_file_id_from_FDA_url(url)
+        existing_versions = FDA_file_id_to_versioned_file_paths_map[FDA_file_id]
 
         if existing_versions and shallow_check:
             print("Skipping: " + url)
@@ -84,12 +84,12 @@ def download_urls (urls, map_of_existing_versions, shallow_check=True):
             else:
                 print("y - Saving a new version.")
 
-        file_path_with_date = get_FDA_EUA_pdf_file_path_from_FDA_url(url, add_datetime=True)
-        with open(file_path_with_date, "wb") as f:
+        versioned_absolute_file_path = get_FDA_url_to_FDA_PDF_versioned_absolute_file_path(url)
+        with open(versioned_absolute_file_path, "wb") as f:
             f.write(request.content)
 
 
-def hash_matches_existing_versions(new_contents, existing_versions):
+def hash_matches_existing_versions (new_contents, existing_versions):
     match = None
 
     new_contents_hash = sha1_hash_string(new_contents)
@@ -128,22 +128,25 @@ def sha1_hash_file (file_descriptor):
     return sha1.hexdigest()
 
 
-def deprecated_main():
-    fda_eua_parsed_data = deprecated_get_fda_eua_parsed_data(merged=False)
-    urls = filter_for_urls(fda_eua_parsed_data["fda_eua_iv_parsed_data"])
-    urls += filter_for_urls(fda_eua_parsed_data["fda_eua_high_complexity_parsed_data"])
-    print("Extracted {} urls to download".format(len(urls)))
-    check_urls_are_unique(urls)
-    download_urls(urls)
+
+def get_FDA_url_to_FDA_PDF_versioned_absolute_file_path (FDA_url):
+    FDA_file_id = get_FDA_file_id_from_FDA_url(FDA_url)
+
+    datetime_version = datetime.now().strftime("%Y-%m-%d__%H-%M")
+
+    versioned_absolute_file_path = DATA_DIRECTORY_EUAs + "PDFs/{}__{}.pdf".format(datetime_version, FDA_file_id)
+
+    return versioned_absolute_file_path
 
 
-def main():
-    fda_eua_parsed_data = get_fda_eua_parsed_data()
+
+def main (shallow_check):
+    fda_eua_parsed_data = get_latest_fda_eua_parsed_data()
     urls = filter_for_urls(fda_eua_parsed_data)
     print("Extracted {} urls to download".format(len(urls)))
     check_urls_are_unique(urls)
-    map_of_existing_versions = get_map_of_existing_versions()
-    download_urls(urls, map_of_existing_versions, shallow_check=False)
+    FDA_file_id_to_versioned_file_paths_map = get_FDA_file_id_to_versioned_file_paths_map()
+    download_urls(urls, FDA_file_id_to_versioned_file_paths_map, shallow_check=shallow_check)
 
 
-main()
+main(shallow_check = False)
