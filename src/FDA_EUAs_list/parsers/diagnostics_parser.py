@@ -51,9 +51,10 @@ class DiagnosticsParser(HTMLParser):
 
         # print("Got tag: ", tag)
         if tag == "tr":
-            self.current_row = [""] * len(self.HEADERS)
-            self.current_row[10] = []  # can be multiple IFUs
-            self.current_row[12] = []  # can be multiple Amendments
+            self.current_row = dict(zip(self.HEADERS, [""] * len(self.HEADERS)))
+            # set fields which can contain multiple values
+            self.current_row["Information for Use (IFU) (URL to PDF)"] = []
+            self.current_row["Amendments and Other Documents (PDF)"] = []
             self.data_position = -1
 
         elif tag == "td":
@@ -86,7 +87,7 @@ class DiagnosticsParser(HTMLParser):
 
         elif tag == "tr":
             test_id = get_test_id(self.current_row_entity_name, self.current_row_test_name)
-            self.current_row[0] = test_id
+            self.current_row["test_id"] = test_id
             self.rows.append(self.current_row)
             self.current_row = None
 
@@ -95,8 +96,7 @@ class DiagnosticsParser(HTMLParser):
 
         elif tag == "tbody":
             self.state = ParserState.FINISHED
-            self.rows = sorted(self.rows, key=lambda row: row[1])
-            self.rows.insert(0, self.HEADERS)
+            self.rows = sorted(self.rows, key=lambda row: row["Date EUA First Issued"])
 
 
     def handle_data(self, data):
@@ -107,29 +107,29 @@ class DiagnosticsParser(HTMLParser):
             return
 
         if self.data_position == 0:
-            if self.current_row[1]:
+            if self.current_row["Date EUA First Issued"]:
                 raise Exception("Only expecting one value for date")
-            self.current_row[1] = parse_date(data)
+            self.current_row["Date EUA First Issued"] = parse_date(data)
 
         elif self.data_position == 1:
-            if self.current_row[2]:
+            if self.current_row["Most recent revision"]:
                 raise Exception("Only expecting one value for most recent revision data")
-            self.current_row[2] = parse_date(data)
+            self.current_row["Most recent revision"] = parse_date(data)
 
         elif self.data_position == 2:
-            if self.current_row[3]:
+            if self.current_row["Entity"]:
                 raise Exception("Only expecting one value for Entity name")
-            self.current_row[3] = data
+            self.current_row["Entity"] = data
             self.current_row_entity_name = data
 
         elif self.data_position == 3:
 
             if not data:
                 pass
-            elif not self.current_row[4]:
-                self.current_row[4] = data
+            elif not self.current_row["Diagnostic name"]:
+                self.current_row["Diagnostic name"] = data
                 self.current_row_test_name = data
-                self.current_row[5] = self.current_a_tag_url
+                self.current_row["Most Recent Letter of Authorization (URL to PDF)"] = self.current_a_tag_url
             elif self.data_subposition == 1 or self.data_subposition == 2:
                 pass
             else:
@@ -139,39 +139,39 @@ class DiagnosticsParser(HTMLParser):
 
         # Technology
         elif self.data_position == 4:
-            if self.current_row[6]:
+            if self.current_row["Technology"]:
                 raise Exception("Only expecting one value for Technology")
-            self.current_row[6] = data
+            self.current_row["Technology"] = data
 
         # Authorised Settings
         elif self.data_position == 5:
-            if self.current_row[7]:
+            if self.current_row["Authorized Setting(s)"]:
                 raise Exception("Only expecting one value for Authorised Settings")
-            self.current_row[7] = data
+            self.current_row["Authorized Setting(s)"] = data
 
         # Authorization Labeling & "extra"
         elif self.data_position == 6:
             if data == "HCP":
-                if self.current_row[8]:
+                if self.current_row["Fact Sheet for Healthcare Providers (HCP) (URL to PDF)"]:
                     raise Exception("Only expecting one value for HCP Fact Sheet URL")
-                self.current_row[8] = self.current_a_tag_url
+                self.current_row["Fact Sheet for Healthcare Providers (HCP) (URL to PDF)"] = self.current_a_tag_url
             elif "Patient" in data or data == "Recipient" or data == "Recipients":
-                if not self.current_row[9]:
-                    self.current_row[9] = self.current_a_tag_url
+                if not self.current_row["Fact Sheet for Patients / Recipients (URL to PDF)"]:
+                    self.current_row["Fact Sheet for Patients / Recipients (URL to PDF)"] = self.current_a_tag_url
                 else:
                     print("Warning: multiple values for Patient / Recipients Fact Sheet URL")
 
             elif "IFU" in data:
-                # if len(self.current_row[10]):
-                #     print("Warning: multiple values for IFU URL for " + self.current_row[1])
+                # if len(self.current_row["Information for Use (IFU) (URL to PDF)"]):
+                #     print("Warning: multiple values for IFU URL for " + self.current_row["Date EUA First Issued"])
                 if self.current_a_tag_url is None:
                     raise Exception("current_a_tag_url can not be None")
-                self.current_row[10].append(self.current_a_tag_url)
+                self.current_row["Information for Use (IFU) (URL to PDF)"].append(self.current_a_tag_url)
                 self.current_a_tag_url = None
             elif data == "EUA Summary":
-                if self.current_row[11]:
+                if self.current_row["Emergency Use Authorisation (URL to PDF)"]:
                     raise Exception("Only expecting one value for EUA Summary URL")
-                self.current_row[11] = self.current_a_tag_url
+                self.current_row["Emergency Use Authorisation (URL to PDF)"] = self.current_a_tag_url
             elif "B)" in data:
                 pass
             elif data:
@@ -198,7 +198,7 @@ class DiagnosticsParser(HTMLParser):
                 elif "B)" in data:
                     pass
                 elif data:
-                    self.current_row[12].append(self.current_a_tag_url)
+                    self.current_row["Amendments and Other Documents (PDF)"].append(self.current_a_tag_url)
                     self.current_a_tag_url = None
 
         elif self.data_position == 8:

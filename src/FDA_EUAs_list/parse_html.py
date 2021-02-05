@@ -8,7 +8,7 @@ from parsers import DiagnosticsParser, IVDiagnosticsParser, HighComplexityDiagno
 dir_path = os.path.dirname(os.path.realpath(__file__))
 sys.path.insert(0, dir_path + "/..")
 
-from common import DATA_DIRECTORY_EUAs
+from common import DATA_DIRECTORY_EUAs, json_data_to_flat_list
 
 
 def get_files_to_parse():
@@ -61,7 +61,9 @@ def parse_html(html):
     diagnostics_parser.feed(html)
     diagnostics_data_rows = diagnostics_parser.rows
 
-    return diagnostics_data_rows
+    headers = diagnostics_parser.HEADERS
+
+    return { "rows": diagnostics_data_rows, "headers": headers }
 
 
 def deprecated_parse_html_2020_08_18(html):
@@ -104,14 +106,11 @@ def deprecated_merge_data(iv_diagnostics_data_rows, high_complexity_diagnostics_
 
 
 def check_test_ids_are_unique(data_rows):
-    # skip first row as it is headers
-    data_rows = data_rows[1:]
-
     test_ids = set()
     duplicates = set()
 
     for data_row in data_rows:
-        test_id = data_row[0]
+        test_id = data_row["test_id"]
 
         if test_id in test_ids:
             duplicates.add(test_id)
@@ -122,10 +121,13 @@ def check_test_ids_are_unique(data_rows):
         raise Exception("Found {} duplicates: {}".format(len(duplicates), duplicates))
 
 
-def store_results(file_name, data_rows):
-    json_file_path_for_parsed_data = DATA_DIRECTORY_EUAs + "parsed/{}.json".format(file_name)
-    with open(json_file_path_for_parsed_data, "w", encoding="utf8") as f:
-        json.dump(data_rows, f, indent=4, ensure_ascii=False)
+def store_results(file_name, data_rows, headers):
+    file_path_for_parsed_data = DATA_DIRECTORY_EUAs + "parsed/{}.json".format(file_name)
+
+    flat_data_rows = json_data_to_flat_list(data_rows, headers=headers)
+
+    with open(file_path_for_parsed_data, "w", encoding="utf8") as f:
+        json.dump(flat_data_rows, f, indent=4, ensure_ascii=False)
 
 
 def deprecated_main_2020_08_18():
@@ -157,9 +159,9 @@ def main():
 
         html = preprocess_html(file_contents)
         results = parse_html(html)
-        check_test_ids_are_unique(results)
+        check_test_ids_are_unique(results["rows"])
 
-        store_results(file_name, results)
+        store_results(file_name, results["rows"], results["headers"])
 
 
 main()
