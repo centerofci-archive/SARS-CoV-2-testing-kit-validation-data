@@ -113,7 +113,19 @@ function mainV3() {
         return "<a href=\"" + ref_link(annotation) + "\">R<a/>";
     }
     var value_renderer_EUA_URL = function (d) {
-        var references = "<a href=\"" + ref_link({ anot8_org_file_id: d.anot8_org.file_id }) + "\">Perma Link</a>\n    <a href=\"" + d.FDA_EUAs_list.url_to_IFU_or_EUA + "\">FDA site (likely wrong)</a>";
+        var file_ids = d.anot8_org.file_ids_of_annotated;
+        var references = file_ids.length ? "Perma Links: <a href=\"" + ref_link({ anot8_org_file_id: file_ids[0] }) + "\">1</a> " : "";
+        if (file_ids.length > 1) {
+            file_ids.slice(1).forEach(function (file_id, index) { return references += "<a href=\"" + ref_link({ anot8_org_file_id: file_id }) + "\">" + (index + 2) + "</a> "; });
+        }
+        if (d.anot8_org.file_ids_of_unannotated.length) {
+            references += " <br /> Other: ";
+            var offset_1 = d.anot8_org.file_ids_of_annotated.length + 1;
+            d.anot8_org.file_ids_of_unannotated.forEach(function (file_id, index) {
+                references += "<a href=\"" + ref_link({ anot8_org_file_id: file_id }) + "\">" + (index + offset_1) + "</a> ";
+            });
+        }
+        references += " <br /> <a href=\"" + d.FDA_EUAs_list.url_to_IFU_or_EUA + "\">FDA site</a>";
         return { parsed: "&nbsp;", references: references };
     };
     var generic_value_renderer = function (data_node) {

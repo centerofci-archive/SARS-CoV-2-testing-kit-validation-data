@@ -55,10 +55,6 @@ def get_adveritasdx_data_row (test_id, annotations_by_label_id):
     if data_row is None:
         print("Missing test_id in AdVeritasDx data: " + test_id)
 
-    if test_id == "united biomedical, inc.__ubi sars-cov-2 elisa":
-        print(annotations_by_label_id.get(Labels.analyte, []))
-
-
     mutate_data_node(data_row, "Analyte", Labels.analyte, annotations_by_label_id)
     mutate_data_node(data_row, "Assay", Labels.assay, annotations_by_label_id)
     mutate_data_node(data_row, "Antigen", Labels.antigen, annotations_by_label_id)

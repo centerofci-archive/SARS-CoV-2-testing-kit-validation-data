@@ -26,8 +26,8 @@ interface DATA_ROWV3
         url_to_IFU_or_EUA: string
     }
     anot8_org: {
-        file_id: string | null
-        permalink: string | null
+        file_ids_of_annotated: string[]
+        file_ids_of_unannotated: string[]
     }
     fda_reference_panel_lod_data: {
         different_developer_name: string
@@ -272,8 +272,25 @@ function html_ref_link (annotation: { anot8_org_file_id: string, id?: number })
 
 const value_renderer_EUA_URL: ValueRendererV3 = d =>
 {
-    const references = `<a href="${ref_link({ anot8_org_file_id: d.anot8_org.file_id })}">Perma Link</a>
-    <a href="${d.FDA_EUAs_list.url_to_IFU_or_EUA}">FDA site (likely wrong)</a>`
+    const file_ids = d.anot8_org.file_ids_of_annotated
+    let references = file_ids.length ? `Perma Links: <a href="${ref_link({ anot8_org_file_id: file_ids[0] })}">1</a> ` : ""
+    if (file_ids.length > 1)
+    {
+        file_ids.slice(1).forEach((file_id, index) => references += `<a href="${ref_link({ anot8_org_file_id: file_id })}">${index + 2}</a> `)
+    }
+
+    if (d.anot8_org.file_ids_of_unannotated.length)
+    {
+        references += " <br /> Other: "
+        const offset = d.anot8_org.file_ids_of_annotated.length + 1
+        d.anot8_org.file_ids_of_unannotated.forEach((file_id, index) =>
+        {
+            references += `<a href="${ref_link({ anot8_org_file_id: file_id })}">${index + offset}</a> `
+        })
+    }
+
+
+    references += ` <br /> <a href="${d.FDA_EUAs_list.url_to_IFU_or_EUA}">FDA site</a>`
     return { parsed: "&nbsp;", references }
 }
 
@@ -671,7 +688,7 @@ const table_fields: TABLE_FIELDSV3 = [
 ]
 
 
-function update_header (table_fields: TABLE_FIELDS, columns_hidden: boolean)
+function update_header (table_fields: TABLE_FIELDSV3, columns_hidden: boolean)
 {
     const table_el = document.getElementById("data_table")
     const thead_el = table_el.getElementsByTagName("thead")[0]
@@ -734,7 +751,7 @@ function update_header (table_fields: TABLE_FIELDS, columns_hidden: boolean)
 }
 
 
-function activate_options (table_fields: TABLE_FIELDS)
+function activate_options (table_fields: TABLE_FIELDSV3)
 {
     let cells_expanded = false
     document.getElementById("toggle_expanded_cells").onclick = () =>
@@ -812,7 +829,7 @@ function setup_exporter ()
 //
 
 
-function render_table_body (table_fields: TABLE_FIELDS, data_rows: DATA_ROWV3[])
+function render_table_body (table_fields: TABLE_FIELDSV3, data_rows: DATA_ROWV3[])
 {
     const table_el = document.getElementById("data_table")
     const tbody_el = table_el.getElementsByTagName("tbody")[0]
@@ -856,7 +873,7 @@ function render_table_body (table_fields: TABLE_FIELDS, data_rows: DATA_ROWV3[])
 }
 
 
-function iterate_lowest_table_field (table_fields: TABLE_FIELDS, func: (table_field: TABLE_FIELDV3) => void)
+function iterate_lowest_table_field (table_fields: TABLE_FIELDSV3, func: (table_field: TABLE_FIELDV3) => void)
 {
     for (let i1 = 0; i1 < table_fields.length; ++i1)
     {

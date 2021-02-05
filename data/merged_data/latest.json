@@ -9,10 +9,21 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/134922/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "155",
+      "file_ids_of_annotated": [
+        "134",
+        "155"
+      ],
+      "file_ids_of_unannotated": [
+        "156",
         "157",
-        "134"
+        "157",
+        "227",
+        "582",
+        "737",
+        "1421",
+        "1422",
+        "1423",
+        "1424"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -238,8 +249,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/135847/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "77"
+      ],
+      "file_ids_of_unannotated": [
+        "158",
+        "159",
+        "160",
+        "167"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -464,8 +481,19 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136049/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "140"
+      ],
+      "file_ids_of_unannotated": [
+        "161",
+        "162",
+        "163",
+        "228",
+        "445",
+        "1425",
+        "1426",
+        "1427",
+        "1428"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -691,8 +719,22 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136112/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "29"
+      ],
+      "file_ids_of_unannotated": [
+        "164",
+        "165",
+        "166",
+        "206",
+        "322",
+        "427",
+        "764",
+        "1267",
+        "1429",
+        "1430",
+        "1431",
+        "1432"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -898,8 +940,19 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136156/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "97"
+      ],
+      "file_ids_of_unannotated": [
+        "171",
+        "172",
+        "173",
+        "345",
+        "1413",
+        "1437",
+        "1438",
+        "1439",
+        "1440"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -1106,9 +1159,24 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139732/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "103",
-        "109"
+      "file_ids_of_annotated": [
+        "103"
+      ],
+      "file_ids_of_unannotated": [
+        "168",
+        "169",
+        "170",
+        "676",
+        "291",
+        "677",
+        "109",
+        "109",
+        "1433",
+        "1434",
+        "1435",
+        "1436",
+        "1441",
+        "1762"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -1345,8 +1413,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136227/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "72"
+      ],
+      "file_ids_of_unannotated": [
+        "174",
+        "176",
+        "175",
+        "196",
+        "268"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -1552,8 +1627,19 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136231/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "57"
+      ],
+      "file_ids_of_unannotated": [
+        "177",
+        "178",
+        "179",
+        "488",
+        "213",
+        "804",
+        "1248",
+        "1442",
+        "1443"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -1761,8 +1847,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136258/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "85"
+      ],
+      "file_ids_of_unannotated": [
+        "180",
+        "181",
+        "182",
+        "326",
+        "812"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -1968,8 +2061,16 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136286/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "43"
+      ],
+      "file_ids_of_unannotated": [
+        "186",
+        "187",
+        "188",
+        "214",
+        "280",
+        "539"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -2231,8 +2332,17 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136282/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "129"
+      ],
+      "file_ids_of_unannotated": [
+        "183",
+        "184",
+        "185",
+        "905",
+        "1444",
+        "1445",
+        "1446"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -2440,8 +2550,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136309/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "108"
+      ],
+      "file_ids_of_unannotated": [
+        "189",
+        "190",
+        "191",
+        "269"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -2648,8 +2764,21 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136314/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "22"
+      ],
+      "file_ids_of_unannotated": [
+        "192",
+        "193",
+        "194",
+        "195",
+        "270",
+        "870",
+        "1447",
+        "1448",
+        "1449",
+        "1450",
+        "1451"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -2864,8 +2993,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136353/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "28"
+      ],
+      "file_ids_of_unannotated": [
+        "200",
+        "201",
+        "202",
+        "374",
+        "1455",
+        "1457",
+        "1458",
+        "1459"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -3072,8 +3211,19 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136355/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "71"
+      ],
+      "file_ids_of_unannotated": [
+        "197",
+        "198",
+        "199",
+        "373",
+        "927",
+        "1452",
+        "1453",
+        "1454",
+        "1456"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -3327,8 +3477,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136410/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "136"
+      ],
+      "file_ids_of_unannotated": [
+        "203",
+        "204",
+        "205",
+        "232",
+        "1460",
+        "1461",
+        "1462",
+        "1463"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -3545,8 +3705,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136453/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "75"
+      ],
+      "file_ids_of_unannotated": [
+        "207",
+        "208",
+        "209",
+        "1080",
+        "1464"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -3763,8 +3930,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136472/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "82"
+      ],
+      "file_ids_of_unannotated": [
+        "210",
+        "211",
+        "212",
+        "335",
+        "1465",
+        "1466",
+        "1467",
+        "1468"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -4013,8 +4190,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136525/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "143"
+      ],
+      "file_ids_of_unannotated": [
+        "218",
+        "219",
+        "220",
+        "326",
+        "1470",
+        "1471",
+        "1472",
+        "1473"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -4239,8 +4426,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136500/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "81"
+      ],
+      "file_ids_of_unannotated": [
+        "215",
+        "216",
+        "217",
+        "1469"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -4449,8 +4642,19 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136565/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "125"
+      ],
+      "file_ids_of_unannotated": [
+        "222",
+        "221",
+        "223",
+        "336",
+        "1412",
+        "1474",
+        "1475",
+        "1476",
+        "1477"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -4675,8 +4879,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136571/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "8"
+      ],
+      "file_ids_of_unannotated": [
+        "224",
+        "225",
+        "226",
+        "336",
+        "1478"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -4883,8 +5094,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136602/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "24"
+      ],
+      "file_ids_of_unannotated": [
+        "229",
+        "230",
+        "231",
+        "521"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -5109,7 +5326,12 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136625/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "236",
+        "237",
+        "238",
+        "92",
         "92"
       ]
     },
@@ -5234,8 +5456,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136621/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "14"
+      ],
+      "file_ids_of_unannotated": [
+        "233",
+        "234",
+        "235"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -5462,8 +5689,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136653/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "36"
+      ],
+      "file_ids_of_unannotated": [
+        "239",
+        "240",
+        "241",
+        "505",
+        "1479"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -5689,8 +5923,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136656/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "122"
+      ],
+      "file_ids_of_unannotated": [
+        "229",
+        "230",
+        "242"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -5909,8 +6148,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136669/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "4"
+      ],
+      "file_ids_of_unannotated": [
+        "229",
+        "230",
+        "243"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -6121,8 +6365,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136693/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "114"
+      ],
+      "file_ids_of_unannotated": [
+        "250",
+        "251",
+        "252",
+        "432",
+        "1480"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -6338,8 +6589,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136691/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "9"
+      ],
+      "file_ids_of_unannotated": [
+        "247",
+        "248",
+        "249",
+        "540",
+        "1066",
+        "1481",
+        "1482",
+        "1483"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -6555,8 +6816,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136687/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "15"
+      ],
+      "file_ids_of_unannotated": [
+        "244",
+        "245",
+        "246"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -6777,8 +7043,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136699/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "25"
+      ],
+      "file_ids_of_unannotated": [
+        "229",
+        "230",
+        "253"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -6994,8 +7265,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136738/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "30"
+      ],
+      "file_ids_of_unannotated": [
+        "254",
+        "255",
+        "256"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -7211,8 +7487,17 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/143069/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "151"
+      ],
+      "file_ids_of_unannotated": [
+        "229",
+        "230",
+        "257",
+        "1195",
+        "1196",
+        "1197",
+        "1198"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -7429,8 +7714,17 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136786/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "51"
+      ],
+      "file_ids_of_unannotated": [
+        "258",
+        "259",
+        "260",
+        "520",
+        "877",
+        "925",
+        "1484"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -7636,8 +7930,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136816/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "48"
+      ],
+      "file_ids_of_unannotated": [
+        "264",
+        "265",
+        "266",
+        "583",
+        "1487",
+        "1488",
+        "1489",
+        "1490"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -7853,8 +8157,17 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136809/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "3"
+      ],
+      "file_ids_of_unannotated": [
+        "261",
+        "262",
+        "263",
+        "1485",
+        "1486",
+        "1491",
+        "1492"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -8070,8 +8383,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144013/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "21"
+      ],
+      "file_ids_of_unannotated": [
+        "229",
+        "230",
+        "267",
+        "1272",
+        "1273",
+        "1274",
+        "1493",
+        "1494"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -8287,8 +8610,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136870/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "104"
+      ],
+      "file_ids_of_unannotated": [
+        "271",
+        "272",
+        "273",
+        "767",
+        "1495"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -8524,8 +8854,20 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137782/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "101"
+      ],
+      "file_ids_of_unannotated": [
+        "409",
+        "410",
+        "411",
+        "415",
+        "1283",
+        "1496",
+        "1497",
+        "1498",
+        "1499",
+        "1500"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -8740,8 +9082,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136877/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "276"
+      ],
+      "file_ids_of_unannotated": [
+        "229",
+        "230",
+        "277"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -8958,8 +9305,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136873/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "274"
+      ],
+      "file_ids_of_unannotated": [
+        "229",
+        "230",
+        "275"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -9175,8 +9527,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136880/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "279"
+      ],
+      "file_ids_of_unannotated": [
+        "229",
+        "230",
+        "278"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -9419,8 +9776,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136944/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "284"
+      ],
+      "file_ids_of_unannotated": [
+        "229",
+        "230",
+        "283"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -9635,8 +9997,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136942/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "282"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "282",
+        "282",
+        "229",
+        "230",
+        "281"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -9760,7 +10127,19 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136967/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "285",
+        "286",
+        "287",
+        "288",
+        "426",
+        "1232",
+        "1420",
+        "1501",
+        "1502",
+        "1503"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -9883,8 +10262,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137095/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "310"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "310",
+        "310",
+        "229",
+        "230",
+        "309"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -10008,8 +10392,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/136971/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "289"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "289",
+        "289",
+        "229",
+        "230",
+        "290"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -10133,8 +10522,16 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137026/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "110"
+      ],
+      "file_ids_of_unannotated": [
+        "292",
+        "293",
+        "294",
+        "514",
+        "1357",
+        "1504"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -10349,7 +10746,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137029/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "295",
+        "296",
+        "297",
+        "298"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -10472,8 +10875,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137034/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "299"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "299",
+        "299",
+        "229",
+        "230",
+        "300"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -10597,8 +11005,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137036/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "301"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "301",
+        "301",
+        "229",
+        "230",
+        "302"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -10722,8 +11135,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137093/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "54"
+      ],
+      "file_ids_of_unannotated": [
+        "306",
+        "307",
+        "308"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -10941,8 +11359,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137089/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "149"
+      ],
+      "file_ids_of_unannotated": [
+        "303",
+        "304",
+        "305",
+        "578"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -11168,8 +11592,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137120/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "115"
+      ],
+      "file_ids_of_unannotated": [
+        "314",
+        "315",
+        "316",
+        "1505"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -11375,8 +11805,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137116/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "42"
+      ],
+      "file_ids_of_unannotated": [
+        "311",
+        "312",
+        "313"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -11581,8 +12016,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137153/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "88"
+      ],
+      "file_ids_of_unannotated": [
+        "317",
+        "319",
+        "318",
+        "431",
+        "869"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -11787,8 +12229,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137163/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "321"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "321",
+        "321",
+        "229",
+        "230",
+        "320",
+        "805"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -11912,8 +12360,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137178/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "93"
+      ],
+      "file_ids_of_unannotated": [
+        "323",
+        "324",
+        "325",
+        "797",
+        "1506"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -12118,8 +12573,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137252/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "79"
+      ],
+      "file_ids_of_unannotated": [
+        "327",
+        "328",
+        "331"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -12315,8 +12775,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137255/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "329"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "329",
+        "329",
+        "229",
+        "230",
+        "330"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -12440,8 +12905,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137302/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "128"
+      ],
+      "file_ids_of_unannotated": [
+        "332",
+        "333",
+        "334"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -12657,8 +13127,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137370/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "347"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "347",
+        "347",
+        "229",
+        "230",
+        "346"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -12782,7 +13257,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137359/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "337",
+        "338",
+        "339",
+        "340",
+        "774",
+        "1202",
+        "1507",
+        "1508",
+        "1509"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -12905,7 +13391,19 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137363/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "341",
+        "342",
+        "343",
+        "344",
+        "466",
+        "1214",
+        "1215",
+        "1510",
+        "1511",
+        "1512"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -13028,8 +13526,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137374/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "351"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "351",
+        "351",
+        "229",
+        "230",
+        "350",
+        "1513"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -13153,8 +13657,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137372/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "349"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "349",
+        "349",
+        "229",
+        "230",
+        "348"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -13278,7 +13787,22 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137383/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "352",
+        "353",
+        "355",
+        "424",
+        "425",
+        "616",
+        "354",
+        "1049",
+        "1289",
+        "1514",
+        "1515",
+        "1516",
+        "1521"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -13401,8 +13925,17 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137425/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "19"
+      ],
+      "file_ids_of_unannotated": [
+        "356",
+        "357",
+        "358",
+        "999",
+        "1517",
+        "1518",
+        "1520"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -13607,8 +14140,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137423/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "359"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "359",
+        "359",
+        "229",
+        "230",
+        "360",
+        "1519"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -13732,8 +14271,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137450/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "361"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "361",
+        "361",
+        "229",
+        "230",
+        "362"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -13857,8 +14401,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137483/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "20"
+      ],
+      "file_ids_of_unannotated": [
+        "363",
+        "364",
+        "365",
+        "1522"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -14053,8 +14603,17 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137489/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "121"
+      ],
+      "file_ids_of_unannotated": [
+        "366",
+        "367",
+        "368",
+        "1523",
+        "1524",
+        "1525",
+        "1526"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -14249,7 +14808,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137493/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "369",
+        "370",
+        "371",
+        "372",
+        "768",
+        "1234",
+        "1527",
+        "1528",
+        "1529"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -14372,7 +14942,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137541/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "375",
+        "376",
+        "377",
+        "378"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -14495,8 +15071,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137546/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "10"
+      ],
+      "file_ids_of_unannotated": [
+        "229",
+        "230",
+        "379",
+        "522"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -14701,8 +15283,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137579/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "119"
+      ],
+      "file_ids_of_unannotated": [
+        "380",
+        "381",
+        "382",
+        "1300",
+        "1530",
+        "1531",
+        "1532",
+        "1533"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -14918,8 +15510,17 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137583/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "6"
+      ],
+      "file_ids_of_unannotated": [
+        "383",
+        "384",
+        "385",
+        "1346",
+        "1534",
+        "1535",
+        "1536"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -15136,7 +15737,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138169/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "386",
+        "387",
+        "388",
+        "460",
+        "541",
+        "796",
+        "1216",
+        "1537",
+        "1538"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -15259,8 +15871,16 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137656/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "397"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "397",
+        "397",
+        "229",
+        "230",
+        "396",
+        "515",
+        "773",
+        "1539"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -15384,7 +16004,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137609/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "389",
+        "390",
+        "391",
+        "392"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -15507,8 +16133,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137651/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "16"
+      ],
+      "file_ids_of_unannotated": [
+        "393",
+        "394",
+        "395"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -15723,8 +16354,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137690/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "83"
+      ],
+      "file_ids_of_unannotated": [
+        "398",
+        "399",
+        "400",
+        "709",
+        "1540",
+        "1541",
+        "1542",
+        "1543"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -15919,8 +16560,19 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137739/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "112"
+      ],
+      "file_ids_of_unannotated": [
+        "401",
+        "402",
+        "403",
+        "506",
+        "806",
+        "1544",
+        "1545",
+        "1546",
+        "1547"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -16134,8 +16786,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137746/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "44"
+      ],
+      "file_ids_of_unannotated": [
+        "406",
+        "407",
+        "408",
+        "1550",
+        "1551"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -16339,8 +16998,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137742/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "131"
+      ],
+      "file_ids_of_unannotated": [
+        "404",
+        "405",
+        "1244",
+        "1548",
+        "1549"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -16554,8 +17220,19 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137780/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "137"
+      ],
+      "file_ids_of_unannotated": [
+        "412",
+        "413",
+        "414",
+        "464",
+        "529",
+        "1363",
+        "1552",
+        "1553",
+        "1554"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -16772,8 +17449,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137897/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "423"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "423",
+        "423",
+        "229",
+        "230",
+        "422",
+        "1556"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -16897,8 +17580,16 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137885/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "100"
+      ],
+      "file_ids_of_unannotated": [
+        "417",
+        "416",
+        "418",
+        "562",
+        "765",
+        "1555"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -17102,8 +17793,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137895/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "127"
+      ],
+      "file_ids_of_unannotated": [
+        "419",
+        "420",
+        "421"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -17317,8 +18013,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137935/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "106"
+      ],
+      "file_ids_of_unannotated": [
+        "428",
+        "429",
+        "430"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -17523,8 +18224,19 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137979/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "18"
+      ],
+      "file_ids_of_unannotated": [
+        "433",
+        "434",
+        "435",
+        "766",
+        "926",
+        "1557",
+        "1558",
+        "1559",
+        "1560"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -17758,8 +18470,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137983/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "437"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "437",
+        "437",
+        "229",
+        "230",
+        "436",
+        "1034"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -17883,8 +18601,19 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138059/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "99"
+      ],
+      "file_ids_of_unannotated": [
+        "438",
+        "439",
+        "440",
+        "708",
+        "811",
+        "1266",
+        "1561",
+        "1562",
+        "1563"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -18116,8 +18845,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138063/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "442"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "442",
+        "442",
+        "229",
+        "230",
+        "441"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -18241,8 +18975,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138065/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "444"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "444",
+        "444",
+        "229",
+        "230",
+        "443"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -18366,8 +19105,19 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138096/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "74"
+      ],
+      "file_ids_of_unannotated": [
+        "446",
+        "447",
+        "448",
+        "783",
+        "1039",
+        "1564",
+        "1565",
+        "1566",
+        "1567"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -18583,8 +19333,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138100/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "91"
+      ],
+      "file_ids_of_unannotated": [
+        "449",
+        "450",
+        "451",
+        "1416",
+        "1568"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -18779,8 +19536,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138145/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "142"
+      ],
+      "file_ids_of_unannotated": [
+        "452",
+        "453",
+        "1013",
+        "1569"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -18968,8 +19731,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139072/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "150"
+      ],
+      "file_ids_of_unannotated": [
+        "454",
+        "455",
+        "456",
+        "598",
+        "597"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -19185,8 +19955,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141342/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "65"
+      ],
+      "file_ids_of_unannotated": [
+        "457",
+        "458",
+        "459",
+        "910",
+        "1570",
+        "1571",
+        "1572",
+        "1573"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -19402,8 +20182,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138178/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "39"
+      ],
+      "file_ids_of_unannotated": [
+        "461",
+        "462",
+        "463",
+        "1415",
+        "1574"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -19598,8 +20385,20 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138249/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "94"
+      ],
+      "file_ids_of_unannotated": [
+        "465",
+        "792",
+        "793",
+        "795",
+        "794",
+        "960",
+        "1575",
+        "1576",
+        "1577",
+        "1578"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -19804,8 +20603,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138290/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "64"
+      ],
+      "file_ids_of_unannotated": [
+        "467",
+        "468",
+        "469",
+        "1579",
+        "1580"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -20010,8 +20816,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138303/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "60"
+      ],
+      "file_ids_of_unannotated": [
+        "477",
+        "478",
+        "479",
+        "1585"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -20206,8 +21018,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138307/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "144"
+      ],
+      "file_ids_of_unannotated": [
+        "474",
+        "475",
+        "476"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -20412,8 +21229,20 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138294/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "52"
+      ],
+      "file_ids_of_unannotated": [
+        "470",
+        "472",
+        "473",
+        "736",
+        "615",
+        "471",
+        "1581",
+        "1582",
+        "1583",
+        "1584"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -20627,8 +21456,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138345/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "2"
+      ],
+      "file_ids_of_unannotated": [
+        "485",
+        "486",
+        "487",
+        "885"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -20864,8 +21699,17 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141674/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "73"
+      ],
+      "file_ids_of_unannotated": [
+        "480",
+        "840",
+        "841",
+        "961",
+        "959",
+        "1586",
+        "1587"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -21070,8 +21914,21 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/143880/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "482"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "482",
+        "482",
+        "229",
+        "230",
+        "481",
+        "1253",
+        "1254",
+        "1255",
+        "1256",
+        "1588",
+        "1589",
+        "1590",
+        "1591"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -21195,8 +22052,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138332/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "484"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "484",
+        "484",
+        "229",
+        "230",
+        "483"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -21320,8 +22182,16 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138407/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "120"
+      ],
+      "file_ids_of_unannotated": [
+        "489",
+        "490",
+        "491",
+        "492",
+        "684",
+        "1592"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -21475,7 +22345,12 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138446/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "501",
+        "502",
+        "503",
+        "504",
         "504"
       ]
     },
@@ -21600,7 +22475,12 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138442/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "497",
+        "498",
+        "499",
+        "500",
         "500"
       ]
     },
@@ -21725,7 +22605,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138438/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "493",
+        "494",
+        "495",
+        "496"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -21848,8 +22734,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138530/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "67"
+      ],
+      "file_ids_of_unannotated": [
+        "511",
+        "512",
+        "513",
+        "657",
+        "1593"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -22074,8 +22967,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138526/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "507"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "507",
+        "507",
+        "229",
+        "230",
+        "508"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -22199,8 +23097,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138595/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "517"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "516",
+        "517",
+        "517",
+        "518",
+        "519"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -22324,8 +23227,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138528/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "509"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "509",
+        "509",
+        "229",
+        "230",
+        "510",
+        "1594"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -22449,7 +23358,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138629/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "525",
+        "526",
+        "527",
+        "528"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -22572,8 +23487,22 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138655/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "34"
+      ],
+      "file_ids_of_unannotated": [
+        "530",
+        "531",
+        "533",
+        "538",
+        "634",
+        "532",
+        "1595",
+        "1596",
+        "1597",
+        "1598",
+        "1599",
+        "1604"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -22787,7 +23716,19 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138660/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "534",
+        "535",
+        "536",
+        "537",
+        "781",
+        "963",
+        "1600",
+        "1601",
+        "1602",
+        "1603"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -22910,8 +23851,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138625/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "524"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "524",
+        "524",
+        "229",
+        "230",
+        "523"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -23035,8 +23981,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138685/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "138"
+      ],
+      "file_ids_of_unannotated": [
+        "542",
+        "543",
+        "544"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -23242,8 +24193,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138761/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "37"
+      ],
+      "file_ids_of_unannotated": [
+        "553",
+        "554",
+        "555",
+        "1608"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -23438,7 +24395,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138757/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "549",
+        "550",
+        "551",
+        "552",
+        "866",
+        "1236",
+        "1605",
+        "1606",
+        "1607"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -23561,7 +24529,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138753/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "545",
+        "546",
+        "547",
+        "548",
+        "867",
+        "1235",
+        "1609",
+        "1610",
+        "1611"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -23684,8 +24663,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138776/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "45"
+      ],
+      "file_ids_of_unannotated": [
+        "556",
+        "557",
+        "558",
+        "924",
+        "1612"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -23884,8 +24870,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138786/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "59"
+      ],
+      "file_ids_of_unannotated": [
+        "560",
+        "559",
+        "561",
+        "1613"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -24099,8 +25091,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138790/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "563"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "563",
+        "563",
+        "229",
+        "230",
+        "564"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -24224,8 +25221,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138826/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "111"
+      ],
+      "file_ids_of_unannotated": [
+        "575",
+        "576",
+        "577",
+        "911",
+        "1617"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -24430,8 +25434,16 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138822/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "27"
+      ],
+      "file_ids_of_unannotated": [
+        "572",
+        "573",
+        "574",
+        "1614",
+        "1615",
+        "1616"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -24636,8 +25648,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138818/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "11"
+      ],
+      "file_ids_of_unannotated": [
+        "569",
+        "570",
+        "571"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -24842,7 +25859,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138810/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "565",
+        "566",
+        "567",
+        "568"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -24965,8 +25988,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138928/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "133"
+      ],
+      "file_ids_of_unannotated": [
+        "579",
+        "580",
+        "581"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -25163,8 +26191,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138934/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "585"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "585",
+        "585",
+        "229",
+        "230",
+        "584"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -25288,8 +26321,19 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139069/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "130"
+      ],
+      "file_ids_of_unannotated": [
+        "593",
+        "594",
+        "595",
+        "596",
+        "1622",
+        "1623",
+        "1624",
+        "1625",
+        "1626"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -25479,8 +26523,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139049/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "35"
+      ],
+      "file_ids_of_unannotated": [
+        "586",
+        "587",
+        "588",
+        "1203",
+        "1618",
+        "1619",
+        "1620",
+        "1621"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -25666,7 +26720,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139053/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "589",
+        "590",
+        "591",
+        "592"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -25789,8 +26849,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139292/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "40"
+      ],
+      "file_ids_of_unannotated": [
+        "609",
+        "610",
+        "611",
+        "1627"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -25985,8 +27051,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139288/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "135"
+      ],
+      "file_ids_of_unannotated": [
+        "606",
+        "607",
+        "608"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -26201,8 +27272,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139296/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "126"
+      ],
+      "file_ids_of_unannotated": [
+        "612",
+        "613",
+        "614",
+        "772",
+        "1628",
+        "1629",
+        "1630",
+        "1631"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -26408,8 +27489,17 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139279/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "105"
+      ],
+      "file_ids_of_unannotated": [
+        "599",
+        "600",
+        "605",
+        "1362",
+        "1632",
+        "1633",
+        "1634"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -26604,7 +27694,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139283/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "601",
+        "602",
+        "603",
+        "604",
+        "833",
+        "1201"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -26727,7 +27825,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139410/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "617",
+        "618",
+        "619",
+        "620",
+        "889",
+        "1290",
+        "1635",
+        "1636",
+        "1637"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -26850,8 +27959,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139442/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "86"
+      ],
+      "file_ids_of_unannotated": [
+        "626",
+        "627",
+        "628",
+        "1639"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -27056,8 +28171,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139437/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "98"
+      ],
+      "file_ids_of_unannotated": [
+        "623",
+        "624",
+        "625"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -27262,8 +28382,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139434/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "32"
+      ],
+      "file_ids_of_unannotated": [
+        "621",
+        "622",
+        "632",
+        "1638"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -27458,7 +28584,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139446/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "629",
+        "630",
+        "631",
+        "633"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -27581,8 +28713,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139512/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "123"
+      ],
+      "file_ids_of_unannotated": [
+        "635",
+        "636",
+        "637"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -27796,8 +28933,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139527/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "148"
+      ],
+      "file_ids_of_unannotated": [
+        "644",
+        "645",
+        "646"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -28001,8 +29143,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139523/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "63"
+      ],
+      "file_ids_of_unannotated": [
+        "641",
+        "642",
+        "643"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -28207,8 +29354,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139516/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "38"
+      ],
+      "file_ids_of_unannotated": [
+        "638",
+        "639",
+        "640",
+        "1640"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -28413,8 +29566,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139572/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "70"
+      ],
+      "file_ids_of_unannotated": [
+        "647",
+        "648",
+        "649"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -28619,7 +29777,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139627/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "653",
+        "654",
+        "655",
+        "656"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -28742,8 +29906,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139623/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "5"
+      ],
+      "file_ids_of_unannotated": [
+        "650",
+        "651",
+        "652"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -28948,8 +30117,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139672/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "12"
+      ],
+      "file_ids_of_unannotated": [
+        "658",
+        "659",
+        "660",
+        "1641"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -29145,8 +30320,12 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139682/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "56"
+      ],
+      "file_ids_of_unannotated": [
+        "667",
+        "668"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -29344,8 +30523,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139680/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "146"
+      ],
+      "file_ids_of_unannotated": [
+        "664",
+        "665",
+        "666"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -29570,8 +30754,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139676/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "87"
+      ],
+      "file_ids_of_unannotated": [
+        "661",
+        "662",
+        "663",
+        "1642"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -29776,7 +30966,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139730/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "672",
+        "673",
+        "674",
+        "675"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -29899,8 +31095,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139725/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "78"
+      ],
+      "file_ids_of_unannotated": [
+        "669",
+        "670",
+        "671"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -30104,8 +31305,16 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139743/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "80"
+      ],
+      "file_ids_of_unannotated": [
+        "678",
+        "679",
+        "680",
+        "1264",
+        "1372",
+        "1643"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -30319,8 +31528,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139755/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "96"
+      ],
+      "file_ids_of_unannotated": [
+        "681",
+        "682",
+        "683",
+        "782",
+        "1644",
+        "1645",
+        "1646",
+        "1647"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -30515,8 +31734,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139788/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "147"
+      ],
+      "file_ids_of_unannotated": [
+        "685",
+        "686",
+        "687",
+        "1648"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -30738,7 +31963,17 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139792/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "688",
+        "689",
+        "690",
+        "691",
+        "1649",
+        "1650",
+        "1651",
+        "1652"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -30861,8 +32096,17 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139828/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "23"
+      ],
+      "file_ids_of_unannotated": [
+        "692",
+        "693",
+        "694",
+        "1653",
+        "1654",
+        "1655",
+        "1656"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -31067,8 +32311,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139832/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "89"
+      ],
+      "file_ids_of_unannotated": [
+        "695",
+        "696",
+        "697"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -31264,8 +32513,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139836/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "13"
+      ],
+      "file_ids_of_unannotated": [
+        "698",
+        "699",
+        "700",
+        "1657"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -31481,8 +32736,19 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/143272/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "116"
+      ],
+      "file_ids_of_unannotated": [
+        "701",
+        "702",
+        "703",
+        "962",
+        "1213",
+        "1658",
+        "1659",
+        "1660",
+        "1661"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -31710,7 +32976,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139865/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "704",
+        "705",
+        "706",
+        "707"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -31833,8 +33105,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139937/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "55"
+      ],
+      "file_ids_of_unannotated": [
+        "710",
+        "711",
+        "712"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -32039,8 +33316,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139941/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "141"
+      ],
+      "file_ids_of_unannotated": [
+        "713",
+        "714",
+        "715",
+        "1662"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -32245,7 +33528,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140030/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "719",
+        "720",
+        "721",
+        "722"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -32368,8 +33657,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140007/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "139"
+      ],
+      "file_ids_of_unannotated": [
+        "716",
+        "717",
+        "718"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -32594,8 +33888,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140078/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "17"
+      ],
+      "file_ids_of_unannotated": [
+        "729",
+        "730",
+        "731"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -32801,8 +34100,16 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140073/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "95"
+      ],
+      "file_ids_of_unannotated": [
+        "726",
+        "727",
+        "728",
+        "868",
+        "1265",
+        "1664"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -33007,8 +34314,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140069/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "33"
+      ],
+      "file_ids_of_unannotated": [
+        "723",
+        "724",
+        "725",
+        "1663"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -33215,7 +34528,17 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140082/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "732",
+        "733",
+        "734",
+        "735",
+        "1665",
+        "1666",
+        "1667",
+        "1668"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -33338,8 +34661,19 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140240/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "1"
+      ],
+      "file_ids_of_unannotated": [
+        "746",
+        "747",
+        "748",
+        "749",
+        "1679",
+        "1680",
+        "1681",
+        "1682",
+        "1683"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -33473,8 +34807,19 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140235/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "124"
+      ],
+      "file_ids_of_unannotated": [
+        "742",
+        "743",
+        "744",
+        "745",
+        "1674",
+        "1675",
+        "1676",
+        "1677",
+        "1678"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -33608,8 +34953,19 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140230/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "46"
+      ],
+      "file_ids_of_unannotated": [
+        "738",
+        "739",
+        "740",
+        "741",
+        "1669",
+        "1670",
+        "1671",
+        "1672",
+        "1673"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -33743,8 +35099,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140259/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "102"
+      ],
+      "file_ids_of_unannotated": [
+        "754",
+        "755",
+        "756",
+        "1004",
+        "1684"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -33939,7 +35302,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140256/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "750",
+        "751",
+        "752",
+        "753"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -34062,8 +35431,17 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140293/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "107"
+      ],
+      "file_ids_of_unannotated": [
+        "757",
+        "758",
+        "759",
+        "1685",
+        "1686",
+        "1687",
+        "1688"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -34268,7 +35646,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140297/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "760",
+        "761",
+        "762",
+        "763"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -34391,8 +35775,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140354/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "47"
+      ],
+      "file_ids_of_unannotated": [
+        "769",
+        "770",
+        "771",
+        "1689"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -34606,8 +35996,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/143271/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "76"
+      ],
+      "file_ids_of_unannotated": [
+        "775",
+        "776",
+        "777",
+        "1212",
+        "1690",
+        "1691",
+        "1692",
+        "1693"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -34802,8 +36202,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140425/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "90"
+      ],
+      "file_ids_of_unannotated": [
+        "778",
+        "779",
+        "780",
+        "1694"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -35008,7 +36414,19 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140443/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "784",
+        "785",
+        "786",
+        "787",
+        "1217",
+        "1233",
+        "1245",
+        "1695",
+        "1696",
+        "1697"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -35131,7 +36549,17 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140447/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "788",
+        "789",
+        "790",
+        "791",
+        "1237",
+        "1698",
+        "1699",
+        "1700"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -35254,8 +36682,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140547/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "118"
+      ],
+      "file_ids_of_unannotated": [
+        "801",
+        "802",
+        "803",
+        "1701"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -35460,8 +36894,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140543/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "50"
+      ],
+      "file_ids_of_unannotated": [
+        "798",
+        "799",
+        "800",
+        "1057",
+        "1702"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -35656,8 +37097,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140663/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "61"
+      ],
+      "file_ids_of_unannotated": [
+        "807",
+        "808",
+        "809",
+        "810"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -35862,7 +37309,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140699/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "813",
+        "814",
+        "815",
+        "816"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -35985,7 +37438,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140704/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "817",
+        "818",
+        "819",
+        "820"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -36108,8 +37567,17 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140717/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "145"
+      ],
+      "file_ids_of_unannotated": [
+        "823",
+        "824",
+        "825",
+        "1247",
+        "1703",
+        "1704",
+        "1705"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -36304,8 +37772,12 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140712/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "7"
+      ],
+      "file_ids_of_unannotated": [
+        "821",
+        "822"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -36439,8 +37911,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/143187/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "31"
+      ],
+      "file_ids_of_unannotated": [
+        "826",
+        "827",
+        "828",
+        "1207",
+        "1706",
+        "1707",
+        "1708",
+        "1709"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -36657,8 +38139,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140781/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "41"
+      ],
+      "file_ids_of_unannotated": [
+        "829",
+        "830",
+        "831",
+        "832",
+        "884",
+        "1048",
+        "1710",
+        "1711"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -36863,8 +38355,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/145332/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "62"
+      ],
+      "file_ids_of_unannotated": [
+        "834",
+        "835",
+        "836",
+        "1406",
+        "1712",
+        "1713",
+        "1714",
+        "1715"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -37078,8 +38580,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140792/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "113"
+      ],
+      "file_ids_of_unannotated": [
+        "837",
+        "838",
+        "839"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -37213,8 +38720,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140818/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "66"
+      ],
+      "file_ids_of_unannotated": [
+        "842",
+        "843",
+        "844"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -37430,8 +38942,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140922/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "69"
+      ],
+      "file_ids_of_unannotated": [
+        "848",
+        "849",
+        "850"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -37626,7 +39143,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140929/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "851",
+        "852",
+        "853",
+        "854"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -37749,8 +39272,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140917/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "49"
+      ],
+      "file_ids_of_unannotated": [
+        "845",
+        "846",
+        "847"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -37955,7 +39483,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140937/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "859",
+        "860",
+        "861",
+        "862",
+        "1717"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -38078,7 +39613,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140933/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "855",
+        "856",
+        "857",
+        "858",
+        "1716"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -38201,8 +39743,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/140980/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "132"
+      ],
+      "file_ids_of_unannotated": [
+        "863",
+        "864",
+        "865"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -38436,8 +39983,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141016/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "26"
+      ],
+      "file_ids_of_unannotated": [
+        "871",
+        "872",
+        "873",
+        "1718"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -38642,8 +40195,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141021/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "117"
+      ],
+      "file_ids_of_unannotated": [
+        "874",
+        "875",
+        "876",
+        "1719"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -38838,8 +40397,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141057/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "68"
+      ],
+      "file_ids_of_unannotated": [
+        "881",
+        "882",
+        "883",
+        "1721"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -39024,8 +40589,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141052/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "84"
+      ],
+      "file_ids_of_unannotated": [
+        "878",
+        "879",
+        "880",
+        "1720"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -39220,8 +40791,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141149/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "58"
+      ],
+      "file_ids_of_unannotated": [
+        "886",
+        "887",
+        "888"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -39427,8 +41003,19 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141192/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "53"
+      ],
+      "file_ids_of_unannotated": [
+        "890",
+        "891",
+        "892",
+        "928",
+        "1199",
+        "1722",
+        "1723",
+        "1724",
+        "1725"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -39653,7 +41240,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141246/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "893",
+        "894",
+        "895",
+        "896"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": "ZhuHai Sinochips Bioscience Co., Ltd",
@@ -39776,7 +41369,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141251/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "897",
+        "898",
+        "899",
+        "900"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -39899,7 +41498,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141255/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "901",
+        "902",
+        "903",
+        "904"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -40022,7 +41627,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141304/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "906",
+        "907",
+        "908",
+        "909",
+        "1417",
+        "1726"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -40145,7 +41758,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141496/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "920",
+        "921",
+        "922",
+        "923",
+        "1729"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -40268,7 +41888,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141491/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "916",
+        "917",
+        "918",
+        "919",
+        "1306",
+        "1728"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -40391,7 +42019,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141487/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "912",
+        "913",
+        "914",
+        "915",
+        "1727"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -40514,7 +42149,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141546/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "933",
+        "934",
+        "935",
+        "936",
+        "937"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -40637,7 +42279,16 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141541/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "929",
+        "930",
+        "931",
+        "932",
+        "1243",
+        "1373",
+        "1730"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -40760,7 +42411,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141550/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "938",
+        "939",
+        "940",
+        "941"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -40883,7 +42540,17 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141570/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "942",
+        "943",
+        "944",
+        "945",
+        "1731",
+        "1732",
+        "1733",
+        "1734"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -41006,7 +42673,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141627/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "946",
+        "947",
+        "948",
+        "949"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -41129,7 +42802,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141670/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "954",
+        "955",
+        "956",
+        "957",
+        "958"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -41252,7 +42932,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141665/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "950",
+        "951",
+        "952",
+        "953"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -41375,7 +43061,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141769/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "976",
+        "977",
+        "978",
+        "979",
+        "1735"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -41498,7 +43191,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141765/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "972",
+        "973",
+        "974",
+        "975"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -41621,7 +43320,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141760/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "968",
+        "969",
+        "970",
+        "971"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -41744,7 +43449,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141755/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "964",
+        "965",
+        "966",
+        "967",
+        "1736"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -41867,7 +43579,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141777/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "984",
+        "985",
+        "986",
+        "987"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -41990,7 +43708,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141773/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "980",
+        "981",
+        "982",
+        "983"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -42113,7 +43837,12 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141798/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "996",
+        "997",
+        "998"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -42236,7 +43965,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141795/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "992",
+        "993",
+        "994",
+        "995",
+        "1737"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -42359,7 +44095,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141791/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "988",
+        "989",
+        "990",
+        "991"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -42482,7 +44224,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141823/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1000",
+        "1001",
+        "1002",
+        "1003",
+        "1301",
+        "1738"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -42605,7 +44355,16 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141887/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1005",
+        "1006",
+        "1007",
+        "1008",
+        "1321",
+        "1739",
+        "1740"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -42728,7 +44487,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141891/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1009",
+        "1010",
+        "1011",
+        "1012"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -42851,7 +44616,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141935/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1014",
+        "1015",
+        "1016",
+        "1017"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -42974,7 +44745,18 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144660/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1018",
+        "1019",
+        "1020",
+        "1021",
+        "1337",
+        "1741",
+        "1742",
+        "1743",
+        "1744"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -43097,7 +44879,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142002/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1026",
+        "1027",
+        "1028",
+        "1029"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -43220,7 +45008,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142006/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1030",
+        "1031",
+        "1032",
+        "1033"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -43343,7 +45137,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141997/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1022",
+        "1023",
+        "1024",
+        "1025",
+        "1238",
+        "1745"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -43466,7 +45268,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142233/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1044",
+        "1045",
+        "1046",
+        "1047"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -43589,7 +45397,16 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142193/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1035",
+        "1036",
+        "1037",
+        "1038",
+        "1079",
+        "1305",
+        "1746"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -43712,7 +45529,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142228/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1040",
+        "1041",
+        "1042",
+        "1043",
+        "1747"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -43835,7 +45659,12 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142310/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1050",
+        "1051",
+        "1052"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -43958,7 +45787,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142363/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1053",
+        "1054",
+        "1055",
+        "1056"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -44081,7 +45916,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142379/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1058",
+        "1059",
+        "1060",
+        "1061"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -44204,7 +46045,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142383/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1062",
+        "1063",
+        "1064",
+        "1065"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -44327,7 +46174,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142418/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1067",
+        "1068",
+        "1069",
+        "1070",
+        "1748"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -44450,7 +46304,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142422/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1071",
+        "1072",
+        "1073",
+        "1246"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -44573,7 +46433,17 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142437/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1074",
+        "1075",
+        "1076",
+        "1077",
+        "1078",
+        "1418",
+        "1749",
+        "1750"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -44696,7 +46566,16 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142601/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1081",
+        "1082",
+        "1083",
+        "1084",
+        "1129",
+        "1200",
+        "1751"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -44819,7 +46698,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142486/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1085",
+        "1086",
+        "1087",
+        "1088"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -44942,7 +46827,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142552/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1105",
+        "1106",
+        "1107",
+        "1108"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -45065,7 +46956,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142557/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1109",
+        "1110",
+        "1111",
+        "1112"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -45188,7 +47085,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142561/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1113",
+        "1114",
+        "1115",
+        "1116"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -45311,7 +47214,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142539/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1093",
+        "1094",
+        "1095",
+        "1096"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -45434,7 +47343,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142543/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1097",
+        "1098",
+        "1099",
+        "1100"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -45557,7 +47472,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142548/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1101",
+        "1102",
+        "1103",
+        "1104"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -45680,7 +47601,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142592/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1117",
+        "1118",
+        "1119",
+        "1120"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -45803,7 +47730,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142535/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1089",
+        "1090",
+        "1091",
+        "1092"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -45926,7 +47859,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142692/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1130",
+        "1131",
+        "1132",
+        "1133",
+        "1752"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -46049,7 +47989,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142600/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1125",
+        "1126",
+        "1127",
+        "1128"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -46172,7 +48118,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142596/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1121",
+        "1122",
+        "1123",
+        "1124"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -46295,7 +48247,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142704/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1142",
+        "1143",
+        "1144",
+        "1145"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -46418,7 +48376,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142700/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1138",
+        "1139",
+        "1140",
+        "1141"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -46541,7 +48505,17 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142696/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1134",
+        "1135",
+        "1136",
+        "1137",
+        "1347",
+        "1753",
+        "1754",
+        "1755"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -46664,7 +48638,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142800/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1146",
+        "1147",
+        "1148",
+        "1149"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -46787,7 +48767,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142809/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1154",
+        "1155",
+        "1156",
+        "1157"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -46910,7 +48896,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142805/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1150",
+        "1151",
+        "1152",
+        "1153",
+        "1756"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -47033,7 +49026,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142905/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1164",
+        "1165",
+        "1166",
+        "1167"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -47156,7 +49155,17 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142919/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1178",
+        "1179",
+        "1180",
+        "1181",
+        "1757",
+        "1758",
+        "1759",
+        "1760"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -47279,7 +49288,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142911/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1170",
+        "1171",
+        "1172",
+        "1173"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -47402,7 +49417,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142915/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1174",
+        "1175",
+        "1176",
+        "1177"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -47525,7 +49546,12 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/143055/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1168",
+        "1169",
+        "1187"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -47648,7 +49674,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/142940/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1182",
+        "1183",
+        "1184",
+        "1185",
+        "1186"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -47771,7 +49804,12 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/143420/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1225",
+        "1226",
+        "1227"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -47894,7 +49932,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/143062/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1188",
+        "1189",
+        "1190",
+        "1191"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -48017,7 +50061,12 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/143065/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1192",
+        "1193",
+        "1194"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -48140,7 +50189,12 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/143186/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1204",
+        "1205",
+        "1206"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -48263,7 +50317,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/143270/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1208",
+        "1209",
+        "1210",
+        "1211"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -48386,7 +50446,16 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/143334/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1218",
+        "1219",
+        "1220",
+        "1221",
+        "1284",
+        "1419",
+        "1761"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -48509,7 +50578,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/143452/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1228",
+        "1229",
+        "1230",
+        "1231"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -48632,7 +50707,12 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/143417/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1222",
+        "1223",
+        "1224"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -48755,7 +50835,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/143583/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1239",
+        "1240",
+        "1241",
+        "1242"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -48878,7 +50964,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/143808/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1249",
+        "1250",
+        "1251",
+        "1252"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -49001,7 +51093,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144071/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1285",
+        "1286",
+        "1287",
+        "1288"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -49124,7 +51222,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/143935/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1260",
+        "1261",
+        "1262",
+        "1263"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -49247,7 +51351,12 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/143929/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1257",
+        "1258",
+        "1259"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -49370,7 +51479,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144010/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1268",
+        "1269",
+        "1270",
+        "1271"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -49493,7 +51608,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144037/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1279",
+        "1280",
+        "1281",
+        "1282"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -49616,7 +51737,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144033/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1275",
+        "1276",
+        "1277",
+        "1278",
+        "1348"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -49739,7 +51867,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144179/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1291",
+        "1292",
+        "1293",
+        "1294",
+        "1295"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -49862,7 +51997,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144256/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1296",
+        "1297",
+        "1298",
+        "1299"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -49985,8 +52126,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/137154/download"
     },
     "anot8_org": {
-      "file_ids": [
-        "109"
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "109",
+        "109",
+        "1302",
+        "1303",
+        "1304",
+        "1762"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -50110,7 +52257,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144558/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1313",
+        "1314",
+        "1315",
+        "1316"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -50233,7 +52386,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144562/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1317",
+        "1318",
+        "1319",
+        "1320"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -50356,7 +52515,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144554/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1308",
+        "1309",
+        "1310",
+        "1311",
+        "1312"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -50479,7 +52645,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144590/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1326",
+        "1327",
+        "1328",
+        "1329"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -50602,7 +52774,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144574/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1322",
+        "1323",
+        "1324",
+        "1325"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -50725,7 +52903,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144592/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1307",
+        "1330",
+        "1331",
+        "1332"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -50848,7 +53032,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144659/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1333",
+        "1334",
+        "1335",
+        "1336"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -50971,7 +53161,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144672/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1342",
+        "1343",
+        "1344",
+        "1345"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -51094,7 +53290,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144668/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1338",
+        "1339",
+        "1340",
+        "1341"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -51217,7 +53419,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144793/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1358",
+        "1359",
+        "1360",
+        "1361"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -51340,7 +53548,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144764/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1353",
+        "1354",
+        "1355",
+        "1356"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -51463,7 +53677,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144759/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1349",
+        "1350",
+        "1351",
+        "1352"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -51586,7 +53806,15 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144877/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1364",
+        "1365",
+        "1366",
+        "1367",
+        "1414",
+        "1763"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -51709,7 +53937,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144929/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1368",
+        "1369",
+        "1370",
+        "1371"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -51832,7 +54066,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/145015/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1374",
+        "1375",
+        "1376",
+        "1377"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -51955,7 +54195,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/145020/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1378",
+        "1379",
+        "1380",
+        "1381"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -52078,7 +54324,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/145073/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1382",
+        "1383",
+        "1384",
+        "1385"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -52201,7 +54453,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/145089/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1390",
+        "1391",
+        "1392",
+        "1393"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -52324,7 +54582,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/145080/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1386",
+        "1387",
+        "1388",
+        "1389"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -52447,7 +54711,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/145134/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1394",
+        "1395",
+        "1396",
+        "1397"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -52570,8 +54840,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/145277/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "1403"
+      ],
+      "file_ids_of_unannotated": [
+        "1402",
+        "1404",
+        "1405"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -52725,7 +55000,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/145265/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1398",
+        "1400",
+        "1401",
+        "1399"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -52848,8 +55129,14 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/145409/download"
     },
     "anot8_org": {
-      "file_ids": [
+      "file_ids_of_annotated": [
         "1411"
+      ],
+      "file_ids_of_unannotated": [
+        "1407",
+        "1408",
+        "1409",
+        "1410"
       ]
     },
     "fda_reference_panel_lod_data": {

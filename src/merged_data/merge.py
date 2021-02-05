@@ -64,13 +64,7 @@ def get_merged_rows ():
                 "test_technology": test_technology,
                 "url_to_IFU_or_EUA": url_to_IFU_or_EUA,
             },
-            "anot8_org": {
-                "file_ids": list(map(lambda a: a["anot8_org_file_id"], annotation_files_for_test)),
-                # Could add these here.  For the moment they are hard coded in the frontend code
-                # like src/FDA_EUA_assessment/v3.ts etc
-                # ANOT8_ORG_NAMING_AUTHORITY_ID = "1772"
-                # ANOT8_ORG_VAULT_ID = "2"
-            },
+            "anot8_org": get_anot8_org_data(fda_eua_row, annotation_files_for_test),
             "fda_reference_panel_lod_data": get_fda_reference_panel_lod_data(developer_name, test_name, test_id, fda_reference_panel_lod_data_by_test_id),
             "self_declared_EUA_data": get_self_declared_EUA_data(annotations_by_label_id),
             "amp_survey": get_amp_survey(test_id),
@@ -85,6 +79,35 @@ def get_merged_rows ():
     add_adveritasdx_data(merged_rows)
 
     return merged_rows
+
+
+
+def get_anot8_org_data (fda_eua_row, annotation_files_for_test):
+    file_infos_of_annotated = []
+    file_infos_of_unannotated = list(fda_eua_row["relevant_relative_file_infos"])
+
+    for annotation_file in annotation_files_for_test:
+        if annotation_file["annotations"]:
+            file_infos_of_annotated.append(annotation_file["file_info_of_annotated_file"])
+        else:
+            file_infos_of_unannotated.append(annotation_file["file_info_of_annotated_file"])
+
+    file_infos_of_annotated = sorted(file_infos_of_annotated, key=lambda file_info: file_info["file_path"])
+    file_infos_of_unannotated = sorted(file_infos_of_unannotated, key=lambda file_info: file_info["file_path"])
+    file_ids_of_annotated = list(map(lambda fi: fi["anot8_org_file_id"], file_infos_of_annotated))
+    file_ids_of_unannotated = list(map(lambda fi: fi["anot8_org_file_id"], file_infos_of_unannotated))
+
+    annotated_set = set(file_ids_of_annotated)
+    file_ids_of_unannotated = [i for i in file_ids_of_unannotated if i not in annotated_set]
+
+    return {
+        "file_ids_of_annotated": file_ids_of_annotated,
+        "file_ids_of_unannotated": file_ids_of_unannotated,
+        # Could add these here.  For the moment they are hard coded in the frontend code
+        # like src/FDA_EUA_assessment/v3.ts etc
+        # ANOT8_ORG_NAMING_AUTHORITY_ID = "1772"
+        # ANOT8_ORG_VAULT_ID = "2"
+    }
 
 
 

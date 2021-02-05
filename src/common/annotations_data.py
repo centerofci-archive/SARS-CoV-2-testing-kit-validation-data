@@ -33,9 +33,7 @@ def get_annotation_files_by_test_id (fda_eua_parsed_data):
         file_infos = data_row["relevant_relative_file_infos"]
 
         for file_info in file_infos:
-            file_path = file_info["file_path"]
-            anot8_org_file_id = file_info["anot8_org_file_id"]
-            annotations_file_path = DATA_DIR_PATH + file_path + ".annotations"
+            annotations_file_path = DATA_DIR_PATH + file_info["file_path"] + ".annotations"
 
             if not os.path.isfile(annotations_file_path):
                 # print("skipping " + annotations_file_path)
@@ -44,13 +42,17 @@ def get_annotation_files_by_test_id (fda_eua_parsed_data):
             with open(annotations_file_path, "r", encoding="utf8") as f:
                 annotation_file_contents = json.load(f)
 
-                annotation_file_contents["anot8_org_file_id"] = anot8_org_file_id
-                for annotation in annotation_file_contents["annotations"]:
-                    if "deleted" in annotation and annotation["deleted"]:
-                        continue
-                    annotation["anot8_org_file_id"] = anot8_org_file_id
+            # if not annotation_file_contents["annotations"]:
+            #     continue
 
-                all_annotation_files.append(annotation_file_contents)
+            annotation_file_contents["file_info_of_annotated_file"] = file_info
+
+            for annotation in annotation_file_contents["annotations"]:
+                if "deleted" in annotation and annotation["deleted"]:
+                    continue
+                annotation["anot8_org_file_id"] = file_info["anot8_org_file_id"]
+
+            all_annotation_files.append(annotation_file_contents)
 
         annotation_files_by_test_id[test_id] = all_annotation_files
 
