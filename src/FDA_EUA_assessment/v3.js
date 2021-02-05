@@ -147,7 +147,10 @@ function mainV3() {
             references = res.references;
             comments = res.comments;
             var annotations_raw = escape_html(res.raw).trim();
-            if (raw && annotations_raw && raw !== annotations_raw) {
+            if (!raw) {
+                raw = annotations_raw;
+            }
+            else if (annotations_raw && raw !== annotations_raw) {
                 raw = ERROR_HTML_SYMBOL + escape_html(raw + " != " + annotations_raw);
             }
         }
