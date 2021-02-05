@@ -234,30 +234,58 @@
 "width": "154px"
 },
 {
-"id": 23,
-"page_number": 6,
-"left": "456px",
-"top": "530px",
-"width": "120px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Included",
+"comment": "",
+"height": "25px",
+"id": 23,
 "labels": [
 "Controls/Internal"
+],
+"left": "456px",
+"page_number": 6,
+"text": "Included",
+"top": "530px",
+"width": "120px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "33px",
+"id": 24,
+"labels": [
+"Controls/Internal/Human gene target"
+],
+"left": "580px",
+"page_number": 6,
+"text": "MS2",
+"top": "530px",
+"width": "38px"
+},
+{
+"id": 25,
+"page_number": 1,
+"left": "808px",
+"top": "349px",
+"width": "54px",
+"height": "45px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "RNA",
+"labels": [
+"Analyte"
 ],
 "comment": ""
 },
 {
-"id": 24,
-"page_number": 6,
-"left": "580px",
-"top": "530px",
-"width": "38px",
-"height": "33px",
+"id": 26,
+"page_number": 1,
+"left": "846px",
+"top": "436px",
+"width": "31px",
+"height": "41px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "MS2",
+"text": "NA",
 "labels": [
-"Controls/Internal/Human gene target"
+"Antigen"
 ],
 "comment": ""
 }

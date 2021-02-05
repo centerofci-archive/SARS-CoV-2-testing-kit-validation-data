@@ -196,7 +196,10 @@
       "Specimen Type": "Upper and lower respiratory specimens (such as nasopharyngeal or oropharyngeal swabs, sputum, lower respiratory tract aspirates, bronchoalveolar lavage, and nasopharyngeal wash/aspirate or nasal aspirate)",
       "Transport Media": "ND",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen 2 QIAmp Viral RNA Mini Kit (manual and with QIAcube), Qiagen EZ1 Virus Mini Kit, Roche MagNA Pure, bioMérieux NucliSENS® easyMAG® and EMAG®",
       "Detection": "ABI 7500 Fast Dx Real-Time PCR Systems with SDS 1.4 software",
       "TAT": "ND",
@@ -419,7 +422,10 @@
       "Specimen Type": "Nasopharyngeal/oropharyngeal swabs and sputum",
       "Transport Media": "ND",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen EZ1 Advanced XL EZ1 DSP Virus Kit, bioMerieux easyMAG NucliSENS, bioMerieux EMAG NucliSENS, Scientific Device Laboratory Snap n digest (sputum)",
       "Detection": "ABI 7500 Fast Dx Real-Time PCR Instrument with SDS version 1.4 software",
       "TAT": "ND",
@@ -643,7 +649,10 @@
       "Specimen Type": "Nasal, nasopharyngeal and oropharyngeal swabs and BAL",
       "Transport Media": "Copan UTM-RT, BD UVT, Cobas® PCR Media or 0.9% physiological saline",
       "Gene": "ORF1ab E",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Roche cobas 6800 and 8800",
       "Detection": "Roche cobas 6800 and 8800",
       "TAT": "ND",
@@ -847,7 +856,10 @@
       "Specimen Type": "Bronchoalveolar lavage, nasopharyngeal swab and aspirate, oropharyngeal, nasal, and midturbinate swab",
       "Transport Media": "ND",
       "Gene": "ORF1ab N S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ABI/ThermoFisher MagMAX™ Viral/Pathogen Nucleic Acid Isolation Kit with ABI/ThermoFisher KingFisher Flex Magnetic Particle Processor, ABI/ThermoFisher MagMAX Viral/Pathogen Nucleic Acid Isolation Kit, ABI/ThermoFisher MagMAX Viral/Pathogen II Nucleic Acid Isolation Kit, ABI MagMAX Viral/Pathogen II Nucleic Acid Isolation Kit",
       "Detection": "ABI 7500 Fast Dx Real-Time PCR Instrument, ABI 7500 Real-Time instrument, ABI QuantStudio 5 with 0.1ml Block, and QuantStudio 5 with 0.2 ml Block; ABI QuantStudio 7 Flex Real-Time PCR system, 384-well (RUO) and ABI QuantStudio 5 Real-Time PCR system 384-well (ROU) instruments, with Applied Biosystems COVID‑19 Interpretive Software v2.2, (",
       "TAT": "~40 min (detection)",
@@ -1052,7 +1064,10 @@
       "Specimen Type": "Nasopharyngeal, oropharyngeal swabs",
       "Transport Media": "Remel MicroTest M4, M4RT, M5 or M6; Copan Universal Transport Medium; BD Universal Viral Transport Medium ; Saline, Liquid Amies, and Hologic specimen transport media",
       "Gene": "ORF1ab (1 and 2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Hologic Panther Fusion System",
       "Detection": "Hologic Panther Fusion System",
       "TAT": "ND",
@@ -1288,7 +1303,10 @@
       "Specimen Type": "Upper and lower respiratory specimens (such as nasal, nasopharyngeal or oropharyngeal swabs, sputum, lower respiratory tract aspirates, bronchoalveolar lavage, and nasopharyngeal wash/aspirate or nasal aspirate)",
       "Transport Media": "ND",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Roche MagNA Pure-96 (MP96) using MagNA Pure 96 DNA and Viral NA Small Volume Kit (single-plex and multiplex), and Thermo Fisher MagMAX Viral/Pathogen Nucleic Acid Isolation Kit on the Thermo Fisher KingFisher Flex instrument (multiplex only)",
       "Detection": "Applied Biosystems QuantStudio7 Flex (QS7) instrument with software version 1.3",
       "TAT": "ND",
@@ -1492,7 +1510,10 @@
       "Specimen Type": "Nasal, nasopharyngeal, or oropharyngeal swabs",
       "Transport Media": "M4, M4-RT, M5, M6, MTM and UTM) (1 mL and 3 mL), CDC Viral Transport Media",
       "Gene": "ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "bioMerieux NucliSENS® easyMAG® system or EMAG® system",
       "Detection": "ABI 7500 Fast Dx, Applied Biosystems 7500 Standard, Roche100 LightCycler 480, Qiagen Rotor-Gene Q, Bio-Rad CFX96 Touch, ABI QuantStudio 7 Pro.",
       "TAT": "ND",
@@ -1698,7 +1719,10 @@
       "Specimen Type": "Upper and lower respiratory specimens (such as nasopharyngeal or oropharyngeal swabs, sputum, tracheal aspirates, and bronchoalveolar lavage)",
       "Transport Media": "Quest V-C-M transport medium or other comparable transport medium that will be validated",
       "Gene": "N (N1 and N3 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Roche MagNA Pure 96 DNA and Viral NA",
       "Detection": "ABI 7500 Real Time PCR System",
       "TAT": "ND",
@@ -1902,7 +1926,10 @@
       "Specimen Type": "Nasal,nasopharyngealandoropharyngeal swabs",
       "Transport Media": "ND",
       "Gene": "ORF1ab (RdRp region) N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Abbott m2000",
       "Detection": "Abbott m2000",
       "TAT": "ND",
@@ -2162,7 +2189,10 @@
       "Specimen Type": "Nasopharyngeal swabs (NPS), nasal swabs (NS), or bronchoalveolar lavage (BAL)",
       "Transport Media": "UTM, VTM, Remel M5, Remel M6, Copan ESwab™ (Liquid Amies), Puritan® UniTranz-RT®, or saline (0.9% sodium chloride in water)",
       "Gene": "ORF1ab S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "DiaSorin LIAISON® MDX",
       "Detection": "DiaSorin LIAISON® MDX",
       "TAT": "~1 hour",
@@ -2368,7 +2398,10 @@
       "Specimen Type": "Nasopharyngeal swabs",
       "Transport Media": "VTM",
       "Gene": "ND",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "GenMark ePlex",
       "Detection": "GenMark ePlex",
       "TAT": "ND",
@@ -2573,7 +2606,10 @@
       "Specimen Type": "Nasopharyngeal swabs, & oropharyngeal swabs, bronchoalveolar lavage",
       "Transport Media": "VTM",
       "Gene": "ND",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAmp Viral RNA Mini Kit, GenoXtract GXT DNA/RNA Extraction kit",
       "Detection": "ABI 7500 Real-Tiime PCR System, Bio-Rad CFX Connect Real-Time PCR Detection System, Roche LightCycler 480 II w software v 1.5",
       "TAT": "ND",
@@ -2786,7 +2822,10 @@
       "Specimen Type": "Nasopharyngeal, oropharyngeal, nasal, mid-turbinate swabs, nasal wash/aspirate, nasal swab and lower respiratory tract",
       "Transport Media": "VTM, saline",
       "Gene": "E N (N2 region)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Cepheid GeneXpert Dx, GeneXpert Infinity 48 & 80, software 6.4b or higher",
       "Detection": "Cepheid GeneXpert Dx, GeneXpert Infinity 48 & 80, software 6.4b or higher",
       "TAT": "30 min",
@@ -2991,7 +3030,10 @@
       "Specimen Type": "Nasopharyngeal swabs",
       "Transport Media": "Remel M4, Remel M4-RT, Remel M5, Remel M6, BD UVT, Sigma Virocult, Copan Aimes Medium",
       "Gene": "ORF1ab ORF8",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "BioFire FilmArray® 2.0 or FilmArray® Torch systems",
       "Detection": "BioFire FilmArray® 2.0 or FilmArray® Torch systems",
       "TAT": "~45 min",
@@ -3243,7 +3285,10 @@
       "Specimen Type": "Throat swab and nasal swab combined (Accula and Silaris), nasal swab only (Accula)",
       "Transport Media": "Not allowed",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Mesa Biotech Accula™ or Silaris™ Dock",
       "Detection": "Mesa Biotech Accula™ or Silaris™ Dock",
       "TAT": "30 min",
@@ -3458,7 +3503,10 @@
       "Specimen Type": "Oropharyngeal swab and nasopharyngeal swab",
       "Transport Media": "VTM",
       "Gene": "ORF1ab N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "PerkinElmer Nucleic Acid Extraction Kits and PreNAT II (software version 1.00.06) and Chemagic Viral DNA/RNA 300 Kit special H96 and Chemagic 360 with chemagic Rod Head Set 96 (chemagic MSM I software version 6.1.0.5)",
       "Detection": "ABI TM 7500 Real-Time PCR System (software version 2.3)",
       "TAT": "ND",
@@ -3673,7 +3721,10 @@
       "Specimen Type": "Nasopharyngeal and oropharyngeal swab",
       "Transport Media": "ND",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp DSP Viral RNA Mini Kit",
       "Detection": "Applied Biosystems 7500 Fast Real-Time PCR System with software version 2.3",
       "TAT": "ND",
@@ -3920,7 +3971,10 @@
       "Specimen Type": "Throat swabs, nasopharyngeal swabs, anterior nasal swabs, midturbinate nasal swabs, nasal washes, nasal aspirates and bronchoalveolar lavage fluid (BALF)",
       "Transport Media": "ND",
       "Gene": "ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp Viral RNA Mini Kit, MGI Easy Nucleic Acid Extraction Kit - manual and with MGI SP-960RS High-throughput Automated Sample Preparation System",
       "Detection": "Applied Biosystems™ Real time PCR system 7500 with software v2.0.5, ABI 7500 Fast Real-Time PCR System, ABI QuantStudio 5 RealTime PCR System, Roche LightCycler 480 System",
       "TAT": "ND",
@@ -4143,7 +4197,10 @@
       "Specimen Type": "Nasal swab, nasopharyngeal swab, throat swab",
       "Transport Media": "Not allowed",
       "Gene": "ORF1ab (RdRp region)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Abbott ID Now",
       "Detection": "Abbott ID Now",
       "TAT": "≤ 13 minutes",
@@ -4350,7 +4407,10 @@
       "Specimen Type": "Nasopharyngeal swab",
       "Transport Media": "UTM",
       "Gene": "ORF1ab E N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "bioMérieux®NucliSENS®easyMAG®System, bioMérieuxEMAG®System",
       "Detection": "Luminex® MAGPIX® including xPONENT® Software",
       "TAT": "ND",
@@ -4573,7 +4633,10 @@
       "Specimen Type": "Nasopharyngeal, oropharyngeal, bronchoalveolar lavage (BAL) or nasal swab",
       "Transport Media": "UTM, UVT",
       "Gene": "ORF1ab (Nsp2 region) N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "NeuMoDx™ 288 Molecular System and NeuMoDx™ 96 Molecular System",
       "Detection": "NeuMoDx™ 288 Molecular System and NeuMoDx™ 96 Molecular System",
       "TAT": "80 min",
@@ -4778,7 +4841,10 @@
       "Specimen Type": "Nasopharyngeal swabs",
       "Transport Media": "UTM",
       "Gene": "ORF1ab (RdRP region) E Adenovirus, Coronavirus 229E, Coronavirus HKU1, Coronavirus NL63, Coronavirus OC43, SARS-CoV-2, Human Metapneumovirus A+B, Influenza A, Influenza A H1, Influenza A H3, Influenza A H1N1/pdm09, Influenza B, Parainfluenza virus 1, Parainfluenza virus 2, Parainfluenza virus 3, Parainfluenza virus 4, Rhinovirus/Enterovirus, Respiratory Syncytial Virus A+B, Bordetella pertussis, Chlamydophila pneumoniae, and Mycoplasma pneumoniae.",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAstat-Dx Analyzer 1.0",
       "Detection": "Qiagen QIAstat-Dx Analyzer 1.0",
       "TAT": "ND",
@@ -5001,7 +5067,10 @@
       "Specimen Type": "Nasopharyngeal swabs, oropharyngeal swabs, nasal swabs, mid-turbinate nasal swabs, BALs, and sputum, NP swab, OP swab, Ns swabs, MTNs swab, BAL, Spu, Sal",
       "Transport Media": "ND",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "biomerieux NUCLISENS EASYMAG",
       "Detection": "ABI QuantStudio Flex 6 Real-Time PCR System with software version 1.3",
       "TAT": "ND",
@@ -5123,7 +5192,10 @@
       "Specimen Type": "WB Plasma, Serum",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "ND",
+      "Antigen": {
+        "avd": "ND",
+        "annotations": []
+      },
       "Sample Prep": "None",
       "Detection": "Gold with visual read",
       "TAT": "20 min",
@@ -5348,7 +5420,10 @@
       "Specimen Type": "Nasopharyngeal or oropharyngeal swabs",
       "Transport Media": "UTM",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ABI/ThermoFisher KingFisher Flex nucleic acid extraction systems using the Omega Bio-Tek Mag-Bind Viral DNA/RNA 96 Kit",
       "Detection": "ABI QuantStudio 12 Flex (QS12)",
       "TAT": "ND",
@@ -5572,7 +5647,10 @@
       "Specimen Type": "Nasopharyngeal, oropharyngeal swabs",
       "Transport Media": "UVT, Copan UTM",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "BD MAX",
       "Detection": "BD MAX",
       "TAT": "ND",
@@ -5789,7 +5867,10 @@
       "Specimen Type": "Nasopharyngeal aspirates, nasopharyngeal swabs, nasal swabs, mid-turbinate nasal swabs, tracheal aspirates, and bronchoalveolar lavage",
       "Transport Media": "ND",
       "Gene": "N (N2 region)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Roche MagNA Pure LC Total Nucleic Acid automated extraction platform",
       "Detection": "ABI Quant Studio DX automated PCR platform with software version 1.0.1",
       "TAT": "ND",
@@ -5998,7 +6079,10 @@
       "Specimen Type": "Nasopharyngeal swab, throat (oropharyngeal) swab, nasal swab, mid-turbinate nasal swab and bronchoalveloar lavage (BAL)",
       "Transport Media": "ND",
       "Gene": "N (N1 region)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp MinElute Virus Spin Kit",
       "Detection": "ABI Quant Studio 6 Flex, equipped with Quant Studio Real-time PCR software v1.1",
       "TAT": "ND",
@@ -6212,7 +6296,10 @@
       "Specimen Type": "Nasopharyngeal swab",
       "Transport Media": "UTM",
       "Gene": "ORF1ab N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Luminex Aries",
       "Detection": "Luminex Aries",
       "TAT": "ND",
@@ -6426,7 +6513,10 @@
       "Specimen Type": "Nasal, nasopharyngeal, oropharyngeal swab specimens, and bronchoalveolar lavage",
       "Transport Media": "ND",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp® DSP Viral RNA Mini kit",
       "Detection": "Roche LightCycler® 96 Real-Time PCR System with LightCycler® Software 1.01.01.0050",
       "TAT": "ND",
@@ -6645,7 +6735,10 @@
       "Specimen Type": "Lower respiratory tract fluids (e.g. bronchoalveolar lavage, sputum, tracheal aspirate), and upper respiratory tract fluids (e.g. nasopharyngeal and oropharyngeal swabs)",
       "Transport Media": "VTM",
       "Gene": "ND",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp® Viral RNA Mini Kit",
       "Detection": "CoDx Box BMS, Bio Molecular Systems",
       "TAT": "63-90 min",
@@ -6859,7 +6952,10 @@
       "Specimen Type": "Nasal, nasopharyngeal and oropharyngeal swab and bronchoalveolar lavage (BAL)",
       "Transport Media": "ND",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp Viral RNA Mini Kit",
       "Detection": "Roche Cobas Z 480 real-time PCR analyzer and analysis software, ABI QuantStudio 7 Flex Real-Time PCR System and analysis software, ThermoFisher ViiA 7 Real-Time PCR System and analysis software",
       "TAT": "ND",
@@ -7073,7 +7169,10 @@
       "Specimen Type": "Nasal, nasopharyngeal, and oropharyngeal swab",
       "Transport Media": "UTM",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp DSP Viral RNA Mini Kit",
       "Detection": "QuantStudio™ 3D Digital PCR System and Gnomegen Real-Time Digital PCR Instrument",
       "TAT": "ND",
@@ -7288,7 +7387,10 @@
       "Specimen Type": "Nasopharyngeal swab, nasal swab, nasopharyngeal wash, nasal wash, oropharyngeal swab and bronchoalveolar lavage",
       "Transport Media": "VTM, sterile PBS",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "bioMerieux NucliSENS easyMAG or eMAG instrument",
       "Detection": "ABI 7500 Real-Time PCR Systems (SDS v1.5.1)",
       "TAT": "ND",
@@ -7492,7 +7594,10 @@
       "Specimen Type": "Nasopharyngeal swab, anterior nasal swab and mid-turbinate nasal swab",
       "Transport Media": "ND",
       "Gene": "ORF1b (RdRP region) E N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp DSP Viral RNA Mini Kit",
       "Detection": "ABI 7500 Fast Dx Real-Time PCR instrument with SDS Software, version 1.4 or Bio-Rad CFX96 Touch Real-Time PCR Detection System with the CFX Maestro Software (Bio-Rad)",
       "TAT": "~4 hours",
@@ -7706,7 +7811,10 @@
       "Specimen Type": "Nasopharyngeal, oropharyngeal swabs",
       "Transport Media": "UVT, Copan UTM",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "BD MAX",
       "Detection": "BD MAX",
       "TAT": "ND",
@@ -7920,7 +8028,10 @@
       "Specimen Type": "Nasopharyngeal Swabs, Oropharyngeal Swabs and Sputum",
       "Transport Media": "UTM",
       "Gene": "ORF1ab E N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ThermoFisher PureLink™ viral RNA/DNA mini kit",
       "Detection": "ABI QuantStudio 5, ABI 7500 Fast Dx, and Bio-Rad CFX 384",
       "TAT": "ND",
@@ -8134,7 +8245,10 @@
       "Specimen Type": "Nasopharyngeal, oropharyngeal, nasal, and mid-turbinate nasal swabs, bronchoalveolar lavage",
       "Transport Media": "VTM",
       "Gene": "E",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen EZ1 Virus Mini Kit v2.0, Qiagen QIAsymphony DSP Virus/Pathogen Midi Kit with Qiagen EZ1 XL and QIAsymphonySP/AS",
       "Detection": "Qiagen Rotor-Gene Q real-time PCR thermal cycler",
       "TAT": "ND",
@@ -8368,7 +8482,10 @@
       "Specimen Type": "Nasal Swabs, nasopharyngeal swabs and/or oropharyngeal swabs",
       "Transport Media": "ND",
       "Gene": "ORF1ab N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Atila iAMP Sample Buffer",
       "Detection": "Atila Power-Gene 9600 Plus, Bio-Rad CFX96, ABI7500, and other commonly used RT-qPCR instruments with FAM and HEX fluorescent channels",
       "TAT": "60 min incl sample prep",
@@ -8581,7 +8698,10 @@
       "Specimen Type": "",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -8796,7 +8916,10 @@
       "Specimen Type": "Nasopharyngeal and oropharyngeal swab",
       "Transport Media": "UTM, SDI swab media",
       "Gene": "ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "AusDx MT-Prep Extraction System",
       "Detection": "ABI Real time PCR system 7500 with software v2.0.5",
       "TAT": "ND",
@@ -9010,7 +9133,10 @@
       "Specimen Type": "Oropharyngeal, nasopharyngeal, anterior nasal, and mid-turbinate nasal swab",
       "Transport Media": "ND",
       "Gene": "N (N1, N2 and N3 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Omega Bio-Tek Mag-Bind Viral DNA/RNA 96 kit",
       "Detection": "ABI QuantStudio7 Flex (QS7) instrument with QuantStudio Real-Time PCR software version 1.3",
       "TAT": "ND",
@@ -9251,7 +9377,10 @@
       "Specimen Type": "Nasopharyngeal and oropharyngeal specimens, tracheal aspirates, bronchoalveolar lavages/bronchial washings, and nasopharyngeal aspirates/nasal washings",
       "Transport Media": "UTM",
       "Gene": "E",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Roche MagNAPure 24 system, bioMerieux EasyMag system",
       "Detection": "ABI PRISM 7500 Sequence Detection System",
       "TAT": "ND",
@@ -9464,7 +9593,10 @@
       "Specimen Type": "Upper respiratory specimens including nasopharyngeal and oropharyngeal swabs",
       "Transport Media": "VTM",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ABI/ThermoFisher MagMAX Viral/Pathogen Ultra Nucleic Acid Isolation Kit with MagMax Express 96",
       "Detection": "ABI QuantStudio 7 Flex using QuantStudio Real-Time PCR software",
       "TAT": "ND",
@@ -9586,7 +9718,10 @@
       "Specimen Type": "Nasal, nasopharyngeal and oropharyngeal swab",
       "Transport Media": "VTM, Aimes",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ABI MagMAX Viral/Pathogen Ultra Nucleic Acid Isolation Kit with MagMax Express 96",
       "Detection": "ABI QuantStudio 12K Flex RealTime PCR System",
       "TAT": "ND",
@@ -9706,7 +9841,10 @@
       "Specimen Type": "Serum and plasma",
       "Transport Media": "K2 EDTA",
       "Gene": "NA",
-      "Antigen": "ND",
+      "Antigen": {
+        "avd": "ND",
+        "annotations": []
+      },
       "Sample Prep": "Ortho VITROS ECi/ECiQ/3600 Immunodiagnostic Systems and the VITROS 5600/XT 7600 Integrated Systems",
       "Detection": "Ortho VITROS ECi/ECiQ/3600 Immunodiagnostic Systems and the VITROS 5600/XT 7600 Integrated Systems",
       "TAT": "48 min to first result (37 min incubation time)",
@@ -9828,7 +9966,10 @@
       "Specimen Type": "Nasal, nasopharyngeal, and oropharyngeal swab",
       "Transport Media": "VTM",
       "Gene": "ORF1ab (RdRP region) E N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Promega Maxwell RSC Viral Total Nucleic Acid Purification Kit with Promega Maxwell RSC 48 Instrument",
       "Detection": "ABI QuantStudio 5 (QS5) realtime PCR system with Design and Analysis Software version 1.5.1",
       "TAT": "ND",
@@ -9950,7 +10091,10 @@
       "Specimen Type": "Nasopharyngeal, oropharyngeal, NP/OP, anterior nasal, and mid-turbinate nasal swab",
       "Transport Media": "ND",
       "Gene": "E S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen Virus MinElute Spin kit performed on the QiaCube",
       "Detection": "Rotor-Gene Q 5Plex RT-PCR System",
       "TAT": "ND",
@@ -10163,7 +10307,10 @@
       "Specimen Type": "Oropharyngeal swabs, nasopharyngeal swabs, nasal swabs, and mid-turbinate swabs",
       "Transport Media": "VTM",
       "Gene": "ORF1ab E N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Maccura Nucleic Acid Extraction Kit {Manual or Fast)",
       "Detection": "ABI 7500 Real-Time PCR systems with v2.3 software",
       "TAT": "ND",
@@ -10283,7 +10430,10 @@
       "Specimen Type": "Serum and plasma",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "S (recombinant RBD region and full length)",
+      "Antigen": {
+        "avd": "S (recombinant RBD region and full length)",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Microplate reader (manufacturer not specified)",
       "TAT": "ND",
@@ -10405,7 +10555,10 @@
       "Specimen Type": "Nasal swabs, nasopharyngeal swabs, oropharyngeal swabs, and BAL",
       "Transport Media": "UTM",
       "Gene": "ORF1ab (RdRP region) E N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ABI/ThermoFisher KingFisher Flex automated extraction or Qiagen QIAamp Viral RNA Mini Kit",
       "Detection": "ABI QuantStudioTM 7 (software version 1.3), QuantStudioTM 5 (software version 1.4.1)",
       "TAT": "ND",
@@ -10527,7 +10680,10 @@
       "Specimen Type": "Upper respiratory specimens including nasopharyngeal, oropharyngeal, anterior nasal, and mid-turbinate nasal swab",
       "Transport Media": "BD UVT",
       "Gene": "E N (N2 region)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Roche MagNA Pure 24 System",
       "Detection": "Bio Molecular System Mic PCR cycler with micPCR software v2.8.0or v2.8.13",
       "TAT": "ND",
@@ -10743,7 +10899,10 @@
       "Specimen Type": "Nasopharyngeal/oropharyngeal swabs, nasal swabs and mid-turbinate swabs",
       "Transport Media": "VTM",
       "Gene": "ORF1ab E N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp DSP Viral RNA Mini Kit",
       "Detection": "Applied Biosystems 7500 Fast Dx Real-Time PCR Instrument",
       "TAT": "ND",
@@ -10967,7 +11126,10 @@
       "Specimen Type": "Oral fluid and nasopharyngeal swabs",
       "Transport Media": "VTM, DNA/RNA Shield (Zymo Research)",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Tecan Resolvex A200",
       "Detection": "BioRad CFX 96 Touch, BioRad CFX Connect Real-Time PCR systems BioRad CFX Maestro V1.1 and Roche LightCycler 480 II Real-Time PCR with Roche LightCycler Software V1.5",
       "TAT": "ND",
@@ -11171,7 +11333,10 @@
       "Specimen Type": "Upper and lower respiratory specimens such as anterior nasal swabs, mid-turbinate nasal swabs, nasopharyngeal swabs, oropharyngeal swabs, sputum, lower respiratory tract aspirates, bronchoalveolar lavage, and nasopharyngeal wash/aspirate or nasal aspirate",
       "Transport Media": "ND",
       "Gene": "ORF1ab E N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp® Viral RNA Mini Kit",
       "Detection": "ABI 7500 instrument (software version #v1.4 or v1.5)",
       "TAT": "ND",
@@ -11374,7 +11539,10 @@
       "Specimen Type": "Nasopharyngeal, oropharyngeal, nasal, and mid-turbinate nasal swab specimens, bronchoalveolar lavage fluid (BAL), and sputum",
       "Transport Media": "ND",
       "Gene": "ORF1ab E N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp viral RNA Mini Kit, Roche MagNA Pure 96 DNA and Viral NA Small Volume Kit",
       "Detection": "ABI 7500 Real-Time PCR System (software version 2.3), Bio-Rad CFX Real-Time PCR Detection System (software version 1.6)",
       "TAT": "ND",
@@ -11577,7 +11745,10 @@
       "Specimen Type": "Nasal, nasopharyngeal and oropharyngeal swabs and BAL",
       "Transport Media": "UTM",
       "Gene": "ORF1ab (RdRP region) E",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "RTA Viral RNA Extraction Kit; Qiagen QIAamp MiniElute Virus Spin kit and Roche High Pure Viral RNA Kit",
       "Detection": "Bio-Rad CFX96™ Real-time PCR Detection System-IVD with BioRad CFX Manager Software version 3.0; Qiagen Rotor-Gene Q and Applied Biosystems ABI 7500 Fast Real time PCR Dx",
       "TAT": "ND",
@@ -11699,7 +11870,10 @@
       "Specimen Type": "Upper and lower respiratory specimens (such as nasopharyngeal swabs, throat swabs, nasal swabs, sputum, tracheal secretions, BAL fluid, and bronchial washings)",
       "Transport Media": "ND",
       "Gene": "ORF1ab N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "bioMérieux easyMAG and EMAG",
       "Detection": "Roche LightCycler 480 amplificationsystem.",
       "TAT": "ND",
@@ -11902,7 +12076,10 @@
       "Specimen Type": "Nasopharyngeal swab, oropharyngeal swab, anterior nasal swab, midturbinate and sputum",
       "Transport Media": "UTM",
       "Gene": "ORF1ab E N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Seegene STARMag 96 X 4 Universal Cartridge Kit on Microlab STARlet IVD or Seegene STARlet with Seegene Launcher V6",
       "Detection": "Bio-Rad CFX96™ Real-time PCR Detection System-IVD or CFX96 Touch™ Real-Time PCR Detection System with CFX Manager™ Software V3.1 or CFX Maestro™ Software V1 and Seegene Viewer Software V3.20 for analysis and interpretation of result",
       "TAT": "ND",
@@ -12096,7 +12273,10 @@
       "Specimen Type": "Nasopharyngeal swabs, oropharyngeal (throat) swabs, anterior nasal swabs, mid-turbinate nasal swabs, nasal washes and nasal aspirates",
       "Transport Media": "UTM",
       "Gene": "E S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Altona AltoStar Purification Kit 1.5 with the AltoStar Automation System AM16",
       "Detection": "Bio-Rad CFX96™ Touch Real-Time PCR Detection System, Bio-Rad CFX96™ Touch Deep Well Real-Time PCR Detection System",
       "TAT": "",
@@ -12218,7 +12398,10 @@
       "Specimen Type": "Nasal swabs, nasopharyngeal swabs/wash, oropharyngeal swabs/throat swabs, bronchial aspirates, or sputum",
       "Transport Media": "ND",
       "Gene": "ND",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen ClearMag or Omega Bio-tek MagBind Viral DNA/RNA on Thermo Fisher Scientific KingFisher Flex System",
       "Detection": "Amplification: ABI GeneAmp 9700, Thermo Fisher Scientific Veriti 96-well Thermal Cycler; Detection: Sensovation AG SensoSpot Fluorescence Low Density Microarray Analyzer",
       "TAT": "ND",
@@ -12432,7 +12615,10 @@
       "Specimen Type": "Nasopharyngeal, oropharyngeal, nasal, and midturbinate nasal swab, and sputum",
       "Transport Media": "UTM",
       "Gene": "ORF1ab (RdRP region) E",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp® Viral RNA Mini Kit",
       "Detection": "Roche LightCycler® 480 (S/W version 1.5.1.62); Bio-Rad CFX96™ Dx System (S/W version 3.1); ABI 7500 Real-Time PCR Instrument System (S/W version 2.0.6)",
       "TAT": "ND",
@@ -12554,7 +12740,10 @@
       "Specimen Type": "Nasopharyngeal, oropharyngeal, anterior nasal, and mid-turbinate nasal swabs, nasopharyngeal awash/aspirate or nasal aspirates as well as sputum specimens",
       "Transport Media": "ND",
       "Gene": "N (N1, N2 and N3 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Zymo Viral RNA Mag Bead Kit performed on the Thermo Fisher Scientific King Fisher Flex II extraction platform",
       "Detection": "Roche Lightcycler 480II with Lightcycler 480 software version 1.5.1 sp3.",
       "TAT": "ND",
@@ -12674,7 +12863,10 @@
       "Specimen Type": "Serum or plasma",
       "Transport Media": "sodium heparin, lithium heparin, and potassium EDTA",
       "Gene": "NA",
-      "Antigen": "S (recombinant S1 and S2 regions)",
+      "Antigen": {
+        "avd": "S (recombinant S1 and S2 regions)",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "LIASON XL analzyer",
       "TAT": "35 min",
@@ -12794,7 +12986,10 @@
       "Specimen Type": "Serum",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "IgG",
+      "Antigen": {
+        "avd": "IgG",
+        "annotations": []
+      },
       "Sample Prep": "Ortho VITROS ECi/ECiQ/3600 Immunodiagnostic Systems and the VITROS 5600/XT 7600 Integrated Systems",
       "Detection": "Ortho VITROS ECi/ECiQ/3600 Immunodiagnostic Systems and the VITROS 5600/XT 7600 Integrated Systems",
       "TAT": "48 min to first result (37 min inucbation)",
@@ -12916,7 +13111,10 @@
       "Specimen Type": "Upper respiratory specimens such as nasal, midturbinate, nasopharyngeal, and oropharyngeal swab and lower respiratory specimens such as sputum and BAL.",
       "Transport Media": "ND",
       "Gene": "ORF1ab N S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Omega Biotek MagBind Universal Pathogen Kit",
       "Detection": "ThermoFisher Scientific TaqPath COVID-19 Combo Kit run on ABI QuantStudio 12K Flex",
       "TAT": "ND",
@@ -13038,7 +13236,10 @@
       "Specimen Type": "Nasal, nasopharyngeal and oropharyngeal swabs",
       "Transport Media": "ND",
       "Gene": "ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ABI/ThermoFisher KingFisher Flex Purification RNA extraction",
       "Detection": "ABI QuantStudio 12K platform with QuantSutdio 12K Flex Software v 1.4",
       "TAT": "ND",
@@ -13158,7 +13359,10 @@
       "Specimen Type": "Serum, serum separator tube and plasma",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "ND",
+      "Antigen": {
+        "avd": "ND",
+        "annotations": []
+      },
       "Sample Prep": "ARCHITECT i and Alinity i Systems",
       "Detection": "ARCHITECT i and Alinity i Systems",
       "TAT": "ND",
@@ -13361,7 +13565,10 @@
       "Specimen Type": "Oropharyngeal and nasopharyngeal swab specimens, anterior nasal and mid-turbinate nasal swabs, nasopharyngeal wash/aspirate or nasal aspirate specimens and sputum",
       "Transport Media": "VTM",
       "Gene": "ORF1ab N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp DSP Viral RNA Mini Kit",
       "Detection": "Bio-Rad CFX 96 real-time PCR detection system with software CFX manager V3.1, ABI real-time PCR system 7500 with Software 2.0.6",
       "TAT": "ND",
@@ -13483,7 +13690,10 @@
       "Specimen Type": "Upper and lower respiratory specimens including nasopharyngeal swabs, nasal swabs, mid-turbinate nasal swabs, oropharyngeal swabs, nasopharyngeal wash/aspirates, nasal aspirates, bronchoalveolar lavage, lower respiratory tract aspirates, and sputum",
       "Transport Media": "ND",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "bioMérieux NucliSENS EasyMAG automated nucleic acid extraction system",
       "Detection": "ABI QuantStudio 7 Flex Real-Time PCR Instrument with QuantStudio Real-Time PCR software v.1.3",
       "TAT": "ND",
@@ -13605,7 +13815,10 @@
       "Specimen Type": "Nasal, mid-turbinate, nasopharyngeal, and oropharyngeal swab and bronchoalveolar lavage (BAL)",
       "Transport Media": "OraCollect-RNA, VTM",
       "Gene": "ORF1ab N S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ABI/ThermoFisher MagMAX Viral/Pathogen Nucleic acid isolation kit automated on the KingFisher Flex Purification system",
       "Detection": "ABI QuantStudio 5 real-time PCR system with ABI Design and Analysis Software version 2.3.3",
       "TAT": "ND",
@@ -13798,7 +14011,10 @@
       "Specimen Type": "Nasopharyngeal, or oropharyngeal, anterior nasal and mid-turbinate nasal swabs, as well as nasopharyngeal wash/aspirate or nasal aspirate specimens and sputum",
       "Transport Media": "VTM",
       "Gene": "ORF1ab (RdRP region) E",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp Viral RNA Mini kit",
       "Detection": "ABI 7500 Real-time PCR Instrument system with software version 2.3 or BioRad CFX96™ Real-time PCR detection system with Bio-Rad CFX Manager 3.1",
       "TAT": "~ 2.5 hrs (detection)",
@@ -13991,7 +14207,10 @@
       "Specimen Type": "Nasopharyngeal swabs, oropharyngeal (throat) swabs, anterior nasal swabs, mid-turbinate nasal swabs, nasal washes, nasal aspirates and bronchoalveolar lavage (BAL) fluid samples",
       "Transport Media": "UVT, VTM",
       "Gene": "N (N1 region)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Rheonix Encompass MDx® Workstation",
       "Detection": "Rheonix Encompass MDx® Workstation",
       "TAT": "<5 hours",
@@ -14111,7 +14330,10 @@
       "Specimen Type": "Serum and plasma",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "N (full length)",
+      "Antigen": {
+        "avd": "N (full length)",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Microplate reader (manufacturer not specified)",
       "TAT": "ND",
@@ -14231,7 +14453,10 @@
       "Specimen Type": "Serum",
       "Transport Media": "None",
       "Gene": "NA",
-      "Antigen": "N (full length)",
+      "Antigen": {
+        "avd": "N (full length)",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Luminex FlexMap dual laser cytometer",
       "TAT": "ND",
@@ -14434,7 +14659,10 @@
       "Specimen Type": "Upper respiratory specimens such as nasal, midturbinate, nasopharyngeal, and oropharyngeal swab specimens",
       "Transport Media": "ND",
       "Gene": "ORF1ab N S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ThermoFisher KingFisher Flex Purification System with Applied Biosystems MagMax Viral/Pathogen Nucleic Acid Isolation Kit",
       "Detection": "ABI QuantStudio 12K Flex Real-Time PCR System (384-well, Block) with Software version: QuantStudio 12K Flex Software V.1.2.2",
       "TAT": "ND",
@@ -14648,7 +14876,10 @@
       "Specimen Type": "Nasopharyngeal, anterior nasal and mid-turbinate nasal swabs,nasopharyngeal wash/aspirate and nasal aspirate",
       "Transport Media": "VTM, UTM",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ABI/ThermoFisher MagMAXViral/Pathogen NucleicAcid Isolation Kit or QIAamp Viral Mini Kit",
       "Detection": "Bio-Rad AutoDG QXDx, QX200,7 C1000 Touch Thermal Cycler with 96-Deep Well Reaction Module andS1000 Thermal Cycler with 96-Deep Well Reaction Module",
       "TAT": "~ 5.5 hrs (detection)",
@@ -14863,7 +15094,10 @@
       "Specimen Type": "Nasopharyngeal swab",
       "Transport Media": "VTM",
       "Gene": "S M Adenovirus, Coronavirus 229E, Coronavirus HKU1, Coronavirus NL63, Coronavirus OC43, Human Metapneumovirus, Human Rhinovirus/Enterovirus, Influenza A, including subtypes H1, H3 and H1-2009, Influenza B, Parainfluenza Virus 1, Parainfluenza Virus 2, Parainfluenza Virus 3, Parainfluenza Virus 4, Respiratory Syncytial Virus, Bordetella parapertussis, Bordetella pertussis, Chlamydia pneumoniae, Mycoplasma pneumonia.",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "BioFire FilmArray® 2.0 or FilmArray® Torch systems",
       "Detection": "BioFire FilmArray® 2.0 or FilmArray® Torch systems",
       "TAT": "~45 min",
@@ -14983,7 +15217,10 @@
       "Specimen Type": "Serum and plasma",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "ND",
+      "Antigen": {
+        "avd": "ND",
+        "annotations": []
+      },
       "Sample Prep": "None",
       "Detection": "cobas e 411, e 601, e 602 or e 801 immunodiagnostic analyzers",
       "TAT": "18 min",
@@ -15105,7 +15342,10 @@
       "Specimen Type": "Nasal, nasopharyngeal swab",
       "Transport Media": "VTM",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Promega Maxwell RSC (software version not specified); Tecan Genesis LH platform",
       "Detection": "AriaMx Real Time PCR system and Aria software (version not specified)",
       "TAT": "ND",
@@ -15225,7 +15465,10 @@
       "Specimen Type": "Serum or plasma",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "S",
+      "Antigen": {
+        "avd": "S",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Microplate reader (manufacturer not specified)",
       "TAT": "ND",
@@ -15438,7 +15681,10 @@
       "Specimen Type": "Nasopharyngeal swab, oropharyngeal (throat) swab, anterior nasal swab, midturbinate swab, nasal wash, nasal aspirate",
       "Transport Media": "Sample Storage Reagent (Use Qiagen QIAamp Viral RNA Mini Kit for samples in VTM/UTM)",
       "Gene": "ORF1ab N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "One step centrifugation and lysis, then sample directly added to master mix using QIAamp Viral RNA Mini Kit",
       "Detection": "ABI 7500 Real-Time PCR System (software v1.5)",
       "TAT": "ND",
@@ -15631,7 +15877,10 @@
       "Specimen Type": "Nasal swab, nasopharyngeal swab, oropharyngeal swab, nasopharyngeal wash/aspirate or nasal aspirate), Bronchoalveolar lavage (BAL)",
       "Transport Media": "VTM",
       "Gene": "ORF1ab N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "bioMérieux NucliSENS® easyMAG® (software version not specified)",
       "Detection": "Applied Biosystems® 7500 Real-Time PCR System (software version not specified)",
       "TAT": "ND",
@@ -15843,7 +16092,10 @@
       "Specimen Type": "Nasal swab, nasopharyngeal swab, oropharyngeal swab, sputum, lower respiratory tract aspirates, bronchoalveolar lavage, and nasopharyngeal wash/aspirate or nasal aspirate",
       "Transport Media": "VTM",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "IDEXX RealPCR DNA/RNA Magnetic Bead Kit on the ABI/ThermoFisher KingFisher™ Flex; Machery-Nagel NucleoMag VET Magnetic Extraction Kit on the ABI/ThermoFisher KingFisher™ Duo Prime",
       "Detection": "Applied Biosystems® 7500 FAST PCR instrument (software v2.0.6), Applied Biosystems® QuantStudio 5 (software v1.5.1), Agilent Mx3005P (MxPro qPCR software v4.10), Bio Molecular Systems Mic qPCR (micPCR software v2.8.10), Roche LightCycler® 480 (with LightCycler 480 SW software v1.5.1)",
       "TAT": "ND",
@@ -16045,7 +16297,10 @@
       "Specimen Type": "Nasal swab, nasopharyngeal swab, oropharyngeal swab, nasopharyngeal wash/aspirate or nasal aspirate and bronchoalveolar lavage",
       "Transport Media": "VTM, UTM, M4RT",
       "Gene": "ORF1ab N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ThermoFisher PureLink Viral RNA/DNA Mini Kit",
       "Detection": "Biotek Plate Reader running Gen5 3.08 software",
       "TAT": "~1 hr",
@@ -16257,7 +16512,10 @@
       "Specimen Type": "Nasopharyngeal swab, oropharyngeal swab, anterior nasal swab, mid-turbinate nasal swab, nasal aspirate, nasal wash and bronchoalveolar lavage",
       "Transport Media": "UTM",
       "Gene": "ORF1ab (RdRp region) N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "bioMérieux EMAG® (with software version 1.1), bioMérieux NucliSENS easyMAG (with software version 2.1), QIAgen QIASymphony SP (with software version 4.1), Roche MagNA Pure 96 (with software version 3.1)",
       "Detection": "ABI 7500 Fast(1) (with software version 2.3), ABI 7500 Fast Dx(1) (with software version 1.4.), ABI QuantStudio 5 Dx(1) (with software version 1.0), Roche LightCycler 480 (System II) (with software version 1.5), Bio-Rad CFX96 (with software Maestro 1.1), Qiagen Rotor‑Gene Q (with software 2.3)",
       "TAT": "ND",
@@ -16472,7 +16730,10 @@
       "Specimen Type": "Nasal swab, nasopharyngeal swag, mid-turbinate nasal swab, oropharyngeal swab, sputum, tracheal aspirates, and bronchoalveolar lavage",
       "Transport Media": "ND",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Zymo Quick-DNA/RNA Viral MagBead extraction kit either manually or on the automated ABI/ThermoFisher KingFisher™ Flex Purification System",
       "Detection": "Bio-Rad CFX96 Touch Real-Time PCR Detection System using the Bio-Rad CFX Maestro™ 1.1 Version 4.1.2433.1219 software",
       "TAT": "ND",
@@ -16594,7 +16855,10 @@
       "Specimen Type": "Nasal swab, nasopharyngeal swab, oropharyngeal swab, nasopharyngeal wash/aspirate or nasal aspirate, bronchoalveolar lavage",
       "Transport Media": "VTM",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Abbott m2000 system m2000sp (software version 8.1.8.0)",
       "Detection": "Abbott m2000 system m2000rt (software version 8.1.8.0)",
       "TAT": "ND",
@@ -16796,7 +17060,10 @@
       "Specimen Type": "Nasopharyngeal and nasal swab",
       "Transport Media": "UTM",
       "Gene": "NA",
-      "Antigen": "N (SARS-CoV and SARS-CoV-2)",
+      "Antigen": {
+        "avd": "N (SARS-CoV and SARS-CoV-2)",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Sofia 2",
       "TAT": "15 min",
@@ -17008,7 +17275,10 @@
       "Specimen Type": "Nasopharyngeal and nasal swab",
       "Transport Media": "VTM",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp DSP virus kit",
       "Detection": "7500 Fast Dx Real-Time PCR Instrument (SDS version 1.4)",
       "TAT": "ND",
@@ -17211,7 +17481,10 @@
       "Specimen Type": "Nasopharyngeal swab, anterior nasal swab, midturbinate nasal swab and oropharyngeal swab as well as nasopharyngeal wash/aspirate and nasal aspirate",
       "Transport Media": "Puritan UniTranz-RT",
       "Gene": "ORF1ab (RdRP region) E",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp Viral RNA Mini Kit RNA mini kit",
       "Detection": "Roche Light Cycler 480 with Software version 1.5, Qiagen Rotor-Gene Q 5plex HRM with Software version 2.3.4, ABI Quantstudio5 with Software version 1.4.3, ABI 7500 Real-Time PCR Instrument system with Software version 2.0.6, Bio-Rad CFX96™ Real-Time PCR Detection system with CFX Maestro version 1.1",
       "TAT": "ND",
@@ -17443,7 +17716,10 @@
       "Specimen Type": "Nasal swabs, nasopharyngeal (NP) and oropharyngeal (OP) swabs, bronchoalveolar lavage fluid (BAL)",
       "Transport Media": "Specimen Transport Buffer",
       "Gene": "ORF1ab (RdRp region) N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Abbott Alinity m",
       "Detection": "Abbott Alinity m",
       "TAT": "ND",
@@ -17565,7 +17841,10 @@
       "Specimen Type": "Nasopharyngeal, oropharyngeal, nasal, and mid-turbinate nasal swab samples",
       "Transport Media": "UTM",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "bioMerieux NucliSENS easyMAG extraction kit on the bioMérieux easyMAG automated extraction platform",
       "Detection": "ABI 7500 Fast Dx Real-Time PCR Instrument (ABI Fast) with software version 2.3.",
       "TAT": "ND",
@@ -17795,7 +18074,10 @@
       "Specimen Type": "Nasopharyngeal swab, oropharyngeal swab, nasopharyngeal wash/aspirate, nasal aspirate, nasal and mid-turbinate nasal swab",
       "Transport Media": "ND",
       "Gene": "S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Life Technologies TRIzol (RNA Extraction), Qiagen QIAamp® Viral RNA Mini Kit",
       "Detection": "ABI QuantStudioTM Dx Real-Time PCR system with software v1.0.3",
       "TAT": "ND",
@@ -17917,7 +18199,10 @@
       "Specimen Type": "Nasal, mid-turbinate, nasopharyngeal, and oropharyngeal swab specimens, and nasopharyngeal wash/aspirate or nasal aspirate",
       "Transport Media": "ND",
       "Gene": "ORF1ab S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Biomeme M1 Sample Prep Cartridge for RNA 2.0",
       "Detection": "Biomeme Franklin three9 Real-Time PCR Thermocycler equipped with Franklin Firmware version v6.3.1 and Franklin Software version v1.4.5.",
       "TAT": "ND",
@@ -18039,7 +18324,10 @@
       "Specimen Type": "Nasopharyngeal swab",
       "Transport Media": "ND",
       "Gene": "ORF1ab (NSP-3 region)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAmp Viral Mini QIAcube kit on the Qiagen QIA Connect, QIAsymphony DSP Virus/Pathogen Midi kit on the QIAsymphony extraction",
       "Detection": "ABI QuantStudio 6 Flex instrument with version 1.3, ABI 7500 Fast Real Time PCR system with version 1.4",
       "TAT": "ND",
@@ -18253,7 +18541,10 @@
       "Specimen Type": "Nasopharyngeal (NP), nasal, mid-turbinate and oropharyngeal (OP) swab specimens",
       "Transport Media": "VTM/UTM",
       "Gene": "ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Hologic Panther or Panther Fusion Systems",
       "Detection": "Hologic Panther or Panther Fusion Systems",
       "TAT": "2.4 hours",
@@ -18446,7 +18737,10 @@
       "Specimen Type": "Nasopharyngeal, oropharyngeal, midturbinate, and nasal swabs and sputum, tracheal aspirates, and bronchoalveolar lavage",
       "Transport Media": "UTM",
       "Gene": "ORF1ab (RdRp region) N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp DSP Viral RNA Mini Kit",
       "Detection": "ABI 7500 Fast Dx Real-Time PCR Instrument with SDS software version 1.4",
       "TAT": "ND",
@@ -18632,7 +18926,10 @@
       "Specimen Type": "Nasal swab",
       "Transport Media": "Saline",
       "Gene": "NA",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "NA",
       "Detection": "NA",
       "TAT": "NA",
@@ -18846,7 +19143,10 @@
       "Specimen Type": "Nasal, nasopharyngeal, and oropharyngeal swabs and self collected nasal swabs",
       "Transport Media": "Saline",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp Viral RNA Mini Kit or Zymo QuickRNA Viral Kit RNA Extraction Kits",
       "Detection": "QuantStudio 6 or QuantStudio 7 realtime PCR systems",
       "TAT": "1 - 2 days (from receiving sample)",
@@ -19060,7 +19360,10 @@
       "Specimen Type": "Nasal (including Everlywell home collection), nasopharyngeal or oropharyngeal swabs",
       "Transport Media": "Saline, Amies",
       "Gene": "E",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Zymo Quick-RNA Viral Kit RNA Extraction Kit with Abnova Precipitor32 or Indical Indimag 48",
       "Detection": "BioRad CFX96 or CFX384",
       "TAT": "ND",
@@ -19253,7 +19556,10 @@
       "Specimen Type": "Nasal, nasopharyngeal, or oropharyngeal swabs",
       "Transport Media": "None - should not be used",
       "Gene": "ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Manual buffer addition and heating",
       "Detection": "ABI 7500 Fast Dx, ABI 7500 Standard, Roche LightCycler 480, Roche Cobas Z480, Bio-Rad CFX96 Touch, Thermofisher QuantStudio 7 Pro, Qiagen Rotor-Gene Q",
       "TAT": "ND",
@@ -19456,7 +19762,10 @@
       "Specimen Type": "Nasopharyngeal swabs, oropharyngeal swabs, anterior nares swabs, mid-turbinate nasal swabs, nasopharyngeal wash/aspirate, bronchoalveolar lavage or nasal aspirates",
       "Transport Media": "ND",
       "Gene": "ORF1ab E N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Extraction with Viral DNA/RNA 200 Kit H96 on the Perkin Elmer Chemagic 360 extraction instrument platform and Chemagic software v6.3.0.3. LAMP prep with Hamilton STAR/STARlet automated liquid handler with Venus 4 software",
       "Detection": "Biotek Synergy NEO2 multi-mode microplate reader with Gen5 software v3.9",
       "TAT": "70 minutes reaction time (after RNA extraction and reaction peparation steps)",
@@ -19659,7 +19968,10 @@
       "Specimen Type": "Nasal swab, mid-turbinate swab, oropharyngeal swab, nasopharyngeal swab, sputum, bronchioalveolar lavage (BAL), tracheal aspirate",
       "Transport Media": "VTM",
       "Gene": "ORF1ab (RdRP region)  N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp DSP Viral RNA Mini Kit",
       "Detection": "Bio-Rad CFX96 Dx System, Applied Biosystems 7500, SLAN-96P",
       "TAT": "ND",
@@ -19852,7 +20164,10 @@
       "Specimen Type": "Nasopharyngeal swab, oropharyngeal (throat) swab, anterior nasal swab, mid-turbinate nasal swab, nasal aspirate, nasal wash, bronchoalveolar lavage (BAL) fluid, sputum",
       "Transport Media": "ND",
       "Gene": "ORF1ab  N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp Viral RNA Mini Kit, Roche MagNA Pure 96 DNA and Viral NA Small Volume Kit with External Lysis Buffer on the MagNA Pure 96 nucleic acid extraction system with software V3.1",
       "Detection": "ABI 7500 Real-Time PCR Instrument System with software V2.0.6, ABI 7500 Fast Real-Time PCR Instrument System with software V2.0.6, Bio-Rad CFX96™ Real-time PCR Detection System with software V3.1",
       "TAT": "ND",
@@ -20055,7 +20370,10 @@
       "Specimen Type": "Oropharyngeal swab, nasopharyngeal swab, anterior nasal swab, mid-turbinate nasal swab, nasopharyngeal wash/aspirate, nasal aspirate, bronchoalveolar lavage (BAL), sputum",
       "Transport Media": "ND",
       "Gene": "ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "QIAamp DSP virus kit",
       "Detection": "BioRad CFX 96 real-time PCR detection system with software CFX manager V3.1,  Applied Biosystems real-time PCR system 7500 with Software 2.0.6",
       "TAT": "ND",
@@ -20267,7 +20585,10 @@
       "Specimen Type": "Anterior nasal swa, mid-turbinate nasal swab, oropharyngeal (throat) swab, nasopharyngeal  swab, nasopharyngeal wash/aspirate, nasal aspirate specimen, and bronchoalveolar lavage, saliva (including home collection)",
       "Transport Media": "UTM, liquid Amies (MTM), OMNIgene®·ORAL OM-505 device (for saliva)",
       "Gene": "ORF1ab  S  N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ABI MagMAX™ Viral/Pathogen Nucleic Acid Isolation Kit on the automated KingFisher Duo Primer Purification System (software v4.0)",
       "Detection": "ABI QuantStudio 5 Real-Time PCR System with software v1.3",
       "TAT": "ND",
@@ -20501,7 +20822,10 @@
       "Specimen Type": "Nasal swab, mid-turbinate swab, nasopharyngeal swab, and oropharyngeal swab, bronchoalveolar lavage",
       "Transport Media": "UTM or equivalent",
       "Gene": "E  N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Hymon SARS-CoV-2 Test Kit",
       "Detection": "ABI 7500 Real-Time PCR System with software v2.3",
       "TAT": "ND",
@@ -20704,7 +21028,10 @@
       "Specimen Type": "Nasopharyngeal, oropharyngeal, or nasal swabs",
       "Transport Media": "UTM",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Exact Sciences extraction procedure on the Hamilton STARlet liquid handler",
       "Detection": "ABI 7500 Fast Dx (software version not disclosed)",
       "TAT": "ND",
@@ -20826,7 +21153,10 @@
       "Specimen Type": "Nasopharyngeal, oropharyngeal, anterior nasal, and mid-turbinate nasal swabs, nasopharyngeal wash/aspirate or nasal aspirates as well as BAL specimens",
       "Transport Media": "ND",
       "Gene": "ORF1ab N S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ABI MagMAX Viral/Pathogen Nucleic Acid Isolation Kit on the KingFisher Flex automated DNA extraction instrument with software version 1.01",
       "Detection": "ABI QuantStudio 12K Flex with design and analysis software 2.2.3",
       "TAT": "ND",
@@ -20948,7 +21278,10 @@
       "Specimen Type": "Nasopharyngeal, nasal, and oropharyngeal swab",
       "Transport Media": "ND",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "QIAGEN RNeasy mini kit",
       "Detection": "ABI Quant Studio 7 Flex equipped with Quant Studio software v1.1; Applied Biosystems Viia 7 equipped with the Quant Studio software v1.1",
       "TAT": "ND",
@@ -21100,7 +21433,10 @@
       "Specimen Type": "Self-collected nasal swab",
       "Transport Media": "VTM",
       "Gene": "ND",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Hologic Panther Fusion SARS-CoV-2",
       "Detection": "Hologic Panther Fusion SARS-CoV-2",
       "TAT": "ND",
@@ -21222,7 +21558,10 @@
       "Specimen Type": "Serum, plasma",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "ND",
+      "Antigen": {
+        "avd": "ND",
+        "annotations": []
+      },
       "Sample Prep": "ADVIA Centaur XP System, ADVIA Centaur XPT System",
       "Detection": "ADVIA Centaur XP System, ADVIA Centaur XPT System",
       "TAT": "ND",
@@ -21344,7 +21683,10 @@
       "Specimen Type": "Serum, plasma",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "ND",
+      "Antigen": {
+        "avd": "ND",
+        "annotations": []
+      },
       "Sample Prep": "Atellica IM Analyzer",
       "Detection": "Atellica IM Analyzer",
       "TAT": "ND",
@@ -21464,7 +21806,10 @@
       "Specimen Type": "Venous whole blood, plasma from anticoagulated blood, serum",
       "Transport Media": "ND",
       "Gene": "NA",
-      "Antigen": "S (S1 region)",
+      "Antigen": {
+        "avd": "S (S1 region)",
+        "annotations": []
+      },
       "Sample Prep": "None",
       "Detection": "Gold with visual read",
       "TAT": "Less than 10 mins",
@@ -21687,7 +22032,10 @@
       "Specimen Type": "Nasal swab, nasopharyngeal swab, oropharyngeal swab, Bronchoalveolar Lavage",
       "Transport Media": "ND",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Magmax Pathogen Kit RNA/DNA on the King Fisher Flex with 96 Deep Well Head instrument (software version not disclosed)",
       "Detection": "ABI QuantStudio7 Flex instrument (software version 1.3), ABI QuantStudio12 Flex instrument (software version 1.2.2)",
       "TAT": "ND",
@@ -21809,7 +22157,10 @@
       "Specimen Type": "Nasal swab, mid-turbinate swab, nasopharyngeal swab, oropharyngeal swab, bronchoalveolar lavage",
       "Transport Media": "VTM",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "BD MAX TNA-3 kit on the BD MAX (software version 4.72 A)",
       "Detection": "BD MAX (software version 4.72 A)",
       "TAT": "ND",
@@ -21931,7 +22282,10 @@
       "Specimen Type": "",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -22053,7 +22407,10 @@
       "Specimen Type": "Nasal swab, nasopharyngeal swab, oropharyngeal swab, Bronchoalveolar Lavage (BAL)",
       "Transport Media": "ND",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Omega Bio-Tek Mag-Bind Viral DNA/RNA 96 Kit on the 5073 EPMotion liquid handler (software version not disclosed)",
       "Detection": "ABI Quantstudio 7 instrument (software version 1.3)",
       "TAT": "ND",
@@ -22173,7 +22530,10 @@
       "Specimen Type": "Human serum, Dry Blood Spot (DBS) from fingerstick blood specimen",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "S (S1, RBD, S2 regions) N (full length)",
+      "Antigen": {
+        "avd": "S (S1, RBD, S2 regions) N (full length)",
+        "annotations": []
+      },
       "Sample Prep": "Dried Blood Spot samples: Hamilton easyPunch STAR then manual preparation  All samples: Vibrant COVID-19 Ab Assay Method (V1.0.0.1) on the Hamilton MicroLab STAR liquid handling system (software version not disclosed)",
       "Detection": "Quansys Q-View Imager Pro (software version not disclosed) with addtional Vibrant COVID-19 Ab assay software (Vibrant COVID-19 Ab Reporter V1.0.0.1)",
       "TAT": "ND",
@@ -22385,7 +22745,10 @@
       "Specimen Type": "Saliva",
       "Transport Media": "Oragene Dx OGD-510",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "MagMAX Viral/Pathogen Nucleic Acid Isolation Kit (ThermoFisher Scientific), Promega Maxwell HT Viral TNA Kit (Promega), and the Maxwell RSC TNA Viral Kit performed on the Maxwell RSC 48 System (software version not disclosed)",
       "Detection": "Bio-Rad CFX384 Touch Real-Time PCR Detection System with Bio-Rad CFX Manager software version 3.1.",
       "TAT": "ND",
@@ -22505,7 +22868,10 @@
       "Specimen Type": "Venuous Whole Blood, Serum, Plasma",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "S (RBD region)",
+      "Antigen": {
+        "avd": "S (RBD region)",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Gold with visual read",
       "TAT": "~10 minutes after sample loading",
@@ -22627,7 +22993,10 @@
       "Specimen Type": "Human nasopharyngeal swab, oropharyngeal (throat) swab, anterior nasal swab, mid-turbinate swab, nasal wash, nasal aspirate and bronchoalveolar lavage (BAL)",
       "Transport Media": "VTM",
       "Gene": "E",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Roche MagNA Pure Total Nucleic Acid Kit with External Lysis Buffer (Roche Applied Science, Indianapolis, IN), Catalog #03038505001 on the Roche MagNA Pure Compact instrument (software version not disclosed), MagMAX Viral/Pathogen II (MVP II) Nucleic Acid Isolation kit on the ThermoFisher KingFisher Flex platform (software version not disclosed), QiaAmp DSP Viral RNA Mini Kit",
       "Detection": "ABI QuantStudio Dx with QuantStudio Test Development (Software version 1.0.3)",
       "TAT": "ND",
@@ -22831,7 +23200,10 @@
       "Specimen Type": "Oropharyngeal swab, nasopharyngeal swab, anterior nasal swab, mid-turbinate nasal swab",
       "Transport Media": "UTM or VTM",
       "Gene": "ORF1ab, N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "QIAamp Viral RNA Mini Kit (Qiagen, Item No. 52904)",
       "Detection": "ABI 7500 Real-Time PCR System (7500 software version 2.3)",
       "TAT": "ND",
@@ -23024,7 +23396,10 @@
       "Specimen Type": "Nasal swab, Mid-turbinate swab, Nasopharyngeal swab, Oropharyngeal swabs, Bronchioalveolar lavage (BAL)",
       "Transport Media": "ND",
       "Gene": "ORF1ab, N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAmp Viral RNA Mini Kit (manual), Chemagen CMG-2015 Prepito Viral DNA/RNA200 Kit (automated system not disclosed)",
       "Detection": "ABI 7500 Fast Real-Time PCR Instrument (software version not disclosed), Roche LightCycler® 480 II (software version not disclosed), Bio-Rad CFX 96 Touch (software version not disclosed)",
       "TAT": "ND",
@@ -23144,7 +23519,10 @@
       "Specimen Type": "Serum, Plasma",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "S1 RBD",
+      "Antigen": {
+        "avd": "S1 RBD",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Siemens Dimension EXL with LOCI module (software version not disclosed), Siemens Dimension EXL 200 (software version not disclosed)",
       "TAT": "16 minutes after sample preparation",
@@ -23264,7 +23642,10 @@
       "Specimen Type": "Serum, Plasma",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "S1 RBD",
+      "Antigen": {
+        "avd": "S1 RBD",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Siemens Dimension Vista System (software version not disclosed)",
       "TAT": "16 minutes after sample preparation",
@@ -23461,7 +23842,10 @@
       "Specimen Type": "Nasopharyngeal swab, Oropharyngeal swab, Anterior nasal swab, Mid-turbinate nasal swab, Nasopharyngeal wash/aspirate, Nasal aspirate, Bronchoalveolar lavage (BAL)",
       "Transport Media": "ND",
       "Gene": "ND",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp Viral RNA Mini Kit",
       "Detection": "Illumina NovaSeq 6000 Sequencing System using the NovaSeq Xp S4 flow cell workflow and Illumina DRAGEN COVIDSeq Test Pipeline",
       "TAT": "ND",
@@ -23673,7 +24057,10 @@
       "Specimen Type": "Nasopharyngeal swab Oropharyngeal swab, Anterior nasal swab, Midturbinate nasal swab, Nasal aspirate, Nasal wash, Bronchoalveolar lavage (BAL)",
       "Transport Media": "UTM, VCM, or equivalent",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Roche MagNA Pure 24 Total Nucleic Acid Isolation Kit on the Roche MagNA Pure 24 Nucleic Acid Extraction System,  Applied Biosystem MagMAX Viral/Pathogen Nucleic Acid Isolation Kit on the Thermo Scientific KingFisher Flex Extraction System",
       "Detection": "ABI QuantStudio 7 Flex (Software Version 1.3),  ABI 7500 Fast (Software Version 2.3),  ABI QuantStudio 12K Flex (Software Version 1.3)",
       "TAT": "ND",
@@ -23795,7 +24182,10 @@
       "Specimen Type": "Nasopharyngeal swab",
       "Transport Media": "ND",
       "Gene": "N (N1 and N2 regions)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Invitrogen PureLink Viral RNA/DNA Mini Kit",
       "Detection": "Agilent AriaMX running Aria (software V1.5)",
       "TAT": "ND",
@@ -23998,7 +24388,10 @@
       "Specimen Type": "Nasal swab",
       "Transport Media": "ND",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Cue Health Monitoring System with the Cue Cartridge Reader and Cue Health App",
       "TAT": "25 minutes from Sample Wand insertion",
@@ -24201,7 +24594,10 @@
       "Specimen Type": "Nasopharyngeal swab, Oropharyngeal swab, Anterior nasal swab, Mid-turbinate nasal swab, Nasopharyngeal aspirate/wash, Nasal aspirate, Bronchoalveolar lavage (BALs)",
       "Transport Media": "UTM",
       "Gene": "RdRP, N, E",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen Viral RNA MiniKit (Cat. No. 52904)",
       "Detection": "ABI7500 Real Time PCR instrument (software version 2.3)",
       "TAT": "ND",
@@ -24404,7 +24800,10 @@
       "Specimen Type": "Nasopharyngeal swab, Oropharyngeal swab, Nasal swab, Mid-turbinate swab",
       "Transport Media": "ND",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen RNeasy Kit",
       "Detection": "ThermoFisher QuantStudio 5 instrument (software version 1.5.1.)",
       "TAT": "ND",
@@ -24524,7 +24923,10 @@
       "Specimen Type": "Serum",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "ND",
+      "Antigen": {
+        "avd": "ND",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Microplate reader (manufacturer not specified)",
       "TAT": "~1 hour and 50 minutes after sample preparation",
@@ -24719,7 +25121,10 @@
       "Specimen Type": "Anterior nasal swab, Mid-turbinate nasal swab, Nasopharyngeal swab, Oropharyngeal swab, Nasopharyngeal wash/aspirate, Nasal aspirate, Bronchoalveolar lavage (BAL)",
       "Transport Media": "Copan Universal Transport Medium System (UTM-RT), BD Universal Viral Transport System (UVT)",
       "Gene": "RdRP, E",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "RTA Viral RNA Isolation Kit",
       "Detection": "BioRad CFX-96 IVD with CFX Manager Software (version 3.0), ABI QuantStudio 5 Dx with QuantStudio 5 Dx TD Software (version 1.0)",
       "TAT": "ND",
@@ -24841,7 +25246,10 @@
       "Specimen Type": "Nasopharyngeal swab",
       "Transport Media": "ND",
       "Gene": "Orf1ab, N, S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "MagMax Viral/Pathogen Isolation Kit (A42352) on the MagMax Express 96 Fast",
       "Detection": "ABI Quantstudio 12K Flex Real-Time PCR with QuantStudio 12K Flex Software (V.1.1.2)",
       "TAT": "ND",
@@ -25029,7 +25437,10 @@
       "Specimen Type": "Nasal swab",
       "Transport Media": "Saline",
       "Gene": "NA",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "NA",
       "Detection": "Roche Cobas 6800 instrument",
       "TAT": "NA",
@@ -25213,7 +25624,10 @@
       "Specimen Type": "Nasopharyngeal swab, Oropharyngeal swab, Nasal swab, Bronchoalveolar lavage (BAL)",
       "Transport Media": "ND",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Roche DNA and Viral Small Volume Kit on the Roche MagNA Pure 96, bioMerieux NucliSENS easyMAG",
       "Detection": "BioCode® MDx-3000 with MDx software (version not disclosed)",
       "TAT": "~5 hrs",
@@ -25333,7 +25747,10 @@
       "Specimen Type": "Serum",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "RBD region of S protein",
+      "Antigen": {
+        "avd": "RBD region of S protein",
+        "annotations": []
+      },
       "Sample Prep": "Manual, BioTek 50TS12 MicroPlate Washer 12 well",
       "Detection": "BioTek 800TS Absorbance Reader",
       "TAT": "ND",
@@ -25526,7 +25943,10 @@
       "Specimen Type": "NP swab, OP swab, Anterior nasal swab, Mid-turbinate nasal swab, NP wash/aspirate, Nasal aspirate, BAL",
       "Transport Media": "UTM, VTM, Saline",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "BD MAX ExK TNA-2 or 3 Kit on the BD MAX System (software version 4.70)",
       "Detection": "BD MAX System (software version 4.70)",
       "TAT": "ND",
@@ -25739,7 +26159,10 @@
       "Specimen Type": "Nasal swab, OP swab, NP swab",
       "Transport Media": "ND",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "bioMérieux EasyMAG Extraction System",
       "Detection": "ABI 7500 Fast RealTime PCR instrument (software version 1.5.1)",
       "TAT": "ND",
@@ -25943,7 +26366,10 @@
       "Specimen Type": "NP swab, OP swab, Anterior nasal swab, Mid-turbinate nasal swab,NP aspirate/wash, Nasal aspirate, BAL",
       "Transport Media": "VTM (TRUPCR® Viral Transport Medium or other), UTM",
       "Gene": "RdRP, N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "TRUPCR® Viral RNA Extraction Kit (3B213V/3B214V)",
       "Detection": "ABI QuantStudio 3 (software version 1.4.3), Qiagen Rotor-Gene Q 5Plex HRM Platform (software version 2.3.1)",
       "TAT": "ND",
@@ -26136,7 +26562,10 @@
       "Specimen Type": "NP swab, OP swab, Anterior nasal swab, Mid-turbinate nasal swab, Nasal aspirate,Nasal wash, BAL",
       "Transport Media": "ND",
       "Gene": "ORF1ab , N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Bioperfectus Nucleic Acid Isolation Kit (manual or on the Bioperfectus SSNP 2000A extraction system, 32 channel v1.0), QiagenQIAamp Viral RNA Mini Kit",
       "Detection": "ABI 7500 (software versions V2.3 and V2.4), QuantStudio 5 (Software versions V1.4.3 and V1.5.1), Roche LightCycler 480 (Softwareversion V1.5.1.62)",
       "TAT": "ND",
@@ -26256,7 +26685,10 @@
       "Specimen Type": "Serum, Plasma, Venous whole blood",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "N protein",
+      "Antigen": {
+        "avd": "N protein",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Gold with visual read",
       "TAT": "15-20 minutes",
@@ -26376,7 +26808,10 @@
       "Specimen Type": "Serum, Plasma",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "S1",
+      "Antigen": {
+        "avd": "S1",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Gold with visual read",
       "TAT": "10 minutes after sample loading",
@@ -26579,7 +27014,10 @@
       "Specimen Type": "NP swab, OP swab, AN swab, MTN swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "UTM or equivalent",
       "Gene": "Orf1ab, E",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp Viral RNA Mini Kit (manual), Qiagen QIAamp DSP Viral RNA Mini Kit (manual),Qiagen QIAamp Viral RNA Mini Kit on the Qiagen QIAcubeConnnect, Qiagen QIAamp DSP Viral RNA Mini Kit on the Qiagen QIAcubeConnect,Thermo Fisher Scientific MagMAX Viral/Pathogen Nucleic Acid Isolation Kit on the Thermo Fisher Scientific KingFisher Flex System",
       "Detection": "ABI QuantStudio Dx Real-Time PCR Instrument (software version 1.0.3), Bio-Rad CFX9 Dx System (software version 3.1)",
       "TAT": "ND",
@@ -26782,7 +27220,10 @@
       "Specimen Type": "NP swab, OP swab, Ns swab, AN swab, MTN swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "ND",
       "Gene": "N (N1)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Omega Scientific E.Z.N.A. Viral RNA Kit",
       "Detection": "ABI QuantStudio 5 Real-Time PCR System (Software version V1.4.3)",
       "TAT": "ND",
@@ -26975,7 +27416,10 @@
       "Specimen Type": "NP swab, OP swab, AN swab, MTN swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "ClearPrep Specimen Transport Medium, UTM, VTM, Saline, PBS",
       "Gene": "Orf1ab, N, S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Perkin Elmer Chemagic Viral DNA/RNA 300 Kit H96 on the Chemagic 360 extraction instrument software version 6.3.0.3. (with additional sample prep on the Janus G3 workstation (software 5.5.48))",
       "Detection": "QuantStudio 12K Flex Real-Time PCR System software version 1.3.",
       "TAT": "ND",
@@ -27095,7 +27539,10 @@
       "Specimen Type": "Serum, Plasma",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "S1",
+      "Antigen": {
+        "avd": "S1",
+        "annotations": []
+      },
       "Sample Prep": "Siemens Atellica Sample Handler, Siemens Atellica Direct Load",
       "Detection": "Siemens Atellica IM Analyzer",
       "TAT": "ND",
@@ -27307,7 +27754,10 @@
       "Specimen Type": "NP swab, OP swab, Ns swab, MTN swab",
       "Transport Media": "ND",
       "Gene": "N (N1, N2)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Promega Maxwell HT Viral TNA Kit (manual),  Promega Maxwell HT Viral TNA Kit on the Hamilton Robotics MicroLab Star, Promega Maxwell HT Viral TNA Kit on the Hamilton Robotics MicroLab Starlet (additional sample prep with the Hamilton Robotics MicroLab Star), undisclosed extraction kit on the Promega Maxwell RSC 48",
       "Detection": "ABI QuantStudio 7 Flex Fast Sequence Detection System (software version 1.3), ABI 7500 Fast Real-Time PCR Instrument (software version 1.5.1), ABI QuantStudio Dx Real-Time PCR Instrument with 96-well fast block (software version 1.0.3)",
       "TAT": "ND",
@@ -27509,7 +27959,10 @@
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "VTM, saline",
       "Gene": "RdRP, E, N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "QIAamp Viral RNA Mini Kit (as well as the Thermo Fisher MiniAmp Thermal cycler for amplication and the PlexBio IntelliPlex 1000 πCode Processor for hybridization)",
       "Detection": "PlexBio 100 Fluorescent Analyzer (with DeXipher MD software)",
       "TAT": "~4.5 hours (including sample prep)",
@@ -27712,7 +28165,10 @@
       "Specimen Type": "OP swab",
       "Transport Media": "VTM, UTM",
       "Gene": "Orf1ab, N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "QIAamp Viral RNA Mini Kit",
       "Detection": "DropX-2000 Digital PCR System (with GeneCount Software V1.61.0508)",
       "TAT": "ND",
@@ -27915,7 +28371,10 @@
       "Specimen Type": "NP swab, OP swab, Ns swab, MTN swab, BAL",
       "Transport Media": "Dry swab, VTM",
       "Gene": "N (N1, N3), S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Omega BioTek MagBind Viral DNA/RNA 96 Kit on the ThermoFisher Scientific KingFisher Flex Purification System",
       "Detection": "ABI QuantStudio 5 Real-Time PCR System (QuantStudio Analysis software version 1.5.1)",
       "TAT": "ND",
@@ -28118,7 +28577,10 @@
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "ND",
       "Gene": "N (N1, N2)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ViralXpress DNA/RNA Extraction Reagent (Qiagen QIAgility for additional sample prep)",
       "Detection": "ABI 7500 Fast Dx Real-Time PCR Instrument (software version 1.4), ABI QuantStudio (software version 1.0.3)",
       "TAT": "ND",
@@ -28238,7 +28700,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "lithium heparin, dipotassium EDTA, tripotassium EDTA, sodium citrate, serum separating tube",
       "Gene": "NA",
-      "Antigen": "S1 (RBD)",
+      "Antigen": {
+        "avd": "S1 (RBD)",
+        "annotations": []
+      },
       "Sample Prep": "Beckman Coulter Access 2 (software version not disclosed), Beckman Coulter UniCel DxI 600 (software version not disclosed), Beckman Coulter UniCel DxI 800 (software version not disclosed),  Beckman Coulter UniCel DxC 600i (software version not disclosed), Beckman Coulter UniCel DxC 680i (software version not disclosed), Beckman Coulter UniCel DxC 880i (software version not disclosed), Beckman Coulter UniCel DxC 660i (software version not disclosed), Beckman Coulter UniCel DxC 860i (software version not disclosed)",
       "Detection": "Beckman Coulter Access 2 (software version not disclosed), Beckman Coulter UniCel DxI 600 (software version not disclosed), Beckman Coulter UniCel DxI 800 (software version not disclosed),  Beckman Coulter UniCel DxC 600i (software version not disclosed), Beckman Coulter UniCel DxC 680i (software version not disclosed), Beckman Coulter UniCel DxC 880i (software version not disclosed), Beckman Coulter UniCel DxC 660i (software version not disclosed), Beckman Coulter UniCel DxC 860i (software version not disclosed)",
       "TAT": "~25 min",
@@ -28441,7 +28906,10 @@
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, BAL",
       "Transport Media": "ND",
       "Gene": "N (N1, N2)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Indical IndiMag Extraction Kit",
       "Detection": "ABI QuantStudio 5 (software version 1.5.1)",
       "TAT": "ND",
@@ -28635,7 +29103,10 @@
       "Specimen Type": "NP swab, NP aspirate, BAL",
       "Transport Media": "ND",
       "Gene": "Orf1ab, N, S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ThermoFisher MagMAX Viral/Pathogen Nucleic Acid Isolation Kit using the ThermoFisher KingFisher Flex Purification System",
       "Detection": "ABI QuantStudio 12K Flex Real-Time PCR (with QuantStudio software version 1.4.)",
       "TAT": "ND",
@@ -28831,7 +29302,10 @@
       "Specimen Type": "Nasal swab",
       "Transport Media": "Saline",
       "Gene": "NA",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "NA",
       "Detection": "NA",
       "TAT": "NA",
@@ -29054,7 +29528,10 @@
       "Specimen Type": "NP swab, OP swabs, ANs swab, MTNs swab, BAL, NP wash, NP aspirate, Ns aspirate",
       "Transport Media": "VTM, saline",
       "Gene": "RdRP, N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen RNeasy Mini Kit",
       "Detection": "Bio-Rad CFX-96 real-time PCR detection system with C1000 Thermal cycler (with CFX Manager v. 3.0 or v. 3.1 software or CFX Maestro software), ABI 7500/7500 Fast (software version 2.3)",
       "TAT": "ND",
@@ -29257,7 +29734,10 @@
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, BAL",
       "Transport Media": "ND",
       "Gene": "N (N1, N2)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Takara Bio NucleoSpin RNA Virus Kit",
       "Detection": "Roche Light cycler 480 instrument ( with software Version l.5.)",
       "TAT": "ND",
@@ -29377,7 +29857,10 @@
       "Specimen Type": "Serum",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "ND",
+      "Antigen": {
+        "avd": "ND",
+        "annotations": []
+      },
       "Sample Prep": "Manual (with unspecified automated plate washer)",
       "Detection": "Microplate reader (manufacturer not specified)",
       "TAT": "~1 hour and 50 minutes after sample preparation",
@@ -29579,7 +30062,10 @@
       "Specimen Type": "OP Swab",
       "Transport Media": "Dry swab",
       "Gene": "E, RdRP",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Macherey-Nagel NucleoMag VET Kit on the ThermoFisher KingFisher Flex",
       "Detection": "Roche LightCycler 480 II (Software Version 1.5.1.62 or higher)",
       "TAT": "ND",
@@ -29791,7 +30277,10 @@
       "Specimen Type": "NP swab, OP swab, Ns swab, Spu, LRT aspirates, BAL, NP wash, NP aspirate, Ns aspirate",
       "Transport Media": "VTM, Amies transport medium, sterile saline",
       "Gene": "N (Cov2), M1 (Influenza A), NS2 (Influenza B)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAmp DSP Viral RNA Mini Kit, Qiagen Viral RNA Mini Kit,  Qiagen EZ1 DSP Virus Kit on the Qiagen EZ1 Advanced XL, Qiagen EZ1 Virus Mini Kit v2.0 on the Qiagen EZ1 Advanced XL, Roche DNA and Viral NA Small VolumeKit on the Roche MagNA Pure 96, Qiagen QIAmp DSP Viral RNA Mini Kit on the Qiagen QIAcube,  Qiagen Viral RNA Mini Kit on the Qiagen QIAcube",
       "Detection": "ABI 7500 Fast Dx Real-Time (Software Version 1.4.1)",
       "TAT": "ND",
@@ -29984,7 +30473,10 @@
       "Specimen Type": "Ns swab",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "N",
+      "Antigen": {
+        "avd": "N",
+        "annotations": []
+      },
       "Sample Prep": "BD Extraction Reagent",
       "Detection": "BD Veritor Plus Analyzer",
       "TAT": "~15 minutes",
@@ -30204,7 +30696,10 @@
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, BAL",
       "Transport Media": "ND",
       "Gene": "N, E",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Roche MagNA Pure 96 DNA and Viral NA Small volume kit on the Roche Magna Pure 96 system (Software version 3.1.1)",
       "Detection": "Roche Light Cycler 480 (software version LCS480 1.5.16.2 SP@-UDF v 2.0)",
       "TAT": "~5 hours after sample collection",
@@ -30324,7 +30819,10 @@
       "Specimen Type": "VWB, Ser, Pla",
       "Transport Media": "sodium EDTA",
       "Gene": "NA",
-      "Antigen": "N, S1",
+      "Antigen": {
+        "avd": "N, S1",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Gold with visual read",
       "TAT": "~15 minutes after sample loading",
@@ -30527,7 +31025,10 @@
       "Specimen Type": "NS swab, NTNs swab, NP swab, OP swab, NP wash, NP aspirate, Ns aspirate",
       "Transport Media": "VTM",
       "Gene": "N (N1, N2)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Enzo Life Sciences AMPIXTRACT SARS-CoV-2 Extraction kit on the Hamilton Microlab Star liquid handler as part of the Enzo Life Sciences GENEFLEX Platform v1.0",
       "Detection": "ABI QuantStudio 5 instrument (software version 1.5.1) as part of the Enzo Life Sciences GENEFLEX Platform v1.0",
       "TAT": "ND",
@@ -30721,7 +31222,10 @@
       "Specimen Type": "NP swab, OP swab, Ns swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "Universal Transport (UTM-RT®, Copan Diagnostics, Inc), Universal Viral Transfer (UVT, BD™ Diagnostics) or equivalent",
       "Gene": "N, RdRP",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp Viral RNA Mini Kit",
       "Detection": "ABI 7500/7500 Fast Real-Time PCR instrument (software version 1.4 21 CFR Part 11 Module), CFX96 TouchTM Real-Time PCR Detection System (software version 3.1)",
       "TAT": "ND",
@@ -30935,7 +31439,10 @@
       "Specimen Type": "Ns swab, NP swab",
       "Transport Media": "RNAlater Stabilization Solution",
       "Gene": "N (N1, N2)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen miRNeasy Serum/Plasma Advanced Kit on the Qiagen QIAcube HT/QIAxtractorExtraction workcell (additional sample prep with Tecan Evo 8span Liquid Handler, Beckman NX 8span Liquid Handler or Beckman FX 96head Liquid Handler)",
       "Detection": "Bio-Rad CFX384 Touch Real-Time PCR Detection System (software version 4.1.2433.1219)",
       "TAT": "ND",
@@ -31161,7 +31668,10 @@
       "Specimen Type": "NP swab, OP swab, Ns swab, MTNs swab, NP aspirate, Ns aspirate, Ns wash, BAL",
       "Transport Media": "VTM, saline",
       "Gene": "N (N1, N2) for Assay Version 1; N (N2) for Assay Version 2",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ThermoFisher MagMAX Viral RNA Isolation Kit on the Agilent Bravo Liquid Handling Platform (running VWorks (Build 11.4.0.1233)) (additional sample prep on the Hamilton STARlet and the Formulatrix Tempest)",
       "Detection": "For Assay Version 1: Applied Biosystems Viia7 thermocycler (QuantStudio Software V1.3) or Applied Biosystems QuantStudio 7 Flex (QuantStudio software v1.3); for Assay Version 2: Applied Biosystems QuantStudio 7 Flex (QuantStudio software v1.3)",
       "TAT": "24 hours from receipt of samples",
@@ -31281,7 +31791,10 @@
       "Specimen Type": "Serum, Plasma",
       "Transport Media": "Potassium EDTA, disodium EDTA and lithium heparin",
       "Gene": "NA",
-      "Antigen": "S protein",
+      "Antigen": {
+        "avd": "S protein",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Diazyme DZ-Lite 3000 Plus Chemiluminescence Analyzer (software version not disclosed)",
       "TAT": "ND",
@@ -31484,7 +31997,10 @@
       "Specimen Type": "NP swab, OP swab, MTNs swab, ANs swab, Ns wash, Ns aspirate",
       "Transport Media": "UTM",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen EZ1 DSP Virus Kit (Catalog #955134) on the Qiagen EZ1 Advanced benchtop automated extraction instrument",
       "Detection": "ABI 7500 Fast Dx Real-Time PCR System (Software Version 1.4.1.)",
       "TAT": "ND",
@@ -31687,7 +32203,10 @@
       "Specimen Type": "NP swab, Ns aspirate, MTNs swab, Ns swab, OP swab, Spu, Tr aspirate, BAL",
       "Transport Media": "UTM",
       "Gene": "RdRP, E",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp MinElute Virus Spin Kit, Roche DNA and Viral RNA Small Volume Kit on the Roche MagNA Pure 96",
       "Detection": "ABI 7500 Real-Time PCR Instrument System (software version 2.3), ABI 7500 fast Real-Time PCR Instrument System (software version 2.3), ABI QuantStudio 5 Real-Time PCR Instrument System (software version 1.4), Bio-Rad CFX96 real-time PCR detection system (software version 1.6), Bio-Rad CFX96 DX real-time PCR detection system (software version 1.6)",
       "TAT": "ND",
@@ -31807,7 +32326,10 @@
       "Specimen Type": "WVB, Ser, Pla",
       "Transport Media": "dipotassium EDTA, lithium heparin, and sodium citrate",
       "Gene": "NA",
-      "Antigen": "S (RBD region)",
+      "Antigen": {
+        "avd": "S (RBD region)",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Gold with visual read",
       "TAT": "~15 minutes after sample loading",
@@ -32030,7 +32552,10 @@
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "ND",
       "Gene": "N (N1, N2)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen RNeasy Mini Kit",
       "Detection": "Two step singleplex: Eppendorf Mastercycler Nexus X2 (software version 3.5.1) for cDNA synthesis and ABI QuantStudio 6 Flex Real-Time PCR System (software version 1.3) for PCR amplificationOne step singleplex: ABI QuantStudio 6 Flex Real-Time PCR System (software version 1.3)",
       "TAT": "ND",
@@ -32234,7 +32759,10 @@
       "Specimen Type": "NP swab, OP swab, MTNs swab, ANs swab, NP wash, NP aspirate, Ns aspirate",
       "Transport Media": "Everlywell COVID-19 test home collection kit, otherwise not disclosed",
       "Gene": "ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Thermo Fisher Scientific MagMax Viral Pathogen Kit automated on the MagMax Express 96 instrument (software not disclosed)",
       "Detection": "Thermo Fisher Scientific QuantStudio 12K Flex (software v1.3) or QuantStudio 7 Flex Quantitative Real Time (Software v1.3)",
       "TAT": "ND",
@@ -32437,7 +32965,10 @@
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, BAL",
       "Transport Media": "ND",
       "Gene": "ORF1ab, N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "RTA Labs RTA Viral Nucleic Acid Isolation Kit, Qiagen QIAamp MinElute Virus Spin Kit, Roche High Pure Viral RNA Kit, Thermo Fisher Scientific MagMax kit, Procomcure Biotech SphaeraMag DNA/RNA Isolation Kit",
       "Detection": "Thermo Fisher Scientific QS1 (software version not disclosed), Qiagen Rotor-Gene Q (software version not disclosed), ABI 7500 Fast Real time PCR Dx (software version not disclosed), DNA Technologie DTPrime5 (software version not disclosed), Analytik Jena qTower3G (software version not disclosed), BioRad CFX-96 IVD marked instrument (software version not disclosed)",
       "TAT": "ND",
@@ -32642,7 +33173,10 @@
       "Specimen Type": "ANs swab, MTNs swab, NP swab, OP swab, NP wash and NP aspirate, Ns aspirate, BAL, Spu",
       "Transport Media": "VTM",
       "Gene": "RdRP, E",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp DSP Viral RNA Mini Kit",
       "Detection": "ABI 7500,ABI 7500 Fast, Bio-Rad CFX96 Real-time PCR Detection System",
       "TAT": "ND",
@@ -32762,7 +33296,10 @@
       "Specimen Type": "VWB, Ser, Pla",
       "Transport Media": "dipotassium EDTA, sodium citrate, sodium heparin",
       "Gene": "NA",
-      "Antigen": "S (RBD region)",
+      "Antigen": {
+        "avd": "S (RBD region)",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Gold with visual read",
       "TAT": "10 minutes after sample loading",
@@ -32894,7 +33431,10 @@
       "Specimen Type": "Nasal swab",
       "Transport Media": "VCM, 0.9% saline, PBS",
       "Gene": "NA",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "NA",
       "Detection": "NA",
       "TAT": "NA",
@@ -33026,7 +33566,10 @@
       "Specimen Type": "Nasal swab",
       "Transport Media": "VCM, 0.9% saline, PBS",
       "Gene": "NA",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "NA",
       "Detection": "NA",
       "TAT": "NA",
@@ -33158,7 +33701,10 @@
       "Specimen Type": "Nasal swab",
       "Transport Media": "VCM, 0.9% saline, PBS",
       "Gene": "NA",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "NA",
       "Detection": "NA",
       "TAT": "NA",
@@ -33351,7 +33897,10 @@
       "Specimen Type": "Ns swab, NP swab, MTNs swab, OP swab, NP aspirate, BAL",
       "Transport Media": "ND",
       "Gene": "N, S, ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ThermoFisher MagMax Viral/Pathogen Nucleic Acid Isolation Kit; ABI KingFisher Flex 96 Deep-Well Magnetic Particle Processor;",
       "Detection": "ABI QuantStudio 12K Flex Real-Time PCR System (software version 1.4).",
       "TAT": "NA",
@@ -33471,7 +34020,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "dipotassium EDTA",
       "Gene": "NA",
-      "Antigen": "S(RBD, S1), N",
+      "Antigen": {
+        "avd": "S(RBD, S1), N",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Luminex 200 (software version 4.3), Luminex MAGPIX® (all configurations, software version 4.3), Luminex FLEXMAP 3D (with MFI divider enabled, software version 4.3",
       "TAT": "ND",
@@ -33674,7 +34226,10 @@
       "Specimen Type": "NP swab, Ns swab",
       "Transport Media": "UTM (NP swab, Ns swab), saline (Ns swab)",
       "Gene": "RdRP",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Chemagic Viral DNA/RNA 300 Kit H96 on the  PerkinElmer Chemagic MSM I Automated Specimen Processing System",
       "Detection": "Roche LightCycler 480 II qPCR System (Software version 1.5.1.62)",
       "TAT": "ND",
@@ -33794,7 +34349,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "acid citrate dextrose",
       "Gene": "NA",
-      "Antigen": "N protein",
+      "Antigen": {
+        "avd": "N protein",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Gold with visual read",
       "TAT": "15 minutes after sample loading",
@@ -34006,7 +34564,10 @@
       "Specimen Type": "Ns swab, NP swab, OP swab, Spu",
       "Transport Media": "UTM, VTM",
       "Gene": "ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Thermo Fisher PureLink viral RNA/DNA Mini Kit (manual), MGI MGIEasy Magnetic Beads Virus DBA/RNA Extraction Kit on the MGI SP-960 High-throughput Automated Sample Preparation System",
       "Detection": "ABI QuantStudio 5 Real-Time PCR Instrument (software version 1.4), ABI 7500 Fast DX (software version 1.4), Bio-Rad CXF 384 Real-Time PCR Instrument (software version 3.1)",
       "TAT": "ND",
@@ -34199,7 +34760,10 @@
       "Specimen Type": "NP swab, OP swab, MTNs swab, ANs swab",
       "Transport Media": "VTM, iSwab Microbiome collection media (ISWABMD-1200, Mawi DNA Technologies)",
       "Gene": "N, ORF1ab, S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "MagMax Viral/Pathogen II Nucleic Acid Isolation Kit on the Hamilton Microlab STAR liquid handler (software version 4.5.0.7797), additional sample preparation with the STP Labtech Mosquito HV (software version 1.0.0.0)",
       "Detection": "ABI QuantStudio 7 Flex Quantitative Real Time PCR Instrument (software version 2.4)",
       "TAT": "ND",
@@ -34402,7 +34966,10 @@
       "Specimen Type": "OP swab",
       "Transport Media": "CoWin SARSCoV-2 Collection Fluid",
       "Gene": "N, ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Manual (no extraction required)",
       "Detection": "ABI 7500 RealTime PCR (software v2 series, specific version not disclosed)",
       "TAT": "ND",
@@ -34522,7 +35089,10 @@
       "Specimen Type": "Ser, Pla, VWB",
       "Transport Media": "potassium EDTA",
       "Gene": "NA",
-      "Antigen": "ND",
+      "Antigen": {
+        "avd": "ND",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Gold with visual read",
       "TAT": "10 minutes after sample loading",
@@ -34642,7 +35212,10 @@
       "Specimen Type": "Ser, Pla, VWB",
       "Transport Media": "sodium citrate, sodium heparin,or dipotassium EDTA",
       "Gene": "NA",
-      "Antigen": "N protein, S1 (RBD) protein",
+      "Antigen": {
+        "avd": "N protein, S1 (RBD) protein",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Gold with visual read",
       "TAT": "10 minutes after sample loading",
@@ -34845,7 +35418,10 @@
       "Specimen Type": "NP swab, ANs swab, MTNs swab, OP swab, Ns wash, Ns aspirate, BAL",
       "Transport Media": "ND",
       "Gene": "N (N1, N2)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Zymo Research Quick-RNA Viral Kit",
       "Detection": "ABI 7500 (software version 2.3), ABI Quant Studio 5 (software version 1.5.1), Bio-Rad CFX Connect (software version 3.1), Bio-Rad CFX 96 Real PCR (software version 4.1.2433.1219)",
       "TAT": "ND",
@@ -35038,7 +35614,10 @@
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, Ns aspirate, Ns wash, BAL",
       "Transport Media": "ND",
       "Gene": "N (N1, N2)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "QIAGEN QIAamp 96 Virus QIAcube HT Kit on the QIAGEN QIAcube HT (software v1.1.0.39),  QIAGEN QIAamp 96 Virus QIAcube HT Kit on the Hamilton MicroLab STARlet (software v4.5)",
       "Detection": "ABI QuantStudio 7 Flex Real-Time PCR System (software version 1.3), ABI QuantStudio Dx Real-Time PCR System (software version 1.0.3), ABI QuantStudio 12K Flex RealTime PCR System (software version 1.3)",
       "TAT": "ND",
@@ -35241,7 +35820,10 @@
       "Specimen Type": "Sal",
       "Transport Media": "DNA Genotek OMNIgene ORAL OM-505 collection device",
       "Gene": "RdRP",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Zymo Quick RNA/DNA Viral MagBead Kit on the Tecan Fluent 780/480 DreamPrep",
       "Detection": "BioRad CFX-96 TOUCH Thermal Cycler instrument (software version 3.1)",
       "TAT": "ND",
@@ -35361,7 +35943,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "potassium EDTA and lithium heparin",
       "Gene": "NA",
-      "Antigen": "S1 (RBD)",
+      "Antigen": {
+        "avd": "S1 (RBD)",
+        "annotations": []
+      },
       "Sample Prep": "Atellica IM Analyzer",
       "Detection": "Atellica IM Analyzer",
       "TAT": "ND",
@@ -35481,7 +36066,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "potassium EDTA and lithium heparin",
       "Gene": "NA",
-      "Antigen": "S1 (RBD)",
+      "Antigen": {
+        "avd": "S1 (RBD)",
+        "annotations": []
+      },
       "Sample Prep": "ADVIA Centaur XP System, ADVIA Centaur XPT System",
       "Detection": "ADVIA Centaur XP System, ADVIA Centaur XPT System",
       "TAT": "ND",
@@ -35674,7 +36262,10 @@
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, NP washes, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "VTM, UTM",
       "Gene": "N, ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Xiamen Zeesan Biotech Co., Ltd. Virus RNA Extraction Kit (Cat. No.: 602101)",
       "Detection": "ABI QuantStudio 3 real-time PCR thermal cycler (software version 1.4.3)",
       "TAT": "ND",
@@ -35806,7 +36397,10 @@
       "Specimen Type": "Up to 5 pooled specimens: NP swab, MTNs swab, ANs swab, OP swab",
       "Transport Media": "ND",
       "Gene": "ORF1ab, E",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Roche cobas 6800 and 8800",
       "Detection": "Roche cobas 6800 and 8800 Systems (software version 1.2 (ASAP v10.1.0) and version 1.3 (ASAP v11.1.0)).",
       "TAT": "ND",
@@ -36021,7 +36615,10 @@
       "Specimen Type": "Np swab, OP swab, ANs swab, MTNs swab, NP wash, Ns aspirate, BAL",
       "Transport Media": "ND",
       "Gene": "N(N1, N3)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp Viral RNA Mini Kit forextraction, ThermoFisher High Capacity cDNA Reverse Transcription Kit on the Eppendorf Nexus Gradient Mastercycler (software version 3.6.9.0) for reverse trascription.",
       "Detection": "ABI QuantStudio 7-Flex Real-Time PCR Instrument (software v1.3)",
       "TAT": "ND",
@@ -36224,7 +36821,10 @@
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, BAL",
       "Transport Media": "VTM (Hardy Diagnostics) in the Ethos Laboratories U-Collect At Home Collections Kit",
       "Gene": "N, ORF1, ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Omega Bio-tek MagBind Viral DNA/RNA kit on the ThermoFisher KingFisher Flex Purification System (software version 4.0) for extraction, ABI Veriti 96 Thermal Cycler with Thermal Cycler Fleet Control (software version 1.7.1) with the Agena SARS-CoV-2 Panel Set (RUO) kit for amplification",
       "Detection": "Agena Bioscience MassARRAY System (software version 5.0)",
       "TAT": "",
@@ -36436,7 +37036,10 @@
       "Specimen Type": "NP swab, OP swab, Ns swab, BAL, Tr aspirate, Spu",
       "Transport Media": "ND",
       "Gene": "E, RdRP",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Roche MagNA Pure 96 DNA and Viral NA Small Volume Kit on the Roche MagNA Pure 96 (software version 3.0)",
       "Detection": "Roche LightCycler 480, cobas z 480 instruments (software version 1.2.1.62 SP3)",
       "TAT": "ND",
@@ -36568,7 +37171,10 @@
       "Specimen Type": "Up to 7 pooled specimens: NP swab, Ns swab, OP swab",
       "Transport Media": "ND",
       "Gene": "ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Hologic Panther System; additional sample pooling either manually or with Tecan Evo liquid handling system",
       "Detection": "Hologic Panther System",
       "TAT": "ND",
@@ -36782,7 +37388,10 @@
       "Specimen Type": "NP swab, OP swab",
       "Transport Media": "ND",
       "Gene": "N (N1, N2)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Thermofisher MagMAX Viral/Pathogen Nucleic Acid Isolation Kit (manual), Thermofisher MagMAX Viral/Pathogen Nucleic Acid Isolation Kit on the ThermoFisher KingFisher Flex platform, OmegaBiotek Mag-Bind DNA/RNA kit (manual), Omega Biotek Mag-Bind DNA/RNA kit on the ThermoFisher KingFisher Flex platform",
       "Detection": "ABI QuantStudio12K Flex Real Time PCR instrument (software version 1.3)",
       "TAT": "ND",
@@ -36975,7 +37584,10 @@
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, NP wash, NP aspirate, Ns aspirate",
       "Transport Media": "VTM, Amies transport medium, saline",
       "Gene": "ORF1a, RdRp",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Sentosa® SX Virus Total Nucleic Acid Kit (4x24) v2.0",
       "Detection": "ABI 7500 Fast Dx Real-Time PCR System (software version 1.4.1), Sentosa® SA201 Real-Time PCR Instrument (software version 1.0.1)",
       "TAT": "ND",
@@ -37095,7 +37707,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "Acid Citrate Dextrose",
       "Gene": "NA",
-      "Antigen": "S (RBD)",
+      "Antigen": {
+        "avd": "S (RBD)",
+        "annotations": []
+      },
       "Sample Prep": "Manual (with unspecified automated microplate washer)",
       "Detection": "Microplate reader (manufacturer not specified)",
       "TAT": "ND",
@@ -37298,7 +37913,10 @@
       "Specimen Type": "NP swab, OP swab, MTNs swab, ANs swab",
       "Transport Media": "iSwab Microbiome collection media",
       "Gene": "S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ThermoFisher MagMax Viral/Pathogen II Nucleic Acid Isolation kit for extraction,  Hamilton Microlab STAR liquid handler (software version 4.5.0.7797) or STP Labtech Mosquito HV (software version 1.0.0.0) for additional sample prep, Bio-Rad C-1000 Touch Thermocycler for reverse transcription",
       "Detection": "Illumina NovaSeq 6000 with Illumina SP Flow Cell (Illumina NovaSeq software version 1.6, Illumina Real Time Analysis Software (RTA3 version 3.4.4), Illumina bcl2fastq version 2.20, and Helix COVID-19 NGS Test Bioinformatics Pipeline (AmpFinder) version 0.1.0.)",
       "TAT": "ND",
@@ -37418,7 +38036,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "lithium heparin",
       "Gene": "NA",
-      "Antigen": "S (RBD)",
+      "Antigen": {
+        "avd": "S (RBD)",
+        "annotations": []
+      },
       "Sample Prep": "BioMerieux VIDAS, BioMerieux MINI VIDAS, BioMerieux VIDAS 3",
       "Detection": "BioMerieux VIDAS, BioMerieux MINI VIDAS, BioMerieux VIDAS 3",
       "TAT": "~27 minutes after sample loading",
@@ -37538,7 +38159,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "lithium heparin",
       "Gene": "NA",
-      "Antigen": "S (RBD)",
+      "Antigen": {
+        "avd": "S (RBD)",
+        "annotations": []
+      },
       "Sample Prep": "BioMerieux VIDAS, BioMerieux MINI VIDAS, BioMerieux VIDAS 3",
       "Detection": "BioMerieux VIDAS, BioMerieux MINI VIDAS, BioMerieux VIDAS 3",
       "TAT": "~27 minutes after sample loading",
@@ -37770,7 +38394,10 @@
       "Specimen Type": "Ns swab, MNTs swab, NP swab, OP swab, BAL",
       "Transport Media": "VTM",
       "Gene": "N (N1, N2)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Life Technologies Ambion MagMAX-96 Viral RNA Isolation Kit on the Hamilton Microlab STAR liquid-handling system (Hamilton VENUS software, version not disclosed) for extraction, QuantaBio qScript XLT for amplification",
       "Detection": "Roche LightCycler 480 (Software version 1.5)",
       "TAT": "7 days",
@@ -37973,7 +38600,10 @@
       "Specimen Type": "NP swab, ANs swab, MTNs swab, OP swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "ND",
       "Gene": "N (N1, N2)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ThermoFisher, MagMAX Viral/Pathogen Ultra Kit on the ThermoFisher Kingfisher Flex DNA Extraction System (software version V.1.2.2) for extraction, Tecan Evo 100 Liquid Handler with software version 2.8 for specimen pipetting",
       "Detection": "ABI QuantStudio 5 Real time PCR System (software version 1.5.1)",
       "TAT": "ND",
@@ -38166,7 +38796,10 @@
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab",
       "Transport Media": "ND",
       "Gene": "ORF1ab N S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Thermo Fisher MagNA Pure 96 DNA and Viral Nucleic Acid Small Volume Kit using Roche MagNA Pure 96 Instrument for automated nucleic acid extraction, Thermo Fisher TaqPath 1-Step Multiplex Master Mix for reverse transcription",
       "Detection": "ABI QuantStudio 12K Flex Real-Time PCR System (software version 2.4.0) for amplification and detection",
       "TAT": "ND",
@@ -38349,7 +38982,10 @@
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, BAL",
       "Transport Media": "VTM, DNA-RNA Shield",
       "Gene": "ORF1a",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen DSP Virus/Pathogen Kit on the Qiagen QIAsymphony SP, ThermoFisher MagMax Viral/Pathogen Nucleic Acid Isolation Kit , Qiagen QIAamp Viral RNA Mini Kit",
       "Detection": "Roche LightCycler 480 II (software version SW 1.5.1), ABI 7500 Fast Dx (software version 1.4.1), ABI QuantStudio 5 (software version 1.5.1), Agilent AriaMx (software version 1.71), Agilent Stratagene Mx3005P (software version 4.10)",
       "TAT": "12 minutes after extraction",
@@ -38542,7 +39178,10 @@
       "Specimen Type": "NP swab, Ns swab, OP swab, NP wash, NP aspirate, Ns aspirate",
       "Transport Media": "BDUniversal Viral Collection Kit, Biomeme DNA/RNAPreservation Buffer",
       "Gene": "ORF1ab, S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Biomeme M1 Sample Prep Cartridge",
       "Detection": "Biomeme Franklin three9 Real-Time qPCR Thermocycler, Bio-Rad CFX96 (Maestro 1.1 software version 4.1.2433.1219), ABI QuantStudio 5 (software version 1.4.3)",
       "TAT": "< 1 hr",
@@ -38746,7 +39385,10 @@
       "Specimen Type": "Ns swab, NP swab, OP swab",
       "Transport Media": "Pro-Lab Diagnostics SARS-CoV-2 transport media",
       "Gene": "ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Pro-Lab Diagnostics Pro-Mag RNA Extraction Kit",
       "Detection": "OptiGene Genie HT instrument (software version v4.00rc2)",
       "TAT": "30 minutes after extraction",
@@ -38969,7 +39611,10 @@
       "Specimen Type": "Sal",
       "Transport Media": "NA",
       "Gene": "N (N1)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Manual (no extraction)",
       "Detection": "Bio-Rad CFX96 Touch Real-Time PCR Detection System (software version not disclosed), ABI 7500 Fast Real-Time PCR System (software version not disclosed), ABI 7500 Fast Dx Real-Time PCR System (software version not disclosed)",
       "TAT": "ND",
@@ -39089,7 +39734,10 @@
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, NP wash, NP aspirate, Ns aspirate",
       "Transport Media": "VTM for swabs, no preservatives should be added to NP wash or NP aspirate",
       "Gene": "ORF1ab, N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp® Viral RNA Mini Kit (manual extraction), Thermo Fisher MagMAX Viral/Pathogen Nucleic Acid Isolation Kit on the Thermo Fisher KingFisher™ Flex Magnetic Particle Processor (automated extraction)",
       "Detection": "ABI 7500 Real-Time PCR system (7500 Software v2.3) for manual extraction of RNA, ABI 7500 Fast Dx Real-Time PCR Instrument (SDS Software v1.4.1) for automated extraction of RNA",
       "TAT": "ND",
@@ -39209,7 +39857,10 @@
       "Specimen Type": "Human Serum",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Should only be performed on human serum samples. MS-Fast Automated Chemiluminescent Immunoassay Analyzing System. Avoid use of icteric, hyperlipemic, hemolyzed, or contaminated sera which may causeerroneous results.",
       "Detection": "MS-Fast Automated Chemiluminescent Indirect antibodies based test. Detection and differentiation of IgG and IgM antibodies to SARS-CoV-2 in human serum.The product uses magnetic separation technology in two separate reactions to detect SARS-CoV- 2 lgG and lgM antibodies with magnetic particles as the solid phase of the reaction.",
       "TAT": "30 min total",
@@ -39329,7 +39980,10 @@
       "Specimen Type": "Human and Plasma",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Samples should be collected from individuals within 15 days to 43 days post symptom onset. Human serum and plasma (potassium EDTA, disodium EDTA and lithium heparin) specimens.",
       "Detection": "Chemiluminescence",
       "TAT": "30-60min",
@@ -39449,7 +40103,10 @@
       "Specimen Type": "Ns swab",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "N",
+      "Antigen": {
+        "avd": "N",
+        "annotations": []
+      },
       "Sample Prep": "LumiraDx Extraction Buffer",
       "Detection": "LumiraDx Instrument",
       "TAT": "12 minutes after sample loading",
@@ -39569,7 +40226,10 @@
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, Ns aspirate, Ns wash, BAL",
       "Transport Media": "ND",
       "Gene": "N, ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "PerkinElmer Chemagic Viral DNA/RNA 300 Kit H96 on the PerkinElmer Chemagic 360 (software version 6.3.0.3) for extraction, PerkinElmer Janus G3 Automated Workstation (software version 5.5.48.0) for pipetting",
       "Detection": "ABI 7500 Fast Dx Real-Time PCR System (software version 1.4)",
       "TAT": "ND",
@@ -39689,7 +40349,10 @@
       "Specimen Type": "Sal",
       "Transport Media": "Spectrum Solutions LLC SDNA-1000 Saliva Collection Device",
       "Gene": "N, S, ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Sera-Mag SpeedBeads Carboxyl Magnetic Beads on the ABI MagMax 96 Magnetic Particle Processor (software version 4.0)",
       "Detection": "ABI ViiA 7 Real-Time PCR System (QuantStudio 5 software version 1.3)",
       "TAT": "24 -48 hours for result from lab",
@@ -39809,7 +40472,10 @@
       "Specimen Type": "NP swab, OP swab, Ns swab, ANs swab, MTNs swab, NP aspirate, NP wash, Ns aspirate, Ns wash",
       "Transport Media": "ND",
       "Gene": "N (N1)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Zymo Quick-DNA/RNA Viral MagBead Kit on the Hamilton Star (Venus Software version 4.5.0.5217) for extraction, Zymo Quick-DNA/RNA Viral MagBead Kit on the Hamilton Starlet Liquid Handling Systems (Venus Software version 4.5.0.5217) for extraction, ABI Veriti Thermal Cycler (Firmware version 2.0.4) and Agilent 4200 Tapestation System (Tapestation software version 3.2) for RT-PCR and library generation",
       "Detection": "Illumina NextSeq 500 Instrument (NextSeq software version 4.0.1) , Illumina NextSeq 550 Instrument (NextSeq software version 4.0.1)",
       "TAT": "ND",
@@ -39929,7 +40595,10 @@
       "Specimen Type": "Ns swab",
       "Transport Media": "Buffered Saline Solution",
       "Gene": "NA",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "NA",
       "Detection": "NA",
       "TAT": "NA",
@@ -40049,7 +40718,10 @@
       "Specimen Type": "Sal",
       "Transport Media": "ND",
       "Gene": "N(N1, N2)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ABI Veriti 96-Well Thermal Cycler for reverse transcription, Fluidigm Advanta Dx 192.24 IFC on the Fluidigm Juno system (software version 3.14.1) for sample processing, Fluidigm Advanta Dx 192.24 IFC on the Fluidigm IFC Controller RX (RX Controller) (software version 2.8) for sample processing",
       "Detection": "Fluidigm Biomark HD system with (software version 4.5.2)",
       "TAT": "ND",
@@ -40169,7 +40841,10 @@
       "Specimen Type": "Ser, Pla, VWB",
       "Transport Media": "Plasma: Lithium-Heparin, Sodium-Citrate, Acid Citrate DextroseVWB: Lithium-Heparin, Sodium-Citrate, Dipotassium-EDTA",
       "Gene": "NA",
-      "Antigen": "ND",
+      "Antigen": {
+        "avd": "ND",
+        "annotations": []
+      },
       "Sample Prep": "manual",
       "Detection": "gold with visual read",
       "TAT": "10-15 minutes after sample addition",
@@ -40289,7 +40964,10 @@
       "Specimen Type": "Ns swab",
       "Transport Media": "not recommended",
       "Gene": "NA",
-      "Antigen": "N",
+      "Antigen": {
+        "avd": "N",
+        "annotations": []
+      },
       "Sample Prep": "Abbott Laboratories Extraction Reagent",
       "Detection": "visual read",
       "TAT": "15 minutes after sample loading",
@@ -40409,7 +41087,10 @@
       "Specimen Type": "NP swab, OP swab, MTNs swab, Ns swab",
       "Transport Media": "BD Universal Viral Transport Media",
       "Gene": "N, S, ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ThermoFisher MagMAX Viral/Pathogen Nucleic Acid Isolation Kit on the ThermoFisher KingFisher Flex",
       "Detection": "ABI QuantStudio 12K Flex Real-Time PCR System (software version 1.4)",
       "TAT": "Typically 24 -48 hours for result from lab",
@@ -40529,7 +41210,10 @@
       "Specimen Type": "Sal",
       "Transport Media": "Spectrum Solutions LLC SDNA-1000 Saliva Collection Device",
       "Gene": "N, E, ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Extraction: GE Healthcare Sera-Mag SpeedBeads Carboxyl Magnetic Beads on the ABI MagMax 96 Magnetic Particle ProcessorAmplification: ThermoFisher Scientific TaqPath 1-Step Multiplex Master Mix (No ROX) on the ABI VeritiDx PCR Thermal Cycler",
       "Detection": "ABI 3500xL Dx Genetic Analyzer (Data Collection Software Version 3.2)",
       "TAT": "24 - 48 hours for result from lab",
@@ -40649,7 +41333,10 @@
       "Specimen Type": "NP swab, OP swab",
       "Transport Media": "ND",
       "Gene": "N, ORF1ab, S",
-      "Antigen": "ND",
+      "Antigen": {
+        "avd": "ND",
+        "annotations": []
+      },
       "Sample Prep": "Omega BiotekMag-Bind Viral RNA Xpress Kit on the Hamilton Vantage Liquid Handling System",
       "Detection": "ABI QuantStudio 12K Flex Instrument (software version 1.4)",
       "TAT": "ND",
@@ -40769,7 +41456,10 @@
       "Specimen Type": "Up to 2 pooled samples: NP swab",
       "Transport Media": "ND",
       "Gene": "ORF1, E",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Roche cobas 6800 System (software version 1.2, ASAP v10.1.0), Roche cobas 8800 System (software version 1.2, ASAP v10.1.0), Roche cobas 6800 System (software version 1.3, ASAP v11.1.0), Roche cobas 8800 System (software version 1.3, ASAP v11.1.0).",
       "Detection": "Roche cobas 6800 System (software version 1.2, ASAP v10.1.0), Roche cobas 8800 System (software version 1.2, ASAP v10.1.0), Roche cobas 6800 System (software version 1.3, ASAP v11.1.0), Roche cobas 8800 System (software version 1.3, ASAP v11.1.0).",
       "TAT": "ND",
@@ -40889,7 +41579,10 @@
       "Specimen Type": "NP swab, OP swab, MTNs swab, ANs swab, NP wash, NP aspirate, Ns aspirate",
       "Transport Media": "UTM",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen EZ1 DSP Virus Kit on the Qiagen EZ1 Advanced Benchtop Automated Extraction Instrument",
       "Detection": "ABI 7500 Fast Dx Real-Time PCR Instrument (software version not disclosed)",
       "TAT": "ND",
@@ -41009,7 +41702,10 @@
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, NP wash, NP aspirate, Ns aspirate",
       "Transport Media": "NP swab: VTM, ITM, Liquid Amies, PBS, salineOP swab: DNA Genotek ORAcollect RNA collection device",
       "Gene": "N (N1, N2)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Omega Bio-Tek Mag-Bind Viral DNA/RNA Kit on the Hamilton Microlab STAR (software version 4.5.0.5217)",
       "Detection": "ABI QuantStudio 6 Flex PCR Instrument (software version 1.3)",
       "TAT": "24 - 48 hours for result from lab",
@@ -41129,7 +41825,10 @@
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, BAL",
       "Transport Media": "VTM, Amies transport medium, saline",
       "Gene": "ND",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "T2 Biosystems T2Dx Instrument",
       "Detection": "T2 Biosystems T2Dx Instrument",
       "TAT": "<2 hours for results",
@@ -41249,7 +41948,10 @@
       "Specimen Type": "Ser",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "S1 (RBD), S2",
+      "Antigen": {
+        "avd": "S1 (RBD), S2",
+        "annotations": []
+      },
       "Sample Prep": "Undisclosed liquid handling robot",
       "Detection": "Undisclosed microplate reader",
       "TAT": "ND",
@@ -41369,7 +42071,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "Acid Citrate Dextrose",
       "Gene": "NA",
-      "Antigen": "S, N",
+      "Antigen": {
+        "avd": "S, N",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Gold with visual read",
       "TAT": "15 minutes after sample loading",
@@ -41489,7 +42194,10 @@
       "Specimen Type": "Ns swab",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "NA",
       "Detection": "NA",
       "TAT": "NA",
@@ -41609,7 +42317,10 @@
       "Specimen Type": "NP wash, NP aspirate, Ns aspirate, Spu, BAL",
       "Transport Media": "VTM, Amies transport medium, saline",
       "Gene": "RdRP, E",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAsymphony DSP Virus/Pathogen Kit on the Qiagen QIAsymphony SP",
       "Detection": "ABI QuantStudio 5 Real-Time PCR system (software version 1.5.1), ABI 7500 Real-Time PCR system (software version 2.3), Bio-Rad CFX96 Dx System (software version 3.1.1517.0823)",
       "TAT": "ND",
@@ -41729,7 +42440,10 @@
       "Specimen Type": "NP swab, OP swab, MTNs swab, ANs swab",
       "Transport Media": "VTM",
       "Gene": "N, E",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "MobileDetect Bio BCC19 Reagent 1, MobileDetect Bio BCC19 Reagent 2",
       "Detection": "Colorimetric with visual read or phone app",
       "TAT": "~30 minutes after sample preparation",
@@ -41849,7 +42563,10 @@
       "Specimen Type": "NP swab, OP swab, NP/OP swab, ANs swab, MTNs swab, Ns aspirate, NP aspirate, Ns wash, BAL",
       "Transport Media": "VTM",
       "Gene": "ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Bioeksen Viral Nucleic Acid Extraction Buffer (vNAT)",
       "Detection": "Roche LightCycler 96 Real-Time PCR System (software version undisclosed), Bio-Rad CFX96 Touch Real-Time PCR System (software version undisclosed), Qiagen Rotor-Gene 5 Plex Real-Time PCR System (software version 1.0)",
       "TAT": "ND",
@@ -41969,7 +42686,10 @@
       "Specimen Type": "NP swab, Ns swab",
       "Transport Media": "NP swab: Copan Universal Transport Medium System (UTM -RT), BD Universal Viral Transport System (UVT)Ns swab: cobas PCR Media, saline",
       "Gene": "Sars-CoV-2: ORF1ab, EInfluenza A: M1, M2Influenza B: NEP, NS1",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Roche cobas 6800 System (software version not disclosed), Roche cobas 8800 System (software version not disclosed)",
       "Detection": "Roche cobas 6800 System (software version not disclosed), Roche cobas 8800 System (software version not disclosed)",
       "TAT": "<3.5 hours after sample loading",
@@ -42089,7 +42809,10 @@
       "Specimen Type": "Ser, Pla, VWB",
       "Transport Media": "sodium heparin, lithium heparin, sodiumcitrate and tripotassium EDTA",
       "Gene": "NA",
-      "Antigen": "N, S (RBD)",
+      "Antigen": {
+        "avd": "N, S (RBD)",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Gold with visual read",
       "TAT": "10 minutes after sample loading",
@@ -42209,7 +42932,10 @@
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab",
       "Transport Media": "UTM",
       "Gene": "ND",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Amplification: ABI Veriti Thermal CyclerPCR Cleanup:  ThermoFisher ExoSAP-IT PCR Product Cleanup ReagentSequencing preparation: Fisher Scientific BigDye Terminator v3.1 Cycle Sequencing Kit",
       "Detection": "ABI 3730xl DNA Analyzer (Data Collection Software Version 5, Sequencing Analysis Software Version 7, optional BillionToOne qSanger-COVID-19 QC Software)",
       "TAT": "ND",
@@ -42329,7 +43055,10 @@
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab",
       "Transport Media": "ND",
       "Gene": "ORF1ab, N, S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Sample pooling: Tecan Fluent GX Automated Liquid Handler (software version 2.6) RNA extraction: Thermofisher MagMAX Viral/Pathogen Nucleic Acid Isolation on the Thermofisher KingFisher Flex Magnetic Particle Processor",
       "Detection": "ABI 7500 Dx Fast Real-Time PCR (software version 1.4.1), ABI QuantStudio 5 Real-Time PCR Instrument (software version 1.5.1 )",
       "TAT": "ND",
@@ -42449,7 +43178,10 @@
       "Specimen Type": "Ser",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "S",
+      "Antigen": {
+        "avd": "S",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "MS-Fast Automated Chemiluminescent Immunoassay Analyzing System",
       "TAT": "30 minutes",
@@ -42569,7 +43301,10 @@
       "Specimen Type": "Ser",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "S",
+      "Antigen": {
+        "avd": "S",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "MS-Fast Automated Chemiluminescent Immunoassay Analyzing System",
       "TAT": "30 minutes",
@@ -42689,7 +43424,10 @@
       "Specimen Type": "OP swab",
       "Transport Media": "VTM, UTM",
       "Gene": "ORF1ab, N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Wantai Nucleic Acid Extracting Reagent on the ThermoFisher KingFisher Flex 96, Wantai Nucleic Acid Extracting Reagent on the NEXOR 32, Wantai Nucleic Acid Extracting Reagent on the NEXOR 96, Qiagen QIAamp Viral RNA Mini Kit",
       "Detection": "Bio-Rad CFX-96 (Bio-Rad CFX Manager 3.1), ABI 7500 (Software version 2.3)",
       "TAT": "ND",
@@ -42809,7 +43547,10 @@
       "Specimen Type": "Ser",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "S, N",
+      "Antigen": {
+        "avd": "S, N",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "MAGLUMIITM series fully-automated chemiluminescence immunoassay analyzer",
       "TAT": "ND",
@@ -42929,7 +43670,10 @@
       "Specimen Type": "NP swab, Ns swab",
       "Transport Media": "UTM (Copan Diagnostics), UVT (BD)",
       "Gene": "Sars-CoV-2: ORF1ab, NInfluenza A: MInfluenza B: NS",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Roche cobas Liat Lysis Buffer on the Roche cobas Liat Analyzer",
       "Detection": "Roche cobas Liat Analyzer",
       "TAT": "~20 minutes after sample loading",
@@ -43049,7 +43793,10 @@
       "Specimen Type": "NP swab, Ns swab, MTN swab collected by HSP, or self-collected  Ns swab, MTN swab",
       "Transport Media": "UTM, UVT",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Automated",
       "Detection": "Visual read on Visby Medical COVID-19 test unit",
       "TAT": "30 minutes",
@@ -43169,7 +43916,10 @@
       "Specimen Type": "NP swab, OP swab, MTNs swab, Ns swab",
       "Transport Media": "VTM",
       "Gene": "N (N1, N2)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "QIAamp Viral RNA Mini Kit for RNA extraction (Qiagen)",
       "Detection": "AB 7500 Dx Fast Real-Time PCR with Sequence Detection System (SDS) (software v1.4)",
       "TAT": "3 hours",
@@ -43289,7 +44039,10 @@
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, NP wash, NP aspirate,  Ns aspirate, BAL",
       "Transport Media": "VTM",
       "Gene": "ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "QIAamp Viral RNA Mini Kit for RNA extraction (Qiagen)",
       "Detection": "AB StepOne/StepOnePlus Real-Time PCR System (software v2.3)",
       "TAT": "ND",
@@ -43409,7 +44162,10 @@
       "Specimen Type": "Sal",
       "Transport Media": "ORAcollect•RNA (OR-100) saliva collection device",
       "Gene": "ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Quadrant Quick RNA Viral 96 Kit extraction kit (included)",
       "Detection": "Bio-Rad CFX96 Touch Real-Time PCR Detection System (BioRad CFX Maestro Software, version not disclosed), Bio-Rad CFX384 Touch Real-Time PCR Detection System (BioRad CFX Maestro Software, version not disclosed), AB QuantStudio 5 Real-Time PCR System (QuantStudio software, version not disclosed)",
       "TAT": "ND",
@@ -43529,7 +44285,10 @@
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, Ns aspirate, NP aspirate, Ns wash, BAL",
       "Transport Media": "ND",
       "Gene": "N, ORF1a",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "ViroKey™ SX Virus Total Nucleic Acid Kit on Sentosa® automated workflow using the liquid handler Sentosa® SX101 instrument.",
       "Detection": "Sentosa® SA201 Real-Time PCR system ( Sentosa® SA201 Reporter software, version not disclosed), AB 7500 Fast Dx Real-Time PCR System (ABI SDS Software 1.4.1)",
       "TAT": "ND",
@@ -43649,7 +44408,10 @@
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "VTM, UTM, Phosphate Buffer Saline (PBS), Saline",
       "Gene": "not disclosed",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "MagMAX Viral RNA Isolation Kit for RNA extraction, fully automated Clear Dx system including Hamilton STAR robotic workstation and Hamilton On-Deck Thermal Cyclers (software Venus v4)",
       "Detection": "NGS on Oxford Nanopore GridION Sequencer - MinKNOW 18.12.4",
       "TAT": "ND",
@@ -43769,7 +44531,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "ACD (acid citrate dextrose) for plasma",
       "Gene": "NA",
-      "Antigen": "S",
+      "Antigen": {
+        "avd": "S",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Colorimetric with visual read",
       "TAT": "10 minutes",
@@ -43889,7 +44654,10 @@
       "Specimen Type": "NP swab, Ns swab, Ns wash, Ns aspirate",
       "Transport Media": "VTM",
       "Gene": "Sars-CoV-2: N2, EInfluenza A: M, PB2, PAInfluenza B: M, NSRSV: N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Cepheid Xpert Xpress SARS-CoV-2/Flu/RSV Cartridge on the Cepheid GeneXpert Dx System, Cepheid Xpert Xpress SARS-CoV-2/Flu/RSV Cartridge on the Cepheid GeneXpert Infinity-80 System, Cepheid Xpert Xpress SARS-CoV-2/Flu/RSV Cartridge on the Cepheid GeneXpert Infinity-48 System, Cepheid Xpert Xpress SARS-CoV-2/Flu/RSV Cartridge on the Cepeheid GeneXpert Xpress II System, Cepheid Xpert Xpress SARS-CoV-2/Flu/RSV Cartridge on the Cepeheid GeneXpert Xpress IV System",
       "Detection": "Cepheid GeneXpert Dx System (Software Version 4.7b or higher), Cepheid GeneXpert Infinity-80 System (Software Version 6.4b or higher), Cepheid GeneXpert Infinity-48 System (Software Version 6.4b or higher), Cepheid GeneXpert Xpress II System (Tablet Configuration, Software Version 5.0), Cepheid GeneXpert Xpress IV System (Tablet Configuration, Software Version 5.1), Cepheid GeneXpert Xpress IV System (Hub Configuration, Software Version 6.1)",
       "TAT": "~36 minutes (~25 minutes for SARS-CoV-2 alone)",
@@ -44009,7 +44777,10 @@
       "Specimen Type": "ANs swab at home collection using Vo' COVID-19 Test Home Collection Kit",
       "Transport Media": "Genetrack Molecular Transport Buffer Solution",
       "Gene": "N (N1, N2)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Thermo Fisher MagMAX Viral/Pathogen Nucleic Acid Isolation Kit for RNA extraction, Thermo Fisher TaqPath1-Step Multiplex Master Mix (No ROX) for reverse transcription",
       "Detection": "ABI QuantStudio 6 Pro Real-Time PCR System (software v2.4.1)",
       "TAT": "ND",
@@ -44129,7 +44900,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "dipotassium (K2) EDTA, tripotassium (K3) EDTA",
       "Gene": "NA",
-      "Antigen": "S",
+      "Antigen": {
+        "avd": "S",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "MosaiQ 125 instrument",
       "TAT": "24 seconds",
@@ -44249,7 +45023,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "Dipotassium EDTA, sodium heparin, lithium heparin",
       "Gene": "NA",
-      "Antigen": "S",
+      "Antigen": {
+        "avd": "S",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "LIAISON® XL Analyzer",
       "TAT": "ND",
@@ -44369,7 +45146,10 @@
       "Specimen Type": "Pla",
       "Transport Media": "Dipotassium EDTA",
       "Gene": "NA",
-      "Antigen": "N",
+      "Antigen": {
+        "avd": "N",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "FREND bench-top fluorescence reader",
       "TAT": "4 minutes",
@@ -44489,7 +45269,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "Dipotassium EDTA, Lithium heparin",
       "Gene": "NA",
-      "Antigen": "S",
+      "Antigen": {
+        "avd": "S",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Colorimetric with visual read",
       "TAT": "15 minutes",
@@ -44609,7 +45392,10 @@
       "Specimen Type": "dry OP swab",
       "Transport Media": "None (sample should NOT be placed in transport medium)",
       "Gene": "N (N1, N2)",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Machery-Nagel NucleoMag VET kit with Thermo Fisher KingFisher Flex or Thermo Fisher MagMAX Viral with Thermo Fisher KingFisher Flex for RNA extraction",
       "Detection": "LightCycler 480 II (Software Version 1.5.1.62 or higher)",
       "TAT": "ND",
@@ -44729,7 +45515,10 @@
       "Specimen Type": "NP swab, OP swab, ANs swabs, MTNs swabs, Ns aspirate, Ns wash, BAL",
       "Transport Media": "VTM, Remel M4 Medium, Phosphate Buffered Saline",
       "Gene": "E, S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Promega Maxwell 16 Viral Total Nucleic Acid Purification Kit on Promega Maxwell 16 MDx Instruments (firmware v1.4 or v1.6) or  Promega Maxwell RSC Viral Total Nucleic Acid Purification Kit  on Maxwell RSC 48 System (software v3.0.1) for nucleic acid extraction, Altona Diagnostics RealStar SARS-CoV-2 RT-PCR Kit (Kit 1.0 or Kit US) for PCR amplification",
       "Detection": "QIAGEN Rotor-Gene Q MDx Instrument and Rotor-Gene (Software V2.1.0.9)",
       "TAT": "24-72 hours",
@@ -44849,7 +45638,10 @@
       "Specimen Type": "NP swab, OP swab,  MTNs swab, Ns swab, Ns aspirate, NP aspirate, Ns wash, NP wash, BAL",
       "Transport Media": "ND",
       "Gene": "ORF1ab, ORF1, N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Thermo Fisher MagMAX Viral/Pathogen Nucleic Acid Isolation kit on the Thermo Fisher KingFisher Flex Purification System or Omega Bio-Tek Mag-Bind Viral DNA/RNA kit with Hamilton StarLet liquid handling system for RNA extraction,  TaqPath One-step Master Mix or One-step Multiplex Master Mix on the Thermo Fisher Veriti thermal cycler for PCR amplification",
       "Detection": "Agena Bioscience MassARRAY System (SpectroACQUIRE software v4.3.145 and v.5.0 and TyperAnalyzer software v.4.1.83 and v5.0.1).",
       "TAT": "24-48 hours",
@@ -44969,7 +45761,10 @@
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "Zymo Research DNA/RNA Shield media",
       "Gene": "N (N1, N2), Orf1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Qiagen QIAamp 96 Virus QIAcube HT (manual) on QiaVac manifold or Zymo Research Quick-DNA/RNA Viral MagBead Extraction Kit performed on the automated MagMAX Express 96 instrument (with software version 1.2) for extraction, amplification using Qiagen QuantiFast Multiplex RT-PCR +R kit on the Applied Biosystems GeneAmp 9700 Thermal Cycler ( AB software version 3.12), hybridization using Alimetrix Environmentally-controlled hybridization robot (Flair Automated Analysis Software version 3.0)",
       "Detection": "Sensovation Sensopot microarray scanner (software ArrayReader version 3.1.0.15245)",
       "TAT": "24 hours",
@@ -45089,7 +45884,10 @@
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "ND",
       "Gene": "N, S, Orf1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Automated RNA extraction using Omega Bio-Tek Mag-Bind Viral DNA/RNA 96 kit on the MagMax Express-96 Magnetic Particle Processor, amplification using Thermo Fisher Scientific TaqPath COVID-19 Combo Kit and TaqPath 1-Step Multiplex Master Mix",
       "Detection": "AB QuantStudio 12K Flex Real-Time PCR System with QuantStudio 12K Software (v1.3) for primary analysis and AB Design and Analysis Software (DA2 v2.4.0) for secondary analysis",
       "TAT": "24 hours",
@@ -45209,7 +46007,10 @@
       "Specimen Type": "",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -45329,7 +46130,10 @@
       "Specimen Type": "",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -45449,7 +46253,10 @@
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, Ns swab",
       "Transport Media": "VTM, MAWI DNA Technologies iSWAB-Microbiome collection tube",
       "Gene": ", N, S, ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Chemagic Viral DNA/RNA 300 H96 kit on the PerkinElmer Chemagic 360 instrument (software version 6.3.0.3) for automated extraction, TaqPath COVID-19 Combo Kit for reverse transcription and amplification",
       "Detection": "ABI QuantStudio 7 Flex 384 (software version 1.3).",
       "TAT": "24-48 hours",
@@ -45569,7 +46376,10 @@
       "Specimen Type": "",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "",
       "TAT": "15min",
@@ -45689,7 +46499,10 @@
       "Specimen Type": "Ser",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "S",
+      "Antigen": {
+        "avd": "S",
+        "annotations": []
+      },
       "Sample Prep": "Manual, Dynex AGILITY automated ELISA workstation",
       "Detection": "Any plate reader for manual assay, AGILITY automated ELISA analyzer for automated assay (Dynex Technologies)",
       "TAT": "ND",
@@ -45809,7 +46622,10 @@
       "Specimen Type": "",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "45min",
@@ -45929,7 +46745,10 @@
       "Specimen Type": "",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -46049,7 +46868,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "Dipotassium EDTA, lithium heparin, sodium citrate",
       "Gene": "NA",
-      "Antigen": "S, N",
+      "Antigen": {
+        "avd": "S, N",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Any plate reader for manual assay, AGILITY automated ELISA analyzer for automated assay (Dynex Technologies)",
       "TAT": "60-80min",
@@ -46169,7 +46991,10 @@
       "Specimen Type": "NP swab,OP swab, MTNs swab, ANs swab",
       "Transport Media": "VTM, Amies Transport Medium, Saline",
       "Gene": "S",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Thermo Fisher MagMAX Viral/Pathogen Nucleic Acid Isolation Kit on Thermo Fisher Kingfisher Instrument for extraction, TaqPath 1-Step RT-qPCR Master Mix on Veriti 384-Well Thermal Cycler for amplification.",
       "Detection": "Illumina MiSeq sequencing system, Illumina NextSeq 500/550 sequencing system (both with UCLA Amplicon Quantification Software V1.0.)",
       "TAT": "ND",
@@ -46289,7 +47114,10 @@
       "Specimen Type": "NP swab",
       "Transport Media": "VTM",
       "Gene": "SARS-CoV-2 (undisclosed target gene)  plus 15 other viruses and 2 bacteria: adenovirus, coronavirus (229E, HKU1, NL63, OC43), human metapneumovirus, human rhinovirus/enterovirus, influenza A, influenza A H1, influenza A H1-2009, influenza A H3, influenza B, parainfluenza virus 1, parainfluenza virus 2, parainfluenza virus 3, parainfluenza virus 4, respiratory syncytial virus (RSV) A, respiratory syncytial virus (RSV) B, Chlamydia pneumoniae, and Mycoplasma pneumoniae.",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Fully automated extraction, reverse transcription and amplification using GenMark ePlex instrument (software version not disclosed)",
       "Detection": "GenMark ePlex instrument (software version not disclosed)",
       "TAT": "ND",
@@ -46409,7 +47237,10 @@
       "Specimen Type": "NP swab",
       "Transport Media": "VTM",
       "Gene": "NA",
-      "Antigen": "N",
+      "Antigen": {
+        "avd": "N",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Colorimetric with visual read",
       "TAT": "10 min",
@@ -46529,7 +47360,10 @@
       "Specimen Type": "Pla, Ser",
       "Transport Media": "serum separator tube, lithium heparin, dipotassium EDTA, tripotassium EDTA, sodium citrate",
       "Gene": "NA",
-      "Antigen": "S1",
+      "Antigen": {
+        "avd": "S1",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Fully automated Access Family of Immunoassay Analyzers Access 2, UniCel DxI 600, UniCel DxI 800, integrated chemistry/immunoassay platforms UniCel DxC 600i, UniCel DxC 680i, UniCel DxC 880i, UniCel DxC 660i, UniCel DxC 860i.",
       "TAT": "1h",
@@ -46649,7 +47483,10 @@
       "Specimen Type": "Pla, Ser, VWB",
       "Transport Media": "Dipotassium EDTA",
       "Gene": "NA",
-      "Antigen": "N, S1, S2, S1-RDB",
+      "Antigen": {
+        "avd": "N, S1, S2, S1-RDB",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "Maverick Diagnostic System",
       "TAT": "48h",
@@ -46769,7 +47606,10 @@
       "Specimen Type": "Sal",
       "Transport Media": "Spectrum stabilizing solution, included in kit",
       "Gene": "NA",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "NA",
       "Detection": "NA",
       "TAT": "NA",
@@ -46889,7 +47729,10 @@
       "Specimen Type": "Pla, Ser",
       "Transport Media": "Dipotassium EDTA, tripotassium EDTA, lithium heparin, lithium heparin in separator tube, sodium heparin, serum separator tube",
       "Gene": "NA",
-      "Antigen": "S",
+      "Antigen": {
+        "avd": "S",
+        "annotations": []
+      },
       "Sample Prep": "Manual",
       "Detection": "ARCHITECT i 1000SR system, ARCHITECT i 2000SR system, Alinity i System.",
       "TAT": "29 min",
@@ -47009,7 +47852,10 @@
       "Specimen Type": "Sal",
       "Transport Media": "Kit stabilizing solution",
       "Gene": "NA",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "NA",
       "Detection": "NA",
       "TAT": "NA",
@@ -47129,7 +47975,10 @@
       "Specimen Type": "OP swab, MTNs swab, Ns swab, NP swab",
       "Transport Media": "UTM, VTM, BD Universal Viral Transport, PBS, saline, Puritan UniTranz-RT Transport System",
       "Gene": "ORF1ab",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "LumiraDx SARS-CoV-2 RNA STAR extraction buffer, LumiraDx SARS-CoV-2 RNA STAR master mix",
       "Detection": "Roche LightCycler 480 II (software version SW 1.5.1), ABI 7500 Fast Dx (software version 1.4.1), ABI QuantStudio 5 (software version 1.5.1), Agilent AriaMx (software version 1.71), Agilent Stratagene Mx3005P (software version 4.10)",
       "TAT": "20 min",
@@ -47249,7 +48098,10 @@
       "Specimen Type": "Ns swab",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "NA",
       "Detection": "NA",
       "TAT": "NA",
@@ -47369,7 +48221,10 @@
       "Specimen Type": "Ns swab",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "NA",
       "Detection": "NA",
       "TAT": "NA",
@@ -47489,7 +48344,10 @@
       "Specimen Type": "NP swab",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -47609,7 +48467,10 @@
       "Specimen Type": "NP swab, OP swab, MTNs swab, Ns swab, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -47729,7 +48590,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -47849,7 +48713,10 @@
       "Specimen Type": "Sal",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -47969,7 +48836,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -48089,7 +48959,10 @@
       "Specimen Type": "Ns swab",
       "Transport Media": "NA",
       "Gene": "N",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "Lucira Health Sample Vial with Elution Buffer",
       "Detection": "Lucira Health Test Unit",
       "TAT": "~30 minutes after sample loading",
@@ -48209,7 +49082,10 @@
       "Specimen Type": "Ser, Pla, VWB",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -48329,7 +49205,10 @@
       "Specimen Type": "NP swab, OP swab, Ns swab",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -48449,7 +49328,10 @@
       "Specimen Type": "Ns swab",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -48569,7 +49451,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -48689,7 +49574,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -48809,7 +49697,10 @@
       "Specimen Type": "NP swab, OP swab, MTNs swab, Ns swab, Ns wash, Ns aspirate",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -48929,7 +49820,10 @@
       "Specimen Type": "",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -49049,7 +49943,10 @@
       "Specimen Type": "ANs swab",
       "Transport Media": "NA",
       "Gene": "NA",
-      "Antigen": "N",
+      "Antigen": {
+        "avd": "N",
+        "annotations": []
+      },
       "Sample Prep": "RNA extraction: Luminostics Extraction Tube",
       "Detection": "Luminostics Clip Analyzer",
       "TAT": "30 minutes after sample loading",
@@ -49171,7 +50068,10 @@
       "Specimen Type": "NP swab, OP swab, MTNs swab, Ns swab",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -49291,7 +50191,10 @@
       "Specimen Type": "NP swab, OP swab, MTNs swab, Ns swab",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -49411,7 +50314,10 @@
       "Specimen Type": "Ser, Pla, VWB",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -49531,7 +50437,10 @@
       "Specimen Type": "Ns swab",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -49651,7 +50560,10 @@
       "Specimen Type": "NP swab, MTNs swab, Ns swab",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -49771,7 +50683,10 @@
       "Specimen Type": "Ns swab",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -49891,7 +50806,10 @@
       "Specimen Type": "MTNs swab, Ns swab",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -50011,7 +50929,10 @@
       "Specimen Type": "NP swab, ANs swab, MTNs swab",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -50131,7 +51052,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -50251,7 +51175,10 @@
       "Specimen Type": "ANs swab, Ns swab",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -50371,7 +51298,10 @@
       "Specimen Type": "NP swab, OP swab, MTNs swab, Ns swab, Ns wash, Ns aspirate",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -50491,7 +51421,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -50611,7 +51544,10 @@
       "Specimen Type": "NP swab, Ns swab",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -50731,7 +51667,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -50851,7 +51790,10 @@
       "Specimen Type": "NP swab",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -50971,7 +51913,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -51091,7 +52036,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -51211,7 +52159,10 @@
       "Specimen Type": "NP swab, Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -51331,7 +52282,10 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -51451,7 +52405,10 @@
       "Specimen Type": "",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -51571,7 +52528,10 @@
       "Specimen Type": "NP swab, OP swab, Spu",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -51687,7 +52647,7 @@
         "annotations": [
           {
             "id": 2,
-            "text": "IgG test123",
+            "text": "IgG ",
             "labels": [
               "Analyte"
             ],
@@ -51713,7 +52673,20 @@
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
-      "Antigen": "",
+      "Antigen": {
+        "avd": "",
+        "annotations": [
+          {
+            "id": 7,
+            "text": "S, N, M",
+            "labels": [
+              "Antigen"
+            ],
+            "comment": "",
+            "anot8_org_file_id": "1403"
+          }
+        ]
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -51833,7 +52806,10 @@
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, Ns swab, Ns wash, Ns aspirate",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
@@ -51966,7 +52942,17 @@
       "Technology": "Real-time RT-PCR, Home Collection, Saliva",
       "Analyte": {
         "avd": "RNA",
-        "annotations": []
+        "annotations": [
+          {
+            "id": 25,
+            "text": "RNA",
+            "labels": [
+              "Analyte"
+            ],
+            "comment": "",
+            "anot8_org_file_id": "1411"
+          }
+        ]
       },
       "Assay": {
         "avd": "",
@@ -51975,7 +52961,20 @@
       "Specimen Type": "Sal",
       "Transport Media": "",
       "Gene": "",
-      "Antigen": "NA",
+      "Antigen": {
+        "avd": "NA",
+        "annotations": [
+          {
+            "id": 26,
+            "text": "NA",
+            "labels": [
+              "Antigen"
+            ],
+            "comment": "",
+            "anot8_org_file_id": "1411"
+          }
+        ]
+      },
       "Sample Prep": "",
       "Detection": "",
       "TAT": "",
