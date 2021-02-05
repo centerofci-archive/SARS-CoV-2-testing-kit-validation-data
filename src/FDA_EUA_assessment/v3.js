@@ -134,7 +134,7 @@ function mainV3() {
             var res = get_html_comments_raw_and_references(annotations);
             references = res.references;
             comments = res.comments;
-            var annotations_raw = escape_html(res.raw);
+            var annotations_raw = escape_html(res.raw).trim();
             if (raw && annotations_raw && raw !== annotations_raw) {
                 raw = ERROR_HTML_SYMBOL + escape_html(raw + " != " + annotations_raw);
             }

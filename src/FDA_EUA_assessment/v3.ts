@@ -308,7 +308,7 @@ const adveritasdx_renderer = (field: adveritasdx_keys): ValueRendererV3 => d =>
         const res = get_html_comments_raw_and_references(annotations)
         references = res.references
         comments = res.comments
-        const annotations_raw = escape_html(res.raw)
+        const annotations_raw = escape_html(res.raw).trim()
 
         if (raw && annotations_raw && raw !== annotations_raw)
         {
