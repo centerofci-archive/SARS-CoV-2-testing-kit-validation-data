@@ -39,7 +39,7 @@
 ],
 "left": "190px",
 "page_number": 1,
-"text": "IgG",
+"text": "IgG test123",
 "top": "430px",
 "width": "34px"
 },
@@ -104,158 +104,158 @@
 "width": "340px"
 },
 {
-"id": 8,
-"page_number": 2,
-"left": "511px",
-"top": "354px",
-"width": "128px",
-"height": "27px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Any Microplate Reader ",
+"comment": "",
+"height": "27px",
+"id": 8,
 "labels": [
 "Detection"
 ],
-"comment": ""
+"left": "511px",
+"page_number": 2,
+"text": "Any Microplate Reader ",
+"top": "354px",
+"width": "128px"
 },
 {
-"id": 9,
-"page_number": 2,
-"left": "19px",
-"top": "374px",
-"width": "43px",
-"height": "46px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Manual",
+"comment": "",
+"height": "46px",
+"id": 9,
 "labels": [
 "Sample Prep"
 ],
-"comment": ""
+"left": "19px",
+"page_number": 2,
+"text": "Manual",
+"top": "374px",
+"width": "43px"
 },
 {
-"id": 10,
-"page_number": 3,
-"left": "136px",
-"top": "138px",
-"width": "255px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Not included",
+"comment": "",
+"height": "25px",
+"id": 10,
 "labels": [
 "Positive Control"
 ],
-"comment": ""
+"left": "136px",
+"page_number": 3,
+"text": "Not included",
+"top": "138px",
+"width": "255px"
 },
 {
-"id": 11,
-"page_number": 2,
-"left": "99px",
-"top": "510px",
-"width": "162px",
-"height": "25px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Included",
+"comment": "",
+"height": "25px",
+"id": 11,
 "labels": [
 "Controls/Internal"
 ],
-"comment": ""
+"left": "99px",
+"page_number": 2,
+"text": "Included",
+"top": "510px",
+"width": "162px"
 },
 {
-"id": 12,
-"page_number": 2,
-"left": "90px",
-"top": "568px",
-"width": "146px",
-"height": "30px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Included",
+"comment": "",
+"height": "30px",
+"id": 12,
 "labels": [
 "External Quality Control"
 ],
-"comment": ""
+"left": "90px",
+"page_number": 2,
+"text": "Included",
+"top": "568px",
+"width": "146px"
 },
 {
-"id": 13,
-"page_number": 9,
-"left": "96px",
-"top": "632px",
-"width": "166px",
-"height": "27px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "No cross-reactivity in wet lab testing of  Respiratory Syncytial viruses and ANA",
+"comment": "",
+"height": "27px",
+"id": 13,
 "labels": [
 "Cross- Reactivity"
 ],
-"comment": ""
+"left": "96px",
+"page_number": 9,
+"text": "No cross-reactivity in wet lab testing of  Respiratory Syncytial viruses and ANA",
+"top": "632px",
+"width": "166px"
 },
 {
-"id": 14,
-"page_number": 10,
-"left": "612px",
-"top": "279px",
-"width": "67px",
-"height": "38px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "100%",
+"comment": "",
+"height": "38px",
+"id": 14,
 "labels": [
 "Calculated PPA/Sensitivity"
 ],
-"comment": ""
+"left": "612px",
+"page_number": 10,
+"text": "100%",
+"top": "279px",
+"width": "67px"
 },
 {
-"id": 15,
-"page_number": 10,
-"left": "311px",
-"top": "278px",
-"width": "44px",
-"height": "31px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "53",
+"comment": "",
+"height": "31px",
+"id": 15,
 "labels": [
 "PPA Sample Size"
 ],
-"comment": ""
+"left": "311px",
+"page_number": 10,
+"text": "53",
+"top": "278px",
+"width": "44px"
 },
 {
-"id": 16,
-"page_number": 10,
-"left": "527px",
-"top": "33px",
-"width": "43px",
-"height": "37px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "Clinical",
+"comment": "",
+"height": "37px",
+"id": 16,
 "labels": [
 "PPA Specimen Type"
 ],
-"comment": ""
+"left": "527px",
+"page_number": 10,
+"text": "Clinical",
+"top": "33px",
+"width": "43px"
 },
 {
-"id": 17,
-"page_number": 10,
-"left": "137px",
-"top": "451px",
-"width": "54px",
-"height": "37px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "154",
+"comment": "",
+"height": "37px",
+"id": 17,
 "labels": [
 "NPA Sample Size"
 ],
-"comment": ""
+"left": "137px",
+"page_number": 10,
+"text": "154",
+"top": "451px",
+"width": "54px"
 },
 {
-"id": 18,
-"page_number": 10,
-"left": "390px",
-"top": "443px",
-"width": "66px",
-"height": "50px",
 "colour": "rgba(200, 200, 255, 0.6)",
-"text": "100%",
+"comment": "",
+"height": "50px",
+"id": 18,
 "labels": [
 "Calculated NPA/Specificity"
 ],
-"comment": ""
+"left": "390px",
+"page_number": 10,
+"text": "100%",
+"top": "443px",
+"width": "66px"
 }
 ],
 "comments": [],

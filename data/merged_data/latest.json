@@ -185,8 +185,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Upper and lower respiratory specimens (such as nasopharyngeal or oropharyngeal swabs, sputum, lower respiratory tract aspirates, bronchoalveolar lavage, and nasopharyngeal wash/aspirate or nasal aspirate)",
       "Transport Media": "ND",
       "Gene": "N",
@@ -402,8 +408,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal/oropharyngeal swabs and sputum",
       "Transport Media": "ND",
       "Gene": "N",
@@ -620,8 +632,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H,M",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal, nasopharyngeal and oropharyngeal swabs and BAL",
       "Transport Media": "Copan UTM-RT, BD UVT, Cobas® PCR Media or 0.9% physiological saline",
       "Gene": "ORF1ab E",
@@ -818,8 +836,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Bronchoalveolar lavage, nasopharyngeal swab and aspirate, oropharyngeal, nasal, and midturbinate swab",
       "Transport Media": "ND",
       "Gene": "ORF1ab N S",
@@ -1017,8 +1041,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal, oropharyngeal swabs",
       "Transport Media": "Remel MicroTest M4, M4RT, M5 or M6; Copan Universal Transport Medium; BD Universal Viral Transport Medium ; Saline, Liquid Amies, and Hologic specimen transport media",
       "Gene": "ORF1ab (1 and 2 regions)",
@@ -1247,8 +1277,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Upper and lower respiratory specimens (such as nasal, nasopharyngeal or oropharyngeal swabs, sputum, lower respiratory tract aspirates, bronchoalveolar lavage, and nasopharyngeal wash/aspirate or nasal aspirate)",
       "Transport Media": "ND",
       "Gene": "N (N1 and N2 regions)",
@@ -1445,8 +1481,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal, nasopharyngeal, or oropharyngeal swabs",
       "Transport Media": "M4, M4-RT, M5, M6, MTM and UTM) (1 mL and 3 mL), CDC Viral Transport Media",
       "Gene": "ORF1ab",
@@ -1645,8 +1687,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Upper and lower respiratory specimens (such as nasopharyngeal or oropharyngeal swabs, sputum, tracheal aspirates, and bronchoalveolar lavage)",
       "Transport Media": "Quest V-C-M transport medium or other comparable transport medium that will be validated",
       "Gene": "N (N1 and N3 regions)",
@@ -1843,8 +1891,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal,nasopharyngealandoropharyngeal swabs",
       "Transport Media": "ND",
       "Gene": "ORF1ab (RdRp region) N",
@@ -2097,8 +2151,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H,M",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swabs (NPS), nasal swabs (NS), or bronchoalveolar lavage (BAL)",
       "Transport Media": "UTM, VTM, Remel M5, Remel M6, Copan ESwab™ (Liquid Amies), Puritan® UniTranz-RT®, or saline (0.9% sodium chloride in water)",
       "Gene": "ORF1ab S",
@@ -2297,8 +2357,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H,M",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swabs",
       "Transport Media": "VTM",
       "Gene": "ND",
@@ -2496,8 +2562,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swabs, & oropharyngeal swabs, bronchoalveolar lavage",
       "Transport Media": "VTM",
       "Gene": "ND",
@@ -2703,8 +2775,14 @@
       "Category": "Laboratory, POC",
       "Authorized Setting(s) per FDA": "H,M,W",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal, oropharyngeal, nasal, mid-turbinate swabs, nasal wash/aspirate, nasal swab and lower respiratory tract",
       "Transport Media": "VTM, saline",
       "Gene": "E N (N2 region)",
@@ -2902,8 +2980,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H,M",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swabs",
       "Transport Media": "Remel M4, Remel M4-RT, Remel M5, Remel M6, BD UVT, Sigma Virocult, Copan Aimes Medium",
       "Gene": "ORF1ab ORF8",
@@ -3148,8 +3232,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H,M,W",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Throat swab and nasal swab combined (Accula and Silaris), nasal swab only (Accula)",
       "Transport Media": "Not allowed",
       "Gene": "N",
@@ -3357,8 +3447,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Oropharyngeal swab and nasopharyngeal swab",
       "Transport Media": "VTM",
       "Gene": "ORF1ab N",
@@ -3566,8 +3662,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal and oropharyngeal swab",
       "Transport Media": "ND",
       "Gene": "N",
@@ -3807,8 +3909,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Throat swabs, nasopharyngeal swabs, anterior nasal swabs, midturbinate nasal swabs, nasal washes, nasal aspirates and bronchoalveolar lavage fluid (BALF)",
       "Transport Media": "ND",
       "Gene": "ORF1ab",
@@ -4024,8 +4132,14 @@
       "Category": "Laboratory, POC",
       "Authorized Setting(s) per FDA": "H,M,W",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "RT-NEAR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "RT-NEAR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swab, nasopharyngeal swab, throat swab",
       "Transport Media": "Not allowed",
       "Gene": "ORF1ab (RdRp region)",
@@ -4225,8 +4339,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swab",
       "Transport Media": "UTM",
       "Gene": "ORF1ab E N",
@@ -4442,8 +4562,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H,M",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal, oropharyngeal, bronchoalveolar lavage (BAL) or nasal swab",
       "Transport Media": "UTM, UVT",
       "Gene": "ORF1ab (Nsp2 region) N",
@@ -4641,8 +4767,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H,M",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swabs",
       "Transport Media": "UTM",
       "Gene": "ORF1ab (RdRP region) E Adenovirus, Coronavirus 229E, Coronavirus HKU1, Coronavirus NL63, Coronavirus OC43, SARS-CoV-2, Human Metapneumovirus A+B, Influenza A, Influenza A H1, Influenza A H3, Influenza A H1N1/pdm09, Influenza B, Parainfluenza virus 1, Parainfluenza virus 2, Parainfluenza virus 3, Parainfluenza virus 4, Rhinovirus/Enterovirus, Respiratory Syncytial Virus A+B, Bordetella pertussis, Chlamydophila pneumoniae, and Mycoplasma pneumoniae.",
@@ -4858,8 +4990,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swabs, oropharyngeal swabs, nasal swabs, mid-turbinate nasal swabs, BALs, and sputum, NP swab, OP swab, Ns swabs, MTNs swab, BAL, Spu, Sal",
       "Transport Media": "ND",
       "Gene": "N (N1 and N2 regions)",
@@ -4974,8 +5112,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H,M",
       "Technology": "Serology",
-      "Analyte": "IgM/IgG",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "WB Plasma, Serum",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -5193,8 +5337,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal or oropharyngeal swabs",
       "Transport Media": "UTM",
       "Gene": "N",
@@ -5411,8 +5561,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H,M",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal, oropharyngeal swabs",
       "Transport Media": "UVT, Copan UTM",
       "Gene": "N (N1 and N2 regions)",
@@ -5622,8 +5778,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal aspirates, nasopharyngeal swabs, nasal swabs, mid-turbinate nasal swabs, tracheal aspirates, and bronchoalveolar lavage",
       "Transport Media": "ND",
       "Gene": "N (N2 region)",
@@ -5825,8 +5987,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swab, throat (oropharyngeal) swab, nasal swab, mid-turbinate nasal swab and bronchoalveloar lavage (BAL)",
       "Transport Media": "ND",
       "Gene": "N (N1 region)",
@@ -6033,8 +6201,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H,M",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swab",
       "Transport Media": "UTM",
       "Gene": "ORF1ab N",
@@ -6241,8 +6415,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal, nasopharyngeal, oropharyngeal swab specimens, and bronchoalveolar lavage",
       "Transport Media": "ND",
       "Gene": "N",
@@ -6454,8 +6634,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Lower respiratory tract fluids (e.g. bronchoalveolar lavage, sputum, tracheal aspirate), and upper respiratory tract fluids (e.g. nasopharyngeal and oropharyngeal swabs)",
       "Transport Media": "VTM",
       "Gene": "ND",
@@ -6662,8 +6848,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal, nasopharyngeal and oropharyngeal swab and bronchoalveolar lavage (BAL)",
       "Transport Media": "ND",
       "Gene": "N (N1 and N2 regions)",
@@ -6870,8 +7062,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-digital PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-digital PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal, nasopharyngeal, and oropharyngeal swab",
       "Transport Media": "UTM",
       "Gene": "N",
@@ -7079,8 +7277,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swab, nasal swab, nasopharyngeal wash, nasal wash, oropharyngeal swab and bronchoalveolar lavage",
       "Transport Media": "VTM, sterile PBS",
       "Gene": "N",
@@ -7277,8 +7481,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swab, anterior nasal swab and mid-turbinate nasal swab",
       "Transport Media": "ND",
       "Gene": "ORF1b (RdRP region) E N",
@@ -7485,8 +7695,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H,M",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal, oropharyngeal swabs",
       "Transport Media": "UVT, Copan UTM",
       "Gene": "N (N1 and N2 regions)",
@@ -7693,8 +7909,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal Swabs, Oropharyngeal Swabs and Sputum",
       "Transport Media": "UTM",
       "Gene": "ORF1ab E N",
@@ -7901,8 +8123,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal, oropharyngeal, nasal, and mid-turbinate nasal swabs, bronchoalveolar lavage",
       "Transport Media": "VTM",
       "Gene": "E",
@@ -8129,8 +8357,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "RT-OMEGA",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "RT-OMEGA",
+        "annotations": []
+      },
       "Specimen Type": "Nasal Swabs, nasopharyngeal swabs and/or oropharyngeal swabs",
       "Transport Media": "ND",
       "Gene": "ORF1ab N",
@@ -8336,8 +8570,14 @@
       "Category": "",
       "Authorized Setting(s) per FDA": "",
       "Technology": "",
-      "Analyte": "",
-      "Assay": "",
+      "Analyte": {
+        "avd": "",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "",
       "Transport Media": "",
       "Gene": "",
@@ -8545,8 +8785,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal and oropharyngeal swab",
       "Transport Media": "UTM, SDI swab media",
       "Gene": "ORF1ab",
@@ -8753,8 +8999,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Oropharyngeal, nasopharyngeal, anterior nasal, and mid-turbinate nasal swab",
       "Transport Media": "ND",
       "Gene": "N (N1, N2 and N3 regions)",
@@ -8988,8 +9240,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal and oropharyngeal specimens, tracheal aspirates, bronchoalveolar lavages/bronchial washings, and nasopharyngeal aspirates/nasal washings",
       "Transport Media": "UTM",
       "Gene": "E",
@@ -9195,8 +9453,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Upper respiratory specimens including nasopharyngeal and oropharyngeal swabs",
       "Transport Media": "VTM",
       "Gene": "N (N1 and N2 regions)",
@@ -9311,8 +9575,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal, nasopharyngeal and oropharyngeal swab",
       "Transport Media": "VTM, Aimes",
       "Gene": "N (N1 and N2 regions)",
@@ -9425,8 +9695,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H,M",
       "Technology": "Serology",
-      "Analyte": "IgM/IgG",
-      "Assay": "Homogeneous Immunoassay",
+      "Analyte": {
+        "avd": "IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Homogeneous Immunoassay",
+        "annotations": []
+      },
       "Specimen Type": "Serum and plasma",
       "Transport Media": "K2 EDTA",
       "Gene": "NA",
@@ -9541,8 +9817,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal, nasopharyngeal, and oropharyngeal swab",
       "Transport Media": "VTM",
       "Gene": "ORF1ab (RdRP region) E N",
@@ -9657,8 +9939,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal, oropharyngeal, NP/OP, anterior nasal, and mid-turbinate nasal swab",
       "Transport Media": "ND",
       "Gene": "E S",
@@ -9864,8 +10152,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Oropharyngeal swabs, nasopharyngeal swabs, nasal swabs, and mid-turbinate swabs",
       "Transport Media": "VTM",
       "Gene": "ORF1ab E N",
@@ -9978,8 +10272,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "ELISA",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "ELISA",
+        "annotations": []
+      },
       "Specimen Type": "Serum and plasma",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -10094,8 +10394,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swabs, nasopharyngeal swabs, oropharyngeal swabs, and BAL",
       "Transport Media": "UTM",
       "Gene": "ORF1ab (RdRP region) E N",
@@ -10210,8 +10516,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Upper respiratory specimens including nasopharyngeal, oropharyngeal, anterior nasal, and mid-turbinate nasal swab",
       "Transport Media": "BD UVT",
       "Gene": "E N (N2 region)",
@@ -10420,8 +10732,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal/oropharyngeal swabs, nasal swabs and mid-turbinate swabs",
       "Transport Media": "VTM",
       "Gene": "ORF1ab E N",
@@ -10638,8 +10956,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Oral fluid and nasopharyngeal swabs",
       "Transport Media": "VTM, DNA/RNA Shield (Zymo Research)",
       "Gene": "N (N1 and N2 regions)",
@@ -10836,8 +11160,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Upper and lower respiratory specimens such as anterior nasal swabs, mid-turbinate nasal swabs, nasopharyngeal swabs, oropharyngeal swabs, sputum, lower respiratory tract aspirates, bronchoalveolar lavage, and nasopharyngeal wash/aspirate or nasal aspirate",
       "Transport Media": "ND",
       "Gene": "ORF1ab E N",
@@ -11033,8 +11363,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal, oropharyngeal, nasal, and mid-turbinate nasal swab specimens, bronchoalveolar lavage fluid (BAL), and sputum",
       "Transport Media": "ND",
       "Gene": "ORF1ab E N",
@@ -11230,8 +11566,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal, nasopharyngeal and oropharyngeal swabs and BAL",
       "Transport Media": "UTM",
       "Gene": "ORF1ab (RdRP region) E",
@@ -11346,8 +11688,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Upper and lower respiratory specimens (such as nasopharyngeal swabs, throat swabs, nasal swabs, sputum, tracheal secretions, BAL fluid, and bronchial washings)",
       "Transport Media": "ND",
       "Gene": "ORF1ab N",
@@ -11543,8 +11891,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swab, oropharyngeal swab, anterior nasal swab, midturbinate and sputum",
       "Transport Media": "UTM",
       "Gene": "ORF1ab E N",
@@ -11731,8 +12085,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swabs, oropharyngeal (throat) swabs, anterior nasal swabs, mid-turbinate nasal swabs, nasal washes and nasal aspirates",
       "Transport Media": "UTM",
       "Gene": "E S",
@@ -11847,8 +12207,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swabs, nasopharyngeal swabs/wash, oropharyngeal swabs/throat swabs, bronchial aspirates, or sputum",
       "Transport Media": "ND",
       "Gene": "ND",
@@ -12055,8 +12421,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal, oropharyngeal, nasal, and midturbinate nasal swab, and sputum",
       "Transport Media": "UTM",
       "Gene": "ORF1ab (RdRP region) E",
@@ -12171,8 +12543,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal, oropharyngeal, anterior nasal, and mid-turbinate nasal swabs, nasopharyngeal awash/aspirate or nasal aspirates as well as sputum specimens",
       "Transport Media": "ND",
       "Gene": "N (N1, N2 and N3 regions)",
@@ -12285,8 +12663,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H,M",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "Homogeneous Immunoassay",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Homogeneous Immunoassay",
+        "annotations": []
+      },
       "Specimen Type": "Serum or plasma",
       "Transport Media": "sodium heparin, lithium heparin, and potassium EDTA",
       "Gene": "NA",
@@ -12399,8 +12783,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H,M",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "Homogeneous Immunoassay",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Homogeneous Immunoassay",
+        "annotations": []
+      },
       "Specimen Type": "Serum",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -12515,8 +12905,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Upper respiratory specimens such as nasal, midturbinate, nasopharyngeal, and oropharyngeal swab and lower respiratory specimens such as sputum and BAL.",
       "Transport Media": "ND",
       "Gene": "ORF1ab N S",
@@ -12631,8 +13027,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal, nasopharyngeal and oropharyngeal swabs",
       "Transport Media": "ND",
       "Gene": "ORF1ab",
@@ -12745,8 +13147,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "Homogeneous Immunoassay",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Homogeneous Immunoassay",
+        "annotations": []
+      },
       "Specimen Type": "Serum, serum separator tube and plasma",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -12942,8 +13350,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Oropharyngeal and nasopharyngeal swab specimens, anterior nasal and mid-turbinate nasal swabs, nasopharyngeal wash/aspirate or nasal aspirate specimens and sputum",
       "Transport Media": "VTM",
       "Gene": "ORF1ab N",
@@ -13058,8 +13472,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Upper and lower respiratory specimens including nasopharyngeal swabs, nasal swabs, mid-turbinate nasal swabs, oropharyngeal swabs, nasopharyngeal wash/aspirates, nasal aspirates, bronchoalveolar lavage, lower respiratory tract aspirates, and sputum",
       "Transport Media": "ND",
       "Gene": "N (N1 and N2 regions)",
@@ -13174,8 +13594,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal, mid-turbinate, nasopharyngeal, and oropharyngeal swab and bronchoalveolar lavage (BAL)",
       "Transport Media": "OraCollect-RNA, VTM",
       "Gene": "ORF1ab N S",
@@ -13361,8 +13787,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal, or oropharyngeal, anterior nasal and mid-turbinate nasal swabs, as well as nasopharyngeal wash/aspirate or nasal aspirate specimens and sputum",
       "Transport Media": "VTM",
       "Gene": "ORF1ab (RdRP region) E",
@@ -13548,8 +13980,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swabs, oropharyngeal (throat) swabs, anterior nasal swabs, mid-turbinate nasal swabs, nasal washes, nasal aspirates and bronchoalveolar lavage (BAL) fluid samples",
       "Transport Media": "UVT, VTM",
       "Gene": "N (N1 region)",
@@ -13662,8 +14100,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Serology",
-      "Analyte": "IgA/IgM/IgG",
-      "Assay": "ELISA",
+      "Analyte": {
+        "avd": "IgA/IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "ELISA",
+        "annotations": []
+      },
       "Specimen Type": "Serum and plasma",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -13776,8 +14220,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Serology",
-      "Analyte": "IgA/IgM/IgG",
-      "Assay": "Homogeneous Immunoassay",
+      "Analyte": {
+        "avd": "IgA/IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Homogeneous Immunoassay",
+        "annotations": []
+      },
       "Specimen Type": "Serum",
       "Transport Media": "None",
       "Gene": "NA",
@@ -13973,8 +14423,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Upper respiratory specimens such as nasal, midturbinate, nasopharyngeal, and oropharyngeal swab specimens",
       "Transport Media": "ND",
       "Gene": "ORF1ab N S",
@@ -14181,8 +14637,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-digital PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-digital PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal, anterior nasal and mid-turbinate nasal swabs,nasopharyngeal wash/aspirate and nasal aspirate",
       "Transport Media": "VTM, UTM",
       "Gene": "N (N1 and N2 regions)",
@@ -14390,8 +14852,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swab",
       "Transport Media": "VTM",
       "Gene": "S M Adenovirus, Coronavirus 229E, Coronavirus HKU1, Coronavirus NL63, Coronavirus OC43, Human Metapneumovirus, Human Rhinovirus/Enterovirus, Influenza A, including subtypes H1, H3 and H1-2009, Influenza B, Parainfluenza Virus 1, Parainfluenza Virus 2, Parainfluenza Virus 3, Parainfluenza Virus 4, Respiratory Syncytial Virus, Bordetella parapertussis, Bordetella pertussis, Chlamydia pneumoniae, Mycoplasma pneumonia.",
@@ -14504,8 +14972,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H,M",
       "Technology": "Serology",
-      "Analyte": "IgM/IgG",
-      "Assay": "Homogeneous Immunoassay",
+      "Analyte": {
+        "avd": "IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Homogeneous Immunoassay",
+        "annotations": []
+      },
       "Specimen Type": "Serum and plasma",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -14620,8 +15094,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal, nasopharyngeal swab",
       "Transport Media": "VTM",
       "Gene": "N (N1 and N2 regions)",
@@ -14734,8 +15214,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "ELISA",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "ELISA",
+        "annotations": []
+      },
       "Specimen Type": "Serum or plasma",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -14941,8 +15427,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swab, oropharyngeal (throat) swab, anterior nasal swab, midturbinate swab, nasal wash, nasal aspirate",
       "Transport Media": "Sample Storage Reagent (Use Qiagen QIAamp Viral RNA Mini Kit for samples in VTM/UTM)",
       "Gene": "ORF1ab N",
@@ -15128,8 +15620,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swab, nasopharyngeal swab, oropharyngeal swab, nasopharyngeal wash/aspirate or nasal aspirate), Bronchoalveolar lavage (BAL)",
       "Transport Media": "VTM",
       "Gene": "ORF1ab N",
@@ -15334,8 +15832,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swab, nasopharyngeal swab, oropharyngeal swab, sputum, lower respiratory tract aspirates, bronchoalveolar lavage, and nasopharyngeal wash/aspirate or nasal aspirate",
       "Transport Media": "VTM",
       "Gene": "N (N1 and N2 regions)",
@@ -15530,8 +16034,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "RT-LAMP",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "RT-LAMP",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swab, nasopharyngeal swab, oropharyngeal swab, nasopharyngeal wash/aspirate or nasal aspirate and bronchoalveolar lavage",
       "Transport Media": "VTM, UTM, M4RT",
       "Gene": "ORF1ab N",
@@ -15736,8 +16246,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swab, oropharyngeal swab, anterior nasal swab, mid-turbinate nasal swab, nasal aspirate, nasal wash and bronchoalveolar lavage",
       "Transport Media": "UTM",
       "Gene": "ORF1ab (RdRp region) N",
@@ -15945,8 +16461,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swab, nasopharyngeal swag, mid-turbinate nasal swab, oropharyngeal swab, sputum, tracheal aspirates, and bronchoalveolar lavage",
       "Transport Media": "ND",
       "Gene": "N",
@@ -16061,8 +16583,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swab, nasopharyngeal swab, oropharyngeal swab, nasopharyngeal wash/aspirate or nasal aspirate, bronchoalveolar lavage",
       "Transport Media": "VTM",
       "Gene": "N",
@@ -16257,8 +16785,14 @@
       "Category": "Laboratory, POC",
       "Authorized Setting(s) per FDA": "H, M, W",
       "Technology": "Antigen",
-      "Analyte": "Antigen",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "Antigen",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal and nasal swab",
       "Transport Media": "UTM",
       "Gene": "NA",
@@ -16463,8 +16997,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal and nasal swab",
       "Transport Media": "VTM",
       "Gene": "N (N1 and N2 regions)",
@@ -16660,8 +17200,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swab, anterior nasal swab, midturbinate nasal swab and oropharyngeal swab as well as nasopharyngeal wash/aspirate and nasal aspirate",
       "Transport Media": "Puritan UniTranz-RT",
       "Gene": "ORF1ab (RdRP region) E",
@@ -16886,8 +17432,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swabs, nasopharyngeal (NP) and oropharyngeal (OP) swabs, bronchoalveolar lavage fluid (BAL)",
       "Transport Media": "Specimen Transport Buffer",
       "Gene": "ORF1ab (RdRp region) N",
@@ -17002,8 +17554,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal, oropharyngeal, nasal, and mid-turbinate nasal swab samples",
       "Transport Media": "UTM",
       "Gene": "N (N1 and N2 regions)",
@@ -17226,8 +17784,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swab, oropharyngeal swab, nasopharyngeal wash/aspirate, nasal aspirate, nasal and mid-turbinate nasal swab",
       "Transport Media": "ND",
       "Gene": "S",
@@ -17342,8 +17906,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal, mid-turbinate, nasopharyngeal, and oropharyngeal swab specimens, and nasopharyngeal wash/aspirate or nasal aspirate",
       "Transport Media": "ND",
       "Gene": "ORF1ab S",
@@ -17458,8 +18028,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swab",
       "Transport Media": "ND",
       "Gene": "ORF1ab (NSP-3 region)",
@@ -17666,8 +18242,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal (NP), nasal, mid-turbinate and oropharyngeal (OP) swab specimens",
       "Transport Media": "VTM/UTM",
       "Gene": "ORF1ab",
@@ -17853,8 +18435,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal, oropharyngeal, midturbinate, and nasal swabs and sputum, tracheal aspirates, and bronchoalveolar lavage",
       "Transport Media": "UTM",
       "Gene": "ORF1ab (RdRp region) N",
@@ -18033,8 +18621,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "NA",
       "Technology": "Home Collection Kit",
-      "Analyte": "RNA",
-      "Assay": "NA",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swab",
       "Transport Media": "Saline",
       "Gene": "NA",
@@ -18241,8 +18835,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal, nasopharyngeal, and oropharyngeal swabs and self collected nasal swabs",
       "Transport Media": "Saline",
       "Gene": "N",
@@ -18449,8 +19049,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal (including Everlywell home collection), nasopharyngeal or oropharyngeal swabs",
       "Transport Media": "Saline, Amies",
       "Gene": "E",
@@ -18636,8 +19242,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal, nasopharyngeal, or oropharyngeal swabs",
       "Transport Media": "None - should not be used",
       "Gene": "ORF1ab",
@@ -18833,8 +19445,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "RT-LAMP",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "RT-LAMP",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swabs, oropharyngeal swabs, anterior nares swabs, mid-turbinate nasal swabs, nasopharyngeal wash/aspirate, bronchoalveolar lavage or nasal aspirates",
       "Transport Media": "ND",
       "Gene": "ORF1ab E N",
@@ -19030,8 +19648,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swab, mid-turbinate swab, oropharyngeal swab, nasopharyngeal swab, sputum, bronchioalveolar lavage (BAL), tracheal aspirate",
       "Transport Media": "VTM",
       "Gene": "ORF1ab (RdRP region)  N",
@@ -19217,8 +19841,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swab, oropharyngeal (throat) swab, anterior nasal swab, mid-turbinate nasal swab, nasal aspirate, nasal wash, bronchoalveolar lavage (BAL) fluid, sputum",
       "Transport Media": "ND",
       "Gene": "ORF1ab  N",
@@ -19414,8 +20044,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "RT-LAMP",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "RT-LAMP",
+        "annotations": []
+      },
       "Specimen Type": "Oropharyngeal swab, nasopharyngeal swab, anterior nasal swab, mid-turbinate nasal swab, nasopharyngeal wash/aspirate, nasal aspirate, bronchoalveolar lavage (BAL), sputum",
       "Transport Media": "ND",
       "Gene": "ORF1ab",
@@ -19620,8 +20256,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Anterior nasal swa, mid-turbinate nasal swab, oropharyngeal (throat) swab, nasopharyngeal  swab, nasopharyngeal wash/aspirate, nasal aspirate specimen, and bronchoalveolar lavage, saliva (including home collection)",
       "Transport Media": "UTM, liquid Amies (MTM), OMNIgene®·ORAL OM-505 device (for saliva)",
       "Gene": "ORF1ab  S  N",
@@ -19848,8 +20490,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swab, mid-turbinate swab, nasopharyngeal swab, and oropharyngeal swab, bronchoalveolar lavage",
       "Transport Media": "UTM or equivalent",
       "Gene": "E  N",
@@ -20045,8 +20693,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal, oropharyngeal, or nasal swabs",
       "Transport Media": "UTM",
       "Gene": "N (N1 and N2 regions)",
@@ -20161,8 +20815,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal, oropharyngeal, anterior nasal, and mid-turbinate nasal swabs, nasopharyngeal wash/aspirate or nasal aspirates as well as BAL specimens",
       "Transport Media": "ND",
       "Gene": "ORF1ab N S",
@@ -20277,8 +20937,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal, nasal, and oropharyngeal swab",
       "Transport Media": "ND",
       "Gene": "N (N1 and N2 regions)",
@@ -20423,8 +21089,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Self-collected nasal swab",
       "Transport Media": "VTM",
       "Gene": "ND",
@@ -20539,8 +21211,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgG, IgM",
-      "Assay": "Homogeneous Immunoassay",
+      "Analyte": {
+        "avd": "IgG, IgM",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Homogeneous Immunoassay",
+        "annotations": []
+      },
       "Specimen Type": "Serum, plasma",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -20655,8 +21333,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgG, IgM",
-      "Assay": "Homogeneous Immunoassay",
+      "Analyte": {
+        "avd": "IgG, IgM",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Homogeneous Immunoassay",
+        "annotations": []
+      },
       "Specimen Type": "Serum, plasma",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -20769,8 +21453,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgG, IgM",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "IgG, IgM",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "Venous whole blood, plasma from anticoagulated blood, serum",
       "Transport Media": "ND",
       "Gene": "NA",
@@ -20986,8 +21676,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swab, nasopharyngeal swab, oropharyngeal swab, Bronchoalveolar Lavage",
       "Transport Media": "ND",
       "Gene": "N (N1 and N2 regions)",
@@ -21102,8 +21798,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swab, mid-turbinate swab, nasopharyngeal swab, oropharyngeal swab, bronchoalveolar lavage",
       "Transport Media": "VTM",
       "Gene": "N",
@@ -21218,8 +21920,14 @@
       "Category": "",
       "Authorized Setting(s) per FDA": "",
       "Technology": "",
-      "Analyte": "",
-      "Assay": "",
+      "Analyte": {
+        "avd": "",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "",
       "Transport Media": "",
       "Gene": "",
@@ -21334,8 +22042,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swab, nasopharyngeal swab, oropharyngeal swab, Bronchoalveolar Lavage (BAL)",
       "Transport Media": "ND",
       "Gene": "N (N1 and N2 regions)",
@@ -21448,8 +22162,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Serology",
-      "Analyte": "IgG/IgM",
-      "Assay": "Heterogeneous Immunoassay",
+      "Analyte": {
+        "avd": "IgG/IgM",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Heterogeneous Immunoassay",
+        "annotations": []
+      },
       "Specimen Type": "Human serum, Dry Blood Spot (DBS) from fingerstick blood specimen",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -21654,8 +22374,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Saliva",
       "Transport Media": "Oragene Dx OGD-510",
       "Gene": "N (N1 and N2 regions)",
@@ -21768,8 +22494,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Serology",
-      "Analyte": "IgG/IgM",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "IgG/IgM",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "Venuous Whole Blood, Serum, Plasma",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -21884,8 +22616,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Human nasopharyngeal swab, oropharyngeal (throat) swab, anterior nasal swab, mid-turbinate swab, nasal wash, nasal aspirate and bronchoalveolar lavage (BAL)",
       "Transport Media": "VTM",
       "Gene": "E",
@@ -22082,8 +22820,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Oropharyngeal swab, nasopharyngeal swab, anterior nasal swab, mid-turbinate nasal swab",
       "Transport Media": "UTM or VTM",
       "Gene": "ORF1ab, N",
@@ -22269,8 +23013,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swab, Mid-turbinate swab, Nasopharyngeal swab, Oropharyngeal swabs, Bronchioalveolar lavage (BAL)",
       "Transport Media": "ND",
       "Gene": "ORF1ab, N",
@@ -22383,8 +23133,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgG/IgM",
-      "Assay": "Homogeneous Immunoassay",
+      "Analyte": {
+        "avd": "IgG/IgM",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Homogeneous Immunoassay",
+        "annotations": []
+      },
       "Specimen Type": "Serum, Plasma",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -22497,8 +23253,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgG/IgM",
-      "Assay": "Homogeneous Immunoassay",
+      "Analyte": {
+        "avd": "IgG/IgM",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Homogeneous Immunoassay",
+        "annotations": []
+      },
       "Specimen Type": "Serum, Plasma",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -22688,8 +23450,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "NGS",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "NGS",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swab, Oropharyngeal swab, Anterior nasal swab, Mid-turbinate nasal swab, Nasopharyngeal wash/aspirate, Nasal aspirate, Bronchoalveolar lavage (BAL)",
       "Transport Media": "ND",
       "Gene": "ND",
@@ -22894,8 +23662,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swab Oropharyngeal swab, Anterior nasal swab, Midturbinate nasal swab, Nasal aspirate, Nasal wash, Bronchoalveolar lavage (BAL)",
       "Transport Media": "UTM, VCM, or equivalent",
       "Gene": "N (N1 and N2 regions)",
@@ -23010,8 +23784,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swab",
       "Transport Media": "ND",
       "Gene": "N (N1 and N2 regions)",
@@ -23207,8 +23987,14 @@
       "Category": "Laboratory, POC",
       "Authorized Setting(s) per FDA": "H, M, W",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "Isothermal Amplification (proprietary)",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Isothermal Amplification (proprietary)",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swab",
       "Transport Media": "ND",
       "Gene": "N",
@@ -23404,8 +24190,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swab, Oropharyngeal swab, Anterior nasal swab, Mid-turbinate nasal swab, Nasopharyngeal aspirate/wash, Nasal aspirate, Bronchoalveolar lavage (BALs)",
       "Transport Media": "UTM",
       "Gene": "RdRP, N, E",
@@ -23601,8 +24393,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swab, Oropharyngeal swab, Nasal swab, Mid-turbinate swab",
       "Transport Media": "ND",
       "Gene": "N",
@@ -23715,8 +24513,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "Serum",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -23904,8 +24708,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Anterior nasal swab, Mid-turbinate nasal swab, Nasopharyngeal swab, Oropharyngeal swab, Nasopharyngeal wash/aspirate, Nasal aspirate, Bronchoalveolar lavage (BAL)",
       "Transport Media": "Copan Universal Transport Medium System (UTM-RT), BD Universal Viral Transport System (UVT)",
       "Gene": "RdRP, E",
@@ -24020,8 +24830,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swab",
       "Transport Media": "ND",
       "Gene": "Orf1ab, N, S",
@@ -24202,8 +25018,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swab",
       "Transport Media": "Saline",
       "Gene": "NA",
@@ -24380,8 +25202,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasopharyngeal swab, Oropharyngeal swab, Nasal swab, Bronchoalveolar lavage (BAL)",
       "Transport Media": "ND",
       "Gene": "N",
@@ -24494,8 +25322,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "ELISA",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "ELISA",
+        "annotations": []
+      },
       "Specimen Type": "Serum",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -24681,8 +25515,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, Anterior nasal swab, Mid-turbinate nasal swab, NP wash/aspirate, Nasal aspirate, BAL",
       "Transport Media": "UTM, VTM, Saline",
       "Gene": "N",
@@ -24888,8 +25728,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swab, OP swab, NP swab",
       "Transport Media": "ND",
       "Gene": "N",
@@ -25086,8 +25932,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, Anterior nasal swab, Mid-turbinate nasal swab,NP aspirate/wash, Nasal aspirate, BAL",
       "Transport Media": "VTM (TRUPCR® Viral Transport Medium or other), UTM",
       "Gene": "RdRP, N",
@@ -25273,8 +26125,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, Anterior nasal swab, Mid-turbinate nasal swab, Nasal aspirate,Nasal wash, BAL",
       "Transport Media": "ND",
       "Gene": "ORF1ab , N",
@@ -25387,8 +26245,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM/IgG",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "Serum, Plasma, Venous whole blood",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -25501,8 +26365,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM/IgG",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "Serum, Plasma",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -25698,8 +26568,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, AN swab, MTN swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "UTM or equivalent",
       "Gene": "Orf1ab, E",
@@ -25895,8 +26771,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, Ns swab, AN swab, MTN swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "ND",
       "Gene": "N (N1)",
@@ -26082,8 +26964,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, AN swab, MTN swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "ClearPrep Specimen Transport Medium, UTM, VTM, Saline, PBS",
       "Gene": "Orf1ab, N, S",
@@ -26196,8 +27084,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "Heterogeneous immunoassay",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Heterogeneous immunoassay",
+        "annotations": []
+      },
       "Specimen Type": "Serum, Plasma",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -26402,8 +27296,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, Ns swab, MTN swab",
       "Transport Media": "ND",
       "Gene": "N (N1, N2)",
@@ -26598,8 +27498,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR/πCode",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR/πCode",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "VTM, saline",
       "Gene": "RdRP, E, N",
@@ -26795,8 +27701,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "RT-dPCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "RT-dPCR",
+        "annotations": []
+      },
       "Specimen Type": "OP swab",
       "Transport Media": "VTM, UTM",
       "Gene": "Orf1ab, N",
@@ -26992,8 +27904,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, Ns swab, MTN swab, BAL",
       "Transport Media": "Dry swab, VTM",
       "Gene": "N (N1, N3), S",
@@ -27189,8 +28107,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "ND",
       "Gene": "N (N1, N2)",
@@ -27303,8 +28227,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "Heterogeneous Immunoassay (CLIA)",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Heterogeneous Immunoassay (CLIA)",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "lithium heparin, dipotassium EDTA, tripotassium EDTA, sodium citrate, serum separating tube",
       "Gene": "NA",
@@ -27500,8 +28430,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, BAL",
       "Transport Media": "ND",
       "Gene": "N (N1, N2)",
@@ -27688,8 +28624,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, NP aspirate, BAL",
       "Transport Media": "ND",
       "Gene": "Orf1ab, N, S",
@@ -27878,8 +28820,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "NA",
       "Technology": "Home Collection Kit",
-      "Analyte": "RNA",
-      "Assay": "NA",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swab",
       "Transport Media": "Saline",
       "Gene": "NA",
@@ -28095,8 +29043,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swabs, ANs swab, MTNs swab, BAL, NP wash, NP aspirate, Ns aspirate",
       "Transport Media": "VTM, saline",
       "Gene": "RdRP, N",
@@ -28292,8 +29246,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, BAL",
       "Transport Media": "ND",
       "Gene": "N (N1, N2)",
@@ -28406,8 +29366,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Serology",
-      "Analyte": "IgM",
-      "Assay": "ELISA",
+      "Analyte": {
+        "avd": "IgM",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "ELISA",
+        "annotations": []
+      },
       "Specimen Type": "Serum",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -28602,8 +29568,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "OP Swab",
       "Transport Media": "Dry swab",
       "Gene": "E, RdRP",
@@ -28808,8 +29780,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, Ns swab, Spu, LRT aspirates, BAL, NP wash, NP aspirate, Ns aspirate",
       "Transport Media": "VTM, Amies transport medium, sterile saline",
       "Gene": "N (Cov2), M1 (Influenza A), NS2 (Influenza B)",
@@ -28995,8 +29973,14 @@
       "Category": "Laboratory, POC",
       "Authorized Setting(s) per FDA": "H, M, W",
       "Technology": "Antigen",
-      "Analyte": "Antigen",
-      "Assay": "Chromatographic digital immunoassay",
+      "Analyte": {
+        "avd": "Antigen",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Chromatographic digital immunoassay",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -29209,8 +30193,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, BAL",
       "Transport Media": "ND",
       "Gene": "N, E",
@@ -29323,8 +30313,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM/IgG",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "VWB, Ser, Pla",
       "Transport Media": "sodium EDTA",
       "Gene": "NA",
@@ -29520,8 +30516,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NS swab, NTNs swab, NP swab, OP swab, NP wash, NP aspirate, Ns aspirate",
       "Transport Media": "VTM",
       "Gene": "N (N1, N2)",
@@ -29708,8 +30710,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, Ns swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "Universal Transport (UTM-RT®, Copan Diagnostics, Inc), Universal Viral Transfer (UVT, BD™ Diagnostics) or equivalent",
       "Gene": "N, RdRP",
@@ -29916,8 +30924,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab, NP swab",
       "Transport Media": "RNAlater Stabilization Solution",
       "Gene": "N (N1, N2)",
@@ -30136,8 +31150,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, Ns swab, MTNs swab, NP aspirate, Ns aspirate, Ns wash, BAL",
       "Transport Media": "VTM, saline",
       "Gene": "N (N1, N2) for Assay Version 1; N (N2) for Assay Version 2",
@@ -30250,8 +31270,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "Heterogeneous Immunoassay",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Heterogeneous Immunoassay",
+        "annotations": []
+      },
       "Specimen Type": "Serum, Plasma",
       "Transport Media": "Potassium EDTA, disodium EDTA and lithium heparin",
       "Gene": "NA",
@@ -30447,8 +31473,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "DETECTR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "DETECTR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, MTNs swab, ANs swab, Ns wash, Ns aspirate",
       "Transport Media": "UTM",
       "Gene": "N",
@@ -30644,8 +31676,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, Ns aspirate, MTNs swab, Ns swab, OP swab, Spu, Tr aspirate, BAL",
       "Transport Media": "UTM",
       "Gene": "RdRP, E",
@@ -30758,8 +31796,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgA/IgM/IgG",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "IgA/IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "WVB, Ser, Pla",
       "Transport Media": "dipotassium EDTA, lithium heparin, and sodium citrate",
       "Gene": "NA",
@@ -30975,8 +32019,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "ND",
       "Gene": "N (N1, N2)",
@@ -31173,8 +32223,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular, Home Collection",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, MTNs swab, ANs swab, NP wash, NP aspirate, Ns aspirate",
       "Transport Media": "Everlywell COVID-19 test home collection kit, otherwise not disclosed",
       "Gene": "ORF1ab",
@@ -31370,8 +32426,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, BAL",
       "Transport Media": "ND",
       "Gene": "ORF1ab, N",
@@ -31569,8 +32631,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "ANs swab, MTNs swab, NP swab, OP swab, NP wash and NP aspirate, Ns aspirate, BAL, Spu",
       "Transport Media": "VTM",
       "Gene": "RdRP, E",
@@ -31683,8 +32751,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM/IgG",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "VWB, Ser, Pla",
       "Transport Media": "dipotassium EDTA, sodium citrate, sodium heparin",
       "Gene": "NA",
@@ -31809,8 +32883,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Home Collection",
-      "Analyte": "RNA",
-      "Assay": "NA",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swab",
       "Transport Media": "VCM, 0.9% saline, PBS",
       "Gene": "NA",
@@ -31935,8 +33015,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Home Collection",
-      "Analyte": "RNA",
-      "Assay": "NA",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swab",
       "Transport Media": "VCM, 0.9% saline, PBS",
       "Gene": "NA",
@@ -32061,8 +33147,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Home Collection",
-      "Analyte": "RNA",
-      "Assay": "NA",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Specimen Type": "Nasal swab",
       "Transport Media": "VCM, 0.9% saline, PBS",
       "Gene": "NA",
@@ -32248,8 +33340,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab, NP swab, MTNs swab, OP swab, NP aspirate, BAL",
       "Transport Media": "ND",
       "Gene": "N, S, ORF1ab",
@@ -32362,8 +33460,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "Heterogeneous immunoassay (FMIA)",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Heterogeneous immunoassay (FMIA)",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "dipotassium EDTA",
       "Gene": "NA",
@@ -32559,8 +33663,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, Ns swab",
       "Transport Media": "UTM (NP swab, Ns swab), saline (Ns swab)",
       "Gene": "RdRP",
@@ -32673,8 +33783,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM/IgG",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "acid citrate dextrose",
       "Gene": "NA",
@@ -32879,8 +33995,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab, NP swab, OP swab, Spu",
       "Transport Media": "UTM, VTM",
       "Gene": "ORF1ab",
@@ -33066,8 +34188,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, MTNs swab, ANs swab",
       "Transport Media": "VTM, iSwab Microbiome collection media (ISWABMD-1200, Mawi DNA Technologies)",
       "Gene": "N, ORF1ab, S",
@@ -33263,8 +34391,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "OP swab",
       "Transport Media": "CoWin SARSCoV-2 Collection Fluid",
       "Gene": "N, ORF1ab",
@@ -33377,8 +34511,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM/IgG",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla, VWB",
       "Transport Media": "potassium EDTA",
       "Gene": "NA",
@@ -33491,8 +34631,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM/IgG",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla, VWB",
       "Transport Media": "sodium citrate, sodium heparin,or dipotassium EDTA",
       "Gene": "NA",
@@ -33688,8 +34834,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, ANs swab, MTNs swab, OP swab, Ns wash, Ns aspirate, BAL",
       "Transport Media": "ND",
       "Gene": "N (N1, N2)",
@@ -33875,8 +35027,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, Ns aspirate, Ns wash, BAL",
       "Transport Media": "ND",
       "Gene": "N (N1, N2)",
@@ -34072,8 +35230,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular, Home Collection",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Sal",
       "Transport Media": "DNA Genotek OMNIgene ORAL OM-505 collection device",
       "Gene": "RdRP",
@@ -34186,8 +35350,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "Heterogeneous immunoassay",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Heterogeneous immunoassay",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "potassium EDTA and lithium heparin",
       "Gene": "NA",
@@ -34300,8 +35470,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "Heterogeneous immunoassay",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Heterogeneous immunoassay",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "potassium EDTA and lithium heparin",
       "Gene": "NA",
@@ -34487,8 +35663,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, NP washes, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "VTM, UTM",
       "Gene": "N, ORF1ab",
@@ -34613,8 +35795,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular, Pooling",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Up to 5 pooled specimens: NP swab, MTNs swab, ANs swab, OP swab",
       "Transport Media": "ND",
       "Gene": "ORF1ab, E",
@@ -34822,8 +36010,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Np swab, OP swab, ANs swab, MTNs swab, NP wash, Ns aspirate, BAL",
       "Transport Media": "ND",
       "Gene": "N(N1, N3)",
@@ -35019,8 +36213,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular, Home Collection",
-      "Analyte": "RNA",
-      "Assay": "RT-PCR, MALDI-TOF",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "RT-PCR, MALDI-TOF",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, BAL",
       "Transport Media": "VTM (Hardy Diagnostics) in the Ethos Laboratories U-Collect At Home Collections Kit",
       "Gene": "N, ORF1, ORF1ab",
@@ -35225,8 +36425,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, Ns swab, BAL, Tr aspirate, Spu",
       "Transport Media": "ND",
       "Gene": "E, RdRP",
@@ -35351,8 +36557,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular, Sample Pooling",
-      "Analyte": "RNA",
-      "Assay": "TMA, DKA",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "TMA, DKA",
+        "annotations": []
+      },
       "Specimen Type": "Up to 7 pooled specimens: NP swab, Ns swab, OP swab",
       "Transport Media": "ND",
       "Gene": "ORF1ab",
@@ -35559,8 +36771,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab",
       "Transport Media": "ND",
       "Gene": "N (N1, N2)",
@@ -35746,8 +36964,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, NP wash, NP aspirate, Ns aspirate",
       "Transport Media": "VTM, Amies transport medium, saline",
       "Gene": "ORF1a, RdRp",
@@ -35860,8 +37084,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Serology",
-      "Analyte": "IgM/IgG",
-      "Assay": "ELISA",
+      "Analyte": {
+        "avd": "IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "ELISA",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "Acid Citrate Dextrose",
       "Gene": "NA",
@@ -36057,8 +37287,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "NGS",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "NGS",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, MTNs swab, ANs swab",
       "Transport Media": "iSwab Microbiome collection media",
       "Gene": "S",
@@ -36171,8 +37407,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "Heterogeneous immunoassay (ELFA)",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Heterogeneous immunoassay (ELFA)",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "lithium heparin",
       "Gene": "NA",
@@ -36285,8 +37527,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM",
-      "Assay": "Heterogeneous immunoassay (ELFA)",
+      "Analyte": {
+        "avd": "IgM",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Heterogeneous immunoassay (ELFA)",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "lithium heparin",
       "Gene": "NA",
@@ -36511,8 +37759,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab, MNTs swab, NP swab, OP swab, BAL",
       "Transport Media": "VTM",
       "Gene": "N (N1, N2)",
@@ -36708,8 +37962,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, ANs swab, MTNs swab, OP swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "ND",
       "Gene": "N (N1, N2)",
@@ -36895,8 +38155,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab",
       "Transport Media": "ND",
       "Gene": "ORF1ab N S",
@@ -37072,8 +38338,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "qSTAR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "qSTAR",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, BAL",
       "Transport Media": "VTM, DNA-RNA Shield",
       "Gene": "ORF1a",
@@ -37259,8 +38531,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, Ns swab, OP swab, NP wash, NP aspirate, Ns aspirate",
       "Transport Media": "BDUniversal Viral Collection Kit, Biomeme DNA/RNAPreservation Buffer",
       "Gene": "ORF1ab, S",
@@ -37457,8 +38735,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "Isothermal Amplification",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Isothermal Amplification",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab, NP swab, OP swab",
       "Transport Media": "Pro-Lab Diagnostics SARS-CoV-2 transport media",
       "Gene": "ORF1ab",
@@ -37674,8 +38958,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Sal",
       "Transport Media": "NA",
       "Gene": "N (N1)",
@@ -37788,8 +39078,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, NP wash, NP aspirate, Ns aspirate",
       "Transport Media": "VTM for swabs, no preservatives should be added to NP wash or NP aspirate",
       "Gene": "ORF1ab, N",
@@ -37902,8 +39198,14 @@
       "Category": "Laboratory, POC",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM/IgG",
-      "Assay": "CLIA(chemiluminescent immunoassay)",
+      "Analyte": {
+        "avd": "IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "CLIA(chemiluminescent immunoassay)",
+        "annotations": []
+      },
       "Specimen Type": "Human Serum",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -38016,8 +39318,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM",
-      "Assay": "CLIA",
+      "Analyte": {
+        "avd": "IgM",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "CLIA",
+        "annotations": []
+      },
       "Specimen Type": "Human and Plasma",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -38130,8 +39438,14 @@
       "Category": "Laboratory, POC",
       "Authorized Setting(s) per FDA": "H, M, W",
       "Technology": "Antigen",
-      "Analyte": "Antigen",
-      "Assay": "Fluorescence immunoassay",
+      "Analyte": {
+        "avd": "Antigen",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Fluorescence immunoassay",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -38244,8 +39558,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, Ns aspirate, Ns wash, BAL",
       "Transport Media": "ND",
       "Gene": "N, ORF1ab",
@@ -38358,8 +39678,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Sal",
       "Transport Media": "Spectrum Solutions LLC SDNA-1000 Saliva Collection Device",
       "Gene": "N, S, ORF1ab",
@@ -38472,8 +39798,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "RT-PCR, NGS",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "RT-PCR, NGS",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, Ns swab, ANs swab, MTNs swab, NP aspirate, NP wash, Ns aspirate, Ns wash",
       "Transport Media": "ND",
       "Gene": "N (N1)",
@@ -38586,8 +39918,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Home Collection",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab",
       "Transport Media": "Buffered Saline Solution",
       "Gene": "NA",
@@ -38700,8 +40038,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Sal",
       "Transport Media": "ND",
       "Gene": "N(N1, N2)",
@@ -38814,8 +40158,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM/IgG",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla, VWB",
       "Transport Media": "Plasma: Lithium-Heparin, Sodium-Citrate, Acid Citrate DextroseVWB: Lithium-Heparin, Sodium-Citrate, Dipotassium-EDTA",
       "Gene": "NA",
@@ -38928,8 +40278,14 @@
       "Category": "Laboratory, POC",
       "Authorized Setting(s) per FDA": "H, M, W",
       "Technology": "Antigen",
-      "Analyte": "Antigen",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "Antigen",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab",
       "Transport Media": "not recommended",
       "Gene": "NA",
@@ -39042,8 +40398,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, MTNs swab, Ns swab",
       "Transport Media": "BD Universal Viral Transport Media",
       "Gene": "N, S, ORF1ab",
@@ -39156,8 +40518,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular, Home Collection",
-      "Analyte": "RNA",
-      "Assay": "epRT-PCR, Capillary Electrophoresis",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "epRT-PCR, Capillary Electrophoresis",
+        "annotations": []
+      },
       "Specimen Type": "Sal",
       "Transport Media": "Spectrum Solutions LLC SDNA-1000 Saliva Collection Device",
       "Gene": "N, E, ORF1ab",
@@ -39270,8 +40638,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab",
       "Transport Media": "ND",
       "Gene": "N, ORF1ab, S",
@@ -39384,8 +40758,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Up to 2 pooled samples: NP swab",
       "Transport Media": "ND",
       "Gene": "ORF1, E",
@@ -39498,8 +40878,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "DETECTR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "DETECTR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, MTNs swab, ANs swab, NP wash, NP aspirate, Ns aspirate",
       "Transport Media": "UTM",
       "Gene": "N",
@@ -39612,8 +40998,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, NP wash, NP aspirate, Ns aspirate",
       "Transport Media": "NP swab: VTM, ITM, Liquid Amies, PBS, salineOP swab: DNA Genotek ORAcollect RNA collection device",
       "Gene": "N (N1, N2)",
@@ -39726,8 +41118,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "T2MR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "T2MR",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, BAL",
       "Transport Media": "VTM, Amies transport medium, saline",
       "Gene": "ND",
@@ -39840,8 +41238,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Serology",
-      "Analyte": "IgA/IgM/IgG",
-      "Assay": "ELISA",
+      "Analyte": {
+        "avd": "IgA/IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "ELISA",
+        "annotations": []
+      },
       "Specimen Type": "Ser",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -39954,8 +41358,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM/IgG",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "Acid Citrate Dextrose",
       "Gene": "NA",
@@ -40068,8 +41478,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Home Collection Kit",
-      "Analyte": "RNA",
-      "Assay": "RT-LAMP",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "RT-LAMP",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -40182,8 +41598,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP wash, NP aspirate, Ns aspirate, Spu, BAL",
       "Transport Media": "VTM, Amies transport medium, saline",
       "Gene": "RdRP, E",
@@ -40296,8 +41718,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "RT-LAMP",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "RT-LAMP",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, MTNs swab, ANs swab",
       "Transport Media": "VTM",
       "Gene": "N, E",
@@ -40410,8 +41838,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, NP/OP swab, ANs swab, MTNs swab, Ns aspirate, NP aspirate, Ns wash, BAL",
       "Transport Media": "VTM",
       "Gene": "ORF1ab",
@@ -40524,8 +41958,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, Ns swab",
       "Transport Media": "NP swab: Copan Universal Transport Medium System (UTM -RT), BD Universal Viral Transport System (UVT)Ns swab: cobas PCR Media, saline",
       "Gene": "Sars-CoV-2: ORF1ab, EInfluenza A: M1, M2Influenza B: NEP, NS1",
@@ -40638,8 +42078,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla, VWB",
       "Transport Media": "sodium heparin, lithium heparin, sodiumcitrate and tripotassium EDTA",
       "Gene": "NA",
@@ -40752,8 +42198,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "RT-PCR, Sanger Sequencing",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "RT-PCR, Sanger Sequencing",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab",
       "Transport Media": "UTM",
       "Gene": "ND",
@@ -40866,8 +42318,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular, Pooling",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab",
       "Transport Media": "ND",
       "Gene": "ORF1ab, N, S",
@@ -40980,8 +42438,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM",
-      "Assay": "Heterogeneous Immunoassay (CLIA)",
+      "Analyte": {
+        "avd": "IgM",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Heterogeneous Immunoassay (CLIA)",
+        "annotations": []
+      },
       "Specimen Type": "Ser",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -41094,8 +42558,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "Heterogeneous Immunoassay (CLIA)",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Heterogeneous Immunoassay (CLIA)",
+        "annotations": []
+      },
       "Specimen Type": "Ser",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -41208,8 +42678,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "OP swab",
       "Transport Media": "VTM, UTM",
       "Gene": "ORF1ab, N",
@@ -41322,8 +42798,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM/IgG",
-      "Assay": "Heterogeneous Immunoassay (CLIA)",
+      "Analyte": {
+        "avd": "IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Heterogeneous Immunoassay (CLIA)",
+        "annotations": []
+      },
       "Specimen Type": "Ser",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -41436,8 +42918,14 @@
       "Category": "Laboratory, POC",
       "Authorized Setting(s) per FDA": "H, M, W",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, Ns swab",
       "Transport Media": "UTM (Copan Diagnostics), UVT (BD)",
       "Gene": "Sars-CoV-2: ORF1ab, NInfluenza A: MInfluenza B: NS",
@@ -41550,8 +43038,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "epRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "epRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, Ns swab, MTN swab collected by HSP, or self-collected  Ns swab, MTN swab",
       "Transport Media": "UTM, UVT",
       "Gene": "N",
@@ -41664,8 +43158,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, MTNs swab, Ns swab",
       "Transport Media": "VTM",
       "Gene": "N (N1, N2)",
@@ -41778,8 +43278,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, NP wash, NP aspirate,  Ns aspirate, BAL",
       "Transport Media": "VTM",
       "Gene": "ORF1ab",
@@ -41892,8 +43398,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Sal",
       "Transport Media": "ORAcollect•RNA (OR-100) saliva collection device",
       "Gene": "ORF1ab",
@@ -42006,8 +43518,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, Ns aspirate, NP aspirate, Ns wash, BAL",
       "Transport Media": "ND",
       "Gene": "N, ORF1a",
@@ -42120,8 +43638,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "NGS",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "NGS",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "VTM, UTM, Phosphate Buffer Saline (PBS), Saline",
       "Gene": "not disclosed",
@@ -42234,8 +43758,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM/IgG",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "ACD (acid citrate dextrose) for plasma",
       "Gene": "NA",
@@ -42348,8 +43878,14 @@
       "Category": "Laboratory, POC",
       "Authorized Setting(s) per FDA": "H, M, W",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, Ns swab, Ns wash, Ns aspirate",
       "Transport Media": "VTM",
       "Gene": "Sars-CoV-2: N2, EInfluenza A: M, PB2, PAInfluenza B: M, NSRSV: N",
@@ -42462,8 +43998,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular, Home collection kit",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "ANs swab at home collection using Vo' COVID-19 Test Home Collection Kit",
       "Transport Media": "Genetrack Molecular Transport Buffer Solution",
       "Gene": "N (N1, N2)",
@@ -42576,8 +44118,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Serology",
-      "Analyte": "IgM/IgG",
-      "Assay": "Heterogenous solid phase photometric immunoassay",
+      "Analyte": {
+        "avd": "IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Heterogenous solid phase photometric immunoassay",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "dipotassium (K2) EDTA, tripotassium (K3) EDTA",
       "Gene": "NA",
@@ -42690,8 +44238,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Serology",
-      "Analyte": "IgM",
-      "Assay": "Heterogeneous Immunoassay (CLIA)",
+      "Analyte": {
+        "avd": "IgM",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Heterogeneous Immunoassay (CLIA)",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "Dipotassium EDTA, sodium heparin, lithium heparin",
       "Gene": "NA",
@@ -42804,8 +44358,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM/IgG",
-      "Assay": "Lateral Flow Fluorescence immunoassay",
+      "Analyte": {
+        "avd": "IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow Fluorescence immunoassay",
+        "annotations": []
+      },
       "Specimen Type": "Pla",
       "Transport Media": "Dipotassium EDTA",
       "Gene": "NA",
@@ -42918,8 +44478,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM/IgG",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "Dipotassium EDTA, Lithium heparin",
       "Gene": "NA",
@@ -43032,8 +44598,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "dry OP swab",
       "Transport Media": "None (sample should NOT be placed in transport medium)",
       "Gene": "N (N1, N2)",
@@ -43146,8 +44718,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, ANs swabs, MTNs swabs, Ns aspirate, Ns wash, BAL",
       "Transport Media": "VTM, Remel M4 Medium, Phosphate Buffered Saline",
       "Gene": "E, S",
@@ -43260,8 +44838,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "RT-PCR, MALDI-TOF",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "RT-PCR, MALDI-TOF",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab,  MTNs swab, Ns swab, Ns aspirate, NP aspirate, Ns wash, NP wash, BAL",
       "Transport Media": "ND",
       "Gene": "ORF1ab, ORF1, N",
@@ -43374,8 +44958,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "RT-PCR, Microarray Hybridization",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "RT-PCR, Microarray Hybridization",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "Zymo Research DNA/RNA Shield media",
       "Gene": "N (N1, N2), Orf1ab",
@@ -43488,8 +45078,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "ND",
       "Gene": "N, S, Orf1ab",
@@ -43602,8 +45198,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "",
       "Transport Media": "",
       "Gene": "",
@@ -43716,8 +45318,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "One-step immunoenzymatic (\"sandwich\") assay, IL-6",
-      "Analyte": "",
-      "Assay": "",
+      "Analyte": {
+        "avd": "",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "",
       "Transport Media": "",
       "Gene": "",
@@ -43830,8 +45438,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, Ns swab",
       "Transport Media": "VTM, MAWI DNA Technologies iSWAB-Microbiome collection tube",
       "Gene": ", N, S, ORF1ab",
@@ -43944,8 +45558,14 @@
       "Category": "Laboratory, POC",
       "Authorized Setting(s) per FDA": "H, M, W",
       "Technology": "Antigen Lateral Flow, Fluorescence, Instrument Read, Multi-Analyte",
-      "Analyte": "Antigen",
-      "Assay": "",
+      "Analyte": {
+        "avd": "Antigen",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "",
       "Transport Media": "",
       "Gene": "NA",
@@ -44058,8 +45678,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgA/IgM/IgG",
-      "Assay": "ELISA",
+      "Analyte": {
+        "avd": "IgA/IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "ELISA",
+        "annotations": []
+      },
       "Specimen Type": "Ser",
       "Transport Media": "",
       "Gene": "NA",
@@ -44172,8 +45798,14 @@
       "Category": "Laboratory, POC",
       "Authorized Setting(s) per FDA": "H, M, W",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "RT, Nested multiplex PCR, Multi-analyte",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "RT, Nested multiplex PCR, Multi-analyte",
+        "annotations": []
+      },
       "Specimen Type": "",
       "Transport Media": "",
       "Gene": "",
@@ -44286,8 +45918,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "RT-LAMP",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "RT-LAMP",
+        "annotations": []
+      },
       "Specimen Type": "",
       "Transport Media": "",
       "Gene": "",
@@ -44400,8 +46038,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "ELISA",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "ELISA",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "Dipotassium EDTA, lithium heparin, sodium citrate",
       "Gene": "NA",
@@ -44514,8 +46158,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "NGS",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "NGS",
+        "annotations": []
+      },
       "Specimen Type": "NP swab,OP swab, MTNs swab, ANs swab",
       "Transport Media": "VTM, Amies Transport Medium, Saline",
       "Gene": "S",
@@ -44628,8 +46278,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Molecular, Multi-analyte",
-      "Analyte": "RNA",
-      "Assay": "RT, Nested multiplex PCR, Multi-analyte",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "RT, Nested multiplex PCR, Multi-analyte",
+        "annotations": []
+      },
       "Specimen Type": "NP swab",
       "Transport Media": "VTM",
       "Gene": "SARS-CoV-2 (undisclosed target gene)  plus 15 other viruses and 2 bacteria: adenovirus, coronavirus (229E, HKU1, NL63, OC43), human metapneumovirus, human rhinovirus/enterovirus, influenza A, influenza A H1, influenza A H1-2009, influenza A H3, influenza B, parainfluenza virus 1, parainfluenza virus 2, parainfluenza virus 3, parainfluenza virus 4, respiratory syncytial virus (RSV) A, respiratory syncytial virus (RSV) B, Chlamydia pneumoniae, and Mycoplasma pneumoniae.",
@@ -44742,8 +46398,14 @@
       "Category": "Laboratory, POC",
       "Authorized Setting(s) per FDA": "H, M, W",
       "Technology": "Antigen",
-      "Analyte": "Antigen",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "Antigen",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "NP swab",
       "Transport Media": "VTM",
       "Gene": "NA",
@@ -44856,8 +46518,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM",
-      "Assay": "Heterogeneous Immunoassay (CLIA)",
+      "Analyte": {
+        "avd": "IgM",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Heterogeneous Immunoassay (CLIA)",
+        "annotations": []
+      },
       "Specimen Type": "Pla, Ser",
       "Transport Media": "serum separator tube, lithium heparin, dipotassium EDTA, tripotassium EDTA, sodium citrate",
       "Gene": "NA",
@@ -44970,8 +46638,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM/IgG",
-      "Assay": "Photonic ring immunoassay",
+      "Analyte": {
+        "avd": "IgM/IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Photonic ring immunoassay",
+        "annotations": []
+      },
       "Specimen Type": "Pla, Ser, VWB",
       "Transport Media": "Dipotassium EDTA",
       "Gene": "NA",
@@ -45084,8 +46758,14 @@
       "Category": "Home collection",
       "Authorized Setting(s) per FDA": "N/A",
       "Technology": "Saliva Collection Kit",
-      "Analyte": "RNA",
-      "Assay": "NA",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "NA",
+        "annotations": []
+      },
       "Specimen Type": "Sal",
       "Transport Media": "Spectrum stabilizing solution, included in kit",
       "Gene": "NA",
@@ -45198,8 +46878,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM",
-      "Assay": "Chemiluminescent microparticle immunoassay (CMIA)",
+      "Analyte": {
+        "avd": "IgM",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Chemiluminescent microparticle immunoassay (CMIA)",
+        "annotations": []
+      },
       "Specimen Type": "Pla, Ser",
       "Transport Media": "Dipotassium EDTA, tripotassium EDTA, lithium heparin, lithium heparin in separator tube, sodium heparin, serum separator tube",
       "Gene": "NA",
@@ -45312,8 +46998,14 @@
       "Category": "POC",
       "Authorized Setting(s) per FDA": "N/A",
       "Technology": "Saliva Collection Kit",
-      "Analyte": "RNA",
-      "Assay": "N/A",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "N/A",
+        "annotations": []
+      },
       "Specimen Type": "Sal",
       "Transport Media": "Kit stabilizing solution",
       "Gene": "NA",
@@ -45426,8 +47118,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "RT with qSTAR amplification",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "RT with qSTAR amplification",
+        "annotations": []
+      },
       "Specimen Type": "OP swab, MTNs swab, Ns swab, NP swab",
       "Transport Media": "UTM, VTM, BD Universal Viral Transport, PBS, saline, Puritan UniTranz-RT Transport System",
       "Gene": "ORF1ab",
@@ -45540,8 +47238,14 @@
       "Category": "",
       "Authorized Setting(s) per FDA": "N/A",
       "Technology": "Home Collection Kit",
-      "Analyte": "RNA",
-      "Assay": "",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab",
       "Transport Media": "",
       "Gene": "NA",
@@ -45654,8 +47358,14 @@
       "Category": "",
       "Authorized Setting(s) per FDA": "N/A",
       "Technology": "Home Collection Kit",
-      "Analyte": "RNA",
-      "Assay": "",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab",
       "Transport Media": "",
       "Gene": "NA",
@@ -45768,8 +47478,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Antigen",
-      "Analyte": "Antigen",
-      "Assay": "Magnetic Force-assisted Electrochemical Sandwich Immunoassay (MESIA)",
+      "Analyte": {
+        "avd": "Antigen",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Magnetic Force-assisted Electrochemical Sandwich Immunoassay (MESIA)",
+        "annotations": []
+      },
       "Specimen Type": "NP swab",
       "Transport Media": "",
       "Gene": "NA",
@@ -45882,8 +47598,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "RT-PCR, MALDI-TOF",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "RT-PCR, MALDI-TOF",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, MTNs swab, Ns swab, NP aspirate, Ns aspirate, BAL",
       "Transport Media": "",
       "Gene": "",
@@ -45996,8 +47718,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
@@ -46110,8 +47838,14 @@
       "Category": "",
       "Authorized Setting(s) per FDA": "N/A",
       "Technology": "Saliva Collection Device",
-      "Analyte": "NA",
-      "Assay": "",
+      "Analyte": {
+        "avd": "NA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "Sal",
       "Transport Media": "",
       "Gene": "NA",
@@ -46224,8 +47958,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Serology",
-      "Analyte": "",
-      "Assay": "ELISA",
+      "Analyte": {
+        "avd": "",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "ELISA",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
@@ -46338,8 +48078,14 @@
       "Category": "POC",
       "Authorized Setting(s) per FDA": "W",
       "Technology": "Molecular, Prescription Home Testing",
-      "Analyte": "RNA",
-      "Assay": "RT-LAMP",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "RT-LAMP",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab",
       "Transport Media": "NA",
       "Gene": "N",
@@ -46452,8 +48198,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM, IgG",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "IgM, IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla, VWB",
       "Transport Media": "",
       "Gene": "NA",
@@ -46566,8 +48318,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular Real-time RT-PCR, Home Collection, Screening, Saliva",
-      "Analyte": "RNA",
-      "Assay": "",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, Ns swab",
       "Transport Media": "",
       "Gene": "",
@@ -46680,8 +48438,14 @@
       "Category": "",
       "Authorized Setting(s) per FDA": "N/A",
       "Technology": "Home Collection Kit",
-      "Analyte": "RNA",
-      "Assay": "",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab",
       "Transport Media": "",
       "Gene": "NA",
@@ -46794,8 +48558,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Serology IgG, ELISA, Semi-quantitative",
-      "Analyte": "IgG",
-      "Assay": "",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
@@ -46908,8 +48678,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology Total Antibody, ECLIA, Semi-quantitative",
-      "Analyte": "",
-      "Assay": "",
+      "Analyte": {
+        "avd": "",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
@@ -47022,8 +48798,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "Real-time RT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Real-time RT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, MTNs swab, Ns swab, Ns wash, Ns aspirate",
       "Transport Media": "",
       "Gene": "",
@@ -47136,8 +48918,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular Real-time RT-PCR, Multi-analyte, Home Collection",
-      "Analyte": "RNA",
-      "Assay": "",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "",
       "Transport Media": "",
       "Gene": "",
@@ -47250,8 +49038,14 @@
       "Category": "Laboratory, POC",
       "Authorized Setting(s) per FDA": "H, M, W",
       "Technology": "Antigen",
-      "Analyte": "Antigen",
-      "Assay": "Lateral flow immunoluminescent assay",
+      "Analyte": {
+        "avd": "Antigen",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral flow immunoluminescent assay",
+        "annotations": []
+      },
       "Specimen Type": "ANs swab",
       "Transport Media": "NA",
       "Gene": "NA",
@@ -47366,8 +49160,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular Direct to Consumer (DTC), Real-time RT-PCR, Home Collection, Pooling, Screening",
-      "Analyte": "RNA",
-      "Assay": "",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, MTNs swab, Ns swab",
       "Transport Media": "",
       "Gene": "",
@@ -47480,8 +49280,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular TMA, chemiluminescent, Home Collection",
-      "Analyte": "RNA",
-      "Assay": "",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, MTNs swab, Ns swab",
       "Transport Media": "",
       "Gene": "",
@@ -47594,8 +49400,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgM, IgG",
-      "Assay": "Lateral Flow",
+      "Analyte": {
+        "avd": "IgM, IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla, VWB",
       "Transport Media": "",
       "Gene": "NA",
@@ -47708,8 +49520,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular Real-time RT-PCR, Home Collection",
-      "Analyte": "RNA",
-      "Assay": "",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab",
       "Transport Media": "",
       "Gene": "",
@@ -47822,8 +49640,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular Real-time TMA, chemiluminescent, Multi-analyte",
-      "Analyte": "RNA",
-      "Assay": "",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, MTNs swab, Ns swab",
       "Transport Media": "",
       "Gene": "",
@@ -47936,8 +49760,14 @@
       "Category": "Laboratory, POC",
       "Authorized Setting(s) per FDA": "H, M, W",
       "Technology": "Antigen Lateral Flow, Visual Read, Prescription Home Testing",
-      "Analyte": "Antigen",
-      "Assay": "",
+      "Analyte": {
+        "avd": "Antigen",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "Ns swab",
       "Transport Media": "",
       "Gene": "NA",
@@ -48050,8 +49880,14 @@
       "Category": "Laboratory, POC, Home",
       "Authorized Setting(s) per FDA": "Home, H, M, W",
       "Technology": "Antigen Lateral Flow, Fluorescence, Instrument Read, Over the Counter Home Testing",
-      "Analyte": "Antigen",
-      "Assay": "",
+      "Analyte": {
+        "avd": "Antigen",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "MTNs swab, Ns swab",
       "Transport Media": "",
       "Gene": "NA",
@@ -48164,8 +50000,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "RT-PCR, isothermal amplification",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "RT-PCR, isothermal amplification",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, ANs swab, MTNs swab",
       "Transport Media": "",
       "Gene": "",
@@ -48278,8 +50120,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "One-step Direct Chemiluminescent Immunoassay",
-      "Analyte": "",
-      "Assay": "",
+      "Analyte": {
+        "avd": "",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "",
@@ -48392,8 +50240,14 @@
       "Category": "Laboratory, POC",
       "Authorized Setting(s) per FDA": "H, M, W",
       "Technology": "Antigen Lateral Flow, Visual Read",
-      "Analyte": "Antigen",
-      "Assay": "",
+      "Analyte": {
+        "avd": "Antigen",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "ANs swab, Ns swab",
       "Transport Media": "",
       "Gene": "NA",
@@ -48506,8 +50360,14 @@
       "Category": "Laboratory, POC",
       "Authorized Setting(s) per FDA": "H, M, W",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR, Pooling",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR, Pooling",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, MTNs swab, Ns swab, Ns wash, Ns aspirate",
       "Transport Media": "",
       "Gene": "",
@@ -48620,8 +50480,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "ELISA",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "ELISA",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
@@ -48734,8 +50600,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Molecular Isothermal Reverse Transcriptase - Helicase-Dependent Amplification (RT-HDA)",
-      "Analyte": "RNA",
-      "Assay": "",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, Ns swab",
       "Transport Media": "",
       "Gene": "",
@@ -48848,8 +50720,14 @@
       "Category": "Laboratory, POC",
       "Authorized Setting(s) per FDA": "H, M, W",
       "Technology": "Serology",
-      "Analyte": "IgM, IgG",
-      "Assay": "Lateral Flow, Fingerstick Whole Blood",
+      "Analyte": {
+        "avd": "IgM, IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow, Fingerstick Whole Blood",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
@@ -48962,8 +50840,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Antigen Paramagnetic Microbead-based Immunoassay",
-      "Analyte": "Antigen",
-      "Assay": "",
+      "Analyte": {
+        "avd": "Antigen",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "NP swab",
       "Transport Media": "",
       "Gene": "NA",
@@ -49076,8 +50960,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "Heterogeneous Immunoassay (CLIA)",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Heterogeneous Immunoassay (CLIA)",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
@@ -49190,8 +51080,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "Heterogeneous Immunoassay (CLIA)",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Heterogeneous Immunoassay (CLIA)",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
@@ -49304,8 +51200,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Antigen Chemiluminescence Immunoassay, Instrument Read",
-      "Analyte": "Antigen",
-      "Assay": "",
+      "Analyte": {
+        "avd": "Antigen",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
@@ -49418,8 +51320,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": "Serology IgG, Fluoroenzyme Immunoassay, Semi-quantitative",
-      "Analyte": "IgG",
-      "Assay": "",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
@@ -49532,8 +51440,14 @@
       "Category": "Laboratory, POC",
       "Authorized Setting(s) per FDA": "H, M, W",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "Lateral Flow,  Fingerstick Whole Blood",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow,  Fingerstick Whole Blood",
+        "annotations": []
+      },
       "Specimen Type": "",
       "Transport Media": "",
       "Gene": "NA",
@@ -49646,8 +51560,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR, pooling",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR, pooling",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, Spu",
       "Transport Media": "",
       "Gene": "",
@@ -49690,7 +51610,9 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/145277/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids": [
+        "1403"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -49760,8 +51682,34 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Serology",
-      "Analyte": "IgG",
-      "Assay": "ELISA",
+      "Analyte": {
+        "avd": "IgG",
+        "annotations": [
+          {
+            "id": 2,
+            "text": "IgG test123",
+            "labels": [
+              "Analyte"
+            ],
+            "comment": "",
+            "anot8_org_file_id": "1403"
+          }
+        ]
+      },
+      "Assay": {
+        "avd": "ELISA",
+        "annotations": [
+          {
+            "id": 1,
+            "text": "ELISA",
+            "labels": [
+              "Assay"
+            ],
+            "comment": "",
+            "anot8_org_file_id": "1403"
+          }
+        ]
+      },
       "Specimen Type": "Ser, Pla",
       "Transport Media": "",
       "Gene": "NA",
@@ -49874,8 +51822,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Molecular",
-      "Analyte": "RNA",
-      "Assay": "rRT-PCR",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "rRT-PCR",
+        "annotations": []
+      },
       "Specimen Type": "NP swab, OP swab, ANs swab, MTNs swab, Ns swab, Ns wash, Ns aspirate",
       "Transport Media": "",
       "Gene": "",
@@ -49918,7 +51872,9 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/145409/download"
     },
     "anot8_org": {
-      "file_ids": []
+      "file_ids": [
+        "1411"
+      ]
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
@@ -49933,11 +51889,31 @@
         "parsed": ""
       },
       "target_genes": {
-        "annotations": [],
+        "annotations": [
+          {
+            "id": 6,
+            "text": "ORF1ab, N, S",
+            "labels": [
+              "Viral gene(s) targetted"
+            ],
+            "comment": "",
+            "anot8_org_file_id": "1411"
+          }
+        ],
         "parsed": ""
       },
       "controls__human_gene_target": {
-        "annotations": [],
+        "annotations": [
+          {
+            "id": 24,
+            "text": "MS2",
+            "labels": [
+              "Controls/Internal/Human gene target"
+            ],
+            "comment": "",
+            "anot8_org_file_id": "1411"
+          }
+        ],
         "parsed": ""
       },
       "primer_probe_sequences": {
@@ -49988,8 +51964,14 @@
       "Category": "Laboratory",
       "Authorized Setting(s) per FDA": "H",
       "Technology": "Real-time RT-PCR, Home Collection, Saliva",
-      "Analyte": "RNA",
-      "Assay": "",
+      "Analyte": {
+        "avd": "RNA",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "",
+        "annotations": []
+      },
       "Specimen Type": "Sal",
       "Transport Media": "",
       "Gene": "",
