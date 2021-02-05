@@ -31,7 +31,7 @@ from FDA_reference_panel_lod_data import (
 )
 from self_declared_EUA_data import get_self_declared_EUA_data
 from amp_survey import get_amp_survey
-from adveritasdx import get_adveritasdx_data_row
+from adveritasdx import get_adveritasdx_data_row, add_adveritasdx_data
 from auto_calculated import auto_calculated
 
 
@@ -79,6 +79,10 @@ def get_merged_rows ():
         row["auto_calculated"] = auto_calculated(row)
 
         merged_rows.append(row)
+
+    # For now we will just warn about missing the AdVeritasDx data in the CCI data
+    #merged_rows = add_adveritasdx_data(merged_rows)
+    add_adveritasdx_data(merged_rows)
 
     return merged_rows
 

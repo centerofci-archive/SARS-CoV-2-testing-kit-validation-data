@@ -5075,6 +5075,16 @@
       "primer_probe_sequences": {
         "annotations": [
           {
+            "id": 4,
+            "text": "",
+            "labels": [
+              "Primers and probes/Sequences",
+              "Primers and probes/Sequences/Reference available"
+            ],
+            "comment": "See further down in document for statement hinting at sequences used being same as CDC's",
+            "anot8_org_file_id": "14"
+          },
+          {
             "id": 12,
             "text": "",
             "labels": [
@@ -5283,6 +5293,16 @@
       },
       "primer_probe_sequences": {
         "annotations": [
+          {
+            "id": 5,
+            "text": "References N1 and N2 primer/probe sets of the United States Centers for Disease Control and Prevention (US CDC)",
+            "labels": [
+              "Primers and probes/Sequences",
+              "Primers and probes/Sequences/Reference available"
+            ],
+            "comment": "Says \"based on\", so may be different sequence etc.  But lower down says it is identical to CDC's",
+            "anot8_org_file_id": "36"
+          },
           {
             "id": 12,
             "text": "Sequences identical to CDC N1 and N2 primer/probes.",
@@ -29789,8 +29809,8 @@
       "primer_probe_sequences": {
         "annotations": [
           {
-            "id": 2,
-            "text": "GAC CCC AAA ATC AGC GAA AT",
+            "id": 17,
+            "text": "GAC CCC AAA ATC AGC GAA AT; TCT GGT TAC TGC CAG TTG AAT CTG; FAM-ACC CCG CAT TAC GTT TGG TGG ACCBHQ1; TTA CAA ACA TTG GCC GCA AA; GCG CGA CAT TCC GAA GAA; FAM-ACA ATT TGC CCC CAG CGC TTC AGBHQ1",
             "labels": [
               "Primers and probes/Sequences",
               "Primers and probes/Sequences/Explicitly specified"

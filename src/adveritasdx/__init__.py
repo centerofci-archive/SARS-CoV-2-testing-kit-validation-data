@@ -1,2 +1,3 @@
 
 from adveritasdx.get_adveritasdx_data_row import get_adveritasdx_data_row
+from adveritasdx.add_adveritasdx_data import add_adveritasdx_data

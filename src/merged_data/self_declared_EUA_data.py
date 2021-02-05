@@ -83,6 +83,8 @@ def get_primer_probe_sequences (annotations_by_label_id):
         else:
             print("No sequence_labels for: " + get_link_to_annotation(annotation))
 
+    parsed = list(set(parsed))
+
     if len(parsed) > 1:
         print("WARNING: Got {} primer probe sequence labels for {}".format(len(parsed), get_link_to_annotation(filtered_annotations[0])))
 

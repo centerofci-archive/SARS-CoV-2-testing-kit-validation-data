@@ -20,89 +20,28 @@
 "id": 1
 },
 {
-"colour": "rgba(200, 200, 255, 0.6)",
-"comment": "",
-"height": "24px",
-"id": 2,
-"labels": [
-"Primers and probes/Sequences",
-"Primers and probes/Sequences/Explicitly specified"
-],
-"left": "464px",
-"page_number": 2,
-"text": "GAC CCC AAA ATC AGC GAA AT",
-"top": "423px",
-"width": "240px"
+"deleted": true,
+"id": 2
 },
 {
-"colour": "rgba(200, 200, 255, 0.6)",
-"comment": "",
-"height": "19px",
-"id": 3,
-"labels": [
-"Primers and probes/Sequences"
-],
-"left": "465px",
-"page_number": 2,
-"text": "TCT GGT TAC TGC CAG TTG AAT CTG",
-"top": "459px",
-"width": "281px"
+"deleted": true,
+"id": 3
 },
 {
-"colour": "rgba(200, 200, 255, 0.6)",
-"comment": "",
-"height": "38px",
-"id": 4,
-"labels": [
-"Primers and probes/Sequences"
-],
-"left": "466px",
-"page_number": 2,
-"text": "FAM-ACC CCG CAT TAC GTT TGG TGG ACC-BHQ1",
-"top": "488px",
-"width": "320px"
+"deleted": true,
+"id": 4
 },
 {
-"colour": "rgba(200, 200, 255, 0.6)",
-"comment": "",
-"height": "21px",
-"id": 5,
-"labels": [
-"Primers and probes/Sequences"
-],
-"left": "465px",
-"page_number": 2,
-"text": "TTA CAA ACA TTG GCC GCA AA",
-"top": "531px",
-"width": "235px"
+"deleted": true,
+"id": 5
 },
 {
-"colour": "rgba(200, 200, 255, 0.6)",
-"comment": "",
-"height": "24px",
-"id": 6,
-"labels": [
-"Primers and probes/Sequences"
-],
-"left": "464px",
-"page_number": 2,
-"text": "GCG CGA CAT TCC GAA GAA",
-"top": "564px",
-"width": "218px"
+"deleted": true,
+"id": 6
 },
 {
-"colour": "rgba(200, 200, 255, 0.6)",
-"comment": "",
-"height": "34px",
-"id": 7,
-"labels": [
-"Primers and probes/Sequences"
-],
-"left": "464px",
-"page_number": 2,
-"text": "FAM-ACA ATT TGC CCC CAG CGC TTC AG-BHQ1",
-"top": "593px",
-"width": "310px"
+"deleted": true,
+"id": 7
 },
 {
 "colour": "rgba(200, 200, 255, 0.6)",
@@ -231,6 +170,21 @@
 "text": "genome copies / μL",
 "top": "1006px",
 "width": "80px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "209px",
+"id": 17,
+"labels": [
+"Primers and probes/Sequences",
+"Primers and probes/Sequences/Explicitly specified"
+],
+"left": "464px",
+"page_number": 2,
+"text": "GAC CCC AAA ATC AGC GAA AT; TCT GGT TAC TGC CAG TTG AAT CTG; FAM-ACC CCG CAT TAC GTT TGG TGG ACCBHQ1; TTA CAA ACA TTG GCC GCA AA; GCG CGA CAT TCC GAA GAA; FAM-ACA ATT TGC CCC CAG CGC TTC AGBHQ1",
+"top": "421px",
+"width": "321px"
 }
 ],
 "comments": [],
