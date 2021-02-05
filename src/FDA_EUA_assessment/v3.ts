@@ -63,6 +63,21 @@ interface DATA_ROWV3
 }
 
 
+interface adveritasdx_datum
+{
+    avd: string
+    annotations: MinimalAnnotationV3[]
+    parsed?: string
+}
+
+function is_adveritasdx_datum (field_value: string | number | adveritasdx_datum | undefined): field_value is adveritasdx_datum
+{
+    if (!field_value) return false
+    if (typeof field_value === "string" || typeof field_value === "number") return false
+    return true
+}
+
+
 interface adveritasdx
 {
     "ordinal": number
@@ -77,8 +92,8 @@ interface adveritasdx
     "Category": string
     "Authorized Setting(s) per FDA": string
     "Technology": string
-    "Analyte": string
-    "Assay": string
+    "Analyte": adveritasdx_datum
+    "Assay": adveritasdx_datum
     "Specimen Type": string
     "Transport Media": string
     "Gene": string
@@ -272,11 +287,37 @@ const generic_value_renderer = (data_node: DATA_NODEV3) =>
 }
 
 
+const ERROR_HTML_SYMBOL = `<span class="error_symbol" title="Potential error">⚠</span>`
 const adveritasdx_renderer = (field: adveritasdx_keys): ValueRendererV3 => d =>
 {
     const field_value = (d.adveritasdx || {})[field]
-    const parsed = (field_value || "").toString()
-    return ({ parsed })
+
+    if (!is_adveritasdx_datum(field_value))
+    {
+        const raw = (field_value || "").toString()
+        return ({ raw })
+    }
+
+    let raw = escape_html((field_value.avd || "").toString().trim())
+    let comments = ""
+    let references = ""
+    const annotations = field_value.annotations
+
+    if (annotations.length > 0)
+    {
+        const res = get_html_comments_raw_and_references(annotations)
+        references = res.references
+        comments = res.comments
+        const annotations_raw = escape_html(res.raw)
+
+        if (raw && annotations_raw && raw !== annotations_raw)
+        {
+            raw = ERROR_HTML_SYMBOL + escape_html(`${raw} != ${annotations_raw}`)
+        }
+    }
+
+
+    return ({ parsed: "", raw, comments, references })
 }
 
 

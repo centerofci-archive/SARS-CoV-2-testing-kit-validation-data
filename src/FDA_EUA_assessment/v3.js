@@ -16,6 +16,13 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
             r[k] = a[j];
     return r;
 };
+function is_adveritasdx_datum(field_value) {
+    if (!field_value)
+        return false;
+    if (typeof field_value === "string" || typeof field_value === "number")
+        return false;
+    return true;
+}
 var adveritasdx_headers = [
     "Done? (Y)",
     "Company/Organization",
@@ -112,10 +119,27 @@ function mainV3() {
     var generic_value_renderer = function (data_node) {
         return __assign({ parsed: data_node.parsed }, get_html_comments_raw_and_references(data_node.annotations));
     };
+    var ERROR_HTML_SYMBOL = "<span class=\"error_symbol\" title=\"Potential error\">\u26A0</span>";
     var adveritasdx_renderer = function (field) { return function (d) {
         var field_value = (d.adveritasdx || {})[field];
-        var parsed = (field_value || "").toString();
-        return ({ parsed: parsed });
+        if (!is_adveritasdx_datum(field_value)) {
+            var raw_1 = (field_value || "").toString();
+            return ({ raw: raw_1 });
+        }
+        var raw = escape_html((field_value.avd || "").toString().trim());
+        var comments = "";
+        var references = "";
+        var annotations = field_value.annotations;
+        if (annotations.length > 0) {
+            var res = get_html_comments_raw_and_references(annotations);
+            references = res.references;
+            comments = res.comments;
+            var annotations_raw = escape_html(res.raw);
+            if (raw && annotations_raw && raw !== annotations_raw) {
+                raw = ERROR_HTML_SYMBOL + escape_html(raw + " != " + annotations_raw);
+            }
+        }
+        return ({ parsed: "", raw: raw, comments: comments, references: references });
     }; };
     var table_fields = __spreadArrays([
         {

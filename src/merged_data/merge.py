@@ -74,7 +74,7 @@ def get_merged_rows ():
             "fda_reference_panel_lod_data": get_fda_reference_panel_lod_data(developer_name, test_name, test_id, fda_reference_panel_lod_data_by_test_id),
             "self_declared_EUA_data": get_self_declared_EUA_data(annotations_by_label_id),
             "amp_survey": get_amp_survey(test_id),
-            "adveritasdx": get_adveritasdx_data_row(test_id),
+            "adveritasdx": get_adveritasdx_data_row(test_id, annotations_by_label_id),
         }
         row["auto_calculated"] = auto_calculated(row)
 
