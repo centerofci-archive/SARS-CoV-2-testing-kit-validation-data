@@ -611,8 +611,7 @@ function mainV3() {
     }
     //
     function render_table_body(table_fields, data_rows) {
-        var table_el = document.getElementById("data_table");
-        var tbody_el = table_el.getElementsByTagName("tbody")[0];
+        var tbody_el = document.createElement("tbody");
         data_rows.forEach(function (data_row, i) {
             var row = tbody_el.insertRow();
             row.setAttribute("data-foo", data_row.test_id);
@@ -641,6 +640,8 @@ function mainV3() {
                 cell.appendChild(references_el);
             });
         });
+        var table_el = document.getElementById("data_table");
+        table_el.appendChild(tbody_el);
     }
     function iterate_lowest_table_field(table_fields, func) {
         for (var i1 = 0; i1 < table_fields.length; ++i1) {

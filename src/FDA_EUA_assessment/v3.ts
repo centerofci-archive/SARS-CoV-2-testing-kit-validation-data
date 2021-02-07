@@ -834,8 +834,7 @@ function setup_exporter ()
 
 function render_table_body (table_fields: TABLE_FIELDSV3, data_rows: DATA_ROWV3[])
 {
-    const table_el = document.getElementById("data_table")
-    const tbody_el = table_el.getElementsByTagName("tbody")[0]
+    const tbody_el = document.createElement("tbody")
 
     data_rows.forEach((data_row, i) =>
     {
@@ -873,6 +872,9 @@ function render_table_body (table_fields: TABLE_FIELDSV3, data_rows: DATA_ROWV3[
             cell.appendChild(references_el)
         })
     })
+
+    const table_el = document.getElementById("data_table")
+    table_el.appendChild(tbody_el)
 }
 
 
