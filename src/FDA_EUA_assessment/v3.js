@@ -131,7 +131,14 @@ function mainV3() {
     var generic_value_renderer = function (data_node) {
         return __assign({ parsed: data_node.parsed }, get_html_comments_raw_and_references(data_node.annotations));
     };
-    var ERROR_HTML_SYMBOL = "<span class=\"error_symbol\" title=\"Potential error\">\u26A0</span>";
+    var ERROR_HTML_SYMBOL = function (extra_class) {
+        if (extra_class === void 0) { extra_class = ""; }
+        return "<span class=\"error_symbol " + extra_class + "\" title=\"Potential error\">\u26A0</span>";
+    };
+    var SYNC_HTML_SYMBOL = function (extra_class) {
+        if (extra_class === void 0) { extra_class = ""; }
+        return "<span class=\"sync_symbol " + extra_class + "\" title=\"Sync needed\"> &#8634; </span>";
+    };
     var adveritasdx_renderer = function (field) { return function (d) {
         var field_value = (d.adveritasdx || {})[field];
         if (!is_adveritasdx_datum(field_value)) {
@@ -148,10 +155,10 @@ function mainV3() {
             comments = res.comments;
             var annotations_raw = escape_html(res.raw).trim();
             if (!raw) {
-                raw = annotations_raw;
+                raw = SYNC_HTML_SYMBOL() + " " + annotations_raw;
             }
             else if (annotations_raw && raw !== annotations_raw) {
-                raw = ERROR_HTML_SYMBOL + escape_html(raw + " != " + annotations_raw);
+                raw = ERROR_HTML_SYMBOL() + escape_html(raw + " != " + annotations_raw);
             }
         }
         return ({ parsed: "", raw: raw, comments: comments, references: references });
@@ -159,7 +166,7 @@ function mainV3() {
     var table_fields = __spreadArrays([
         {
             title: "Export",
-            value_renderer: function (d) { return ({ parsed: "<input type=\"checkbox\" onClick=\"export_toggled(event, '" + d.test_id + "')\"></input>" }); },
+            value_renderer: function (d) { return ({ parsed: "<input type=\"checkbox\" onClick=\"export_toggled(event, '" + d.test_id + "')\"></input>" + ERROR_HTML_SYMBOL("whole_row") + SYNC_HTML_SYMBOL("whole_row") }); },
             category: "",
             disable_click_expand: true,
         },
@@ -639,6 +646,14 @@ function mainV3() {
                 cell.appendChild(comments_el);
                 cell.appendChild(references_el);
             });
+            // hack
+            if (row.getElementsByClassName("error_symbol").length >= 2) {
+                row.classList.add("contains_error_symbol");
+            }
+            // hack
+            if (row.getElementsByClassName("sync_symbol").length >= 2) {
+                row.classList.add("contains_sync_symbol");
+            }
         });
         var table_el = document.getElementById("data_table");
         table_el.appendChild(tbody_el);
@@ -718,7 +733,16 @@ function mainV3() {
     function format_row_for_adveritasdx_export(row) {
         if (!row || !row.adveritasdx)
             return;
-        return adveritasdx_headers.map(function (header) { return row.adveritasdx[header].toString(); });
+        return adveritasdx_headers.map(function (header) {
+            var value = row.adveritasdx[header];
+            if (typeof (value) === "string" || typeof (value) === "number")
+                return value.toString().trim();
+            var avd_spreadsheet_value = escape_html((value.avd || "").toString().trim());
+            if (avd_spreadsheet_value)
+                return avd_spreadsheet_value;
+            var res = get_html_comments_raw_and_references(value.annotations);
+            return res.raw.trim();
+        });
     }
     //
     // Smells as it contains update for table header due to colspan not being under CSS control

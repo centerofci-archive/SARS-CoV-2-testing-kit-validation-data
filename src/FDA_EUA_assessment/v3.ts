@@ -304,7 +304,11 @@ const generic_value_renderer = (data_node: DATA_NODEV3) =>
 }
 
 
-const ERROR_HTML_SYMBOL = `<span class="error_symbol" title="Potential error">⚠</span>`
+const ERROR_HTML_SYMBOL = (extra_class: string = "") =>
+    `<span class="error_symbol ${extra_class}" title="Potential error">⚠</span>`
+const SYNC_HTML_SYMBOL = (extra_class: string = "") =>
+    `<span class="sync_symbol ${extra_class}" title="Sync needed"> &#8634; </span>`
+
 const adveritasdx_renderer = (field: adveritasdx_keys): ValueRendererV3 => d =>
 {
     const field_value = (d.adveritasdx || {})[field]
@@ -329,11 +333,11 @@ const adveritasdx_renderer = (field: adveritasdx_keys): ValueRendererV3 => d =>
 
         if (!raw)
         {
-            raw = annotations_raw
+            raw = SYNC_HTML_SYMBOL() + " " + annotations_raw
         }
         else if (annotations_raw && raw !== annotations_raw)
         {
-            raw = ERROR_HTML_SYMBOL + escape_html(`${raw} != ${annotations_raw}`)
+            raw = ERROR_HTML_SYMBOL() + escape_html(`${raw} != ${annotations_raw}`)
         }
     }
 
@@ -344,7 +348,7 @@ const adveritasdx_renderer = (field: adveritasdx_keys): ValueRendererV3 => d =>
 const table_fields: TABLE_FIELDSV3 = [
     {
         title: "Export",
-        value_renderer: d => ({ parsed: `<input type="checkbox" onClick="export_toggled(event, '${d.test_id}')"></input>` }),
+        value_renderer: d => ({ parsed: `<input type="checkbox" onClick="export_toggled(event, '${d.test_id}')"></input>` + ERROR_HTML_SYMBOL("whole_row") + SYNC_HTML_SYMBOL("whole_row") }),
         category: "",
         disable_click_expand: true,
     },
@@ -871,6 +875,17 @@ function render_table_body (table_fields: TABLE_FIELDSV3, data_rows: DATA_ROWV3[
             cell.appendChild(comments_el)
             cell.appendChild(references_el)
         })
+
+        // hack
+        if (row.getElementsByClassName("error_symbol").length >= 2)
+        {
+            row.classList.add("contains_error_symbol")
+        }
+        // hack
+        if (row.getElementsByClassName("sync_symbol").length >= 2)
+        {
+            row.classList.add("contains_sync_symbol")
+        }
     })
 
     const table_el = document.getElementById("data_table")
@@ -983,7 +998,19 @@ function format_row_for_adveritasdx_export (row: DATA_ROWV3)
 {
     if (!row || !row.adveritasdx) return
 
-    return adveritasdx_headers.map(header => row.adveritasdx[header].toString())
+    return adveritasdx_headers.map(header => {
+        const value = row.adveritasdx[header]
+
+        if (typeof(value) === "string" || typeof(value) === "number") return value.toString().trim()
+
+        const avd_spreadsheet_value = escape_html((value.avd || "").toString().trim())
+
+        if (avd_spreadsheet_value) return avd_spreadsheet_value
+
+        const res = get_html_comments_raw_and_references(value.annotations)
+
+        return res.raw.trim()
+    })
 }
 
 

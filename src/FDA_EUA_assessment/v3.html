@@ -69,6 +69,11 @@
     {
       background-color: orangered;
     }
+    .sync_symbol
+    {
+      font-size: 21px;
+      background-color: #d4ebff;
+    }
 
     .raw_data.less_important
     {
@@ -79,6 +84,15 @@
     {
       /* border-top: thin solid #BBB; */
       font-family: Tahoma;
+    }
+
+    tr .whole_row.error_symbol, tr .whole_row.sync_symbol
+    {
+      display: none;
+    }
+    tr.contains_error_symbol .whole_row.error_symbol, tr.contains_sync_symbol .whole_row.sync_symbol
+    {
+      display: initial;
     }
 
     #header
