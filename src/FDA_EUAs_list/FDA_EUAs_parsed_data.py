@@ -84,7 +84,8 @@ def get_all_json_fda_eua_parsed_data (file_names):
                 test_id = custom_test_id_mapping_hack(snapshot_date, test_id)
 
             if test_id not in json_fda_eua_parsed_data_by_test_id:
-                print("Could not find test_id: \"{}\" from {} in {} FDA EUA parsed data.  This is likely a new test that needs to be added to the sets of test_ids stored in new_tests but may also be a change of test name.".format(test_id, file_name, oldest_file_name))
+                oldest_file_name = file_names[0]
+                print("Could not find test_id: \"{}\" from {} in {} FDA EUA parsed data ({}).  This is likely a new test that needs to be added to the sets of test_ids stored in new_tests but may also be a change of test name.".format(test_id, file_name, oldest_file_name, DATA_DIRECTORY_EUAs_PARSED_DATA))
                 sys.exit(1)
 
             existing_row = json_fda_eua_parsed_data_by_test_id[test_id]
@@ -204,6 +205,12 @@ new_tests = {
     "2021-02-02": set([
         "ambry genetics laboratory__ambry covid-19 rt-pcr test"
     ]),
+    "2021-02-08": set([
+        "hospital of the university of pennsylvania__bd max covid-19 assay",
+        "inno diagnostics reference laboratory, ponce medical school__pmsf-inno sars-cov-2 rt-pcr test",
+        "clinomics usa inc.__clinomics triodx rt-pcr covid-19 test",
+        "princ.eton biomeditech corp.__status covid-19/flu",
+    ]),
 }
 def is_new_test (snapshot_date, test_id):
     if snapshot_date == "2020-10-08":
@@ -225,6 +232,15 @@ custom_test_id_map = {
         "helix opco llc__helix covid-19 test": "helix opco llc (dba helix)__helix covid-19 test",
     },
     "2021-02-02": {},
+    "2021-02-08": {
+        "stanford health care clinical virology laboratory__sars-cov-2 rt-pcr assay": "stanford health care clinical virology laboratory__stanford sars-cov-2 assay",
+
+        "ortho-clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent pack": "ortho-clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent",
+
+        "color genomics, inc.__color sars-cov-2 rt-lamp diagnostic assay": "color genomics, inc.__color genomics sars-cov-2 rt-lamp diagnostic assay",
+
+        "helix opco llc__helix covid-19 test": "helix opco llc (dba helix)__helix covid-19 test",
+    },
 }
 custom_test_id_map["2021-02-02"] = custom_test_id_map["2021-01-22"]
 def custom_test_id_mapping_hack (snapshot_date, test_id):
