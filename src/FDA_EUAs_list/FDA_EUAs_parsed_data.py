@@ -91,6 +91,17 @@ def get_all_json_fda_eua_parsed_data (file_names):
             existing_row.update(row)
             existing_row["all_relevant_urls"] += filter_for_urls(row)
 
+    for row in json_fda_eua_parsed_data:
+        seen_urls = set()
+        unique_urls = []
+        for url in row["all_relevant_urls"]:
+            if url in seen_urls:
+                continue
+            unique_urls.append(url)
+            seen_urls.add(url)
+
+        row["all_relevant_urls"] = unique_urls
+
     return json_fda_eua_parsed_data
 
 

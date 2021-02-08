@@ -140,7 +140,7 @@
     [
         "quidel corporation__lyra sars-cov-2 assay",
         "2020-03-17",
-        "2020-04-08",
+        "2021-02-04",
         "Quidel Corporation",
         "Lyra SARS-CoV-2 Assay",
         "https://www.fda.gov/media/136224/download",
@@ -301,7 +301,7 @@
     [
         "mesa biotech inc.__accula sars-cov-2 test",
         "2020-03-23",
-        "2020-08-24",
+        "2021-02-03",
         "Mesa Biotech Inc.",
         "Accula SARS-Cov-2 Test",
         "https://www.fda.gov/media/136345/download",
@@ -315,7 +315,8 @@
         "",
         [
             "https://www.fda.gov/media/137533/download",
-            "https://www.fda.gov/media/141506/download"
+            "https://www.fda.gov/media/141506/download",
+            "https://www.fda.gov/media/145700/download"
         ]
     ],
     [
@@ -357,7 +358,7 @@
     [
         "bgi genomics co. ltd__real-time fluorescent rt-pcr kit for detecting sars-cov-2",
         "2020-03-26",
-        "2021-1-28",
+        "2021-02-01",
         "BGI Genomics Co. Ltd",
         "Real-Time Fluorescent RT-PCR Kit for Detecting SARS-CoV-2",
         "https://www.fda.gov/media/136473/download",
@@ -692,7 +693,7 @@
     [
         "diacarta, inc.__quantivirus sars-cov-2 test kit",
         "2020-04-08",
-        "2020-10-26",
+        "2021-02-03",
         "DiaCarta, Inc.",
         "QuantiVirus SARS-CoV-2 Test kit",
         "https://www.fda.gov/media/136806/download",
@@ -2420,7 +2421,7 @@
     [
         "cormeum laboratory services__cormeum sars-cov-2 assay",
         "2020-06-12",
-        "2020-06-12",
+        "2021-02-03",
         "Cormeum Laboratory Services",
         "Cormeum SARS-CoV-2 Assay",
         "https://www.fda.gov/media/138933/download",
@@ -2671,7 +2672,7 @@
     [
         "plexbio co., ltd__intelliplex sars-cov-2 detection kit",
         "2020-06-25",
-        "2020-06-25",
+        "2021-02-03",
         "PlexBio Co., Ltd",
         "IntelliPlex SARS-CoV-2 Detection Kit",
         "https://www.fda.gov/media/139528/download",
@@ -2683,7 +2684,9 @@
             "https://www.fda.gov/media/139527/download"
         ],
         "",
-        []
+        [
+            "https://www.fda.gov/media/145698/download"
+        ]
     ],
     [
         "precigenome llc__fastplex triplex sars-cov-2 detection kit (rt-digital pcr)",
@@ -2951,7 +2954,7 @@
     [
         "access bio, inc.__carestart covid-19 mdx rt-pcr",
         "2020-07-07",
-        "2020-07-07",
+        "2021-02-03",
         "Access Bio, Inc.",
         "CareStart COVID-19 MDx RT-PCR",
         "https://www.fda.gov/media/139833/download",
@@ -4786,7 +4789,7 @@
     [
         "access bio, inc.__carestart covid-19 antigen test",
         "2020-10-08",
-        "2020-10-13",
+        "2021-02-01",
         "Access Bio, Inc.",
         "CareStart COVID-19 Antigen test",
         "https://www.fda.gov/media/142916/download",
@@ -5571,6 +5574,36 @@
         []
     ],
     [
+        "hospital of the university of pennsylvania__bd max covid-19 assay (authorized by hhs/oash)",
+        "2021-01-19",
+        "2021-01-19",
+        "Hospital of the University of Pennsylvania",
+        "BD MAX COVID-19 ASSAY (Authorized by HHS/OASH)",
+        "https://www.fda.gov/media/145675/download",
+        "Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/145676/download",
+        "https://www.fda.gov/media/145677/download",
+        [],
+        "https://www.fda.gov/media/145678/download",
+        []
+    ],
+    [
+        "inno diagnostics reference laboratory, ponce medical school__pmsf-inno sars-cov-2 rt-pcr test (authorized by hhs/oash)",
+        "2021-01-19",
+        "2021-01-19",
+        "INNO Diagnostics Reference Laboratory, Ponce Medical School",
+        "PMSF-INNO SARS-CoV-2 RT-PCR Test (Authorized by HHS/OASH)",
+        "https://www.fda.gov/media/145679/download",
+        "Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/145680/download",
+        "https://www.fda.gov/media/145681/download",
+        [],
+        "https://www.fda.gov/media/145682/download",
+        []
+    ],
+    [
         "ambry genetics laboratory__ambry covid-19 rt-pcr test",
         "2021-01-22",
         "2021-01-22",
@@ -5585,6 +5618,40 @@
             "https://www.fda.gov/media/145409/download"
         ],
         "https://www.fda.gov/media/145410/download",
+        []
+    ],
+    [
+        "clinomics usa inc.__clinomics triodx rt-pcr covid-19 test",
+        "2021-02-04",
+        "2021-02-04",
+        "Clinomics USA Inc.",
+        "Clinomics TrioDx RT-PCR COVID-19 Test",
+        "https://www.fda.gov/media/145686/download",
+        "Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/145687/download",
+        "https://www.fda.gov/media/145688/download",
+        [
+            "https://www.fda.gov/media/145689/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "princ.eton biomeditech corp.__status covid-19/flu",
+        "2021-02-04",
+        "2021-02-04",
+        "Princeton BioMeditech Corp.",
+        "Status COVID-19/Flu",
+        "https://www.fda.gov/media/145694/download",
+        "Lateral Flow, Visual Read, Multi-analyte",
+        "H, M, W",
+        "https://www.fda.gov/media/145695/download",
+        "https://www.fda.gov/media/145696/download",
+        [
+            "https://www.fda.gov/media/145697/download"
+        ],
+        "",
         []
     ]
 ]

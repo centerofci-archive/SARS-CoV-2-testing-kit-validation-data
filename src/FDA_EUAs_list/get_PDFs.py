@@ -1,3 +1,4 @@
+from datetime import datetime
 import hashlib
 import os
 import re
@@ -12,6 +13,7 @@ from common import (
     filter_for_urls,
     get_FDA_file_id_from_FDA_url,
     DATA_DIRECTORY_EUA_PDFs,
+    DATA_DIRECTORY_EUAs,
 )
 
 from FDA_EUAs_list.FDA_EUAs_parsed_data import get_latest_fda_eua_parsed_data
@@ -44,6 +46,7 @@ def check_urls_are_unique (urls):
         raise Exception("ERROR: not all urls are unique: ", duplicated_urls)
 
 
+
 def get_FDA_file_id_to_versioned_file_paths_map ():
     FDA_file_id_to_versioned_file_paths_map = dict()
 
@@ -60,11 +63,12 @@ def get_FDA_file_id_to_versioned_file_paths_map ():
     return FDA_file_id_to_versioned_file_paths_map
 
 
+
 def download_urls (urls, FDA_file_id_to_versioned_file_paths_map, shallow_check=True):
     for url in urls:
 
         FDA_file_id = get_FDA_file_id_from_FDA_url(url)
-        existing_versions = FDA_file_id_to_versioned_file_paths_map[FDA_file_id]
+        existing_versions = FDA_file_id_to_versioned_file_paths_map.get(FDA_file_id, [])
 
         if existing_versions and shallow_check:
             print("Skipping: " + url)
@@ -89,6 +93,7 @@ def download_urls (urls, FDA_file_id_to_versioned_file_paths_map, shallow_check=
             f.write(request.content)
 
 
+
 def hash_matches_existing_versions (new_contents, existing_versions):
     match = None
 
@@ -105,10 +110,12 @@ def hash_matches_existing_versions (new_contents, existing_versions):
     return match
 
 
+
 def sha1_hash_string (file_contents):
     sha_1 = hashlib.sha1()
     sha_1.update(file_contents)
     return sha_1.hexdigest()
+
 
 
 # Adapted from: https://stackoverflow.com/a/22058673/539490
@@ -140,10 +147,35 @@ def get_FDA_url_to_FDA_PDF_versioned_absolute_file_path (FDA_url):
 
 
 
-def get_PDFs (shallow_check):
+def make_urls_unique (urls):
+    seen_urls = set()
+    unique_urls = []
+    for url in urls:
+        if url in seen_urls:
+            continue
+        unique_urls.append(url)
+        seen_urls.add(url)
+
+    return unique_urls
+
+
+
+def get_PDFs (shallow_check, restart_from_url = ""):
     fda_eua_parsed_data = get_latest_fda_eua_parsed_data()
     urls = filter_for_urls(fda_eua_parsed_data)
-    print("Extracted {} urls to download".format(len(urls)))
+    urls_unique = make_urls_unique(urls)
+    print("Extracted {} urls, {} unique".format(len(urls), len(urls_unique)))
+
+    urls_to_download = urls_unique
+    if restart_from_url:
+        start_from_index = 0
+        for index, url in enumerate(urls_to_download):
+            if url == restart_from_url:
+                start_from_index = index
+                break
+        urls_to_download = urls_to_download[start_from_index:]
+    print("Will download {} urls".format(len(urls_to_download)))
+
     check_urls_are_unique(urls)
     FDA_file_id_to_versioned_file_paths_map = get_FDA_file_id_to_versioned_file_paths_map()
     download_urls(urls, FDA_file_id_to_versioned_file_paths_map, shallow_check=shallow_check)
@@ -151,4 +183,4 @@ def get_PDFs (shallow_check):
 
 
 if __name__ == "__main__":
-    get_PDFs(shallow_check = False)
+    get_PDFs(shallow_check = False, restart_from_url="")
