@@ -140,7 +140,7 @@ def get_FDA_url_to_FDA_PDF_versioned_absolute_file_path (FDA_url):
 
 
 
-def main (shallow_check):
+def get_PDFs (shallow_check):
     fda_eua_parsed_data = get_latest_fda_eua_parsed_data()
     urls = filter_for_urls(fda_eua_parsed_data)
     print("Extracted {} urls to download".format(len(urls)))
@@ -149,4 +149,6 @@ def main (shallow_check):
     download_urls(urls, FDA_file_id_to_versioned_file_paths_map, shallow_check=shallow_check)
 
 
-main(shallow_check = False)
+
+if __name__ == "__main__":
+    get_PDFs(shallow_check = False)

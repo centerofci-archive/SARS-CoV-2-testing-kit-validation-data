@@ -11,7 +11,8 @@ sys.path.insert(0, dir_path + "/..")
 from common import DATA_DIRECTORY_EUAs, json_data_to_flat_list
 
 
-def get_files_to_parse():
+
+def get_files_to_parse ():
     files = []
 
     root_path = DATA_DIRECTORY_EUAs + "html_pages"
@@ -30,7 +31,8 @@ def get_files_to_parse():
     return files
 
 
-def preprocess_html(html):
+
+def preprocess_html (html):
     # simplify
     html = re.sub("</?em>", "", html, flags=re.IGNORECASE)
     html = re.sub("<br />", " ", html, flags=re.IGNORECASE)
@@ -56,7 +58,8 @@ def preprocess_html(html):
     return html
 
 
-def parse_html(html):
+
+def parse_html_string (html):
     diagnostics_parser = DiagnosticsParser()
     diagnostics_parser.feed(html)
     diagnostics_data_rows = diagnostics_parser.rows
@@ -66,7 +69,8 @@ def parse_html(html):
     return { "rows": diagnostics_data_rows, "headers": headers }
 
 
-def deprecated_parse_html_2020_08_18(html):
+
+def deprecated_parse_html_2020_08_18 (html):
     iv_diagnostics_parser = IVDiagnosticsParser()
     high_complexity_diagnostics_parser = HighComplexityDiagnosticsParser()
 
@@ -82,7 +86,8 @@ def deprecated_parse_html_2020_08_18(html):
     }
 
 
-def deprecated_merge_data(iv_diagnostics_data_rows, high_complexity_diagnostics_data_rows):
+
+def deprecated_merge_data (iv_diagnostics_data_rows, high_complexity_diagnostics_data_rows):
     # skip first row as it is headers
     iv_diagnostics_data_rows = iv_diagnostics_data_rows[1:]
     high_complexity_diagnostics_data_rows = high_complexity_diagnostics_data_rows[1:]
@@ -105,7 +110,8 @@ def deprecated_merge_data(iv_diagnostics_data_rows, high_complexity_diagnostics_
     return merged_data_rows
 
 
-def check_test_ids_are_unique(data_rows):
+
+def check_test_ids_are_unique (data_rows):
     test_ids = set()
     duplicates = set()
 
@@ -121,7 +127,8 @@ def check_test_ids_are_unique(data_rows):
         raise Exception("Found {} duplicates: {}".format(len(duplicates), duplicates))
 
 
-def store_results(file_name, data_rows, headers):
+
+def store_results (file_name, data_rows, headers):
     file_path_for_parsed_data = DATA_DIRECTORY_EUAs + "parsed/{}.json".format(file_name)
 
     flat_data_rows = json_data_to_flat_list(data_rows, headers=headers)
@@ -130,7 +137,8 @@ def store_results(file_name, data_rows, headers):
         json.dump(flat_data_rows, f, indent=4, ensure_ascii=False)
 
 
-def deprecated_main_2020_08_18():
+
+def deprecated_main_2020_08_18 ():
     for f in get_files_to_parse():
 
         file_contents = f["file_contents"]
@@ -146,7 +154,8 @@ def deprecated_main_2020_08_18():
         store_results("{}_merged".format(file_name), merged_data)
 
 
-def main():
+
+def parse_html ():
     for f in get_files_to_parse():
 
         file_contents = f["file_contents"]
@@ -158,10 +167,12 @@ def main():
             continue
 
         html = preprocess_html(file_contents)
-        results = parse_html(html)
+        results = parse_html_string(html)
         check_test_ids_are_unique(results["rows"])
 
         store_results(file_name, results["rows"], results["headers"])
 
 
-main()
+
+if __name__ == "__main__":
+    parse_html()
