@@ -31,8 +31,7 @@ Need to run this when labels used by the merge script are changed (or added)
 
 ### FDA EUAs page and related PDF files
 
-    python3 src/FDA_EUAs_list/parse_html.py
-    python3 src/FDA_EUAs_list/get_PDFs.py
+    python3 src/FDA_EUAs_list/get_latest_html_and_PDFs.py
 
 ### FDA reference panel html
 
@@ -41,7 +40,7 @@ Need to run this when labels used by the merge script are changed (or added)
 
 ### AdveritasDx
 
-    python3 src/AdveritasDx/parse_versions.py
+    python3 src/AdveritasDx/get_and_parse_latest.py
 
 ### Merge data
 

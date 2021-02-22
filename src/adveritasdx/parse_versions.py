@@ -7,13 +7,14 @@ import re
 import sys
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
-sys.path.insert(0, dir_path + "/../common")
+sys.path.insert(0, dir_path + "/..")
 
-from get_test_id import get_test_id
+from common import get_test_id
+from common.paths import (
+    DATA_DIRECTORY_adveritasdx_CSVs,
+    DATA_DIRECTORY_adveritasdx_parsed,
+)
 
-data_path = os.path.join(dir_path, "../../data/adveritasdx")
-csv_from_adveritasdx_dir = os.path.join(data_path, "csv_from_adveritasdx")
-parsed_dir = os.path.join(data_path, "parsed")
 
 
 def parse_csv (csv_file_descriptor):
@@ -103,6 +104,10 @@ def check_headers (data_rows):
 
 
 def clean_data (parsed_result):
+    if parsed_result[1][1]:
+        print("Got unexpected value: \"{}\" in row two that was expected to be empty as previously used for formatting".format(parsed_result[1][1]))
+        sys.exit(1)
+
     # Drop the first row of headers now that we know they are the same as those we expect
     # And drop the second row which is used for formatting purposes only
     cleaned_data = parsed_result[2:]
@@ -188,14 +193,14 @@ def map_test_ids (parsed_result):
 
 
 def parse_versions ():
-    file_names = os.listdir(csv_from_adveritasdx_dir)
+    file_names = os.listdir(DATA_DIRECTORY_adveritasdx_CSVs)
 
     for file_name in file_names:
         if not file_name.endswith(".csv"):
             continue
 
         print("Parsing AdVeritasDx CSVs: {}".format(file_name))
-        file_path = csv_from_adveritasdx_dir + "/" + file_name
+        file_path = DATA_DIRECTORY_adveritasdx_CSVs + file_name
         if os.path.isdir(file_path):
             continue
         with open(file_path, "r", encoding="utf8") as f:
@@ -211,15 +216,12 @@ def parse_versions ():
 
         map_test_ids(json_data)
 
-        is_latest = "latest" in file_name
-
-        output_file_name = file_name.replace(".csv", ".json").replace("latest-", "")
-        with open(parsed_dir + "/" + output_file_name, "w", encoding="utf8") as f:
+        output_file_name = file_name.replace(".csv", ".json")
+        file_path = DATA_DIRECTORY_adveritasdx_parsed + output_file_name
+        with open(file_path, "w", encoding="utf8") as f:
             json.dump(json_data, f, indent=2, ensure_ascii=False)
 
-        if is_latest:
-            with open(parsed_dir + "/latest.json", "w", encoding="utf8") as f:
-                json.dump(json_data, f, indent=2, ensure_ascii=False)
 
 
-parse_versions()
+if __name__ == "__main__":
+    parse_versions()

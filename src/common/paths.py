@@ -11,6 +11,11 @@ DATA_DIR_PATH = dir_path + "/../../data/"
 ANOT8_VAULT_CONFIG = DATA_DIR_PATH + "anot8_vault_config.json"
 
 
+DATA_DIRECTORY_adveritasdx = DATA_DIR_PATH + "adveritasdx/"
+DATA_DIRECTORY_adveritasdx_CSVs = DATA_DIRECTORY_adveritasdx + "csv_from_adveritasdx/"
+DATA_DIRECTORY_adveritasdx_parsed = DATA_DIRECTORY_adveritasdx + "parsed/"
+
+
 DATA_DIRECTORY_EUAs = DATA_DIR_PATH + "FDA-EUA/"
 DATA_DIRECTORY_EUA_PDFs = DATA_DIRECTORY_EUAs + "PDFs/"
 DATA_DIRECTORY_EUAs_PARSED_DATA = DATA_DIRECTORY_EUAs + "parsed/"
