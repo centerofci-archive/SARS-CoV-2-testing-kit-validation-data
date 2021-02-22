@@ -322,7 +322,7 @@
     [
         "perkinelmer, inc.__perkinelmer new coronavirus nucleic acid detection kit",
         "2020-03-24",
-        "2021-01-12",
+        "2021-02-05",
         "PerkinElmer, Inc.",
         "PerkinElmer New Coronavirus Nucleic Acid Detection Kit",
         "https://www.fda.gov/media/136407/download",
@@ -1164,7 +1164,7 @@
     [
         "ortho-clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent pack",
         "2020-04-24",
-        "2020-10-23",
+        "2021-02-12",
         "Ortho-Clinical Diagnostics, Inc.",
         "VITROS Immunodiagnostic Products Anti-SARS-CoV-2 IgG Reagent Pack",
         "https://www.fda.gov/media/137360/download",
@@ -1237,7 +1237,7 @@
     [
         "seasun biomaterials__u-top covid-19 detection kit",
         "2020-04-27",
-        "2020-09-01",
+        "2021-02-09",
         "SEASUN BIOMATERIALS",
         "U-TOP COVID-19 Detection Kit",
         "https://www.fda.gov/media/137420/download",
@@ -2785,11 +2785,11 @@
     [
         "the kroger co.__kroger health covid-19 test home collection kit",
         "2020-06-30",
-        "2020-06-30",
+        "2021-02-13",
         "The Kroger Co.",
         "Kroger Health COVID-19 Test Home Collection Kit",
         "https://www.fda.gov/media/139681/download",
-        "Molecular Home Collection Kit",
+        "Home Collection Kit, Direct to Consumer (DTC), Screening",
         "",
         "",
         "",
@@ -2954,7 +2954,7 @@
     [
         "access bio, inc.__carestart covid-19 mdx rt-pcr",
         "2020-07-07",
-        "2021-02-03",
+        "2021-02-05",
         "Access Bio, Inc.",
         "CareStart COVID-19 MDx RT-PCR",
         "https://www.fda.gov/media/139833/download",
@@ -2966,7 +2966,9 @@
             "https://www.fda.gov/media/139832/download"
         ],
         "",
-        []
+        [
+            "https://www.fda.gov/media/145947/download"
+        ]
     ],
     [
         "gene by gene__gene by gene sars-cov-2 detection test",
@@ -3741,7 +3743,7 @@
     [
         "yale school of public health, department of epidemiology of microbial diseases__salivadirect",
         "2020-08-15",
-        "2020-12-16",
+        "2021-02-05",
         "Yale School of Public Health, Department of Epidemiology of Microbial Diseases",
         "SalivaDirect",
         "https://www.fda.gov/media/141194/download",
@@ -3753,7 +3755,8 @@
         "https://www.fda.gov/media/141192/download",
         [
             "https://www.fda.gov/media/141537/download",
-            "https://www.fda.gov/media/143072/download"
+            "https://www.fda.gov/media/143072/download",
+            "https://www.fda.gov/media/145772/download"
         ]
     ],
     [
@@ -3876,7 +3879,7 @@
     [
         "qdx pathology services__qdx sars-cov-2 assay",
         "2020-08-25",
-        "2020-08-25",
+        "2021-02-08",
         "QDx Pathology Services",
         "QDX SARS-CoV-2 Assay",
         "https://www.fda.gov/media/141542/download",
@@ -3888,7 +3891,9 @@
             "https://www.fda.gov/media/141546/download"
         ],
         "https://www.fda.gov/media/141545/download",
-        []
+        [
+            "https://www.fda.gov/media/145773/download"
+        ]
     ],
     [
         "fluidigm corporation__advanta dx sars-cov-2 rt-pcr assay",
@@ -3962,7 +3967,7 @@
     [
         "dxterity diagnostics, inc.__dxterity sars-cov-2 rt pcr ce test",
         "2020-08-28",
-        "2020-08-28",
+        "2021-02-09",
         "DxTerity Diagnostics, Inc.",
         "DxTerity SARS-CoV-2 RT PCR CE Test",
         "https://www.fda.gov/media/141666/download",
@@ -4789,7 +4794,7 @@
     [
         "access bio, inc.__carestart covid-19 antigen test",
         "2020-10-08",
-        "2021-02-01",
+        "2021-02-08",
         "Access Bio, Inc.",
         "CareStart COVID-19 Antigen test",
         "https://www.fda.gov/media/142916/download",
@@ -4892,7 +4897,7 @@
     [
         "lumiradx uk ltd.__lumiradx sars-cov-2 rna star complete",
         "2020-10-14",
-        "2020-10-14",
+        "2021-02-09",
         "LumiraDx UK Ltd.",
         "LumiraDx SARS-CoV-2 RNA STAR Complete",
         "https://www.fda.gov/media/143059/download",
@@ -5234,7 +5239,7 @@
     [
         "rca laboratory services llc dba genetworx__genetworx covid-19 nasal swab test",
         "2020-12-15",
-        "2020-12-15",
+        "2021-02-12",
         "RCA Laboratory Services LLC dba GENETWORx",
         "GENETWORx Covid-19 Nasal Swab Test",
         "https://www.fda.gov/media/144550/download",
@@ -5246,6 +5251,26 @@
             "https://www.fda.gov/media/144554/download"
         ],
         "https://www.fda.gov/media/144553/download",
+        [
+            "https://www.fda.gov/media/145919/download"
+        ]
+    ],
+    [
+        "ellume limited__ellume covid-19 home test",
+        "2020-12-15",
+        "2021-02-11",
+        "Ellume Limited",
+        "Ellume COVID-19 Home Test",
+        "https://www.fda.gov/media/144457/download",
+        "Antigen Lateral Flow, Fluorescence, Instrument Read, Over the Counter (OTC) Home Testing, Screening",
+        "Home, H, M, W",
+        "https://www.fda.gov/media/144591/download",
+        "",
+        [
+            "https://www.fda.gov/media/144592/download",
+            "https://www.fda.gov/media/144593/download"
+        ],
+        "",
         []
     ],
     [
@@ -5279,24 +5304,6 @@
         [
             "https://www.fda.gov/media/144574/download",
             "https://www.fda.gov/media/144575/download"
-        ],
-        "",
-        []
-    ],
-    [
-        "ellume limited__ellume covid-19 home test",
-        "2020-12-16",
-        "2020-12-23",
-        "Ellume Limited",
-        "Ellume COVID-19 Home Test",
-        "https://www.fda.gov/media/144457/download",
-        "Antigen Lateral Flow, Fluorescence, Instrument Read, Over the Counter (OTC) Home Testing, Screening",
-        "Home, H, M, W",
-        "https://www.fda.gov/media/144591/download",
-        "",
-        [
-            "https://www.fda.gov/media/144592/download",
-            "https://www.fda.gov/media/144593/download"
         ],
         "",
         []
@@ -5404,7 +5411,7 @@
     [
         "nirmidas biotech, inc.__midaspot covid-19 antibody combo detection kit",
         "2020-12-31",
-        "2021-01-25",
+        "2021-02-05",
         "Nirmidas Biotech, Inc.",
         "MidaSpot COVID-19 Antibody Combo Detection Kit",
         "https://www.fda.gov/media/144874/download",
@@ -5417,7 +5424,8 @@
         ],
         "",
         [
-            "https://www.fda.gov/media/145434/download"
+            "https://www.fda.gov/media/145434/download",
+            "https://www.fda.gov/media/145774/download"
         ]
     ],
     [
@@ -5474,7 +5482,7 @@
     [
         "ortho clinical diagnostics, inc.__vitros immunodiagnostic products sars-cov-2 antigen reagent pack",
         "2021-01-11",
-        "2021-01-11",
+        "2021-02-09",
         "Ortho Clinical Diagnostics, Inc.",
         "VITROS Immunodiagnostic Products SARS-CoV-2 Antigen Reagent Pack",
         "https://www.fda.gov/media/145069/download",
@@ -5652,6 +5660,158 @@
             "https://www.fda.gov/media/145697/download"
         ],
         "",
+        []
+    ],
+    [
+        "visby medical, inc.__visby medical covid-19 point of care test",
+        "2021-02-08",
+        "2021-02-08",
+        "Visby Medical, Inc.",
+        "Visby Medical COVID-19 Point of Care Test",
+        "https://www.fda.gov/media/145914/download",
+        "RT-PCR",
+        "H, M, W",
+        "https://www.fda.gov/media/145915/download",
+        "https://www.fda.gov/media/145916/download",
+        [
+            "https://www.fda.gov/media/145917/download",
+            "https://www.fda.gov/media/145918/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "becton, dickinson and company (bd)__bd sars-cov-2/flu for bd max system",
+        "2021-02-10",
+        "2021-02-10",
+        "Becton, Dickinson and Company (BD)",
+        "BD SARS-CoV-2/Flu for BD MAX System",
+        "https://www.fda.gov/media/145924/download",
+        "Real-time RT-PCR, Multi-analyte",
+        "H, M",
+        "https://www.fda.gov/media/145925/download",
+        "https://www.fda.gov/media/145926/download",
+        [
+            "https://www.fda.gov/media/145927/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "thermo fisher scientific__taqpath covid-19, flua, flub combo kit",
+        "2021-02-10",
+        "2021-02-10",
+        "Thermo Fisher Scientific",
+        "TaqPath COVID-19, FluA, FluB Combo Kit",
+        "https://www.fda.gov/media/145928/download",
+        "Real-time RT-PCR, Multi-analyte",
+        "H",
+        "https://www.fda.gov/media/145929/download",
+        "https://www.fda.gov/media/145930/download",
+        [
+            "https://www.fda.gov/media/145931/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "grifols diagnostic solutions inc.__procleix sars-cov-2 assay",
+        "2021-02-10",
+        "2021-02-10",
+        "Grifols Diagnostic Solutions Inc.",
+        "Procleix SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/145934/download",
+        "TMA",
+        "H",
+        "https://www.fda.gov/media/145935/download",
+        "https://www.fda.gov/media/145937/download",
+        [
+            "https://www.fda.gov/media/145938/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "immunodiagnostic systems ltd.__ids sars-cov-2 igg",
+        "2021-02-10",
+        "2021-02-10",
+        "Immunodiagnostic Systems Ltd.",
+        "IDS SARS-CoV-2 IgG",
+        "https://www.fda.gov/media/145941/download",
+        "IgG, CLIA",
+        "H, M",
+        "https://www.fda.gov/media/145942/download",
+        "https://www.fda.gov/media/145943/download",
+        [
+            "https://www.fda.gov/media/145944/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "bio-rad laboratories, inc.__bio-rad reliance sars-cov-2/flua/flub rt-pcr assay kit",
+        "2021-02-11",
+        "2021-02-11",
+        "Bio-Rad Laboratories, Inc.",
+        "Bio-Rad Reliance SARS-CoV-2/FluA/FluB RT-PCR Assay Kit",
+        "https://www.fda.gov/media/145920/download",
+        "Real-time RT-PCR, Multi-analyte",
+        "H",
+        "https://www.fda.gov/media/145921/download",
+        "https://www.fda.gov/media/145922/download",
+        [
+            "https://www.fda.gov/media/145923/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "gravity diagnostics, llc__gravity diagnostics sars-cov-2 rt-pcr for use with dtc kits",
+        "2021-02-13",
+        "2021-02-13",
+        "Gravity Diagnostics, LLC",
+        "Gravity Diagnostics SARS-CoV-2 RT-PCR for use with DTC kits",
+        "https://www.fda.gov/media/145977/download",
+        "Direct to Consumer (DTC), Real-time RT-PCR, Home Collection, Screening",
+        "H",
+        "https://www.fda.gov/media/145978/download",
+        "",
+        [],
+        "https://www.fda.gov/media/145980/download",
+        []
+    ],
+    [
+        "assurance scientific laboratories__assurance sars-cov-2 panel dtc",
+        "2021-02-13",
+        "2021-02-13",
+        "Assurance Scientific Laboratories",
+        "Assurance SARS-CoV-2 Panel DTC",
+        "https://www.fda.gov/media/145981/download",
+        "Direct to Consumer (DTC), Real-time RT-PCR, Home Collection, Screening",
+        "H",
+        "https://www.fda.gov/media/145982/download",
+        "",
+        [
+            "https://www.fda.gov/media/145985/download"
+        ],
+        "https://www.fda.gov/media/145984/download",
+        []
+    ],
+    [
+        "everlywell, inc.__everlywell covid-19 test home collection kit dtc",
+        "2021-02-13",
+        "2021-02-13",
+        "Everlywell, Inc.",
+        "Everlywell COVID-19 Test Home Collection Kit DTC",
+        "https://www.fda.gov/media/145986/download",
+        "Home Collection Kit, Direct to Consumer (DTC), Screening",
+        "H",
+        "",
+        "",
+        [
+            "https://www.fda.gov/media/145989/download"
+        ],
+        "https://www.fda.gov/media/145988/download",
         []
     ]
 ]

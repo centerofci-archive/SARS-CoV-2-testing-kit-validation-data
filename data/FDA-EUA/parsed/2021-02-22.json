@@ -1,0 +1,5817 @@
+[
+    [
+        "test_id",
+        "Date EUA First Issued",
+        "Most recent revision",
+        "Entity",
+        "Diagnostic name",
+        "Most Recent Letter of Authorization (URL to PDF)",
+        "Technology",
+        "Authorized Setting(s)",
+        "Fact Sheet for Healthcare Providers (HCP) (URL to PDF)",
+        "Fact Sheet for Patients / Recipients (URL to PDF)",
+        "Information for Use (IFU) (URL to PDF)",
+        "Emergency Use Authorisation (URL to PDF)",
+        "Amendments and Other Documents (PDF)"
+    ],
+    [
+        "cdc__cdc 2019-novel coronavirus (2019-ncov) real-time rt-pcr diagnostic panel",
+        "2020-02-04",
+        "2020-12-01",
+        "CDC",
+        "CDC 2019-Novel Coronavirus (2019-nCoV) Real-Time RT-PCR Diagnostic Panel",
+        "https://www.fda.gov/media/134919/download",
+        "Molecular Real-time RT-PCR, Pooling",
+        "H",
+        "https://www.fda.gov/media/134920/download",
+        "https://www.fda.gov/media/134921/download",
+        [
+            "https://www.fda.gov/media/134922/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/136572/download",
+            "https://www.fda.gov/media/138931/download",
+            "https://www.fda.gov/media/140088/download"
+        ]
+    ],
+    [
+        "wadsworth center, new york state department of health's (cdc)__new york sars-cov-2 real-time reverse transcriptase (rt)-pcr diagnostic panel",
+        "2020-02-29",
+        "2020-03-15",
+        "Wadsworth Center, New York State Department of Health's (CDC)",
+        "New York SARS-CoV-2 Real-time Reverse Transcriptase (RT)-PCR Diagnostic Panel",
+        "https://www.fda.gov/media/135661/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/135662/download",
+        "https://www.fda.gov/media/135663/download",
+        [
+            "https://www.fda.gov/media/135847/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/136122/download"
+        ]
+    ],
+    [
+        "roche molecular systems, inc. (rms)__cobas sars-cov-2",
+        "2020-03-12",
+        "2020-11-18",
+        "Roche Molecular Systems, Inc. (RMS)",
+        "cobas SARS-CoV-2",
+        "https://www.fda.gov/media/136046/download",
+        "Molecular Real-time RT-PCR, Pooling",
+        "H, M",
+        "https://www.fda.gov/media/136047/download",
+        "https://www.fda.gov/media/136048/download",
+        [
+            "https://www.fda.gov/media/136049/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/136589/download",
+            "https://www.fda.gov/media/138071/download"
+        ]
+    ],
+    [
+        "thermo fisher scientific, inc.__taqpath covid-19 combo kit",
+        "2020-03-13",
+        "2020-12-22",
+        "Thermo Fisher Scientific, Inc.",
+        "TaqPath COVID-19 Combo Kit",
+        "https://www.fda.gov/media/136113/download",
+        "Molecular Real-time RT-PCR, Home Collection",
+        "H",
+        "https://www.fda.gov/media/136111/download",
+        "https://www.fda.gov/media/136114/download",
+        [
+            "https://www.fda.gov/media/136112/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/137164/download",
+            "https://www.fda.gov/media/136413/download",
+            "https://www.fda.gov/media/137922/download",
+            "https://www.fda.gov/media/140298/download",
+            "https://www.fda.gov/media/143939/download"
+        ]
+    ],
+    [
+        "hologic, inc.__panther fusion sars-cov-2 assay",
+        "2020-03-16",
+        "2021-01-22",
+        "Hologic, Inc.",
+        "Panther Fusion SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/136153/download",
+        "Molecular Real-time RT-PCR, Pooling, Screening",
+        "H",
+        "https://www.fda.gov/media/136154/download",
+        "https://www.fda.gov/media/136155/download",
+        [
+            "https://www.fda.gov/media/136156/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/137368/download",
+            "https://www.fda.gov/media/145412/download"
+        ]
+    ],
+    [
+        "laboratory corporation of america (labcorp)__covid-19 rt-pcr test",
+        "2020-03-16",
+        "2020-11-04",
+        "Laboratory Corporation of America (LabCorp)",
+        "COVID-19 RT-PCR Test",
+        "https://www.fda.gov/media/136148/download",
+        "Molecular Real-time RT-PCR, Home Collection, Pooling, Screening",
+        "H",
+        "https://www.fda.gov/media/136149/download",
+        "https://www.fda.gov/media/136150/download",
+        [
+            "https://www.fda.gov/media/139732/download"
+        ],
+        "https://www.fda.gov/media/136151/download",
+        [
+            "https://www.fda.gov/media/136973/download",
+            "https://www.fda.gov/media/139733/download"
+        ]
+    ],
+    [
+        "quidel corporation__lyra sars-cov-2 assay",
+        "2020-03-17",
+        "2021-02-04",
+        "Quidel Corporation",
+        "Lyra SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/136224/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/136226/download",
+        "https://www.fda.gov/media/136225/download",
+        [
+            "https://www.fda.gov/media/136227/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/136342/download",
+            "https://www.fda.gov/media/136819/download"
+        ]
+    ],
+    [
+        "quest diagnostics infectious disease, inc.__quest sars-cov-2 rrt-pcr",
+        "2020-03-17",
+        "2020-11-13",
+        "Quest Diagnostics Infectious Disease, Inc.",
+        "Quest SARS-CoV-2 rRT-PCR",
+        "https://www.fda.gov/media/136228/download",
+        "Molecular Real-time RT-PCR, Home Collection, Pooling",
+        "H",
+        "https://www.fda.gov/media/136229/download",
+        "https://www.fda.gov/media/136230/download",
+        [
+            "https://www.fda.gov/media/136231/download",
+            "https://www.fda.gov/media/138402/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/136487/download",
+            "https://www.fda.gov/media/140607/download",
+            "https://www.fda.gov/media/143750/download"
+        ]
+    ],
+    [
+        "abbott molecular__abbott realtime sars-cov-2 assay",
+        "2020-03-18",
+        "2020-07-30",
+        "Abbott Molecular",
+        "Abbott RealTime SARS-CoV-2 assay",
+        "https://www.fda.gov/media/136255/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/136256/download",
+        "https://www.fda.gov/media/136257/download",
+        [
+            "https://www.fda.gov/media/136258/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/137181/download",
+            "https://www.fda.gov/media/140667/download"
+        ]
+    ],
+    [
+        "diasorin molecular llc__simplexa covid-19 direct",
+        "2020-03-19",
+        "2020-06-04",
+        "DiaSorin Molecular LLC",
+        "Simplexa COVID-19 Direct",
+        "https://www.fda.gov/media/136288/download",
+        "Molecular Real-time RT-PCR",
+        "H, M",
+        "https://www.fda.gov/media/136285/download",
+        "https://www.fda.gov/media/136287/download",
+        [
+            "https://www.fda.gov/media/136286/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/136488/download",
+            "https://www.fda.gov/media/136940/download",
+            "https://www.fda.gov/media/138665/download"
+        ]
+    ],
+    [
+        "genmark diagnostics, inc.__eplex sars-cov-2 test",
+        "2020-03-19",
+        "2020-08-18",
+        "GenMark Diagnostics, Inc.",
+        "ePlex SARS-CoV-2 Test",
+        "https://www.fda.gov/media/136283/download",
+        "Molecular RT-PCR and electrochemical detection",
+        "H, M",
+        "https://www.fda.gov/media/136281/download",
+        "https://www.fda.gov/media/136284/download",
+        [
+            "https://www.fda.gov/media/136282/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/141300/download"
+        ]
+    ],
+    [
+        "primerdesign ltd__primerdesign ltd covid-19 genesig real-time pcr assay",
+        "2020-03-20",
+        "2021-01-05",
+        "Primerdesign Ltd",
+        "Primerdesign Ltd COVID-19 genesig Real-Time PCR assay",
+        "https://www.fda.gov/media/136306/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/136308/download",
+        "https://www.fda.gov/media/136307/download",
+        [
+            "https://www.fda.gov/media/136309/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/136824/download"
+        ]
+    ],
+    [
+        "cepheid__xpert xpress sars-cov-2 test",
+        "2020-03-20",
+        "2021-01-07",
+        "Cepheid",
+        "Xpert Xpress SARS-CoV-2 test",
+        "https://www.fda.gov/media/136316/download",
+        "Molecular Real-time RT-PCR",
+        "H, M, W",
+        "https://www.fda.gov/media/136313/download",
+        "https://www.fda.gov/media/136312/download",
+        [
+            "https://www.fda.gov/media/136314/download",
+            "https://www.fda.gov/media/136315/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/136856/download",
+            "https://www.fda.gov/media/140985/download"
+        ]
+    ],
+    [
+        "biofire defense, llc__biofire covid-19 test",
+        "2020-03-23",
+        "2020-12-04",
+        "BioFire Defense, LLC",
+        "BioFire COVID-19 Test",
+        "https://www.fda.gov/media/136356/download",
+        "Molecular RT, Nested multiplex PCR, Pooling",
+        "H, M",
+        "https://www.fda.gov/media/136357/download",
+        "https://www.fda.gov/media/136358/download",
+        [
+            "https://www.fda.gov/media/136353/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/137534/download"
+        ]
+    ],
+    [
+        "mesa biotech inc.__accula sars-cov-2 test",
+        "2020-03-23",
+        "2021-02-03",
+        "Mesa Biotech Inc.",
+        "Accula SARS-Cov-2 Test",
+        "https://www.fda.gov/media/136345/download",
+        "Molecular RT and amplification",
+        "H, M, W",
+        "https://www.fda.gov/media/136347/download",
+        "https://www.fda.gov/media/136349/download",
+        [
+            "https://www.fda.gov/media/136355/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/137533/download",
+            "https://www.fda.gov/media/141506/download",
+            "https://www.fda.gov/media/145700/download"
+        ]
+    ],
+    [
+        "perkinelmer, inc.__perkinelmer new coronavirus nucleic acid detection kit",
+        "2020-03-24",
+        "2021-02-05",
+        "PerkinElmer, Inc.",
+        "PerkinElmer New Coronavirus Nucleic Acid Detection Kit",
+        "https://www.fda.gov/media/136407/download",
+        "Molecular Real-time RT-PCR, Pooling, Screening",
+        "H",
+        "https://www.fda.gov/media/136408/download",
+        "https://www.fda.gov/media/136409/download",
+        [
+            "https://www.fda.gov/media/136410/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/136616/download"
+        ]
+    ],
+    [
+        "avellino lab usa, inc.__avellinocov2 test",
+        "2020-03-25",
+        "2020-09-25",
+        "Avellino Lab USA, Inc.",
+        "AvellinoCoV2 test",
+        "https://www.fda.gov/media/136450/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/136451/download",
+        "https://www.fda.gov/media/136452/download",
+        [],
+        "https://www.fda.gov/media/136453/download",
+        [
+            "https://www.fda.gov/media/142444/download"
+        ]
+    ],
+    [
+        "bgi genomics co. ltd__real-time fluorescent rt-pcr kit for detecting sars-cov-2",
+        "2020-03-26",
+        "2021-02-01",
+        "BGI Genomics Co. Ltd",
+        "Real-Time Fluorescent RT-PCR Kit for Detecting SARS-CoV-2",
+        "https://www.fda.gov/media/136473/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/136471/download",
+        "https://www.fda.gov/media/136474/download",
+        [
+            "https://www.fda.gov/media/136472/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/137354/download"
+        ]
+    ],
+    [
+        "abbott diagnostics scarborough, inc.__id now covid-19",
+        "2020-03-27",
+        "2020-09-17",
+        "Abbott Diagnostics Scarborough, Inc.",
+        "ID NOW COVID-19",
+        "https://www.fda.gov/media/136522/download",
+        "Molecular RT, Isothermal amplification",
+        "H, M, W",
+        "https://www.fda.gov/media/136523/download",
+        "https://www.fda.gov/media/136524/download",
+        [
+            "https://www.fda.gov/media/136525/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/137181/download"
+        ]
+    ],
+    [
+        "luminex molecular diagnostics, inc.__nxtag cov extended panel assay",
+        "2020-03-27",
+        "2020-10-28",
+        "Luminex Molecular Diagnostics, Inc.",
+        "NxTAG CoV Extended Panel Assay",
+        "https://www.fda.gov/media/136497/download",
+        "Molecular RT-PCR",
+        "H",
+        "https://www.fda.gov/media/136498/download",
+        "https://www.fda.gov/media/136499/download",
+        [
+            "https://www.fda.gov/media/136500/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "neumodx molecular, inc.__neumodx sars-cov-2 assay",
+        "2020-03-30",
+        "2021-01-22",
+        "NeuMoDx Molecular, Inc.",
+        "NeuMoDx SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/136566/download",
+        "RT-PCR, Collection Kit, Saliva",
+        "H, M",
+        "https://www.fda.gov/media/136564/download",
+        "https://www.fda.gov/media/136567/download",
+        [
+            "https://www.fda.gov/media/136565/download",
+            "https://www.fda.gov/media/145411/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/137355/download"
+        ]
+    ],
+    [
+        "qiagen gmbh__qiastat-dx respiratory sars-cov-2 panel",
+        "2020-03-30",
+        "2020-09-21",
+        "QIAGEN GmbH",
+        "QIAstat-Dx Respiratory SARS-CoV-2 Panel",
+        "https://www.fda.gov/media/136569/download",
+        "Molecular Real-time RT-PCR, Multi-analyte",
+        "H, M",
+        "https://www.fda.gov/media/136568/download",
+        "https://www.fda.gov/media/136570/download",
+        [
+            "https://www.fda.gov/media/136571/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/137355/download"
+        ]
+    ],
+    [
+        "yale new haven hospital, clinical virology laboratory__sars-cov-2 pcr test",
+        "2020-03-31",
+        "2020-06-04",
+        "Yale New Haven Hospital, Clinical Virology Laboratory",
+        "SARS-CoV-2 PCR test",
+        "https://www.fda.gov/media/136601/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/136602/download",
+        [
+            "https://www.fda.gov/media/138622/download"
+        ]
+    ],
+    [
+        "cellex inc.__qsars-cov-2 igg/igm rapid test",
+        "2020-04-01",
+        "2020-06-12",
+        "Cellex Inc.",
+        "qSARS-CoV-2 IgG/IgM Rapid Test",
+        "https://www.fda.gov/media/136622/download",
+        "Serology IgM and IgG, Lateral Flow",
+        "H, M",
+        "https://www.fda.gov/media/136623/download",
+        "https://www.fda.gov/media/136624/download",
+        [
+            "https://www.fda.gov/media/136625/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "ipsum diagnostics, llc__cov-19 idx assay",
+        "2020-04-01",
+        "2020-04-01",
+        "Ipsum Diagnostics, LLC",
+        "COV-19 IDx assay",
+        "https://www.fda.gov/media/136618/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/136619/download",
+        "https://www.fda.gov/media/136620/download",
+        [],
+        "https://www.fda.gov/media/136621/download",
+        []
+    ],
+    [
+        "becton, dickinson & company (bd)__biogx sars-cov-2 reagents for bd max system",
+        "2020-04-02",
+        "2020-09-22",
+        "Becton, Dickinson & Company (BD)",
+        "BioGX SARS-CoV-2 Reagents for BD MAX System",
+        "https://www.fda.gov/media/136650/download",
+        "Molecular",
+        "H, M",
+        "https://www.fda.gov/media/136652/download",
+        "https://www.fda.gov/media/136651/download",
+        [
+            "https://www.fda.gov/media/136653/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/138478/download"
+        ]
+    ],
+    [
+        "infectious disease diagnostics laboratory - children's hospital of philadelphia__sars-cov-2 rt-pcr test",
+        "2020-04-02",
+        "2020-04-02",
+        "Infectious Disease Diagnostics Laboratory - Children's Hospital of Philadelphia",
+        "SARS-CoV-2 RT-PCR test",
+        "https://www.fda.gov/media/136657/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/136656/download",
+        []
+    ],
+    [
+        "diagnostic molecular laboratory - northwestern medicine__sars-cov-2 assay",
+        "2020-04-02",
+        "2020-04-02",
+        "Diagnostic Molecular Laboratory - Northwestern Medicine",
+        "SARS-Cov-2 Assay",
+        "https://www.fda.gov/media/136658/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/136669/download",
+        []
+    ],
+    [
+        "luminex corporation__aries sars-cov-2 assay",
+        "2020-04-03",
+        "2020-10-28",
+        "Luminex Corporation",
+        "ARIES SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/136694/download",
+        "Molecular RT-PCR",
+        "H, M",
+        "https://www.fda.gov/media/136692/download",
+        "https://www.fda.gov/media/136695/download",
+        [
+            "https://www.fda.gov/media/136693/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/137938/download"
+        ]
+    ],
+    [
+        "sciencell research laboratories__sciencell sars-cov-2 coronavirus real-time rt-pcr (rt-qpcr) detection kit",
+        "2020-04-03",
+        "2020-09-22",
+        "ScienCell Research Laboratories",
+        "ScienCell SARS-CoV-2 Coronavirus Real-time RT-PCR (RT-qPCR) Detection Kit",
+        "https://www.fda.gov/media/136688/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/136689/download",
+        "https://www.fda.gov/media/136690/download",
+        [
+            "https://www.fda.gov/media/136691/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/138666/download",
+            "https://www.fda.gov/media/142384/download"
+        ]
+    ],
+    [
+        "co-diagnostics, inc.__logix smart coronavirus disease 2019 (covid-19) kit",
+        "2020-04-03",
+        "2020-04-03",
+        "Co-Diagnostics, Inc.",
+        "Logix Smart Coronavirus Disease 2019 (COVID-19) Kit",
+        "https://www.fda.gov/media/136684/download",
+        "Molecular RT-PCR, CoPrimer technology",
+        "H",
+        "https://www.fda.gov/media/136685/download",
+        "https://www.fda.gov/media/136686/download",
+        [
+            "https://www.fda.gov/media/136687/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "massachusetts general hospital__mgh covid-19 qpcr assay",
+        "2020-04-03",
+        "2020-04-03",
+        "Massachusetts General Hospital",
+        "MGH COVID-19 qPCR assay",
+        "https://www.fda.gov/media/136700/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/136699/download",
+        []
+    ],
+    [
+        "gnomegen llc__gnomegen covid-19 rt-digital pcr detection kit",
+        "2020-04-06",
+        "2020-04-28",
+        "Gnomegen LLC",
+        "Gnomegen COVID-19 RT-Digital PCR Detection Kit",
+        "https://www.fda.gov/media/136735/download",
+        "Molecular Real-time RT-digital PCR",
+        "H",
+        "https://www.fda.gov/media/136736/download",
+        "https://www.fda.gov/media/136737/download",
+        [
+            "https://www.fda.gov/media/136738/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "viracor eurofins clinical diagnostics__viracor sars-cov-2 assay",
+        "2020-04-06",
+        "2020-12-28",
+        "Viracor Eurofins Clinical Diagnostics",
+        "Viracor SARS-CoV-2 assay",
+        "https://www.fda.gov/media/143070/download",
+        "Molecular Real-time RT-PCR, Home Collection, Pooling",
+        "H",
+        "https://www.fda.gov/media/143067/download",
+        "https://www.fda.gov/media/143068/download",
+        [],
+        "https://www.fda.gov/media/143069/download",
+        []
+    ],
+    [
+        "inbios international, inc.__smart detect sars-cov-2 rrt-pcr kit",
+        "2020-04-07",
+        "2020-12-28",
+        "InBios International, Inc.",
+        "Smart Detect SARS-CoV-2 rRT-PCR Kit",
+        "https://www.fda.gov/media/136787/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/136785/download",
+        "https://www.fda.gov/media/136788/download",
+        [
+            "https://www.fda.gov/media/136786/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/138598/download",
+            "https://www.fda.gov/media/141022/download",
+            "https://www.fda.gov/media/141504/download"
+        ]
+    ],
+    [
+        "becton, dickinson & company__bd sars-cov-2reagents for bd max system",
+        "2020-04-08",
+        "2020-09-23",
+        "Becton, Dickinson & Company",
+        "BD SARS-CoV-2Reagents for BD MAX System",
+        "https://www.fda.gov/media/136813/download",
+        "Molecular Real-time RT-PCR",
+        "H, M",
+        "https://www.fda.gov/media/136815/download",
+        "https://www.fda.gov/media/136814/download",
+        [
+            "https://www.fda.gov/media/136816/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/138932/download"
+        ]
+    ],
+    [
+        "diacarta, inc.__quantivirus sars-cov-2 test kit",
+        "2020-04-08",
+        "2021-02-03",
+        "DiaCarta, Inc.",
+        "QuantiVirus SARS-CoV-2 Test kit",
+        "https://www.fda.gov/media/136806/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/136807/download",
+        "https://www.fda.gov/media/136808/download",
+        [
+            "https://www.fda.gov/media/136809/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "stanford health care clinical virology laboratory__sars-cov-2 rt-pcr assay",
+        "2020-04-08",
+        "2020-11-24",
+        "Stanford Health Care Clinical Virology Laboratory",
+        "SARS-CoV-2 RT-PCR Assay",
+        "https://www.fda.gov/media/136817/download",
+        "Molecular, Real-time RT-PCR, Home Collection Kit",
+        "H",
+        "https://www.fda.gov/media/144011/download",
+        "https://www.fda.gov/media/144012/download",
+        [
+            "https://www.fda.gov/media/144013/download"
+        ],
+        "https://www.fda.gov/media/136818/download",
+        []
+    ],
+    [
+        "atila biosystems, inc.__iamp covid-19 detection kit",
+        "2020-04-10",
+        "2020-12-28",
+        "Atila BioSystems, Inc.",
+        "iAMP COVID-19 Detection Kit",
+        "https://www.fda.gov/media/136872/download",
+        "Molecular RT, Isothermal amplification",
+        "H",
+        "https://www.fda.gov/media/136869/download",
+        "https://www.fda.gov/media/136871/download",
+        [
+            "https://www.fda.gov/media/136870/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/140334/download"
+        ]
+    ],
+    [
+        "infinity biologix llc__infinity biologix taqpath sars-cov-2 assay",
+        "2020-04-10",
+        "2020-11-30",
+        "Infinity BiologiX LLC",
+        "Infinity BiologiX TaqPath SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/137773/download",
+        "Molecular Real-time RT-PCR, Home Collection, Saliva",
+        "H",
+        "https://www.fda.gov/media/137774/download",
+        "https://www.fda.gov/media/137771/download",
+        [
+            "https://www.fda.gov/media/137782/download",
+            "https://www.fda.gov/media/137782/download"
+        ],
+        "https://www.fda.gov/media/137776/download",
+        [
+            "https://www.fda.gov/media/144066/download"
+        ]
+    ],
+    [
+        "specialty diagnostic (sdi) laboratories__sdi sars-cov-2 assayletter granting inclusion",
+        "2020-04-10",
+        "2020-04-10",
+        "Specialty Diagnostic (SDI) Laboratories",
+        "SDI SARS-CoV-2 AssayLetter Granting Inclusion",
+        "https://www.fda.gov/media/136878/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/136877/download",
+        []
+    ],
+    [
+        "orig3n, inc.__orig3n 2019 novel coronavirus (covid-19) test",
+        "2020-04-10",
+        "2020-04-10",
+        "Orig3n, Inc.",
+        "Orig3n 2019 Novel Coronavirus (COVID-19) Test",
+        "https://www.fda.gov/media/136874/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/136873/download",
+        []
+    ],
+    [
+        "university of north carolina medical center__unc health sars-cov-2 real-time rt-pcr test",
+        "2020-04-10",
+        "2020-09-21",
+        "University of North Carolina Medical Center",
+        "UNC Health SARS-CoV-2 real-time RT-PCR test",
+        "https://www.fda.gov/media/136879/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/136880/download",
+        []
+    ],
+    [
+        "pathology/laboratory medicine lab of baptist hospital miami__covid-19 rt-pcr test",
+        "2020-04-13",
+        "2020-09-21",
+        "Pathology/Laboratory Medicine Lab of Baptist Hospital Miami",
+        "COVID-19 RT-PCR Test",
+        "https://www.fda.gov/media/136943/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/136944/download",
+        []
+    ],
+    [
+        "integrity laboratories__sars-cov-2 assay",
+        "2020-04-13",
+        "2020-04-13",
+        "Integrity Laboratories",
+        "SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/136941/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/136942/download",
+        []
+    ],
+    [
+        "ortho clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 total reagent pack",
+        "2020-04-14",
+        "2021-01-29",
+        "Ortho Clinical Diagnostics, Inc.",
+        "VITROS Immunodiagnostic Products Anti-SARS-CoV-2 Total Reagent Pack",
+        "https://www.fda.gov/media/136966/download",
+        "Serology Total Antibody, CLIA",
+        "H, M",
+        "https://www.fda.gov/media/136970/download",
+        "https://www.fda.gov/media/136969/download",
+        [
+            "https://www.fda.gov/media/136967/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/137920/download",
+            "https://www.fda.gov/media/143455/download",
+            "https://www.fda.gov/media/145542/download"
+        ]
+    ],
+    [
+        "exact sciences laboratories__sars-cov-2 test",
+        "2020-04-14",
+        "2020-04-14",
+        "Exact Sciences Laboratories",
+        "SARS-CoV-2 Test",
+        "https://www.fda.gov/media/137094/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/137095/download",
+        []
+    ],
+    [
+        "infectious diseases diagnostics laboratory (iddl), boston children's hospital__childrens-altona-sars-cov-2 assay",
+        "2020-04-14",
+        "2020-09-21",
+        "Infectious Diseases Diagnostics Laboratory (IDDL), Boston Children's Hospital",
+        "Childrens-Altona-SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/136972/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/136971/download",
+        []
+    ],
+    [
+        "maccura biotechnology (usa) llc__sars-cov-2 fluorescent pcr kit",
+        "2020-04-15",
+        "2020-12-28",
+        "Maccura Biotechnology (USA) LLC",
+        "SARS-CoV-2 Fluorescent PCR Kit",
+        "https://www.fda.gov/media/137023/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/137025/download",
+        "https://www.fda.gov/media/137024/download",
+        [
+            "https://www.fda.gov/media/137026/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/144789/download"
+        ]
+    ],
+    [
+        "mount sinai laboratory__covid-19 elisa igg antibody test",
+        "2020-04-15",
+        "2020-04-15",
+        "Mount Sinai Laboratory",
+        "COVID-19 ELISA IgG Antibody Test",
+        "https://www.fda.gov/media/137032/download",
+        "Serology IgG, ELISA",
+        "H",
+        "https://www.fda.gov/media/137030/download",
+        "https://www.fda.gov/media/137033/download",
+        [],
+        "https://www.fda.gov/media/137029/download",
+        []
+    ],
+    [
+        "cirrusdx laboratories__cirrusdx sars-cov-2 assay",
+        "2020-04-15",
+        "2020-09-21",
+        "CirrusDx Laboratories",
+        "CirrusDx SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/137035/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/137034/download",
+        []
+    ],
+    [
+        "hackensack university medical center (humc) molecular pathology laboratory__cdi enhanced covid-19 test",
+        "2020-04-15",
+        "2020-09-21",
+        "Hackensack University Medical Center (HUMC) Molecular Pathology Laboratory",
+        "CDI Enhanced COVID-19 Test",
+        "https://www.fda.gov/media/137037/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/137036/download",
+        []
+    ],
+    [
+        "genosensor, llc__gs covid-19 rt-pcr kit",
+        "2020-04-16",
+        "2020-04-16",
+        "GenoSensor, LLC",
+        "GS COVID-19 RT-PCR KIT",
+        "https://www.fda.gov/media/137090/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/137091/download",
+        "https://www.fda.gov/media/137092/download",
+        [
+            "https://www.fda.gov/media/137093/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "korvalabs inc.__curative-korva sars-cov-2 assay",
+        "2020-04-16",
+        "2020-06-11",
+        "KorvaLabs Inc.",
+        "Curative-Korva SARS-Cov-2 Assay",
+        "https://www.fda.gov/media/137088/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/137087/download",
+        "https://www.fda.gov/media/137086/download",
+        [],
+        "https://www.fda.gov/media/137089/download",
+        [
+            "https://www.fda.gov/media/138834/download"
+        ]
+    ],
+    [
+        "fosun pharma usa inc.__fosun covid-19 rt-pcr detection kit",
+        "2020-04-17",
+        "2020-12-28",
+        "Fosun Pharma USA Inc.",
+        "Fosun COVID-19 RT-PCR Detection Kit",
+        "https://www.fda.gov/media/137117/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/137118/download",
+        "https://www.fda.gov/media/137119/download",
+        [
+            "https://www.fda.gov/media/137120/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "osang healthcare__genefinder covid-19 plus realamp kit",
+        "2020-04-18",
+        "2020-04-18",
+        "OSANG Healthcare",
+        "GeneFinder COVID-19 Plus RealAmp Kit",
+        "https://www.fda.gov/media/137113/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/137114/download",
+        "https://www.fda.gov/media/137115/download",
+        [
+            "https://www.fda.gov/media/137116/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "trax management services inc.__phoenixdx 2019-cov",
+        "2020-04-20",
+        "2020-08-08",
+        "Trax Management Services Inc.",
+        "PhoenixDx 2019-CoV",
+        "https://www.fda.gov/media/137150/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/137152/download",
+        "https://www.fda.gov/media/137151/download",
+        [
+            "https://www.fda.gov/media/137153/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/137937/download",
+            "https://www.fda.gov/media/140984/download"
+        ]
+    ],
+    [
+        "mayo clinic laboratories, rochester, mn__sars-cov-2 molecular detection assay",
+        "2020-04-20",
+        "2020-07-29",
+        "Mayo Clinic Laboratories, Rochester, MN",
+        "SARS-CoV-2 Molecular Detection Assay",
+        "https://www.fda.gov/media/137162/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/137163/download",
+        [
+            "https://www.fda.gov/media/140636/download"
+        ]
+    ],
+    [
+        "seegene, inc.__allplex 2019-ncov assay",
+        "2020-04-21",
+        "2020-11-02",
+        "Seegene, Inc.",
+        "Allplex 2019-nCoV Assay",
+        "https://www.fda.gov/media/137179/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/137177/download",
+        "https://www.fda.gov/media/137180/download",
+        [
+            "https://www.fda.gov/media/137178/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/140539/download"
+        ]
+    ],
+    [
+        "altona diagnostics gmbh__realstar sars-cov02 rt-pcr kits u.s.",
+        "2020-04-22",
+        "2020-04-22",
+        "altona Diagnostics GmbH",
+        "RealStar SARS-CoV02 RT-PCR Kits U.S.",
+        "https://www.fda.gov/media/137257/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/137251/download",
+        "https://www.fda.gov/media/137254/download",
+        [
+            "https://www.fda.gov/media/137252/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "diatherix eurofins laboratory__sars-cov-2 pcr test",
+        "2020-04-22",
+        "2020-09-22",
+        "Diatherix Eurofins Laboratory",
+        "SARS-CoV-2 PCR Test",
+        "https://www.fda.gov/media/137256/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/137255/download",
+        []
+    ],
+    [
+        "sd biosensor, inc.__standard m ncov real-time detection kit",
+        "2020-04-23",
+        "2020-04-23",
+        "SD Biosensor, Inc.",
+        "STANDARD M nCoV Real-Time Detection Kit",
+        "https://www.fda.gov/media/137303/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/137301/download",
+        "https://www.fda.gov/media/137304/download",
+        [
+            "https://www.fda.gov/media/137302/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "southwest regional pcr laboratory llc. dba microgen dx__covid-19 key",
+        "2020-04-23",
+        "2020-04-23",
+        "Southwest Regional PCR Laboratory LLC. dba MicroGen DX",
+        "COVID-19 Key",
+        "https://www.fda.gov/media/137369/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/137370/download",
+        []
+    ],
+    [
+        "diasorin inc.__liaison sars-cov-2 s1/s2 igg",
+        "2020-04-24",
+        "2020-10-19",
+        "DiaSorin Inc.",
+        "LIAISON SARS-CoV-2 S1/S2 IgG",
+        "https://www.fda.gov/media/137356/download",
+        "Serology IgG, CLIA",
+        "H, M",
+        "https://www.fda.gov/media/137357/download",
+        "https://www.fda.gov/media/137358/download",
+        [
+            "https://www.fda.gov/media/137359/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/140377/download",
+            "https://www.fda.gov/media/143140/download"
+        ]
+    ],
+    [
+        "ortho-clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent pack",
+        "2020-04-24",
+        "2021-02-12",
+        "Ortho-Clinical Diagnostics, Inc.",
+        "VITROS Immunodiagnostic Products Anti-SARS-CoV-2 IgG Reagent Pack",
+        "https://www.fda.gov/media/137360/download",
+        "Serology IgG, CLIA",
+        "H, M",
+        "https://www.fda.gov/media/137361/download",
+        "https://www.fda.gov/media/137362/download",
+        [
+            "https://www.fda.gov/media/137363/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/143273/download",
+            "https://www.fda.gov/media/143274/download"
+        ]
+    ],
+    [
+        "ait laboratories__sars-cov-2 assay",
+        "2020-04-24",
+        "2021-01-28",
+        "AIT Laboratories",
+        "SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/137373/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/137374/download",
+        []
+    ],
+    [
+        "ultimate dx laboratory__udx sars-cov-2 molecular assay",
+        "2020-04-24",
+        "2020-04-24",
+        "Ultimate Dx Laboratory",
+        "UDX SARS-CoV-2 Molecular Assay",
+        "https://www.fda.gov/media/137371/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/137372/download",
+        []
+    ],
+    [
+        "abbott laboratories inc.__sars-cov-2 igg assay",
+        "2020-04-26",
+        "2020-12-01",
+        "Abbott Laboratories Inc.",
+        "SARS-CoV-2 IgG assay",
+        "https://www.fda.gov/media/137384/download",
+        "Serology IgG, CMIA",
+        "H, M",
+        "https://www.fda.gov/media/137381/download",
+        "https://www.fda.gov/media/137382/download",
+        [
+            "https://www.fda.gov/media/137383/download",
+            "https://www.fda.gov/media/137910/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/137911/download",
+            "https://www.fda.gov/media/139406/download",
+            "https://www.fda.gov/media/142306/download",
+            "https://www.fda.gov/media/144125/download"
+        ]
+    ],
+    [
+        "seasun biomaterials__u-top covid-19 detection kit",
+        "2020-04-27",
+        "2021-02-09",
+        "SEASUN BIOMATERIALS",
+        "U-TOP COVID-19 Detection Kit",
+        "https://www.fda.gov/media/137420/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/137422/download",
+        "https://www.fda.gov/media/137421/download",
+        [
+            "https://www.fda.gov/media/137425/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/141799/download"
+        ]
+    ],
+    [
+        "nationwide children’s hospital__sars-cov-2 assay",
+        "2020-04-27",
+        "2020-12-28",
+        "Nationwide Children’s Hospital",
+        "SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/137424/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/137423/download",
+        []
+    ],
+    [
+        "biocerna__sars-cov-2 test",
+        "2020-04-28",
+        "2020-04-28",
+        "Biocerna",
+        "SARS-CoV-2 Test",
+        "https://www.fda.gov/media/137451/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/137450/download",
+        []
+    ],
+    [
+        "labgenomics co., ltd.__labgun covid-19 rt-pcr kit",
+        "2020-04-29",
+        "2020-09-22",
+        "LabGenomics Co., Ltd.",
+        "LabGun COVID-19 RT-PCR Kit",
+        "https://www.fda.gov/media/137484/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/137485/download",
+        "https://www.fda.gov/media/137486/download",
+        [
+            "https://www.fda.gov/media/137483/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "rheonix, inc.__rheonix covid-19 mdx assay",
+        "2020-04-29",
+        "2020-12-03",
+        "Rheonix, Inc.",
+        "Rheonix COVID-19 MDx Assay",
+        "https://www.fda.gov/media/137490/download",
+        "Molecular RT-PCR, Saliva",
+        "H",
+        "https://www.fda.gov/media/137488/download",
+        "https://www.fda.gov/media/137491/download",
+        [
+            "https://www.fda.gov/media/137489/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "bio-rad laboratories__platelia sars-cov-2 total ab assay",
+        "2020-04-29",
+        "2020-10-30",
+        "Bio-Rad Laboratories",
+        "Platelia SARS-CoV-2 Total Ab assay",
+        "https://www.fda.gov/media/137494/download",
+        "Serology Total Antibody, ELISA",
+        "H",
+        "https://www.fda.gov/media/137492/download",
+        "https://www.fda.gov/media/137495/download",
+        [
+            "https://www.fda.gov/media/137493/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/140335/download",
+            "https://www.fda.gov/media/143457/download"
+        ]
+    ],
+    [
+        "wadsworth center, new york state department of health__new york sars-cov microsphere immunoassay for antibody detection",
+        "2020-04-30",
+        "2020-04-30",
+        "Wadsworth Center, New York State Department of Health",
+        "New York SARS-CoV Microsphere Immunoassay for Antibody Detection",
+        "https://www.fda.gov/media/137540/download",
+        "Serology Total Antibody, FMIA",
+        "H",
+        "https://www.fda.gov/media/137542/download",
+        "https://www.fda.gov/media/137543/download",
+        [],
+        "https://www.fda.gov/media/137541/download",
+        []
+    ],
+    [
+        "altru diagnostics, inc.__altru dx sars-cov-2 rt-pcr assay",
+        "2020-04-30",
+        "2020-06-04",
+        "Altru Diagnostics, Inc.",
+        "Altru Dx SARS-CoV-2 RT-PCR assay",
+        "https://www.fda.gov/media/137545/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/137546/download",
+        [
+            "https://www.fda.gov/media/138623/download"
+        ]
+    ],
+    [
+        "bio-rad laboratories, inc.__bio-rad sars-cov-2 ddpcr test",
+        "2020-05-01",
+        "2020-12-09",
+        "Bio-Rad Laboratories, Inc.",
+        "Bio-Rad SARS-CoV-2 ddPCR Test",
+        "https://www.fda.gov/media/137576/download",
+        "Molecular RT-droplet PCR",
+        "H",
+        "https://www.fda.gov/media/137577/download",
+        "https://www.fda.gov/media/137578/download",
+        [
+            "https://www.fda.gov/media/137579/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/144305/download"
+        ]
+    ],
+    [
+        "biofire diagnostics, llc__biofire respiratory panel 2.1 (rp2.1)",
+        "2020-05-01",
+        "2020-12-22",
+        "BioFire Diagnostics, LLC",
+        "BioFire Respiratory Panel 2.1 (RP2.1)",
+        "https://www.fda.gov/media/137580/download",
+        "Molecular, RT, Nested multiplex PCR, Multi-analyte",
+        "H, M",
+        "https://www.fda.gov/media/137581/download",
+        "https://www.fda.gov/media/137582/download",
+        [
+            "https://www.fda.gov/media/137583/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/144737/download"
+        ]
+    ],
+    [
+        "roche diagnostics__elecsys anti-sars-cov-2",
+        "2020-05-02",
+        "2020-10-23",
+        "Roche Diagnostics",
+        "Elecsys Anti-SARS-CoV-2",
+        "https://www.fda.gov/media/137602/download",
+        "Serology Total Antibody, ECLIA",
+        "H, M",
+        "https://www.fda.gov/media/137603/download",
+        "https://www.fda.gov/media/137604/download",
+        [
+            "https://www.fda.gov/media/138169/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/138667/download",
+            "https://www.fda.gov/media/140538/download",
+            "https://www.fda.gov/media/143275/download"
+        ]
+    ],
+    [
+        "utmg pathology laboratory__uthsc/uch sars-cov-2-rt-pcr assay",
+        "2020-05-03",
+        "2020-12-28",
+        "UTMG Pathology Laboratory",
+        "UTHSC/UCH SARS-CoV-2-RT-PCR Assay",
+        "https://www.fda.gov/media/137654/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/137656/download",
+        [
+            "https://www.fda.gov/media/138535/download",
+            "https://www.fda.gov/media/140376/download"
+        ]
+    ],
+    [
+        "euroimmun us inc.__anti-sars-cov-2 elisa (igg)",
+        "2020-05-04",
+        "2020-05-04",
+        "EUROIMMUN US Inc.",
+        "Anti-SARS-CoV-2 ELISA (IgG)",
+        "https://www.fda.gov/media/137606/download",
+        "Serology IgG, ELISA",
+        "H",
+        "https://www.fda.gov/media/137607/download",
+        "https://www.fda.gov/media/137608/download",
+        [
+            "https://www.fda.gov/media/137609/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "sansure biotech inc.__novel coronavirus (2019-ncov) nucleic acid diagnostic kit (pcr-fluorescence probing)",
+        "2020-05-04",
+        "2020-05-04",
+        "Sansure BioTech Inc.",
+        "Novel Coronavirus (2019-nCoV) Nucleic Acid Diagnostic Kit (PCR-Fluorescence Probing)",
+        "https://www.fda.gov/media/137652/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/137650/download",
+        "https://www.fda.gov/media/137653/download",
+        [
+            "https://www.fda.gov/media/137651/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "fast track diagnostics luxembourg s.á.r.l. (a siemens healthineers company)__ftd sars-cov-2",
+        "2020-05-05",
+        "2021-01-26",
+        "Fast Track Diagnostics Luxembourg S.á.r.l. (a Siemens Healthineers Company)",
+        "FTD SARS-CoV-2",
+        "https://www.fda.gov/media/137687/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/137688/download",
+        "https://www.fda.gov/media/137689/download",
+        [
+            "https://www.fda.gov/media/137690/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/139933/download"
+        ]
+    ],
+    [
+        "opti medical systems, inc.__opti sars-cov-2 rt pcr test",
+        "2020-05-06",
+        "2021-01-29",
+        "OPTI Medical Systems, Inc.",
+        "OPTI SARS-CoV-2 RT PCR Test",
+        "https://www.fda.gov/media/137737/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/137740/download",
+        "https://www.fda.gov/media/137738/download",
+        [
+            "https://www.fda.gov/media/137739/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/138479/download",
+            "https://www.fda.gov/media/140637/download"
+        ]
+    ],
+    [
+        "sherlock biosciences, inc.__sherlock crispr sars-cov-2 kit",
+        "2020-05-06",
+        "2021-01-14",
+        "Sherlock BioSciences, Inc.",
+        "Sherlock CRISPR SARS-CoV-2 Kit",
+        "https://www.fda.gov/media/137747/download",
+        "Molecular RT-LAMP, CRISPR",
+        "H",
+        "https://www.fda.gov/media/137745/download",
+        "https://www.fda.gov/media/137748/download",
+        [
+            "https://www.fda.gov/media/137746/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "biomérieux sa__sars-cov-2 r-gene",
+        "2020-05-06",
+        "2020-11-06",
+        "BioMérieux SA",
+        "SARS-COV-2 R-GENE",
+        "https://www.fda.gov/media/137743/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/137741/download",
+        "https://www.fda.gov/media/137741/download",
+        [
+            "https://www.fda.gov/media/137742/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/143637/download"
+        ]
+    ],
+    [
+        "zymo research corporation__quick sars-cov-2rrt-pcr kit",
+        "2020-05-07",
+        "2020-12-30",
+        "Zymo Research Corporation",
+        "Quick SARS-CoV-2rRT-PCR Kit",
+        "https://www.fda.gov/media/137781/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/137778/download",
+        "https://www.fda.gov/media/137779/download",
+        [
+            "https://www.fda.gov/media/137780/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/138181/download",
+            "https://www.fda.gov/media/138651/download",
+            "https://www.fda.gov/media/144873/download"
+        ]
+    ],
+    [
+        "biocollections worldwide, inc.__biocollections worldwide sars-co-v-2 assay",
+        "2020-05-07",
+        "2020-12-28",
+        "Biocollections Worldwide, Inc.",
+        "Biocollections Worldwide SARS-Co-V-2 Assay",
+        "https://www.fda.gov/media/137896/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/137897/download",
+        []
+    ],
+    [
+        "quidel corporation__sofia 2 sars antigen fia",
+        "2020-05-08",
+        "2020-07-17",
+        "Quidel Corporation",
+        "Sofia 2 SARS Antigen FIA",
+        "https://www.fda.gov/media/137886/download",
+        "Antigen Lateral Flow, Fluorescence, Instrument Read",
+        "H, M, W",
+        "https://www.fda.gov/media/137884/download",
+        "https://www.fda.gov/media/137887/download",
+        [
+            "https://www.fda.gov/media/137885/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/138789/download",
+            "https://www.fda.gov/media/140299/download"
+        ]
+    ],
+    [
+        "gnomegen llc__gnomegen covid-19-rt-qpcr detection kit",
+        "2020-05-08",
+        "2020-05-08",
+        "Gnomegen LLC",
+        "Gnomegen COVID-19-RT-qPCR Detection Kit",
+        "https://www.fda.gov/media/137892/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/137893/download",
+        "https://www.fda.gov/media/137894/download",
+        [
+            "https://www.fda.gov/media/137895/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "1drop inc.__1copy covid-19 qpcr multi kit",
+        "2020-05-11",
+        "2020-05-11",
+        "1drop Inc.",
+        "1copy COVID-19 qPCR Multi Kit",
+        "https://www.fda.gov/media/137934/download",
+        "Molecular Real-time, RT-PCR",
+        "H",
+        "https://www.fda.gov/media/137933/download",
+        "https://www.fda.gov/media/137936/download",
+        [
+            "https://www.fda.gov/media/137935/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "abbott molecular inc.__alinity m sars-cov-2 assay",
+        "2020-05-11",
+        "2020-12-23",
+        "Abbott Molecular Inc.",
+        "Alinity m SARS-CoV-2 assay",
+        "https://www.fda.gov/media/137980/download",
+        "Molecular Real-time RT-PCR, Pooling, Screening",
+        "H, M",
+        "https://www.fda.gov/media/137978/download",
+        "https://www.fda.gov/media/137981/download",
+        [
+            "https://www.fda.gov/media/137979/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/140333/download",
+            "https://www.fda.gov/media/141505/download"
+        ]
+    ],
+    [
+        "columbia university laboratory of personalized genomic medicine__triplex cii-sars-cov-2 rrt-pcr test",
+        "2020-05-12",
+        "2020-05-12",
+        "Columbia University Laboratory of Personalized Genomic Medicine",
+        "TRIPLEX CII-SARS-CoV-2 rRT-PCR TEST",
+        "https://www.fda.gov/media/137982/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/137983/download",
+        [
+            "https://www.fda.gov/media/142161/download"
+        ]
+    ],
+    [
+        "applied dna sciences, inc.__linea covid-19 assay kit",
+        "2020-05-13",
+        "2020-11-21",
+        "Applied DNA Sciences, Inc.",
+        "Linea COVID-19 Assay Kit",
+        "https://www.fda.gov/media/138060/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/138058/download",
+        "https://www.fda.gov/media/138061/download",
+        [
+            "https://www.fda.gov/media/138059/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/139870/download",
+            "https://www.fda.gov/media/140666/download",
+            "https://www.fda.gov/media/143938/download"
+        ]
+    ],
+    [
+        "one health laboratories, llc__sars-cov-2 real-time rt-pcr-test",
+        "2020-05-13",
+        "2020-05-13",
+        "One Health Laboratories, LLC",
+        "SARS-CoV-2 Real-Time RT-PCR-Test",
+        "https://www.fda.gov/media/138062/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/138063/download",
+        []
+    ],
+    [
+        "cedars-sinai medical center, department of pathology and laboratory medicine__sars-cov-2-assay",
+        "2020-05-13",
+        "2020-05-13",
+        "Cedars-Sinai Medical Center, Department of Pathology and Laboratory Medicine",
+        "SARS-CoV-2-Assay",
+        "https://www.fda.gov/media/138064/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/138065/download",
+        []
+    ],
+    [
+        "hologic, inc.__aptima sars-cov-2 assay",
+        "2020-05-14",
+        "2020-10-05",
+        "Hologic, Inc.",
+        "Aptima SARS-CoV-2 assay",
+        "https://www.fda.gov/media/138097/download",
+        "Molecular TMA, chemiluminescent, Pooling, Screening",
+        "H",
+        "https://www.fda.gov/media/138095/download",
+        "https://www.fda.gov/media/138098/download",
+        [
+            "https://www.fda.gov/media/138096/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/140430/download",
+            "https://www.fda.gov/media/142194/download"
+        ]
+    ],
+    [
+        "genematrix, inc.__neoplex covid-19 detection kit",
+        "2020-05-14",
+        "2021-01-26",
+        "GeneMatrix, Inc.",
+        "NeoPlex COVID-19 Detection Kit",
+        "https://www.fda.gov/media/138101/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/138099/download",
+        "https://www.fda.gov/media/138102/download",
+        [
+            "https://www.fda.gov/media/138100/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/145462/download"
+        ]
+    ],
+    [
+        "everlywell, inc.__everlywell covid-19 test home collection kit",
+        "2020-05-15",
+        "2020-09-04",
+        "Everlywell, Inc.",
+        "Everlywell COVID-19 Test Home Collection Kit",
+        "https://www.fda.gov/media/138144/download",
+        "Home Collection Kit",
+        "N/A",
+        "",
+        "",
+        [
+            "https://www.fda.gov/media/138145/download"
+        ],
+        "https://www.fda.gov/media/138146/download",
+        [
+            "https://www.fda.gov/media/141931/download"
+        ]
+    ],
+    [
+        "fulgent therapeutics, llc__fulgent covid-19 by rt-pcr test",
+        "2020-05-15",
+        "2020-06-15",
+        "Fulgent Therapeutics, LLC",
+        "Fulgent COVID-19 by RT-PCR Test",
+        "https://www.fda.gov/media/138147/download",
+        "Molecular Real-time RT-PCR, Home Collection",
+        "H",
+        "https://www.fda.gov/media/138148/download",
+        "https://www.fda.gov/media/138149/download",
+        [
+            "https://www.fda.gov/media/139072/download"
+        ],
+        "https://www.fda.gov/media/138150/download",
+        [
+            "https://www.fda.gov/media/139071/download"
+        ]
+    ],
+    [
+        "assurance scientific laboratories__assurance sars-cov-2 panel",
+        "2020-05-15",
+        "2020-09-21",
+        "Assurance Scientific Laboratories",
+        "Assurance SARS-CoV-2 Panel",
+        "https://www.fda.gov/media/138151/download",
+        "Molecular, Real-time RT-PCR, Home Collection",
+        "H",
+        "https://www.fda.gov/media/138152/download",
+        "https://www.fda.gov/media/138153/download",
+        [
+            "https://www.fda.gov/media/141342/download"
+        ],
+        "https://www.fda.gov/media/138154/download",
+        []
+    ],
+    [
+        "quidel corporation__lyra direct sars-cov-2 assay",
+        "2020-05-18",
+        "2021-01-26",
+        "Quidel Corporation",
+        "Lyra Direct SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/138179/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/138177/download",
+        "https://www.fda.gov/media/138180/download",
+        [
+            "https://www.fda.gov/media/138178/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/145461/download"
+        ]
+    ],
+    [
+        "color genomics, inc.__color sars-cov-2 rt-lamp diagnostic assay",
+        "2020-05-18",
+        "2020-11-02",
+        "Color Genomics, Inc.",
+        "Color SARS-Cov-2 RT-LAMP Diagnostic Assay",
+        "https://www.fda.gov/media/138248/download",
+        "Molecular RT, LAMP, Home Collection",
+        "H",
+        "https://www.fda.gov/media/140448/download",
+        "https://www.fda.gov/media/140449/download",
+        [],
+        "https://www.fda.gov/media/138249/download",
+        [
+            "https://www.fda.gov/media/141672/download"
+        ]
+    ],
+    [
+        "biocore co., ltd.__biocore 2019-ncov real time pcr kit",
+        "2020-05-21",
+        "2020-12-18",
+        "BioCore Co., Ltd.",
+        "BioCore 2019-nCoV Real Time PCR Kit",
+        "https://www.fda.gov/media/138292/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/138289/download",
+        "https://www.fda.gov/media/138291/download",
+        [
+            "https://www.fda.gov/media/138290/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "solgent co., ltd.__diaplexq novel coronavirus (2019-ncov) detection kit",
+        "2020-05-21",
+        "2020-12-28",
+        "SolGent Co., Ltd.",
+        "DiaPlexQ Novel Coronavirus (2019-nCoV) Detection Kit",
+        "https://www.fda.gov/media/138306/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/138302/download",
+        "https://www.fda.gov/media/138305/download",
+        [
+            "https://www.fda.gov/media/138303/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "seasun biomaterials, inc.__aq-top covid-19 rapid detection",
+        "2020-05-21",
+        "2020-05-21",
+        "Seasun Biomaterials, Inc.",
+        "AQ-TOP COVID-19 Rapid Detection",
+        "https://www.fda.gov/media/138300/download",
+        "Molecular RT-LAMP, CRISPR",
+        "H",
+        "https://www.fda.gov/media/138298/download",
+        "https://www.fda.gov/media/138301/download",
+        [
+            "https://www.fda.gov/media/138307/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "p23 labs, llc.__p23 labs taqpath sars-cov-2 assay",
+        "2020-05-21",
+        "2020-10-20",
+        "P23 Labs, LLC.",
+        "P23 Labs TaqPath SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/138295/download",
+        "Molecular Real-time RT-PCR, Home Collection, Saliva",
+        "H",
+        "https://www.fda.gov/media/138293/download",
+        "https://www.fda.gov/media/138296/download",
+        [
+            "https://www.fda.gov/media/138294/download",
+            "https://www.fda.gov/media/140087/download"
+        ],
+        "https://www.fda.gov/media/138297/download",
+        [
+            "https://www.fda.gov/media/139325/download"
+        ]
+    ],
+    [
+        "dba spectronrx__hymon sars-cov-2 test kit",
+        "2020-05-22",
+        "2020-08-11",
+        "dba SpectronRx",
+        "Hymon SARS-CoV-2 Test Kit",
+        "https://www.fda.gov/media/138343/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/138344/download",
+        "https://www.fda.gov/media/138346/download",
+        [
+            "https://www.fda.gov/media/138345/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/141060/download"
+        ]
+    ],
+    [
+        "exact sciences laboratories__sars-cov-2 (n gene detection) test",
+        "2020-05-22",
+        "2020-09-21",
+        "Exact Sciences Laboratories",
+        "SARS-CoV-2 (N gene detection) Test",
+        "https://www.fda.gov/media/138327/download",
+        "Molecular Real-time RT-PCR, Home Collection",
+        "H",
+        "https://www.fda.gov/media/140794/download",
+        "https://www.fda.gov/media/140795/download",
+        [
+            "https://www.fda.gov/media/141674/download"
+        ],
+        "https://www.fda.gov/media/138328/download",
+        [
+            "https://www.fda.gov/media/141671/download"
+        ]
+    ],
+    [
+        "express gene llc (dba molecular diagnostics laboratory)__express gene 2019-ncov rt-pcr diagnostic panel",
+        "2020-05-22",
+        "2021-01-22",
+        "Express Gene LLC (dba Molecular Diagnostics Laboratory)",
+        "Express Gene 2019-nCoV RT-PCR Diagnostic Panel",
+        "https://www.fda.gov/media/143881/download",
+        "Real-time RT-PCR, Collection Kit, Saliva",
+        "H",
+        "https://www.fda.gov/media/143879/download",
+        "https://www.fda.gov/media/143882/download",
+        [
+            "https://www.fda.gov/media/143880/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "avera institute for human genetics__avera institute for human genetics sars-cov-2 assay",
+        "2020-05-22",
+        "2020-05-22",
+        "Avera Institute for Human Genetics",
+        "Avera Institute for Human Genetics SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/138331/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/138332/download",
+        []
+    ],
+    [
+        "privapath diagnostics, inc.__letsgetchecked coronavirus (covid-19) test",
+        "2020-05-28",
+        "2020-10-28",
+        "PrivaPath Diagnostics, Inc.",
+        "LetsGetChecked Coronavirus (COVID-19) Test",
+        "https://www.fda.gov/media/138405/download",
+        "Molecular TMA, chemiluminescent, Home Collection",
+        "H",
+        "https://www.fda.gov/media/138403/download",
+        "https://www.fda.gov/media/138404/download",
+        [
+            "https://www.fda.gov/media/138407/download"
+        ],
+        "https://www.fda.gov/media/138406/download",
+        [
+            "https://www.fda.gov/media/139784/download"
+        ]
+    ],
+    [
+        "siemens healthcare diagnostics inc.__advia centaur sars-cov-2 total (cov2t)",
+        "2020-05-29",
+        "2020-05-29",
+        "Siemens Healthcare Diagnostics Inc.",
+        "ADVIA Centaur SARS-CoV-2 Total (COV2T)",
+        "https://www.fda.gov/media/138443/download",
+        "Total Antibody, CLIA",
+        "H, M",
+        "https://www.fda.gov/media/138444/download",
+        "https://www.fda.gov/media/138445/download",
+        [
+            "https://www.fda.gov/media/138446/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "siemens healthcare diagnostics inc.__atellica im sars-cov-2 total (cov2t)",
+        "2020-05-29",
+        "2020-05-29",
+        "Siemens Healthcare Diagnostics Inc.",
+        "Atellica IM SARS-CoV-2 Total (COV2T)",
+        "https://www.fda.gov/media/138439/download",
+        "Total Antibody, CLIA",
+        "H, M",
+        "https://www.fda.gov/media/138440/download",
+        "https://www.fda.gov/media/138441/download",
+        [
+            "https://www.fda.gov/media/138442/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "healgen scientific llc__covid-19 igg/igm rapid test cassette (whole blood/serum/plasma)",
+        "2020-05-29",
+        "2020-05-29",
+        "Healgen Scientific LLC",
+        "COVID-19 IgG/IgM Rapid Test Cassette (Whole Blood/Serum/Plasma)",
+        "https://www.fda.gov/media/138435/download",
+        "Serology IgM and IgG, Lateral Flow",
+        "H, M",
+        "https://www.fda.gov/media/138436/download",
+        "https://www.fda.gov/media/138437/download",
+        [
+            "https://www.fda.gov/media/138438/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "gravity diagnostics, llc__gravity diagnostics covid-19 assay",
+        "2020-06-01",
+        "2020-09-21",
+        "Gravity Diagnostics, LLC",
+        "Gravity Diagnostics COVID-19 Assay",
+        "https://www.fda.gov/media/138532/download",
+        "Molecular Real-time RT-PCR, Home Collection",
+        "H",
+        "https://www.fda.gov/media/138531/download",
+        "https://www.fda.gov/media/138533/download",
+        [],
+        "https://www.fda.gov/media/138530/download",
+        [
+            "https://www.fda.gov/media/139668/download"
+        ]
+    ],
+    [
+        "aspirus reference laboratory__aspirus sars-cov-2 rrt assay",
+        "2020-06-01",
+        "2020-06-01",
+        "Aspirus Reference Laboratory",
+        "Aspirus SARS-CoV-2 rRT Assay",
+        "https://www.fda.gov/media/138527/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/138526/download",
+        []
+    ],
+    [
+        "roche diagnostics__elecsys il-6",
+        "2020-06-02",
+        "2020-06-02",
+        "Roche Diagnostics",
+        "Elecsys IL-6",
+        "https://www.fda.gov/media/138596/download",
+        "Immunoassay-IL-6",
+        "H, M",
+        "https://www.fda.gov/media/138594/download",
+        "https://www.fda.gov/media/138597/download",
+        [
+            "https://www.fda.gov/media/138595/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "csi laboratories__csi sars-cov-2 rt pcr test",
+        "2020-06-02",
+        "2021-01-29",
+        "CSI Laboratories",
+        "CSI SARS-CoV-2 RT PCR Test",
+        "https://www.fda.gov/media/138529/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/138528/download",
+        []
+    ],
+    [
+        "vibrant america clinical labs__vibrant covid-19 ab assay",
+        "2020-06-04",
+        "2020-06-04",
+        "Vibrant America Clinical Labs",
+        "Vibrant COVID-19 Ab Assay",
+        "https://www.fda.gov/media/138626/download",
+        "Serology IgM and IgG, CLIA",
+        "H",
+        "https://www.fda.gov/media/138627/download",
+        "https://www.fda.gov/media/138628/download",
+        [],
+        "https://www.fda.gov/media/138629/download",
+        []
+    ],
+    [
+        "phosphorus diagnostics llc__phosphorus covid-19 rt-qpcr test",
+        "2020-06-04",
+        "2020-12-28",
+        "Phosphorus Diagnostics LLC",
+        "Phosphorus COVID-19 RT-qPCR Test",
+        "https://www.fda.gov/media/138652/download",
+        "Molecular Real-time RT-PCR, Home Collection, Saliva",
+        "H",
+        "https://www.fda.gov/media/138663/download",
+        "https://www.fda.gov/media/138653/download",
+        [
+            "https://www.fda.gov/media/138655/download",
+            "https://www.fda.gov/media/138656/download"
+        ],
+        "https://www.fda.gov/media/138654/download",
+        [
+            "https://www.fda.gov/media/139508/download"
+        ]
+    ],
+    [
+        "hangzhou biotest biotech co., ltd.__rightsign covid-19 igg/igm rapid test cassette",
+        "2020-06-04",
+        "2020-12-21",
+        "Hangzhou Biotest Biotech Co., Ltd.",
+        "RightSign COVID-19 IgG/IgM Rapid Test Cassette",
+        "https://www.fda.gov/media/138657/download",
+        "Serology IgM and IgG, Lateral Flow, Fingerstick Whole Blood",
+        "H, M, W",
+        "https://www.fda.gov/media/138658/download",
+        "https://www.fda.gov/media/138659/download",
+        [
+            "https://www.fda.gov/media/138660/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/140428/download",
+            "https://www.fda.gov/media/141751/download"
+        ]
+    ],
+    [
+        "nebraska medicine clinical laboratory__necov19 rt-pcr assay",
+        "2020-06-04",
+        "2020-06-04",
+        "Nebraska Medicine Clinical Laboratory",
+        "NEcov19 RT-PCR Assay",
+        "https://www.fda.gov/media/138624/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/138625/download",
+        []
+    ],
+    [
+        "genetron health (beijing) co., ltd.__genetron sars-cov-2 rna test",
+        "2020-06-05",
+        "2020-06-05",
+        "Genetron Health (Beijing) Co., Ltd.",
+        "Genetron SARS-CoV-2 RNA Test",
+        "https://www.fda.gov/media/138682/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/138683/download",
+        "https://www.fda.gov/media/138684/download",
+        [
+            "https://www.fda.gov/media/138685/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "euroimmun us inc.__eurorealtime sars-cov-2",
+        "2020-06-08",
+        "2020-11-04",
+        "Euroimmun US Inc.",
+        "EURORealTime SARS-CoV-2",
+        "https://www.fda.gov/media/138758/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/138759/download",
+        "https://www.fda.gov/media/138760/download",
+        [
+            "https://www.fda.gov/media/138761/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "siemens healthcare diagnostics inc.__dimension exl sars-cov-2 total antibody assay (cv2t)",
+        "2020-06-08",
+        "2020-10-30",
+        "Siemens Healthcare Diagnostics Inc.",
+        "Dimension EXL SARS-CoV-2 Total antibody assay (CV2T)",
+        "https://www.fda.gov/media/138754/download",
+        "Total Antibody, CLIA",
+        "H, M",
+        "https://www.fda.gov/media/138755/download",
+        "https://www.fda.gov/media/138756/download",
+        [
+            "https://www.fda.gov/media/138757/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/140981/download",
+            "https://www.fda.gov/media/143496/download"
+        ]
+    ],
+    [
+        "siemens healthcare diagnostics inc.__dimension vista sars-cov-2 total antibody assay (cov2t)",
+        "2020-06-08",
+        "2020-10-30",
+        "Siemens Healthcare Diagnostics Inc.",
+        "Dimension Vista SARS-CoV-2 Total antibody assay (COV2T)",
+        "https://www.fda.gov/media/138750/download",
+        "Total Antibody, CLIA",
+        "H, M",
+        "https://www.fda.gov/media/138751/download",
+        "https://www.fda.gov/media/138752/download",
+        [
+            "https://www.fda.gov/media/138753/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/140982/download",
+            "https://www.fda.gov/media/143493/download"
+        ]
+    ],
+    [
+        "illumina, inc.__illumina covidseq test",
+        "2020-06-09",
+        "2020-10-28",
+        "Illumina, Inc.",
+        "Illumina COVIDSeq Test",
+        "https://www.fda.gov/media/138778/download",
+        "Molecular",
+        "H",
+        "https://www.fda.gov/media/138775/download",
+        "https://www.fda.gov/media/138777/download",
+        [
+            "https://www.fda.gov/media/138776/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/141503/download"
+        ]
+    ],
+    [
+        "chromacode inc.__hdpcr sars-cov-2 assay",
+        "2020-06-09",
+        "2020-09-21",
+        "ChromaCode Inc.",
+        "HDPCR SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/138787/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/138785/download",
+        "https://www.fda.gov/media/138788/download",
+        [
+            "https://www.fda.gov/media/138786/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "warrior diagnostics, inc.__warrior diagnostics sars-cov-2 assay",
+        "2020-06-09",
+        "2020-06-09",
+        "Warrior Diagnostics, Inc.",
+        "Warrior Diagnostics SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/138791/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/138790/download",
+        []
+    ],
+    [
+        "cue health inc.__cue covid-19 test",
+        "2020-06-10",
+        "2020-08-20",
+        "Cue Health Inc.",
+        "Cue COVID-19 Test",
+        "https://www.fda.gov/media/138823/download",
+        "Molecular RT, Isothermal amplification",
+        "H, M, W",
+        "https://www.fda.gov/media/138824/download",
+        "https://www.fda.gov/media/138825/download",
+        [
+            "https://www.fda.gov/media/138826/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/141483/download"
+        ]
+    ],
+    [
+        "tbg biotechnology corp.__exprobe sars-cov-2 testing kit",
+        "2020-06-10",
+        "2021-01-06",
+        "TBG Biotechnology Corp.",
+        "ExProbe SARS-CoV-2 Testing Kit",
+        "https://www.fda.gov/media/138819/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/138820/download",
+        "https://www.fda.gov/media/138821/download",
+        [
+            "https://www.fda.gov/media/138822/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "tide laboratories, llc__dtpm covid-19 rt-pcr test",
+        "2020-06-10",
+        "2020-06-10",
+        "Tide Laboratories, LLC",
+        "DTPM COVID-19 RT-PCR Test",
+        "https://www.fda.gov/media/138815/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/138816/download",
+        "https://www.fda.gov/media/138817/download",
+        [],
+        "https://www.fda.gov/media/138818/download",
+        []
+    ],
+    [
+        "inbios international, inc.__scov-2 detect igg elisa",
+        "2020-06-10",
+        "2020-06-10",
+        "InBios International, Inc.",
+        "SCoV-2 Detect IgG ELISA",
+        "https://www.fda.gov/media/138807/download",
+        "Serology IgG, ELISA",
+        "H",
+        "https://www.fda.gov/media/138808/download",
+        "https://www.fda.gov/media/138809/download",
+        [
+            "https://www.fda.gov/media/138810/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "rta laboratories biological products pharmaceutical and machinery industry__diagnovital sars-cov-2 real-time pcr kit",
+        "2020-06-12",
+        "2020-06-12",
+        "RTA Laboratories Biological Products Pharmaceutical and Machinery Industry",
+        "Diagnovital SARS-CoV-2 Real-Time PCR Kit",
+        "https://www.fda.gov/media/138929/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/138927/download",
+        "https://www.fda.gov/media/138930/download",
+        [
+            "https://www.fda.gov/media/138928/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "cormeum laboratory services__cormeum sars-cov-2 assay",
+        "2020-06-12",
+        "2021-02-03",
+        "Cormeum Laboratory Services",
+        "Cormeum SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/138933/download",
+        "Molecular, U",
+        "H",
+        "https://www.fda.gov/media/136599/download",
+        "https://www.fda.gov/media/136600/download",
+        [],
+        "https://www.fda.gov/media/138934/download",
+        []
+    ],
+    [
+        "kaiser permanente mid-atlantic states__kpmas covid-19 test",
+        "2020-06-13",
+        "2020-09-09",
+        "Kaiser Permanente Mid-Atlantic States",
+        "KPMAS COVID-19 Test",
+        "https://www.fda.gov/media/139066/download",
+        "Molecular Real-time RT-PCR, Home Collection, Screening",
+        "H",
+        "https://www.fda.gov/media/139068/download",
+        "https://www.fda.gov/media/139070/download",
+        [
+            "https://www.fda.gov/media/139069/download"
+        ],
+        "https://www.fda.gov/media/139067/download",
+        []
+    ],
+    [
+        "applied biocode, inc.__biocode sars-cov-2 assay",
+        "2020-06-15",
+        "2020-12-07",
+        "Applied BioCode, Inc.",
+        "BioCode SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/139046/download",
+        "Molecular RT-PCR, Pooling",
+        "H",
+        "https://www.fda.gov/media/139047/download",
+        "https://www.fda.gov/media/139048/download",
+        [
+            "https://www.fda.gov/media/139049/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/143181/download"
+        ]
+    ],
+    [
+        "emory medical laboratories__sars-cov-2 rbd igg test",
+        "2020-06-15",
+        "2020-06-15",
+        "Emory Medical Laboratories",
+        "SARS-CoV-2 RBD IgG test",
+        "https://www.fda.gov/media/139050/download",
+        "Serology IgG, ELISA",
+        "H",
+        "https://www.fda.gov/media/139051/download",
+        "https://www.fda.gov/media/139052/download",
+        [],
+        "https://www.fda.gov/media/139053/download",
+        []
+    ],
+    [
+        "omnipathology solutions medical corporation__omni covid-19 assay by rt-pcr",
+        "2020-06-17",
+        "2020-12-28",
+        "Omnipathology Solutions Medical Corporation",
+        "Omni COVID-19 Assay by RT-PCR",
+        "https://www.fda.gov/media/139289/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139290/download",
+        "https://www.fda.gov/media/139291/download",
+        [],
+        "https://www.fda.gov/media/139292/download",
+        []
+    ],
+    [
+        "the ohio state university wexner medical center__osuwmc covid-19 rt-pcr test",
+        "2020-06-17",
+        "2020-06-17",
+        "The Ohio State University Wexner Medical Center",
+        "OSUWMC COVID-19 RT-PCR test",
+        "https://www.fda.gov/media/139285/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139286/download",
+        "https://www.fda.gov/media/139287/download",
+        [],
+        "https://www.fda.gov/media/139288/download",
+        []
+    ],
+    [
+        "3b blackbio biotech india ltd., a subsidiary of kilpest india ltd.__trupcr sars-cov-2 kit",
+        "2020-06-18",
+        "2020-12-17",
+        "3B Blackbio Biotech India Ltd., a subsidiary of Kilpest India Ltd.",
+        "TRUPCR SARS-CoV-2 Kit",
+        "https://www.fda.gov/media/139293/download",
+        "Molecular Real-time RT-PCR, Saliva",
+        "H",
+        "https://www.fda.gov/media/139294/download",
+        "https://www.fda.gov/media/139295/download",
+        [
+            "https://www.fda.gov/media/139296/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/140357/download"
+        ]
+    ],
+    [
+        "jiangsu bioperfectus technologies co., ltd.__covid-19 coronavirus real time pcr kit",
+        "2020-06-18",
+        "2020-12-30",
+        "Jiangsu Bioperfectus Technologies Co., Ltd.",
+        "COVID-19 Coronavirus Real Time PCR Kit",
+        "https://www.fda.gov/media/139284/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139277/download",
+        "https://www.fda.gov/media/139278/download",
+        [
+            "https://www.fda.gov/media/139279/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/144834/download"
+        ]
+    ],
+    [
+        "biohit healthcare (hefei) co. ltd.__biohit sars-cov-2 igm/igg antibody test kit",
+        "2020-06-18",
+        "2020-10-17",
+        "Biohit Healthcare (Hefei) Co. Ltd.",
+        "Biohit SARS-CoV-2 IgM/IgG Antibody Test Kit",
+        "https://www.fda.gov/media/139280/download",
+        "Serology IgM and IgG Lateral Flow",
+        "H, M",
+        "https://www.fda.gov/media/139281/download",
+        "https://www.fda.gov/media/139282/download",
+        [
+            "https://www.fda.gov/media/139283/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/140782/download",
+            "https://www.fda.gov/media/143139/download"
+        ]
+    ],
+    [
+        "hangzhou laihe biotech co., ltd.__lyher novel coronavirus (2019-ncov) igm/igg antibody combo test kit (colloidal gold)",
+        "2020-06-19",
+        "2020-12-02",
+        "Hangzhou Laihe Biotech Co., Ltd.",
+        "LYHER Novel Coronavirus (2019-nCoV) IgM/IgG Antibody Combo Test Kit (Colloidal Gold)",
+        "https://www.fda.gov/media/139407/download",
+        "Serology IgM and IgG Lateral Flow",
+        "H, M",
+        "https://www.fda.gov/media/139409/download",
+        "https://www.fda.gov/media/139408/download",
+        [
+            "https://www.fda.gov/media/139410/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/141150/download",
+            "https://www.fda.gov/media/144126/download"
+        ]
+    ],
+    [
+        "gencurix, inc.__genepro sars-cov-2 test",
+        "2020-06-23",
+        "2020-12-28",
+        "Gencurix, Inc.",
+        "GenePro SARS-CoV-2 Test",
+        "https://www.fda.gov/media/139443/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139441/download",
+        "https://www.fda.gov/media/139445/download",
+        [
+            "https://www.fda.gov/media/139442/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "university of alabama at birmingham fungal reference lab__frl sars cov-2 test",
+        "2020-06-23",
+        "2020-06-23",
+        "University of Alabama at Birmingham Fungal Reference Lab",
+        "FRL SARS CoV-2 Test",
+        "https://www.fda.gov/media/139439/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139438/download",
+        "https://www.fda.gov/media/139440/download",
+        [],
+        "https://www.fda.gov/media/139437/download",
+        []
+    ],
+    [
+        "healthquest esoterics__healthquest esoterics taqpath sars-cov-2 assay",
+        "2020-06-23",
+        "2020-09-21",
+        "HealthQuest Esoterics",
+        "HealthQuest Esoterics TaqPath SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/139449/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139435/download",
+        "https://www.fda.gov/media/139436/download",
+        [],
+        "https://www.fda.gov/media/139434/download",
+        []
+    ],
+    [
+        "babson diagnostics, inc.__babson diagnostics ac19g1",
+        "2020-06-23",
+        "2020-06-23",
+        "Babson Diagnostics, Inc.",
+        "Babson Diagnostics aC19G1",
+        "https://www.fda.gov/media/139450/download",
+        "Serology IgG, CLIA",
+        "H",
+        "https://www.fda.gov/media/139447/download",
+        "https://www.fda.gov/media/139448/download",
+        [],
+        "https://www.fda.gov/media/139446/download",
+        []
+    ],
+    [
+        "university of texas md anderson cancer center, molecular diagnostics laboratory__md anderson high-throughput sars-cov-2 rt-pcr assay",
+        "2020-06-24",
+        "2020-06-24",
+        "University of Texas MD Anderson Cancer Center, Molecular Diagnostics Laboratory",
+        "MD Anderson High-throughput SARS-CoV-2 RT-PCR Assay",
+        "https://www.fda.gov/media/139509/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139510/download",
+        "https://www.fda.gov/media/139511/download",
+        [],
+        "https://www.fda.gov/media/139512/download",
+        []
+    ],
+    [
+        "plexbio co., ltd__intelliplex sars-cov-2 detection kit",
+        "2020-06-25",
+        "2021-02-03",
+        "PlexBio Co., Ltd",
+        "IntelliPlex SARS-CoV-2 Detection Kit",
+        "https://www.fda.gov/media/139528/download",
+        "Molecular RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139526/download",
+        "https://www.fda.gov/media/139529/download",
+        [
+            "https://www.fda.gov/media/139527/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/145698/download"
+        ]
+    ],
+    [
+        "precigenome llc__fastplex triplex sars-cov-2 detection kit (rt-digital pcr)",
+        "2020-06-25",
+        "2020-06-25",
+        "PreciGenome LLC",
+        "FastPlex Triplex SARS-CoV-2 detection kit (RT-Digital PCR)",
+        "https://www.fda.gov/media/139524/download",
+        "Molecular RT-digital droplet PCR",
+        "H",
+        "https://www.fda.gov/media/139522/download",
+        "https://www.fda.gov/media/139525/download",
+        [
+            "https://www.fda.gov/media/139523/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "diagnostic solutions laboratory, llc__dsl covid-19 assay",
+        "2020-06-25",
+        "2021-01-29",
+        "Diagnostic Solutions Laboratory, LLC",
+        "DSL COVID-19 Assay",
+        "https://www.fda.gov/media/139513/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139514/download",
+        "https://www.fda.gov/media/139515/download",
+        [],
+        "https://www.fda.gov/media/139516/download",
+        []
+    ],
+    [
+        "inform diagnostics, inc.__inform diagnostics sars-cov-2 rt-pcr assay",
+        "2020-06-26",
+        "2020-06-26",
+        "Inform Diagnostics, Inc.",
+        "Inform Diagnostics SARS-CoV-2 RT-PCR Assay",
+        "https://www.fda.gov/media/139569/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139570/download",
+        "https://www.fda.gov/media/139571/download",
+        [],
+        "https://www.fda.gov/media/139572/download",
+        []
+    ],
+    [
+        "beckman coulter, inc.__access sars-cov-2 igg",
+        "2020-06-26",
+        "2020-06-26",
+        "Beckman Coulter, Inc.",
+        "Access SARS-CoV-2 IgG",
+        "https://www.fda.gov/media/139624/download",
+        "Serology IgG, CLIA",
+        "H, M",
+        "https://www.fda.gov/media/139625/download",
+        "https://www.fda.gov/media/139626/download",
+        [
+            "https://www.fda.gov/media/139627/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "lifehope labs__lifehope 2019-ncov real-time rt-pcr diagnostic panel",
+        "2020-06-29",
+        "2020-06-29",
+        "LifeHope Labs",
+        "LifeHope 2019-nCoV Real-Time RT-PCR Diagnostic Panel",
+        "https://www.fda.gov/media/139620/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139621/download",
+        "https://www.fda.gov/media/139622/download",
+        [],
+        "https://www.fda.gov/media/139623/download",
+        []
+    ],
+    [
+        "acupath laboratories, inc.__acupath covid-19 real-time (rt-pcr) assay",
+        "2020-06-29",
+        "2020-09-24",
+        "Acupath Laboratories, Inc.",
+        "Acupath COVID-19 Real-Time (RT-PCR) Assay",
+        "https://www.fda.gov/media/139669/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139670/download",
+        "https://www.fda.gov/media/139671/download",
+        [],
+        "https://www.fda.gov/media/139672/download",
+        []
+    ],
+    [
+        "the kroger co.__kroger health covid-19 test home collection kit",
+        "2020-06-30",
+        "2021-02-13",
+        "The Kroger Co.",
+        "Kroger Health COVID-19 Test Home Collection Kit",
+        "https://www.fda.gov/media/139681/download",
+        "Home Collection Kit, Direct to Consumer (DTC), Screening",
+        "",
+        "",
+        "",
+        [
+            "https://www.fda.gov/media/139682/download"
+        ],
+        "https://www.fda.gov/media/139683/download",
+        []
+    ],
+    [
+        "tns co., ltd (bio tns)__covid-19 rt-pcr peptide nucleic acid (pna) kit",
+        "2020-06-30",
+        "2020-06-30",
+        "TNS Co., Ltd (Bio TNS)",
+        "COVID-19 RT-PCR Peptide Nucleic Acid (PNA) kit",
+        "https://www.fda.gov/media/139677/download",
+        "Molecular RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139678/download",
+        "https://www.fda.gov/media/139679/download",
+        [
+            "https://www.fda.gov/media/139680/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "psomagen, inc.__psoma covid-19 rt test",
+        "2020-06-30",
+        "2020-09-21",
+        "Psomagen, Inc.",
+        "Psoma COVID-19 RT Test",
+        "https://www.fda.gov/media/139673/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139674/download",
+        "https://www.fda.gov/media/139675/download",
+        [],
+        "https://www.fda.gov/media/139676/download",
+        []
+    ],
+    [
+        "inbios international, inc.__scov-2 detect igm elisa",
+        "2020-06-30",
+        "2020-06-30",
+        "InBios International, Inc.",
+        "SCoV-2 Detect IgM ELISA",
+        "https://www.fda.gov/media/139726/download",
+        "Serology IgM, ELISA",
+        "H",
+        "https://www.fda.gov/media/139727/download",
+        "https://www.fda.gov/media/139729/download",
+        [
+            "https://www.fda.gov/media/139730/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "centogene us, llc__centofast-sars-cov-2 rt-pcr assay",
+        "2020-07-01",
+        "2020-07-01",
+        "CENTOGENE US, LLC",
+        "CentoFast-SARS-CoV-2 RT-PCR Assay",
+        "https://www.fda.gov/media/139722/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139723/download",
+        "https://www.fda.gov/media/139724/download",
+        [],
+        "https://www.fda.gov/media/139725/download",
+        []
+    ],
+    [
+        "centers for disease control and prevention (cdc)__influenza sars-cov-2 (flu sc2) multiplex assay",
+        "2020-07-02",
+        "2021-01-08",
+        "Centers for Disease Control and Prevention (CDC)",
+        "Influenza SARS-CoV-2 (Flu SC2) Multiplex Assay",
+        "https://www.fda.gov/media/139744/download",
+        "Molecular Real-time RT-PCR, Multi-analyte",
+        "H",
+        "https://www.fda.gov/media/139742/download",
+        "https://www.fda.gov/media/139745/download",
+        [
+            "https://www.fda.gov/media/139743/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/143936/download",
+            "https://www.fda.gov/media/145009/download"
+        ]
+    ],
+    [
+        "becton, dickinson and company (bd)__bd veritor system for rapid detection of sars-cov-2",
+        "2020-07-02",
+        "2021-01-13",
+        "Becton, Dickinson and Company (BD)",
+        "BD Veritor System for Rapid Detection of SARS-CoV-2",
+        "https://www.fda.gov/media/139752/download",
+        "Antigen Chromatographic Digital Immunoassay, Instrument Read",
+        "H, M, W",
+        "https://www.fda.gov/media/139753/download",
+        "https://www.fda.gov/media/139754/download",
+        [
+            "https://www.fda.gov/media/139755/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/140429/download"
+        ]
+    ],
+    [
+        "laboratorio clinico toledo__laboratorio clinico toledo sars-cov-2 assay",
+        "2020-07-06",
+        "2020-12-28",
+        "Laboratorio Clinico Toledo",
+        "Laboratorio Clinico Toledo SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/139785/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139786/download",
+        "https://www.fda.gov/media/139787/download",
+        [],
+        "https://www.fda.gov/media/139788/download",
+        []
+    ],
+    [
+        "assure tech. (hangzhou co., ltd)__assure covid-19 igg/igm rapid test device",
+        "2020-07-06",
+        "2020-09-23",
+        "Assure Tech. (Hangzhou Co., Ltd)",
+        "Assure COVID-19 IgG/IgM Rapid Test Device",
+        "https://www.fda.gov/media/139789/download",
+        "Serology IgM and IgG, Lateral Flow. Fingerstick Whole Blood",
+        "H, M, W",
+        "https://www.fda.gov/media/139790/download",
+        "https://www.fda.gov/media/139791/download",
+        [
+            "https://www.fda.gov/media/139792/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "enzo life sciences, inc.__ampiprobe sars-cov-2 test system",
+        "2020-07-07",
+        "2020-12-30",
+        "Enzo Life Sciences, Inc.",
+        "AMPIPROBE SARS-CoV-2 Test System",
+        "https://www.fda.gov/media/139829/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139827/download",
+        "https://www.fda.gov/media/139830/download",
+        [
+            "https://www.fda.gov/media/139828/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "access bio, inc.__carestart covid-19 mdx rt-pcr",
+        "2020-07-07",
+        "2021-02-05",
+        "Access Bio, Inc.",
+        "CareStart COVID-19 MDx RT-PCR",
+        "https://www.fda.gov/media/139833/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139831/download",
+        "https://www.fda.gov/media/139834/download",
+        [
+            "https://www.fda.gov/media/139832/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/145947/download"
+        ]
+    ],
+    [
+        "gene by gene__gene by gene sars-cov-2 detection test",
+        "2020-07-07",
+        "2020-12-28",
+        "Gene By Gene",
+        "Gene By Gene SARS-CoV-2 Detection Test",
+        "https://www.fda.gov/media/139838/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139837/download",
+        "https://www.fda.gov/media/139839/download",
+        [],
+        "https://www.fda.gov/media/139836/download",
+        []
+    ],
+    [
+        "clinical research sequencing platform (crsp), llc at the broad institute of mit and harvard__crsp sars-cov-2 real-time reverse transcriptase (rt)-pcr diagnostic assay",
+        "2020-07-08",
+        "2020-10-23",
+        "Clinical Research Sequencing Platform (CRSP), LLC at the Broad Institute of MIT and Harvard",
+        "CRSP SARS-CoV-2 Real-time Reverse Transcriptase (RT)-PCR Diagnostic Assay",
+        "https://www.fda.gov/media/139860/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139859/download",
+        "https://www.fda.gov/media/139861/download",
+        [
+            "https://www.fda.gov/media/143272/download"
+        ],
+        "https://www.fda.gov/media/139858/download",
+        [
+            "https://www.fda.gov/media/141750/download"
+        ]
+    ],
+    [
+        "diazyme laboratories, inc.__diazyme dz-lite sars-cov-2 igg clia kit",
+        "2020-07-08",
+        "2020-07-08",
+        "Diazyme Laboratories, Inc.",
+        "Diazyme DZ-Lite SARS-CoV-2 IgG CLIA Kit",
+        "https://www.fda.gov/media/139866/download",
+        "Serology IgG, CLIA",
+        "H, M",
+        "https://www.fda.gov/media/139863/download",
+        "https://www.fda.gov/media/139867/download",
+        [
+            "https://www.fda.gov/media/139865/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "ucsf health clinical laboratories, ucsf clinical labs at china basin__sars-cov-2 rna detectr assay",
+        "2020-07-09",
+        "2020-07-09",
+        "UCSF Health Clinical Laboratories, UCSF Clinical Labs at China Basin",
+        "SARS-CoV-2 RNA DETECTR Assay",
+        "https://www.fda.gov/media/139934/download",
+        "Molecular RT-LAMP",
+        "H",
+        "https://www.fda.gov/media/139935/download",
+        "https://www.fda.gov/media/139936/download",
+        [],
+        "https://www.fda.gov/media/139937/download",
+        []
+    ],
+    [
+        "biosewoom, inc.__real-q 2019-ncov detection kit",
+        "2020-07-09",
+        "2020-12-28",
+        "BioSewoom, Inc.",
+        "Real-Q 2019-nCoV Detection Kit",
+        "https://www.fda.gov/media/139938/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/139939/download",
+        "https://www.fda.gov/media/139940/download",
+        [
+            "https://www.fda.gov/media/139941/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "beijing wantai biological pharmacy enterprise co., ltd.__wantai sars-cov-2 ab rapid test",
+        "2020-07-10",
+        "2020-07-10",
+        "Beijing Wantai Biological Pharmacy Enterprise Co., Ltd.",
+        "WANTAI SARS-CoV-2 Ab Rapid Test",
+        "https://www.fda.gov/media/140035/download",
+        "Serology, Total Antibody, Lateral Flow",
+        "H, M",
+        "https://www.fda.gov/media/140028/download",
+        "https://www.fda.gov/media/140037/download",
+        [
+            "https://www.fda.gov/media/140030/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "boston medical center__bmc-crem covid-19 test",
+        "2020-07-10",
+        "2020-07-10",
+        "Boston Medical Center",
+        "BMC-CReM COVID-19 Test",
+        "https://www.fda.gov/media/140024/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/140008/download",
+        "https://www.fda.gov/media/140026/download",
+        [],
+        "https://www.fda.gov/media/140007/download",
+        []
+    ],
+    [
+        "compass laboratory services, llc__compass laboratory services sars-cov2 assay",
+        "2020-07-13",
+        "2020-07-13",
+        "Compass Laboratory Services, LLC",
+        "Compass Laboratory Services SARS-CoV2 Assay",
+        "https://www.fda.gov/media/140074/download",
+        "Molecular Real-time RT-PCR, Home Collection",
+        "H",
+        "https://www.fda.gov/media/140076/download",
+        "https://www.fda.gov/media/140077/download",
+        [],
+        "https://www.fda.gov/media/140078/download",
+        []
+    ],
+    [
+        "trax management services inc.__phoenixdx sars-cov-2 multiplex",
+        "2020-07-13",
+        "2020-11-20",
+        "Trax Management Services Inc.",
+        "PhoenixDx SARS-CoV-2 Multiplex",
+        "https://www.fda.gov/media/140070/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/140071/download",
+        "https://www.fda.gov/media/140072/download",
+        [
+            "https://www.fda.gov/media/140073/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/140983/download",
+            "https://www.fda.gov/media/143937/download"
+        ]
+    ],
+    [
+        "kogenebiotech co., ltd.__powerchek 2019-ncov real-time pcr kit",
+        "2020-07-13",
+        "2020-09-21",
+        "KogeneBiotech Co., Ltd.",
+        "PowerChek 2019-nCoV Real-time PCR Kit",
+        "https://www.fda.gov/media/140066/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/140067/download",
+        "https://www.fda.gov/media/140068/download",
+        [
+            "https://www.fda.gov/media/140069/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "salofa oy__sienna-clarity coviblock covid-19 igg/igm rapid test cassette",
+        "2020-07-13",
+        "2021-01-05",
+        "Salofa Oy",
+        "Sienna-Clarity COVIBLOCK COVID-19 IgG/IgM Rapid Test Cassette",
+        "https://www.fda.gov/media/140079/download",
+        "Serology IgM and IgG, Lateral Flow, Fingerstick Whole Blood",
+        "H, M, W",
+        "https://www.fda.gov/media/140080/download",
+        "https://www.fda.gov/media/140081/download",
+        [
+            "https://www.fda.gov/media/140082/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "quest diagnostics infectious disease, inc.__quest diagnostics ha sars-cov-2 assay",
+        "2020-07-15",
+        "2020-08-21",
+        "Quest Diagnostics Infectious Disease, Inc.",
+        "Quest Diagnostics HA SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/140236/download",
+        "Molecular TMA, chemiluminescent, Home Collection",
+        "H",
+        "https://www.fda.gov/media/140237/download",
+        "https://www.fda.gov/media/140238/download",
+        [
+            "https://www.fda.gov/media/140240/download"
+        ],
+        "https://www.fda.gov/media/140239/download",
+        []
+    ],
+    [
+        "quest diagnostics infectious disease, inc.__quest diagnostics rc sars-cov-2 assay",
+        "2020-07-15",
+        "2020-11-27",
+        "Quest Diagnostics Infectious Disease, Inc.",
+        "Quest Diagnostics RC SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/140231/download",
+        "Molecular Real-time RT-PCR, Home Collection, Pooling",
+        "H",
+        "https://www.fda.gov/media/140232/download",
+        "https://www.fda.gov/media/140233/download",
+        [
+            "https://www.fda.gov/media/140235/download"
+        ],
+        "https://www.fda.gov/media/140234/download",
+        []
+    ],
+    [
+        "quest diagnostics infectious disease, inc.__quest diagnostics pf sars-cov-2 assay",
+        "2020-07-15",
+        "2020-08-21",
+        "Quest Diagnostics Infectious Disease, Inc.",
+        "Quest Diagnostics PF SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/140226/download",
+        "Molecular Real-time RT-PCR, Home Collection",
+        "H",
+        "https://www.fda.gov/media/140227/download",
+        "https://www.fda.gov/media/140228/download",
+        [
+            "https://www.fda.gov/media/140230/download"
+        ],
+        "https://www.fda.gov/media/140229/download",
+        []
+    ],
+    [
+        "boston heart diagnostics__boston heart covid-19 rt-pcr test",
+        "2020-07-16",
+        "2020-09-21",
+        "Boston Heart Diagnostics",
+        "Boston Heart COVID-19 RT-PCR Test",
+        "https://www.fda.gov/media/140261/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/140260/download",
+        "https://www.fda.gov/media/140262/download",
+        [],
+        "https://www.fda.gov/media/140259/download",
+        [
+            "https://www.fda.gov/media/141827/download"
+        ]
+    ],
+    [
+        "luminex corporation__xmap sars-cov-2 multi-antigen igg assay",
+        "2020-07-16",
+        "2020-07-16",
+        "Luminex Corporation",
+        "xMAP SARS-CoV-2 Multi-Antigen IgG Assay",
+        "https://www.fda.gov/media/140257/download",
+        "Serology IgG, FMIA",
+        "H",
+        "https://www.fda.gov/media/140255/download",
+        "https://www.fda.gov/media/140258/download",
+        [
+            "https://www.fda.gov/media/140256/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "access genetics, llc__orarisk covid-19 rt-pcr",
+        "2020-07-17",
+        "2020-09-25",
+        "Access Genetics, LLC",
+        "OraRisk COVID-19 RT-PCR",
+        "https://www.fda.gov/media/140290/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/140291/download",
+        "https://www.fda.gov/media/140292/download",
+        [],
+        "https://www.fda.gov/media/140293/download",
+        []
+    ],
+    [
+        "megna health, inc.__rapid covid-19 igm/igg combo test kit",
+        "2020-07-17",
+        "2020-07-17",
+        "Megna Health, Inc.",
+        "Rapid COVID-19 IgM/IgG Combo Test Kit",
+        "https://www.fda.gov/media/140294/download",
+        "Serology IgM and IgG, Lateral Flow",
+        "H, M",
+        "https://www.fda.gov/media/140295/download",
+        "https://www.fda.gov/media/140296/download",
+        [
+            "https://www.fda.gov/media/140297/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "diacarta, inc.__quantivirus sars-cov-2 multiplex test kit",
+        "2020-07-21",
+        "2020-12-28",
+        "DiaCarta, Inc.",
+        "QuantiVirus SARS-CoV-2 Multiplex Test Kit",
+        "https://www.fda.gov/media/140355/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/140353/download",
+        "https://www.fda.gov/media/140356/download",
+        [
+            "https://www.fda.gov/media/140354/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "helix opco llc__helix covid-19 test",
+        "2020-07-23",
+        "2020-10-22",
+        "Helix OpCo LLC",
+        "Helix COVID-19 Test",
+        "https://www.fda.gov/media/140422/download",
+        "Molecular Real-time RT-PCR, Home Collection, Screening",
+        "H",
+        "https://www.fda.gov/media/140421/download",
+        "https://www.fda.gov/media/140423/download",
+        [
+            "https://www.fda.gov/media/143271/download"
+        ],
+        "https://www.fda.gov/media/140420/download",
+        []
+    ],
+    [
+        "jiangsu cowin biotech co., ltd.__novel coronavirus (sars-cov-2) fast nucleic acid detection kit (pcr-fluorescence probing)",
+        "2020-07-24",
+        "2020-07-24",
+        "Jiangsu CoWin Biotech Co., Ltd.",
+        "Novel Coronavirus (SARS-CoV-2) Fast Nucleic Acid Detection Kit (PCR-Fluorescence Probing)",
+        "https://www.fda.gov/media/140426/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/140424/download",
+        "https://www.fda.gov/media/140427/download",
+        [
+            "https://www.fda.gov/media/140425/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "xiamen biotime biotechnology co., ltd.__biotime sars-cov-2 igg/igm rapid qualitative test",
+        "2020-07-24",
+        "2020-11-06",
+        "Xiamen Biotime Biotechnology Co., Ltd.",
+        "BIOTIME SARS-CoV-2 IgG/IgM Rapid Qualitative Test",
+        "https://www.fda.gov/media/140440/download",
+        "Serology IgM and IgG, Lateral Flow",
+        "H, M",
+        "https://www.fda.gov/media/140441/download",
+        "https://www.fda.gov/media/140442/download",
+        [
+            "https://www.fda.gov/media/140443/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/143330/download",
+            "https://www.fda.gov/media/143456/download",
+            "https://www.fda.gov/media/143747/download"
+        ]
+    ],
+    [
+        "access bio, inc.__carestart covid-19 igm/igg",
+        "2020-07-24",
+        "2020-10-31",
+        "Access Bio, Inc.",
+        "CareStart COVID-19 IgM/IgG",
+        "https://www.fda.gov/media/140444/download",
+        "Serology IgM and IgG, Lateral Flow",
+        "H, M",
+        "https://www.fda.gov/media/140445/download",
+        "https://www.fda.gov/media/140446/download",
+        [
+            "https://www.fda.gov/media/140447/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/143497/download"
+        ]
+    ],
+    [
+        "sandia national laboratories__snl-nm 2019 ncov real-time rt-pcr diagnostic assay",
+        "2020-07-27",
+        "2021-01-29",
+        "Sandia National Laboratories",
+        "SNL-NM 2019 nCoV Real-Time RT-PCR Diagnostic Assay",
+        "https://www.fda.gov/media/140544/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/140545/download",
+        "https://www.fda.gov/media/140546/download",
+        [],
+        "https://www.fda.gov/media/140547/download",
+        []
+    ],
+    [
+        "eli lilly and company__lilly sars-cov-2 assay",
+        "2020-07-27",
+        "2020-09-21",
+        "Eli Lilly and Company",
+        "Lilly SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/140540/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/140541/download",
+        "https://www.fda.gov/media/140542/download",
+        [],
+        "https://www.fda.gov/media/140543/download",
+        [
+            "https://www.fda.gov/media/142364/download"
+        ]
+    ],
+    [
+        "clinical reference laboratory, inc.__crl rapid response",
+        "2020-07-30",
+        "2020-07-30",
+        "Clinical Reference Laboratory, Inc.",
+        "CRL Rapid Response",
+        "https://www.fda.gov/media/140664/download",
+        "Molecular, Real-time RT-PCR, Home Collection, Saliva",
+        "H",
+        "https://www.fda.gov/media/140662/download",
+        "https://www.fda.gov/media/140665/download",
+        [
+            "https://www.fda.gov/media/140663/download"
+        ],
+        "https://www.fda.gov/media/140661/download",
+        []
+    ],
+    [
+        "siemens healthcare diagnostics inc.__atellica im sars-cov-2 igg (cov2g)",
+        "2020-07-31",
+        "2020-07-31",
+        "Siemens Healthcare Diagnostics Inc.",
+        "Atellica IM SARS-CoV-2 IgG (COV2G)",
+        "https://www.fda.gov/media/140700/download",
+        "IgG, Semi-quantitative",
+        "H, M",
+        "https://www.fda.gov/media/140698/download",
+        "https://www.fda.gov/media/140701/download",
+        [
+            "https://www.fda.gov/media/140699/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "siemens healthcare diagnostics inc.__advia centaur sars-cov-2 igg (cov2g)",
+        "2020-07-31",
+        "2020-07-31",
+        "Siemens Healthcare Diagnostics Inc.",
+        "ADVIA Centaur SARS-CoV-2 IgG (COV2G)",
+        "https://www.fda.gov/media/140703/download",
+        "IgG, Semi-quantitative",
+        "H, M",
+        "https://www.fda.gov/media/140702/download",
+        "https://www.fda.gov/media/140705/download",
+        [
+            "https://www.fda.gov/media/140704/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "xiamen zeesan biotech co., ltd.__sars-cov-2 test kit (real-time pcr)",
+        "2020-07-31",
+        "2020-11-10",
+        "Xiamen Zeesan Biotech Co., Ltd.",
+        "SARS-CoV-2 Test Kit (Real-time PCR)",
+        "https://www.fda.gov/media/140718/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/140716/download",
+        "https://www.fda.gov/media/140719/download",
+        [
+            "https://www.fda.gov/media/140717/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/143749/download"
+        ]
+    ],
+    [
+        "university of california san diego health__ucsd rc sars-cov-2 assay",
+        "2020-07-31",
+        "2020-07-31",
+        "University of California San Diego Health",
+        "UCSD RC SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/140714/download",
+        "Molecular Real-time RT-PCR, Pooling",
+        "H",
+        "https://www.fda.gov/media/140715/download",
+        "https://www.fda.gov/media/140715/download",
+        [],
+        "https://www.fda.gov/media/140712/download",
+        []
+    ],
+    [
+        "wren laboratories llc__wren laboratories covid-19 pcr test",
+        "2020-08-03",
+        "2020-10-20",
+        "Wren Laboratories LLC",
+        "Wren Laboratories COVID-19 PCR Test",
+        "https://www.fda.gov/media/140773/download",
+        "Molecular Real-time RT-PCR, Home Collection, Saliva",
+        "H",
+        "https://www.fda.gov/media/140774/download",
+        "https://www.fda.gov/media/140775/download",
+        [
+            "https://www.fda.gov/media/143187/download"
+        ],
+        "https://www.fda.gov/media/140776/download",
+        []
+    ],
+    [
+        "ethos laboratories__ethos laboratories sars-cov-2 maldi-tof assay",
+        "2020-08-03",
+        "2020-09-21",
+        "Ethos Laboratories",
+        "Ethos Laboratories SARS-CoV-2 MALDI-TOF Assay",
+        "https://www.fda.gov/media/140777/download",
+        "RT-PCR and MALDI-TOF Mass Spec., Home Collection",
+        "H",
+        "https://www.fda.gov/media/140778/download",
+        "https://www.fda.gov/media/140779/download",
+        [
+            "https://www.fda.gov/media/140781/download"
+        ],
+        "https://www.fda.gov/media/140780/download",
+        [
+            "https://www.fda.gov/media/141058/download",
+            "https://www.fda.gov/media/142305/download"
+        ]
+    ],
+    [
+        "cleveland clinic robert j. tomsich pathology and laboratory medicine institute__cleveland clinic sars-cov-2 assay",
+        "2020-08-03",
+        "2021-01-19",
+        "Cleveland Clinic Robert J. Tomsich Pathology and Laboratory Medicine Institute",
+        "Cleveland Clinic SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/140785/download",
+        "Molecular Real-time RT-PCR, Home Collection",
+        "H",
+        "https://www.fda.gov/media/140786/download",
+        "https://www.fda.gov/media/140787/download",
+        [
+            "https://www.fda.gov/media/145332/download"
+        ],
+        "https://www.fda.gov/media/140788/download",
+        []
+    ],
+    [
+        "poplar healthcare__poplar sars-cov-2 tma pooling assay",
+        "2020-08-03",
+        "2020-08-03",
+        "Poplar Healthcare",
+        "Poplar SARS-CoV-2 TMA Pooling assay",
+        "https://www.fda.gov/media/140789/download",
+        "Molecular TMA, chemiluminescent, Pooling",
+        "H",
+        "https://www.fda.gov/media/140790/download",
+        "https://www.fda.gov/media/140791/download",
+        [],
+        "https://www.fda.gov/media/140792/download",
+        []
+    ],
+    [
+        "ispm labs, llc dba capstone healthcare__genus sars-cov-2 assay",
+        "2020-08-03",
+        "2020-08-03",
+        "ISPM Labs, LLC dba Capstone Healthcare",
+        "Genus SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/140815/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/140816/download",
+        "https://www.fda.gov/media/140817/download",
+        [],
+        "https://www.fda.gov/media/140818/download",
+        []
+    ],
+    [
+        "vela operations singapore pte ltd__virokey sars-cov-2 rt-pcr test",
+        "2020-08-05",
+        "2020-08-05",
+        "Vela Operations Singapore Pte Ltd",
+        "ViroKey SARS-CoV-2 RT-PCR Test",
+        "https://www.fda.gov/media/140919/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/140920/download",
+        "https://www.fda.gov/media/140921/download",
+        [
+            "https://www.fda.gov/media/140922/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "beijing wantai biological pharmacy enterprise co., ltd.__wantai sars-cov-2 ab elisa",
+        "2020-08-05",
+        "2020-08-05",
+        "Beijing Wantai Biological Pharmacy Enterprise Co., Ltd.",
+        "WANTAI SARS-CoV-2 Ab ELISA",
+        "https://www.fda.gov/media/140926/download",
+        "Serology Total Antibody, ELISA",
+        "H",
+        "https://www.fda.gov/media/140927/download",
+        "https://www.fda.gov/media/140928/download",
+        [
+            "https://www.fda.gov/media/140929/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "helix opco llc (dba helix)__helix covid-19 ngs test",
+        "2020-08-06",
+        "2020-08-06",
+        "Helix OpCo LLC (dba Helix)",
+        "Helix COVID-19 NGS Test",
+        "https://www.fda.gov/media/140914/download",
+        "Molecular Sequencing",
+        "H",
+        "https://www.fda.gov/media/140915/download",
+        "https://www.fda.gov/media/140916/download",
+        [],
+        "https://www.fda.gov/media/140917/download",
+        []
+    ],
+    [
+        "biomérieux sa__vidas sars-cov-2 igg",
+        "2020-08-06",
+        "2020-08-06",
+        "bioMérieux SA",
+        "VIDAS SARS-CoV-2 IgG",
+        "https://www.fda.gov/media/140934/download",
+        "Serology IgG, ELFA",
+        "H, M",
+        "https://www.fda.gov/media/140935/download",
+        "https://www.fda.gov/media/140936/download",
+        [
+            "https://www.fda.gov/media/140937/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "biomérieux sa__vidas sars-cov-2 igm",
+        "2020-08-06",
+        "2020-08-06",
+        "bioMérieux SA",
+        "VIDAS SARS-CoV-2 IgM",
+        "https://www.fda.gov/media/140930/download",
+        "Serology IgM, ELFA",
+        "H, M",
+        "https://www.fda.gov/media/140931/download",
+        "https://www.fda.gov/media/140932/download",
+        [
+            "https://www.fda.gov/media/140933/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "george washington university public health laboratory__gwu sars-cov-2 rt-pcr test",
+        "2020-08-07",
+        "2020-08-07",
+        "George Washington University Public Health Laboratory",
+        "GWU SARS-CoV-2 RT-PCR Test",
+        "https://www.fda.gov/media/140977/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/140978/download",
+        "https://www.fda.gov/media/140979/download",
+        [],
+        "https://www.fda.gov/media/140980/download",
+        []
+    ],
+    [
+        "solaris diagnostics__solaris multiplex sars-cov-2 assay",
+        "2020-08-10",
+        "2020-12-28",
+        "Solaris Diagnostics",
+        "Solaris Multiplex SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/141013/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/141014/download",
+        "https://www.fda.gov/media/141015/download",
+        [],
+        "https://www.fda.gov/media/141016/download",
+        []
+    ],
+    [
+        "alpha genomix laboratories__alpha genomix taqpath sars-cov-2 combo assay",
+        "2020-08-10",
+        "2021-01-28",
+        "Alpha Genomix Laboratories",
+        "Alpha Genomix TaqPath SARS-CoV-2 Combo Assay",
+        "https://www.fda.gov/media/141017/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/141019/download",
+        "https://www.fda.gov/media/141020/download",
+        [],
+        "https://www.fda.gov/media/141021/download",
+        []
+    ],
+    [
+        "lumiradx uk ltd.__lumiradx sars-cov-2 rna star",
+        "2020-08-11",
+        "2020-12-28",
+        "LumiraDx UK Ltd.",
+        "LumiraDx SARS-CoV-2 RNA STAR",
+        "https://www.fda.gov/media/141054/download",
+        "Molecular RT, non-isothermal nucleic acid amplification qSTAR",
+        "H",
+        "https://www.fda.gov/media/141055/download",
+        "https://www.fda.gov/media/141056/download",
+        [
+            "https://www.fda.gov/media/141057/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "biomeme, inc.__biomeme sars-cov-2 real-time rt-pcr test",
+        "2020-08-11",
+        "2020-12-30",
+        "Biomeme, Inc.",
+        "Biomeme SARS-CoV-2 Real-Time RT-PCR Test",
+        "https://www.fda.gov/media/141049/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/141050/download",
+        "https://www.fda.gov/media/141051/download",
+        [
+            "https://www.fda.gov/media/141052/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "pro-lab diagnostics__pro-amprt sars-cov-2 test",
+        "2020-08-13",
+        "2020-08-13",
+        "Pro-Lab Diagnostics",
+        "Pro-AmpRT SARS-CoV-2 Test",
+        "https://www.fda.gov/media/141146/download",
+        "Molecular RT, Isothermal amplification",
+        "H",
+        "https://www.fda.gov/media/141147/download",
+        "https://www.fda.gov/media/141148/download",
+        [],
+        "https://www.fda.gov/media/141149/download",
+        []
+    ],
+    [
+        "yale school of public health, department of epidemiology of microbial diseases__salivadirect",
+        "2020-08-15",
+        "2021-02-05",
+        "Yale School of Public Health, Department of Epidemiology of Microbial Diseases",
+        "SalivaDirect",
+        "https://www.fda.gov/media/141194/download",
+        "Molecular Real-time RT-PCR, Saliva",
+        "H",
+        "https://www.fda.gov/media/141193/download",
+        "https://www.fda.gov/media/141195/download",
+        [],
+        "https://www.fda.gov/media/141192/download",
+        [
+            "https://www.fda.gov/media/141537/download",
+            "https://www.fda.gov/media/143072/download",
+            "https://www.fda.gov/media/145772/download"
+        ]
+    ],
+    [
+        "zhuhai sinochips bioscience co., ltd.__covid-19 nucleic acid rt-pcr test kit",
+        "2020-08-17",
+        "2020-08-17",
+        "ZhuHai Sinochips Bioscience Co., Ltd.",
+        "COVID-19 Nucleic Acid RT-PCR Test Kit",
+        "https://www.fda.gov/media/141243/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/141244/download",
+        "https://www.fda.gov/media/141245/download",
+        [
+            "https://www.fda.gov/media/141246/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "biocheck, inc.__biocheck sars-cov-2 igg and igm combo test",
+        "2020-08-17",
+        "2020-08-17",
+        "BioCheck, Inc.",
+        "BioCheck SARS-CoV-2 IgG and IgM Combo Test",
+        "https://www.fda.gov/media/141247/download",
+        "Serology IgM and IgG, CLIA",
+        "H, M",
+        "https://www.fda.gov/media/141248/download",
+        "https://www.fda.gov/media/141249/download",
+        [
+            "https://www.fda.gov/media/141251/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "diazyme laboratories, inc.__diazyme dz-lite sars-cov-2 igm clia kit",
+        "2020-08-17",
+        "2020-08-17",
+        "Diazyme Laboratories, Inc.",
+        "Diazyme DZ-Lite SARS-CoV-2 IgM CLIA Kit",
+        "https://www.fda.gov/media/141252/download",
+        "Serology IgM, CLIA",
+        "H, M",
+        "https://www.fda.gov/media/141253/download",
+        "https://www.fda.gov/media/141254/download",
+        [
+            "https://www.fda.gov/media/141255/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "lumiradx uk ltd.__lumiradx sars-cov-2 ag test",
+        "2020-08-18",
+        "2021-01-26",
+        "LumiraDx UK Ltd.",
+        "LumiraDx SARS-CoV-2 Ag Test",
+        "https://www.fda.gov/media/141301/download",
+        "Antigen Microfluidic Immunofluorescence Assay, Instrument Read",
+        "H, M, W",
+        "https://www.fda.gov/media/141302/download",
+        "https://www.fda.gov/media/141303/download",
+        [
+            "https://www.fda.gov/media/141304/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/145463/download"
+        ]
+    ],
+    [
+        "texas department of state health services, laboratory services section__texas department of state health services (dshs) sars-cov-2 assay",
+        "2020-08-21",
+        "2020-12-28",
+        "Texas Department of State Health Services, Laboratory Services Section",
+        "Texas Department of State Health Services (DSHS) SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/141493/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/141494/download",
+        "https://www.fda.gov/media/141495/download",
+        [],
+        "https://www.fda.gov/media/141496/download",
+        []
+    ],
+    [
+        "dxterity diagnostics, inc.__dxterity sars-cov-2 rt-pcr test",
+        "2020-08-21",
+        "2020-12-09",
+        "DxTerity Diagnostics, Inc.",
+        "DxTerity SARS-CoV-2 RT-PCR Test",
+        "https://www.fda.gov/media/141488/download",
+        "Molecular Real-time RT-PCR, Saliva",
+        "H",
+        "https://www.fda.gov/media/141489/download",
+        "https://www.fda.gov/media/141490/download",
+        [],
+        "https://www.fda.gov/media/141491/download",
+        [
+            "https://www.fda.gov/media/144392/download"
+        ]
+    ],
+    [
+        "guardant health, inc.__guardant-19",
+        "2020-08-21",
+        "2020-12-28",
+        "Guardant Health, Inc.",
+        "Guardant-19",
+        "https://www.fda.gov/media/141484/download",
+        "Molecular Sequencing",
+        "H",
+        "https://www.fda.gov/media/141485/download",
+        "https://www.fda.gov/media/141486/download",
+        [],
+        "https://www.fda.gov/media/141487/download",
+        []
+    ],
+    [
+        "qdx pathology services__qdx sars-cov-2 assay",
+        "2020-08-25",
+        "2021-02-08",
+        "QDx Pathology Services",
+        "QDX SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/141542/download",
+        "Molecular Real-time RT-PCR, Home Collection",
+        "H",
+        "https://www.fda.gov/media/141543/download",
+        "https://www.fda.gov/media/141544/download",
+        [
+            "https://www.fda.gov/media/141546/download"
+        ],
+        "https://www.fda.gov/media/141545/download",
+        [
+            "https://www.fda.gov/media/145773/download"
+        ]
+    ],
+    [
+        "fluidigm corporation__advanta dx sars-cov-2 rt-pcr assay",
+        "2020-08-25",
+        "2021-01-08",
+        "Fluidigm Corporation",
+        "Advanta Dx SARS-CoV-2 RT-PCR Assay",
+        "https://www.fda.gov/media/141538/download",
+        "Molecular Real-time RT-PCR, Saliva",
+        "H",
+        "https://www.fda.gov/media/141539/download",
+        "https://www.fda.gov/media/141540/download",
+        [
+            "https://www.fda.gov/media/141541/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/143636/download",
+            "https://www.fda.gov/media/145010/download"
+        ]
+    ],
+    [
+        "biocan diagnostics inc.__tell me fast novel coronavirus (covid-19) igg/igm antibody test",
+        "2020-08-25",
+        "2020-08-25",
+        "Biocan Diagnostics Inc.",
+        "Tell Me Fast Novel Coronavirus (COVID-19) IgG/IgM Antibody Test",
+        "https://www.fda.gov/media/141547/download",
+        "Serology IgM and IgG, Lateral Flow",
+        "H, M",
+        "https://www.fda.gov/media/141548/download",
+        "https://www.fda.gov/media/141549/download",
+        [
+            "https://www.fda.gov/media/141550/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "abbott diagnostics scarborough, inc.__binaxnow covid-19 ag card",
+        "2020-08-26",
+        "2020-08-26",
+        "Abbott Diagnostics Scarborough, Inc.",
+        "BinaxNOW COVID-19 Ag Card",
+        "https://www.fda.gov/media/141567/download",
+        "Antigen Lateral Flow, Visual Read",
+        "H, M, W",
+        "https://www.fda.gov/media/141568/download",
+        "https://www.fda.gov/media/141569/download",
+        [
+            "https://www.fda.gov/media/141570/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "cuur diagnostics__cuur diagnostics sars-cov-2 molecular assay",
+        "2020-08-26",
+        "2020-10-02",
+        "Cuur Diagnostics",
+        "Cuur Diagnostics SARS-CoV-2 Molecular Assay",
+        "https://www.fda.gov/media/141624/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/141625/download",
+        "https://www.fda.gov/media/141626/download",
+        [],
+        "https://www.fda.gov/media/141627/download",
+        []
+    ],
+    [
+        "dxterity diagnostics, inc.__dxterity sars-cov-2 rt pcr ce test",
+        "2020-08-28",
+        "2021-02-09",
+        "DxTerity Diagnostics, Inc.",
+        "DxTerity SARS-CoV-2 RT PCR CE Test",
+        "https://www.fda.gov/media/141666/download",
+        "Molecular RT-PCR, Home Collection, Saliva",
+        "H",
+        "https://www.fda.gov/media/141667/download",
+        "https://www.fda.gov/media/141668/download",
+        [
+            "https://www.fda.gov/media/141670/download"
+        ],
+        "https://www.fda.gov/media/141669/download",
+        []
+    ],
+    [
+        "patients choice laboratories, llc__pcl sars-cov-2 real-time rt-pcr assay",
+        "2020-08-28",
+        "2020-09-21",
+        "Patients Choice Laboratories, LLC",
+        "PCL SARS-CoV-2 Real-Time RT-PCR Assay",
+        "https://www.fda.gov/media/141662/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/141663/download",
+        "https://www.fda.gov/media/141664/download",
+        [],
+        "https://www.fda.gov/media/141665/download",
+        []
+    ],
+    [
+        "baycare laboratories, llc__baycare sars-cov-2 rt pcr assay",
+        "2020-08-31",
+        "2021-01-28",
+        "BayCare Laboratories, LLC",
+        "BayCare SARS-CoV-2 RT PCR Assay",
+        "https://www.fda.gov/media/141766/download",
+        "Molecular Real-time RT-PCR, Pooling",
+        "H",
+        "https://www.fda.gov/media/141767/download",
+        "https://www.fda.gov/media/141768/download",
+        [],
+        "https://www.fda.gov/media/141769/download",
+        []
+    ],
+    [
+        "mammoth biosciences, inc.__sars-cov-2 detectr reagent kit",
+        "2020-08-31",
+        "2020-08-31",
+        "Mammoth Biosciences, Inc.",
+        "SARS-CoV-2 DETECTR Reagent Kit",
+        "https://www.fda.gov/media/141762/download",
+        "Molecular RT-LAMP, CRISPR",
+        "H",
+        "https://www.fda.gov/media/141763/download",
+        "https://www.fda.gov/media/141764/download",
+        [
+            "https://www.fda.gov/media/141765/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "miradx__miradx sars-cov-2 rt-pcr assay",
+        "2020-08-31",
+        "2020-08-31",
+        "MiraDx",
+        "MiraDx SARS-CoV-2 RT-PCR assay",
+        "https://www.fda.gov/media/141756/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/141757/download",
+        "https://www.fda.gov/media/141758/download",
+        [],
+        "https://www.fda.gov/media/141760/download",
+        []
+    ],
+    [
+        "t2 biosystems, inc.__t2sars-cov-2 panel",
+        "2020-08-31",
+        "2020-12-28",
+        "T2 Biosystems, Inc.",
+        "T2SARS-CoV-2 Panel",
+        "https://www.fda.gov/media/141752/download",
+        "Molecular RT, amplification, T2 Magnetic resonance",
+        "H, M",
+        "https://www.fda.gov/media/141753/download",
+        "https://www.fda.gov/media/141754/download",
+        [
+            "https://www.fda.gov/media/141755/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "university of arizona genetics core for clinical services__covid-19 elisa pan-ig antibody test",
+        "2020-08-31",
+        "2020-08-31",
+        "University of Arizona Genetics Core for Clinical Services",
+        "COVID-19 ELISA pan-Ig Antibody Test",
+        "https://www.fda.gov/media/141774/download",
+        "Serology Total Antibody, ELISA",
+        "H",
+        "https://www.fda.gov/media/141775/download",
+        "https://www.fda.gov/media/141776/download",
+        [],
+        "https://www.fda.gov/media/141777/download",
+        []
+    ],
+    [
+        "tbg biotechnology corp.__tbg sars-cov-2 igg / igm rapid test kit",
+        "2020-08-31",
+        "2020-08-31",
+        "TBG Biotechnology Corp.",
+        "TBG SARS-CoV-2 IgG / IgM Rapid Test Kit",
+        "https://www.fda.gov/media/141770/download",
+        "Serology IgM and IgG, Lateral Flow",
+        "H, M",
+        "https://www.fda.gov/media/141771/download",
+        "https://www.fda.gov/media/141772/download",
+        [
+            "https://www.fda.gov/media/141773/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "color genomics, inc.__color covid-19 test self-swab collection kit",
+        "2020-08-31",
+        "2020-09-15",
+        "Color Genomics, Inc.",
+        "Color COVID-19 Test Self-Swab Collection Kit",
+        "https://www.fda.gov/media/141796/download",
+        "Home Collection Kit",
+        "",
+        "",
+        "",
+        [
+            "https://www.fda.gov/media/141798/download"
+        ],
+        "https://www.fda.gov/media/141797/download",
+        []
+    ],
+    [
+        "optolane technologies, inc.__kaira 2019-ncov detection kit",
+        "2020-09-01",
+        "2020-12-28",
+        "OPTOLANE Technologies, Inc.",
+        "Kaira 2019-nCoV Detection Kit",
+        "https://www.fda.gov/media/141792/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/141793/download",
+        "https://www.fda.gov/media/141794/download",
+        [
+            "https://www.fda.gov/media/141795/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "detectachem inc.__mobiledetect bio bcc19 (md-bio bcc19) test kit",
+        "2020-09-01",
+        "2020-10-06",
+        "Detectachem Inc.",
+        "MobileDetect Bio BCC19 (MD-Bio BCC19) Test Kit",
+        "https://www.fda.gov/media/141788/download",
+        "Molecular RT, LAMP",
+        "H, M",
+        "https://www.fda.gov/media/141789/download",
+        "https://www.fda.gov/media/141790/download",
+        [
+            "https://www.fda.gov/media/141791/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "bioeksen r&d technologies ltd.__bio-speedy direct rt-qpcr sars-cov-2",
+        "2020-09-02",
+        "2020-12-09",
+        "Bioeksen R&D Technologies Ltd.",
+        "Bio-Speedy Direct RT-qPCR SARS-CoV-2",
+        "https://www.fda.gov/media/141824/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/141822/download",
+        "https://www.fda.gov/media/141825/download",
+        [
+            "https://www.fda.gov/media/141823/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/144306/download"
+        ]
+    ],
+    [
+        "roche molecular systems, inc.__cobas sars-cov-2 & influenza a/b",
+        "2020-09-03",
+        "2020-12-15",
+        "Roche Molecular Systems, Inc.",
+        "cobas SARS-CoV-2 & Influenza A/B",
+        "https://www.fda.gov/media/141884/download",
+        "Molecular Real-time RT-PCR, Multi-analyte",
+        "H, M",
+        "https://www.fda.gov/media/141885/download",
+        "https://www.fda.gov/media/141886/download",
+        [
+            "https://www.fda.gov/media/141887/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/144564/download"
+        ]
+    ],
+    [
+        "sugentech, inc.__sgti-flex covid-19 igg",
+        "2020-09-03",
+        "2020-09-03",
+        "Sugentech, Inc.",
+        "SGTi-flex COVID-19 IgG",
+        "https://www.fda.gov/media/141888/download",
+        "Serology IgG, Lateral Flow",
+        "H, M",
+        "https://www.fda.gov/media/141889/download",
+        "https://www.fda.gov/media/141890/download",
+        [
+            "https://www.fda.gov/media/141891/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "billiontoone, inc.__qsanger-covid-19 assay",
+        "2020-09-04",
+        "2020-09-04",
+        "BillionToOne, Inc.",
+        "qSanger-COVID-19 Assay",
+        "https://www.fda.gov/media/141932/download",
+        "Molecular Sequencing",
+        "H",
+        "https://www.fda.gov/media/141933/download",
+        "https://www.fda.gov/media/141934/download",
+        [
+            "https://www.fda.gov/media/141935/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "verily life sciences__verily covid-19 rt-pcr test",
+        "2020-09-08",
+        "2020-12-22",
+        "Verily Life Sciences",
+        "Verily COVID-19 RT-PCR Test",
+        "https://www.fda.gov/media/141948/download",
+        "Molecular Real-time RT-PCR, Pooling, Home Collection",
+        "H",
+        "https://www.fda.gov/media/141949/download",
+        "https://www.fda.gov/media/141950/download",
+        [
+            "https://www.fda.gov/media/144660/download"
+        ],
+        "https://www.fda.gov/media/141951/download",
+        []
+    ],
+    [
+        "biocheck, inc.__biocheck sars-cov-2 igm antibody test kit",
+        "2020-09-09",
+        "2020-09-09",
+        "BioCheck, Inc.",
+        "BioCheck SARS-CoV-2 IgM Antibody Test Kit",
+        "https://www.fda.gov/media/141998/download",
+        "Serology IgM, CLIA",
+        "H, M",
+        "https://www.fda.gov/media/141999/download",
+        "https://www.fda.gov/media/142000/download",
+        [
+            "https://www.fda.gov/media/142002/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "biocheck, inc.__biocheck sars-cov-2 igg antibody test kit",
+        "2020-09-09",
+        "2020-09-09",
+        "BioCheck, Inc.",
+        "BioCheck SARS-CoV-2 IgG Antibody Test Kit",
+        "https://www.fda.gov/media/142003/download",
+        "Serology IgG, CLIA",
+        "H, M",
+        "https://www.fda.gov/media/142004/download",
+        "https://www.fda.gov/media/142005/download",
+        [
+            "https://www.fda.gov/media/142006/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "beijing wantai biological pharmacy enterprise co., ltd.__wantai sars-cov-2 rt-pcr kit",
+        "2020-09-09",
+        "2020-10-31",
+        "Beijing Wantai Biological Pharmacy Enterprise Co., Ltd.",
+        "Wantai SARS-CoV-2 RT-PCR Kit",
+        "https://www.fda.gov/media/141994/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/141995/download",
+        "https://www.fda.gov/media/141996/download",
+        [
+            "https://www.fda.gov/media/141997/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/143498/download"
+        ]
+    ],
+    [
+        "shenzhen new industries biomedical engineering co., ltd.__maglumi 2019-ncov igm/igg",
+        "2020-09-14",
+        "2020-09-14",
+        "Shenzhen New Industries Biomedical Engineering Co., Ltd.",
+        "MAGLUMI 2019-nCoV IgM/IgG",
+        "https://www.fda.gov/media/142230/download",
+        "Serology IgM and IgG, CLIA",
+        "H, M",
+        "https://www.fda.gov/media/142231/download",
+        "https://www.fda.gov/media/142232/download",
+        [
+            "https://www.fda.gov/media/142233/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "roche molecular systems, inc.__cobas sars-cov-2 & influenza a/b nucleic acid test for use on the cobas liat system",
+        "2020-09-14",
+        "2020-12-10",
+        "Roche Molecular Systems, Inc.",
+        "cobas SARS-CoV-2 & Influenza A/B Nucleic Acid Test for use on the cobas Liat System",
+        "https://www.fda.gov/media/142190/download",
+        "Molecular Real-time RT-PCR, Multi-analyte",
+        "H, M, W",
+        "https://www.fda.gov/media/142191/download",
+        "https://www.fda.gov/media/142192/download",
+        [
+            "https://www.fda.gov/media/142193/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/142441/download",
+            "https://www.fda.gov/media/144391/download"
+        ]
+    ],
+    [
+        "visby medical, inc.__visby medical covid-19",
+        "2020-09-16",
+        "2020-12-28",
+        "Visby Medical, Inc.",
+        "Visby Medical COVID-19",
+        "https://www.fda.gov/media/142225/download",
+        "Molecular RT-PCR",
+        "H, M",
+        "https://www.fda.gov/media/142226/download",
+        "https://www.fda.gov/media/142227/download",
+        [
+            "https://www.fda.gov/media/142228/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "gk pharmaceuticals contract manufacturing operations__gk accu-right sars-cov-2 rt-pcr kit",
+        "2020-09-18",
+        "2020-09-18",
+        "GK Pharmaceuticals Contract Manufacturing Operations",
+        "GK ACCU-RIGHT SARS-CoV-2 RT-PCR KIT",
+        "https://www.fda.gov/media/142307/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/142307/download",
+        "https://www.fda.gov/media/142309/download",
+        [
+            "https://www.fda.gov/media/142310/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "kimforest enterprise co., ltd.__kimforest sars-cov-2 detection kit v1",
+        "2020-09-21",
+        "2020-09-21",
+        "KimForest Enterprise Co., Ltd.",
+        "KimForest SARS-CoV-2 Detection Kit v1",
+        "https://www.fda.gov/media/142360/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/142361/download",
+        "https://www.fda.gov/media/142362/download",
+        [
+            "https://www.fda.gov/media/142363/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "quadrant biosciences inc.__clarifi covid-19 test kit",
+        "2020-09-22",
+        "2020-09-22",
+        "Quadrant Biosciences Inc.",
+        "Clarifi COVID-19 Test Kit",
+        "https://www.fda.gov/media/142376/download",
+        "Molecular Real-time RT-PCR, Saliva",
+        "H",
+        "https://www.fda.gov/media/142377/download",
+        "https://www.fda.gov/media/142378/download",
+        [
+            "https://www.fda.gov/media/142379/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "vela operations singapore pte. ltd.__virokey sars-cov-2 rt-pcr test v2.0",
+        "2020-09-22",
+        "2020-09-22",
+        "Vela Operations Singapore Pte. Ltd.",
+        "ViroKey SARS-CoV-2 RT-PCR Test v2.0",
+        "https://www.fda.gov/media/142380/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/142381/download",
+        "https://www.fda.gov/media/142382/download",
+        [
+            "https://www.fda.gov/media/142383/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "clear labs, inc.__clear dx sars-cov-2 test",
+        "2020-09-23",
+        "2020-12-28",
+        "Clear Labs, Inc.",
+        "Clear Dx SARS-CoV-2 Test",
+        "https://www.fda.gov/media/142419/download",
+        "Molecular RT-PCR and Sequencing",
+        "H",
+        "https://www.fda.gov/media/142417/download",
+        "https://www.fda.gov/media/142420/download",
+        [
+            "https://www.fda.gov/media/142418/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "jiangsu well biotech co., ltd.__orawell igm/igg rapid test",
+        "2020-09-23",
+        "2020-11-10",
+        "Jiangsu Well Biotech Co., Ltd.",
+        "Orawell IgM/IgG Rapid Test",
+        "https://www.fda.gov/media/142423/download",
+        "Serology IgM and IgG, Lateral Flow",
+        "H, M",
+        "https://www.fda.gov/media/142421/download",
+        "https://www.fda.gov/media/142421/download",
+        [
+            "https://www.fda.gov/media/142422/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/143748/download"
+        ]
+    ],
+    [
+        "cepheid__xpert xpress sars-cov-2/flu/rsv",
+        "2020-09-24",
+        "2021-01-27",
+        "Cepheid",
+        "Xpert Xpress SARS-CoV-2/Flu/RSV",
+        "https://www.fda.gov/media/142434/download",
+        "Molecular Real-time RT-PCR, Multi-analyte",
+        "H, M, W",
+        "https://www.fda.gov/media/142435/download",
+        "https://www.fda.gov/media/142436/download",
+        [
+            "https://www.fda.gov/media/142437/download",
+            "https://www.fda.gov/media/142438/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/145516/download"
+        ]
+    ],
+    [
+        "genetrack biolabs, inc.__genetrack sars-cov-2 molecular assay",
+        "2020-09-25",
+        "2020-10-17",
+        "Genetrack Biolabs, Inc.",
+        "Genetrack SARS-CoV-2 Molecular Assay",
+        "https://www.fda.gov/media/142479/download",
+        "Molecular Real-time RT-PCR, Home Collection",
+        "H",
+        "https://www.fda.gov/media/142480/download",
+        "https://www.fda.gov/media/142481/download",
+        [
+            "https://www.fda.gov/media/142601/download"
+        ],
+        "https://www.fda.gov/media/142482/download",
+        [
+            "https://www.fda.gov/media/143138/download"
+        ]
+    ],
+    [
+        "quotient suisse sa__mosaiq covid-19 antibody magazine",
+        "2020-09-25",
+        "2020-09-25",
+        "Quotient Suisse SA",
+        "MosaiQ COVID-19 Antibody Magazine",
+        "https://www.fda.gov/media/142483/download",
+        "Serology Total Antibody, photometric immunoassay",
+        "H",
+        "https://www.fda.gov/media/142484/download",
+        "https://www.fda.gov/media/142485/download",
+        [
+            "https://www.fda.gov/media/142486/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "diasorin, inc.__diasorin liaison sars-cov-2 igm assay",
+        "2020-09-29",
+        "2020-09-29",
+        "DiaSorin, Inc.",
+        "DiaSorin LIAISON SARS-CoV-2 IgM Assay",
+        "https://www.fda.gov/media/142549/download",
+        "Serology Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/142550/download",
+        "https://www.fda.gov/media/142551/download",
+        [
+            "https://www.fda.gov/media/142552/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "nanoentek america, inc.__frend covid-19 total ab",
+        "2020-09-29",
+        "2020-09-29",
+        "NanoEntek America, Inc.",
+        "FREND COVID-19 total Ab",
+        "https://www.fda.gov/media/142554/download",
+        "Serology Total Antibody, FIA",
+        "H, M",
+        "https://www.fda.gov/media/142555/download",
+        "https://www.fda.gov/media/142556/download",
+        [
+            "https://www.fda.gov/media/142557/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "nirmidas biotech, inc.__nirmidas covid-19 (sars-cov-2) igm/igg antibody detection kit",
+        "2020-09-29",
+        "2020-09-29",
+        "Nirmidas Biotech, Inc.",
+        "Nirmidas COVID-19 (SARS-CoV-2) IgM/IgG Antibody Detection Kit",
+        "https://www.fda.gov/media/142558/download",
+        "Serology Total Antibody, FIA",
+        "H, M",
+        "https://www.fda.gov/media/142559/download",
+        "https://www.fda.gov/media/142560/download",
+        [
+            "https://www.fda.gov/media/142561/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "centogene us, llc__centosure sars-cov-2 rt-pcr assay",
+        "2020-09-29",
+        "2020-09-29",
+        "CENTOGENE US, LLC",
+        "CentoSure SARS-CoV-2 RT-PCR Assay",
+        "https://www.fda.gov/media/142536/download",
+        "Molecular Real-time RT-PCR, Screening",
+        "H",
+        "https://www.fda.gov/media/142537/download",
+        "https://www.fda.gov/media/142538/download",
+        [],
+        "https://www.fda.gov/media/142539/download",
+        []
+    ],
+    [
+        "akron children’s hospital__akron children’s hospital sars-cov-2 assay",
+        "2020-09-29",
+        "2020-09-29",
+        "Akron Children’s Hospital",
+        "Akron Children’s Hospital SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/142540/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/142541/download",
+        "https://www.fda.gov/media/142542/download",
+        [],
+        "https://www.fda.gov/media/142543/download",
+        []
+    ],
+    [
+        "national jewish health__sars-cov-2 massarray test",
+        "2020-09-29",
+        "2020-09-29",
+        "National Jewish Health",
+        "SARS-CoV-2 MassArray Test",
+        "https://www.fda.gov/media/142545/download",
+        "Molecular RT-PCR and MALDI-TOF Mass Spec.",
+        "H",
+        "https://www.fda.gov/media/142546/download",
+        "https://www.fda.gov/media/142547/download",
+        [],
+        "https://www.fda.gov/media/142548/download",
+        []
+    ],
+    [
+        "alimetrix, inc.__alimetrix sars-cov-2 rt-pcr assay",
+        "2020-09-30",
+        "2020-09-30",
+        "Alimetrix, Inc.",
+        "Alimetrix SARS-CoV-2 RT-PCR Assay",
+        "https://www.fda.gov/media/142589/download",
+        "Molecular RT-PCR, Microarray Hybridization",
+        "H",
+        "https://www.fda.gov/media/142590/download",
+        "https://www.fda.gov/media/142591/download",
+        [],
+        "https://www.fda.gov/media/142592/download",
+        []
+    ],
+    [
+        "aeon global health__aeon global health sars-cov-2 assay",
+        "2020-09-30",
+        "2020-09-30",
+        "Aeon Global Health",
+        "Aeon Global Health SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/142532/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/142533/download",
+        "https://www.fda.gov/media/142534/download",
+        [],
+        "https://www.fda.gov/media/142535/download",
+        []
+    ],
+    [
+        "umass memorial medical center__umass molecular virology laboratory 2019-ncov rrt-pcr dx panel",
+        "2020-10-01",
+        "2020-12-28",
+        "UMass Memorial Medical Center",
+        "UMass Molecular Virology Laboratory 2019-nCoV rRT-PCR Dx Panel",
+        "https://www.fda.gov/media/142689/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/142690/download",
+        "https://www.fda.gov/media/142691/download",
+        [],
+        "https://www.fda.gov/media/142692/download",
+        []
+    ],
+    [
+        "beckman coulter, inc.__access il-6",
+        "2020-10-01",
+        "2020-10-01",
+        "Beckman Coulter, Inc.",
+        "Access IL-6",
+        "https://www.fda.gov/media/142597/download",
+        "One-step immunoenzymatic (\"sandwich\") assay, IL-6",
+        "H, M",
+        "https://www.fda.gov/media/142598/download",
+        "https://www.fda.gov/media/142599/download",
+        [
+            "https://www.fda.gov/media/142600/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "tempus labs, inc.__ic sars-cov2 test",
+        "2020-10-01",
+        "2020-10-01",
+        "Tempus Labs, Inc.",
+        "iC SARS-CoV2 Test",
+        "https://www.fda.gov/media/142593/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/142594/download",
+        "https://www.fda.gov/media/142595/download",
+        [],
+        "https://www.fda.gov/media/142596/download",
+        []
+    ],
+    [
+        "quidel corporation__sofia 2 flu + sars antigen fia",
+        "2020-10-02",
+        "2020-10-02",
+        "Quidel Corporation",
+        "Sofia 2 Flu + SARS Antigen FIA",
+        "https://www.fda.gov/media/142701/download",
+        "Antigen Lateral Flow, Fluorescence, Instrument Read, Multi-Analyte",
+        "H, M, W",
+        "https://www.fda.gov/media/142702/download",
+        "https://www.fda.gov/media/142703/download",
+        [
+            "https://www.fda.gov/media/142704/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "thermo fisher scientific__omnipath covid-19 total antibody elisa test",
+        "2020-10-02",
+        "2020-10-06",
+        "Thermo Fisher Scientific",
+        "OmniPATH COVID-19 Total Antibody ELISA Test",
+        "https://www.fda.gov/media/142697/download",
+        "Serology Total Antibody, ELISA",
+        "H, M",
+        "https://www.fda.gov/media/142698/download",
+        "https://www.fda.gov/media/142699/download",
+        [
+            "https://www.fda.gov/media/142700/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "biofire diagnostics, llc__biofire respiratory panel 2.1-ez (rp2.1-ez)",
+        "2020-10-02",
+        "2020-12-22",
+        "BioFire Diagnostics, LLC",
+        "BioFire Respiratory Panel 2.1-EZ (RP2.1-EZ)",
+        "https://www.fda.gov/media/142693/download",
+        "Molecular RT, Nested multiplex PCR, Multi-analyte",
+        "H, M, W",
+        "https://www.fda.gov/media/142694/download",
+        "https://www.fda.gov/media/142695/download",
+        [
+            "https://www.fda.gov/media/142696/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/144746/download"
+        ]
+    ],
+    [
+        "seasun biomaterials, inc.__aq-top covid-19 rapid detection kit plus",
+        "2020-10-05",
+        "2020-10-05",
+        "SEASUN BIOMATERIALS, Inc.",
+        "AQ-TOP COVID-19 Rapid Detection Kit PLUS",
+        "https://www.fda.gov/media/142797/download",
+        "Molecular RT-LAMP",
+        "H",
+        "https://www.fda.gov/media/142798/download",
+        "https://www.fda.gov/media/142799/download",
+        [
+            "https://www.fda.gov/media/142800/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "zeus scientific, inc.__zeus elisa sars-cov-2 igg test system",
+        "2020-10-06",
+        "2020-10-06",
+        "ZEUS Scientific, Inc.",
+        "ZEUS ELISA SARS-CoV-2 IgG Test System",
+        "https://www.fda.gov/media/142806/download",
+        "Serology IgG, ELISA",
+        "H, M",
+        "https://www.fda.gov/media/142807/download",
+        "https://www.fda.gov/media/142808/download",
+        [
+            "https://www.fda.gov/media/142809/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "university of california, los angeles (ucla)__ucla swabseq covid-19 diagnostic platform",
+        "2020-10-06",
+        "2020-10-08",
+        "University of California, Los Angeles (UCLA)",
+        "UCLA SwabSeq COVID-19 Diagnostic Platform",
+        "https://www.fda.gov/media/142802/download",
+        "Molecular RT-PCR and Sequencing",
+        "H",
+        "https://www.fda.gov/media/142803/download",
+        "https://www.fda.gov/media/142804/download",
+        [],
+        "https://www.fda.gov/media/142805/download",
+        []
+    ],
+    [
+        "genmark diagnostics, inc.__eplex respiratory pathogen panel 2",
+        "2020-10-07",
+        "2020-10-07",
+        "GenMark Diagnostics, Inc.",
+        "ePlex Respiratory Pathogen Panel 2",
+        "https://www.fda.gov/media/142902/download",
+        "Molecular RT-PCR and electrochemical detection, Multi-analyte",
+        "H, M",
+        "https://www.fda.gov/media/142903/download",
+        "https://www.fda.gov/media/142904/download",
+        [
+            "https://www.fda.gov/media/142905/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "access bio, inc.__carestart covid-19 antigen test",
+        "2020-10-08",
+        "2021-02-08",
+        "Access Bio, Inc.",
+        "CareStart COVID-19 Antigen test",
+        "https://www.fda.gov/media/142916/download",
+        "Antigen Lateral Flow, Visual Read",
+        "H, M, W",
+        "https://www.fda.gov/media/142917/download",
+        "https://www.fda.gov/media/142918/download",
+        [
+            "https://www.fda.gov/media/142919/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "beckman coulter, inc.__access sars-cov-2 igm",
+        "2020-10-08",
+        "2020-10-08",
+        "Beckman Coulter, Inc.",
+        "Access SARS-CoV-2 IgM",
+        "https://www.fda.gov/media/142908/download",
+        "Serology IgM, CLIA",
+        "H,M",
+        "https://www.fda.gov/media/142909/download",
+        "https://www.fda.gov/media/142910/download",
+        [
+            "https://www.fda.gov/media/142911/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "genalyte, inc.__maverick sars-cov-2 multi-antigen serology panel v2",
+        "2020-10-08",
+        "2020-10-08",
+        "Genalyte, Inc.",
+        "Maverick SARS-CoV-2 Multi-Antigen Serology Panel v2",
+        "https://www.fda.gov/media/142912/download",
+        "Serology Total Antibody, photonic ring immunoassay",
+        "H, M",
+        "https://www.fda.gov/media/142913/download",
+        "https://www.fda.gov/media/142914/download",
+        [
+            "https://www.fda.gov/media/142915/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "spectrum solutions llc__sdna-1000 saliva collection device",
+        "2020-10-08",
+        "2020-10-16",
+        "Spectrum Solutions LLC",
+        "SDNA-1000 Saliva Collection Device",
+        "https://www.fda.gov/media/142906/download",
+        "Saliva Collection Device",
+        "N/A",
+        "",
+        "",
+        [
+            "https://www.fda.gov/media/143055/download"
+        ],
+        "https://www.fda.gov/media/142907/download",
+        []
+    ],
+    [
+        "abbott laboratories inc.__advisedx sars-cov-2 igm",
+        "2020-10-09",
+        "2020-10-09",
+        "Abbott Laboratories Inc.",
+        "AdviseDx SARS-CoV-2 IgM",
+        "https://www.fda.gov/media/142937/download",
+        "Serology IgM, CMIA",
+        "H, M",
+        "https://www.fda.gov/media/142938/download",
+        "https://www.fda.gov/media/142939/download",
+        [
+            "https://www.fda.gov/media/142940/download",
+            "https://www.fda.gov/media/142941/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "dna genotek inc.__omnigene·oral om-505 and ome-505 (omnigene·oral) saliva collection devices",
+        "2020-10-14",
+        "2020-10-28",
+        "DNA Genotek Inc.",
+        "OMNIgene·ORAL OM-505 and OME-505 (OMNIgene·ORAL) saliva collection devices",
+        "https://www.fda.gov/media/143418/download",
+        "Saliva Collection Device",
+        "N/A",
+        "",
+        "",
+        [
+            "https://www.fda.gov/media/143420/download"
+        ],
+        "https://www.fda.gov/media/143419/download",
+        []
+    ],
+    [
+        "lumiradx uk ltd.__lumiradx sars-cov-2 rna star complete",
+        "2020-10-14",
+        "2021-02-09",
+        "LumiraDx UK Ltd.",
+        "LumiraDx SARS-CoV-2 RNA STAR Complete",
+        "https://www.fda.gov/media/143059/download",
+        "Molecular RT, qSTAR amplification",
+        "H",
+        "https://www.fda.gov/media/143060/download",
+        "https://www.fda.gov/media/143061/download",
+        [
+            "https://www.fda.gov/media/143062/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "clinical enterprise, inc.__empowerdx at-home covid-19 pcr test kit",
+        "2020-10-15",
+        "2020-12-11",
+        "Clinical Enterprise, Inc.",
+        "EmpowerDX At-Home COVID-19 PCR Test Kit",
+        "https://www.fda.gov/media/143063/download",
+        "Home Collection Kit",
+        "N/A",
+        "",
+        "",
+        [
+            "https://www.fda.gov/media/143065/download"
+        ],
+        "https://www.fda.gov/media/143064/download",
+        []
+    ],
+    [
+        "binx health, inc.__binx health at-home nasal swab covid-19 sample collection kit",
+        "2020-10-20",
+        "2020-12-04",
+        "binx health, Inc.",
+        "binx health At-Home Nasal Swab COVID-19 Sample Collection Kit",
+        "https://www.fda.gov/media/143183/download",
+        "Home Collection Kit",
+        "N/A",
+        "",
+        "",
+        [
+            "https://www.fda.gov/media/143186/download"
+        ],
+        "https://www.fda.gov/media/143185/download",
+        []
+    ],
+    [
+        "celltrion usa, inc.__sampinute covid-19 antigen mia",
+        "2020-10-23",
+        "2020-10-23",
+        "Celltrion USA, Inc.",
+        "Sampinute COVID-19 Antigen MIA",
+        "https://www.fda.gov/media/143267/download",
+        "Antigen Magnetic Force-assisted Electrochemical Sandwich Immunoassay (MESIA)",
+        "H, M",
+        "https://www.fda.gov/media/143268/download",
+        "https://www.fda.gov/media/143269/download",
+        [
+            "https://www.fda.gov/media/143270/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "agena bioscience, inc.__massarray sars-cov-2 panel",
+        "2020-10-26",
+        "2021-01-27",
+        "Agena Bioscience, Inc.",
+        "MassARRAY SARS-CoV-2 Panel",
+        "https://www.fda.gov/media/143331/download",
+        "Molecular RT-PCR, chip array and MALDI-TOF Mass Spec.",
+        "H",
+        "https://www.fda.gov/media/143332/download",
+        "https://www.fda.gov/media/143333/download",
+        [
+            "https://www.fda.gov/media/143334/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/144067/download",
+            "https://www.fda.gov/media/145517/download"
+        ]
+    ],
+    [
+        "quansys biosciences, inc.__q-plex sars-cov-2 human igg (4 plex)",
+        "2020-10-28",
+        "2020-10-28",
+        "Quansys Biosciences, Inc.",
+        "Q-Plex SARS-CoV-2 Human IgG (4 Plex)",
+        "https://www.fda.gov/media/143453/download",
+        "Serology IgG, CLIA",
+        "H",
+        "https://www.fda.gov/media/143451/download",
+        "https://www.fda.gov/media/143454/download",
+        [
+            "https://www.fda.gov/media/143452/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "dna genotek inc.__oracollect∙rna or-100 and oracollect∙rna ore-100 saliva collection devices",
+        "2020-10-28",
+        "2020-10-28",
+        "DNA Genotek Inc.",
+        "ORAcollect∙RNA OR-100 and ORAcollect∙RNA ORE-100 saliva collection devices",
+        "https://www.fda.gov/media/143415/download",
+        "Saliva Collection Device",
+        "N/A",
+        "",
+        "",
+        [
+            "https://www.fda.gov/media/143417/download"
+        ],
+        "https://www.fda.gov/media/143416/download",
+        []
+    ],
+    [
+        "genscript usa inc.__cpass sars-cov-2 neutralization antibody detection kit",
+        "2020-11-06",
+        "2020-11-06",
+        "GenScript USA Inc.",
+        "cPass SARS-CoV-2 Neutralization Antibody Detection Kit",
+        "https://www.fda.gov/media/143584/download",
+        "Serology Total Neutralizing Antibodies, Blocking ELISA",
+        "H",
+        "https://www.fda.gov/media/143582/download",
+        "https://www.fda.gov/media/143585/download",
+        [
+            "https://www.fda.gov/media/143583/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "lucira health, inc.__lucira covid-19 all-in-one test kit",
+        "2020-11-18",
+        "2020-11-18",
+        "Lucira Health, Inc.",
+        "Lucira COVID-19 All-In-One Test Kit",
+        "https://www.fda.gov/media/143810/download",
+        "Prescription Home Testing",
+        "Home, H, M, W",
+        "https://www.fda.gov/media/143807/download",
+        "",
+        [
+            "https://www.fda.gov/media/143808/download",
+            "https://www.fda.gov/media/143809/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "innovita (tangshan) biological technology co., ltd.__innovita 2019-ncov ab test (colloidal gold)",
+        "2020-11-23",
+        "2020-11-23",
+        "Innovita (Tangshan) Biological Technology Co., Ltd.",
+        "Innovita 2019-nCoV Ab Test (Colloidal Gold)",
+        "https://www.fda.gov/media/144068/download",
+        "Serology IgM and IgG, Lateral Flow",
+        "H, M",
+        "https://www.fda.gov/media/144069/download",
+        "https://www.fda.gov/media/144070/download",
+        [
+            "https://www.fda.gov/media/144071/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "gravity diagnostics, llc__gravity diagnostics sars-cov-2 rt-pcr assay",
+        "2020-11-23",
+        "2020-12-28",
+        "Gravity Diagnostics, LLC",
+        "Gravity Diagnostics SARS-CoV-2 RT-PCR Assay",
+        "https://www.fda.gov/media/143932/download",
+        "Molecular Real-time RT-PCR, Home Collection, Screening, Saliva",
+        "H",
+        "https://www.fda.gov/media/143933/download",
+        "https://www.fda.gov/media/143934/download",
+        [],
+        "https://www.fda.gov/media/143935/download",
+        []
+    ],
+    [
+        "rapidrona, inc.__rapidrona self-collection kit",
+        "2020-11-23",
+        "2020-11-23",
+        "RapidRona, Inc.",
+        "RapidRona Self-Collection Kit",
+        "https://www.fda.gov/media/143927/download",
+        "Home Collection Kit",
+        "N/A",
+        "",
+        "",
+        [
+            "https://www.fda.gov/media/143929/download"
+        ],
+        "https://www.fda.gov/media/143928/download",
+        []
+    ],
+    [
+        "kantaro biosciences, llc__covid-seroklir, kantaro semi-quantitative sars-cov-2 igg antibody kit",
+        "2020-11-24",
+        "2020-11-24",
+        "Kantaro Biosciences, LLC",
+        "COVID-SeroKlir, Kantaro Semi-Quantitative SARS-CoV-2 IgG Antibody Kit",
+        "https://www.fda.gov/media/144007/download",
+        "Serology IgG, ELISA, Semi-quantitative",
+        "H",
+        "https://www.fda.gov/media/144008/download",
+        "https://www.fda.gov/media/144009/download",
+        [
+            "https://www.fda.gov/media/144010/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "roche diagnostics, inc.__elecsys anti-sars-cov-2 s",
+        "2020-11-25",
+        "2020-11-25",
+        "Roche Diagnostics, Inc.",
+        "Elecsys Anti-SARS-CoV-2 S",
+        "https://www.fda.gov/media/144034/download",
+        "Serology Total Antibody, ECLIA, Semi-quantitative",
+        "H, M",
+        "https://www.fda.gov/media/144035/download",
+        "https://www.fda.gov/media/144036/download",
+        [
+            "https://www.fda.gov/media/144037/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "cepheid__xpert omni sars-cov-2",
+        "2020-11-27",
+        "2020-12-23",
+        "Cepheid",
+        "Xpert Omni SARS-CoV-2",
+        "https://www.fda.gov/media/144029/download",
+        "Molecular Real-time RT-PCR",
+        "H, M",
+        "https://www.fda.gov/media/144030/download",
+        "https://www.fda.gov/media/144031/download",
+        [
+            "https://www.fda.gov/media/144033/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/144755/download"
+        ]
+    ],
+    [
+        "quest diagnostics infectious disease, inc.__quest diagnostics rc covid-19+flu rt-pcr",
+        "2020-12-04",
+        "2020-12-04",
+        "Quest Diagnostics Infectious Disease, Inc.",
+        "Quest Diagnostics RC COVID-19+Flu RT-PCR",
+        "https://www.fda.gov/media/144180/download",
+        "Molecular Real-time RT-PCR, Multi-analyte, Home Collection",
+        "H",
+        "https://www.fda.gov/media/144178/download",
+        "https://www.fda.gov/media/144181/download",
+        [
+            "https://www.fda.gov/media/144179/download"
+        ],
+        "https://www.fda.gov/media/144177/download",
+        []
+    ],
+    [
+        "luminostics, inc.__clip covid rapid antigen test",
+        "2020-12-07",
+        "2020-12-07",
+        "Luminostics, Inc.",
+        "Clip COVID Rapid Antigen Test",
+        "https://www.fda.gov/media/144253/download",
+        "Antigen Lateral flow immunoluminescent assay, instrument read",
+        "H, M, W",
+        "https://www.fda.gov/media/144254/download",
+        "https://www.fda.gov/media/144255/download",
+        [
+            "https://www.fda.gov/media/144256/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "laboratory corporation of america (labcorp)__pixel by labcorp covid-19 test home collection kit",
+        "2020-12-09",
+        "2020-12-09",
+        "Laboratory Corporation of America (LabCorp)",
+        "Pixel by LabCorp COVID-19 Test Home Collection Kit",
+        "https://www.fda.gov/media/144333/download",
+        "Molecular Direct to Consumer (DTC), Real-time RT-PCR, Home Collection, Pooling, Screening",
+        "H",
+        "https://www.fda.gov/media/144334/download",
+        "",
+        [
+            "https://www.fda.gov/media/137154/download"
+        ],
+        "https://www.fda.gov/media/144336/download",
+        []
+    ],
+    [
+        "researchdx, inc., dba pacific diagnostics__pacificdx covid-19",
+        "2020-12-11",
+        "2020-12-11",
+        "ResearchDx, Inc., DBA Pacific Diagnostics",
+        "PacificDx Covid-19",
+        "https://www.fda.gov/media/144555/download",
+        "Molecular TMA, chemiluminescent, Home Collection",
+        "H",
+        "https://www.fda.gov/media/144556/download",
+        "https://www.fda.gov/media/144557/download",
+        [],
+        "https://www.fda.gov/media/144558/download",
+        []
+    ],
+    [
+        "acon laboratories, inc.__acon sars-cov-2 igg/igm rapid test",
+        "2020-12-15",
+        "2020-12-15",
+        "ACON Laboratories, Inc.",
+        "ACON SARS-CoV-2 IgG/IgM Rapid Test",
+        "https://www.fda.gov/media/144559/download",
+        "Serology IgM and IgG, Lateral Flow",
+        "H, M",
+        "https://www.fda.gov/media/144560/download",
+        "https://www.fda.gov/media/144561/download",
+        [
+            "https://www.fda.gov/media/144562/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "rca laboratory services llc dba genetworx__genetworx covid-19 nasal swab test",
+        "2020-12-15",
+        "2021-02-12",
+        "RCA Laboratory Services LLC dba GENETWORx",
+        "GENETWORx Covid-19 Nasal Swab Test",
+        "https://www.fda.gov/media/144550/download",
+        "Molecular Real-time RT-PCR, Home Collection",
+        "H",
+        "https://www.fda.gov/media/144551/download",
+        "https://www.fda.gov/media/144552/download",
+        [
+            "https://www.fda.gov/media/144554/download"
+        ],
+        "https://www.fda.gov/media/144553/download",
+        [
+            "https://www.fda.gov/media/145919/download"
+        ]
+    ],
+    [
+        "ellume limited__ellume covid-19 home test",
+        "2020-12-15",
+        "2021-02-11",
+        "Ellume Limited",
+        "Ellume COVID-19 Home Test",
+        "https://www.fda.gov/media/144457/download",
+        "Antigen Lateral Flow, Fluorescence, Instrument Read, Over the Counter (OTC) Home Testing, Screening",
+        "Home, H, M, W",
+        "https://www.fda.gov/media/144591/download",
+        "",
+        [
+            "https://www.fda.gov/media/144592/download",
+            "https://www.fda.gov/media/144593/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "hologic, inc.__aptima sars-cov-2/flu assay",
+        "2020-12-16",
+        "2020-12-16",
+        "Hologic, Inc.",
+        "Aptima SARS-CoV-2/Flu assay",
+        "https://www.fda.gov/media/144587/download",
+        "Molecular Real-time TMA, chemiluminescent, Multi-analyte",
+        "H",
+        "https://www.fda.gov/media/144588/download",
+        "https://www.fda.gov/media/144589/download",
+        [
+            "https://www.fda.gov/media/144590/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "abbott diagnostics scarborough, inc.__binaxnow covid-19 ag card home test",
+        "2020-12-16",
+        "2020-12-16",
+        "Abbott Diagnostics Scarborough, Inc.",
+        "BinaxNOW COVID-19 Ag Card Home Test",
+        "https://www.fda.gov/media/144576/download",
+        "Antigen Lateral Flow, Visual Read, Prescription Home Testing",
+        "H, M, W",
+        "https://www.fda.gov/media/144573/download",
+        "",
+        [
+            "https://www.fda.gov/media/144574/download",
+            "https://www.fda.gov/media/144575/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "materials and machines corporation of america (dba matmacorp, inc.)__matmacorp covid-19 2sf test",
+        "2020-12-17",
+        "2020-12-17",
+        "Materials and Machines Corporation of America (DBA MatmaCorp, Inc.)",
+        "MatMaCorp COVID-19 2SF Test",
+        "https://www.fda.gov/media/144656/download",
+        "Molecular RT-PCR and isothermal nucleic acid amplification",
+        "H",
+        "https://www.fda.gov/media/144657/download",
+        "https://www.fda.gov/media/144658/download",
+        [
+            "https://www.fda.gov/media/144659/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "siemens healthcare diagnostics inc.__advia centaur il6 assay",
+        "2020-12-18",
+        "2020-12-18",
+        "Siemens Healthcare Diagnostics Inc.",
+        "ADVIA Centaur IL6 assay",
+        "https://www.fda.gov/media/144669/download",
+        "One-step Direct Chemiluminescent Immunoassay",
+        "H, M",
+        "https://www.fda.gov/media/144670/download",
+        "https://www.fda.gov/media/144671/download",
+        [
+            "https://www.fda.gov/media/144672/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "quidel corporation__quickvue sars antigen test",
+        "2020-12-18",
+        "2020-12-22",
+        "Quidel Corporation",
+        "QuickVue SARS Antigen Test",
+        "https://www.fda.gov/media/144665/download",
+        "Antigen Lateral Flow, Visual Read",
+        "H, M, W",
+        "https://www.fda.gov/media/144666/download",
+        "https://www.fda.gov/media/144667/download",
+        [
+            "https://www.fda.gov/media/144668/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "cepheid__xpert xpress sars-cov-2 dod",
+        "2020-12-23",
+        "2020-12-23",
+        "Cepheid",
+        "Xpert Xpress SARS-CoV-2 DoD",
+        "https://www.fda.gov/media/144790/download",
+        "Real-time RT-PCR, Pooling",
+        "H, M, W",
+        "https://www.fda.gov/media/144791/download",
+        "https://www.fda.gov/media/144792/download",
+        [],
+        "https://www.fda.gov/media/144793/download",
+        []
+    ],
+    [
+        "quanterix corporation__simoa semi-quantitative sars-cov-2 igg antibody test",
+        "2020-12-23",
+        "2020-12-23",
+        "Quanterix Corporation",
+        "Simoa Semi-Quantitative SARS-CoV-2 IgG Antibody Test",
+        "https://www.fda.gov/media/144761/download",
+        "Serology IgG, Paramagnetic Microbead-based Sandwich ELISA, Semi-quantitative",
+        "H, M",
+        "https://www.fda.gov/media/144762/download",
+        "https://www.fda.gov/media/144763/download",
+        [
+            "https://www.fda.gov/media/144764/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "quidel corporation__solana sars-cov-2 assay",
+        "2020-12-23",
+        "2020-12-23",
+        "Quidel Corporation",
+        "Solana SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/144756/download",
+        "Molecular Isothermal Reverse Transcriptase – Helicase-Dependent Amplification (RT-HDA)",
+        "H, M",
+        "https://www.fda.gov/media/144757/download",
+        "https://www.fda.gov/media/144758/download",
+        [
+            "https://www.fda.gov/media/144759/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "nirmidas biotech, inc.__midaspot covid-19 antibody combo detection kit",
+        "2020-12-31",
+        "2021-02-05",
+        "Nirmidas Biotech, Inc.",
+        "MidaSpot COVID-19 Antibody Combo Detection Kit",
+        "https://www.fda.gov/media/144874/download",
+        "Serology IgM and IgG, lateral flow, Fingerstick Whole Blood",
+        "H, M, W",
+        "https://www.fda.gov/media/144875/download",
+        "https://www.fda.gov/media/144876/download",
+        [
+            "https://www.fda.gov/media/144877/download"
+        ],
+        "",
+        [
+            "https://www.fda.gov/media/145434/download",
+            "https://www.fda.gov/media/145774/download"
+        ]
+    ],
+    [
+        "quanterix corporation__simoa sars-cov-2 n protein antigen test",
+        "2021-01-05",
+        "2021-01-05",
+        "Quanterix Corporation",
+        "Simoa SARS-CoV-2 N Protein Antigen Test",
+        "https://www.fda.gov/media/144925/download",
+        "Antigen Paramagnetic Microbead-based Immunoassay",
+        "H, M",
+        "https://www.fda.gov/media/144926/download",
+        "https://www.fda.gov/media/144928/download",
+        [
+            "https://www.fda.gov/media/144929/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "siemens healthcare diagnostics inc.__dimension exl sars‑cov‑2 igg (cv2g)",
+        "2021-01-08",
+        "2021-01-08",
+        "Siemens Healthcare Diagnostics Inc.",
+        "Dimension EXL SARS‑CoV‑2 IgG (CV2G)",
+        "https://www.fda.gov/media/145012/download",
+        "Serology IgG, CLIA, Semi-quantitative",
+        "H, M",
+        "https://www.fda.gov/media/145013/download",
+        "https://www.fda.gov/media/145014/download",
+        [
+            "https://www.fda.gov/media/145015/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "siemens healthcare diagnostics inc.__dimension vista sars‑cov‑2 igg (cov2g)",
+        "2021-01-08",
+        "2021-01-08",
+        "Siemens Healthcare Diagnostics Inc.",
+        "Dimension Vista SARS‑CoV‑2 IgG (COV2G)",
+        "https://www.fda.gov/media/145017/download",
+        "Serology IgG, CLIA, Semi-quantitative",
+        "H, M",
+        "https://www.fda.gov/media/145018/download",
+        "https://www.fda.gov/media/145019/download",
+        [
+            "https://www.fda.gov/media/145020/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "ortho clinical diagnostics, inc.__vitros immunodiagnostic products sars-cov-2 antigen reagent pack",
+        "2021-01-11",
+        "2021-02-09",
+        "Ortho Clinical Diagnostics, Inc.",
+        "VITROS Immunodiagnostic Products SARS-CoV-2 Antigen Reagent Pack",
+        "https://www.fda.gov/media/145069/download",
+        "Antigen Chemiluminescence Immunoassay, Instrument Read",
+        "H, M",
+        "https://www.fda.gov/media/145070/download",
+        "https://www.fda.gov/media/145071/download",
+        [
+            "https://www.fda.gov/media/145073/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "phadia ab__elia sars-cov-2-sp1 igg test",
+        "2021-01-11",
+        "2021-01-19",
+        "Phadia AB",
+        "EliA SARS-CoV-2-Sp1 IgG Test",
+        "https://www.fda.gov/media/145082/download",
+        "Serology IgG, Fluoroenzyme Immunoassay, Semi-quantitative",
+        "H, M",
+        "https://www.fda.gov/media/145085/download",
+        "https://www.fda.gov/media/145087/download",
+        [
+            "https://www.fda.gov/media/145089/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "advaite, inc.__rapcov rapid covid-19 test",
+        "2021-01-11",
+        "2021-01-11",
+        "ADVAITE, Inc.",
+        "RapCov Rapid COVID-19 Test",
+        "https://www.fda.gov/media/145075/download",
+        "Serology IgG, Lateral Flow, Fingerstick Whole Blood",
+        "H, M, W",
+        "https://www.fda.gov/media/145077/download",
+        "https://www.fda.gov/media/145078/download",
+        [
+            "https://www.fda.gov/media/145080/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "sml genetree co., ltd.__ezplex sars-cov-2 g kit",
+        "2021-01-13",
+        "2021-01-14",
+        "SML GENETREE Co., Ltd.",
+        "Ezplex SARS-CoV-2 G Kit",
+        "https://www.fda.gov/media/145131/download",
+        "Molecular Real-time RT-PCR, Pooling",
+        "H",
+        "https://www.fda.gov/media/145132/download",
+        "https://www.fda.gov/media/145133/download",
+        [
+            "https://www.fda.gov/media/145134/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "united biomedical, inc.__ubi sars-cov-2 elisa",
+        "2021-01-15",
+        "2021-01-15",
+        "United Biomedical, Inc.",
+        "UBI SARS-CoV-2 ELISA",
+        "https://www.fda.gov/media/145280/download",
+        "Serology IgG, ELISA",
+        "H",
+        "https://www.fda.gov/media/145275/download",
+        "https://www.fda.gov/media/145281/download",
+        [
+            "https://www.fda.gov/media/145277/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "bio-rad laboratories, inc.__bio-rad reliance sars-cov-2 rt-pcr assay kit",
+        "2021-01-15",
+        "2021-01-15",
+        "Bio-Rad Laboratories, Inc.",
+        "Bio-Rad Reliance SARS-CoV-2 RT-PCR Assay Kit",
+        "https://www.fda.gov/media/145267/download",
+        "Molecular Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/145263/download",
+        "https://www.fda.gov/media/145268/download",
+        [
+            "https://www.fda.gov/media/145265/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "hospital of the university of pennsylvania__bd max covid-19 assay",
+        "2021-01-19",
+        "2021-01-19",
+        "Hospital of the University of Pennsylvania",
+        "BD MAX COVID-19 ASSAY",
+        "https://www.fda.gov/media/145675/download",
+        "Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/145676/download",
+        "https://www.fda.gov/media/145677/download",
+        [],
+        "https://www.fda.gov/media/145678/download",
+        []
+    ],
+    [
+        "inno diagnostics reference laboratory, ponce medical school__pmsf-inno sars-cov-2 rt-pcr test",
+        "2021-01-19",
+        "2021-01-19",
+        "INNO Diagnostics Reference Laboratory, Ponce Medical School",
+        "PMSF-INNO SARS-CoV-2 RT-PCR Test",
+        "https://www.fda.gov/media/145679/download",
+        "Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/145680/download",
+        "https://www.fda.gov/media/145681/download",
+        [],
+        "https://www.fda.gov/media/145682/download",
+        []
+    ],
+    [
+        "ambry genetics laboratory__ambry covid-19 rt-pcr test",
+        "2021-01-22",
+        "2021-01-22",
+        "Ambry Genetics Laboratory",
+        "Ambry COVID-19 RT-PCR Test",
+        "https://www.fda.gov/media/145406/download",
+        "Real-time RT-PCR, Home Collection, Saliva",
+        "H",
+        "https://www.fda.gov/media/145407/download",
+        "https://www.fda.gov/media/145408/download",
+        [
+            "https://www.fda.gov/media/145409/download"
+        ],
+        "https://www.fda.gov/media/145410/download",
+        []
+    ],
+    [
+        "clinomics usa inc.__clinomics triodx rt-pcr covid-19 test",
+        "2021-02-04",
+        "2021-02-04",
+        "Clinomics USA Inc.",
+        "Clinomics TrioDx RT-PCR COVID-19 Test",
+        "https://www.fda.gov/media/145686/download",
+        "Real-time RT-PCR",
+        "H",
+        "https://www.fda.gov/media/145687/download",
+        "https://www.fda.gov/media/145688/download",
+        [
+            "https://www.fda.gov/media/145689/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "princ.eton biomeditech corp.__status covid-19/flu",
+        "2021-02-04",
+        "2021-02-04",
+        "Princeton BioMeditech Corp.",
+        "Status COVID-19/Flu",
+        "https://www.fda.gov/media/145694/download",
+        "Lateral Flow, Visual Read, Multi-analyte",
+        "H, M, W",
+        "https://www.fda.gov/media/145695/download",
+        "https://www.fda.gov/media/145696/download",
+        [
+            "https://www.fda.gov/media/145697/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "visby medical, inc.__visby medical covid-19 point of care test",
+        "2021-02-08",
+        "2021-02-08",
+        "Visby Medical, Inc.",
+        "Visby Medical COVID-19 Point of Care Test",
+        "https://www.fda.gov/media/145914/download",
+        "RT-PCR",
+        "H, M, W",
+        "https://www.fda.gov/media/145915/download",
+        "https://www.fda.gov/media/145916/download",
+        [
+            "https://www.fda.gov/media/145917/download",
+            "https://www.fda.gov/media/145918/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "becton, dickinson and company (bd)__bd sars-cov-2/flu for bd max system",
+        "2021-02-10",
+        "2021-02-10",
+        "Becton, Dickinson and Company (BD)",
+        "BD SARS-CoV-2/Flu for BD MAX System",
+        "https://www.fda.gov/media/145924/download",
+        "Real-time RT-PCR, Multi-analyte",
+        "H, M",
+        "https://www.fda.gov/media/145925/download",
+        "https://www.fda.gov/media/145926/download",
+        [
+            "https://www.fda.gov/media/145927/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "thermo fisher scientific__taqpath covid-19, flua, flub combo kit",
+        "2021-02-10",
+        "2021-02-10",
+        "Thermo Fisher Scientific",
+        "TaqPath COVID-19, FluA, FluB Combo Kit",
+        "https://www.fda.gov/media/145928/download",
+        "Real-time RT-PCR, Multi-analyte",
+        "H",
+        "https://www.fda.gov/media/145929/download",
+        "https://www.fda.gov/media/145930/download",
+        [
+            "https://www.fda.gov/media/145931/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "grifols diagnostic solutions inc.__procleix sars-cov-2 assay",
+        "2021-02-10",
+        "2021-02-10",
+        "Grifols Diagnostic Solutions Inc.",
+        "Procleix SARS-CoV-2 Assay",
+        "https://www.fda.gov/media/145934/download",
+        "TMA",
+        "H",
+        "https://www.fda.gov/media/145935/download",
+        "https://www.fda.gov/media/145937/download",
+        [
+            "https://www.fda.gov/media/145938/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "immunodiagnostic systems ltd.__ids sars-cov-2 igg",
+        "2021-02-10",
+        "2021-02-10",
+        "Immunodiagnostic Systems Ltd.",
+        "IDS SARS-CoV-2 IgG",
+        "https://www.fda.gov/media/145941/download",
+        "IgG, CLIA",
+        "H, M",
+        "https://www.fda.gov/media/145942/download",
+        "https://www.fda.gov/media/145943/download",
+        [
+            "https://www.fda.gov/media/145944/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "bio-rad laboratories, inc.__bio-rad reliance sars-cov-2/flua/flub rt-pcr assay kit",
+        "2021-02-11",
+        "2021-02-11",
+        "Bio-Rad Laboratories, Inc.",
+        "Bio-Rad Reliance SARS-CoV-2/FluA/FluB RT-PCR Assay Kit",
+        "https://www.fda.gov/media/145920/download",
+        "Real-time RT-PCR, Multi-analyte",
+        "H",
+        "https://www.fda.gov/media/145921/download",
+        "https://www.fda.gov/media/145922/download",
+        [
+            "https://www.fda.gov/media/145923/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "gravity diagnostics, llc__gravity diagnostics sars-cov-2 rt-pcr for use with dtc kits",
+        "2021-02-13",
+        "2021-02-13",
+        "Gravity Diagnostics, LLC",
+        "Gravity Diagnostics SARS-CoV-2 RT-PCR for use with DTC kits",
+        "https://www.fda.gov/media/145977/download",
+        "Direct to Consumer (DTC), Real-time RT-PCR, Home Collection, Screening",
+        "H",
+        "https://www.fda.gov/media/145978/download",
+        "",
+        [],
+        "https://www.fda.gov/media/145980/download",
+        []
+    ],
+    [
+        "assurance scientific laboratories__assurance sars-cov-2 panel dtc",
+        "2021-02-13",
+        "2021-02-13",
+        "Assurance Scientific Laboratories",
+        "Assurance SARS-CoV-2 Panel DTC",
+        "https://www.fda.gov/media/145981/download",
+        "Direct to Consumer (DTC), Real-time RT-PCR, Home Collection, Screening",
+        "H",
+        "https://www.fda.gov/media/145982/download",
+        "",
+        [
+            "https://www.fda.gov/media/145985/download"
+        ],
+        "https://www.fda.gov/media/145984/download",
+        []
+    ],
+    [
+        "everlywell, inc.__everlywell covid-19 test home collection kit dtc",
+        "2021-02-13",
+        "2021-02-13",
+        "Everlywell, Inc.",
+        "Everlywell COVID-19 Test Home Collection Kit DTC",
+        "https://www.fda.gov/media/145986/download",
+        "Home Collection Kit, Direct to Consumer (DTC), Screening",
+        "H",
+        "",
+        "",
+        [
+            "https://www.fda.gov/media/145989/download"
+        ],
+        "https://www.fda.gov/media/145988/download",
+        []
+    ]
+]
