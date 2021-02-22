@@ -20,6 +20,7 @@ def HTML_file_path (file_name):
 
 
 def get_latest_html ():
+    print("Requesting latest FDA EUAs page")
     response = requests.get("https://www.fda.gov/emergency-preparedness-and-response/mcm-legal-regulatory-and-policy-framework/emergency-use-authorization")
 
     response.raise_for_status()
@@ -29,6 +30,8 @@ def get_latest_html ():
     file_path_latest = HTML_file_path("latest")
 
     html = response.text
+
+    print("Got latest FDA EUAs page, saving to: {}".format(file_path_date))
 
     with open(file_path_date, "w") as f:
         f.write(html)

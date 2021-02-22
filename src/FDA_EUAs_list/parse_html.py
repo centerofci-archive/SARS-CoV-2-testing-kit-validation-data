@@ -164,8 +164,10 @@ def parse_html ():
 
         if file_name == "2020-08-18":
             # Skipping this file as newer parser needed to deal with new page layout
-            print("skipping: " + file_name)
+            print("\nskipping: " + file_name)
             continue
+        else:
+            print("\nparsing: " + file_name)
 
         html = preprocess_html(file_contents)
         results = parse_html_string(html)

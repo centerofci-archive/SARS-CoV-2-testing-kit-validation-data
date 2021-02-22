@@ -191,6 +191,9 @@ def parse_versions ():
     file_names = os.listdir(csv_from_adveritasdx_dir)
 
     for file_name in file_names:
+        if not file_name.endswith(".csv"):
+            continue
+
         print("Parsing AdVeritasDx CSVs: {}".format(file_name))
         file_path = csv_from_adveritasdx_dir + "/" + file_name
         if os.path.isdir(file_path):

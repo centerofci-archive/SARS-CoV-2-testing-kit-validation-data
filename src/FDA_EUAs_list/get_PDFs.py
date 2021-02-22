@@ -78,6 +78,7 @@ def download_urls (urls, FDA_file_id_to_versioned_file_paths_map, shallow_check=
 
         print("Downloading: " + url)
         request = requests.get(url)
+        print("Downloaded: {}   Sleeping for {}".format(url, DELAY_SECONDS_BETWEEN_REQUESTS))
         time.sleep(DELAY_SECONDS_BETWEEN_REQUESTS)
 
         if not shallow_check:
