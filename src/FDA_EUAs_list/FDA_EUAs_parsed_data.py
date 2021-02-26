@@ -67,6 +67,9 @@ def get_all_json_fda_eua_parsed_data (file_names):
     json_fda_eua_parsed_data = []
     json_fda_eua_parsed_data_by_test_id = dict()
 
+    unfound_test_ids_by_file_name = dict()
+    unfound_test_ids = set()
+
     for file_name in file_names:
         snapshot_date = file_name.replace(".json", "")
         json_data = get_json_fda_eua_parsed_data(file_name)
@@ -81,16 +84,22 @@ def get_all_json_fda_eua_parsed_data (file_names):
 
 
             if test_id not in json_fda_eua_parsed_data_by_test_id:
-                test_id = custom_test_id_mapping_hack(snapshot_date, test_id)
+                test_id = map_new_to_old_test_id(snapshot_date, test_id)
 
             if test_id not in json_fda_eua_parsed_data_by_test_id:
-                oldest_file_name = file_names[0]
-                print("Could not find test_id: \"{}\" from {} in {} FDA EUA parsed data ({}).  This is likely a new test that needs to be added to the sets of test_ids stored in new_tests but may also be a change of test name.".format(test_id, file_name, oldest_file_name, DATA_DIRECTORY_EUAs_PARSED_DATA))
-                sys.exit(1)
+                if test_id in unfound_test_ids:
+                    continue
+                if file_name not in unfound_test_ids_by_file_name:
+                    unfound_test_ids_by_file_name[file_name] = []
+                unfound_test_ids_by_file_name[file_name].append(test_id)
+                unfound_test_ids.add(test_id)
+                continue
 
             existing_row = json_fda_eua_parsed_data_by_test_id[test_id]
             existing_row.update(row)
             existing_row["all_relevant_urls"] += filter_for_urls(row)
+
+    error_and_exit_on_unfound_test_ids(unfound_test_ids_by_file_name)
 
     for row in json_fda_eua_parsed_data:
         seen_urls = set()
@@ -104,6 +113,24 @@ def get_all_json_fda_eua_parsed_data (file_names):
         row["all_relevant_urls"] = unique_urls
 
     return json_fda_eua_parsed_data
+
+
+
+def error_and_exit_on_unfound_test_ids (unfound_test_ids_by_file_name):
+    if unfound_test_ids_by_file_name:
+        print("Could not find the following test_ids in any of the previous FDA EUA parsed data ({}).".format(DATA_DIRECTORY_EUAs_PARSED_DATA))
+        print("Go through each of the following test_ids and make sure they are new tests (i.e. open the most recent FDA/parsed/202d-dd-dd.json file and the json file just preceeding it, then search for the test manufacturer.  If more occurences in newer file than older file, we assume this means it is a new test rather than a renaming of an older test).  Otherwise if not a new test then add to ")
+
+    for file_name, test_ids in unfound_test_ids_by_file_name.items():
+        date = file_name.replace(".json", "")
+        print("\nNew test ids from file {}:\n\n    \"{}\": set([".format(file_name, date))
+        for test_id in test_ids:
+            print("        \"{}\",".format(test_id))
+        print("    ])")
+
+    if unfound_test_ids_by_file_name:
+        print("\nExiting as one or more test_id not found.  These are for new tests that needs to be added to the sets of test_ids stored in new_tests but may also be a change of test name.")
+        sys.exit(1)
 
 
 
@@ -211,40 +238,44 @@ new_tests = {
         "clinomics usa inc.__clinomics triodx rt-pcr covid-19 test",
         "princ.eton biomeditech corp.__status covid-19/flu",
     ]),
+    "2021-02-22": set([
+        "visby medical, inc.__visby medical covid-19 point of care test",
+        "becton, dickinson and company (bd)__bd sars-cov-2/flu for bd max system",
+        "thermo fisher scientific__taqpath covid-19, flua, flub combo kit",
+        "grifols diagnostic solutions inc.__procleix sars-cov-2 assay",
+        "immunodiagnostic systems ltd.__ids sars-cov-2 igg",
+        "bio-rad laboratories, inc.__bio-rad reliance sars-cov-2/flua/flub rt-pcr assay kit",
+        "gravity diagnostics, llc__gravity diagnostics sars-cov-2 rt-pcr for use with dtc kits",
+        "assurance scientific laboratories__assurance sars-cov-2 panel dtc",
+        "everlywell, inc.__everlywell covid-19 test home collection kit dtc",
+    ])
 }
 def is_new_test (snapshot_date, test_id):
     if snapshot_date == "2020-10-08":
         return True
 
-    return test_id in new_tests[snapshot_date]
+    return test_id in new_tests.get(snapshot_date, set())
 
 
 
-# Maps from older (canonical) ids to newer ids.
-custom_test_id_map = {
-    "2021-01-22": {
-        "stanford health care clinical virology laboratory__sars-cov-2 rt-pcr assay": "stanford health care clinical virology laboratory__stanford sars-cov-2 assay",
+# Maps from newer to older (canonical) ids.
+custom_test_id_map_2021_01_22 = {
+    "stanford health care clinical virology laboratory__sars-cov-2 rt-pcr assay": "stanford health care clinical virology laboratory__stanford sars-cov-2 assay",
 
-        "ortho-clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent pack": "ortho-clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent",
+    "ortho-clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent pack": "ortho-clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent",
 
-        "color genomics, inc.__color sars-cov-2 rt-lamp diagnostic assay": "color genomics, inc.__color genomics sars-cov-2 rt-lamp diagnostic assay",
+    "color genomics, inc.__color sars-cov-2 rt-lamp diagnostic assay": "color genomics, inc.__color genomics sars-cov-2 rt-lamp diagnostic assay",
 
-        "helix opco llc__helix covid-19 test": "helix opco llc (dba helix)__helix covid-19 test",
-    },
-    "2021-02-02": {},
-    "2021-02-08": {
-        "stanford health care clinical virology laboratory__sars-cov-2 rt-pcr assay": "stanford health care clinical virology laboratory__stanford sars-cov-2 assay",
-
-        "ortho-clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent pack": "ortho-clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent",
-
-        "color genomics, inc.__color sars-cov-2 rt-lamp diagnostic assay": "color genomics, inc.__color genomics sars-cov-2 rt-lamp diagnostic assay",
-
-        "helix opco llc__helix covid-19 test": "helix opco llc (dba helix)__helix covid-19 test",
-    },
+    "helix opco llc__helix covid-19 test": "helix opco llc (dba helix)__helix covid-19 test",
 }
-custom_test_id_map["2021-02-02"] = custom_test_id_map["2021-01-22"]
-def custom_test_id_mapping_hack (snapshot_date, test_id):
-    return custom_test_id_map[snapshot_date].get(test_id, test_id)
+custom_test_id_map = {
+    "2021-01-22": custom_test_id_map_2021_01_22,
+    "2021-02-02": custom_test_id_map_2021_01_22,
+    "2021-02-08": custom_test_id_map_2021_01_22,
+    "2021-02-22": custom_test_id_map_2021_01_22,
+}
+def map_new_to_old_test_id (snapshot_date, test_id):
+    return custom_test_id_map.get(snapshot_date, {}).get(test_id, test_id)
 
 
 
