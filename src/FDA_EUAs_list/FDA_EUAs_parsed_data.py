@@ -286,7 +286,9 @@ def get_versioned_relative_file_infos_for_FDA_file_id (FDA_file_id, FDA_file_id_
         versioned_relative_file_infos = FDA_file_id_to_versioned_file_infos_map[FDA_file_id]
 
     elif error_on_absence:
-        raise Exception("FDA_file_id \"{}\" not found in FDA_file_id_to_versioned_file_infos_map".format(FDA_file_id))
+        print("FDA_file_id \"{}\" not found in FDA_file_id_to_versioned_file_infos_map".format(FDA_file_id))
+        print("\nYou likely just need to visit:  http://localhost:5003/vault/sars-2-diagnostics  to fresh (update) the list of files in data/anot8_vault_config.json")
+        sys.exit(1)
 
     return versioned_relative_file_infos
 
