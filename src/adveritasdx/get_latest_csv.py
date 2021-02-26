@@ -33,14 +33,15 @@ def get_latest_csv ():
     file_path_datetime = CSV_file_path(datetime_str)
     file_path_latest = CSV_file_path("latest")
 
+    response.encoding = "utf-8"
     csv_text = response.text
 
     print("Got latest AdVeritasDx CSV page, saving to: {}".format(file_path_datetime))
 
-    with open(file_path_datetime, "w") as f:
+    with open(file_path_datetime, "w", encoding="utf8") as f:
         f.write(csv_text)
 
-    with open(file_path_latest, "w") as f:
+    with open(file_path_latest, "w", encoding="utf8") as f:
         f.write(csv_text)
 
 
