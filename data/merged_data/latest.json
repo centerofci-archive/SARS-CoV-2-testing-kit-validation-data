@@ -4120,7 +4120,11 @@
         "1460",
         "1461",
         "1462",
-        "1463"
+        "1463",
+        "1789",
+        "1790",
+        "1791",
+        "1792"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -10502,6 +10506,8 @@
         "409",
         "410",
         "411",
+        "411",
+        "415",
         "415",
         "1283",
         "1496",
@@ -16000,7 +16006,11 @@
         "1215",
         "1510",
         "1511",
-        "1512"
+        "1512",
+        "1793",
+        "1794",
+        "1795",
+        "1796"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -16701,7 +16711,8 @@
         "999",
         "1517",
         "1518",
-        "1520"
+        "1520",
+        "1797"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -36732,7 +36743,7 @@
       "first_issued_date": "2020-06-30",
       "developer_name": "The Kroger Co.",
       "test_name": "Kroger Health COVID-19 Test Home Collection Kit",
-      "test_technology": "Molecular Home Collection Kit",
+      "test_technology": "Home Collection Kit, Direct to Consumer (DTC), Screening",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/139682/download"
     },
     "anot8_org": {
@@ -36741,7 +36752,10 @@
       ],
       "file_ids_of_unannotated": [
         "667",
-        "668"
+        "668",
+        "1798",
+        "1799",
+        "1800"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -39154,7 +39168,9 @@
         "695",
         "696",
         "697",
-        "1772"
+        "1772",
+        "1801",
+        "1802"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -49826,7 +49842,9 @@
         "1722",
         "1723",
         "1724",
-        "1725"
+        "1725",
+        "1803",
+        "1804"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -51302,7 +51320,9 @@
         "934",
         "935",
         "936",
-        "937"
+        "937",
+        "1805",
+        "1806"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -52165,7 +52185,12 @@
         "955",
         "956",
         "957",
-        "958"
+        "958",
+        "1807",
+        "1808",
+        "1809",
+        "1810",
+        "1811"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -58920,7 +58945,7 @@
     },
     "adveritasdx": {
       "ordinal": 55,
-      "Done? (Y)": "not yet",
+      "Done? (Y)": "Airtable",
       "Company/Organization": {
         "avd": "UMass Memorial Medical Center",
         "annotations": []
@@ -58948,65 +58973,65 @@
         "avd": "rRT-PCR",
         "annotations": []
       },
-      "Specimen Type": "",
+      "Specimen Type": "Ns swab, MTNs swab, NP swab, OP swab, NP aspirate, BAL",
       "Transport Media": {
-        "avd": "",
+        "avd": "UTM, VTM, Saline",
         "annotations": []
       },
-      "Gene": "",
+      "Gene": "N (N1, N2)",
       "Antigen": {
         "avd": "NA",
         "annotations": []
       },
       "Sample Prep": {
-        "avd": "",
+        "avd": "Qiagen QIAcube QIAamp Viral RNA Mini Kits or ThermoFisher MagMAX Viral/Pathogen Nucleic Acid Isolation Kit for extraction, e iTaq Universal Probes One-Step Kit for amplification",
         "annotations": []
       },
       "Detection": {
-        "avd": "",
+        "avd": "BioRAD CFX96 Touch Real-Time PCR Detection System (software version not disclosed)",
         "annotations": []
       },
       "TAT": "",
-      "Analytical Sensitivity (LOD)": "",
+      "Analytical Sensitivity (LOD)": "8 copies/µL with QIAGEN QIAamp DSP Viral RNA Mini Kit2 copies/µL with MagMAX Viral/Pathogen Nucleic Acid Isolation Kit",
       "LOD of FDA Reference Panel (NDU/mL)": "",
       "Cross- Reactivity": {
-        "avd": "",
+        "avd": "No cross-reactivity predicted in silico nor detected in wet lab testing",
         "annotations": []
       },
       "PPA/Sensitivity": {
-        "avd": "",
+        "avd": "100.00%",
         "annotations": []
       },
       "PPA Sample Size": {
-        "avd": "",
+        "avd": "37",
         "annotations": []
       },
       "PPA Specimen Type": {
-        "avd": "",
+        "avd": "Clinical",
         "annotations": []
       },
       "NPA/Specificity": {
-        "avd": "",
+        "avd": "100.00%",
         "annotations": []
       },
       "NPA Sample Size": {
-        "avd": "",
+        "avd": "111",
         "annotations": []
       },
       "NPV @ 5% prevalence": "",
       "PPV@ 5% prevalence": "",
-      "Manufacturer's Validation Notes": "",
+      "Manufacturer's Validation Notes": "PPA determined with 37 clinical specimens (specimens types not disclosed) and confirmed positive using undisclosed EUA-authorized molecular tests NPA determined with 111clinical specimens (specimens types not disclosed) and confirmed negative using undisclosed EUA-authorized molecular tests",
       "External Quality Control": {
-        "avd": "",
+        "avd": "included",
         "annotations": []
       },
-      "Process (internal) Control": "",
+      "Process (internal) Control": "included",
       "Positive Control": {
-        "avd": "",
+        "avd": "included",
         "annotations": []
       },
       "*Publications": "",
-      "*IFU": "https://www.fda.gov/media/142597/download",
+      "*IFU": "https://www.fda.gov/media/142692/download",
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142689/download",
       "Creation Date": "",
       "Modified Date": "",
@@ -59604,7 +59629,7 @@
     },
     "adveritasdx": {
       "ordinal": 53,
-      "Done? (Y)": "Y",
+      "Done? (Y)": "Airtable",
       "Company/Organization": {
         "avd": "Thermo Fisher Scientific",
         "annotations": []
@@ -59950,7 +59975,7 @@
     },
     "adveritasdx": {
       "ordinal": 51,
-      "Done? (Y)": "y",
+      "Done? (Y)": "Airtable",
       "Company/Organization": {
         "avd": "SEASUN BIOMATERIALS, Inc.",
         "annotations": []
@@ -59980,7 +60005,7 @@
       },
       "Specimen Type": "OP swab, NP swab, ANs swab, MTNs swab, NP wash, NP aspirate, Ns aspirate, BAL",
       "Transport Media": {
-        "avd": "ND",
+        "avd": "Seasun Biomaterials TOP Virus Collection Kit",
         "annotations": []
       },
       "Gene": "ORF1ab, N",
@@ -59989,15 +60014,15 @@
         "annotations": []
       },
       "Sample Prep": {
-        "avd": "TOP Virus Collection Kit (Seasun Biomaterials) for sample collection, TOP Viral DNA/RNA Extraction Kit, PANAMAX 48 Nucleic acid extraction system (Software version: panaMAX 01.00.03) with PANAMAX Viral DNA/RNA Extraction Kit, or QIAamp DSP Virus Kit for RNA extraction",
+        "avd": "TOP Virus Collection Kit (Seasun Biomaterials) for sample collection, TOP Viral DNA/RNA Extraction Kit, PANAMAX 48 Nucleic acid extraction system (Software version: panaMAX 01.00.03) with PANAMAX Viral DNA/RNA Extraction Kit, QIAamp DSP Virus extraction Kit",
         "annotations": []
       },
       "Detection": {
-        "avd": "CFX 96 real-time PCR detection system (software CFX manager V3.1) or AB real-time PCR system 7500 (Software 2.0.6)",
+        "avd": "CFX 96 real-time PCR detection system (software CFX manager V3.1), AB real-time PCR system 7500 (Software 2.0.6)",
         "annotations": []
       },
-      "TAT": "<30 min",
-      "Analytical Sensitivity (LOD)": "1000 copies/mL, 1 copy/uL",
+      "TAT": "30 min",
+      "Analytical Sensitivity (LOD)": "1 copy/uL",
       "LOD of FDA Reference Panel (NDU/mL)": "",
       "Cross- Reactivity": {
         "avd": "No cross-reactivity predicted in silico nor detected in wet lab testing",
@@ -60035,7 +60060,7 @@
         "avd": "included",
         "annotations": []
       },
-      "*Publications": "",
+      "*Publications": "PPA determined with 35 leftover unique NP swab specimens collected from the hospital of Chungnam National University (South Korea) and confirmed positive using an undisclosed EUA-authorized molecular test.NPA determined with 50 leftover unique NP swab specimens collected from the hospital of Chungnam National University (South Korea) and confirmed negative using an undisclosed EUA-authorized molecular test.Clinical validation was performed using the PANAMAX48 extraction system and CFX 96 RealTime PCR system.",
       "*IFU": "https://www.fda.gov/media/142800/download",
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142797/download",
       "Creation Date": "",
@@ -60121,7 +60146,7 @@
     },
     "adveritasdx": {
       "ordinal": 49,
-      "Done? (Y)": "Y",
+      "Done? (Y)": "Airtable",
       "Company/Organization": {
         "avd": "ZEUS Scientific, Inc.",
         "annotations": []
@@ -60293,7 +60318,7 @@
     },
     "adveritasdx": {
       "ordinal": 50,
-      "Done? (Y)": "Y",
+      "Done? (Y)": "Airtable",
       "Company/Organization": {
         "avd": "University of California, Los Angeles (UCLA)",
         "annotations": []
@@ -60464,7 +60489,7 @@
     },
     "adveritasdx": {
       "ordinal": 48,
-      "Done? (Y)": "Y",
+      "Done? (Y)": "Airtable",
       "Company/Organization": {
         "avd": "GenMark Diagnostics, Inc.",
         "annotations": []
@@ -60579,7 +60604,8 @@
         "1757",
         "1758",
         "1759",
-        "1760"
+        "1760",
+        "1812"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -61493,7 +61519,7 @@
     },
     "adveritasdx": {
       "ordinal": 41,
-      "Done? (Y)": "",
+      "Done? (Y)": "Ready (correction)",
       "Company/Organization": {
         "avd": "DNA Genotek Inc.",
         "annotations": []
@@ -61523,7 +61549,7 @@
       },
       "Specimen Type": "Sal",
       "Transport Media": {
-        "avd": "Kit stabilizing solution",
+        "avd": "Kit stabilizing solution (included)",
         "annotations": []
       },
       "Gene": "NA",
@@ -61568,7 +61594,7 @@
       },
       "NPV @ 5% prevalence": "",
       "PPV@ 5% prevalence": "",
-      "Manufacturer's Validation Notes": "NA",
+      "Manufacturer's Validation Notes": "ND",
       "External Quality Control": {
         "avd": "NA",
         "annotations": []
@@ -61604,7 +61630,11 @@
         "1188",
         "1189",
         "1190",
-        "1191"
+        "1191",
+        "1813",
+        "1814",
+        "1815",
+        "1816"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -61834,7 +61864,7 @@
     },
     "adveritasdx": {
       "ordinal": 40,
-      "Done? (Y)": "y",
+      "Done? (Y)": "Airtable",
       "Company/Organization": {
         "avd": "Clinical Enterprise, Inc.",
         "annotations": []
@@ -61842,16 +61872,16 @@
       "Test Name": "EmpowerDX At-Home COVID-19 PCR Test Kit",
       "Select": "",
       "*URL": "https://empowerdxlab.com/nasal-test/",
-      "Test Type (Lab or Kit)": "Lab",
+      "Test Type (Lab or Kit)": "Collection",
       "Country of Origin": "USA",
       "US Regulatory Status": "EUA granted October 15, 2020",
       "Category": {
-        "avd": "N/A",
+        "avd": "Home Collection",
         "annotations": []
       },
       "Authorized Setting(s) per FDA": "N/A",
       "Technology": {
-        "avd": "Home Collection Kit",
+        "avd": "Home Collection Kit (nasal)",
         "annotations": []
       },
       "Analyte": {
@@ -61864,7 +61894,7 @@
       },
       "Specimen Type": "Ns swab",
       "Transport Media": {
-        "avd": "0.9% buffered saline",
+        "avd": "Saline",
         "annotations": []
       },
       "Gene": "NA",
@@ -61909,7 +61939,7 @@
       },
       "NPV @ 5% prevalence": "",
       "PPV@ 5% prevalence": "",
-      "Manufacturer's Validation Notes": "",
+      "Manufacturer's Validation Notes": "ND",
       "External Quality Control": {
         "avd": "NA",
         "annotations": []
@@ -62004,7 +62034,7 @@
     },
     "adveritasdx": {
       "ordinal": 39,
-      "Done? (Y)": "y",
+      "Done? (Y)": "Airtable",
       "Company/Organization": {
         "avd": "binx health, Inc.",
         "annotations": []
@@ -62012,16 +62042,16 @@
       "Test Name": "binx health At-Home Nasal Swab COVID-19 Sample Collection Kit",
       "Select": "",
       "*URL": "https://app.mybinxhealth.com/covid",
-      "Test Type (Lab or Kit)": "Lab",
+      "Test Type (Lab or Kit)": "Collection",
       "Country of Origin": "USA",
       "US Regulatory Status": "EUA granted October 20, 2020",
       "Category": {
-        "avd": "N/A",
+        "avd": "Home Collection",
         "annotations": []
       },
       "Authorized Setting(s) per FDA": "N/A",
       "Technology": {
-        "avd": "Home Collection Kit",
+        "avd": "Home Collection Kit (nasal)",
         "annotations": []
       },
       "Analyte": {
@@ -62079,7 +62109,7 @@
       },
       "NPV @ 5% prevalence": "",
       "PPV@ 5% prevalence": "",
-      "Manufacturer's Validation Notes": "",
+      "Manufacturer's Validation Notes": "ND",
       "External Quality Control": {
         "avd": "NA",
         "annotations": []
@@ -62175,7 +62205,7 @@
     },
     "adveritasdx": {
       "ordinal": 38,
-      "Done? (Y)": "y",
+      "Done? (Y)": "Airtable",
       "Company/Organization": {
         "avd": "Celltrion USA, Inc.",
         "annotations": []
@@ -62205,7 +62235,7 @@
       },
       "Specimen Type": "NP swab",
       "Transport Media": {
-        "avd": "UTM or VTM",
+        "avd": "UTM, VTM",
         "annotations": []
       },
       "Gene": "NA",
@@ -62214,48 +62244,48 @@
         "annotations": []
       },
       "Sample Prep": {
-        "avd": "Sample passed through SampinuteTM COVID- 19 Antigen MIA test cartridge",
+        "avd": "Manual",
         "annotations": []
       },
       "Detection": {
-        "avd": "Sampinute Analyzer",
+        "avd": "Celltrion Sampinute Analyzer",
         "annotations": []
       },
       "TAT": "10 min",
       "Analytical Sensitivity (LOD)": "30 TCID50/mL",
       "LOD of FDA Reference Panel (NDU/mL)": "",
       "Cross- Reactivity": {
-        "avd": "No cross-reactivity predicted in silico nor detected in wet lab testing",
+        "avd": "No cross-reactivity detected in wet lab testing",
         "annotations": []
       },
       "PPA/Sensitivity": {
-        "avd": "100.00%",
+        "avd": "95.10%",
         "annotations": []
       },
       "PPA Sample Size": {
-        "avd": "39",
+        "avd": "41",
         "annotations": []
       },
       "PPA Specimen Type": {
-        "avd": "clinical",
+        "avd": "Clinical",
         "annotations": []
       },
       "NPA/Specificity": {
-        "avd": "98.60%",
+        "avd": "100.00%",
         "annotations": []
       },
       "NPA Sample Size": {
-        "avd": "138",
+        "avd": "136",
         "annotations": []
       },
       "NPV @ 5% prevalence": "",
       "PPV@ 5% prevalence": "",
-      "Manufacturer's Validation Notes": "",
+      "Manufacturer's Validation Notes": "PPA determined with 41 frozen NP swab specimens collected from an undisclosed US biorepository and confirmed positive using an undisclosed EUA-authorized molecular test.NPA determined with 136 frozen NP swab specimens collected from an undisclosed US biorepository and confirmed negative using an undisclosed EUA-authorized molecular test.",
       "External Quality Control": {
         "avd": "included",
         "annotations": []
       },
-      "Process (internal) Control": "included (automated)",
+      "Process (internal) Control": "included",
       "Positive Control": {
         "avd": "included",
         "annotations": []
@@ -62349,7 +62379,7 @@
     },
     "adveritasdx": {
       "ordinal": 37,
-      "Done? (Y)": "y",
+      "Done? (Y)": "Airtable",
       "Company/Organization": {
         "avd": "Agena Bioscience, Inc.",
         "annotations": []
@@ -62374,7 +62404,7 @@
         "annotations": []
       },
       "Assay": {
-        "avd": "RT-PCR, MALDI-TOF, chip array",
+        "avd": "RT-PCR (multiplex), MALDI-TOF",
         "annotations": []
       },
       "Specimen Type": "NP swab, OP swab, MTNs swab, Ns swab, NP aspirate, Ns aspirate, BAL",
@@ -62392,11 +62422,11 @@
         "annotations": []
       },
       "Detection": {
-        "avd": "Data acquired by MassARRAY Analyzer is processed by MassARRAY Typer software, MassARRAY SARS-CoV-2 Report software (v1.4 or greater), MassARRAY System with Chip Prep Module (CPM) 96",
+        "avd": "MassARRAY Analyzer (MassARRAY Typer software, MassARRAY SARS-CoV-2 Report software v1.4 or greater), MassARRAY System with Chip Prep Module (CPM) 96 or 384",
         "annotations": []
       },
       "TAT": "ND",
-      "Analytical Sensitivity (LOD)": "2500 cp/mL",
+      "Analytical Sensitivity (LOD)": "2.5 copy/μL",
       "LOD of FDA Reference Panel (NDU/mL)": "",
       "Cross- Reactivity": {
         "avd": "No cross-reactivity predicted in silico",
@@ -62424,7 +62454,7 @@
       },
       "NPV @ 5% prevalence": "",
       "PPV@ 5% prevalence": "",
-      "Manufacturer's Validation Notes": "",
+      "Manufacturer's Validation Notes": "PPA determined with 90 clinical NP swab specimens collected from 60 patients suspected of COVID-19 (prospective validation) and 30 positive patients (retrospective validation), all confirmed positive using an undisclosed EUA-approved molecular test. Three additional samples tested inconclusive but could not be retested due to insufficient material and were not included in the analysis. NPA determined with 90 clinical NP swab specimens confirmed negative using an undisclosed EUA-approved molecular test.Samples were randomized and blinded.",
       "External Quality Control": {
         "avd": "not included",
         "annotations": []
@@ -62520,7 +62550,7 @@
     },
     "adveritasdx": {
       "ordinal": 35,
-      "Done? (Y)": "y",
+      "Done? (Y)": "Ready",
       "Company/Organization": {
         "avd": "Quansys Biosciences, Inc.",
         "annotations": []
@@ -62550,7 +62580,7 @@
       },
       "Specimen Type": "Ser, Pla",
       "Transport Media": {
-        "avd": "K2 EDTA and lithium heparin",
+        "avd": "Potassium EDTA, lithium heparin",
         "annotations": []
       },
       "Gene": "NA",
@@ -62563,7 +62593,7 @@
         "annotations": []
       },
       "Detection": {
-        "avd": "Q-ViewTM Imager Pro or Q-ViewTM Imager LS and Q-ViewTM Software",
+        "avd": "Q-ViewTM Imager Pro, Q-ViewTM Imager LS (Q-ViewTM Software version not disclosed)",
         "annotations": []
       },
       "TAT": "2 hours",
@@ -62574,19 +62604,19 @@
         "annotations": []
       },
       "PPA/Sensitivity": {
-        "avd": "97.4",
+        "avd": "95.50%",
         "annotations": []
       },
       "PPA Sample Size": {
-        "avd": "39",
+        "avd": "22",
         "annotations": []
       },
       "PPA Specimen Type": {
-        "avd": "clinical",
+        "avd": "Clinical",
         "annotations": []
       },
       "NPA/Specificity": {
-        "avd": "99.7",
+        "avd": "99.70%",
         "annotations": []
       },
       "NPA Sample Size": {
@@ -62595,9 +62625,9 @@
       },
       "NPV @ 5% prevalence": "",
       "PPV@ 5% prevalence": "",
-      "Manufacturer's Validation Notes": "",
+      "Manufacturer's Validation Notes": "PPA determined with 22 clinical serum and plasma samples collected from known positive patients (>14 days post-infection) purchased from an undisclosed US vendor and confirmed positive with an undisclosed molecular test. NPA determined with 585 clinical serum and plasma samples purchased from an undisclosed US vendor, collected prior to August 2019 and assumed to be negative or collected from subjects confirmed negative with un undisclosed molecular test. No interactions were observed to IgA, IgE, IgD, and less than 1% cross reactivity was observed with IgM.",
       "External Quality Control": {
-        "avd": "not included",
+        "avd": "included",
         "annotations": []
       },
       "Process (internal) Control": "included",
@@ -62690,37 +62720,37 @@
     },
     "adveritasdx": {
       "ordinal": 36,
-      "Done? (Y)": "not yet",
+      "Done? (Y)": "Ready",
       "Company/Organization": {
         "avd": "DNA Genotek Inc.",
         "annotations": []
       },
       "Test Name": "ORAcollect∙RNA OR-100 and ORAcollect∙RNA ORE-100 saliva collection devices",
       "Select": "",
-      "*URL": "",
-      "Test Type (Lab or Kit)": "",
+      "*URL": "https://www.dnagenotek.com/ROW/products/collection-human/oracollect-rna/ORE-100.html",
+      "Test Type (Lab or Kit)": "Collection",
       "Country of Origin": "Canada",
       "US Regulatory Status": "EUA granted October 28, 2020",
       "Category": {
-        "avd": "",
+        "avd": "Home collection",
         "annotations": []
       },
       "Authorized Setting(s) per FDA": "N/A",
       "Technology": {
-        "avd": "Saliva Collection Device",
+        "avd": "Home Collection Kit (saliva)",
         "annotations": []
       },
       "Analyte": {
-        "avd": "NA",
+        "avd": "RNA",
         "annotations": []
       },
       "Assay": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "Specimen Type": "Sal",
       "Transport Media": {
-        "avd": "",
+        "avd": "Kit stabilizing solution (included)",
         "annotations": []
       },
       "Gene": "NA",
@@ -62729,54 +62759,54 @@
         "annotations": []
       },
       "Sample Prep": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "Detection": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
-      "TAT": "",
-      "Analytical Sensitivity (LOD)": "",
-      "LOD of FDA Reference Panel (NDU/mL)": "",
+      "TAT": "NA",
+      "Analytical Sensitivity (LOD)": "NA",
+      "LOD of FDA Reference Panel (NDU/mL)": "NA",
       "Cross- Reactivity": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "PPA/Sensitivity": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "PPA Sample Size": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "PPA Specimen Type": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "NPA/Specificity": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "NPA Sample Size": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "NPV @ 5% prevalence": "",
       "PPV@ 5% prevalence": "",
-      "Manufacturer's Validation Notes": "",
+      "Manufacturer's Validation Notes": "ND",
       "External Quality Control": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
-      "Process (internal) Control": "",
+      "Process (internal) Control": "NA",
       "Positive Control": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "*Publications": "",
-      "*IFU": "",
+      "*IFU": "https://www.fda.gov/media/143417/download",
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143415/download",
       "Creation Date": "",
       "Modified Date": "",
@@ -62861,7 +62891,7 @@
     },
     "adveritasdx": {
       "ordinal": 34,
-      "Done? (Y)": "y",
+      "Done? (Y)": "Ready",
       "Company/Organization": {
         "avd": "GenScript USA Inc.",
         "annotations": []
@@ -62882,7 +62912,7 @@
         "annotations": []
       },
       "Analyte": {
-        "avd": "ND",
+        "avd": "IgA/IgM/IgG",
         "annotations": []
       },
       "Assay": {
@@ -62891,7 +62921,7 @@
       },
       "Specimen Type": "Ser, Pla",
       "Transport Media": {
-        "avd": "K2-EDTA for Plasma",
+        "avd": "Potassium EDTA",
         "annotations": []
       },
       "Gene": "NA",
@@ -62904,14 +62934,14 @@
         "annotations": []
       },
       "Detection": {
-        "avd": "Microplate reader (manufacturer not disclosed)",
+        "avd": "Microplate reader (any)",
         "annotations": []
       },
       "TAT": "ND",
-      "Analytical Sensitivity (LOD)": "ND",
+      "Analytical Sensitivity (LOD)": "NA",
       "LOD of FDA Reference Panel (NDU/mL)": "",
       "Cross- Reactivity": {
-        "avd": "No cross-reactivity detected in wet lab testing",
+        "avd": "No cross-reactivity detected in wet lab testing of antibodies against 60 distinct pathogens",
         "annotations": []
       },
       "PPA/Sensitivity": {
@@ -62923,7 +62953,7 @@
         "annotations": []
       },
       "PPA Specimen Type": {
-        "avd": "clinical",
+        "avd": "Clinical",
         "annotations": []
       },
       "NPA/Specificity": {
@@ -62936,12 +62966,12 @@
       },
       "NPV @ 5% prevalence": "",
       "PPV@ 5% prevalence": "",
-      "Manufacturer's Validation Notes": "",
+      "Manufacturer's Validation Notes": "PPA determined with 26 clinical samples (sample type not disclosed) collected retrospectively, confirmed positive with an undisclosed molecular test and further compared to the Plaque Reduction Neutralization Test (both PRNT50 and PRNT90 titers were used as comparator) utilizing SARS-CoV-2  WA01/2020 isolate. NPA determined with 88 clinical samples (sample type not disclosed) collected retrospectively, confirmed negative with an undisclosed molecular test and further compared to the Plaque Reduction Neutralization Test (both PRNT50 and PRNT90 titers were used as comparator) utilizing SARS-CoV-2  WA01/2020 isolate.",
       "External Quality Control": {
         "avd": "included",
         "annotations": []
       },
-      "Process (internal) Control": "not included",
+      "Process (internal) Control": "Included",
       "Positive Control": {
         "avd": "included",
         "annotations": []
@@ -63233,7 +63263,7 @@
       },
       "Specimen Type": "Ser, Pla, VWB",
       "Transport Media": {
-        "avd": "sodium citrate, lithium heparin, or K2 EDTA for plasma or venous whole blood",
+        "avd": "sodium citrate, lithium heparin, K2 EDTA for plasma or VWH",
         "annotations": []
       },
       "Gene": "NA",
@@ -63253,11 +63283,11 @@
       "Analytical Sensitivity (LOD)": "ND",
       "LOD of FDA Reference Panel (NDU/mL)": "",
       "Cross- Reactivity": {
-        "avd": "No cross-reactivity detected in wet-lab setting",
+        "avd": "No cross-reactivity detected in wet-lab testing of antibodies against 29 distinct pathogens",
         "annotations": []
       },
       "PPA/Sensitivity": {
-        "avd": "86.67%",
+        "avd": "100% combined93.3% for IgG, 98.8% for IgM",
         "annotations": []
       },
       "PPA Sample Size": {
@@ -63265,15 +63295,15 @@
         "annotations": []
       },
       "PPA Specimen Type": {
-        "avd": "clinical",
+        "avd": "Clinical",
         "annotations": []
       },
       "NPA/Specificity": {
-        "avd": "97.14%",
+        "avd": "97.5% combined98.8% for IgG, 98.8% for IgM",
         "annotations": []
       },
       "NPA Sample Size": {
-        "avd": "70",
+        "avd": "80",
         "annotations": []
       },
       "NPV @ 5% prevalence": "",
@@ -63374,7 +63404,7 @@
     },
     "adveritasdx": {
       "ordinal": 31,
-      "Done? (Y)": "y/Vero",
+      "Done? (Y)": "Ready",
       "Company/Organization": {
         "avd": "Gravity Diagnostics, LLC",
         "annotations": []
@@ -63413,7 +63443,7 @@
         "annotations": []
       },
       "Sample Prep": {
-        "avd": "Thermo Fisher MagMAX Viral/Pathogen II (MVP II) Nucleic Acid Isolation Kit with automation instrument Thermo Fisher KingFisher Flex (software version 2.5) or Hamilton Microlab STAR (software version 1.01), reverse transcription and amplification using AB QuantStudio7 Flex instrument (software version 1.3), QuantStudio12 Flex (QS12) instrument (software version 1.2.2)",
+        "avd": "Thermo Fisher MagMAX Viral/Pathogen II (MVP II) Nucleic Acid Isolation Kit with automation instrument Thermo Fisher KingFisher Flex (software version 2.5) or Hamilton Microlab STAR (software version 1.01)",
         "annotations": []
       },
       "Detection": {
@@ -63421,22 +63451,22 @@
         "annotations": []
       },
       "TAT": "",
-      "Analytical Sensitivity (LOD)": "",
-      "LOD of FDA Reference Panel (NDU/mL)": "1.8x10^4 NDU/mL",
+      "Analytical Sensitivity (LOD)": "1,000 GE/mL KingFisher extraction platform500 GE/mL  Hamilton extraction platform",
+      "LOD of FDA Reference Panel (NDU/mL)": "",
       "Cross- Reactivity": {
-        "avd": "No cross-reactivity predicted in silico",
+        "avd": "No cross-reactivity predicted in silico nor detected in wet lab testing",
         "annotations": []
       },
       "PPA/Sensitivity": {
-        "avd": "96.32%",
+        "avd": "96.40%",
         "annotations": []
       },
       "PPA Sample Size": {
-        "avd": "90",
+        "avd": "55",
         "annotations": []
       },
       "PPA Specimen Type": {
-        "avd": "clinical",
+        "avd": "Clinical",
         "annotations": []
       },
       "NPA/Specificity": {
@@ -63444,12 +63474,12 @@
         "annotations": []
       },
       "NPA Sample Size": {
-        "avd": "589",
+        "avd": "115",
         "annotations": []
       },
       "NPV @ 5% prevalence": "",
       "PPV@ 5% prevalence": "",
-      "Manufacturer's Validation Notes": "",
+      "Manufacturer's Validation Notes": "PPA determined with 55 clinical samples (45 HCP-collected NP swabs, 9 HCP-collected nasal swabs, 1 self-collected nasal swab) and confirmed positive using an undisclosed molecular test. NPA determined with 115 clinical samples (73 HCP-collected NP swabs, 40 HCP-collected nasal swabs, 2 self-collected nasal swabs) and confirmed negative using an undisclosed molecular test.All testing was carried out using the KingFisher extraction platform and on the QS12 RT-PCR instrument.",
       "External Quality Control": {
         "avd": "Included",
         "annotations": []
@@ -63544,24 +63574,24 @@
     },
     "adveritasdx": {
       "ordinal": 32,
-      "Done? (Y)": "not yet",
+      "Done? (Y)": "Ready",
       "Company/Organization": {
         "avd": "RapidRona, Inc.",
         "annotations": []
       },
       "Test Name": "RapidRona Self-Collection Kit",
       "Select": "",
-      "*URL": "",
-      "Test Type (Lab or Kit)": "Lab",
+      "*URL": "https://www.rapidrona.com/",
+      "Test Type (Lab or Kit)": "Collection",
       "Country of Origin": "USA",
       "US Regulatory Status": "EUA granted November 23, 2020",
       "Category": {
-        "avd": "",
+        "avd": "Home Collection",
         "annotations": []
       },
       "Authorized Setting(s) per FDA": "N/A",
       "Technology": {
-        "avd": "Home Collection Kit",
+        "avd": "Home Collection Kit (nasal)",
         "annotations": []
       },
       "Analyte": {
@@ -63569,12 +63599,12 @@
         "annotations": []
       },
       "Assay": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "Specimen Type": "Ns swab",
       "Transport Media": {
-        "avd": "",
+        "avd": "Kit stabilizing solution (included)",
         "annotations": []
       },
       "Gene": "NA",
@@ -63583,50 +63613,50 @@
         "annotations": []
       },
       "Sample Prep": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "Detection": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
-      "TAT": "",
-      "Analytical Sensitivity (LOD)": "",
-      "LOD of FDA Reference Panel (NDU/mL)": "",
+      "TAT": "NA",
+      "Analytical Sensitivity (LOD)": "NA",
+      "LOD of FDA Reference Panel (NDU/mL)": "NA",
       "Cross- Reactivity": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "PPA/Sensitivity": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "PPA Sample Size": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "PPA Specimen Type": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "NPA/Specificity": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "NPA Sample Size": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "NPV @ 5% prevalence": "",
       "PPV@ 5% prevalence": "",
-      "Manufacturer's Validation Notes": "",
+      "Manufacturer's Validation Notes": "ND",
       "External Quality Control": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
-      "Process (internal) Control": "",
+      "Process (internal) Control": "NA",
       "Positive Control": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "*Publications": "",
@@ -63715,7 +63745,7 @@
     },
     "adveritasdx": {
       "ordinal": 30,
-      "Done? (Y)": "y",
+      "Done? (Y)": "Ready",
       "Company/Organization": {
         "avd": "Kantaro Biosciences, LLC",
         "annotations": []
@@ -63745,7 +63775,7 @@
       },
       "Specimen Type": "Ser, Pla",
       "Transport Media": {
-        "avd": "Li Heparin for Plasma",
+        "avd": "EDTA,  Li-Heparin",
         "annotations": []
       },
       "Gene": "NA",
@@ -63754,30 +63784,30 @@
         "annotations": []
       },
       "Sample Prep": {
-        "avd": "Manual, RBD ELISA for presence of antibody followed by Spike ELISA for semi-quantification of antibody",
+        "avd": "Manual",
         "annotations": []
       },
       "Detection": {
-        "avd": "Microplate reader (manufacturer not disclosed)",
+        "avd": "Microplate reader (any)",
         "annotations": []
       },
       "TAT": "",
-      "Analytical Sensitivity (LOD)": "0.82 CI for RBD ELISA, 2.61 AU/mL for spike ELISA",
+      "Analytical Sensitivity (LOD)": "0.82 CI for RBD, 2.61 AU/mL for S",
       "LOD of FDA Reference Panel (NDU/mL)": "",
       "Cross- Reactivity": {
-        "avd": "< 0.5% cross-reactivity observed with available related molecules in wet lab setting",
+        "avd": "no cross-reactivity detected in wet lab setting of antibodies against 15 distinct pathogens",
         "annotations": []
       },
       "PPA/Sensitivity": {
-        "avd": "98.78% for patients >15 days post-symptom onset, 99.15% for patients >15 days from positive PCR test",
+        "avd": "99.10%",
         "annotations": []
       },
       "PPA Sample Size": {
-        "avd": "245 for patients >15 days from symptom onset, 235 for patients >15 days from positive PCR test",
+        "avd": "235",
         "annotations": []
       },
       "PPA Specimen Type": {
-        "avd": "clinical",
+        "avd": "Clinical",
         "annotations": []
       },
       "NPA/Specificity": {
@@ -63790,7 +63820,7 @@
       },
       "NPV @ 5% prevalence": "",
       "PPV@ 5% prevalence": "",
-      "Manufacturer's Validation Notes": "",
+      "Manufacturer's Validation Notes": "PPA determined with 235 clinical serum samples  collected retrospectively and confirmed positive using an undisclosed molecular testNPA determined with 284 clinical serum samples collected prior to December 2019 and presumed negative. In addition, All 11 HIV-positive serum samples collected prior to December 2019 and presumed negative for SARS-CoV-2 were negative using Kantaro COVID-SeroKlir test. COVID-SeroKlir test allows the qualitative detection of IgG antibodies against  SARS-CoV-2 RBD, followed by the  semi-quantitative detection of IgG antibodies against SARS-CoV-2 Spike protein.",
       "External Quality Control": {
         "avd": "included",
         "annotations": []
@@ -63886,7 +63916,7 @@
     },
     "adveritasdx": {
       "ordinal": 27,
-      "Done? (Y)": "y",
+      "Done? (Y)": "Ready",
       "Company/Organization": {
         "avd": "Roche Diagnostics, Inc.",
         "annotations": []
@@ -63903,7 +63933,7 @@
       },
       "Authorized Setting(s) per FDA": "H, M",
       "Technology": {
-        "avd": "Serology Total Antibody, ECLIA, Semi-quantitative",
+        "avd": "Serology",
         "annotations": []
       },
       "Analyte": {
@@ -63911,12 +63941,12 @@
         "annotations": []
       },
       "Assay": {
-        "avd": "ECLIA",
+        "avd": "ECLIA, Semi-quantitative",
         "annotations": []
       },
       "Specimen Type": "Ser, Pla",
       "Transport Media": {
-        "avd": "Li heparin, K2-EDTA, K3-EDTA, or sodium citrate for plasma",
+        "avd": "Li heparin, K2-EDTA, K3-EDTA, sodium citrate",
         "annotations": []
       },
       "Gene": "NA",
@@ -63929,14 +63959,14 @@
         "annotations": []
       },
       "Detection": {
-        "avd": "Cobas e analyzer (models 411, 601, 602, or 801)",
+        "avd": "Cobas e analyzer (models e411, e601, e602, or e801)",
         "annotations": []
       },
       "TAT": "18 min",
       "Analytical Sensitivity (LOD)": "0.35 U/mL",
       "LOD of FDA Reference Panel (NDU/mL)": "",
       "Cross- Reactivity": {
-        "avd": "No cross-reactivity detected in wet-lab setting",
+        "avd": "No cross-reactivity detected in wet-lab testing of antibodies against >40 distinct pathogens",
         "annotations": []
       },
       "PPA/Sensitivity": {
@@ -63948,7 +63978,7 @@
         "annotations": []
       },
       "PPA Specimen Type": {
-        "avd": "clinical",
+        "avd": "Clinical",
         "annotations": []
       },
       "NPA/Specificity": {
@@ -63961,12 +63991,12 @@
       },
       "NPV @ 5% prevalence": "",
       "PPV@ 5% prevalence": "",
-      "Manufacturer's Validation Notes": "",
+      "Manufacturer's Validation Notes": "PPA determined with 233 clinical sodium citrate plasma samples from symptomatic patients and confirmed positive using an undisclosed EUA-approved molecular test. NPA determined with 5991 clinical serum samples collected before October 2019 and assumed to be negative for SARS-CoV-2. One false positive sample was detected.",
       "External Quality Control": {
         "avd": "not included",
         "annotations": []
       },
-      "Process (internal) Control": "included in calibration of cobas e instrument",
+      "Process (internal) Control": "included",
       "Positive Control": {
         "avd": "not included",
         "annotations": []
@@ -64058,7 +64088,7 @@
     },
     "adveritasdx": {
       "ordinal": 28,
-      "Done? (Y)": "Y /checked",
+      "Done? (Y)": "Airtable",
       "Company/Organization": {
         "avd": "Cepheid",
         "annotations": []
@@ -64581,9 +64611,9 @@
       },
       "Test Name": "Pixel by LabCorp COVID-19 Test Home Collection Kit",
       "Select": "",
-      "*URL": "",
+      "*URL": "https://www.pixel.labcorp.com/at-home-test-kits/covid-19-test-home-collection-kit",
       "Test Type (Lab or Kit)": "Kit",
-      "Country of Origin": "",
+      "Country of Origin": "USA",
       "US Regulatory Status": "EUA granted December 09, 2020",
       "Category": {
         "avd": "Laboratory",
@@ -64599,7 +64629,7 @@
         "annotations": []
       },
       "Assay": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "Specimen Type": "NP swab, OP swab, MTNs swab, Ns swab",
@@ -64607,56 +64637,56 @@
         "avd": "",
         "annotations": []
       },
-      "Gene": "",
+      "Gene": "NA",
       "Antigen": {
         "avd": "NA",
         "annotations": []
       },
       "Sample Prep": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "Detection": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
-      "TAT": "",
-      "Analytical Sensitivity (LOD)": "",
-      "LOD of FDA Reference Panel (NDU/mL)": "",
+      "TAT": "NA",
+      "Analytical Sensitivity (LOD)": "NA",
+      "LOD of FDA Reference Panel (NDU/mL)": "NA",
       "Cross- Reactivity": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "PPA/Sensitivity": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "PPA Sample Size": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "PPA Specimen Type": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "NPA/Specificity": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "NPA Sample Size": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "NPV @ 5% prevalence": "",
       "PPV@ 5% prevalence": "",
-      "Manufacturer's Validation Notes": "",
+      "Manufacturer's Validation Notes": "The Pixel by LabCorp™ COVID-19 at-home kit is a molecular test, also known as a reverse polymerase chain reaction (RT-PCR) test or a nucleic acid amplification test (NAAT). A total of 93 samples were re-run using the new extraction method, including 11 positives. The results of the clinical comparison were 100% concordant for positives and 100% for negatives; 11/11 positives were called along with 82/82 negatives. The average Ct Difference for N1 was -0.68, for N2 was -0.43 and for RP was -3.28",
       "External Quality Control": {
         "avd": "",
         "annotations": []
       },
-      "Process (internal) Control": "",
+      "Process (internal) Control": "NA",
       "Positive Control": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "*Publications": "",
@@ -65028,7 +65058,10 @@
         "1309",
         "1310",
         "1311",
-        "1312"
+        "1312",
+        "1817",
+        "1818",
+        "1820"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -65436,7 +65469,7 @@
   {
     "test_id": "ellume limited__ellume covid-19 home test",
     "FDA_EUAs_list": {
-      "first_issued_date": "2020-12-16",
+      "first_issued_date": "2020-12-15",
       "developer_name": "Ellume Limited",
       "test_name": "Ellume COVID-19 Home Test",
       "test_technology": "Antigen Lateral Flow, Fluorescence, Instrument Read, Over the Counter (OTC) Home Testing, Screening",
@@ -65448,7 +65481,8 @@
         "1307",
         "1330",
         "1331",
-        "1332"
+        "1332",
+        "1819"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -65515,8 +65549,8 @@
       },
       "Test Name": "Ellume COVID-19 Home Test",
       "Select": "",
-      "*URL": "",
-      "Test Type (Lab or Kit)": "",
+      "*URL": "https://www.ellumehealth.com/products/consumer-products/covid-home-test",
+      "Test Type (Lab or Kit)": "Kit",
       "Country of Origin": "Australia",
       "US Regulatory Status": "EUA granted December 16, 2020",
       "Category": {
@@ -65533,7 +65567,7 @@
         "annotations": []
       },
       "Assay": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "Specimen Type": "MTNs swab, Ns swab",
@@ -65543,54 +65577,54 @@
       },
       "Gene": "NA",
       "Antigen": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "Sample Prep": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "Detection": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
-      "TAT": "",
-      "Analytical Sensitivity (LOD)": "",
-      "LOD of FDA Reference Panel (NDU/mL)": "",
+      "TAT": "NA",
+      "Analytical Sensitivity (LOD)": "NA",
+      "LOD of FDA Reference Panel (NDU/mL)": "NA",
       "Cross- Reactivity": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "PPA/Sensitivity": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "PPA Sample Size": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "PPA Specimen Type": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "NPA/Specificity": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "NPA Sample Size": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "NPV @ 5% prevalence": "",
       "PPV@ 5% prevalence": "",
-      "Manufacturer's Validation Notes": "",
+      "Manufacturer's Validation Notes": "The Ellume COVID-19 Home Test is a rapid, lateral flow antigen test, a type of test that runs a liquid sample along a surface with reactive molecules. The Ellume COVID-19 Home Test correctly identified 96% of positive samples and 100% of negative samples in individuals with symptoms. In patients without symptoms, the test correctly identified 91% of positive samples and 96% of negative samples.",
       "External Quality Control": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
-      "Process (internal) Control": "",
+      "Process (internal) Control": "NA",
       "Positive Control": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "*Publications": "",
@@ -65679,7 +65713,7 @@
     },
     "adveritasdx": {
       "ordinal": 16,
-      "Done? (Y)": "Y/Vero",
+      "Done? (Y)": "Y",
       "Company/Organization": {
         "avd": "Materials and Machines Corporation of America (DBA MatmaCorp, Inc.)",
         "annotations": []
@@ -66534,7 +66568,7 @@
     },
     "adveritasdx": {
       "ordinal": 13,
-      "Done? (Y)": "Y/Vero",
+      "Done? (Y)": "Y",
       "Company/Organization": {
         "avd": "Quidel Corporation",
         "annotations": []
@@ -66647,7 +66681,9 @@
         "1366",
         "1367",
         "1414",
-        "1763"
+        "1763",
+        "1821",
+        "1822"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -67331,7 +67367,11 @@
         "1382",
         "1383",
         "1384",
-        "1385"
+        "1385",
+        "1823",
+        "1824",
+        "1825",
+        "1826"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -68504,13 +68544,13 @@
     },
     "anot8_org": {
       "file_ids_of_annotated": [
+        "1410",
         "1411"
       ],
       "file_ids_of_unannotated": [
         "1407",
         "1408",
-        "1409",
-        "1410"
+        "1409"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -69076,6 +69116,707 @@
         "1786",
         "1787",
         "1788"
+      ]
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    },
+    "adveritasdx": null,
+    "auto_calculated": {
+      "is_serology": false
+    }
+  },
+  {
+    "test_id": "visby medical, inc.__visby medical covid-19 point of care test",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-02-08",
+      "developer_name": "Visby Medical, Inc.",
+      "test_name": "Visby Medical COVID-19 Point of Care Test",
+      "test_technology": "RT-PCR",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/145917/download"
+    },
+    "anot8_org": {
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1827",
+        "1828",
+        "1829",
+        "1830",
+        "1831"
+      ]
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    },
+    "adveritasdx": null,
+    "auto_calculated": {
+      "is_serology": false
+    }
+  },
+  {
+    "test_id": "becton, dickinson and company (bd)__bd sars-cov-2/flu for bd max system",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-02-10",
+      "developer_name": "Becton, Dickinson and Company (BD)",
+      "test_name": "BD SARS-CoV-2/Flu for BD MAX System",
+      "test_technology": "Real-time RT-PCR, Multi-analyte",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/145927/download"
+    },
+    "anot8_org": {
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1832",
+        "1833",
+        "1834",
+        "1835"
+      ]
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    },
+    "adveritasdx": null,
+    "auto_calculated": {
+      "is_serology": false
+    }
+  },
+  {
+    "test_id": "thermo fisher scientific__taqpath covid-19, flua, flub combo kit",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-02-10",
+      "developer_name": "Thermo Fisher Scientific",
+      "test_name": "TaqPath COVID-19, FluA, FluB Combo Kit",
+      "test_technology": "Real-time RT-PCR, Multi-analyte",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/145931/download"
+    },
+    "anot8_org": {
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1836",
+        "1837",
+        "1838",
+        "1839"
+      ]
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    },
+    "adveritasdx": null,
+    "auto_calculated": {
+      "is_serology": false
+    }
+  },
+  {
+    "test_id": "grifols diagnostic solutions inc.__procleix sars-cov-2 assay",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-02-10",
+      "developer_name": "Grifols Diagnostic Solutions Inc.",
+      "test_name": "Procleix SARS-CoV-2 Assay",
+      "test_technology": "TMA",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/145938/download"
+    },
+    "anot8_org": {
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1840",
+        "1841",
+        "1842",
+        "1843"
+      ]
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    },
+    "adveritasdx": null,
+    "auto_calculated": {
+      "is_serology": false
+    }
+  },
+  {
+    "test_id": "immunodiagnostic systems ltd.__ids sars-cov-2 igg",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-02-10",
+      "developer_name": "Immunodiagnostic Systems Ltd.",
+      "test_name": "IDS SARS-CoV-2 IgG",
+      "test_technology": "IgG, CLIA",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/145944/download"
+    },
+    "anot8_org": {
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1844",
+        "1845",
+        "1846",
+        "1847"
+      ]
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    },
+    "adveritasdx": null,
+    "auto_calculated": {
+      "is_serology": true
+    }
+  },
+  {
+    "test_id": "bio-rad laboratories, inc.__bio-rad reliance sars-cov-2/flua/flub rt-pcr assay kit",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-02-11",
+      "developer_name": "Bio-Rad Laboratories, Inc.",
+      "test_name": "Bio-Rad Reliance SARS-CoV-2/FluA/FluB RT-PCR Assay Kit",
+      "test_technology": "Real-time RT-PCR, Multi-analyte",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/145923/download"
+    },
+    "anot8_org": {
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1848",
+        "1849",
+        "1850",
+        "1851"
+      ]
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    },
+    "adveritasdx": null,
+    "auto_calculated": {
+      "is_serology": false
+    }
+  },
+  {
+    "test_id": "gravity diagnostics, llc__gravity diagnostics sars-cov-2 rt-pcr for use with dtc kits",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-02-13",
+      "developer_name": "Gravity Diagnostics, LLC",
+      "test_name": "Gravity Diagnostics SARS-CoV-2 RT-PCR for use with DTC kits",
+      "test_technology": "Direct to Consumer (DTC), Real-time RT-PCR, Home Collection, Screening",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/145980/download"
+    },
+    "anot8_org": {
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1852",
+        "1853",
+        "1854"
+      ]
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    },
+    "adveritasdx": null,
+    "auto_calculated": {
+      "is_serology": false
+    }
+  },
+  {
+    "test_id": "assurance scientific laboratories__assurance sars-cov-2 panel dtc",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-02-13",
+      "developer_name": "Assurance Scientific Laboratories",
+      "test_name": "Assurance SARS-CoV-2 Panel DTC",
+      "test_technology": "Direct to Consumer (DTC), Real-time RT-PCR, Home Collection, Screening",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/145985/download"
+    },
+    "anot8_org": {
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1855",
+        "1856",
+        "1857",
+        "1858"
+      ]
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    },
+    "adveritasdx": null,
+    "auto_calculated": {
+      "is_serology": false
+    }
+  },
+  {
+    "test_id": "everlywell, inc.__everlywell covid-19 test home collection kit dtc",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-02-13",
+      "developer_name": "Everlywell, Inc.",
+      "test_name": "Everlywell COVID-19 Test Home Collection Kit DTC",
+      "test_technology": "Home Collection Kit, Direct to Consumer (DTC), Screening",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/145989/download"
+    },
+    "anot8_org": {
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1859",
+        "1860",
+        "1861"
       ]
     },
     "fda_reference_panel_lod_data": {
