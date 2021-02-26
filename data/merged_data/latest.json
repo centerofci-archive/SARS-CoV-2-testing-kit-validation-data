@@ -65461,7 +65461,100 @@
         "anot8_org_file_id": ""
       }
     },
-    "adveritasdx": null,
+    "adveritasdx": {
+      "ordinal": 18,
+      "Done? (Y)": "y",
+      "Company/Organization": {
+        "avd": "Abbott Diagnostics Scarborough, Inc.",
+        "annotations": []
+      },
+      "Test Name": "BinaxNOWTM COVID-19 Ag Card Home Test",
+      "Select": "",
+      "*URL": "https://www.abbott.com/BinaxNOW-Test-NAVICA-App.html",
+      "Test Type (Lab or Kit)": "Kit",
+      "Country of Origin": "USA",
+      "US Regulatory Status": "EUA granted December 16, 2020",
+      "Category": {
+        "avd": "Laboratory, POC",
+        "annotations": []
+      },
+      "Authorized Setting(s) per FDA": "H, M, W",
+      "Technology": {
+        "avd": "Antigen",
+        "annotations": []
+      },
+      "Analyte": {
+        "avd": "Antigen",
+        "annotations": []
+      },
+      "Assay": {
+        "avd": "Lateral Flow",
+        "annotations": []
+      },
+      "Specimen Type": "Ns swab",
+      "Transport Media": {
+        "avd": "NA",
+        "annotations": []
+      },
+      "Gene": "NA",
+      "Antigen": {
+        "avd": "N",
+        "annotations": []
+      },
+      "Sample Prep": {
+        "avd": "Manual: Extraction reagent added to swab",
+        "annotations": []
+      },
+      "Detection": {
+        "avd": "Visual read, NAVICA app on smart phone (Apple is ios11 or newer, or Android is version 8 or newer)",
+        "annotations": []
+      },
+      "TAT": "15 min",
+      "Analytical Sensitivity (LOD)": "140.6 TCID50/mL",
+      "LOD of FDA Reference Panel (NDU/mL)": "",
+      "Cross- Reactivity": {
+        "avd": "No cross-reactivity predicted in silico nor detected in wet lab testing",
+        "annotations": []
+      },
+      "PPA/Sensitivity": {
+        "avd": "84.62%",
+        "annotations": []
+      },
+      "PPA Sample Size": {
+        "avd": "117",
+        "annotations": []
+      },
+      "PPA Specimen Type": {
+        "avd": "clinical",
+        "annotations": []
+      },
+      "NPA/Specificity": {
+        "avd": "98.54%",
+        "annotations": []
+      },
+      "NPA Sample Size": {
+        "avd": "343",
+        "annotations": []
+      },
+      "NPV @ 5% prevalence": "",
+      "PPV@ 5% prevalence": "",
+      "Manufacturer's Validation Notes": "",
+      "External Quality Control": {
+        "avd": "not included",
+        "annotations": []
+      },
+      "Process (internal) Control": "included",
+      "Positive Control": {
+        "avd": "not included",
+        "annotations": []
+      },
+      "*Publications": "",
+      "*IFU": "https://www.fda.gov/media/144574/download",
+      "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144576/download",
+      "Creation Date": "",
+      "Modified Date": "",
+      "Needs Review": ""
+    },
     "auto_calculated": {
       "is_serology": false
     }

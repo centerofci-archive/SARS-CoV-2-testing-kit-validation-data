@@ -133,7 +133,7 @@ def data_to_json (cleaned_data):
     return rows
 
 
-map_reference_panel_test_id_to_EUA_list_test_id = {
+map_AVD_test_id_to_FDA_EUA_list_test_id = {
 "centers for disease control and prevention's (cdc)__cdc 2019-novel coronavirus (2019-ncov) real-time rt-pcr diagnostic panel (cdc)": "cdc__cdc 2019-novel coronavirus (2019-ncov) real-time rt-pcr diagnostic panel",
 "wadsworth center, new york state department of public health's (cdc)__new york sars-cov-2 real-time reverse transcriptase (rt)-pcr diagnostic panel": "wadsworth center, new york state department of health's (cdc)__new york sars-cov-2 real-time reverse transcriptase (rt)-pcr diagnostic panel",
 "abbott molecular__abbott realtime sars-cov-2 eua test": "abbott molecular__abbott realtime sars-cov-2 assay",
@@ -172,6 +172,8 @@ map_reference_panel_test_id_to_EUA_list_test_id = {
 "helix opco llc (dba helix)__helix covid-19 test": "helix opco llc__helix covid-19 test",
 "color genomics, inc.__color covid-19 test unmonitored collection kit": "color genomics, inc.__color covid-19 test self-swab collection kit",
 
+"abbott diagnostics scarborough, inc.__binaxnowtm covid-19 ag card home test": "abbott diagnostics scarborough, inc.__binaxnow covid-19 ag card home test",
+
 # "quadrant biosciences inc.__clarifi covid-19 test kit": "quadrant biosciences inc.__clarifi covid-19 test kit 09/22/2020",
 # "": "vela operations singapore pte. ltd.__virokey sars-cov-2 rt-pcr test v2.0 09/22/2020",
 # "": "clear labs, inc.__clear dx sars-cov-2 test 09/23/2020",
@@ -187,8 +189,8 @@ def map_test_ids (parsed_result):
     for row in parsed_result:
         test_id = row["test_id"]
 
-        if test_id in map_reference_panel_test_id_to_EUA_list_test_id:
-            test_id = map_reference_panel_test_id_to_EUA_list_test_id[test_id]
+        if test_id in map_AVD_test_id_to_FDA_EUA_list_test_id:
+            test_id = map_AVD_test_id_to_FDA_EUA_list_test_id[test_id]
             row["test_id"] = test_id
 
 

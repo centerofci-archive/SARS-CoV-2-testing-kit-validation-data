@@ -53,7 +53,6 @@ def get_adveritasdx_data_row (test_id, annotations_by_label_id):
     data_row = get_adveritas_dx_data_by_test_id(test_id)
 
     if data_row is None:
-        print("Missing test_id in AdVeritasDx data: " + test_id)
         return None
 
     _mutate_data_node = factory_mutate_data_node(data_row, annotations_by_label_id)
