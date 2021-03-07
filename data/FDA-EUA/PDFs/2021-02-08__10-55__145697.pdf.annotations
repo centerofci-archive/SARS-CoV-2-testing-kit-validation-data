@@ -1,0 +1,61 @@
+{
+"file_sha1_hash": "ef8ab4a82014b270df5995331ce00d7dabda093a",
+"annotations": [
+{
+"id": 0,
+"page_number": 1,
+"left": "242px",
+"top": "87px",
+"width": "483px",
+"height": "68px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "Status™ COVID-19/Flu",
+"labels": [
+"Test name"
+],
+"comment": ""
+},
+{
+"id": 1,
+"page_number": 1,
+"left": "365px",
+"top": "377px",
+"width": "95px",
+"height": "42px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "lateral flow",
+"labels": [
+"Assay"
+],
+"comment": ""
+},
+{
+"id": 2,
+"page_number": 3,
+"left": "827px",
+"top": "352px",
+"width": "42px",
+"height": "56px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "Included",
+"labels": [
+"Controls/Internal"
+],
+"comment": ""
+},
+{
+"id": 3,
+"page_number": 6,
+"left": "806px",
+"top": "40px",
+"width": "48px",
+"height": "57px",
+"colour": "rgba(200, 200, 255, 0.6)",
+"text": "",
+"labels": [],
+"comment": ""
+}
+],
+"comments": [],
+"schema_version": 5
+}
