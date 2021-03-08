@@ -34,6 +34,7 @@ def check_urls_are_unique (urls):
         "https://www.fda.gov/media/142307/download",  # error - Should be GK Accu-Right HCP doc but is their letter of authorization
         "https://www.fda.gov/media/142421/download",  # error - Orawell IgM/IgG Rapid Test has this for HCP and Recipient
         "https://www.fda.gov/media/137782/download",  # ok
+        "https://www.fda.gov/media/141670/download",  # error? - listed under Fluidigm Corporation, Advanta Dx SARS-CoV-2 RT-PCR Assay but is for DxTerity
     ]
     unique_urls = set()
     for url in urls:
@@ -43,7 +44,9 @@ def check_urls_are_unique (urls):
             unique_urls.add(url)
 
     if duplicated_urls:
-        raise Exception("ERROR: not all urls are unique: ", duplicated_urls)
+        print("\n\n#####################\n\nERROR: not all urls are unique:\n\n{}\n\nCheck the latest html file for these urls and see if there are reasonable duplication, mistakes from FDA, or bugs in our parsing code.\n\n#####################\n\n".format(duplicated_urls))
+
+        raise Exception("ERROR: see message above for suggested fix.")
 
 
 
