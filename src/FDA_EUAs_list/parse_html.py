@@ -3,7 +3,7 @@ import os
 import re
 import sys
 
-from parsers import DiagnosticsParser, IVDiagnosticsParser, HighComplexityDiagnosticsParser
+from parsers import DiagnosticsParser2020_09_01, DiagnosticsParser2021_03_08, IVDiagnosticsParser, HighComplexityDiagnosticsParser
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 sys.path.insert(0, dir_path + "/..")
@@ -60,8 +60,7 @@ def preprocess_html (html):
 
 
 
-def parse_html_string (html):
-    diagnostics_parser = DiagnosticsParser()
+def parse_html_string (html, diagnostics_parser):
     diagnostics_parser.feed(html)
     diagnostics_data_rows = diagnostics_parser.rows
 
@@ -170,7 +169,12 @@ def parse_html ():
             print("\nparsing: " + file_name)
 
         html = preprocess_html(file_contents)
-        results = parse_html_string(html)
+
+        if file_name < "2021-03-08":
+            results = parse_html_string(html, DiagnosticsParser2020_09_01())
+        else:
+            results = parse_html_string(html, DiagnosticsParser2021_03_08())
+
         check_test_ids_are_unique(results["rows"])
 
         store_results(file_name, results["rows"], results["headers"])

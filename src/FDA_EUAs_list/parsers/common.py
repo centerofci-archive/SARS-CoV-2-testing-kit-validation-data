@@ -10,7 +10,12 @@ from get_test_id import get_test_id
 
 def parse_date(date_str):
     date_parts = [part for part in date_str.split("/")]
-    return "{}-{}-{}".format(date_parts[2], date_parts[0], date_parts[1])
+    try:
+        return "{}-{}-{}".format(date_parts[2], date_parts[0], date_parts[1])
+    except Exception as e:
+        print(date_parts)
+        raise e
+
 
 
 class ParserState(Enum):

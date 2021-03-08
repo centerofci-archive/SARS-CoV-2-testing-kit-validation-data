@@ -4,7 +4,7 @@ import re
 from parsers.common import get_test_id, ParserState, ParserSubState, parse_date
 
 
-class DiagnosticsParser(HTMLParser):
+class DiagnosticsParser2020_09_01(HTMLParser):
     HEADERS = [
         "test_id",  # 0
         "Date EUA First Issued",  # 1
