@@ -1,5 +1,6 @@
 from datetime import datetime
 import hashlib
+import json
 import os
 import re
 import requests
@@ -14,12 +15,21 @@ from common import (
     get_FDA_file_id_from_FDA_url,
     DATA_DIRECTORY_EUA_PDFs,
     DATA_DIRECTORY_EUAs,
+    DATA_FILE_PATH_EUAs_LATEST_PARSED_DATA,
 )
 
-from FDA_EUAs_list.FDA_EUAs_parsed_data import get_latest_fda_eua_parsed_data
 
 
 DELAY_SECONDS_BETWEEN_REQUESTS = 2
+
+
+
+def get_latest_fda_eua_parsed_data ():
+    with open(DATA_FILE_PATH_EUAs_LATEST_PARSED_DATA, "r", encoding="utf8") as f:
+        latest_fda_eua_parsed_data = json.load(f)
+
+    return latest_fda_eua_parsed_data
+
 
 
 def check_urls_are_unique (urls):
@@ -68,7 +78,12 @@ def get_FDA_file_id_to_versioned_file_paths_map ():
 
 
 def download_urls (urls, FDA_file_id_to_versioned_file_paths_map, shallow_check=True):
+    print("Will download {} urls\n".format(len(urls)))
+
     for url in urls:
+        print("Sleeping for {}\n".format(DELAY_SECONDS_BETWEEN_REQUESTS))
+        time.sleep(DELAY_SECONDS_BETWEEN_REQUESTS)
+
 
         FDA_file_id = get_FDA_file_id_from_FDA_url(url)
         existing_versions = FDA_file_id_to_versioned_file_paths_map.get(FDA_file_id, [])
@@ -81,8 +96,7 @@ def download_urls (urls, FDA_file_id_to_versioned_file_paths_map, shallow_check=
 
         print("Downloading: " + url)
         request = requests.get(url)
-        print("Downloaded: {}   Sleeping for {}".format(url, DELAY_SECONDS_BETWEEN_REQUESTS))
-        time.sleep(DELAY_SECONDS_BETWEEN_REQUESTS)
+        print("Downloaded: {}".format(url))
 
         if not shallow_check:
             match = hash_matches_existing_versions(request.content, existing_versions)
@@ -181,7 +195,6 @@ def get_PDFs (shallow_check, restart_from_url = ""):
         if start_from_index is None:
             raise Exception("Could not find url to restart from: " + restart_from_url)
         urls_to_download = urls_to_download[start_from_index:]
-    print("Will download {} urls".format(len(urls_to_download)))
 
     FDA_file_id_to_versioned_file_paths_map = get_FDA_file_id_to_versioned_file_paths_map()
     download_urls(urls_to_download, FDA_file_id_to_versioned_file_paths_map, shallow_check=shallow_check)
