@@ -300,8 +300,18 @@ custom_test_id_map = {
     "2021-02-22": custom_test_id_map_2021_01_22,
     "2021-03-08": custom_test_id_map_2021_03_08,
 }
+warned_snapshot_dates_missing = set()
 def map_new_to_old_test_id (snapshot_date, test_id):
-    return custom_test_id_map.get(snapshot_date, {}).get(test_id, test_id)
+    if snapshot_date not in custom_test_id_map:
+        if snapshot_date not in warned_snapshot_dates_missing:
+            print("\n###################\n\nNew snapshot_date: {} not in custom_test_id_map".format(snapshot_date))
+            print("Open {} and add:\n    \"{}\": custom_test_id_map_2021_,\n\n###################\n".format(__file__, snapshot_date))
+            print("Will default to using last custom map")
+            warned_snapshot_dates_missing.add(snapshot_date)
+
+        snapshot_date = sorted(custom_test_id_map.keys())[-1]
+
+    return custom_test_id_map[snapshot_date].get(test_id, test_id)
 
 
 
