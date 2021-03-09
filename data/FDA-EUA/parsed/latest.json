@@ -77,7 +77,7 @@
     [
         "thermo fisher scientific, inc.__taqpath covid-19 combo kit",
         "2020-03-13",
-        "2020-12-22",
+        "2021-02-23",
         "Thermo Fisher Scientific, Inc.",
         "TaqPath COVID-19 Combo Kit",
         "https://www.fda.gov/media/136113/download",
@@ -94,7 +94,8 @@
             "https://www.fda.gov/media/136413/download",
             "https://www.fda.gov/media/137922/download",
             "https://www.fda.gov/media/140298/download",
-            "https://www.fda.gov/media/143939/download"
+            "https://www.fda.gov/media/143939/download",
+            "https://www.fda.gov/media/146328/download"
         ]
     ],
     [
@@ -638,11 +639,11 @@
     [
         "viracor eurofins clinical diagnostics__viracor sars-cov-2 assay",
         "2020-04-06",
-        "2020-12-28",
+        "2021-02-26",
         "Viracor Eurofins Clinical Diagnostics",
         "Viracor SARS-CoV-2 assay",
         "https://www.fda.gov/media/143070/download",
-        "Molecular Real-time RT-PCR, Home Collection, Pooling",
+        "Real-Time RT-PCR, Pooling, Screening",
         "H",
         "https://www.fda.gov/media/143067/download",
         "https://www.fda.gov/media/143068/download",
@@ -714,7 +715,7 @@
         "Stanford Health Care Clinical Virology Laboratory",
         "SARS-CoV-2 RT-PCR Assay",
         "https://www.fda.gov/media/136817/download",
-        "Molecular, Real-time RT-PCR, Home Collection Kit",
+        "Molecular, Real-time RT-PCR, Home Collection",
         "H",
         "https://www.fda.gov/media/144011/download",
         "https://www.fda.gov/media/144012/download",
@@ -1900,7 +1901,7 @@
     [
         "seasun biomaterials, inc.__aq-top covid-19 rapid detection",
         "2020-05-21",
-        "2020-05-21",
+        "2021-02-23",
         "Seasun Biomaterials, Inc.",
         "AQ-TOP COVID-19 Rapid Detection",
         "https://www.fda.gov/media/138300/download",
@@ -2005,13 +2006,13 @@
         []
     ],
     [
-        "privapath diagnostics, inc.__letsgetchecked coronavirus (covid-19) test",
+        "letsgetchecked, inc.__letsgetchecked coronavirus (covid-19) test",
         "2020-05-28",
-        "2020-10-28",
-        "PrivaPath Diagnostics, Inc.",
+        "2021-02-19",
+        "LetsGetChecked, Inc.",
         "LetsGetChecked Coronavirus (COVID-19) Test",
         "https://www.fda.gov/media/138405/download",
-        "Molecular TMA, chemiluminescent, Home Collection",
+        "Molecular TMA, chemiluminescent, Home Collection, Screening",
         "H",
         "https://www.fda.gov/media/138403/download",
         "https://www.fda.gov/media/138404/download",
@@ -2156,7 +2157,7 @@
     [
         "phosphorus diagnostics llc__phosphorus covid-19 rt-qpcr test",
         "2020-06-04",
-        "2020-12-28",
+        "2021-03-01",
         "Phosphorus Diagnostics LLC",
         "Phosphorus COVID-19 RT-qPCR Test",
         "https://www.fda.gov/media/138652/download",
@@ -2170,7 +2171,8 @@
         ],
         "https://www.fda.gov/media/138654/download",
         [
-            "https://www.fda.gov/media/139508/download"
+            "https://www.fda.gov/media/139508/download",
+            "https://www.fda.gov/media/146373/download"
         ]
     ],
     [
@@ -2790,7 +2792,7 @@
         "Kroger Health COVID-19 Test Home Collection Kit",
         "https://www.fda.gov/media/139681/download",
         "Home Collection Kit, Direct to Consumer (DTC), Screening",
-        "",
+        "N/A",
         "",
         "",
         [
@@ -2886,7 +2888,7 @@
     [
         "becton, dickinson and company (bd)__bd veritor system for rapid detection of sars-cov-2",
         "2020-07-02",
-        "2021-01-13",
+        "2021-02-22",
         "Becton, Dickinson and Company (BD)",
         "BD Veritor System for Rapid Detection of SARS-CoV-2",
         "https://www.fda.gov/media/139752/download",
@@ -3898,16 +3900,17 @@
     [
         "fluidigm corporation__advanta dx sars-cov-2 rt-pcr assay",
         "2020-08-25",
-        "2021-01-08",
+        "2021-02-26",
         "Fluidigm Corporation",
         "Advanta Dx SARS-CoV-2 RT-PCR Assay",
         "https://www.fda.gov/media/141538/download",
-        "Molecular Real-time RT-PCR, Saliva",
+        "Real-time RT-PCR, Saliva, Home Collection",
         "H",
         "https://www.fda.gov/media/141539/download",
         "https://www.fda.gov/media/141540/download",
         [
-            "https://www.fda.gov/media/141541/download"
+            "https://www.fda.gov/media/141541/download",
+            "https://www.fda.gov/media/141670/download"
         ],
         "",
         [
@@ -3967,7 +3970,7 @@
     [
         "dxterity diagnostics, inc.__dxterity sars-cov-2 rt pcr ce test",
         "2020-08-28",
-        "2021-02-09",
+        "2021-02-22",
         "DxTerity Diagnostics, Inc.",
         "DxTerity SARS-CoV-2 RT PCR CE Test",
         "https://www.fda.gov/media/141666/download",
@@ -4093,10 +4096,10 @@
         []
     ],
     [
-        "color genomics, inc.__color covid-19 test self-swab collection kit",
+        "color health, inc.__color covid-19 test self-swab collection kit",
         "2020-08-31",
-        "2020-09-15",
-        "Color Genomics, Inc.",
+        "2021-02-18",
+        "Color Health, Inc.",
         "Color COVID-19 Test Self-Swab Collection Kit",
         "https://www.fda.gov/media/141796/download",
         "Home Collection Kit",
@@ -4912,13 +4915,13 @@
         []
     ],
     [
-        "clinical enterprise, inc.__empowerdx at-home covid-19 pcr test kit",
+        "clinical enterprise, inc.__empowerdx covid-19 home collection kit dtc",
         "2020-10-15",
-        "2020-12-11",
+        "2021-02-26",
         "Clinical Enterprise, Inc.",
-        "EmpowerDX At-Home COVID-19 PCR Test Kit",
+        "EmpowerDX COVID-19 Home Collection Kit DTC",
         "https://www.fda.gov/media/143063/download",
-        "Home Collection Kit",
+        "Home Collection Kit, Direct to Consumer (DTC), Screening",
         "N/A",
         "",
         "",
@@ -4931,7 +4934,7 @@
     [
         "binx health, inc.__binx health at-home nasal swab covid-19 sample collection kit",
         "2020-10-20",
-        "2020-12-04",
+        "2021-03-02",
         "binx health, Inc.",
         "binx health At-Home Nasal Swab COVID-19 Sample Collection Kit",
         "https://www.fda.gov/media/143183/download",
@@ -5276,7 +5279,7 @@
     [
         "hologic, inc.__aptima sars-cov-2/flu assay",
         "2020-12-16",
-        "2020-12-16",
+        "2021-02-24",
         "Hologic, Inc.",
         "Aptima SARS-CoV-2/Flu assay",
         "https://www.fda.gov/media/144587/download",
@@ -5288,7 +5291,9 @@
             "https://www.fda.gov/media/144590/download"
         ],
         "",
-        []
+        [
+            "https://www.fda.gov/media/146327/download"
+        ]
     ],
     [
         "abbott diagnostics scarborough, inc.__binaxnow covid-19 ag card home test",
@@ -5614,7 +5619,7 @@
     [
         "ambry genetics laboratory__ambry covid-19 rt-pcr test",
         "2021-01-22",
-        "2021-01-22",
+        "2021-03-03",
         "Ambry Genetics Laboratory",
         "Ambry COVID-19 RT-PCR Test",
         "https://www.fda.gov/media/145406/download",
@@ -5626,7 +5631,9 @@
             "https://www.fda.gov/media/145409/download"
         ],
         "https://www.fda.gov/media/145410/download",
-        []
+        [
+            "https://www.fda.gov/media/146487/download"
+        ]
     ],
     [
         "clinomics usa inc.__clinomics triodx rt-pcr covid-19 test",
@@ -5805,13 +5812,163 @@
         "Everlywell COVID-19 Test Home Collection Kit DTC",
         "https://www.fda.gov/media/145986/download",
         "Home Collection Kit, Direct to Consumer (DTC), Screening",
-        "H",
+        "N/A",
         "",
         "",
         [
             "https://www.fda.gov/media/145989/download"
         ],
         "https://www.fda.gov/media/145988/download",
+        []
+    ],
+    [
+        "university of illinois office of the vice president for economic development and innovation__covidshield",
+        "2021-02-24",
+        "2021-02-24",
+        "University of Illinois Office of the Vice President for Economic Development and Innovation",
+        "covidSHIELD",
+        "https://www.fda.gov/media/146314/download",
+        "Real-time RT-PCR, Saliva",
+        "H",
+        "https://www.fda.gov/media/146315/download",
+        "https://www.fda.gov/media/146316/download",
+        [],
+        "https://www.fda.gov/media/146317/download",
+        []
+    ],
+    [
+        "viracor eurofins clinical diagnostics__viracor sars-cov-2 assay dtc",
+        "2021-02-26",
+        "2021-02-26",
+        "Viracor Eurofins Clinical Diagnostics",
+        "Viracor SARS-CoV-2 assay DTC",
+        "https://www.fda.gov/media/146322/download",
+        "Direct to Consumer (DTC), Real-time RT-PCR, Home Collection, Screening",
+        "H",
+        "https://www.fda.gov/media/146323/download",
+        "",
+        [],
+        "https://www.fda.gov/media/146325/download",
+        []
+    ],
+    [
+        "abbott laboratories inc.__advisedx sars-cov-2 igg ii",
+        "2021-03-01",
+        "2021-03-01",
+        "Abbott Laboratories Inc.",
+        "AdviseDx SARS-CoV-2 IgG II",
+        "https://www.fda.gov/media/146368/download",
+        "IgG, CMIA, Semi-quantitative",
+        "H, M",
+        "https://www.fda.gov/media/146369/download",
+        "https://www.fda.gov/media/146370/download",
+        [
+            "https://www.fda.gov/media/146371/download",
+            "https://www.fda.gov/media/146372/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "quidel corporation__quickvue at-home covid-19 test",
+        "2021-03-01",
+        "2021-03-01",
+        "Quidel Corporation",
+        "QuickVue At-Home COVID-19 Test",
+        "https://www.fda.gov/media/146309/download",
+        "Lateral Flow, Visual Read, Prescription Home Testing",
+        "Home, H, M, W",
+        "https://www.fda.gov/media/146310/download",
+        "https://www.fda.gov/media/146311/download",
+        [
+            "https://www.fda.gov/media/146312/download",
+            "https://www.fda.gov/media/146313/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "luminex molecular diagnostics, inc.__nxtag respiratory pathogen panel + sars-cov-2",
+        "2021-03-03",
+        "2021-03-03",
+        "Luminex Molecular Diagnostics, Inc.",
+        "NxTAG Respiratory Pathogen Panel + SARS-CoV-2",
+        "https://www.fda.gov/media/146492/download",
+        "RT-PCR, Multi-analyte",
+        "H",
+        "https://www.fda.gov/media/146493/download",
+        "https://www.fda.gov/media/146494/download",
+        [
+            "https://www.fda.gov/media/146495/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "abbott molecular inc.__alinity m resp-4-plex",
+        "2021-03-04",
+        "2021-03-04",
+        "Abbott Molecular Inc.",
+        "Alinity m Resp-4-Plex",
+        "https://www.fda.gov/media/146488/download",
+        "Real-time RT-PCR, Multi-analyte",
+        "H, M",
+        "https://www.fda.gov/media/146489/download",
+        "https://www.fda.gov/media/146490/download",
+        [
+            "https://www.fda.gov/media/146491/download"
+        ],
+        "",
+        []
+    ],
+    [
+        "clinical research sequencing platform (crsp), llc at the broad institute of mit and harvard__crsp sars-cov-2 real-time reverse transcriptase (rt)-pcr diagnostic assay (version 3)",
+        "2021-03-05",
+        "2021-03-05",
+        "Clinical Research Sequencing Platform (CRSP), LLC at the Broad Institute of MIT and Harvard",
+        "CRSP SARS-CoV-2 Real-time Reverse Transcriptase (RT)-PCR Diagnostic Assay (Version 3)",
+        "https://www.fda.gov/media/146496/download",
+        "Real-time RT-PCR, Home Collection",
+        "H",
+        "https://www.fda.gov/media/146497/download",
+        "https://www.fda.gov/media/146498/download",
+        [
+            "https://www.fda.gov/media/146500/download"
+        ],
+        "https://www.fda.gov/media/146499/download",
+        []
+    ],
+    [
+        "adaptive biotechnologies corporation__t-detect covid test",
+        "2021-03-05",
+        "2021-03-05",
+        "Adaptive Biotechnologies Corporation",
+        "T-Detect COVID Test",
+        "https://www.fda.gov/media/146478/download",
+        "T-cell receptor beta (TCR β), Sequencing",
+        "H",
+        "https://www.fda.gov/media/146479/download",
+        "https://www.fda.gov/media/146480/download",
+        [],
+        "https://www.fda.gov/media/146481/download",
+        []
+    ],
+    [
+        "cue health inc.__cue covid-19 test for home and over the counter (otc) use",
+        "2021-03-05",
+        "2021-03-05",
+        "Cue Health Inc.",
+        "Cue COVID-19 Test for Home and Over The Counter (OTC) Use",
+        "https://www.fda.gov/media/146467/download",
+        "RT, Isothermal amplification, Over the Counter (OTC) Home Testing, Screening",
+        "Home, H, M, W",
+        "https://www.fda.gov/media/146468/download",
+        "",
+        [
+            "https://www.fda.gov/media/146470/download",
+            "https://www.fda.gov/media/146471/download"
+        ],
+        "",
         []
     ]
 ]
