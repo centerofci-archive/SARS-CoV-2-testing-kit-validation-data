@@ -4,6 +4,9 @@ import re
 import sys
 
 
+dir_path = os.path.dirname(os.path.realpath(__file__))
+sys.path.insert(0, dir_path + "/..")
+
 from common.paths import (
     DATA_DIRECTORY_EUAs_PARSED_DATA,
     get_FDA_file_id_from_FDA_url,
@@ -49,10 +52,13 @@ def get_file_names_of_fda_eua_parsed_data ():
     for file_name in file_names:
         if file_name == "latest.json":
             # No need to include as identical data already present in other json file with date
-            return
+            continue
+
+        if file_name == "merged.json":
+            continue
 
         if ".json" not in file_name:
-            return
+            continue
 
         json_file_names.append(file_name)
 
@@ -75,9 +81,10 @@ def get_all_json_fda_eua_parsed_data (file_names):
         for row in json_data:
             test_id = row["test_id"]
             if is_new_test(snapshot_date, test_id):
+                row["all_relevant_urls"] = filter_for_urls(row)
+                row["present_in_snap_shots"] = [snapshot_date]
                 json_fda_eua_parsed_data_by_test_id[test_id] = row
                 json_fda_eua_parsed_data.append(row)
-                row["all_relevant_urls"] = filter_for_urls(row)
                 continue
 
 
@@ -97,6 +104,7 @@ def get_all_json_fda_eua_parsed_data (file_names):
             existing_row = json_fda_eua_parsed_data_by_test_id[test_id]
             existing_row.update(row)
             existing_row["all_relevant_urls"] += filter_for_urls(row)
+            existing_row["present_in_snap_shots"] += [snapshot_date]
 
     error_and_exit_on_unfound_test_ids(unfound_test_ids_by_file_name)
 
@@ -348,3 +356,15 @@ def versioned_file_path_to_FDA_file_id (file_path):
     is_versioned_file_path = bool(match)
 
     return match.groups()[0] if is_versioned_file_path else None
+
+
+
+def write_merged_data():
+    merged_data = get_temporal_fda_eua_parsed_data()
+    with open(DATA_DIRECTORY_EUAs_PARSED_DATA + "/merged.json", "w", encoding="utf8") as f:
+        json.dump(merged_data, f, indent=2, ensure_ascii=False)
+
+
+
+if __name__ == "__main__":
+    write_merged_data()
