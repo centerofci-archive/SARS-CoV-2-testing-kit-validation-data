@@ -9,6 +9,7 @@ sys.path.insert(0, dir_path + "/..")
 
 from common.paths import (
     DATA_DIRECTORY_EUAs_PARSED_DATA,
+    DATA_FILE_PATH_EUAs_MERGED_PARSED_DATA,
     get_FDA_file_id_from_FDA_url,
     ANOT8_VAULT_CONFIG,
 )
@@ -83,12 +84,14 @@ def get_all_json_fda_eua_parsed_data (file_names):
             if is_new_test(snapshot_date, test_id):
                 row["all_relevant_urls"] = filter_for_urls(row)
                 row["present_in_snap_shots"] = [snapshot_date]
+                row["mapped_test_ids"] = []
                 json_fda_eua_parsed_data_by_test_id[test_id] = row
                 json_fda_eua_parsed_data.append(row)
                 continue
 
-
+            original_test_id = None
             if test_id not in json_fda_eua_parsed_data_by_test_id:
+                original_test_id = test_id
                 test_id = map_new_to_old_test_id(snapshot_date, test_id)
                 row["test_id"] = test_id
 
@@ -104,7 +107,9 @@ def get_all_json_fda_eua_parsed_data (file_names):
             existing_row = json_fda_eua_parsed_data_by_test_id[test_id]
             existing_row.update(row)
             existing_row["all_relevant_urls"] += filter_for_urls(row)
-            existing_row["present_in_snap_shots"] += [snapshot_date]
+            existing_row["present_in_snap_shots"].append(snapshot_date)
+            if original_test_id and original_test_id not in existing_row["mapped_test_ids"]:
+                existing_row["mapped_test_ids"].append(original_test_id)
 
     error_and_exit_on_unfound_test_ids(unfound_test_ids_by_file_name)
 
@@ -371,7 +376,7 @@ def versioned_file_path_to_FDA_file_id (file_path):
 
 def write_merged_data():
     merged_data = get_temporal_fda_eua_parsed_data()
-    with open(DATA_DIRECTORY_EUAs_PARSED_DATA + "/merged.json", "w", encoding="utf8") as f:
+    with open(DATA_FILE_PATH_EUAs_MERGED_PARSED_DATA, "w", encoding="utf8") as f:
         json.dump(merged_data, f, indent=2, ensure_ascii=False)
 
 
