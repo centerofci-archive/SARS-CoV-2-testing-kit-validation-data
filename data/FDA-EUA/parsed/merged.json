@@ -14243,8 +14243,8 @@
   {
     "test_id": "color genomics, inc.__color covid-19 test self-swab collection kit",
     "Date EUA First Issued": "2020-08-31",
-    "Most recent revision": "2020-09-15",
-    "Entity": "Color Genomics, Inc.",
+    "Most recent revision": "2021-02-18",
+    "Entity": "Color Health, Inc.",
     "Diagnostic name": "Color COVID-19 Test Self-Swab Collection Kit",
     "Most Recent Letter of Authorization (URL to PDF)": "https://www.fda.gov/media/141796/download",
     "Technology": "Home Collection Kit",
@@ -14266,9 +14266,12 @@
       "2021-01-22",
       "2021-02-02",
       "2021-02-08",
-      "2021-02-22"
+      "2021-02-22",
+      "2021-03-08"
     ],
-    "mapped_test_ids": [],
+    "mapped_test_ids": [
+      "color health, inc.__color covid-19 test self-swab collection kit"
+    ],
     "relevant_relative_file_infos": [
       {
         "file_path": "FDA-EUA/PDFs/2020-10-08__16-49__141796.pdf",
@@ -19470,58 +19473,6 @@
       {
         "file_path": "FDA-EUA/PDFs/2021-02-22__12-07__145989.pdf",
         "anot8_org_file_id": "1861"
-      }
-    ]
-  },
-  {
-    "test_id": "color health, inc.__color covid-19 test self-swab collection kit",
-    "Date EUA First Issued": "2020-08-31",
-    "Most recent revision": "2021-02-18",
-    "Entity": "Color Health, Inc.",
-    "Diagnostic name": "Color COVID-19 Test Self-Swab Collection Kit",
-    "Most Recent Letter of Authorization (URL to PDF)": "https://www.fda.gov/media/141796/download",
-    "Technology": "Home Collection Kit",
-    "Authorized Setting(s)": "",
-    "Fact Sheet for Healthcare Providers (HCP) (URL to PDF)": "",
-    "Fact Sheet for Patients / Recipients (URL to PDF)": "",
-    "Information for Use (IFU) (URL to PDF)": [
-      "https://www.fda.gov/media/141798/download"
-    ],
-    "Emergency Use Authorisation (URL to PDF)": "https://www.fda.gov/media/141797/download",
-    "Amendments and Other Documents (PDF)": [],
-    "all_relevant_urls": [
-      "https://www.fda.gov/media/141796/download",
-      "https://www.fda.gov/media/141797/download",
-      "https://www.fda.gov/media/141798/download"
-    ],
-    "present_in_snap_shots": [
-      "2021-03-08"
-    ],
-    "mapped_test_ids": [],
-    "relevant_relative_file_infos": [
-      {
-        "file_path": "FDA-EUA/PDFs/2020-10-08__16-49__141796.pdf",
-        "anot8_org_file_id": "996"
-      },
-      {
-        "file_path": "FDA-EUA/PDFs/2021-03-08__20-48__141796.pdf",
-        "anot8_org_file_id": "1884"
-      },
-      {
-        "file_path": "FDA-EUA/PDFs/2020-10-08__16-49__141797.pdf",
-        "anot8_org_file_id": "997"
-      },
-      {
-        "file_path": "FDA-EUA/PDFs/2021-03-08__20-48__141797.pdf",
-        "anot8_org_file_id": "1885"
-      },
-      {
-        "file_path": "FDA-EUA/PDFs/2020-10-08__16-49__141798.pdf",
-        "anot8_org_file_id": "998"
-      },
-      {
-        "file_path": "FDA-EUA/PDFs/2021-03-08__20-48__141798.pdf",
-        "anot8_org_file_id": "1886"
       }
     ]
   },

@@ -275,7 +275,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/134922/download",
       "Creation Date": "https://www.fda.gov/media/134919/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "centers for disease control and prevention's (cdc)__cdc 2019-novel coronavirus (2019-ncov) real-time rt-pcr diagnostic panel (cdc)"
     },
     "auto_calculated": {
       "is_serology": false
@@ -549,7 +550,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/135847/download",
       "Creation Date": "https://www.fda.gov/media/135661/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "wadsworth center, new york state department of public health's (cdc)__new york sars-cov-2 real-time reverse transcriptase (rt)-pcr diagnostic panel"
     },
     "auto_calculated": {
       "is_serology": false
@@ -829,7 +831,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136049/download",
       "Creation Date": "https://www.fda.gov/media/136049/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -860,7 +863,9 @@
         "1429",
         "1430",
         "1431",
-        "1432"
+        "1432",
+        "1862",
+        "1863"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -1092,7 +1097,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136112/download",
       "Creation Date": "https://www.fda.gov/media/136113/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -1353,7 +1359,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136156/download",
       "Creation Date": "https://www.fda.gov/media/136153/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -1649,7 +1656,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136151/download",
       "Creation Date": "fda.gov/media/136148/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -1905,7 +1913,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136820/download",
       "Creation Date": "https://www.fda.gov/media/136224/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -2167,7 +2176,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136231/download",
       "Creation Date": "https://www.fda.gov/media/136228/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -2423,7 +2433,8 @@
       "*Letter of Authorization (EUA)": "https://www.molecular.abbott/sal/9N77-095_SARS-CoV-2_US_EUA_Amp_PI.pdf",
       "Creation Date": "https://www.fda.gov/media/136617/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "abbott molecular__abbott realtime sars-cov-2 eua test"
     },
     "auto_calculated": {
       "is_serology": false
@@ -2736,7 +2747,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136286/download",
       "Creation Date": "https://www.fda.gov/media/136288/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -2996,7 +3008,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136282/download",
       "Creation Date": "https://www.fda.gov/media/136283/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -3252,7 +3265,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136823/download",
       "Creation Date": "https://www.fda.gov/media/136306/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "primerdesign ltd.__genesig real-time pcr covid-2019 assay"
     },
     "auto_calculated": {
       "is_serology": false
@@ -3523,7 +3537,8 @@
       "*Letter of Authorization (EUA)": "Labs: https://www.fda.gov/media/136314/download POC: https://www.fda.gov/media/136315/download",
       "Creation Date": "https://www.fda.gov/media/136856/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -3783,7 +3798,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136353/download",
       "Creation Date": "https://www.fda.gov/media/136356/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -4093,7 +4109,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136355/download",
       "Creation Date": "https://www.fda.gov/media/136345/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -4367,7 +4384,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136410/download",
       "Creation Date": "https://www.fda.gov/media/136407/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -4634,7 +4652,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136453/download",
       "Creation Date": "https://www.fda.gov/media/136450/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "avellino lab usa, inc.__avellino sars-cov-2/covid-19 (avellinocov2)"
     },
     "auto_calculated": {
       "is_serology": false
@@ -4936,7 +4955,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136472/download",
       "Creation Date": "https://www.fda.gov/media/136473/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -5214,7 +5234,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136525/download",
       "Creation Date": "https://www.fda.gov/media/136522/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -5472,7 +5493,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136500/download",
       "Creation Date": "https://www.fda.gov/media/136497/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "luminex molecular diagnostics, inc.__nxtagcov extended panel assay"
     },
     "auto_calculated": {
       "is_serology": false
@@ -5751,7 +5773,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136565/download",
       "Creation Date": "https://www.fda.gov/media/136566/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -6008,7 +6031,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136571/download",
       "Creation Date": "https://www.fda.gov/media/136569/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -6282,7 +6306,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136602/download",
       "Creation Date": "https://www.fda.gov/media/136601/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": "ALG (8/24)"
+      "Needs Review": "ALG (8/24)",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -6454,7 +6479,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136625/download",
       "Creation Date": "https://www.fda.gov/media/136622/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "cellex inc.__qsars-cov-2 igm/igg rapid test"
     },
     "auto_calculated": {
       "is_serology": true
@@ -6729,7 +6755,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136621/download",
       "Creation Date": "https://www.fda.gov/media/136618/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "ipsum diagnostics__cov-19 idx assay"
     },
     "auto_calculated": {
       "is_serology": false
@@ -7005,7 +7032,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136653/download",
       "Creation Date": "https://www.fda.gov/media/136650/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "becton, dickinson & company (bd), biogx__biogx sars-cov-2 reagents for bd max system"
     },
     "auto_calculated": {
       "is_serology": false
@@ -7272,7 +7300,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136656/download",
       "Creation Date": "https://www.fda.gov/media/136657/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -7531,7 +7560,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136669/download",
       "Creation Date": "https://www.fda.gov/media/136658/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -7797,7 +7827,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136693/download",
       "Creation Date": "https://www.fda.gov/media/136694/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -8066,7 +8097,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136691/download",
       "Creation Date": "https://www.fda.gov/media/136688/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -8335,7 +8367,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136687/download",
       "Creation Date": "https://www.fda.gov/media/136684/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "co-diagnostics, inc.__logix smart coronavirus covid-19"
     },
     "auto_calculated": {
       "is_serology": false
@@ -8599,7 +8632,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136699/download",
       "Creation Date": "https://www.fda.gov/media/136700/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -8863,7 +8897,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136738/download",
       "Creation Date": "https://www.fda.gov/media/136735/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -8875,7 +8910,7 @@
       "first_issued_date": "2020-04-06",
       "developer_name": "Viracor Eurofins Clinical Diagnostics",
       "test_name": "Viracor SARS-CoV-2 assay",
-      "test_technology": "Molecular Real-time RT-PCR, Home Collection, Pooling",
+      "test_technology": "Real-Time RT-PCR, Pooling, Screening",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/143069/download"
     },
     "anot8_org": {
@@ -8889,7 +8924,11 @@
         "1195",
         "1196",
         "1197",
-        "1198"
+        "1198",
+        "1864",
+        "1865",
+        "1866",
+        "1867"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -9132,7 +9171,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136740/download",
       "Creation Date": "https://www.fda.gov/media/136739/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "viracor eurofins clinical diagnostics__coronavirus sars-cov-2 rt-pcr assay"
     },
     "auto_calculated": {
       "is_serology": false
@@ -9390,7 +9430,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136786/download",
       "Creation Date": "https://www.fda.gov/media/136787/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -9659,7 +9700,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136816/download",
       "Creation Date": "https://www.fda.gov/media/136813/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -9928,19 +9970,20 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136809/download",
       "Creation Date": "https://www.fda.gov/media/136806/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "diacarta, inc.__quantivirus sars-cov-2 test"
     },
     "auto_calculated": {
       "is_serology": false
     }
   },
   {
-    "test_id": "stanford health care clinical virology laboratory__sars-cov-2 rt-pcr assay",
+    "test_id": "stanford health care clinical virology laboratory__stanford sars-cov-2 assay",
     "FDA_EUAs_list": {
       "first_issued_date": "2020-04-08",
       "developer_name": "Stanford Health Care Clinical Virology Laboratory",
       "test_name": "SARS-CoV-2 RT-PCR Assay",
-      "test_technology": "Molecular, Real-time RT-PCR, Home Collection Kit",
+      "test_technology": "Molecular, Real-time RT-PCR, Home Collection",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/144013/download"
     },
     "anot8_org": {
@@ -9960,8 +10003,8 @@
     },
     "fda_reference_panel_lod_data": {
       "different_developer_name": false,
-      "different_test_name": false,
-      "results_status": "",
+      "different_test_name": "Stanford SARS-CoV-2 assay",
+      "results_status": "Data not returned",
       "lod": "",
       "sample_media_type": ""
     },
@@ -10197,7 +10240,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136818/download",
       "Creation Date": "https://www.fda.gov/media/136817/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -10483,7 +10527,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136870/download",
       "Creation Date": "https://www.fda.gov/media/136872/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -10927,7 +10972,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136877/download",
       "Creation Date": "https://www.fda.gov/media/136878/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "specialty diagnostic (sdi) laboratories__sdi sars-cov-2 assay"
     },
     "auto_calculated": {
       "is_serology": false
@@ -11191,7 +11237,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136873/download",
       "Creation Date": "https://www.fda.gov/media/136874/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -11482,7 +11529,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136880/download",
       "Creation Date": "https://www.fda.gov/media/136879/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -11745,7 +11793,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136944/download",
       "Creation Date": "https://www.fda.gov/media/136943/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -11917,7 +11966,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136942/download",
       "Creation Date": "https://www.fda.gov/media/136941/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -12094,7 +12144,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136967/download",
       "Creation Date": "https://www.fda.gov/media/136966/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -12266,7 +12317,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137095/download",
       "Creation Date": "https://www.fda.gov/media/137094/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -12438,7 +12490,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136971/download",
       "Creation Date": "fda.gov/media/136972/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "infectious diseases diagnostics laboratory (iddl), boston children’s hospital__childrens-altona-sars-cov-2 assay"
     },
     "auto_calculated": {
       "is_serology": false
@@ -12704,7 +12757,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137026/download",
       "Creation Date": "https://www.fda.gov/media/137023/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -12875,7 +12929,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137029/download",
       "Creation Date": "https://www.fda.gov/media/137032/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -13047,7 +13102,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137034/download",
       "Creation Date": "https://www.fda.gov/media/137035/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -13219,7 +13275,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137036/download",
       "Creation Date": "https://www.fda.gov/media/137037/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -13485,7 +13542,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137093/download",
       "Creation Date": "https://www.fda.gov/media/137090/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -13760,7 +13818,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137089/download",
       "Creation Date": "https://www.fda.gov/media/137088/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -14015,7 +14074,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137120/download",
       "Creation Date": "https://www.fda.gov/media/137117/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -14268,7 +14328,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137116/download",
       "Creation Date": "https://www.fda.gov/media/137113/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -14523,7 +14584,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137153/download",
       "Creation Date": "https://www.fda.gov/media/137150/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "trax management services inc. (mfd by procomcure biotech gmbh)__phoenixdx 2019-cov"
     },
     "auto_calculated": {
       "is_serology": false
@@ -14696,7 +14758,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137163/download",
       "Creation Date": "https://www.fda.gov/media/137163/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -14951,7 +15014,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137178/download",
       "Creation Date": "https://www.fda.gov/media/137179/download",
       "Modified Date": "4/23/2020 15:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "seegene__allplex 2019-ncov assay"
     },
     "auto_calculated": {
       "is_serology": false
@@ -15195,7 +15259,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137252/download",
       "Creation Date": "https://www.fda.gov/media/137257/download",
       "Modified Date": "4/23/2020 22:56",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "altona diagnostics gmbh__realstar sars-cov02 rt-pcr kits"
     },
     "auto_calculated": {
       "is_serology": false
@@ -15367,7 +15432,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137255/download",
       "Creation Date": "https://www.fda.gov/media/137256/download",
       "Modified Date": "4/23/2020 23:39",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -15631,7 +15697,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137302/download",
       "Creation Date": "https://www.fda.gov/media/137303/download",
       "Modified Date": "4/23/2020 22:38",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -15803,7 +15870,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137370/download",
       "Creation Date": "https://www.fda.gov/media/137369/download",
       "Modified Date": "5/5/2020 1:13",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -15979,14 +16047,15 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137359/download",
       "Creation Date": "https://www.fda.gov/media/137356/download",
       "Modified Date": "4/26/2020 14:15",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "diasorin inc.__liason sars-cov-2 s1/s2 igg"
     },
     "auto_calculated": {
       "is_serology": true
     }
   },
   {
-    "test_id": "ortho-clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent pack",
+    "test_id": "ortho-clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent",
     "FDA_EUAs_list": {
       "first_issued_date": "2020-04-24",
       "developer_name": "Ortho-Clinical Diagnostics, Inc.",
@@ -16160,7 +16229,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137363/download",
       "Creation Date": "https://www.fda.gov/media/137360/download",
       "Modified Date": "4/26/2020 16:13",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "ortho clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent pack"
     },
     "auto_calculated": {
       "is_serology": true
@@ -16333,7 +16403,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137374/download",
       "Creation Date": "https://www.fda.gov/media/137373/download",
       "Modified Date": "5/5/2020 1:13",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -16505,7 +16576,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137372/download",
       "Creation Date": "https://www.fda.gov/media/137371/download",
       "Modified Date": "4/26/2020 17:42",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -16685,7 +16757,8 @@
       "*Letter of Authorization (EUA)": "Architect: https://www.fda.gov/media/137383/download; Alinity: https://www.fda.gov/media/137910/download",
       "Creation Date": "https://www.fda.gov/media/137384/download",
       "Modified Date": "5/2/2020 9:46",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -16943,7 +17016,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137425/download",
       "Creation Date": "https://www.fda.gov/media/137420/download",
       "Modified Date": "5/4/2020 13:39",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -17116,7 +17190,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137423/download",
       "Creation Date": "https://www.fda.gov/media/137424/download",
       "Modified Date": "5/4/2020 13:44",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -17288,7 +17363,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137450/download",
       "Creation Date": "https://www.fda.gov/media/137451/download",
       "Modified Date": "5/4/2020 11:29",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -17532,7 +17608,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137483/download",
       "Creation Date": "https://www.fda.gov/media/137484/download",
       "Modified Date": "5/4/2020 13:39",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -17779,7 +17856,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137489/download",
       "Creation Date": "https://www.fda.gov/media/137490/download",
       "Modified Date": "5/4/2020 13:39",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -17955,7 +18033,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137493/download",
       "Creation Date": "https://www.fda.gov/media/137494/download",
       "Modified Date": "5/4/2020 13:39",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "bio-rad laboratories, inc.__platelia sars-cov-2 total ab assay"
     },
     "auto_calculated": {
       "is_serology": true
@@ -18126,7 +18205,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137541/download",
       "Creation Date": "https://www.fda.gov/media/137540/download",
       "Modified Date": "5/4/2020 13:39",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -18380,7 +18460,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137546/download",
       "Creation Date": "https://www.fda.gov/media/137545/download",
       "Modified Date": "5/4/2020 10:52",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -18649,7 +18730,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137579/download",
       "Creation Date": "https://www.fda.gov/media/137576/download",
       "Modified Date": "5/4/2020 0:16",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "bio-rad laboratories, inc.__bio-rad sars cov-2-ddpcr test"
     },
     "auto_calculated": {
       "is_serology": false
@@ -18918,7 +19000,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137583/download",
       "Creation Date": "https://www.fda.gov/media/137580/download",
       "Modified Date": "5/4/2020 1:49",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "biofire diagnostics, llc__biofire respiratory panel 2.1"
     },
     "auto_calculated": {
       "is_serology": false
@@ -19094,7 +19177,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137605/download",
       "Creation Date": "https://www.fda.gov/media/137602/download",
       "Modified Date": "5/3/2020 19:03",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -19269,7 +19353,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137656/download",
       "Creation Date": "https://www.fda.gov/media/137654/download",
       "Modified Date": "5/12/2020 21:49",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -19440,7 +19525,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137609/download",
       "Creation Date": "https://www.fda.gov/media/137606/download",
       "Modified Date": "5/4/2020 16:06",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -19703,7 +19789,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137651/download",
       "Creation Date": "https://www.fda.gov/media/137652/download",
       "Modified Date": "5/12/2020 21:49",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -19951,7 +20038,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137690/download",
       "Creation Date": "https://www.fda.gov/media/137687/download",
       "Modified Date": "5/12/2020 21:49",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -20219,7 +20307,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137739/download",
       "Creation Date": "https://www.fda.gov/media/137737/download",
       "Modified Date": "5/12/2020 21:49",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -20473,7 +20562,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137746/download",
       "Creation Date": "https://www.fda.gov/media/137747/download",
       "Modified Date": "5/12/2020 21:49",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -20737,7 +20827,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137742/download",
       "Creation Date": "https://www.fda.gov/media/137743/download",
       "Modified Date": "5/12/2020 21:49",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -21008,7 +21099,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137780/download",
       "Creation Date": "https://www.fda.gov/media/137781/download",
       "Modified Date": "5/12/2020 21:49",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -21181,7 +21273,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137897/download",
       "Creation Date": "https://www.fda.gov/media/137896/download",
       "Modified Date": "5/12/2020 21:49",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -21436,7 +21529,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137885/download",
       "Creation Date": "https://www.fda.gov/media/137886/download",
       "Modified Date": "5/11/2020 22:04",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -21698,7 +21792,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137895/download",
       "Creation Date": "https://www.fda.gov/media/137892/download",
       "Modified Date": "5/11/2020 23:37",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -21951,7 +22046,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137935/download",
       "Creation Date": "https://www.fda.gov/media/137934/download",
       "Modified Date": "5/21/2020 0:45",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -22239,7 +22335,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137979/download",
       "Creation Date": "https://www.fda.gov/media/137980/download",
       "Modified Date": "5/21/2020 0:47",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -22412,7 +22509,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137983/download",
       "Creation Date": "https://www.fda.gov/media/137982/download",
       "Modified Date": "5/31/2020 15:26",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -22698,7 +22796,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138059/download",
       "Creation Date": "https://www.fda.gov/media/138060/download",
       "Modified Date": "5/31/2020 15:26",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -22870,7 +22969,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138063/download",
       "Creation Date": "https://www.fda.gov/media/138062/download",
       "Modified Date": "5/31/2020 15:26",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -23042,7 +23142,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138065/download",
       "Creation Date": "https://www.fda.gov/media/138064/download",
       "Modified Date": "5/31/2020 15:26",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -23312,7 +23413,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138096/download",
       "Creation Date": "https://www.fda.gov/media/138097/download",
       "Modified Date": "5/17/2020 20:34",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -23557,7 +23659,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138100/download",
       "Creation Date": "https://www.fda.gov/media/138101/download",
       "Modified Date": "5/18/2020 0:18",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "genematrix__neoplex covid-19 detection kit"
     },
     "auto_calculated": {
       "is_serology": false
@@ -23794,7 +23897,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138146/download",
       "Creation Date": "https://www.fda.gov/media/138144/download",
       "Modified Date": "5/18/2020 18:13",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -24060,7 +24164,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138150/download",
       "Creation Date": "https://www.fda.gov/media/138147/download",
       "Modified Date": "5/17/2020 21:05",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "fulgent therapeutics llc__fulgent covid-19 by rt-pcr test"
     },
     "auto_calculated": {
       "is_serology": false
@@ -24329,7 +24434,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138154/download",
       "Creation Date": "https://www.fda.gov/media/138151/download",
       "Modified Date": "5/17/2020 23:42",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "assurance__assurance sars-cov-2 panel"
     },
     "auto_calculated": {
       "is_serology": false
@@ -24574,14 +24680,15 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138178/download",
       "Creation Date": "https://www.fda.gov/media/138179/download",
       "Modified Date": "5/19/2020 16:55",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
     }
   },
   {
-    "test_id": "color genomics, inc.__color sars-cov-2 rt-lamp diagnostic assay",
+    "test_id": "color genomics, inc.__color genomics sars-cov-2 rt-lamp diagnostic assay",
     "FDA_EUAs_list": {
       "first_issued_date": "2020-05-18",
       "developer_name": "Color Genomics, Inc.",
@@ -24834,7 +24941,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138249/download",
       "Creation Date": "https://www.fda.gov/media/138248/download",
       "Modified Date": "5/31/2020 15:26",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "color genomics, inc.__color sars cov-2 diagnostic assay"
     },
     "auto_calculated": {
       "is_serology": false
@@ -25089,7 +25197,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138290/download",
       "Creation Date": "https://www.fda.gov/media/138292/download",
       "Modified Date": "5/31/2020 15:26",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -25333,7 +25442,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138303/download",
       "Creation Date": "https://www.fda.gov/media/138306/download",
       "Modified Date": "5/31/2020 15:26",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -25355,7 +25465,8 @@
       "file_ids_of_unannotated": [
         "474",
         "475",
-        "476"
+        "476",
+        "1868"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -25586,7 +25697,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138307/download",
       "Creation Date": "https://www.fda.gov/media/138300/download",
       "Modified Date": "5/31/2020 15:26",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "seasun biomaterials, inc.__aq-top covid-19 rapid detection kit"
     },
     "auto_calculated": {
       "is_serology": false
@@ -25855,7 +25967,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138297/download",
       "Creation Date": "https://www.fda.gov/media/138295/download",
       "Modified Date": "5/31/2020 15:26",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -26140,7 +26253,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138345/download",
       "Creation Date": "https://www.fda.gov/media/138343/download",
       "Modified Date": "5/31/2020 15:26",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -26397,7 +26511,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138328/download",
       "Creation Date": "https://www.fda.gov/media/138327/download",
       "Modified Date": "5/31/2020 15:26",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "exact sciences laboratories__exact sciences sars-cov-2 (n gene detection) test"
     },
     "auto_calculated": {
       "is_serology": false
@@ -26577,7 +26692,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138330/download",
       "Creation Date": "https://www.fda.gov/media/138329/download",
       "Modified Date": "5/31/2020 15:26",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -26749,7 +26865,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138332/download",
       "Creation Date": "https://www.fda.gov/media/138331/download",
       "Modified Date": "5/31/2020 15:26",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -26759,9 +26876,9 @@
     "test_id": "privapath diagnostics, inc.__letsgetchecked coronavirus (covid-19) test",
     "FDA_EUAs_list": {
       "first_issued_date": "2020-05-28",
-      "developer_name": "PrivaPath Diagnostics, Inc.",
+      "developer_name": "LetsGetChecked, Inc.",
       "test_name": "LetsGetChecked Coronavirus (COVID-19) Test",
-      "test_technology": "Molecular TMA, chemiluminescent, Home Collection",
+      "test_technology": "Molecular TMA, chemiluminescent, Home Collection, Screening",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/138407/download"
     },
     "anot8_org": {
@@ -26774,11 +26891,16 @@
         "491",
         "492",
         "684",
-        "1592"
+        "1592",
+        "1869",
+        "1870",
+        "1871",
+        "1872",
+        "1873"
       ]
     },
     "fda_reference_panel_lod_data": {
-      "different_developer_name": false,
+      "different_developer_name": "PrivaPath Diagnostics, Inc.",
       "different_test_name": false,
       "results_status": "Results in Table 2A",
       "lod": 7200,
@@ -26954,7 +27076,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138406/download",
       "Creation Date": "https://www.fda.gov/media/138405/download",
       "Modified Date": "5/31/2020 15:26",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -27126,7 +27249,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138446/download",
       "Creation Date": "https://www.fda.gov/media/138443/download",
       "Modified Date": "5/31/2020 15:26",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -27298,7 +27422,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138442/download",
       "Creation Date": "https://www.fda.gov/media/138439/download",
       "Modified Date": "5/31/2020 15:26",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -27469,7 +27594,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138438/download",
       "Creation Date": "https://www.fda.gov/media/138435/download",
       "Modified Date": "5/28/2020 12:09",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -27744,7 +27870,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138530/download",
       "Creation Date": "https://www.fda.gov/media/138532/download",
       "Modified Date": "6/9/2020 9:56",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -27916,7 +28043,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138526/download",
       "Creation Date": "https://www.fda.gov/media/138527/download",
       "Modified Date": "6/9/2020 9:54",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -28168,7 +28296,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138528/download",
       "Creation Date": "https://www.fda.gov/media/138529/download",
       "Modified Date": "6/9/2020 9:55",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -28339,7 +28468,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138629/download",
       "Creation Date": "https://www.fda.gov/media/138626/download",
       "Modified Date": "6/9/2020 9:55",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -28370,7 +28500,10 @@
         "1597",
         "1598",
         "1599",
-        "1604"
+        "1604",
+        "1874",
+        "1875",
+        "1876"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -28610,7 +28743,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138654/download",
       "Creation Date": "https://www.fda.gov/media/138652/download",
       "Modified Date": "6/9/2020 9:55",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -28787,7 +28921,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138660/download",
       "Creation Date": "https://www.fda.gov/media/138657/download",
       "Modified Date": "6/9/2020 9:55",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -28959,7 +29094,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138625/download",
       "Creation Date": "https://www.fda.gov/media/138624/download",
       "Modified Date": "6/9/2020 9:54",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -29213,7 +29349,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138685/download",
       "Creation Date": "https://www.fda.gov/media/138682/download",
       "Modified Date": "6/9/2020 10:22",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -29457,7 +29594,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138761/download",
       "Creation Date": "https://www.fda.gov/media/138758/download",
       "Modified Date": "6/18/2020 9:43",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -29633,7 +29771,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138757/download",
       "Creation Date": "https://www.fda.gov/media/138754/download",
       "Modified Date": "6/18/2020 9:43",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -29809,7 +29948,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138753/download",
       "Creation Date": "https://www.fda.gov/media/138750/download",
       "Modified Date": "6/18/2020 9:43",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -30058,7 +30198,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138776/download",
       "Creation Date": "https://www.fda.gov/media/138778/download",
       "Modified Date": "6/18/2020 9:43",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -30321,7 +30462,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138786/download",
       "Creation Date": "https://www.fda.gov/media/138787/download",
       "Modified Date": "6/18/2020 9:43",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -30493,7 +30635,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138790/download",
       "Creation Date": "https://www.fda.gov/media/138791/download",
       "Modified Date": "6/18/2020 9:44",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -30748,7 +30891,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138826/download",
       "Creation Date": "https://www.fda.gov/media/138823/download",
       "Modified Date": "6/18/2020 9:43",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -31004,7 +31148,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138822/download",
       "Creation Date": "https://www.fda.gov/media/138819/download",
       "Modified Date": "6/18/2020 9:43",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -31257,7 +31402,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138818/download",
       "Creation Date": "https://www.fda.gov/media/138815/download",
       "Modified Date": "6/18/2020 9:43",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -31428,7 +31574,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138810/download",
       "Creation Date": "https://www.fda.gov/media/138807/download",
       "Modified Date": "6/18/2020 9:43",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -31673,7 +31820,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138928/download",
       "Creation Date": "https://www.fda.gov/media/138929/download",
       "Modified Date": "6/18/2020 9:43",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -31846,7 +31994,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138934/download",
       "Creation Date": "https://www.fda.gov/media/138933/download",
       "Modified Date": "6/18/2020 9:44",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -32090,7 +32239,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139067/download",
       "Creation Date": "https://www.fda.gov/media/139066/download",
       "Modified Date": "6/11/2020 12:18",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -32329,7 +32479,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139049/download",
       "Creation Date": "https://www.fda.gov/media/139046/download",
       "Modified Date": "6/11/2020 11:54",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -32500,7 +32651,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139053/download",
       "Creation Date": "https://www.fda.gov/media/139050/download",
       "Modified Date": "6/11/2020 12:15",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -32744,7 +32896,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139289/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -33007,7 +33160,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139285/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -33266,7 +33420,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139293/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -33513,7 +33668,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139284/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -33686,7 +33842,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139280/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": "***"
+      "Needs Review": "***",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -33862,7 +34019,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139407/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": "***"
+      "Needs Review": "***",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -34116,7 +34274,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139443/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -34369,7 +34528,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139439/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -34613,7 +34773,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139449/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -34784,7 +34945,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139450/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -35046,7 +35208,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139509/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -35302,7 +35465,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139528/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -35555,7 +35719,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139524/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -35809,7 +35974,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139513/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -36062,7 +36228,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139569/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -36233,7 +36400,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139624/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -36486,7 +36654,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139620/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -36731,7 +36900,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139669/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -36979,7 +37149,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139681/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -37252,7 +37423,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139677/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -37506,7 +37678,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139673/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -37677,7 +37850,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139726/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -37929,7 +38103,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139722/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -38194,7 +38369,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139744/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -38221,7 +38397,8 @@
         "1644",
         "1645",
         "1646",
-        "1647"
+        "1647",
+        "1877"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -38442,7 +38619,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139752/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -38713,7 +38891,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139785/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -38888,7 +39067,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139789/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -39145,7 +39325,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139829/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -39392,7 +39573,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139833/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -39657,7 +39839,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139838/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -39939,7 +40122,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139860/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -40110,7 +40294,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139866/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -40363,7 +40548,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139934/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -40617,7 +40803,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139938/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -40788,7 +40975,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140035/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": "s"
+      "Needs Review": "s",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -41061,7 +41249,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140007/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -41315,7 +41504,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140074/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -41571,7 +41761,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140070/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -41827,7 +42018,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140066/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -42002,7 +42194,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140079/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": "s"
+      "Needs Review": "s",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -42190,7 +42383,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140236/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -42378,7 +42572,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140231/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -42566,7 +42761,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140226/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -42811,7 +43007,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140261/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -42982,7 +43179,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140257/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -43239,7 +43437,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140290/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -43410,7 +43609,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140294/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -43673,14 +43873,15 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140355/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
     }
   },
   {
-    "test_id": "helix opco llc__helix covid-19 test",
+    "test_id": "helix opco llc (dba helix)__helix covid-19 test",
     "FDA_EUAs_list": {
       "first_issued_date": "2020-07-23",
       "developer_name": "Helix OpCo LLC",
@@ -43704,11 +43905,11 @@
       ]
     },
     "fda_reference_panel_lod_data": {
-      "different_developer_name": false,
+      "different_developer_name": "Helix OpCo LLC (dba Helix)",
       "different_test_name": false,
-      "results_status": "",
-      "lod": "",
-      "sample_media_type": ""
+      "results_status": "Results in Table 2A",
+      "lod": 1800,
+      "sample_media_type": "Swabs in Transport Media"
     },
     "self_declared_EUA_data": {
       "supported_specimen_types": {
@@ -43921,7 +44122,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140422/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -44175,7 +44377,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140426/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -44352,7 +44555,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140440/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -44527,7 +44731,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140444/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -44781,7 +44986,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140544/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": "AG"
+      "Needs Review": "AG",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -45026,7 +45232,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140540/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": "AG"
+      "Needs Review": "AG",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -45280,7 +45487,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140664/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": "AG"
+      "Needs Review": "AG",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -45451,7 +45659,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140700/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -45622,7 +45831,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140703/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -45869,7 +46079,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140718/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -46050,7 +46261,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140714/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -46320,7 +46532,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140773/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -46578,7 +46791,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140777/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -46845,7 +47059,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140785/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -47027,7 +47242,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140789/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -47291,7 +47507,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140815/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -47534,7 +47751,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140919/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -47705,7 +47923,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140926/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -47958,7 +48177,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140914/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -48130,7 +48350,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140934/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -48302,7 +48523,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140930/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -48584,7 +48806,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140977/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -48838,7 +49061,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141013/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -49082,7 +49306,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141017/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -49316,7 +49541,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141054/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -49560,7 +49786,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141049/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -49814,7 +50041,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141146/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -49844,7 +50072,8 @@
         "1724",
         "1725",
         "1803",
-        "1804"
+        "1804",
+        "1878"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -50095,7 +50324,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141194/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -50266,7 +50496,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141243/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -50437,7 +50668,8 @@
       "*Letter of Authorization (EUA)": "",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -50608,7 +50840,8 @@
       "*Letter of Authorization (EUA)": "",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -50781,7 +51014,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141301/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -50953,7 +51187,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141493/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -51126,7 +51361,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141488/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -51298,7 +51534,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141484/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -51472,7 +51709,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141542/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -51484,7 +51722,7 @@
       "first_issued_date": "2020-08-25",
       "developer_name": "Fluidigm Corporation",
       "test_name": "Advanta Dx SARS-CoV-2 RT-PCR Assay",
-      "test_technology": "Molecular Real-time RT-PCR, Saliva",
+      "test_technology": "Real-time RT-PCR, Saliva, Home Collection",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141541/download"
     },
     "anot8_org": {
@@ -51494,9 +51732,15 @@
         "930",
         "931",
         "932",
+        "958",
         "1243",
         "1373",
-        "1730"
+        "1730",
+        "1811",
+        "1879",
+        "1880",
+        "1881",
+        "1882"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -51646,7 +51890,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141538/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -51817,7 +52062,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141547/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -51992,7 +52238,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141567/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -52163,7 +52410,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141624/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -52190,7 +52438,8 @@
         "1808",
         "1809",
         "1810",
-        "1811"
+        "1811",
+        "1883"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -52340,7 +52589,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141666/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -52511,7 +52761,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141665/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -52683,7 +52934,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141766/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -52854,7 +53106,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141762/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -53025,7 +53278,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141756/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -53197,7 +53451,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141752/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -53368,7 +53623,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141774/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -53539,7 +53795,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141770/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -53549,7 +53806,7 @@
     "test_id": "color genomics, inc.__color covid-19 test self-swab collection kit",
     "FDA_EUAs_list": {
       "first_issued_date": "2020-08-31",
-      "developer_name": "Color Genomics, Inc.",
+      "developer_name": "Color Health, Inc.",
       "test_name": "Color COVID-19 Test Self-Swab Collection Kit",
       "test_technology": "Home Collection Kit",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/141798/download"
@@ -53559,7 +53816,10 @@
       "file_ids_of_unannotated": [
         "996",
         "997",
-        "998"
+        "998",
+        "1884",
+        "1885",
+        "1886"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -53709,7 +53969,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141796/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "color genomics, inc.__color covid-19 test unmonitored collection kit"
     },
     "auto_calculated": {
       "is_serology": false
@@ -53881,7 +54142,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141792/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -54052,7 +54314,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141788/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -54225,7 +54488,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141824/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -54399,7 +54663,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141884/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": "ALG"
+      "Needs Review": "ALG",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -54570,7 +54835,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141888/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -54741,7 +55007,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141932/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -54917,7 +55184,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141948/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -55088,7 +55356,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141998/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -55259,7 +55528,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142003/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -55432,7 +55702,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141994/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -55603,7 +55874,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142230/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -55777,7 +56049,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142190/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -55949,7 +56222,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142225/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -56119,7 +56393,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142307/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -56290,7 +56565,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142360/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -56461,7 +56737,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142376/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -56632,7 +56909,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142380/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -56804,7 +57082,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142419/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -56975,7 +57254,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142423/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -57150,7 +57430,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142434/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -57324,7 +57605,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142479/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -57495,7 +57777,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142483/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -57666,7 +57949,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142549/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -57837,7 +58121,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142554/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -58008,7 +58293,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142558/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -58179,7 +58465,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142536/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -58350,7 +58637,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142540/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -58521,7 +58809,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142545/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -58692,7 +58981,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142589/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -58863,7 +59153,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142532/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -59035,7 +59326,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142689/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -59206,7 +59498,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142597/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -59377,7 +59670,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142593/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -59548,7 +59842,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142697/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -59719,7 +60014,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142697/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -59894,7 +60190,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142693/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -60065,7 +60362,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142797/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -60236,7 +60534,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142806/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -60408,7 +60707,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142802/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -60579,7 +60879,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142902/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -60755,7 +61056,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142916/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -60926,7 +61228,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142908/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -61097,7 +61400,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142912/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -61267,7 +61571,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142906/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -61439,7 +61744,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142937/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -61609,7 +61915,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143418/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -61784,7 +62091,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143059/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -61795,8 +62103,8 @@
     "FDA_EUAs_list": {
       "first_issued_date": "2020-10-15",
       "developer_name": "Clinical Enterprise, Inc.",
-      "test_name": "EmpowerDX At-Home COVID-19 PCR Test Kit",
-      "test_technology": "Home Collection Kit",
+      "test_name": "EmpowerDX COVID-19 Home Collection Kit DTC",
+      "test_technology": "Home Collection Kit, Direct to Consumer (DTC), Screening",
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/143065/download"
     },
     "anot8_org": {
@@ -61804,7 +62112,10 @@
       "file_ids_of_unannotated": [
         "1192",
         "1193",
-        "1194"
+        "1194",
+        "1887",
+        "1888",
+        "1889"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -61954,7 +62265,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143063/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -61974,7 +62286,10 @@
       "file_ids_of_unannotated": [
         "1204",
         "1205",
-        "1206"
+        "1206",
+        "1890",
+        "1891",
+        "1892"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -62124,7 +62439,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143183/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -62295,7 +62611,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143267/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -62469,7 +62786,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143331/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -62640,7 +62958,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143453/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -62810,7 +63129,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143415/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -62981,7 +63301,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143584/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -63152,7 +63473,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143810/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -63233,7 +63555,7 @@
     },
     "adveritasdx": {
       "ordinal": 26,
-      "Done? (Y)": "y",
+      "Done? (Y)": "ready- no notes",
       "Company/Organization": {
         "avd": "Innovita (Tangshan) Biological Technology Co., Ltd.",
         "annotations": []
@@ -63263,7 +63585,7 @@
       },
       "Specimen Type": "Ser, Pla, VWB",
       "Transport Media": {
-        "avd": "sodium citrate, lithium heparin, K2 EDTA for plasma or VWH",
+        "avd": "sodium citrate, lithium heparin, K2 EDTA",
         "annotations": []
       },
       "Gene": "NA",
@@ -63323,7 +63645,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144068/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -63494,7 +63817,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143932/download",
       "Creation Date": "",
       "Modified Date": "December 28, 2020",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -63664,7 +63988,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143927/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -63835,7 +64160,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144007/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -64006,7 +64332,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144034/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -64178,7 +64505,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144029/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -64260,7 +64588,7 @@
     },
     "adveritasdx": {
       "ordinal": 25,
-      "Done? (Y)": "not yet",
+      "Done? (Y)": "ready- no notes",
       "Company/Organization": {
         "avd": "Quest Diagnostics Infectious Disease, Inc.",
         "annotations": []
@@ -64268,7 +64596,7 @@
       "Test Name": "Quest Diagnostics RC COVID-19+Flu RT-PCR",
       "Select": "",
       "*URL": "https://www.questdiagnostics.com/home/Covid-19/Patients/CovidFlu/",
-      "Test Type (Lab or Kit)": "Kit",
+      "Test Type (Lab or Kit)": "Collection",
       "Country of Origin": "USA",
       "US Regulatory Status": "EUA granted December 04, 2020",
       "Category": {
@@ -64277,7 +64605,7 @@
       },
       "Authorized Setting(s) per FDA": "H",
       "Technology": {
-        "avd": "Molecular",
+        "avd": "Home Collection Kit (nasal)",
         "annotations": []
       },
       "Analyte": {
@@ -64285,64 +64613,64 @@
         "annotations": []
       },
       "Assay": {
-        "avd": "Real-time RT-PCR, Multi-analyte, Home Collection",
+        "avd": "Real-time RT-PCR Multi-analyte, Home Collection",
         "annotations": []
       },
       "Specimen Type": "Ns swab",
       "Transport Media": {
-        "avd": "",
+        "avd": "Kit stabilizing solution (included)",
         "annotations": []
       },
-      "Gene": "",
+      "Gene": "NA",
       "Antigen": {
         "avd": "NA",
         "annotations": []
       },
       "Sample Prep": {
-        "avd": "",
+        "avd": "Automated on the Roche cobas SARS-CoV-2 & Influenza A/B test on the cobas 6800/8800 systems",
         "annotations": []
       },
       "Detection": {
-        "avd": "",
+        "avd": "Cobas 6800/8800 systems",
         "annotations": []
       },
-      "TAT": "",
-      "Analytical Sensitivity (LOD)": "",
+      "TAT": "NA",
+      "Analytical Sensitivity (LOD)": "NA",
       "LOD of FDA Reference Panel (NDU/mL)": "",
       "Cross- Reactivity": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "PPA/Sensitivity": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "PPA Sample Size": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "PPA Specimen Type": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "NPA/Specificity": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "NPA Sample Size": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "NPV @ 5% prevalence": "",
       "PPV@ 5% prevalence": "",
       "Manufacturer's Validation Notes": "",
       "External Quality Control": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
-      "Process (internal) Control": "",
+      "Process (internal) Control": "NA",
       "Positive Control": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "*Publications": "",
@@ -64350,7 +64678,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144180/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -64521,7 +64850,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144253/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -64604,7 +64934,7 @@
     },
     "adveritasdx": {
       "ordinal": 23,
-      "Done? (Y)": "not yet",
+      "Done? (Y)": "Ready - no notes",
       "Company/Organization": {
         "avd": "Laboratory Corporation of America (LabCorp)",
         "annotations": []
@@ -64612,7 +64942,7 @@
       "Test Name": "Pixel by LabCorp COVID-19 Test Home Collection Kit",
       "Select": "",
       "*URL": "https://www.pixel.labcorp.com/at-home-test-kits/covid-19-test-home-collection-kit",
-      "Test Type (Lab or Kit)": "Kit",
+      "Test Type (Lab or Kit)": "Collection",
       "Country of Origin": "USA",
       "US Regulatory Status": "EUA granted December 09, 2020",
       "Category": {
@@ -64621,7 +64951,7 @@
       },
       "Authorized Setting(s) per FDA": "H",
       "Technology": {
-        "avd": "Molecular Direct to Consumer (DTC), Real-time RT-PCR, Home Collection, Pooling, Screening",
+        "avd": "Home Collection Kit (nasal)",
         "annotations": []
       },
       "Analyte": {
@@ -64629,12 +64959,12 @@
         "annotations": []
       },
       "Assay": {
-        "avd": "NA",
+        "avd": "rRT-PCR, pooling; Kit to be used at LabCorp-certified laboratories using Pixel LabCorp rRT-PCR test",
         "annotations": []
       },
-      "Specimen Type": "NP swab, OP swab, MTNs swab, Ns swab",
+      "Specimen Type": "Ns swab",
       "Transport Media": {
-        "avd": "",
+        "avd": "Kit stabilizing solution (included)",
         "annotations": []
       },
       "Gene": "NA",
@@ -64681,7 +65011,7 @@
       "PPV@ 5% prevalence": "",
       "Manufacturer's Validation Notes": "The Pixel by LabCorp™ COVID-19 at-home kit is a molecular test, also known as a reverse polymerase chain reaction (RT-PCR) test or a nucleic acid amplification test (NAAT). A total of 93 samples were re-run using the new extraction method, including 11 positives. The results of the clinical comparison were 100% concordant for positives and 100% for negatives; 11/11 positives were called along with 82/82 negatives. The average Ct Difference for N1 was -0.68, for N2 was -0.43 and for RP was -3.28",
       "External Quality Control": {
-        "avd": "",
+        "avd": "NA",
         "annotations": []
       },
       "Process (internal) Control": "NA",
@@ -64694,7 +65024,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144333/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -64865,7 +65196,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144555/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -65036,7 +65368,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144559/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -65211,7 +65544,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144550/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -65232,7 +65566,8 @@
         "1326",
         "1327",
         "1328",
-        "1329"
+        "1329",
+        "1893"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -65382,7 +65717,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144587/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -65553,7 +65889,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144576/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": "abbott diagnostics scarborough, inc.__binaxnowtm covid-19 ag card home test"
     },
     "auto_calculated": {
       "is_serology": false
@@ -65635,7 +65972,7 @@
     },
     "adveritasdx": {
       "ordinal": 22,
-      "Done? (Y)": "not yet",
+      "Done? (Y)": "Ready - no notes",
       "Company/Organization": {
         "avd": "Ellume Limited",
         "annotations": []
@@ -65725,7 +66062,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144457/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -65896,7 +66234,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144656/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -66067,7 +66406,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144669/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -66238,7 +66578,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144665/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -66409,7 +66750,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144790/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -66580,7 +66922,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144761/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -66751,7 +67094,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144756/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -66926,7 +67270,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144874/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -67097,7 +67442,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144925/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -67268,7 +67614,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/145012/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -67439,7 +67786,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/145017/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -67614,7 +67962,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/145069/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -67785,7 +68134,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/145082/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -67956,7 +68306,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/145075/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -68127,7 +68478,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/145131/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -68449,7 +68801,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/145280/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": true
@@ -68620,7 +68973,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/145267/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -68643,7 +68997,9 @@
       "file_ids_of_unannotated": [
         "1407",
         "1408",
-        "1409"
+        "1409",
+        "1894",
+        "1895"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -68953,7 +69309,8 @@
       "*Letter of Authorization (EUA)": "https://www.fda.gov/media/145406/download",
       "Creation Date": "",
       "Modified Date": "",
-      "Needs Review": ""
+      "Needs Review": "",
+      "original_test_id": ""
     },
     "auto_calculated": {
       "is_serology": false
@@ -69203,12 +69560,13 @@
       "url_to_IFU_or_EUA": "https://www.fda.gov/media/145697/download"
     },
     "anot8_org": {
-      "file_ids_of_annotated": [],
+      "file_ids_of_annotated": [
+        "1788"
+      ],
       "file_ids_of_unannotated": [
         "1785",
         "1786",
-        "1787",
-        "1788"
+        "1787"
       ]
     },
     "fda_reference_panel_lod_data": {
@@ -69910,6 +70268,711 @@
         "1859",
         "1860",
         "1861"
+      ]
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    },
+    "adveritasdx": null,
+    "auto_calculated": {
+      "is_serology": false
+    }
+  },
+  {
+    "test_id": "university of illinois office of the vice president for economic development and innovation__covidshield",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-02-24",
+      "developer_name": "University of Illinois Office of the Vice President for Economic Development and Innovation",
+      "test_name": "covidSHIELD",
+      "test_technology": "Real-time RT-PCR, Saliva",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/146317/download"
+    },
+    "anot8_org": {
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1896",
+        "1897",
+        "1898",
+        "1899"
+      ]
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    },
+    "adveritasdx": null,
+    "auto_calculated": {
+      "is_serology": false
+    }
+  },
+  {
+    "test_id": "viracor eurofins clinical diagnostics__viracor sars-cov-2 assay dtc",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-02-26",
+      "developer_name": "Viracor Eurofins Clinical Diagnostics",
+      "test_name": "Viracor SARS-CoV-2 assay DTC",
+      "test_technology": "Direct to Consumer (DTC), Real-time RT-PCR, Home Collection, Screening",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/146325/download"
+    },
+    "anot8_org": {
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1900",
+        "1901",
+        "1902"
+      ]
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    },
+    "adveritasdx": null,
+    "auto_calculated": {
+      "is_serology": false
+    }
+  },
+  {
+    "test_id": "abbott laboratories inc.__advisedx sars-cov-2 igg ii",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-03-01",
+      "developer_name": "Abbott Laboratories Inc.",
+      "test_name": "AdviseDx SARS-CoV-2 IgG II",
+      "test_technology": "IgG, CMIA, Semi-quantitative",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/146371/download"
+    },
+    "anot8_org": {
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1903",
+        "1904",
+        "1905",
+        "1906",
+        "1912"
+      ]
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    },
+    "adveritasdx": null,
+    "auto_calculated": {
+      "is_serology": true
+    }
+  },
+  {
+    "test_id": "quidel corporation__quickvue at-home covid-19 test",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-03-01",
+      "developer_name": "Quidel Corporation",
+      "test_name": "QuickVue At-Home COVID-19 Test",
+      "test_technology": "Lateral Flow, Visual Read, Prescription Home Testing",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/146312/download"
+    },
+    "anot8_org": {
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1907",
+        "1908",
+        "1909",
+        "1910",
+        "1911"
+      ]
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    },
+    "adveritasdx": null,
+    "auto_calculated": {
+      "is_serology": false
+    }
+  },
+  {
+    "test_id": "luminex molecular diagnostics, inc.__nxtag respiratory pathogen panel + sars-cov-2",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-03-03",
+      "developer_name": "Luminex Molecular Diagnostics, Inc.",
+      "test_name": "NxTAG Respiratory Pathogen Panel + SARS-CoV-2",
+      "test_technology": "RT-PCR, Multi-analyte",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/146495/download"
+    },
+    "anot8_org": {
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1923",
+        "1924",
+        "1925",
+        "1926"
+      ]
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    },
+    "adveritasdx": null,
+    "auto_calculated": {
+      "is_serology": false
+    }
+  },
+  {
+    "test_id": "abbott molecular inc.__alinity m resp-4-plex",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-03-04",
+      "developer_name": "Abbott Molecular Inc.",
+      "test_name": "Alinity m Resp-4-Plex",
+      "test_technology": "Real-time RT-PCR, Multi-analyte",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/146491/download"
+    },
+    "anot8_org": {
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1919",
+        "1920",
+        "1921",
+        "1922"
+      ]
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    },
+    "adveritasdx": null,
+    "auto_calculated": {
+      "is_serology": false
+    }
+  },
+  {
+    "test_id": "clinical research sequencing platform (crsp), llc at the broad institute of mit and harvard__crsp sars-cov-2 real-time reverse transcriptase (rt)-pcr diagnostic assay (version 3)",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-03-05",
+      "developer_name": "Clinical Research Sequencing Platform (CRSP), LLC at the Broad Institute of MIT and Harvard",
+      "test_name": "CRSP SARS-CoV-2 Real-time Reverse Transcriptase (RT)-PCR Diagnostic Assay (Version 3)",
+      "test_technology": "Real-time RT-PCR, Home Collection",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/146500/download"
+    },
+    "anot8_org": {
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1927",
+        "1927",
+        "1928",
+        "1929",
+        "1930",
+        "1931"
+      ]
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    },
+    "adveritasdx": null,
+    "auto_calculated": {
+      "is_serology": false
+    }
+  },
+  {
+    "test_id": "adaptive biotechnologies corporation__t-detect covid test",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-03-05",
+      "developer_name": "Adaptive Biotechnologies Corporation",
+      "test_name": "T-Detect COVID Test",
+      "test_technology": "T-cell receptor beta (TCR β), Sequencing",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/146481/download"
+    },
+    "anot8_org": {
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1915",
+        "1916",
+        "1917",
+        "1918"
+      ]
+    },
+    "fda_reference_panel_lod_data": {
+      "different_developer_name": false,
+      "different_test_name": false,
+      "results_status": "",
+      "lod": "",
+      "sample_media_type": ""
+    },
+    "self_declared_EUA_data": {
+      "supported_specimen_types": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "target_genes": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "controls__human_gene_target": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "primer_probe_sequences": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_value": {
+        "annotations": [],
+        "min": null,
+        "max": null,
+        "parsed": ""
+      },
+      "lod_units": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "lod_minimum_replicates": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__viral_material": {
+        "annotations": [],
+        "parsed": ""
+      },
+      "synthetic_specimen__clinical_matrix": {
+        "annotations": [],
+        "parsed": ""
+      }
+    },
+    "amp_survey": {
+      "aug": {
+        "primary_rank": null,
+        "primary_lab_percentage": null,
+        "id": "",
+        "anot8_org_file_id": ""
+      }
+    },
+    "adveritasdx": null,
+    "auto_calculated": {
+      "is_serology": false
+    }
+  },
+  {
+    "test_id": "cue health inc.__cue covid-19 test for home and over the counter (otc) use",
+    "FDA_EUAs_list": {
+      "first_issued_date": "2021-03-05",
+      "developer_name": "Cue Health Inc.",
+      "test_name": "Cue COVID-19 Test for Home and Over The Counter (OTC) Use",
+      "test_technology": "RT, Isothermal amplification, Over the Counter (OTC) Home Testing, Screening",
+      "url_to_IFU_or_EUA": "https://www.fda.gov/media/146470/download"
+    },
+    "anot8_org": {
+      "file_ids_of_annotated": [],
+      "file_ids_of_unannotated": [
+        "1913",
+        "1914",
+        "1932",
+        "1933"
       ]
     },
     "fda_reference_panel_lod_data": {

@@ -41,7 +41,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/145406/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "united biomedical, inc.__ubi sars-cov-2 elisa",
@@ -85,7 +86,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/145280/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "bio-rad laboratories, inc.__bio-rad reliance sars-cov-2 rt-pcr assay kit",
@@ -129,7 +131,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/145267/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "sml genetree co., ltd.__ezplex sars-cov-2 g kit",
@@ -173,7 +176,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/145131/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "ortho clinical diagnostics, inc.__vitros immunodiagnostic products sars-cov-2 antigen reagent pack",
@@ -217,7 +221,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/145069/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "phadia ab__elia sars-cov-2-sp1 igg test",
@@ -261,7 +266,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/145082/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "advaite, inc.__rapcov rapid covid-19 test",
@@ -305,7 +311,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/145075/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "siemens healthcare diagnostics inc.__dimension exl sars‑cov‑2 igg (cv2g)",
@@ -349,7 +356,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/145012/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "siemens healthcare diagnostics inc.__dimension vista sars‑cov‑2 igg (cov2g)",
@@ -393,7 +401,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/145017/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "quanterix corporation__simoa sars-cov-2 n protein antigen test",
@@ -437,7 +446,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144925/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "nirmidas biotech, inc.__midaspot covid-19 antibody combo detection kit",
@@ -481,7 +491,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144874/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "cepheid__xpert xpress sars-cov-2 dod",
@@ -525,7 +536,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144790/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "quanterix corporation__simoa semi-quantitative sars-cov-2 igg antibody test",
@@ -569,7 +581,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144761/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "quidel corporation__solana sars-cov-2 assay",
@@ -613,7 +626,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144756/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "siemens healthcare diagnostics inc.__advia centaur il6 assay",
@@ -657,7 +671,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144669/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "quidel corporation__quickvue sars antigen test",
@@ -701,7 +716,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144665/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "materials and machines corporation of america (dba matmacorp, inc.)__matmacorp covid-19 2sf test",
@@ -745,7 +761,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144656/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "hologic, inc.__aptima sars-cov-2/flu assay",
@@ -789,7 +806,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144587/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "abbott diagnostics scarborough, inc.__binaxnow covid-19 ag card home test",
@@ -833,7 +851,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144576/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "abbott diagnostics scarborough, inc.__binaxnowtm covid-19 ag card home test"
   },
   {
     "test_id": "acon laboratories, inc.__acon sars-cov-2 igg/igm rapid test",
@@ -877,7 +896,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144559/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "researchdx, inc., dba pacific diagnostics__pacificdx covid-19",
@@ -921,7 +941,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144555/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "rca laboratory services llc dba genetworx__genetworx covid-19 nasal swab test",
@@ -965,7 +986,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144550/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "ellume limited__ellume covid-19 home test",
@@ -1009,7 +1031,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144457/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "laboratory corporation of america (labcorp)__pixel by labcorp covid-19 test home collection kit",
@@ -1053,7 +1076,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144333/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "luminostics, inc.__clip covid rapid antigen test",
@@ -1097,7 +1121,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144253/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "quest diagnostics infectious disease, inc.__quest diagnostics rc covid-19+flu rt-pcr",
@@ -1141,7 +1166,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144180/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "innovita (tangshan) biological technology co., ltd.__innovita 2019-ncov ab test (colloidal gold)",
@@ -1185,7 +1211,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144068/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "roche diagnostics, inc.__elecsys anti-sars-cov-2 s",
@@ -1229,7 +1256,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144034/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "cepheid__xpert omni sars-cov-2",
@@ -1273,7 +1301,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144029/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "dxterity diagnostics, inc.__dxterity sars-cov-2 rt pcr ce test",
@@ -1317,7 +1346,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141666/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "kantaro biosciences, llc__covid-seroklir, kantaro semi-quantitative sars-cov-2 igg antibody kit",
@@ -1361,7 +1391,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/144007/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "gravity diagnostics, llc__gravity diagnostics sars-cov-2 rt-pcr assay",
@@ -1405,7 +1436,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143932/download",
     "Creation Date": "",
     "Modified Date": "December 28, 2020",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "rapidrona, inc.__rapidrona self-collection kit",
@@ -1449,7 +1481,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143927/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "lucira health, inc.__lucira covid-19 all-in-one test kit",
@@ -1493,7 +1526,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143810/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "genscript usa inc.__cpass sars-cov-2 neutralization antibody detection kit",
@@ -1537,7 +1571,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143584/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "quansys biosciences, inc.__q-plex sars-cov-2 human igg (4 plex)",
@@ -1581,7 +1616,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143453/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "dna genotek inc.__oracollect∙rna or-100 and oracollect∙rna ore-100 saliva collection devices",
@@ -1625,7 +1661,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143415/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "agena bioscience, inc.__massarray sars-cov-2 panel",
@@ -1669,7 +1706,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143331/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "celltrion usa, inc.__sampinute covid-19 antigen mia",
@@ -1713,7 +1751,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143267/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "binx health, inc.__binx health at-home nasal swab covid-19 sample collection kit",
@@ -1757,7 +1796,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143183/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "clinical enterprise, inc.__empowerdx at-home covid-19 pcr test kit",
@@ -1801,7 +1841,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143063/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "dna genotek inc.__omnigene·oral om-505 and ome-505 (omnigene·oral) saliva collection devices",
@@ -1845,7 +1886,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143418/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "lumiradx uk ltd.__lumiradx sars-cov-2 rna star complete",
@@ -1889,7 +1931,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/143059/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "abbott laboratories inc.__advisedx sars-cov-2 igm",
@@ -1933,7 +1976,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142937/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "access bio, inc.__carestart covid-19 antigen test",
@@ -1977,7 +2021,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142916/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "beckman coulter, inc.__access sars-cov-2 igm",
@@ -2021,7 +2066,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142908/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "genalyte, inc.__maverick sars-cov-2 multi-antigen serology panel v2",
@@ -2065,7 +2111,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142912/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "spectrum solutions llc__sdna-1000 saliva collection device",
@@ -2109,7 +2156,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142906/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "genmark diagnostics, inc.__eplex respiratory pathogen panel 2",
@@ -2153,7 +2201,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142902/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "zeus scientific, inc.__zeus elisa sars-cov-2 igg test system",
@@ -2197,7 +2246,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142806/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "university of california, los angeles (ucla)__ucla swabseq covid-19 diagnostic platform",
@@ -2241,7 +2291,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142802/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "seasun biomaterials, inc.__aq-top covid-19 rapid detection kit plus",
@@ -2285,7 +2336,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142797/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "quidel corporation__sofia 2 flu + sars antigen fia",
@@ -2329,7 +2381,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142697/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "thermo fisher scientific__omnipath covid-19 total antibody elisa test",
@@ -2373,7 +2426,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142697/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "biofire diagnostics, llc__biofire respiratory panel 2.1-ez (rp2.1-ez)",
@@ -2417,7 +2471,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142693/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "umass memorial medical center__umass molecular virology laboratory 2019-ncov rrt-pcr dx panel",
@@ -2461,7 +2516,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142689/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "beckman coulter, inc.__access il-6",
@@ -2505,7 +2561,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142597/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "tempus labs, inc.__ic sars-cov2 test",
@@ -2549,7 +2606,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142593/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "alimetrix, inc.__alimetrix sars-cov-2 rt-pcr assay",
@@ -2593,7 +2651,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142589/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "aeon global health__aeon global health sars-cov-2 assay",
@@ -2637,7 +2696,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142532/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "diasorin, inc.__diasorin liaison sars-cov-2 igm assay",
@@ -2681,7 +2741,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142549/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "nanoentek america, inc.__frend covid-19 total ab",
@@ -2725,7 +2786,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142554/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "nirmidas biotech, inc.__nirmidas covid-19 (sars-cov-2) igm/igg antibody detection kit",
@@ -2769,7 +2831,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142558/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "centogene us, llc__centosure sars-cov-2 rt-pcr assay",
@@ -2813,7 +2876,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142536/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "akron children’s hospital__akron children’s hospital sars-cov-2 assay",
@@ -2857,7 +2921,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142540/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "national jewish health__sars-cov-2 massarray test",
@@ -2901,7 +2966,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142545/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "genetrack biolabs, inc.__genetrack sars-cov-2 molecular assay",
@@ -2945,7 +3011,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142479/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "quotient suisse sa__mosaiq covid-19 antibody magazine",
@@ -2989,7 +3056,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142483/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "cepheid__xpert xpress sars-cov-2/flu/rsv",
@@ -3033,7 +3101,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142434/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "clear labs, inc.__clear dx sars-cov-2 test",
@@ -3077,7 +3146,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142419/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "jiangsu well biotech co., ltd.__orawell igm/igg rapid test",
@@ -3121,7 +3191,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142423/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "quadrant biosciences inc.__clarifi covid-19 test kit",
@@ -3165,7 +3236,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142376/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "vela operations singapore pte. ltd.__virokey sars-cov-2 rt-pcr test v2.0",
@@ -3209,7 +3281,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142380/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "kimforest enterprise co., ltd.__kimforest sars-cov-2 detection kit v1",
@@ -3253,7 +3326,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142360/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "gk pharmaceuticals contract manufacturing operations__gk accu-right sars-cov-2 rt-pcr kit",
@@ -3297,7 +3371,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142307/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "visby medical, inc.__visby medical covid-19",
@@ -3341,7 +3416,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142225/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "shenzhen new industries biomedical engineering co., ltd.__maglumi 2019-ncov igm/igg",
@@ -3385,7 +3461,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142230/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "roche molecular systems, inc.__cobas sars-cov-2 & influenza a/b nucleic acid test for use on the cobas liat system",
@@ -3429,7 +3506,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142190/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "biocheck, inc.__biocheck sars-cov-2 igm antibody test kit",
@@ -3473,7 +3551,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141998/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "biocheck, inc.__biocheck sars-cov-2 igg antibody test kit",
@@ -3517,7 +3596,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/142003/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "beijing wantai biological pharmacy enterprise co., ltd.__wantai sars-cov-2 rt-pcr kit",
@@ -3561,7 +3641,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141994/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "billiontoone, inc.__qsanger-covid-19 assay",
@@ -3605,7 +3686,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141932/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "verily life sciences__verily covid-19 rt-pcr test",
@@ -3649,7 +3731,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141948/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "patients choice laboratories, llc__pcl sars-cov-2 real-time rt-pcr assay",
@@ -3693,7 +3776,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141665/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "baycare laboratories, llc__baycare sars-cov-2 rt pcr assay",
@@ -3737,7 +3821,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141766/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "mammoth biosciences, inc.__sars-cov-2 detectr reagent kit",
@@ -3781,7 +3866,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141762/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "miradx__miradx sars-cov-2 rt-pcr assay",
@@ -3825,7 +3911,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141756/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "t2 biosystems, inc.__t2sars-cov-2 panel",
@@ -3869,7 +3956,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141752/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "university of arizona genetics core for clinical services__covid-19 elisa pan-ig antibody test",
@@ -3913,7 +4001,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141774/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "tbg biotechnology corp.__tbg sars-cov-2 igg / igm rapid test kit",
@@ -3957,7 +4046,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141770/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "color genomics, inc.__color covid-19 test self-swab collection kit",
@@ -4001,7 +4091,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141796/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "color genomics, inc.__color covid-19 test unmonitored collection kit"
   },
   {
     "test_id": "optolane technologies, inc.__kaira 2019-ncov detection kit",
@@ -4045,7 +4136,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141792/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "detectachem inc.__mobiledetect bio bcc19 (md-bio bcc19) test kit",
@@ -4089,7 +4181,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141788/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "bioeksen r&d technologies ltd.__bio-speedy direct rt-qpcr sars-cov-2",
@@ -4133,7 +4226,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141824/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "roche molecular systems, inc.__cobas sars-cov-2 & influenza a/b",
@@ -4177,7 +4271,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141884/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": "ALG"
+    "Needs Review": "ALG",
+    "original_test_id": ""
   },
   {
     "test_id": "sugentech, inc.__sgti-flex covid-19 igg",
@@ -4221,7 +4316,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141888/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "abbott diagnostics scarborough, inc.__binaxnow covid-19 ag card",
@@ -4265,7 +4361,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141567/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "cuur diagnostics__cuur diagnostics sars-cov-2 molecular assay",
@@ -4309,7 +4406,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141624/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "qdx pathology services__qdx sars-cov-2 assay",
@@ -4353,7 +4451,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141542/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "fluidigm corporation__advanta dx sars-cov-2 rt-pcr assay",
@@ -4397,7 +4496,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141538/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "biocan diagnostics inc.__tell me fast novel coronavirus (covid-19) igg/igm antibody test",
@@ -4441,7 +4541,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141547/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "texas department of state health services, laboratory services section__texas department of state health services (dshs) sars-cov-2 assay",
@@ -4485,7 +4586,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141493/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "dxterity diagnostics, inc.__dxterity sars-cov-2 rt-pcr test",
@@ -4529,7 +4631,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141488/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "guardant health, inc.__guardant-19",
@@ -4573,7 +4676,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141484/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "beckman coulter, inc.__access sars-cov-2 igg",
@@ -4617,7 +4721,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139624/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "lumiradx uk ltd.__lumiradx sars-cov-2 ag test",
@@ -4661,7 +4766,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141301/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "zhuhai sinochips bioscience co., ltd.__covid-19 nucleic acid rt-pcr test kit",
@@ -4705,7 +4811,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141243/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "biocheck, inc.__biocheck sars-cov-2 igg and igm combo test",
@@ -4749,7 +4856,8 @@
     "*Letter of Authorization (EUA)": "",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "diazyme laboratories, inc.__diazyme dz-lite sars-cov-2 igm clia kit",
@@ -4793,7 +4901,8 @@
     "*Letter of Authorization (EUA)": "",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "yale school of public health, department of epidemiology of microbial diseases__salivadirect",
@@ -4837,7 +4946,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141194/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "pro-lab diagnostics__pro-amprt sars-cov-2 test",
@@ -4881,7 +4991,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141146/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "lumiradx uk ltd.__lumiradx sars-cov-2 rna star",
@@ -4925,7 +5036,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141054/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "biomeme, inc.__biomeme sars-cov-2 real-time rt-pcr test",
@@ -4969,7 +5081,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141049/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "solaris diagnostics__solaris multiplex sars-cov-2 assay",
@@ -5013,7 +5126,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141013/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "alpha genomix laboratories__alpha genomix taqpath sars-cov-2 combo assay",
@@ -5057,7 +5171,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/141017/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "george washington university public health laboratory__gwu sars-cov-2 rt-pcr test",
@@ -5101,7 +5216,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140977/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "helix opco llc (dba helix)__helix covid-19 ngs test",
@@ -5145,7 +5261,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140914/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "biomérieux sa__vidas sars-cov-2 igg",
@@ -5189,7 +5306,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140934/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "biomérieux sa__vidas sars-cov-2 igm",
@@ -5233,7 +5351,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140930/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "vela operations singapore pte ltd__virokey sars-cov-2 rt-pcr test",
@@ -5277,7 +5396,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140919/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "beijing wantai biological pharmacy enterprise co., ltd.__wantai sars-cov-2 ab elisa",
@@ -5321,7 +5441,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140926/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "wren laboratories llc__wren laboratories covid-19 pcr test",
@@ -5365,7 +5486,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140773/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "ethos laboratories__ethos laboratories sars-cov-2 maldi-tof assay",
@@ -5409,7 +5531,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140777/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "cleveland clinic robert j. tomsich pathology and laboratory medicine institute__cleveland clinic sars-cov-2 assay",
@@ -5453,7 +5576,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140785/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "poplar healthcare__poplar sars-cov-2 tma pooling assay",
@@ -5497,7 +5621,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140789/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "ispm labs, llc dba capstone healthcare__genus sars-cov-2 assay",
@@ -5541,7 +5666,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140815/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "siemens healthcare diagnostics inc.__atellica im sars-cov-2 igg (cov2g)",
@@ -5585,7 +5711,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140700/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "siemens healthcare diagnostics inc.__advia centaur sars-cov-2 igg (cov2g)",
@@ -5629,7 +5756,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140703/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "xiamen zeesan biotech co., ltd.__sars-cov-2 test kit (real-time pcr)",
@@ -5673,7 +5801,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140718/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "university of california san diego health__ucsd rc sars-cov-2 assay",
@@ -5717,7 +5846,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140714/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "clinical reference laboratory, inc.__crl rapid response",
@@ -5761,7 +5891,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140664/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": "AG"
+    "Needs Review": "AG",
+    "original_test_id": ""
   },
   {
     "test_id": "sandia national laboratories__snl-nm 2019 ncov real-time rt-pcr diagnostic assay",
@@ -5805,7 +5936,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140544/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": "AG"
+    "Needs Review": "AG",
+    "original_test_id": ""
   },
   {
     "test_id": "eli lilly and company__lilly sars-cov-2 assay",
@@ -5849,7 +5981,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140540/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": "AG"
+    "Needs Review": "AG",
+    "original_test_id": ""
   },
   {
     "test_id": "jiangsu cowin biotech co., ltd.__novel coronavirus (sars-cov-2) fast nucleic acid detection kit (pcr-fluorescence probing)",
@@ -5893,7 +6026,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140426/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "xiamen biotime biotechnology co., ltd.__biotime sars-cov-2 igg/igm rapid qualitative test",
@@ -5937,7 +6071,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140440/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "access bio, inc.__carestart covid-19 igm/igg",
@@ -5981,10 +6116,11 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140444/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
-    "test_id": "helix opco llc__helix covid-19 test",
+    "test_id": "helix opco llc (dba helix)__helix covid-19 test",
     "ordinal": 136,
     "Done? (Y)": "",
     "Company/Organization": "Helix OpCo LLC (dba Helix)",
@@ -6025,7 +6161,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140422/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "diacarta, inc.__quantivirus sars-cov-2 multiplex test kit",
@@ -6069,7 +6206,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140355/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "access genetics, llc__orarisk covid-19 rt-pcr",
@@ -6113,7 +6251,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140290/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "megna health, inc.__rapid covid-19 igm/igg combo test kit",
@@ -6157,7 +6296,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140294/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "boston heart diagnostics__boston heart covid-19 rt-pcr test",
@@ -6201,7 +6341,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140261/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "luminex corporation__xmap sars-cov-2 multi-antigen igg assay",
@@ -6245,7 +6386,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140257/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "quest diagnostics infectious disease, inc.__quest diagnostics ha sars-cov-2 assay",
@@ -6289,7 +6431,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140236/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "quest diagnostics infectious disease, inc.__quest diagnostics rc sars-cov-2 assay",
@@ -6333,7 +6476,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140231/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "quest diagnostics infectious disease, inc.__quest diagnostics pf sars-cov-2 assay",
@@ -6377,7 +6521,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140226/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "compass laboratory services, llc__compass laboratory services sars-cov2 assay",
@@ -6421,7 +6566,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140074/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "trax management services inc.__phoenixdx sars-cov-2 multiplex",
@@ -6465,7 +6611,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140070/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "kogenebiotech co., ltd.__powerchek 2019-ncov real-time pcr kit",
@@ -6509,7 +6656,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140066/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "salofa oy__sienna-clarity coviblock covid-19 igg/igm rapid test cassette",
@@ -6553,7 +6701,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140079/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": "s"
+    "Needs Review": "s",
+    "original_test_id": ""
   },
   {
     "test_id": "beijing wantai biological pharmacy enterprise co., ltd.__wantai sars-cov-2 ab rapid test",
@@ -6597,7 +6746,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140035/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": "s"
+    "Needs Review": "s",
+    "original_test_id": ""
   },
   {
     "test_id": "boston medical center__bmc-crem covid-19 test",
@@ -6641,7 +6791,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/140007/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "__",
@@ -6685,7 +6836,8 @@
     "*Letter of Authorization (EUA)": "",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "7/12/2020 update__",
@@ -6729,7 +6881,8 @@
     "*Letter of Authorization (EUA)": "",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "__",
@@ -6773,7 +6926,8 @@
     "*Letter of Authorization (EUA)": "",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "ucsf health clinical laboratories, ucsf clinical labs at china basin__sars-cov-2 rna detectr assay",
@@ -6817,7 +6971,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139934/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "biosewoom, inc.__real-q 2019-ncov detection kit",
@@ -6861,7 +7016,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139938/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "clinical research sequencing platform (crsp), llc at the broad institute of mit and harvard__crsp sars-cov-2 real-time reverse transcriptase (rt)-pcr diagnostic assay",
@@ -6905,7 +7061,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139860/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "diazyme laboratories, inc.__diazyme dz-lite sars-cov-2 igg clia kit",
@@ -6949,7 +7106,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139866/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "enzo life sciences, inc.__ampiprobe sars-cov-2 test system",
@@ -6993,7 +7151,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139829/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "access bio, inc.__carestart covid-19 mdx rt-pcr",
@@ -7037,7 +7196,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139833/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "gene by gene__gene by gene sars-cov-2 detection test",
@@ -7081,7 +7241,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139838/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "laboratorio clinico toledo__laboratorio clinico toledo sars-cov-2 assay",
@@ -7125,7 +7286,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139785/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "assure tech. (hangzhou co., ltd)__assure covid-19 igg/igm rapid test device",
@@ -7169,7 +7331,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139789/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "centers for disease control and prevention (cdc)__influenza sars-cov-2 (flu sc2) multiplex assay",
@@ -7213,7 +7376,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139744/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "becton, dickinson and company (bd)__bd veritor system for rapid detection of sars-cov-2",
@@ -7257,7 +7421,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139752/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "centogene us, llc__centofast-sars-cov-2 rt-pcr assay",
@@ -7301,7 +7466,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139722/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "the kroger co.__kroger health covid-19 test home collection kit",
@@ -7345,7 +7511,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139681/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "tns co., ltd (bio tns)__covid-19 rt-pcr peptide nucleic acid (pna) kit",
@@ -7389,7 +7556,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139677/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "psomagen, inc.__psoma covid-19 rt test",
@@ -7433,7 +7601,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139673/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "inbios international, inc.__scov-2 detect igm elisa",
@@ -7477,7 +7646,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139726/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "lifehope labs__lifehope 2019-ncov real-time rt-pcr diagnostic panel",
@@ -7521,7 +7691,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139620/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "acupath laboratories, inc.__acupath covid-19 real-time (rt-pcr) assay",
@@ -7565,7 +7736,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139669/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "__",
@@ -7609,7 +7781,8 @@
     "*Letter of Authorization (EUA)": "",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "inform diagnostics, inc.__inform diagnostics sars-cov-2 rt-pcr assay",
@@ -7653,7 +7826,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139569/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "plexbio co., ltd__intelliplex sars-cov-2 detection kit",
@@ -7697,7 +7871,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139528/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "precigenome llc__fastplex triplex sars-cov-2 detection kit (rt-digital pcr)",
@@ -7741,7 +7916,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139524/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "diagnostic solutions laboratory, llc__dsl covid-19 assay",
@@ -7785,7 +7961,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139513/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "university of texas md anderson cancer center, molecular diagnostics laboratory__md anderson high-throughput sars-cov-2 rt-pcr assay",
@@ -7829,7 +8006,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139509/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "gencurix, inc.__genepro sars-cov-2 test",
@@ -7873,7 +8051,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139443/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "university of alabama at birmingham fungal reference lab__frl sars cov-2 test",
@@ -7917,7 +8096,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139439/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "healthquest esoterics__healthquest esoterics taqpath sars-cov-2 assay",
@@ -7961,7 +8141,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139449/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "babson diagnostics, inc.__babson diagnostics ac19g1",
@@ -8005,7 +8186,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139450/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "hangzhou laihe biotech co., ltd.__lyher novel coronavirus (2019-ncov) igm/igg antibody combo test kit (colloidal gold)",
@@ -8049,7 +8231,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139407/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": "***"
+    "Needs Review": "***",
+    "original_test_id": ""
   },
   {
     "test_id": "__",
@@ -8093,7 +8276,8 @@
     "*Letter of Authorization (EUA)": "",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "6/21/2020 update__",
@@ -8137,7 +8321,8 @@
     "*Letter of Authorization (EUA)": "",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "3b blackbio biotech india ltd., a subsidiary of kilpest india ltd.__trupcr sars-cov-2 kit",
@@ -8181,7 +8366,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139293/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "jiangsu bioperfectus technologies co., ltd.__covid-19 coronavirus real time pcr kit",
@@ -8225,7 +8411,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139284/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "biohit healthcare (hefei) co. ltd.__biohit sars-cov-2 igm/igg antibody test kit",
@@ -8269,7 +8456,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139280/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": "***"
+    "Needs Review": "***",
+    "original_test_id": ""
   },
   {
     "test_id": "omnipathology solutions medical corporation__omni covid-19 assay by rt-pcr",
@@ -8313,7 +8501,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139289/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "the ohio state university wexner medical center__osuwmc covid-19 rt-pcr test",
@@ -8357,7 +8546,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139285/download",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "__",
@@ -8401,7 +8591,8 @@
     "*Letter of Authorization (EUA)": "",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "__",
@@ -8445,7 +8636,8 @@
     "*Letter of Authorization (EUA)": "",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "__",
@@ -8489,7 +8681,8 @@
     "*Letter of Authorization (EUA)": "",
     "Creation Date": "",
     "Modified Date": "",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "warrior diagnostics, inc.__warrior diagnostics sars-cov-2 assay",
@@ -8533,7 +8726,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138790/download",
     "Creation Date": "https://www.fda.gov/media/138791/download",
     "Modified Date": "6/18/2020 9:44",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "cormeum laboratory services__cormeum sars-cov-2 assay",
@@ -8577,7 +8771,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138934/download",
     "Creation Date": "https://www.fda.gov/media/138933/download",
     "Modified Date": "6/18/2020 9:44",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "chromacode inc.__hdpcr sars-cov-2 assay",
@@ -8621,7 +8816,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138786/download",
     "Creation Date": "https://www.fda.gov/media/138787/download",
     "Modified Date": "6/18/2020 9:43",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "cue health inc.__cue covid-19 test",
@@ -8665,7 +8861,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138826/download",
     "Creation Date": "https://www.fda.gov/media/138823/download",
     "Modified Date": "6/18/2020 9:43",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "euroimmun us inc.__eurorealtime sars-cov-2",
@@ -8709,7 +8906,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138761/download",
     "Creation Date": "https://www.fda.gov/media/138758/download",
     "Modified Date": "6/18/2020 9:43",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "illumina, inc.__illumina covidseq test",
@@ -8753,7 +8951,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138776/download",
     "Creation Date": "https://www.fda.gov/media/138778/download",
     "Modified Date": "6/18/2020 9:43",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "inbios international, inc.__scov-2 detect igg elisa",
@@ -8797,7 +8996,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138810/download",
     "Creation Date": "https://www.fda.gov/media/138807/download",
     "Modified Date": "6/18/2020 9:43",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "siemens healthcare diagnostics inc.__dimension vista sars-cov-2 total antibody assay (cov2t)",
@@ -8841,7 +9041,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138753/download",
     "Creation Date": "https://www.fda.gov/media/138750/download",
     "Modified Date": "6/18/2020 9:43",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "siemens healthcare diagnostics inc.__dimension exl sars-cov-2 total antibody assay (cv2t)",
@@ -8885,7 +9086,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138757/download",
     "Creation Date": "https://www.fda.gov/media/138754/download",
     "Modified Date": "6/18/2020 9:43",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "tbg biotechnology corp.__exprobe sars-cov-2 testing kit",
@@ -8929,7 +9131,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138822/download",
     "Creation Date": "https://www.fda.gov/media/138819/download",
     "Modified Date": "6/18/2020 9:43",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "tide laboratories, llc__dtpm covid-19 rt-pcr test",
@@ -8973,7 +9176,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138818/download",
     "Creation Date": "https://www.fda.gov/media/138815/download",
     "Modified Date": "6/18/2020 9:43",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "rta laboratories biological products pharmaceutical and machinery industry__diagnovital sars-cov-2 real-time pcr kit",
@@ -9017,7 +9221,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138928/download",
     "Creation Date": "https://www.fda.gov/media/138929/download",
     "Modified Date": "6/18/2020 9:43",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "kaiser permanente mid-atlantic states__kpmas covid-19 test",
@@ -9061,7 +9266,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139067/download",
     "Creation Date": "https://www.fda.gov/media/139066/download",
     "Modified Date": "6/11/2020 12:18",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "emory medical laboratories__sars-cov-2 rbd igg test",
@@ -9105,7 +9311,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139053/download",
     "Creation Date": "https://www.fda.gov/media/139050/download",
     "Modified Date": "6/11/2020 12:15",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "applied biocode, inc.__biocode sars-cov-2 assay",
@@ -9149,7 +9356,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/139049/download",
     "Creation Date": "https://www.fda.gov/media/139046/download",
     "Modified Date": "6/11/2020 11:54",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "genetron health (beijing) co., ltd.__genetron sars-cov-2 rna test",
@@ -9193,7 +9401,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138685/download",
     "Creation Date": "https://www.fda.gov/media/138682/download",
     "Modified Date": "6/9/2020 10:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "gravity diagnostics, llc__gravity diagnostics covid-19 assay",
@@ -9237,7 +9446,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138530/download",
     "Creation Date": "https://www.fda.gov/media/138532/download",
     "Modified Date": "6/9/2020 9:56",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "hangzhou biotest biotech co., ltd.__rightsign covid-19 igg/igm rapid test cassette",
@@ -9281,7 +9491,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138660/download",
     "Creation Date": "https://www.fda.gov/media/138657/download",
     "Modified Date": "6/9/2020 9:55",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "phosphorus diagnostics llc__phosphorus covid-19 rt-qpcr test",
@@ -9325,7 +9536,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138654/download",
     "Creation Date": "https://www.fda.gov/media/138652/download",
     "Modified Date": "6/9/2020 9:55",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "vibrant america clinical labs__vibrant covid-19 ab assay",
@@ -9369,7 +9581,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138629/download",
     "Creation Date": "https://www.fda.gov/media/138626/download",
     "Modified Date": "6/9/2020 9:55",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "csi laboratories__csi sars-cov-2 rt pcr test",
@@ -9413,7 +9626,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138528/download",
     "Creation Date": "https://www.fda.gov/media/138529/download",
     "Modified Date": "6/9/2020 9:55",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "aspirus reference laboratory__aspirus sars-cov-2 rrt assay",
@@ -9457,7 +9671,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138526/download",
     "Creation Date": "https://www.fda.gov/media/138527/download",
     "Modified Date": "6/9/2020 9:54",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "nebraska medicine clinical laboratory__necov19 rt-pcr assay",
@@ -9501,7 +9716,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138625/download",
     "Creation Date": "https://www.fda.gov/media/138624/download",
     "Modified Date": "6/9/2020 9:54",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "applied dna sciences, inc.__linea covid-19 assay kit",
@@ -9545,7 +9761,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138059/download",
     "Creation Date": "https://www.fda.gov/media/138060/download",
     "Modified Date": "5/31/2020 15:26",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "avera institute for human genetics__avera institute for human genetics sars-cov-2 assay",
@@ -9589,7 +9806,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138332/download",
     "Creation Date": "https://www.fda.gov/media/138331/download",
     "Modified Date": "5/31/2020 15:26",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "biocore co., ltd.__biocore 2019-ncov real time pcr kit",
@@ -9633,7 +9851,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138290/download",
     "Creation Date": "https://www.fda.gov/media/138292/download",
     "Modified Date": "5/31/2020 15:26",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "cedars-sinai medical center, department of pathology and laboratory medicine__sars-cov-2-assay",
@@ -9677,10 +9896,11 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138065/download",
     "Creation Date": "https://www.fda.gov/media/138064/download",
     "Modified Date": "5/31/2020 15:26",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
-    "test_id": "color genomics, inc.__color sars-cov-2 rt-lamp diagnostic assay",
+    "test_id": "color genomics, inc.__color genomics sars-cov-2 rt-lamp diagnostic assay",
     "ordinal": 220,
     "Done? (Y)": "",
     "Company/Organization": "Color Genomics, Inc.",
@@ -9721,7 +9941,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138249/download",
     "Creation Date": "https://www.fda.gov/media/138248/download",
     "Modified Date": "5/31/2020 15:26",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "color genomics, inc.__color sars cov-2 diagnostic assay"
   },
   {
     "test_id": "columbia university laboratory of personalized genomic medicine__triplex cii-sars-cov-2 rrt-pcr test",
@@ -9765,7 +9986,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137983/download",
     "Creation Date": "https://www.fda.gov/media/137982/download",
     "Modified Date": "5/31/2020 15:26",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "dba spectronrx__hymon sars-cov-2 test kit",
@@ -9809,7 +10031,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138345/download",
     "Creation Date": "https://www.fda.gov/media/138343/download",
     "Modified Date": "5/31/2020 15:26",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "exact sciences laboratories__sars-cov-2 (n gene detection) test",
@@ -9853,7 +10076,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138328/download",
     "Creation Date": "https://www.fda.gov/media/138327/download",
     "Modified Date": "5/31/2020 15:26",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "exact sciences laboratories__exact sciences sars-cov-2 (n gene detection) test"
   },
   {
     "test_id": "express gene llc (dba molecular diagnostics laboratory)__express gene 2019-ncov rt-pcr diagnostic panel",
@@ -9897,7 +10121,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138330/download",
     "Creation Date": "https://www.fda.gov/media/138329/download",
     "Modified Date": "5/31/2020 15:26",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "one health laboratories, llc__sars-cov-2 real-time rt-pcr-test",
@@ -9941,7 +10166,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138063/download",
     "Creation Date": "https://www.fda.gov/media/138062/download",
     "Modified Date": "5/31/2020 15:26",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "p23 labs, llc.__p23 labs taqpath sars-cov-2 assay",
@@ -9985,7 +10211,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138297/download",
     "Creation Date": "https://www.fda.gov/media/138295/download",
     "Modified Date": "5/31/2020 15:26",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "privapath diagnostics, inc.__letsgetchecked coronavirus (covid-19) test",
@@ -10029,7 +10256,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138406/download",
     "Creation Date": "https://www.fda.gov/media/138405/download",
     "Modified Date": "5/31/2020 15:26",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "seasun biomaterials, inc.__aq-top covid-19 rapid detection",
@@ -10073,7 +10301,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138307/download",
     "Creation Date": "https://www.fda.gov/media/138300/download",
     "Modified Date": "5/31/2020 15:26",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "seasun biomaterials, inc.__aq-top covid-19 rapid detection kit"
   },
   {
     "test_id": "siemens healthcare diagnostics inc.__advia centaur sars-cov-2 total (cov2t)",
@@ -10117,7 +10346,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138446/download",
     "Creation Date": "https://www.fda.gov/media/138443/download",
     "Modified Date": "5/31/2020 15:26",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "siemens healthcare diagnostics inc.__atellica im sars-cov-2 total (cov2t)",
@@ -10161,7 +10391,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138442/download",
     "Creation Date": "https://www.fda.gov/media/138439/download",
     "Modified Date": "5/31/2020 15:26",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "solgent co., ltd.__diaplexq novel coronavirus (2019-ncov) detection kit",
@@ -10205,7 +10436,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138303/download",
     "Creation Date": "https://www.fda.gov/media/138306/download",
     "Modified Date": "5/31/2020 15:26",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "healgen scientific llc__covid-19 igg/igm rapid test cassette (whole blood/serum/plasma)",
@@ -10249,7 +10481,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138438/download",
     "Creation Date": "https://www.fda.gov/media/138435/download",
     "Modified Date": "5/28/2020 12:09",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "abbott molecular inc.__alinity m sars-cov-2 assay",
@@ -10293,7 +10526,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137979/download",
     "Creation Date": "https://www.fda.gov/media/137980/download",
     "Modified Date": "5/21/2020 0:47",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "1drop inc.__1copy covid-19 qpcr multi kit",
@@ -10337,7 +10571,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137935/download",
     "Creation Date": "https://www.fda.gov/media/137934/download",
     "Modified Date": "5/21/2020 0:45",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "quidel corporation__lyra direct sars-cov-2 assay",
@@ -10381,7 +10616,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138178/download",
     "Creation Date": "https://www.fda.gov/media/138179/download",
     "Modified Date": "5/19/2020 16:55",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "everlywell, inc.__everlywell covid-19 test home collection kit",
@@ -10425,7 +10661,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138146/download",
     "Creation Date": "https://www.fda.gov/media/138144/download",
     "Modified Date": "5/18/2020 18:13",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "genematrix, inc.__neoplex covid-19 detection kit",
@@ -10469,7 +10706,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138100/download",
     "Creation Date": "https://www.fda.gov/media/138101/download",
     "Modified Date": "5/18/2020 0:18",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "genematrix__neoplex covid-19 detection kit"
   },
   {
     "test_id": "assurance scientific laboratories__assurance sars-cov-2 panel",
@@ -10513,7 +10751,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138154/download",
     "Creation Date": "https://www.fda.gov/media/138151/download",
     "Modified Date": "5/17/2020 23:42",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "assurance__assurance sars-cov-2 panel"
   },
   {
     "test_id": "fulgent therapeutics, llc__fulgent covid-19 by rt-pcr test",
@@ -10557,7 +10796,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138150/download",
     "Creation Date": "https://www.fda.gov/media/138147/download",
     "Modified Date": "5/17/2020 21:05",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "fulgent therapeutics llc__fulgent covid-19 by rt-pcr test"
   },
   {
     "test_id": "hologic, inc.__aptima sars-cov-2 assay",
@@ -10601,7 +10841,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/138096/download",
     "Creation Date": "https://www.fda.gov/media/138097/download",
     "Modified Date": "5/17/2020 20:34",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "rutgers clinical genomics laboratory-rutgers university copy__thermofisher - applied biosystems taqpath covid-19 combo kit",
@@ -10645,7 +10886,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136875/download",
     "Creation Date": "https://www.fda.gov/media/136876/download",
     "Modified Date": "5/13/2020 17:00",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "biocollections worldwide, inc.__biocollections worldwide sars-co-v-2 assay",
@@ -10689,7 +10931,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137897/download",
     "Creation Date": "https://www.fda.gov/media/137896/download",
     "Modified Date": "5/12/2020 21:49",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "biomérieux sa__sars-cov-2 r-gene",
@@ -10733,7 +10976,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137742/download",
     "Creation Date": "https://www.fda.gov/media/137743/download",
     "Modified Date": "5/12/2020 21:49",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "fast track diagnostics luxembourg s.á.r.l. (a siemens healthineers company)__ftd sars-cov-2",
@@ -10777,7 +11021,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137690/download",
     "Creation Date": "https://www.fda.gov/media/137687/download",
     "Modified Date": "5/12/2020 21:49",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "opti medical systems, inc.__opti sars-cov-2 rt pcr test",
@@ -10821,7 +11066,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137739/download",
     "Creation Date": "https://www.fda.gov/media/137737/download",
     "Modified Date": "5/12/2020 21:49",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "sansure biotech inc.__novel coronavirus (2019-ncov) nucleic acid diagnostic kit (pcr-fluorescence probing)",
@@ -10865,7 +11111,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137651/download",
     "Creation Date": "https://www.fda.gov/media/137652/download",
     "Modified Date": "5/12/2020 21:49",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "sherlock biosciences, inc.__sherlock crispr sars-cov-2 kit",
@@ -10909,7 +11156,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137746/download",
     "Creation Date": "https://www.fda.gov/media/137747/download",
     "Modified Date": "5/12/2020 21:49",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "utmg pathology laboratory__uthsc/uch sars-cov-2-rt-pcr assay",
@@ -10953,7 +11201,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137656/download",
     "Creation Date": "https://www.fda.gov/media/137654/download",
     "Modified Date": "5/12/2020 21:49",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "zymo research corporation__quick sars-cov-2rrt-pcr kit",
@@ -10997,7 +11246,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137780/download",
     "Creation Date": "https://www.fda.gov/media/137781/download",
     "Modified Date": "5/12/2020 21:49",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "rutgers clinical genomics laboratory at rucdr infinite biologics - rutgers university__rutgers clinical genomics laboratory taqpath sars-cov-2-assay",
@@ -11041,7 +11291,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137782/download",
     "Creation Date": "https://www.fda.gov/media/137773/download",
     "Modified Date": "5/11/2020 23:38",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "gnomegen llc__gnomegen covid-19-rt-qpcr detection kit",
@@ -11085,7 +11336,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137895/download",
     "Creation Date": "https://www.fda.gov/media/137892/download",
     "Modified Date": "5/11/2020 23:37",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "quidel corporation__sofia 2 sars antigen fia",
@@ -11129,7 +11381,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137885/download",
     "Creation Date": "https://www.fda.gov/media/137886/download",
     "Modified Date": "5/11/2020 22:04",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "southwest regional pcr laboratory llc. dba microgen dx__covid-19 key",
@@ -11173,7 +11426,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137370/download",
     "Creation Date": "https://www.fda.gov/media/137369/download",
     "Modified Date": "5/5/2020 1:13",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "ait laboratories__sars-cov-2 assay",
@@ -11217,7 +11471,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137374/download",
     "Creation Date": "https://www.fda.gov/media/137373/download",
     "Modified Date": "5/5/2020 1:13",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "euroimmun us inc.__anti-sars-cov-2 elisa (igg)",
@@ -11261,7 +11516,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137609/download",
     "Creation Date": "https://www.fda.gov/media/137606/download",
     "Modified Date": "5/4/2020 16:06",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "nationwide children’s hospital__sars-cov-2 assay",
@@ -11305,7 +11561,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137423/download",
     "Creation Date": "https://www.fda.gov/media/137424/download",
     "Modified Date": "5/4/2020 13:44",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "bio-rad laboratories__platelia sars-cov-2 total ab assay",
@@ -11349,7 +11606,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137493/download",
     "Creation Date": "https://www.fda.gov/media/137494/download",
     "Modified Date": "5/4/2020 13:39",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "bio-rad laboratories, inc.__platelia sars-cov-2 total ab assay"
   },
   {
     "test_id": "labgenomics co., ltd.__labgun covid-19 rt-pcr kit",
@@ -11393,7 +11651,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137483/download",
     "Creation Date": "https://www.fda.gov/media/137484/download",
     "Modified Date": "5/4/2020 13:39",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "rheonix, inc.__rheonix covid-19 mdx assay",
@@ -11437,7 +11696,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137489/download",
     "Creation Date": "https://www.fda.gov/media/137490/download",
     "Modified Date": "5/4/2020 13:39",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "seasun biomaterials__u-top covid-19 detection kit",
@@ -11481,7 +11741,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137425/download",
     "Creation Date": "https://www.fda.gov/media/137420/download",
     "Modified Date": "5/4/2020 13:39",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "wadsworth center, new york state department of health__new york sars-cov microsphere immunoassay for antibody detection",
@@ -11525,7 +11786,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137541/download",
     "Creation Date": "https://www.fda.gov/media/137540/download",
     "Modified Date": "5/4/2020 13:39",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "biocerna__sars-cov-2 test",
@@ -11569,7 +11831,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137450/download",
     "Creation Date": "https://www.fda.gov/media/137451/download",
     "Modified Date": "5/4/2020 11:29",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "altru diagnostics, inc.__altru dx sars-cov-2 rt-pcr assay",
@@ -11613,7 +11876,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137546/download",
     "Creation Date": "https://www.fda.gov/media/137545/download",
     "Modified Date": "5/4/2020 10:52",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "biofire diagnostics, llc__biofire respiratory panel 2.1 (rp2.1)",
@@ -11657,7 +11921,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137583/download",
     "Creation Date": "https://www.fda.gov/media/137580/download",
     "Modified Date": "5/4/2020 1:49",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "biofire diagnostics, llc__biofire respiratory panel 2.1"
   },
   {
     "test_id": "bio-rad laboratories, inc.__bio-rad sars-cov-2 ddpcr test",
@@ -11701,7 +11966,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137579/download",
     "Creation Date": "https://www.fda.gov/media/137576/download",
     "Modified Date": "5/4/2020 0:16",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "bio-rad laboratories, inc.__bio-rad sars cov-2-ddpcr test"
   },
   {
     "test_id": "roche diagnostics__elecsys anti-sars-cov-2",
@@ -11745,7 +12011,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137605/download",
     "Creation Date": "https://www.fda.gov/media/137602/download",
     "Modified Date": "5/3/2020 19:03",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "abbott laboratories inc.__sars-cov-2 igg assay",
@@ -11789,7 +12056,8 @@
     "*Letter of Authorization (EUA)": "Architect: https://www.fda.gov/media/137383/download; Alinity: https://www.fda.gov/media/137910/download",
     "Creation Date": "https://www.fda.gov/media/137384/download",
     "Modified Date": "5/2/2020 9:46",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "ultimate dx laboratory__udx sars-cov-2 molecular assay",
@@ -11833,7 +12101,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137372/download",
     "Creation Date": "https://www.fda.gov/media/137371/download",
     "Modified Date": "4/26/2020 17:42",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "autobio diagnostics co.ltd.__anti-sars-cov-2 rapid test",
@@ -11877,10 +12146,11 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137367/download",
     "Creation Date": "https://www.fda.gov/media/137364/download",
     "Modified Date": "4/26/2020 17:12",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
-    "test_id": "ortho-clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent pack",
+    "test_id": "ortho-clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent",
     "ordinal": 270,
     "Done? (Y)": "",
     "Company/Organization": "Ortho Clinical Diagnostics, Inc.",
@@ -11921,7 +12191,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137363/download",
     "Creation Date": "https://www.fda.gov/media/137360/download",
     "Modified Date": "4/26/2020 16:13",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "ortho clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 igg reagent pack"
   },
   {
     "test_id": "diasorin inc.__liaison sars-cov-2 s1/s2 igg",
@@ -11965,7 +12236,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137359/download",
     "Creation Date": "https://www.fda.gov/media/137356/download",
     "Modified Date": "4/26/2020 14:15",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "diasorin inc.__liason sars-cov-2 s1/s2 igg"
   },
   {
     "test_id": "diatherix eurofins laboratory__sars-cov-2 pcr test",
@@ -12009,7 +12281,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137255/download",
     "Creation Date": "https://www.fda.gov/media/137256/download",
     "Modified Date": "4/23/2020 23:39",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "altona diagnostics gmbh__realstar sars-cov02 rt-pcr kits u.s.",
@@ -12053,7 +12326,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137252/download",
     "Creation Date": "https://www.fda.gov/media/137257/download",
     "Modified Date": "4/23/2020 22:56",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "altona diagnostics gmbh__realstar sars-cov02 rt-pcr kits"
   },
   {
     "test_id": "sd biosensor, inc.__standard m ncov real-time detection kit",
@@ -12097,7 +12371,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137302/download",
     "Creation Date": "https://www.fda.gov/media/137303/download",
     "Modified Date": "4/23/2020 22:38",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "abbott diagnostics scarborough, inc.__id now covid-19",
@@ -12141,7 +12416,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136525/download",
     "Creation Date": "https://www.fda.gov/media/136522/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "abbott molecular__abbott realtime sars-cov-2 assay",
@@ -12185,7 +12461,8 @@
     "*Letter of Authorization (EUA)": "https://www.molecular.abbott/sal/9N77-095_SARS-CoV-2_US_EUA_Amp_PI.pdf",
     "Creation Date": "https://www.fda.gov/media/136617/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "abbott molecular__abbott realtime sars-cov-2 eua test"
   },
   {
     "test_id": "atila biosystems, inc.__iamp covid-19 detection kit",
@@ -12229,7 +12506,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136870/download",
     "Creation Date": "https://www.fda.gov/media/136872/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "avellino lab usa, inc.__avellinocov2 test",
@@ -12273,7 +12551,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136453/download",
     "Creation Date": "https://www.fda.gov/media/136450/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "avellino lab usa, inc.__avellino sars-cov-2/covid-19 (avellinocov2)"
   },
   {
     "test_id": "becton, dickinson & company__bd sars-cov-2reagents for bd max system",
@@ -12317,7 +12596,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136816/download",
     "Creation Date": "https://www.fda.gov/media/136813/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "becton, dickinson & company (bd)__biogx sars-cov-2 reagents for bd max system",
@@ -12361,7 +12641,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136653/download",
     "Creation Date": "https://www.fda.gov/media/136650/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "becton, dickinson & company (bd), biogx__biogx sars-cov-2 reagents for bd max system"
   },
   {
     "test_id": "bgi genomics co. ltd__real-time fluorescent rt-pcr kit for detecting sars-cov-2",
@@ -12405,7 +12686,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136472/download",
     "Creation Date": "https://www.fda.gov/media/136473/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "biofire defense, llc__biofire covid-19 test",
@@ -12449,7 +12731,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136353/download",
     "Creation Date": "https://www.fda.gov/media/136356/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "cellex inc.__qsars-cov-2 igg/igm rapid test",
@@ -12493,7 +12776,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136625/download",
     "Creation Date": "https://www.fda.gov/media/136622/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "cellex inc.__qsars-cov-2 igm/igg rapid test"
   },
   {
     "test_id": "cdc__cdc 2019-novel coronavirus (2019-ncov) real-time rt-pcr diagnostic panel",
@@ -12537,7 +12821,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/134922/download",
     "Creation Date": "https://www.fda.gov/media/134919/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "centers for disease control and prevention's (cdc)__cdc 2019-novel coronavirus (2019-ncov) real-time rt-pcr diagnostic panel (cdc)"
   },
   {
     "test_id": "cepheid__xpert xpress sars-cov-2 test",
@@ -12581,7 +12866,8 @@
     "*Letter of Authorization (EUA)": "Labs: https://www.fda.gov/media/136314/download POC: https://www.fda.gov/media/136315/download",
     "Creation Date": "https://www.fda.gov/media/136856/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "cirrusdx laboratories__cirrusdx sars-cov-2 assay",
@@ -12625,7 +12911,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137034/download",
     "Creation Date": "https://www.fda.gov/media/137035/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "co-diagnostics, inc.__logix smart coronavirus disease 2019 (covid-19) kit",
@@ -12669,7 +12956,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136687/download",
     "Creation Date": "https://www.fda.gov/media/136684/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "co-diagnostics, inc.__logix smart coronavirus covid-19"
   },
   {
     "test_id": "diacarta, inc.__quantivirus sars-cov-2 test kit",
@@ -12713,7 +13001,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136809/download",
     "Creation Date": "https://www.fda.gov/media/136806/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "diacarta, inc.__quantivirus sars-cov-2 test"
   },
   {
     "test_id": "diagnostic molecular laboratory - northwestern medicine__sars-cov-2 assay",
@@ -12757,7 +13046,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136669/download",
     "Creation Date": "https://www.fda.gov/media/136658/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "diasorin molecular llc__simplexa covid-19 direct",
@@ -12801,7 +13091,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136286/download",
     "Creation Date": "https://www.fda.gov/media/136288/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "exact sciences laboratories__sars-cov-2 test",
@@ -12845,7 +13136,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137095/download",
     "Creation Date": "https://www.fda.gov/media/137094/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "fosun pharma usa inc.__fosun covid-19 rt-pcr detection kit",
@@ -12889,7 +13181,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137120/download",
     "Creation Date": "https://www.fda.gov/media/137117/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "genmark diagnostics, inc.__eplex sars-cov-2 test",
@@ -12933,7 +13226,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136282/download",
     "Creation Date": "https://www.fda.gov/media/136283/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "genosensor, llc__gs covid-19 rt-pcr kit",
@@ -12977,7 +13271,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137093/download",
     "Creation Date": "https://www.fda.gov/media/137090/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "gnomegen llc__gnomegen covid-19 rt-digital pcr detection kit",
@@ -13021,7 +13316,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136738/download",
     "Creation Date": "https://www.fda.gov/media/136735/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "hackensack university medical center (humc) molecular pathology laboratory__cdi enhanced covid-19 test",
@@ -13065,7 +13361,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137036/download",
     "Creation Date": "https://www.fda.gov/media/137037/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "hologic, inc.__panther fusion sars-cov-2 assay",
@@ -13109,7 +13406,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136156/download",
     "Creation Date": "https://www.fda.gov/media/136153/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "inbios international, inc.__smart detect sars-cov-2 rrt-pcr kit",
@@ -13153,7 +13451,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136786/download",
     "Creation Date": "https://www.fda.gov/media/136787/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "infectious disease diagnostics laboratory - children's hospital of philadelphia__sars-cov-2 rt-pcr test",
@@ -13197,7 +13496,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136656/download",
     "Creation Date": "https://www.fda.gov/media/136657/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "infectious diseases diagnostics laboratory (iddl), boston children's hospital__childrens-altona-sars-cov-2 assay",
@@ -13241,7 +13541,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136971/download",
     "Creation Date": "fda.gov/media/136972/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "infectious diseases diagnostics laboratory (iddl), boston children’s hospital__childrens-altona-sars-cov-2 assay"
   },
   {
     "test_id": "integrity laboratories__sars-cov-2 assay",
@@ -13285,7 +13586,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136942/download",
     "Creation Date": "https://www.fda.gov/media/136941/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "ipsum diagnostics, llc__cov-19 idx assay",
@@ -13329,7 +13631,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136621/download",
     "Creation Date": "https://www.fda.gov/media/136618/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "ipsum diagnostics__cov-19 idx assay"
   },
   {
     "test_id": "korvalabs inc.__curative-korva sars-cov-2 assay",
@@ -13373,7 +13676,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137089/download",
     "Creation Date": "https://www.fda.gov/media/137088/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "laboratory corporation of america (labcorp)__covid-19 rt-pcr test",
@@ -13417,7 +13721,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136151/download",
     "Creation Date": "fda.gov/media/136148/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "luminex corporation__aries sars-cov-2 assay",
@@ -13461,7 +13766,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136693/download",
     "Creation Date": "https://www.fda.gov/media/136694/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "luminex molecular diagnostics, inc.__nxtag cov extended panel assay",
@@ -13505,7 +13811,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136500/download",
     "Creation Date": "https://www.fda.gov/media/136497/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "luminex molecular diagnostics, inc.__nxtagcov extended panel assay"
   },
   {
     "test_id": "maccura biotechnology (usa) llc__sars-cov-2 fluorescent pcr kit",
@@ -13549,7 +13856,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137026/download",
     "Creation Date": "https://www.fda.gov/media/137023/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "massachusetts general hospital__mgh covid-19 qpcr assay",
@@ -13593,7 +13901,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136699/download",
     "Creation Date": "https://www.fda.gov/media/136700/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "mayo clinic laboratories, rochester, mn__sars-cov-2 molecular detection assay",
@@ -13637,7 +13946,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137163/download",
     "Creation Date": "https://www.fda.gov/media/137163/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "mesa biotech inc.__accula sars-cov-2 test",
@@ -13681,7 +13991,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136355/download",
     "Creation Date": "https://www.fda.gov/media/136345/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "mount sinai laboratory__covid-19 elisa igg antibody test",
@@ -13725,7 +14036,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137029/download",
     "Creation Date": "https://www.fda.gov/media/137032/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "neumodx molecular, inc.__neumodx sars-cov-2 assay",
@@ -13769,7 +14081,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136565/download",
     "Creation Date": "https://www.fda.gov/media/136566/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "orig3n, inc.__orig3n 2019 novel coronavirus (covid-19) test",
@@ -13813,7 +14126,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136873/download",
     "Creation Date": "https://www.fda.gov/media/136874/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "ortho clinical diagnostics, inc.__vitros immunodiagnostic products anti-sars-cov-2 total reagent pack",
@@ -13857,7 +14171,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136967/download",
     "Creation Date": "https://www.fda.gov/media/136966/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "osang healthcare__genefinder covid-19 plus realamp kit",
@@ -13901,7 +14216,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137116/download",
     "Creation Date": "https://www.fda.gov/media/137113/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "pathology/laboratory medicine lab of baptist hospital miami__covid-19 rt-pcr test",
@@ -13945,7 +14261,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136944/download",
     "Creation Date": "https://www.fda.gov/media/136943/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "perkinelmer, inc.__perkinelmer new coronavirus nucleic acid detection kit",
@@ -13989,7 +14306,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136410/download",
     "Creation Date": "https://www.fda.gov/media/136407/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "primerdesign ltd__primerdesign ltd covid-19 genesig real-time pcr assay",
@@ -14033,7 +14351,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136823/download",
     "Creation Date": "https://www.fda.gov/media/136306/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "primerdesign ltd.__genesig real-time pcr covid-2019 assay"
   },
   {
     "test_id": "qiagen gmbh__qiastat-dx respiratory sars-cov-2 panel",
@@ -14077,7 +14396,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136571/download",
     "Creation Date": "https://www.fda.gov/media/136569/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "quest diagnostics infectious disease, inc.__quest sars-cov-2 rrt-pcr",
@@ -14121,7 +14441,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136231/download",
     "Creation Date": "https://www.fda.gov/media/136228/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "quidel corporation__lyra sars-cov-2 assay",
@@ -14165,7 +14486,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136820/download",
     "Creation Date": "https://www.fda.gov/media/136224/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "roche molecular systems, inc. (rms)__cobas sars-cov-2",
@@ -14209,7 +14531,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136049/download",
     "Creation Date": "https://www.fda.gov/media/136049/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "rutgers clinical genomics laboratory-rutgers university__thermofisher - applied biosystems taqpath covid-19 combo kit",
@@ -14253,7 +14576,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136875/download",
     "Creation Date": "https://www.fda.gov/media/136876/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "sciencell research laboratories__sciencell sars-cov-2 coronavirus real-time rt-pcr (rt-qpcr) detection kit",
@@ -14297,7 +14621,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136691/download",
     "Creation Date": "https://www.fda.gov/media/136688/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "seegene, inc.__allplex 2019-ncov assay",
@@ -14341,7 +14666,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137178/download",
     "Creation Date": "https://www.fda.gov/media/137179/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "seegene__allplex 2019-ncov assay"
   },
   {
     "test_id": "specialty diagnostic (sdi) laboratories__sdi sars-cov-2 assayletter granting inclusion",
@@ -14385,10 +14711,11 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136877/download",
     "Creation Date": "https://www.fda.gov/media/136878/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "specialty diagnostic (sdi) laboratories__sdi sars-cov-2 assay"
   },
   {
-    "test_id": "stanford health care clinical virology laboratory__sars-cov-2 rt-pcr assay",
+    "test_id": "stanford health care clinical virology laboratory__stanford sars-cov-2 assay",
     "ordinal": 327,
     "Done? (Y)": "",
     "Company/Organization": "Stanford Health Care Clinical Virology Laboratory",
@@ -14429,7 +14756,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136818/download",
     "Creation Date": "https://www.fda.gov/media/136817/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "thermo fisher scientific, inc.__taqpath covid-19 combo kit",
@@ -14473,7 +14801,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136112/download",
     "Creation Date": "https://www.fda.gov/media/136113/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "trax management services inc.__phoenixdx 2019-cov",
@@ -14517,7 +14846,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/137153/download",
     "Creation Date": "https://www.fda.gov/media/137150/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "trax management services inc. (mfd by procomcure biotech gmbh)__phoenixdx 2019-cov"
   },
   {
     "test_id": "university of north carolina medical center__unc health sars-cov-2 real-time rt-pcr test",
@@ -14561,7 +14891,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136880/download",
     "Creation Date": "https://www.fda.gov/media/136879/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": ""
   },
   {
     "test_id": "viracor eurofins clinical diagnostics__viracor sars-cov-2 assay",
@@ -14605,7 +14936,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136740/download",
     "Creation Date": "https://www.fda.gov/media/136739/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "viracor eurofins clinical diagnostics__coronavirus sars-cov-2 rt-pcr assay"
   },
   {
     "test_id": "wadsworth center, new york state department of health's (cdc)__new york sars-cov-2 real-time reverse transcriptase (rt)-pcr diagnostic panel",
@@ -14649,7 +14981,8 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/135847/download",
     "Creation Date": "https://www.fda.gov/media/135661/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": ""
+    "Needs Review": "",
+    "original_test_id": "wadsworth center, new york state department of public health's (cdc)__new york sars-cov-2 real-time reverse transcriptase (rt)-pcr diagnostic panel"
   },
   {
     "test_id": "yale new haven hospital, clinical virology laboratory__sars-cov-2 pcr test",
@@ -14693,6 +15026,7 @@
     "*Letter of Authorization (EUA)": "https://www.fda.gov/media/136602/download",
     "Creation Date": "https://www.fda.gov/media/136601/download",
     "Modified Date": "4/23/2020 15:22",
-    "Needs Review": "ALG (8/24)"
+    "Needs Review": "ALG (8/24)",
+    "original_test_id": ""
   }
 ]
