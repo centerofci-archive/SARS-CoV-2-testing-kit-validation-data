@@ -5,7 +5,6 @@ import sys
 
 
 from common.paths import (
-    DATA_FILE_PATH_EUAs_LATEST_PARSED_DATA,
     DATA_DIRECTORY_EUAs_PARSED_DATA,
     get_FDA_file_id_from_FDA_url,
     ANOT8_VAULT_CONFIG,
@@ -13,12 +12,6 @@ from common.paths import (
 from common.data_compression import flat_list_to_json_data
 from common import filter_for_urls
 
-
-def get_latest_fda_eua_parsed_data ():
-    with open(DATA_FILE_PATH_EUAs_LATEST_PARSED_DATA, "r", encoding="utf8") as f:
-        latest_fda_eua_parsed_data = json.load(f)
-
-    return latest_fda_eua_parsed_data
 
 
 expected_headers = [
@@ -85,6 +78,7 @@ def get_all_json_fda_eua_parsed_data (file_names):
 
             if test_id not in json_fda_eua_parsed_data_by_test_id:
                 test_id = map_new_to_old_test_id(snapshot_date, test_id)
+                row["test_id"] = test_id
 
             if test_id not in json_fda_eua_parsed_data_by_test_id:
                 if test_id in unfound_test_ids:
@@ -119,14 +113,14 @@ def get_all_json_fda_eua_parsed_data (file_names):
 def error_and_exit_on_unfound_test_ids (unfound_test_ids_by_file_name):
     if unfound_test_ids_by_file_name:
         print("Could not find the following test_ids in any of the previous FDA EUA parsed data ({}).".format(DATA_DIRECTORY_EUAs_PARSED_DATA))
-        print("Go through each of the following test_ids and make sure they are new tests (i.e. open the most recent FDA/parsed/202d-dd-dd.json file and the json file just preceeding it, then search for the test manufacturer.  If more occurences in newer file than older file, we assume this means it is a new test rather than a renaming of an older test).  Otherwise if not a new test then add to ")
+        print("Go through each of the following test_ids and make sure they are new tests or renaming of old tests.  i.e.:\n\n 0. Copy and paste the below code into `new_tests` dictionary {file} \n 1. Open the most recent and the preceeding data/FDA-EUA/parsed/202d-dd-dd.json file.\n 2. Then search for the test manufacturer.\n 3. If more occurences in newer file than older file, assume this means it is a new test rather than a renaming of an older test.\n 4. Uncomment corresponding line in the newly added dictionary in `new_tests`.\n 5. Otherwise if not a new test then add to `custom_test_id_map`".format(file=__file__))
 
     for file_name, test_ids in unfound_test_ids_by_file_name.items():
         date = file_name.replace(".json", "")
         print("\nNew test ids from file {}:\n\n    \"{}\": set([".format(file_name, date))
         for test_id in test_ids:
-            print("        \"{}\",".format(test_id))
-        print("    ])")
+            print("        # \"{}\",".format(test_id))
+        print("    ]),")
 
     if unfound_test_ids_by_file_name:
         print("\nExiting as one or more test_id not found.  These are for new tests that needs to be added to the sets of test_ids stored in new_tests but may also be a change of test name.")
@@ -248,7 +242,19 @@ new_tests = {
         "gravity diagnostics, llc__gravity diagnostics sars-cov-2 rt-pcr for use with dtc kits",
         "assurance scientific laboratories__assurance sars-cov-2 panel dtc",
         "everlywell, inc.__everlywell covid-19 test home collection kit dtc",
-    ])
+    ]),
+    "2021-03-08": set([
+        "color health, inc.__color covid-19 test self-swab collection kit",
+        "university of illinois office of the vice president for economic development and innovation__covidshield",
+        "viracor eurofins clinical diagnostics__viracor sars-cov-2 assay dtc",
+        "abbott laboratories inc.__advisedx sars-cov-2 igg ii",
+        "quidel corporation__quickvue at-home covid-19 test",
+        "luminex molecular diagnostics, inc.__nxtag respiratory pathogen panel + sars-cov-2",
+        "abbott molecular inc.__alinity m resp-4-plex",
+        "clinical research sequencing platform (crsp), llc at the broad institute of mit and harvard__crsp sars-cov-2 real-time reverse transcriptase (rt)-pcr diagnostic assay (version 3)",
+        "adaptive biotechnologies corporation__t-detect covid test",
+        "cue health inc.__cue covid-19 test for home and over the counter (otc) use",
+    ]),
 }
 def is_new_test (snapshot_date, test_id):
     if snapshot_date == "2020-10-08":
@@ -268,11 +274,18 @@ custom_test_id_map_2021_01_22 = {
 
     "helix opco llc__helix covid-19 test": "helix opco llc (dba helix)__helix covid-19 test",
 }
+custom_test_id_map_2021_03_08 = {
+    **custom_test_id_map_2021_01_22,
+    "letsgetchecked, inc.__letsgetchecked coronavirus (covid-19) test": "privapath diagnostics, inc.__letsgetchecked coronavirus (covid-19) test",
+
+    "clinical enterprise, inc.__empowerdx covid-19 home collection kit dtc": "clinical enterprise, inc.__empowerdx at-home covid-19 pcr test kit",
+}
 custom_test_id_map = {
     "2021-01-22": custom_test_id_map_2021_01_22,
     "2021-02-02": custom_test_id_map_2021_01_22,
     "2021-02-08": custom_test_id_map_2021_01_22,
     "2021-02-22": custom_test_id_map_2021_01_22,
+    "2021-03-08": custom_test_id_map_2021_03_08,
 }
 def map_new_to_old_test_id (snapshot_date, test_id):
     return custom_test_id_map.get(snapshot_date, {}).get(test_id, test_id)
