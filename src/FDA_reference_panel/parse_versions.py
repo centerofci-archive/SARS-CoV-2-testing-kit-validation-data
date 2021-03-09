@@ -1,8 +1,5 @@
-from enum import Enum, auto
-from html.parser import HTMLParser
 import json
 import os
-import re
 import sys
 
 dir_path = os.path.dirname(os.path.realpath(__file__))

@@ -386,5 +386,11 @@ def write_merged_data():
 
 
 
+def get_fda_merged_parsed_data():
+    with open(DATA_FILE_PATH_EUAs_MERGED_PARSED_DATA, "r", encoding="utf8") as f:
+        return json.load(f)
+
+
+
 if __name__ == "__main__":
     write_merged_data()

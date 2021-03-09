@@ -5,7 +5,7 @@ from common import (
     Labels,
 )
 
-from annotations import (
+from common.annotations import (
     minimal_annotation,
     minimal_annotations,
     warn_of_multiple_annotation,
