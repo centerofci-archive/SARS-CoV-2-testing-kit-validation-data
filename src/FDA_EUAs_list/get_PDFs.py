@@ -167,22 +167,26 @@ def make_urls_unique (urls):
 def get_PDFs (shallow_check, restart_from_url = ""):
     fda_eua_parsed_data = get_latest_fda_eua_parsed_data()
     urls = filter_for_urls(fda_eua_parsed_data)
+    check_urls_are_unique(urls)
     urls_unique = make_urls_unique(urls)
     print("Extracted {} urls, {} unique".format(len(urls), len(urls_unique)))
 
     urls_to_download = urls_unique
     if restart_from_url:
-        start_from_index = 0
+        start_from_index = None
         for index, url in enumerate(urls_to_download):
             if url == restart_from_url:
                 start_from_index = index
                 break
+        if start_from_index is None:
+            raise Exception("Could not find url to restart from: " + restart_from_url)
         urls_to_download = urls_to_download[start_from_index:]
     print("Will download {} urls".format(len(urls_to_download)))
 
-    check_urls_are_unique(urls)
     FDA_file_id_to_versioned_file_paths_map = get_FDA_file_id_to_versioned_file_paths_map()
-    download_urls(urls, FDA_file_id_to_versioned_file_paths_map, shallow_check=shallow_check)
+    download_urls(urls_to_download, FDA_file_id_to_versioned_file_paths_map, shallow_check=shallow_check)
+
+    print("\nFinished downloading {} urls".format(len(urls_to_download)))
 
 
 
