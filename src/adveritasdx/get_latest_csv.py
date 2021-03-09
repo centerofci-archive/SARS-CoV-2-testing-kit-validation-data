@@ -21,6 +21,15 @@ def CSV_file_path (file_name):
 
 
 def get_latest_csv ():
+    datetime_str = datetime.now(timezone.utc).strftime("%Y-%m-%d") #--%H-%M")
+    file_path_datetime = CSV_file_path(datetime_str)
+    file_path_latest = CSV_file_path("latest")
+
+    if os.path.isfile(file_path_datetime):
+        print("Skipping requesting AdVeritasDx CSV page as have a version from today.  Delete if you would like to refresh it")
+        return
+
+
     print("Requesting latest AdVeritasDx CSV page")
 
     google_doc_id = get_google_doc_id()
@@ -28,10 +37,6 @@ def get_latest_csv ():
     response = requests.get(url)
 
     response.raise_for_status()
-
-    datetime_str = datetime.now(timezone.utc).strftime("%Y-%m-%d--%H-%M")
-    file_path_datetime = CSV_file_path(datetime_str)
-    file_path_latest = CSV_file_path("latest")
 
     response.encoding = "utf-8"
     csv_text = response.text

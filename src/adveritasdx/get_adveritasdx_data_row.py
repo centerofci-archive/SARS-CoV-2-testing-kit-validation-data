@@ -1,16 +1,13 @@
-from enum import Enum, auto
-
-import csv
 import json
 import os
 import re
-import sys
 
-from common import (
-    Labels,
+from common import Labels
+from common.paths import (
+    DATA_DIRECTORY_adveritasdx_parsed,
 )
 
-from annotations import (
+from common.annotations import (
     minimal_annotation,
     minimal_annotations,
     warn_of_multiple_annotation,
@@ -18,12 +15,10 @@ from annotations import (
     get_link_to_annotation,
 )
 
-dir_path = os.path.dirname(os.path.realpath(__file__))
-
-latest_data_file_path = os.path.join(dir_path, "../../data/adveritasdx/parsed/latest.json")
 
 
 def get_adveritasdx_data ():
+    latest_data_file_path = os.path.join(DATA_DIRECTORY_adveritasdx_parsed + "latest.json")
     with open(latest_data_file_path, "r", encoding="utf8") as f:
         adveritas_dx_data = json.load(f)
 
@@ -95,6 +90,7 @@ def mutate_data_node (row, key, label, annotations_by_label_id):
         data_node["annotations"] = minimal_annotations(annotations)
 
     row[key] = data_node
+
 
 
 def factory_mutate_data_node (row, annotations_by_label_id):

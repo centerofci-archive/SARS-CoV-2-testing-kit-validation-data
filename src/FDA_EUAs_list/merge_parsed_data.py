@@ -15,6 +15,7 @@ from common.paths import (
 )
 from common.data_compression import flat_list_to_json_data
 from common import filter_for_urls
+from common.printing import print_padded_hashes, print_warning, print_error
 
 
 
@@ -130,7 +131,8 @@ def get_all_json_fda_eua_parsed_data (file_names):
 
 def error_and_exit_on_unfound_test_ids (unfound_test_ids_by_file_name):
     if unfound_test_ids_by_file_name:
-        print("Could not find the following test_ids in any of the previous FDA EUA parsed data ({}).".format(DATA_DIRECTORY_EUAs_PARSED_DATA))
+        print_padded_hashes()
+        print_error("Could not find the following test_ids in any of the previous FDA EUA parsed data ({}).".format(DATA_DIRECTORY_EUAs_PARSED_DATA))
         print("Go through each of the following test_ids and make sure they are new tests or renaming of old tests.  i.e.:\n\n 0. Copy and paste the below code into `new_tests` dictionary {file} \n 1. Open the most recent and the preceeding data/FDA-EUA/parsed/202d-dd-dd.json file.\n 2. Then search for the test manufacturer.\n 3. If more occurences in newer file than older file, assume this means it is a new test rather than a renaming of an older test.\n 4. Uncomment corresponding line in the newly added dictionary in `new_tests`.\n 5. Otherwise if not a new test then add to `custom_test_id_map`".format(file=__file__))
 
     for file_name, test_ids in unfound_test_ids_by_file_name.items():
@@ -141,7 +143,7 @@ def error_and_exit_on_unfound_test_ids (unfound_test_ids_by_file_name):
         print("    ]),")
 
     if unfound_test_ids_by_file_name:
-        print("\nExiting as one or more test_id not found.  These are for new tests that needs to be added to the sets of test_ids stored in new_tests but may also be a change of test name.")
+        print_error("\nExiting as one or more test_id not found.  These are for new tests that needs to be added to the sets of test_ids stored in new_tests but may also be a change of test name.")
         sys.exit(1)
 
 
@@ -262,7 +264,6 @@ new_tests = {
         "everlywell, inc.__everlywell covid-19 test home collection kit dtc",
     ]),
     "2021-03-08": set([
-        "color health, inc.__color covid-19 test self-swab collection kit",
         "university of illinois office of the vice president for economic development and innovation__covidshield",
         "viracor eurofins clinical diagnostics__viracor sars-cov-2 assay dtc",
         "abbott laboratories inc.__advisedx sars-cov-2 igg ii",
@@ -297,6 +298,8 @@ custom_test_id_map_2021_03_08 = {
     "letsgetchecked, inc.__letsgetchecked coronavirus (covid-19) test": "privapath diagnostics, inc.__letsgetchecked coronavirus (covid-19) test",
 
     "clinical enterprise, inc.__empowerdx covid-19 home collection kit dtc": "clinical enterprise, inc.__empowerdx at-home covid-19 pcr test kit",
+
+    "color health, inc.__color covid-19 test self-swab collection kit": "color genomics, inc.__color covid-19 test self-swab collection kit",
 }
 custom_test_id_map = {
     "2021-01-22": custom_test_id_map_2021_01_22,
@@ -309,9 +312,11 @@ warned_snapshot_dates_missing = set()
 def map_new_to_old_test_id (snapshot_date, test_id):
     if snapshot_date not in custom_test_id_map:
         if snapshot_date not in warned_snapshot_dates_missing:
-            print("\n###################\n\nNew snapshot_date: {} not in custom_test_id_map".format(snapshot_date))
-            print("Open {} and add:\n    \"{}\": custom_test_id_map_2021_,\n\n###################\n".format(__file__, snapshot_date))
+            print_padded_hashes()
+            print_warning("\nNew snapshot_date: {} not in custom_test_id_map".format(snapshot_date))
+            print("Open {} and add:\n    \"{}\": custom_test_id_map_2021_,\n".format(__file__, snapshot_date))
             print("Will default to using last custom map")
+            print_padded_hashes()
             warned_snapshot_dates_missing.add(snapshot_date)
 
         snapshot_date = sorted(custom_test_id_map.keys())[-1]

@@ -12,6 +12,7 @@ from common.paths import (
     DATA_DIRECTORY_EUAs,
     DATA_DIRECTORY_EUA_PDFs,
     DATA_FILE_PATH_EUAs_LATEST_PARSED_DATA,
+    DATA_FILE_PATH_EUAs_MERGED_PARSED_DATA,
     DATA_FILE_PATH_merged_data,
     DATA_FILE_PATH_summarised_data,
     get_FDA_file_id_from_FDA_url,
