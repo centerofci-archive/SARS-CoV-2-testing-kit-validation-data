@@ -47,9 +47,14 @@ def get_file_names_of_fda_eua_parsed_data ():
 
     json_file_names = []
     for file_name in file_names:
-        # No need to include latest
-        if "latest.json" not in file_name and ".json" in file_name:
-            json_file_names.append(file_name)
+        if file_name == "latest.json":
+            # No need to include as identical data already present in other json file with date
+            return
+
+        if ".json" not in file_name:
+            return
+
+        json_file_names.append(file_name)
 
     json_file_names = sorted(json_file_names)
     return json_file_names
