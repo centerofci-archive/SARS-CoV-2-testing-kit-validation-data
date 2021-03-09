@@ -1,0 +1,56 @@
+{
+"file_sha1_hash": "6763d89ff597b782a7dd87b4828911c3ee4881a6",
+"annotation_user_names": [],
+"annotations": [
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "45px",
+"id": 0,
+"labels": [],
+"left": "104px",
+"page_number": 1,
+"text": "",
+"top": "263px",
+"width": "253px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "21px",
+"id": 1,
+"labels": [],
+"left": "749px",
+"page_number": 1,
+"text": "",
+"top": "550px",
+"width": "33px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "23px",
+"id": 2,
+"labels": [],
+"left": "319px",
+"page_number": 1,
+"text": "",
+"top": "570px",
+"width": "155px"
+},
+{
+"colour": "rgba(200, 200, 255, 0.6)",
+"comment": "",
+"height": "26px",
+"id": 3,
+"labels": [],
+"left": "454px",
+"page_number": 1,
+"text": "Sequencing",
+"top": "467px",
+"width": "88px"
+}
+],
+"comments": [],
+"schema_version": 6
+}
