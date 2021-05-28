@@ -1,5 +1,6 @@
 
 from parsers.diagnostics_parser_2020_09_01 import DiagnosticsParser2020_09_01
 from parsers.diagnostics_parser_2021_03_08 import DiagnosticsParser2021_03_08
+from parsers.diagnostics_parser_2021_03_29 import DiagnosticsParser2021_03_29
 from parsers.high_complexity_diagnostics_parser import HighComplexityDiagnosticsParser
 from parsers.iv_diagnostics_parser import IVDiagnosticsParser

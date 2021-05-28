@@ -3,7 +3,7 @@ import os
 import re
 import sys
 
-from parsers import DiagnosticsParser2020_09_01, DiagnosticsParser2021_03_08, IVDiagnosticsParser, HighComplexityDiagnosticsParser
+from parsers import DiagnosticsParser2020_09_01, DiagnosticsParser2021_03_08, DiagnosticsParser2021_03_29, IVDiagnosticsParser, HighComplexityDiagnosticsParser
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 sys.path.insert(0, dir_path + "/..")
@@ -16,7 +16,8 @@ def get_files_to_parse ():
     files = []
 
     root_path = DATA_DIRECTORY_EUAs + "html_pages"
-    for file_name in os.listdir(root_path):
+    files_names = sorted(os.listdir(root_path))
+    for file_name in files_names:
         if file_name.startswith("."):
             continue
 
@@ -171,9 +172,13 @@ def parse_html ():
         html = preprocess_html(file_contents)
 
         if file_name < "2021-03-08":
+            continue
             results = parse_html_string(html, DiagnosticsParser2020_09_01())
-        else:
+        elif file_name < "2021-03-29":
+            continue
             results = parse_html_string(html, DiagnosticsParser2021_03_08())
+        else:
+            results = parse_html_string(html, DiagnosticsParser2021_03_29())
 
         check_test_ids_are_unique(results["rows"])
 

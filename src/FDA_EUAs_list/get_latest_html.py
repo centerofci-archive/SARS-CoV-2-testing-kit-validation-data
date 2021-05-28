@@ -21,7 +21,7 @@ def HTML_file_path (file_name):
 
 def get_latest_html ():
     print("Requesting latest FDA EUAs page")
-    response = requests.get("https://www.fda.gov/emergency-preparedness-and-response/mcm-legal-regulatory-and-policy-framework/emergency-use-authorization")
+    response = requests.get("https://www.fda.gov/medical-devices/coronavirus-disease-2019-covid-19-emergency-use-authorizations-medical-devices/in-vitro-diagnostics-euas-molecular-diagnostic-tests-sars-cov-2#imft3")
 
     response.raise_for_status()
 
