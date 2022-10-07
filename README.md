@@ -10,6 +10,37 @@ Latest data table [live](https://cci-files.s3.eu-west-2.amazonaws.com/sars_2_dia
 
 ## Running locally
 
+### Annotations
+
+To view the EUA related files, their annotations, and make new annotations you
+need to do the following (Anot8 instructions correct as of this writing in Oct
+2022):
+
+1. Clone this repository to your local computer
+2. Clone the [Anot8 repository](https://github.com/Centerofci/anot8) to your local computer
+3. Follow the installation instructions for Anot8:
+    * `anot8$ python3 -m venv venv`
+    * `anot8$ . venv/bin/activate`
+    * `anot8$ pip install -r requirements.txt`
+4. Configure Anot8 to use the anot8_vault_config in this repo:
+    * `anot8$ config/local_vault_template.json config/FDA_EUA_diagnostics.json`
+    (you can use a different name that `FDA_EUA_diagnostics` if you want)
+    * Edit the "root_path" in the new FDA_EUA_diagnostics.json vault to point to
+    the data directory in this repository.  For example it might look like:
+    ```
+    {
+        "root_path": "/Users/your_username/SARS-CoV-2-testing-kit-validation-data/data"
+    }
+    ```
+    Make sure you edit this file with a plain text and not a rich text editor.
+5. Start the Anot8 server:
+    * `anot8$ export FLASK_APP=src/server/annotator.py && flask run --port=5003`
+    * Visit http://localhost:5003 in your browser
+    * Click on the "FDA_EUA_diagnostics" vault
+    * Choose a file to open and annotate or view its existing annotations
+
+
+
 ### Installation
 
     python3 -m venv venv
