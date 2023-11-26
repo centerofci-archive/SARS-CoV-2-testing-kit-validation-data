@@ -23,10 +23,10 @@ need to do the following (Anot8 instructions correct as of this writing in Oct
     * `anot8$ . venv/bin/activate`
     * `anot8$ pip install -r requirements.txt`
 4. Configure Anot8 to use the anot8_vault_config in this repo:
-    * `anot8$ config/local_vault_template.json config/FDA_EUA_diagnostics.json`
+    * `anot8$ cp config/local_vault_template.json config/FDA_EUA_diagnostics.json`
     (you can use a different name that `FDA_EUA_diagnostics` if you want)
     * Edit the "root_path" in the new FDA_EUA_diagnostics.json vault to point to
-    the data directory in this repository.  For example it might look like:
+    the `data` directory in this repository.  For example it might look like:
     ```
     {
         "root_path": "/Users/your_username/SARS-CoV-2-testing-kit-validation-data/data"
